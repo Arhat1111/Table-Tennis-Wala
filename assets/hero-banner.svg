@@ -1,0 +1,25 @@
+<svg width="1800" height="1000" viewBox="0 0 1800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1800" height="1000" fill="#10120F"/>
+<radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1360 250) rotate(120) scale(620)"><stop stop-color="#D7FF3F" stop-opacity=".55"/><stop offset="1" stop-color="#D7FF3F" stop-opacity="0"/></radialGradient>
+<radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(460 760) rotate(30) scale(520)"><stop stop-color="#ffffff" stop-opacity=".18"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+<rect width="1800" height="1000" fill="url(#a)"/><rect width="1800" height="1000" fill="url(#b)"/>
+<path d="M-80 760C292 574 594 525 953 584C1252 633 1466 528 1894 258" stroke="#D7FF3F" stroke-opacity=".22" stroke-width="4"/>
+<path d="M-80 838C335 694 616 687 954 740C1230 784 1494 690 1897 472" stroke="#F4F3EE" stroke-opacity=".14" stroke-width="3"/>
+<g transform="translate(1030 280) rotate(-14)">
+<rect x="0" y="0" width="610" height="310" rx="36" fill="#203733" stroke="#D7FF3F" stroke-opacity=".55" stroke-width="5"/>
+<line x1="305" y1="0" x2="305" y2="310" stroke="#fff" stroke-opacity=".65" stroke-width="4"/>
+<line x1="0" y1="155" x2="610" y2="155" stroke="#fff" stroke-opacity=".14" stroke-width="3"/>
+<rect x="277" y="-25" width="56" height="360" rx="8" fill="#F4F3EE" fill-opacity=".86"/>
+</g>
+<g transform="translate(340 145) rotate(17)">
+<ellipse cx="205" cy="190" rx="180" ry="198" fill="#D7FF3F"/>
+<ellipse cx="205" cy="190" rx="180" ry="198" stroke="#0D0F0D" stroke-width="30"/>
+<rect x="164" y="362" width="86" height="286" rx="30" fill="#C88E58" stroke="#0D0F0D" stroke-width="20"/>
+<path d="M205 374L184 624" stroke="#8B5536" stroke-width="9" stroke-linecap="round"/>
+<circle cx="205" cy="190" r="104" stroke="#0D0F0D" stroke-opacity=".12" stroke-width="4"/>
+</g>
+<circle cx="1270" cy="690" r="60" fill="#fff"/><circle cx="1270" cy="690" r="60" fill="#bbb" fill-opacity=".25"/>
+<circle cx="790" cy="170" r="12" fill="#D7FF3F"/>
+<text x="132" y="890" font-family="Arial, sans-serif" font-size="180" font-weight="800" fill="#ffffff" fill-opacity=".035">SPIN</text>
+<text x="1118" y="190" font-family="Arial, sans-serif" font-size="120" font-weight="800" fill="#ffffff" fill-opacity=".05">40+</text>
+</svg>

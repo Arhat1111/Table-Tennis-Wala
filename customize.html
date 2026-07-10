@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Customize Racket — Table Tennis Wala</title><link rel="stylesheet" href="styles.css" /></head>
+<body data-page="customize">
+  <div class="announcement"><p>NO RETURN AND EXCHANGE POLICY</p><button class="announcement-close" aria-label="Close announcement">×</button></div>
+  <header class="site-header" id="top">
+  <a class="brand" href="index.html" aria-label="Table Tennis Wala home">
+    <span class="brand-mark"><i></i><i></i></span>
+    <span>TABLE TENNIS WALA</span>
+  </a>
+
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About</a>
+    <div class="nav-dropdown">
+      <a class="nav-dropdown-trigger" href="products.html">Products <span>⌄</span></a>
+      <div class="nav-dropdown-menu" aria-label="Product brand pages">
+        <a href="products.html">All Products</a>
+        <a href="joola.html">JOOLA</a>
+        <a href="tibhar.html">Tibhar</a>
+        <a href="butterfly.html">Butterfly</a>
+        <a href="stiga.html">Stiga</a>
+      </div>
+    </div>
+    <a href="customize.html">Customize</a>
+    <a href="cart.html">Cart</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
+  <div class="header-actions">
+    <button class="cart-trigger icon-button" aria-label="Open cart">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H7"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
+      <span class="cart-count">0</span>
+    </button>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" aria-hidden="true">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About</a>
+    <details class="mobile-product-dropdown">
+      <summary>Products <span>⌄</span></summary>
+      <div class="mobile-product-links">
+        <a href="products.html">All Products</a>
+        <a href="joola.html">JOOLA</a>
+        <a href="tibhar.html">Tibhar</a>
+        <a href="butterfly.html">Butterfly</a>
+        <a href="stiga.html">Stiga</a>
+      </div>
+    </details>
+    <a href="customize.html">Customize Racket</a>
+    <a href="cart.html">Cart</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+  <p>Play faster. Play smarter.</p>
+</div>
+<main>
+    <section class="builder-hero"><div><span class="eyebrow light">Custom racket builder</span><h1>Build a racket that matches your game.</h1><p>Choose blade ply, forehand rubber, backhand rubber and assembly type. Select red or black rubber colour directly inside each rubber section.</p></div><div class="builder-visual"><div class="builder-racket"><div class="face forehand-face"></div><div class="face backhand-face"></div><div class="builder-handle"></div></div><div class="builder-total-card"><span>Total build</span><strong id="builderTotal">₹0</strong></div></div></section>
+    <section class="builder-layout section">
+      <form class="builder-form" id="racketBuilderForm">
+        <div class="builder-group"><div class="builder-group-head"><span>01</span><h2>Blade ply</h2></div><div class="option-grid" data-option-group="blade"></div></div>
+        <div class="builder-group">
+          <div class="builder-group-head"><span>02</span><h2>Forehand rubber</h2></div>
+          <div class="rubber-inline-filter" aria-label="Forehand rubber colour filter">
+            <span>Rubber colour</span>
+            <label><input type="radio" name="forehandRubberColour" value="red" checked><b class="red-dot"></b>Red</label>
+            <label><input type="radio" name="forehandRubberColour" value="black"><b class="black-dot"></b>Black</label>
+          </div>
+          <div class="option-grid" data-option-group="forehand"></div>
+        </div>
+        <div class="builder-group">
+          <div class="builder-group-head"><span>03</span><h2>Backhand rubber</h2></div>
+          <div class="rubber-inline-filter" aria-label="Backhand rubber colour filter">
+            <span>Rubber colour</span>
+            <label><input type="radio" name="backhandRubberColour" value="red"><b class="red-dot"></b>Red</label>
+            <label><input type="radio" name="backhandRubberColour" value="black" checked><b class="black-dot"></b>Black</label>
+          </div>
+          <div class="option-grid" data-option-group="backhand"></div>
+        </div>
+        <div class="builder-group"><div class="builder-group-head"><span>04</span><h2>Assembly</h2></div><div class="option-grid two" data-option-group="service"></div></div>
+        <div class="builder-group addon-builder-group"><div class="builder-group-head"><span>05</span><h2>Add-on products</h2></div><p class="builder-helper">Add small essentials with your custom racket. These are optional and get added to the same cart item.</p><div class="addon-product-grid" id="builderAddons"></div></div>
+      </form>
+      <aside class="build-summary"><span class="eyebrow">Configuration</span><h2>Final build</h2><div id="buildSummaryLines"></div><div class="summary-total"><span>Total price</span><strong id="summaryTotal">₹0</strong></div><button class="button primary" id="addCustomBuild">Add custom racket to cart</button><p>Final availability depends on stock. You can also include selected add-on products with the custom racket build.</p></aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="footer-brand">
+    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i></span><span>TABLE TENNIS WALA</span></a>
+    <p>Premium table tennis equipment, branded products and custom racket builds.</p>
+  </div>
+  <div class="footer-links">
+    <h4>Brands</h4>
+    <a href="joola.html">JOOLA</a>
+    <a href="tibhar.html">Tibhar</a>
+    <a href="butterfly.html">Butterfly</a>
+    <a href="stiga.html">Stiga</a>
+  </div>
+  <div class="footer-links">
+    <h4>Store</h4>
+    <a href="index.html#about">About us</a>
+    <a href="products.html">All products</a>
+    <a href="customize.html">Customize racket</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+  <div class="footer-contact">
+    <h4>Contact</h4>
+    <a href="mailto:hello@tabletenniswala.in">hello@tabletenniswala.in</a>
+    <a href="tel:+919999999999">+91 99999 99999</a>
+    <p>Mon–Sat, 10:00–19:00</p>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Table Tennis Wala. All rights reserved.</p>
+    <p>No return and exchange policy. Brand names belong to their respective owners.</p>
+  </div>
+</footer>
+  <aside class="cart-drawer" aria-hidden="true">
+  <div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart">×</button></div>
+  <div class="cart-items"></div>
+  <div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div>
+  <div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div>
+</aside>
+<div class="page-backdrop"></div>
+<div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body></html>

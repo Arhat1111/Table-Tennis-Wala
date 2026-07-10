@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Admin Product Upload Panel — Table Tennis Wala</title><link rel="stylesheet" href="styles.css" /></head>
+<body data-page="admin">
+  <div class="announcement"><p>NO RETURN AND EXCHANGE POLICY</p><button class="announcement-close" aria-label="Close announcement">×</button></div>
+  <header class="site-header" id="top">
+  <a class="brand" href="index.html" aria-label="Table Tennis Wala home">
+    <span class="brand-mark"><i></i><i></i></span>
+    <span>TABLE TENNIS WALA</span>
+  </a>
+
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About</a>
+    <div class="nav-dropdown">
+      <a class="nav-dropdown-trigger" href="products.html">Products <span>⌄</span></a>
+      <div class="nav-dropdown-menu" aria-label="Product brand pages">
+        <a href="products.html">All Products</a>
+        <a href="joola.html">JOOLA</a>
+        <a href="tibhar.html">Tibhar</a>
+        <a href="butterfly.html">Butterfly</a>
+        <a href="stiga.html">Stiga</a>
+      </div>
+    </div>
+    <a href="customize.html">Customize</a>
+    <a href="cart.html">Cart</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
+  <div class="header-actions">
+    <button class="cart-trigger icon-button" aria-label="Open cart">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H7"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
+      <span class="cart-count">0</span>
+    </button>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" aria-hidden="true">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#about">About</a>
+    <details class="mobile-product-dropdown">
+      <summary>Products <span>⌄</span></summary>
+      <div class="mobile-product-links">
+        <a href="products.html">All Products</a>
+        <a href="joola.html">JOOLA</a>
+        <a href="tibhar.html">Tibhar</a>
+        <a href="butterfly.html">Butterfly</a>
+        <a href="stiga.html">Stiga</a>
+      </div>
+    </details>
+    <a href="customize.html">Customize Racket</a>
+    <a href="cart.html">Cart</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+  <p>Play faster. Play smarter.</p>
+</div>
+<main>
+    <section class="admin-hero"><span class="eyebrow light">Private client area</span><h1>Admin login.</h1><p>Login to add new products, upload product images, edit pricing and connect products to the homepage and brand pages.</p></section>
+
+    <section class="admin-login-section section" id="adminLoginPanel">
+      <form class="admin-login-card" id="adminLoginForm">
+        <span class="eyebrow">Protected panel</span>
+        <h2>Login to upload products</h2>
+        <p>Static demo credentials: <strong>admin</strong> / <strong>ttwala123</strong></p>
+        <label>Username<input id="adminUsername" autocomplete="username" required placeholder="admin" /></label>
+        <label>Password<input id="adminPassword" type="password" autocomplete="current-password" required placeholder="ttwala123" /></label>
+        <button class="button primary" type="submit">Login</button>
+        <p class="login-message" id="loginMessage" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="admin-secure-area hidden" id="adminSecureArea">
+      <div class="admin-session-bar"><span>Logged in as client admin</span><button class="button small" id="adminLogout" type="button">Logout</button></div>
+      <section class="admin-layout section">
+        <form class="admin-form" id="productAdminForm">
+          <input type="hidden" id="editingProductId" />
+          <div class="admin-form-head"><div><span class="eyebrow">Product upload panel</span><h2 id="adminFormTitle">Add new product</h2></div><button type="button" class="text-button" id="resetAdminForm">Clear form</button></div>
+          <div class="form-grid">
+            <label>Product name<input id="adminName" required placeholder="e.g. JOOLA Carbon Pro Racket" /></label>
+            <label>Brand<select id="adminBrand" required><option value="joola">JOOLA</option><option value="tibhar">Tibhar</option><option value="butterfly">Butterfly</option><option value="stiga">Stiga</option><option value="other">Other</option></select></label>
+            <label>Category<select id="adminCategory" required><option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option></select></label>
+            <label>Price ₹<input id="adminPrice" type="number" min="1" required placeholder="4999" /></label>
+            <label>Badge<input id="adminBadge" placeholder="New / Bestseller / Sale" /></label>
+            <label>Rating<input id="adminRating" type="number" min="1" max="5" step="0.1" value="4.7" /></label>
+            <label class="wide">Upload product image<input id="adminImageFile" type="file" accept="image/*" /></label>
+            <label class="wide">Or paste image URL<input id="adminImageUrl" placeholder="https://example.com/product.jpg" /></label>
+            <label class="wide">Description<textarea id="adminDescription" rows="4" placeholder="Short product description"></textarea></label>
+            <label class="wide">Features<textarea id="adminFeatures" rows="3" placeholder="Comma separated: Carbon blade, Speed rubber, Pro grip"></textarea></label>
+          </div>
+          <div class="image-preview" id="adminImagePreview"><span>No image selected</span></div>
+          <button class="button primary" type="submit">Save product to website</button>
+          <p class="admin-note">Static demo note: this uses browser localStorage. For a live client store, connect this panel to Firebase, Supabase, Shopify, WooCommerce or your own backend.</p>
+        </form>
+        <aside class="admin-products"><div class="admin-products-head"><span class="eyebrow">Client-added products</span><button class="button small" id="exportProducts">Export JSON</button></div><div id="adminProductList"></div><label class="import-box">Import product JSON<textarea id="importProductsInput" rows="4" placeholder='Paste exported JSON here'></textarea><button class="button small" id="importProducts" type="button">Import products</button></label></aside>
+      </section>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="footer-brand">
+    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i></span><span>TABLE TENNIS WALA</span></a>
+    <p>Premium table tennis equipment, branded products and custom racket builds.</p>
+  </div>
+  <div class="footer-links">
+    <h4>Brands</h4>
+    <a href="joola.html">JOOLA</a>
+    <a href="tibhar.html">Tibhar</a>
+    <a href="butterfly.html">Butterfly</a>
+    <a href="stiga.html">Stiga</a>
+  </div>
+  <div class="footer-links">
+    <h4>Store</h4>
+    <a href="index.html#about">About us</a>
+    <a href="products.html">All products</a>
+    <a href="customize.html">Customize racket</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+  <div class="footer-contact">
+    <h4>Contact</h4>
+    <a href="mailto:hello@tabletenniswala.in">hello@tabletenniswala.in</a>
+    <a href="tel:+919999999999">+91 99999 99999</a>
+    <p>Mon–Sat, 10:00–19:00</p>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Table Tennis Wala. All rights reserved.</p>
+    <p>No return and exchange policy. Brand names belong to their respective owners.</p>
+  </div>
+</footer>
+  <aside class="cart-drawer" aria-hidden="true"><div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart">×</button></div><div class="cart-items"></div><div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div><div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div></aside>
+<div class="page-backdrop"></div><div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body></html>

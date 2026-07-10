@@ -1,0 +1,7 @@
+<svg width="520" height="180" viewBox="0 0 520 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Butterfly logo">
+  <rect x="6" y="6" width="508" height="168" rx="84" fill="#FFFFFF" stroke="rgba(17,19,17,0.14)" stroke-width="2"/>
+  <path d="M135 72C104 42 62 53 56 90C62 127 104 138 135 108C119 99 119 81 135 72Z" fill="#111311"/>
+  <path d="M151 72C182 42 224 53 230 90C224 127 182 138 151 108C167 99 167 81 151 72Z" fill="#111311"/>
+  <circle cx="143" cy="90" r="8" fill="#D8312B"/>
+  <text x="350" y="104" text-anchor="middle" fill="#111311" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" letter-spacing="0">Butterfly</text>
+</svg>
