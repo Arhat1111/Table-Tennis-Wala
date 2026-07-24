@@ -163,3 +163,7 @@ Replace the Razorpay key and WhatsApp number before publishing.
 - Fixed broken buttons after Save Filter patch by replacing the global event-blocking code with a safe local filter system.
 
 JS syntax check: OK
+
+- JOOLA product images updated to official JOOLA.com CDN product images where available, with local fallback artwork for offline/local preview.
+
+- JOOLA official CDN images fixed: 53 JOOLA products now point to official JOOLA.com image URLs, with 53 local fallbacks.

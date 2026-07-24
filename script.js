@@ -9,14 +9,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-inferno.svg",
+    "image": "https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png?v=1712315197&width=450",
     "description": "Explosive premium rubber built for maximum acceleration, tension and high-level offensive play.",
     "features": [
       "SKU 70465",
       "Available: Red / Black / Purple",
       "MAX thickness",
       "Kinetic tension surface"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-inferno.svg"
   },
   {
     "id": "joola-cat-dynaryz-zgx",
@@ -28,14 +29,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-zgx.svg",
+    "image": "https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png?v=1712315219&width=450",
     "description": "High-grip offensive rubber with explosive sponge response and strong sweet-zone feeling.",
     "features": [
       "SKU 70488",
       "Available: Red / Black",
       "MAX thickness",
       "Hyper traction"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgx.svg"
   },
   {
     "id": "joola-cat-dynaryz-zgr",
@@ -47,14 +49,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-zgr.svg",
+    "image": "https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png?v=1712311173&width=450",
     "description": "Tacky and grippy premium rubber for extreme rotation, power and flatter attacking trajectories.",
     "features": [
       "SKU 70522",
       "Available: Red / Black",
       "MAX thickness",
       "Hard 56° sponge"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgr.svg"
   },
   {
     "id": "joola-cat-dynaryz-acc",
@@ -66,14 +69,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#3e5cff",
-    "image": "assets/catalog/joola-cat-dynaryz-acc.svg",
+    "image": "https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png?v=1712310661&width=450",
     "description": "Balanced premium rubber made for speed, spin, control and safe topspin arcs.",
     "features": [
       "SKU 70502",
       "Available: Red / Black / Purple",
       "MAX thickness",
       "Hyper Bounce sponge"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-acc.svg"
   },
   {
     "id": "joola-cat-dynaryz-agr",
@@ -85,14 +89,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-agr.svg",
+    "image": "https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png?v=1712310646&width=450",
     "description": "Professional-level premium rubber for players wanting hard sponge power and reliable grip.",
     "features": [
       "SKU 70512",
       "Available: Red / Black / Purple",
       "MAX thickness",
       "Advanced traction"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-agr.svg"
   },
   {
     "id": "joola-cat-dynaryz-cmd",
@@ -104,14 +109,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-cmd.svg",
+    "image": "https://joola.com/cdn/shop/files/dynaryzCMDrubber_01.png?v=1712311166&width=450",
     "description": "Controlled premium rubber option for players who want Dynaryz quality with added command.",
     "features": [
       "SKU 70532",
       "Available: Red / Black",
       "MAX thickness",
       "Control-focused feel"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-cmd.svg"
   },
   {
     "id": "joola-cat-tronix-acc",
@@ -123,14 +129,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Professional",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-tronix-acc.svg",
+    "image": "https://joola.com/cdn/shop/files/Tronix-ACC-70592-70597-Web-02.png?v=1712314356&width=450",
     "description": "Professional rubber with GIGA CELL sponge for lively acceleration and balanced topspin power.",
     "features": [
       "SKU 70593",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Giga Cell sponge"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-tronix-acc.svg"
   },
   {
     "id": "joola-cat-tronix-cmd",
@@ -142,14 +149,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Professional",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-tronix-cmd.svg",
+    "image": "https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png?v=1712314354&width=450",
     "description": "Professional control rubber for close-table counters, spin control and consistent ball feedback.",
     "features": [
       "SKU 70587",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Soft command feel"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-tronix-cmd.svg"
   },
   {
     "id": "joola-cat-tronix-zgr",
@@ -161,14 +169,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Professional",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-tronix-zgr.svg",
+    "image": "https://joola.com/cdn/shop/files/Tronix-ZGR-70598-70601-Web-02.png?v=1712314352&width=450",
     "description": "Grippy professional rubber for heavy rotation and direct power transfer in offensive play.",
     "features": [
       "SKU 70599",
       "Available: Red / Black",
       "MAX thickness",
       "Hyper traction surface"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-tronix-zgr.svg"
   },
   {
     "id": "joola-cat-rhyzen-ice",
@@ -180,14 +189,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-rhyzen-ice.svg",
+    "image": "https://joola.com/cdn/shop/files/rhyzenIcerubber-hero.png?v=1712312358&width=450",
     "description": "Cool and controlled performance rubber made for feel, placement and confident rally play.",
     "features": [
       "SKU 70650",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Control profile"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-rhyzen-ice.svg"
   },
   {
     "id": "joola-cat-rhyzen-fire",
@@ -199,14 +209,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-rhyzen-fire.svg",
+    "image": "https://joola.com/cdn/shop/files/rhyzenFirerubber-hero.png?v=1712312356&width=450",
     "description": "Offensive performance rubber with dynamic response, spin and powerful loop potential.",
     "features": [
       "SKU 70571",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Momentum sponge"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-rhyzen-fire.svg"
   },
   {
     "id": "joola-cat-rhyzen-cmd",
@@ -218,14 +229,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-rhyzen-cmd.svg",
+    "image": "https://joola.com/cdn/shop/files/rhyzenCMDrubber_01.png?v=1712311158&width=450",
     "description": "Command-focused performance rubber for precise takeoff, balanced pace and spin safety.",
     "features": [
       "SKU 70552",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Sweetzone control"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-rhyzen-cmd.svg"
   },
   {
     "id": "joola-cat-zack",
@@ -237,14 +249,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-zack.svg",
+    "image": "https://joola.com/cdn/shop/files/Micron-Rubber-70269-70272-Web-02.png?v=1716233049&width=450",
     "description": "All-round progressive rubber with high control, durability and easy placement.",
     "features": [
       "SKU 70071",
       "Available: Red / Black",
       "MAX thickness",
       "Beginner friendly"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-zack.svg"
   },
   {
     "id": "joola-cat-micron",
@@ -256,14 +269,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-micron.svg",
+    "image": "https://joola.com/cdn/shop/files/Micron-Rubber-70269-70272-Web-02.png?v=1716233049&width=450",
     "description": "High-control rubber with a forgiving bounce and grippy surface for developing players.",
     "features": [
       "SKU 70270",
       "Available: Red / Black",
       "MAX thickness",
       "Precision feel"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-micron.svg"
   },
   {
     "id": "joola-cat-vizon",
@@ -275,14 +289,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-vizon.svg",
+    "image": "https://joola.com/cdn/shop/files/54209-JOOLA_Infinity_GL_Ping_Pong_Paddle-black_rubber_back34.jpg?v=1753458357&width=450",
     "description": "Classic-style rubber focused on control, dampened sponge response and simple playability.",
     "features": [
       "SKU 70026",
       "Available: Red / Black",
       "MAX thickness",
       "High control"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-vizon.svg"
   },
   {
     "id": "joola-cat-cwx",
@@ -294,14 +309,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Precision",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-cwx.svg",
+    "image": "https://joola.com/cdn/shop/files/cwxrubber_01.png?v=1712311169&width=450",
     "description": "Long-pips rubber made for defensive variation, disruption and spin reversal.",
     "features": [
       "SKU 71237",
       "Available: Red / Black",
       "OX / Long pips",
       "Defensive control"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-cwx.svg"
   },
   {
     "id": "joola-cat-prime-40-pack-6",
@@ -313,14 +329,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Competition",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-prime-40-pack-6.svg",
+    "image": "https://joola.com/cdn/shop/files/49201_01.png?v=1712311361&width=450",
     "description": "ITTF-approved competition balls with consistent bounce, ABS material and reliable flight.",
     "features": [
       "SKU 40031",
       "Pack options: 6 / 72",
       "3-star ball",
       "Competition grade"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-6.svg"
   },
   {
     "id": "joola-cat-prime-40-pack-72",
@@ -332,14 +349,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Competition",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-prime-40-pack-72.svg",
+    "image": "https://joola.com/cdn/shop/files/49201_01.png?v=1712311361&width=450",
     "description": "Bulk pack of competition-grade JOOLA Prime 40+ balls for clubs and tournaments.",
     "features": [
       "SKU 40030",
       "Pack of 72",
       "3-star ball",
       "ITTF approved"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-72.svg"
   },
   {
     "id": "joola-cat-training-40-pack-120",
@@ -351,14 +369,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-training-40-pack-120.svg",
+    "image": "https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp?v=1758099507&width=450",
     "description": "High-volume training ball pack for drills, coaching sessions and club practice.",
     "features": [
       "SKU 44230",
       "Pack of 120",
       "ABS material",
       "Training grade"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-training-40-pack-120.svg"
   },
   {
     "id": "joola-cat-tournament-ct24",
@@ -370,14 +389,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-tournament-ct24.svg",
+    "image": "https://joola.com/cdn/shop/files/49201_01.png?v=1712311361&width=450",
     "description": "Tournament-style white balls suitable for practice, training and match preparation.",
     "features": [
       "SKU 44233",
       "CT24 pack",
       "White balls",
       "Practice use"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-tournament-ct24.svg"
   },
   {
     "id": "joola-cat-advanced-training",
@@ -389,14 +409,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-advanced-training.svg",
+    "image": "https://joola.com/cdn/shop/files/magicabs-44216-01.png?v=1712310173&width=450",
     "description": "Advanced training ball set for high-repetition drills and coaching use.",
     "features": [
       "SKU 44256",
       "36 balls",
       "White",
       "Training"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-advanced-training.svg"
   },
   {
     "id": "joola-cat-bcover-hard-blue",
@@ -408,14 +429,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#263d46",
-    "image": "assets/catalog/joola-cat-bcover-hard-blue.svg",
+    "image": "https://joola.com/cdn/shop/files/TTRacketCaseNavy.jpg?v=1771594353&width=450",
     "description": "Hard-shell racket case for safe everyday storage and travel.",
     "features": [
       "SKU 80570",
       "Blue/Navy",
       "Hard shell",
       "Single racket"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-blue.svg"
   },
   {
     "id": "joola-cat-bcover-hard-black",
@@ -427,14 +449,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-bcover-hard-black.svg",
+    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
     "description": "Minimal hard case for protecting one racket and small accessories.",
     "features": [
       "SKU 80571",
       "Black",
       "Hard shell",
       "Zip closure"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-black.svg"
   },
   {
     "id": "joola-cat-alu-double-case",
@@ -446,14 +469,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-alu-double-case.svg",
+    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
     "description": "Aluminium-style double racket case with shaped foam for two rackets and balls.",
     "features": [
       "SKU 80555",
       "Double racket case",
       "Aluminium design",
       "Foam inlay"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-alu-double-case.svg"
   },
   {
     "id": "joola-cat-alu-laser-case",
@@ -465,14 +489,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-alu-laser-case.svg",
+    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
     "description": "Premium protective bat case with a clean black aluminium look.",
     "features": [
       "SKU 80544",
       "Black case",
       "Premium storage",
       "Travel ready"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-alu-laser-case.svg"
   },
   {
     "id": "joola-cat-racket-case-aluminum",
@@ -484,14 +509,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-racket-case-aluminum.svg",
+    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
     "description": "Strong racket case for carrying match equipment safely.",
     "features": [
       "SKU 80542",
       "Aluminium-style",
       "Protective",
       "Match-day gear"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-racket-case-aluminum.svg"
   },
   {
     "id": "joola-cat-x-glue",
@@ -503,14 +529,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Glue",
     "color": "#d7ff3f",
-    "image": "assets/catalog/joola-cat-x-glue.svg",
+    "image": "https://joola.com/cdn/shop/files/xglue_01.png?v=1712310458&width=450",
     "description": "Water-based table tennis glue for rubber assembly and racket maintenance.",
     "features": [
       "SKU 82037",
       "90 ml",
       "Rubber assembly",
       "Accessory"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-x-glue.svg"
   },
   {
     "id": "joola-cat-glue-lex",
@@ -522,14 +549,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Glue",
     "color": "#d7ff3f",
-    "image": "assets/catalog/joola-cat-glue-lex.svg",
+    "image": "https://joola.com/cdn/shop/files/gluelex_01-1.png?v=1712310771&width=450",
     "description": "Glue accessory for rubber fitting and equipment setup.",
     "features": [
       "SKU 82037",
       "90 ml",
       "Green Power",
       "Assembly"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-glue-lex.svg"
   },
   {
     "id": "joola-cat-edge-tape-black",
@@ -541,14 +569,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Edge tape",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-edge-tape-black.svg",
+    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
     "description": "Black edge tape to protect the side of the blade and rubber sheets.",
     "features": [
       "SKU 83125",
       "Black",
       "20 mm",
       "Racket protection"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-edge-tape-black.svg"
   },
   {
     "id": "joola-cat-edge-tape-blue",
@@ -560,14 +589,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Edge tape",
     "color": "#263dff",
-    "image": "assets/catalog/joola-cat-edge-tape-blue.svg",
+    "image": "https://joola.com/cdn/shop/files/TTRacketCaseNavy.jpg?v=1771594353&width=450",
     "description": "Blue edge tape for a clean protective finish on custom rackets.",
     "features": [
       "SKU 83122",
       "Blue",
       "20 mm",
       "Racket protection"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-edge-tape-blue.svg"
   },
   {
     "id": "joola-cat-turbo-cleaner",
@@ -579,14 +609,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Cleaner",
     "color": "#d7ff3f",
-    "image": "assets/catalog/joola-cat-turbo-cleaner.svg",
+    "image": "https://joola.com/cdn/shop/files/84015_01.png?v=1712309724&width=450",
     "description": "Rubber cleaner for maintaining surface grip and extending rubber life.",
     "features": [
       "SKU 80231",
       "250 ml",
       "Rubber care",
       "Accessory"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-turbo-cleaner.svg"
   },
   {
     "id": "joola-cat-backpack-vision-blue",
@@ -598,14 +629,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Bag",
     "color": "#263dff",
-    "image": "assets/catalog/joola-cat-backpack-vision-blue.svg",
+    "image": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-blue.png?v=1746626745&width=450",
     "description": "Compact backpack for carrying racket, shoes, clothing and match-day gear.",
     "features": [
       "SKU 80125",
       "Blue",
       "Backpack",
       "Training bag"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-blue.svg"
   },
   {
     "id": "joola-cat-backpack-vision-black",
@@ -617,14 +649,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Bag",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-backpack-vision-black.svg",
+    "image": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png?v=1746626745&width=450",
     "description": "Black equipment backpack for table tennis training and tournaments.",
     "features": [
       "SKU 83112",
       "Black",
       "Backpack",
       "Gear storage"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-black.svg"
   },
   {
     "id": "joola-cat-backpack-vision-teal",
@@ -636,14 +669,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Bag",
     "color": "#247a75",
-    "image": "assets/catalog/joola-cat-backpack-vision-teal.svg",
+    "image": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-teal.png?v=1746626745&width=450",
     "description": "Teal equipment backpack for players who need compact storage.",
     "features": [
       "SKU 83114",
       "Teal",
       "Backpack",
       "Gear storage"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-teal.svg"
   },
   {
     "id": "joola-cat-vyzaryz-trinity",
@@ -655,14 +689,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-vyzaryz-trinity.svg",
+    "image": "https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png?v=1777490389&width=450",
     "description": "Premium Vyzaryz blade for dynamic offensive play with precision and feeling.",
     "features": [
       "SKU 65041",
       "Flared handle",
       "Premium blade",
       "Offensive"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-trinity.svg"
   },
   {
     "id": "joola-cat-vyzaryz-freeze-hrd",
@@ -674,14 +709,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-vyzaryz-freeze-hrd.svg",
+    "image": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450",
     "description": "High-end Freeze HRD blade designed for precise offensive play.",
     "features": [
       "SKU 65040",
       "Flared handle",
       "ARY-c style",
       "Premium"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze-hrd.svg"
   },
   {
     "id": "joola-cat-vyzaryz-freeze",
@@ -693,14 +729,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-vyzaryz-freeze.svg",
+    "image": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450",
     "description": "Premium Freeze blade for controlled speed and crisp attacking strokes.",
     "features": [
       "SKU 65000",
       "Flared handle",
       "Premium blade",
       "Control + speed"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze.svg"
   },
   {
     "id": "joola-cat-tezzo-warrior",
@@ -712,14 +749,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-tezzo-warrior.svg",
+    "image": "https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png?v=1712313926&width=450",
     "description": "Performance blade for controlled attack and confident rally building.",
     "features": [
       "SKU 69127",
       "Flared handle",
       "Performance",
       "Attacking"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-tezzo-warrior.svg"
   },
   {
     "id": "joola-cat-j-carbon",
@@ -731,14 +769,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-j-carbon.svg",
+    "image": "https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png?v=1777490389&width=450",
     "description": "Carbon-style blade for speed, stability and sharper ball response.",
     "features": [
       "SKU 69125",
       "Flared handle",
       "Carbon feel",
       "Attack"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-j-carbon.svg"
   },
   {
     "id": "joola-cat-challenger-all",
@@ -750,14 +789,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-challenger-all.svg",
+    "image": "https://joola.com/cdn/shop/files/joola-baseline-all-table-tennis-blade.png?v=1712313920&width=450",
     "description": "All-round blade made for control, blocks and early player development.",
     "features": [
       "SKU 61550",
       "Flared handle",
       "5-ply",
       "All-round"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-challenger-all.svg"
   },
   {
     "id": "joola-cat-challenger-off",
@@ -769,14 +809,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-challenger-off.svg",
+    "image": "https://joola.com/cdn/shop/files/joola-baseline-off-table-tennis-blade.png?v=1712313920&width=450",
     "description": "Progressive offensive blade with limba outer ply and balanced control.",
     "features": [
       "SKU 61555",
       "Flared handle",
       "5-ply",
       "Offensive"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-challenger-off.svg"
   },
   {
     "id": "joola-cat-rossi-jr",
@@ -788,14 +829,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-rossi-jr.svg",
+    "image": "https://joola.com/cdn/shop/files/Tezzo-Guardian-Blade-61204-Web-01.png?v=1712313911&width=450",
     "description": "Junior-friendly blade for control, easy handling and technical development.",
     "features": [
       "SKU 67115",
       "Flared handle",
       "Junior",
       "Control"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-rossi-jr.svg"
   },
   {
     "id": "joola-cat-hugo-aw7",
@@ -807,14 +849,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-hugo-aw7.svg",
+    "image": "https://joola.com/cdn/shop/files/p-gBrABU-3_0020_2R1A2626-88.jpg?v=1777489905&width=450",
     "description": "Hugo Calderano AW-7 blade for attacking play with wood feel and stability.",
     "features": [
       "SKU 601270",
       "Flared handle",
       "AW-7",
       "Signature range"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-hugo-aw7.svg"
   },
   {
     "id": "joola-cat-hugo-klc",
@@ -826,14 +869,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-hugo-klc.svg",
+    "image": "https://joola.com/cdn/shop/files/p-7yANXE-CDC6C7C3-D5B4-4220-AF9C-FD2D0095CD7E.jpg?v=1777489974&width=450",
     "description": "Signature inner KL-c blade focused on power, spin and controlled offensive play.",
     "features": [
       "SKU 601271",
       "Flared handle",
       "KL-c Inner",
       "Signature range"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-hugo-klc.svg"
   },
   {
     "id": "joola-cat-air-fibre-control",
@@ -845,14 +889,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-air-fibre-control.svg",
+    "image": "https://joola.com/cdn/shop/files/54209-JOOLA_Infinity_GL_Ping_Pong_Paddle-black_rubber_back34.jpg?v=1753458357&width=450",
     "description": "Ready-to-play racket focused on control for casual and developing players.",
     "features": [
       "SKU 54190",
       "Pre-assembled",
       "Control",
       "Recreational"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-air-fibre-control.svg"
   },
   {
     "id": "joola-cat-rosskopf-attack",
@@ -864,14 +909,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-rosskopf-attack.svg",
+    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
     "description": "Ready-made racket for attacking basics and fast practice rallies.",
     "features": [
       "SKU 53133",
       "Pre-assembled",
       "Attack",
       "Recreational"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-rosskopf-attack.svg"
   },
   {
     "id": "joola-cat-match-pro",
@@ -883,14 +929,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-match-pro.svg",
+    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
     "description": "Match Pro bat for controlled recreational play and club warmups.",
     "features": [
       "SKU 53022",
       "Pre-assembled",
       "Match Pro",
       "All-round"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-match-pro.svg"
   },
   {
     "id": "joola-cat-tt-bat-match",
@@ -902,14 +949,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-tt-bat-match.svg",
+    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
     "description": "Affordable all-round racket for beginners and everyday home play.",
     "features": [
       "SKU 53020",
       "Pre-assembled",
       "All-round",
       "Beginner"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-tt-bat-match.svg"
   },
   {
     "id": "joola-cat-team-junior",
@@ -921,14 +969,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-team-junior.svg",
+    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
     "description": "Junior racket designed for younger players learning table tennis fundamentals.",
     "features": [
       "SKU 52004",
       "Pre-assembled",
       "Junior",
       "Vizon rubbers"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-team-junior.svg"
   },
   {
     "id": "joola-cat-team-master",
@@ -940,14 +989,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-team-master.svg",
+    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
     "description": "All-round ready-made racket for advanced recreational players.",
     "features": [
       "SKU 52001",
       "Pre-assembled",
       "Team Master",
       "All-round"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-team-master.svg"
   },
   {
     "id": "joola-cat-hugo-carbon-speed",
@@ -959,14 +1009,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-hugo-carbon-speed.svg",
+    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
     "description": "Hugo Calderano carbon-style racket for fast attacking strokes and match confidence.",
     "features": [
       "SKU 601276",
       "Pre-assembled",
       "Carbon speed",
       "Signature"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-hugo-carbon-speed.svg"
   },
   {
     "id": "joola-cat-hugo-team-set",
@@ -978,14 +1029,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-hugo-team-set.svg",
+    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
     "description": "Hugo Calderano team set for serious practice and match-ready sessions.",
     "features": [
       "SKU 601277",
       "Team set",
       "Signature",
       "Practice-ready"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-hugo-team-set.svg"
   },
   {
     "id": "joola-cat-world-cup-table",
@@ -997,14 +1049,15 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Table",
     "color": "#263d46",
-    "image": "assets/catalog/joola-cat-world-cup-table.svg",
+    "image": "https://joola.com/cdn/shop/files/11111-Tour2500_01.png?v=1764181658&width=450",
     "description": "Competition-style table for clubs, academies and serious training spaces.",
     "features": [
       "SKU 11291",
       "25 mm style",
       "ITTF-style",
       "Club table"
-    ]
+    ],
+    "fallbackImage": "assets/catalog/joola-cat-world-cup-table.svg"
   },
   {
     "id": "seed-tibhar-1",
@@ -1260,9 +1313,13 @@ function fallbackArt(product) {
 }
 
 function productArtwork(product) {
-  return product.image
-    ? `<img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'">`
-    : fallbackArt(product);
+  if (product.image) {
+    const fallbackCode = product.fallbackImage
+      ? `this.onerror=null;this.src='${product.fallbackImage}';`
+      : `this.onerror=null;this.style.display='none';`;
+    return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackCode}">`;
+  }
+  return fallbackArt(product);
 }
 
 function productCard(product) {
@@ -2146,7 +2203,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   function ttwArtwork(product) {
     if (product.image) {
-      return `<img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'">`;
+      const fallbackCode = product.fallbackImage
+        ? `this.onerror=null;this.src='${product.fallbackImage}';`
+        : `this.onerror=null;this.style.display='none';`;
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackCode}">`;
     }
     return ttwFallback(product);
   }
