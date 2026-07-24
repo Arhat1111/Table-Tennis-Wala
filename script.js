@@ -1,17 +1,1173 @@
 const seedProducts = [
-  { id: "seed-joola-1", name: "JOOLA Ben Johns Hyperion C2", brand: "joola", category: "rackets", price: 18499, rating: 4.9, reviews: 128, badge: "Bestseller", color: "#1e2220", description: "Carbon-composite racket for controlled power and confident spin.", features: ["Carbon face", "Elongated sweet spot", "Advanced profile"] },
-  { id: "seed-joola-2", name: "JOOLA Infinity Edge Racket", brand: "joola", category: "rackets", price: 5499, rating: 4.7, reviews: 74, badge: "Club pick", color: "#d33d35", description: "Versatile racket for developing club players.", features: ["Control feel", "Flared handle", "Club play"] },
-  { id: "seed-joola-3", name: "JOOLA Prime 40+ 3-Star Balls", brand: "joola", category: "balls", price: 1299, rating: 4.8, reviews: 182, badge: "Competition", color: "#ffffff", description: "Consistent 40+ balls for predictable bounce.", features: ["3-star", "Pack of 12", "Competition use"] },
-  { id: "seed-joola-4", name: "JOOLA Inside 15 Table", brand: "joola", category: "tables", price: 49999, rating: 4.8, reviews: 44, badge: "Indoor", color: "#263d46", description: "Foldable indoor table with smooth mobility.", features: ["15 mm surface", "Foldable", "Wheels"] },
-  { id: "seed-tibhar-1", name: "Tibhar Evolution MX-P Rubber", brand: "tibhar", category: "rubbers", price: 4699, rating: 4.8, reviews: 88, badge: "Spin", color: "#d8312b", description: "Fast attacking rubber for heavy topspin.", features: ["Hard sponge", "High arc", "Offensive"] },
-  { id: "seed-tibhar-2", name: "Tibhar Stratus Power Wood Blade", brand: "tibhar", category: "blades", price: 7199, rating: 4.7, reviews: 61, badge: "5-ply", color: "#d9a466", description: "Classic allround offensive blade with clean feedback.", features: ["5-ply wood", "Control", "Balanced speed"] },
-  { id: "seed-tibhar-3", name: "Tibhar Game Racket Case", brand: "tibhar", category: "accessories", price: 1699, rating: 4.5, reviews: 42, badge: "Protective", color: "#151815", description: "Slim protective case for one assembled racket.", features: ["Hard shell", "Compact", "Zipper closure"] },
-  { id: "seed-butterfly-1", name: "Butterfly Tenergy 05 Rubber", brand: "butterfly", category: "rubbers", price: 6999, rating: 4.9, reviews: 110, badge: "Pro choice", color: "#c7172d", description: "High-grip rubber for loopers and advanced players.", features: ["Spring sponge", "High spin", "Premium"] },
-  { id: "seed-butterfly-2", name: "Butterfly Viscaria Style Blade", brand: "butterfly", category: "blades", price: 12999, rating: 4.9, reviews: 55, badge: "Carbon", color: "#202420", description: "Carbon-style offensive blade for fast close-table play.", features: ["Carbon feel", "Fast attack", "Pro build"] },
-  { id: "seed-butterfly-3", name: "Butterfly Training Ball Pack", brand: "butterfly", category: "balls", price: 2199, rating: 4.6, reviews: 71, badge: "Training", color: "#ffffff", description: "Durable training balls for multi-ball sessions.", features: ["Pack of 30", "Training", "Consistent bounce"] },
-  { id: "seed-stiga-1", name: "Stiga Cybershape Style Racket", brand: "stiga", category: "rackets", price: 8999, rating: 4.7, reviews: 67, badge: "Modern", color: "#d7ff3f", description: "Modern racket profile made for speed and control.", features: ["Large sweet spot", "Lightweight", "Control"] },
-  { id: "seed-stiga-2", name: "Stiga Club Indoor Table", brand: "stiga", category: "tables", price: 44999, rating: 4.6, reviews: 37, badge: "Club", color: "#244652", description: "Indoor table for clubs, homes and training rooms.", features: ["Foldable", "Stable frame", "Club use"] },
-  { id: "seed-stiga-3", name: "Stiga Court Shoes", brand: "stiga", category: "footwear", price: 6499, rating: 4.5, reviews: 29, badge: "Grip", color: "#f6f4ec", description: "Low-profile court shoes for quick lateral movement.", features: ["Non-marking", "Lightweight", "Grip sole"] }
+  {
+    "id": "joola-cat-dynaryz-inferno",
+    "name": "JOOLA Dynaryz Inferno Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 7200,
+    "rating": 4.9,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-dynaryz-inferno.svg",
+    "description": "Explosive premium rubber built for maximum acceleration, tension and high-level offensive play.",
+    "features": [
+      "SKU 70465",
+      "Available: Red / Black / Purple",
+      "MAX thickness",
+      "Kinetic tension surface"
+    ]
+  },
+  {
+    "id": "joola-cat-dynaryz-zgx",
+    "name": "JOOLA Dynaryz ZGX Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 6600,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-dynaryz-zgx.svg",
+    "description": "High-grip offensive rubber with explosive sponge response and strong sweet-zone feeling.",
+    "features": [
+      "SKU 70488",
+      "Available: Red / Black",
+      "MAX thickness",
+      "Hyper traction"
+    ]
+  },
+  {
+    "id": "joola-cat-dynaryz-zgr",
+    "name": "JOOLA Dynaryz ZGR Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 6400,
+    "rating": 4.9,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-dynaryz-zgr.svg",
+    "description": "Tacky and grippy premium rubber for extreme rotation, power and flatter attacking trajectories.",
+    "features": [
+      "SKU 70522",
+      "Available: Red / Black",
+      "MAX thickness",
+      "Hard 56° sponge"
+    ]
+  },
+  {
+    "id": "joola-cat-dynaryz-acc",
+    "name": "JOOLA Dynaryz ACC Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 6400,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#3e5cff",
+    "image": "assets/catalog/joola-cat-dynaryz-acc.svg",
+    "description": "Balanced premium rubber made for speed, spin, control and safe topspin arcs.",
+    "features": [
+      "SKU 70502",
+      "Available: Red / Black / Purple",
+      "MAX thickness",
+      "Hyper Bounce sponge"
+    ]
+  },
+  {
+    "id": "joola-cat-dynaryz-agr",
+    "name": "JOOLA Dynaryz AGR Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 6400,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-dynaryz-agr.svg",
+    "description": "Professional-level premium rubber for players wanting hard sponge power and reliable grip.",
+    "features": [
+      "SKU 70512",
+      "Available: Red / Black / Purple",
+      "MAX thickness",
+      "Advanced traction"
+    ]
+  },
+  {
+    "id": "joola-cat-dynaryz-cmd",
+    "name": "JOOLA Dynaryz CMD Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 6400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-dynaryz-cmd.svg",
+    "description": "Controlled premium rubber option for players who want Dynaryz quality with added command.",
+    "features": [
+      "SKU 70532",
+      "Available: Red / Black",
+      "MAX thickness",
+      "Control-focused feel"
+    ]
+  },
+  {
+    "id": "joola-cat-tronix-acc",
+    "name": "JOOLA Tronix ACC Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 5300,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Professional",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-tronix-acc.svg",
+    "description": "Professional rubber with GIGA CELL sponge for lively acceleration and balanced topspin power.",
+    "features": [
+      "SKU 70593",
+      "Available: Red / Black / Blue",
+      "MAX thickness",
+      "Giga Cell sponge"
+    ]
+  },
+  {
+    "id": "joola-cat-tronix-cmd",
+    "name": "JOOLA Tronix CMD Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 5300,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "Professional",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-tronix-cmd.svg",
+    "description": "Professional control rubber for close-table counters, spin control and consistent ball feedback.",
+    "features": [
+      "SKU 70587",
+      "Available: Red / Black / Blue",
+      "MAX thickness",
+      "Soft command feel"
+    ]
+  },
+  {
+    "id": "joola-cat-tronix-zgr",
+    "name": "JOOLA Tronix ZGR Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 5300,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Professional",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-tronix-zgr.svg",
+    "description": "Grippy professional rubber for heavy rotation and direct power transfer in offensive play.",
+    "features": [
+      "SKU 70599",
+      "Available: Red / Black",
+      "MAX thickness",
+      "Hyper traction surface"
+    ]
+  },
+  {
+    "id": "joola-cat-rhyzen-ice",
+    "name": "JOOLA Rhyzen ICE Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 4400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "Performance",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-rhyzen-ice.svg",
+    "description": "Cool and controlled performance rubber made for feel, placement and confident rally play.",
+    "features": [
+      "SKU 70650",
+      "Available: Red / Black / Blue",
+      "MAX thickness",
+      "Control profile"
+    ]
+  },
+  {
+    "id": "joola-cat-rhyzen-fire",
+    "name": "JOOLA Rhyzen FIRE Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 4400,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Performance",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-rhyzen-fire.svg",
+    "description": "Offensive performance rubber with dynamic response, spin and powerful loop potential.",
+    "features": [
+      "SKU 70571",
+      "Available: Red / Black / Blue",
+      "MAX thickness",
+      "Momentum sponge"
+    ]
+  },
+  {
+    "id": "joola-cat-rhyzen-cmd",
+    "name": "JOOLA Rhyzen CMD Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 4400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "Performance",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-rhyzen-cmd.svg",
+    "description": "Command-focused performance rubber for precise takeoff, balanced pace and spin safety.",
+    "features": [
+      "SKU 70552",
+      "Available: Red / Black / Blue",
+      "MAX thickness",
+      "Sweetzone control"
+    ]
+  },
+  {
+    "id": "joola-cat-zack",
+    "name": "JOOLA Zack Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 3750,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Progressive",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-zack.svg",
+    "description": "All-round progressive rubber with high control, durability and easy placement.",
+    "features": [
+      "SKU 70071",
+      "Available: Red / Black",
+      "MAX thickness",
+      "Beginner friendly"
+    ]
+  },
+  {
+    "id": "joola-cat-micron",
+    "name": "JOOLA Micron Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 3300,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Progressive",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-micron.svg",
+    "description": "High-control rubber with a forgiving bounce and grippy surface for developing players.",
+    "features": [
+      "SKU 70270",
+      "Available: Red / Black",
+      "MAX thickness",
+      "Precision feel"
+    ]
+  },
+  {
+    "id": "joola-cat-vizon",
+    "name": "JOOLA Vizon Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 2750,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Progressive",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-vizon.svg",
+    "description": "Classic-style rubber focused on control, dampened sponge response and simple playability.",
+    "features": [
+      "SKU 70026",
+      "Available: Red / Black",
+      "MAX thickness",
+      "High control"
+    ]
+  },
+  {
+    "id": "joola-cat-cwx",
+    "name": "JOOLA CWX Long-Pips Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "price": 5000,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Precision",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-cwx.svg",
+    "description": "Long-pips rubber made for defensive variation, disruption and spin reversal.",
+    "features": [
+      "SKU 71237",
+      "Available: Red / Black",
+      "OX / Long pips",
+      "Defensive control"
+    ]
+  },
+  {
+    "id": "joola-cat-prime-40-pack-6",
+    "name": "JOOLA Prime*** 40+ Table Tennis Balls",
+    "brand": "joola",
+    "category": "balls",
+    "price": 850,
+    "rating": 4.9,
+    "reviews": 0,
+    "badge": "Competition",
+    "color": "#ffffff",
+    "image": "assets/catalog/joola-cat-prime-40-pack-6.svg",
+    "description": "ITTF-approved competition balls with consistent bounce, ABS material and reliable flight.",
+    "features": [
+      "SKU 40031",
+      "Pack options: 6 / 72",
+      "3-star ball",
+      "Competition grade"
+    ]
+  },
+  {
+    "id": "joola-cat-prime-40-pack-72",
+    "name": "JOOLA Prime*** 40+ Balls Pack of 72",
+    "brand": "joola",
+    "category": "balls",
+    "price": 9400,
+    "rating": 4.9,
+    "reviews": 0,
+    "badge": "Competition",
+    "color": "#ffffff",
+    "image": "assets/catalog/joola-cat-prime-40-pack-72.svg",
+    "description": "Bulk pack of competition-grade JOOLA Prime 40+ balls for clubs and tournaments.",
+    "features": [
+      "SKU 40030",
+      "Pack of 72",
+      "3-star ball",
+      "ITTF approved"
+    ]
+  },
+  {
+    "id": "joola-cat-training-40-pack-120",
+    "name": "JOOLA Training 40+ Balls Pack of 120",
+    "brand": "joola",
+    "category": "balls",
+    "price": 4300,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "Training",
+    "color": "#ffffff",
+    "image": "assets/catalog/joola-cat-training-40-pack-120.svg",
+    "description": "High-volume training ball pack for drills, coaching sessions and club practice.",
+    "features": [
+      "SKU 44230",
+      "Pack of 120",
+      "ABS material",
+      "Training grade"
+    ]
+  },
+  {
+    "id": "joola-cat-tournament-ct24",
+    "name": "JOOLA Tournament 40+ WH CT24 Balls",
+    "brand": "joola",
+    "category": "balls",
+    "price": 900,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Training",
+    "color": "#ffffff",
+    "image": "assets/catalog/joola-cat-tournament-ct24.svg",
+    "description": "Tournament-style white balls suitable for practice, training and match preparation.",
+    "features": [
+      "SKU 44233",
+      "CT24 pack",
+      "White balls",
+      "Practice use"
+    ]
+  },
+  {
+    "id": "joola-cat-advanced-training",
+    "name": "JOOLA Advanced Training 36KT White Balls",
+    "brand": "joola",
+    "category": "balls",
+    "price": 1500,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Training",
+    "color": "#ffffff",
+    "image": "assets/catalog/joola-cat-advanced-training.svg",
+    "description": "Advanced training ball set for high-repetition drills and coaching use.",
+    "features": [
+      "SKU 44256",
+      "36 balls",
+      "White",
+      "Training"
+    ]
+  },
+  {
+    "id": "joola-cat-bcover-hard-blue",
+    "name": "JOOLA B.Cover Hard Case Navy",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 2099,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Case",
+    "color": "#263d46",
+    "image": "assets/catalog/joola-cat-bcover-hard-blue.svg",
+    "description": "Hard-shell racket case for safe everyday storage and travel.",
+    "features": [
+      "SKU 80570",
+      "Blue/Navy",
+      "Hard shell",
+      "Single racket"
+    ]
+  },
+  {
+    "id": "joola-cat-bcover-hard-black",
+    "name": "JOOLA B.Cover Hard Case Black",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 2099,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Case",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-bcover-hard-black.svg",
+    "description": "Minimal hard case for protecting one racket and small accessories.",
+    "features": [
+      "SKU 80571",
+      "Black",
+      "Hard shell",
+      "Zip closure"
+    ]
+  },
+  {
+    "id": "joola-cat-alu-double-case",
+    "name": "JOOLA ALU Double Bat Case",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 4199,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "Case",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-alu-double-case.svg",
+    "description": "Aluminium-style double racket case with shaped foam for two rackets and balls.",
+    "features": [
+      "SKU 80555",
+      "Double racket case",
+      "Aluminium design",
+      "Foam inlay"
+    ]
+  },
+  {
+    "id": "joola-cat-alu-laser-case",
+    "name": "JOOLA Bat Case ALU Laser Black",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 4499,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "Case",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-alu-laser-case.svg",
+    "description": "Premium protective bat case with a clean black aluminium look.",
+    "features": [
+      "SKU 80544",
+      "Black case",
+      "Premium storage",
+      "Travel ready"
+    ]
+  },
+  {
+    "id": "joola-cat-racket-case-aluminum",
+    "name": "JOOLA Racket Case Aluminum",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 3600,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Case",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-racket-case-aluminum.svg",
+    "description": "Strong racket case for carrying match equipment safely.",
+    "features": [
+      "SKU 80542",
+      "Aluminium-style",
+      "Protective",
+      "Match-day gear"
+    ]
+  },
+  {
+    "id": "joola-cat-x-glue",
+    "name": "JOOLA X-Glue 90ml",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 1999,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Glue",
+    "color": "#d7ff3f",
+    "image": "assets/catalog/joola-cat-x-glue.svg",
+    "description": "Water-based table tennis glue for rubber assembly and racket maintenance.",
+    "features": [
+      "SKU 82037",
+      "90 ml",
+      "Rubber assembly",
+      "Accessory"
+    ]
+  },
+  {
+    "id": "joola-cat-glue-lex",
+    "name": "JOOLA Glue Lex Green Power 90ml",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 900,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Glue",
+    "color": "#d7ff3f",
+    "image": "assets/catalog/joola-cat-glue-lex.svg",
+    "description": "Glue accessory for rubber fitting and equipment setup.",
+    "features": [
+      "SKU 82037",
+      "90 ml",
+      "Green Power",
+      "Assembly"
+    ]
+  },
+  {
+    "id": "joola-cat-edge-tape-black",
+    "name": "JOOLA Edge Tape 20 Black",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 420,
+    "rating": 4.4,
+    "reviews": 0,
+    "badge": "Edge tape",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-edge-tape-black.svg",
+    "description": "Black edge tape to protect the side of the blade and rubber sheets.",
+    "features": [
+      "SKU 83125",
+      "Black",
+      "20 mm",
+      "Racket protection"
+    ]
+  },
+  {
+    "id": "joola-cat-edge-tape-blue",
+    "name": "JOOLA Edge Tape 20 Blue",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 850,
+    "rating": 4.4,
+    "reviews": 0,
+    "badge": "Edge tape",
+    "color": "#263dff",
+    "image": "assets/catalog/joola-cat-edge-tape-blue.svg",
+    "description": "Blue edge tape for a clean protective finish on custom rackets.",
+    "features": [
+      "SKU 83122",
+      "Blue",
+      "20 mm",
+      "Racket protection"
+    ]
+  },
+  {
+    "id": "joola-cat-turbo-cleaner",
+    "name": "JOOLA Turbo Cleaner 250ml",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 1250,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Cleaner",
+    "color": "#d7ff3f",
+    "image": "assets/catalog/joola-cat-turbo-cleaner.svg",
+    "description": "Rubber cleaner for maintaining surface grip and extending rubber life.",
+    "features": [
+      "SKU 80231",
+      "250 ml",
+      "Rubber care",
+      "Accessory"
+    ]
+  },
+  {
+    "id": "joola-cat-backpack-vision-blue",
+    "name": "JOOLA Backpack Vision II Blue",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 4700,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Bag",
+    "color": "#263dff",
+    "image": "assets/catalog/joola-cat-backpack-vision-blue.svg",
+    "description": "Compact backpack for carrying racket, shoes, clothing and match-day gear.",
+    "features": [
+      "SKU 80125",
+      "Blue",
+      "Backpack",
+      "Training bag"
+    ]
+  },
+  {
+    "id": "joola-cat-backpack-vision-black",
+    "name": "JOOLA Backpack Vision II Black",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 4700,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Bag",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-backpack-vision-black.svg",
+    "description": "Black equipment backpack for table tennis training and tournaments.",
+    "features": [
+      "SKU 83112",
+      "Black",
+      "Backpack",
+      "Gear storage"
+    ]
+  },
+  {
+    "id": "joola-cat-backpack-vision-teal",
+    "name": "JOOLA Backpack Vision II Teal",
+    "brand": "joola",
+    "category": "accessories",
+    "price": 4700,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Bag",
+    "color": "#247a75",
+    "image": "assets/catalog/joola-cat-backpack-vision-teal.svg",
+    "description": "Teal equipment backpack for players who need compact storage.",
+    "features": [
+      "SKU 83114",
+      "Teal",
+      "Backpack",
+      "Gear storage"
+    ]
+  },
+  {
+    "id": "joola-cat-vyzaryz-trinity",
+    "name": "JOOLA Vyzaryz Trinity FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 25000,
+    "rating": 4.9,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-vyzaryz-trinity.svg",
+    "description": "Premium Vyzaryz blade for dynamic offensive play with precision and feeling.",
+    "features": [
+      "SKU 65041",
+      "Flared handle",
+      "Premium blade",
+      "Offensive"
+    ]
+  },
+  {
+    "id": "joola-cat-vyzaryz-freeze-hrd",
+    "name": "JOOLA Vyzaryz Freeze HRD FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 19000,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-vyzaryz-freeze-hrd.svg",
+    "description": "High-end Freeze HRD blade designed for precise offensive play.",
+    "features": [
+      "SKU 65040",
+      "Flared handle",
+      "ARY-c style",
+      "Premium"
+    ]
+  },
+  {
+    "id": "joola-cat-vyzaryz-freeze",
+    "name": "JOOLA Vyzaryz Freeze FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 19000,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Premium",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-vyzaryz-freeze.svg",
+    "description": "Premium Freeze blade for controlled speed and crisp attacking strokes.",
+    "features": [
+      "SKU 65000",
+      "Flared handle",
+      "Premium blade",
+      "Control + speed"
+    ]
+  },
+  {
+    "id": "joola-cat-tezzo-warrior",
+    "name": "JOOLA Tezzo Warrior FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 10300,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Performance",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-tezzo-warrior.svg",
+    "description": "Performance blade for controlled attack and confident rally building.",
+    "features": [
+      "SKU 69127",
+      "Flared handle",
+      "Performance",
+      "Attacking"
+    ]
+  },
+  {
+    "id": "joola-cat-j-carbon",
+    "name": "JOOLA J Carbon FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 6900,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Performance",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-j-carbon.svg",
+    "description": "Carbon-style blade for speed, stability and sharper ball response.",
+    "features": [
+      "SKU 69125",
+      "Flared handle",
+      "Carbon feel",
+      "Attack"
+    ]
+  },
+  {
+    "id": "joola-cat-challenger-all",
+    "name": "JOOLA Challenger ALL FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 3500,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Progressive",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-challenger-all.svg",
+    "description": "All-round blade made for control, blocks and early player development.",
+    "features": [
+      "SKU 61550",
+      "Flared handle",
+      "5-ply",
+      "All-round"
+    ]
+  },
+  {
+    "id": "joola-cat-challenger-off",
+    "name": "JOOLA Challenger OFF FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 3800,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "Progressive",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-challenger-off.svg",
+    "description": "Progressive offensive blade with limba outer ply and balanced control.",
+    "features": [
+      "SKU 61555",
+      "Flared handle",
+      "5-ply",
+      "Offensive"
+    ]
+  },
+  {
+    "id": "joola-cat-rossi-jr",
+    "name": "JOOLA Rossi JR FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 3000,
+    "rating": 4.4,
+    "reviews": 0,
+    "badge": "Progressive",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-rossi-jr.svg",
+    "description": "Junior-friendly blade for control, easy handling and technical development.",
+    "features": [
+      "SKU 67115",
+      "Flared handle",
+      "Junior",
+      "Control"
+    ]
+  },
+  {
+    "id": "joola-cat-hugo-aw7",
+    "name": "JOOLA Hugo Calderano AW-7 FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 6999,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Hugo",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-hugo-aw7.svg",
+    "description": "Hugo Calderano AW-7 blade for attacking play with wood feel and stability.",
+    "features": [
+      "SKU 601270",
+      "Flared handle",
+      "AW-7",
+      "Signature range"
+    ]
+  },
+  {
+    "id": "joola-cat-hugo-klc",
+    "name": "JOOLA Hugo Calderano KL-c Inner FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "price": 11999,
+    "rating": 4.9,
+    "reviews": 0,
+    "badge": "Hugo",
+    "color": "#d9a466",
+    "image": "assets/catalog/joola-cat-hugo-klc.svg",
+    "description": "Signature inner KL-c blade focused on power, spin and controlled offensive play.",
+    "features": [
+      "SKU 601271",
+      "Flared handle",
+      "KL-c Inner",
+      "Signature range"
+    ]
+  },
+  {
+    "id": "joola-cat-air-fibre-control",
+    "name": "JOOLA Air Fibre Control Racket",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 2599,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Recreational",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-air-fibre-control.svg",
+    "description": "Ready-to-play racket focused on control for casual and developing players.",
+    "features": [
+      "SKU 54190",
+      "Pre-assembled",
+      "Control",
+      "Recreational"
+    ]
+  },
+  {
+    "id": "joola-cat-rosskopf-attack",
+    "name": "JOOLA Rosskopf Attack Racket",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 2499,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Recreational",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-rosskopf-attack.svg",
+    "description": "Ready-made racket for attacking basics and fast practice rallies.",
+    "features": [
+      "SKU 53133",
+      "Pre-assembled",
+      "Attack",
+      "Recreational"
+    ]
+  },
+  {
+    "id": "joola-cat-match-pro",
+    "name": "JOOLA TT-BAT Match Pro",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 2499,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Recreational",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-match-pro.svg",
+    "description": "Match Pro bat for controlled recreational play and club warmups.",
+    "features": [
+      "SKU 53022",
+      "Pre-assembled",
+      "Match Pro",
+      "All-round"
+    ]
+  },
+  {
+    "id": "joola-cat-tt-bat-match",
+    "name": "JOOLA TT-BAT Match",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 1299,
+    "rating": 4.4,
+    "reviews": 0,
+    "badge": "Recreational",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-tt-bat-match.svg",
+    "description": "Affordable all-round racket for beginners and everyday home play.",
+    "features": [
+      "SKU 53020",
+      "Pre-assembled",
+      "All-round",
+      "Beginner"
+    ]
+  },
+  {
+    "id": "joola-cat-team-junior",
+    "name": "JOOLA Team Junior Racket",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 1749,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Recreational",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-team-junior.svg",
+    "description": "Junior racket designed for younger players learning table tennis fundamentals.",
+    "features": [
+      "SKU 52004",
+      "Pre-assembled",
+      "Junior",
+      "Vizon rubbers"
+    ]
+  },
+  {
+    "id": "joola-cat-team-master",
+    "name": "JOOLA Team Master Racket",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 1999,
+    "rating": 4.5,
+    "reviews": 0,
+    "badge": "Recreational",
+    "color": "#d8312b",
+    "image": "assets/catalog/joola-cat-team-master.svg",
+    "description": "All-round ready-made racket for advanced recreational players.",
+    "features": [
+      "SKU 52001",
+      "Pre-assembled",
+      "Team Master",
+      "All-round"
+    ]
+  },
+  {
+    "id": "joola-cat-hugo-carbon-speed",
+    "name": "JOOLA Hugo Calderano Carbon Speed Racket",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 9999,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Hugo",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-hugo-carbon-speed.svg",
+    "description": "Hugo Calderano carbon-style racket for fast attacking strokes and match confidence.",
+    "features": [
+      "SKU 601276",
+      "Pre-assembled",
+      "Carbon speed",
+      "Signature"
+    ]
+  },
+  {
+    "id": "joola-cat-hugo-team-set",
+    "name": "JOOLA Hugo Calderano Team Table Tennis Set",
+    "brand": "joola",
+    "category": "rackets",
+    "price": 9999,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Hugo",
+    "color": "#111311",
+    "image": "assets/catalog/joola-cat-hugo-team-set.svg",
+    "description": "Hugo Calderano team set for serious practice and match-ready sessions.",
+    "features": [
+      "SKU 601277",
+      "Team set",
+      "Signature",
+      "Practice-ready"
+    ]
+  },
+  {
+    "id": "joola-cat-world-cup-table",
+    "name": "JOOLA World Cup 25-S ITTF BL Table",
+    "brand": "joola",
+    "category": "tables",
+    "price": 79999,
+    "rating": 4.9,
+    "reviews": 0,
+    "badge": "Table",
+    "color": "#263d46",
+    "image": "assets/catalog/joola-cat-world-cup-table.svg",
+    "description": "Competition-style table for clubs, academies and serious training spaces.",
+    "features": [
+      "SKU 11291",
+      "25 mm style",
+      "ITTF-style",
+      "Club table"
+    ]
+  },
+  {
+    "id": "seed-tibhar-1",
+    "name": "Tibhar Evolution MX-P Rubber",
+    "brand": "tibhar",
+    "category": "rubbers",
+    "price": 4699,
+    "rating": 4.8,
+    "reviews": 88,
+    "badge": "Spin",
+    "color": "#d8312b",
+    "description": "Fast attacking rubber for heavy topspin.",
+    "features": [
+      "Hard sponge",
+      "High arc",
+      "Offensive"
+    ],
+    "image": "assets/catalog/seed-tibhar-1.svg"
+  },
+  {
+    "id": "seed-tibhar-2",
+    "name": "Tibhar Stratus Power Wood Blade",
+    "brand": "tibhar",
+    "category": "blades",
+    "price": 7199,
+    "rating": 4.7,
+    "reviews": 61,
+    "badge": "5-ply",
+    "color": "#d9a466",
+    "description": "Classic allround offensive blade with clean feedback.",
+    "features": [
+      "5-ply wood",
+      "Control",
+      "Balanced speed"
+    ],
+    "image": "assets/catalog/seed-tibhar-2.svg"
+  },
+  {
+    "id": "seed-tibhar-3",
+    "name": "Tibhar Game Racket Case",
+    "brand": "tibhar",
+    "category": "accessories",
+    "price": 1699,
+    "rating": 4.5,
+    "reviews": 42,
+    "badge": "Protective",
+    "color": "#151815",
+    "description": "Slim protective case for one assembled racket.",
+    "features": [
+      "Hard shell",
+      "Compact",
+      "Zipper closure"
+    ],
+    "image": "assets/catalog/seed-tibhar-3.svg"
+  },
+  {
+    "id": "seed-butterfly-1",
+    "name": "Butterfly Tenergy 05 Rubber",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 6999,
+    "rating": 4.9,
+    "reviews": 110,
+    "badge": "Pro choice",
+    "color": "#c7172d",
+    "description": "High-grip rubber for loopers and advanced players.",
+    "features": [
+      "Spring sponge",
+      "High spin",
+      "Premium"
+    ],
+    "image": "assets/catalog/seed-butterfly-1.svg"
+  },
+  {
+    "id": "seed-butterfly-2",
+    "name": "Butterfly Viscaria Style Blade",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 12999,
+    "rating": 4.9,
+    "reviews": 55,
+    "badge": "Carbon",
+    "color": "#202420",
+    "description": "Carbon-style offensive blade for fast close-table play.",
+    "features": [
+      "Carbon feel",
+      "Fast attack",
+      "Pro build"
+    ],
+    "image": "assets/catalog/seed-butterfly-2.svg"
+  },
+  {
+    "id": "seed-butterfly-3",
+    "name": "Butterfly Training Ball Pack",
+    "brand": "butterfly",
+    "category": "balls",
+    "price": 2199,
+    "rating": 4.6,
+    "reviews": 71,
+    "badge": "Training",
+    "color": "#ffffff",
+    "description": "Durable training balls for multi-ball sessions.",
+    "features": [
+      "Pack of 30",
+      "Training",
+      "Consistent bounce"
+    ],
+    "image": "assets/catalog/seed-butterfly-3.svg"
+  },
+  {
+    "id": "seed-stiga-1",
+    "name": "Stiga Cybershape Style Racket",
+    "brand": "stiga",
+    "category": "rackets",
+    "price": 8999,
+    "rating": 4.7,
+    "reviews": 67,
+    "badge": "Modern",
+    "color": "#d7ff3f",
+    "description": "Modern racket profile made for speed and control.",
+    "features": [
+      "Large sweet spot",
+      "Lightweight",
+      "Control"
+    ],
+    "image": "assets/catalog/seed-stiga-1.svg"
+  },
+  {
+    "id": "seed-stiga-2",
+    "name": "Stiga Club Indoor Table",
+    "brand": "stiga",
+    "category": "tables",
+    "price": 44999,
+    "rating": 4.6,
+    "reviews": 37,
+    "badge": "Club",
+    "color": "#244652",
+    "description": "Indoor table for clubs, homes and training rooms.",
+    "features": [
+      "Foldable",
+      "Stable frame",
+      "Club use"
+    ],
+    "image": "assets/catalog/seed-stiga-2.svg"
+  },
+  {
+    "id": "seed-stiga-3",
+    "name": "Stiga Court Shoes",
+    "brand": "stiga",
+    "category": "footwear",
+    "price": 6499,
+    "rating": 4.5,
+    "reviews": 29,
+    "badge": "Grip",
+    "color": "#f6f4ec",
+    "description": "Low-profile court shoes for quick lateral movement.",
+    "features": [
+      "Non-marking",
+      "Lightweight",
+      "Grip sole"
+    ],
+    "image": "assets/catalog/seed-stiga-3.svg"
+  }
 ];
 
 const builderOptions = {
@@ -105,7 +1261,7 @@ function fallbackArt(product) {
 
 function productArtwork(product) {
   return product.image
-    ? `<img src="${product.image}" alt="${product.name}" onerror="this.remove();this.parentElement.insertAdjacentHTML('beforeend','${fallbackArt(product).replaceAll("'", "\\'")}')">`
+    ? `<img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'">`
     : fallbackArt(product);
 }
 
@@ -971,3 +2127,1131 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+/* FINAL FIX: guaranteed product rendering for Products + JOOLA pages */
+(function () {
+  function ttwMoney(value) {
+    return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+  }
+  function ttwCap(value) {
+    return String(value || "").replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  }
+  function ttwProducts() {
+    let admin = [];
+    try { admin = JSON.parse(localStorage.getItem("ttw-admin-products") || "[]"); } catch (e) { admin = []; }
+    return [...seedProducts, ...admin];
+  }
+  function ttwFallback(product) {
+    return `<div class="product-art art-${product.category || "rackets"}" style="--product-color:${product.color || "#d7ff3f"}"></div>`;
+  }
+  function ttwArtwork(product) {
+    if (product.image) {
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'">`;
+    }
+    return ttwFallback(product);
+  }
+  function ttwCard(product) {
+    return `<article class="product-card" data-product-card="${product.id}">
+      <div class="product-visual" data-view-product="${product.id}">
+        <span class="product-badge">${product.badge || ttwCap(product.brand)}</span>
+        ${ttwArtwork(product)}
+        <button class="quick-add" data-add-product="${product.id}">Add to cart</button>
+      </div>
+      <div class="product-info" data-view-product="${product.id}">
+        <div class="product-topline"><h3 class="product-name">${product.name}</h3><span class="product-price">${ttwMoney(product.price)}</span></div>
+        <div class="product-meta"><span>${ttwCap(product.brand)} • ${ttwCap(product.category)}</span><span class="rating">★ ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span></div>
+      </div>
+    </article>`;
+  }
+  function checked(name) {
+    return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(i => i.value);
+  }
+  function pageBrand() {
+    const b = document.body?.dataset?.brand;
+    if (b) return b;
+    const page = location.pathname.split("/").pop().replace(".html", "");
+    return ["joola", "tibhar", "butterfly", "stiga"].includes(page) ? page : "";
+  }
+  function filteredProducts(forHome) {
+    let list = ttwProducts();
+    const fixedBrand = pageBrand();
+    const brandChecks = checked("brandFilter");
+    const catChecks = checked("categoryFilter");
+    const ratingChecks = checked("ratingFilter");
+    const min = Number(document.getElementById("minPrice")?.value || 0);
+    const max = Number(document.getElementById("maxPrice")?.value || 0);
+    const query = (document.getElementById("productSearch")?.value || "").toLowerCase().trim();
+    const sort = document.getElementById("sortProducts")?.value || state?.sort || "featured";
+
+    if (fixedBrand) list = list.filter(p => p.brand === fixedBrand);
+    else if (brandChecks.length) list = list.filter(p => brandChecks.includes(p.brand));
+    if (catChecks.length) list = list.filter(p => catChecks.includes(p.category));
+    if (ratingChecks.length) list = list.filter(p => Number(p.rating || 0) >= Number(ratingChecks[0]));
+    if (min) list = list.filter(p => Number(p.price) >= min);
+    if (max) list = list.filter(p => Number(p.price) <= max);
+    if (query) list = list.filter(p => `${p.name} ${p.brand} ${p.category} ${p.description || ""} ${(p.features || []).join(" ")}`.toLowerCase().includes(query));
+
+    if (sort === "price-low") list.sort((a, b) => Number(a.price) - Number(b.price));
+    if (sort === "price-high") list.sort((a, b) => Number(b.price) - Number(a.price));
+    if (sort === "rating") list.sort((a, b) => Number(b.rating || 0) - Number(a.rating || 0));
+    return forHome ? list.slice(0, 8) : list;
+  }
+  function forceRenderProducts() {
+    const brandGrid = document.getElementById("brandProductGrid");
+    if (brandGrid) {
+      const list = filteredProducts(false);
+      brandGrid.innerHTML = list.map(ttwCard).join("");
+      const note = document.getElementById("filterNote");
+      if (note) note.textContent = `Showing ${list.length} ${list.length === 1 ? "product" : "products"}`;
+      const empty = brandGrid.parentElement?.querySelector(".empty-state") || document.querySelector(".empty-state");
+      if (empty) empty.hidden = list.length > 0;
+    }
+    const homeGrid = document.getElementById("homeProductGrid");
+    if (homeGrid) {
+      const list = filteredProducts(true);
+      homeGrid.innerHTML = list.map(ttwCard).join("");
+    }
+  }
+  function bindForceFilters() {
+    ["brandFilter", "categoryFilter", "ratingFilter"].forEach(name => {
+      document.querySelectorAll(`input[name="${name}"]`).forEach(el => {
+        if (!el.dataset.finalBound) {
+          el.dataset.finalBound = "true";
+          el.addEventListener("change", forceRenderProducts);
+        }
+      });
+    });
+    ["minPrice", "maxPrice", "productSearch", "sortProducts"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el && !el.dataset.finalBound) {
+        el.dataset.finalBound = "true";
+        el.addEventListener("input", forceRenderProducts);
+        el.addEventListener("change", forceRenderProducts);
+      }
+    });
+    const reset = document.getElementById("resetFilters");
+    if (reset && !reset.dataset.finalBound) {
+      reset.dataset.finalBound = "true";
+      reset.addEventListener("click", () => setTimeout(forceRenderProducts, 0));
+    }
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    bindForceFilters();
+    forceRenderProducts();
+    setTimeout(forceRenderProducts, 250);
+    setTimeout(forceRenderProducts, 750);
+  });
+})();
+
+
+/* Visible products final patch */
+(function () {
+  function renderVisibleProductPages() {
+    if (typeof forceRenderProducts === "function") {
+      forceRenderProducts();
+    }
+    document.querySelectorAll(".reveal").forEach(el => el.classList.add("visible"));
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    renderVisibleProductPages();
+    setTimeout(renderVisibleProductPages, 100);
+    setTimeout(renderVisibleProductPages, 500);
+  });
+})();
+
+
+/* Customize page: branded product dropdowns for each category */
+(function () {
+  const categoryMap = {
+    blades: { label: "Blade", productCategory: "blades", fallbackBrand: "joola" },
+    forehandRubbers: { label: "Forehand rubber", productCategory: "rubbers", fallbackBrand: "joola" },
+    backhandRubbers: { label: "Backhand rubber", productCategory: "rubbers", fallbackBrand: "joola" },
+    addons: { label: "Optional accessory", productCategory: "accessories", fallbackBrand: "joola" }
+  };
+
+  function builderProducts() {
+    const base = Array.isArray(window.seedProducts)
+      ? window.seedProducts
+      : (typeof seedProducts !== "undefined" ? seedProducts : []);
+
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("table-tennis-wala-admin-products") || localStorage.getItem("spinhaus-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+
+    return [...base, ...admin];
+  }
+
+  function titleCase(value) {
+    return String(value || "")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function money(value) {
+    return new Intl.NumberFormat("en-IN", {
+      style: "currency",
+      currency: "INR",
+      maximumFractionDigits: 0
+    }).format(Number(value || 0));
+  }
+
+  function getProductsForSlot(slotKey) {
+    const config = categoryMap[slotKey];
+    if (!config) return [];
+    return builderProducts().filter(product => product.category === config.productCategory);
+  }
+
+  function populateBrandDropdown(slotKey) {
+    const brandSelect = document.querySelector(`[data-brand-select="${slotKey}"]`);
+    if (!brandSelect) return;
+
+    const products = getProductsForSlot(slotKey);
+    const brands = [...new Set(products.map(product => product.brand).filter(Boolean))];
+    const config = categoryMap[slotKey];
+
+    brandSelect.innerHTML = brands.map(brand => `<option value="${brand}">${titleCase(brand)}</option>`).join("");
+    if (brands.includes(config.fallbackBrand)) brandSelect.value = config.fallbackBrand;
+    else if (brands[0]) brandSelect.value = brands[0];
+
+    populateProductDropdown(slotKey);
+  }
+
+  function populateProductDropdown(slotKey) {
+    const brandSelect = document.querySelector(`[data-brand-select="${slotKey}"]`);
+    const productSelect = document.querySelector(`[data-product-select="${slotKey}"]`);
+    if (!brandSelect || !productSelect) return;
+
+    const products = getProductsForSlot(slotKey).filter(product => product.brand === brandSelect.value);
+
+    productSelect.innerHTML = products.length
+      ? products.map(product => `<option value="${product.id}">${product.name} — ${money(product.price)}</option>`).join("")
+      : `<option value="">No products available</option>`;
+
+    updateSelectedBrandProductSummary();
+    if (typeof updateBuilder === "function") updateBuilder();
+  }
+
+  function getSelectedBrandProduct(slotKey) {
+    const productSelect = document.querySelector(`[data-product-select="${slotKey}"]`);
+    if (!productSelect || !productSelect.value) return null;
+    return builderProducts().find(product => String(product.id) === String(productSelect.value)) || null;
+  }
+
+  window.getSelectedBrandBuilderProducts = function () {
+    return Object.keys(categoryMap).reduce((selected, key) => {
+      selected[key] = getSelectedBrandProduct(key);
+      return selected;
+    }, {});
+  };
+
+  window.getSelectedBrandBuilderProductsTotal = function () {
+    const selected = window.getSelectedBrandBuilderProducts ? window.getSelectedBrandBuilderProducts() : {};
+    return Object.values(selected).reduce((sum, product) => sum + (product ? Number(product.price || 0) : 0), 0);
+  };
+
+  function updateSelectedBrandProductSummary() {
+    const wrapper = document.getElementById("selectedBrandProductLines");
+    if (!wrapper) return;
+
+    const selected = window.getSelectedBrandBuilderProducts();
+    wrapper.innerHTML = Object.entries(categoryMap).map(([slotKey, config]) => {
+      const product = selected[slotKey];
+      if (!product) {
+        return `<div class="selected-brand-line"><span>${config.label}</span><strong>No product selected</strong></div>`;
+      }
+      return `<div class="selected-brand-line">
+        <span>${config.label}</span>
+        <strong>${product.name}<small>${titleCase(product.brand)} • ${money(product.price)}</small></strong>
+      </div>`;
+    }).join("");
+  }
+
+  function enhanceExistingBuilderPricing() {
+    if (window.__brandBuilderPricingEnhanced) return;
+    window.__brandBuilderPricingEnhanced = true;
+
+    const originalGetBuild = window.getBuild;
+    if (typeof originalGetBuild === "function") {
+      window.getBuild = function () {
+        const build = originalGetBuild();
+        const branded = window.getSelectedBrandBuilderProducts ? window.getSelectedBrandBuilderProducts() : {};
+        const brandedTotal = window.getSelectedBrandBuilderProductsTotal ? window.getSelectedBrandBuilderProductsTotal() : 0;
+        build.brandedProducts = branded;
+        build.brandedProductsTotal = brandedTotal;
+        build.total = Number(build.total || 0) + brandedTotal;
+        return build;
+      };
+    }
+
+    const originalAddToCart = document.getElementById("addCustomBuild");
+    if (originalAddToCart && !originalAddToCart.dataset.brandDropdownEnhanced) {
+      originalAddToCart.dataset.brandDropdownEnhanced = "true";
+      originalAddToCart.addEventListener("click", () => {
+        setTimeout(() => {
+          const cart = JSON.parse(localStorage.getItem("spinhaus-cart-v2") || "[]");
+          const latest = cart[cart.length - 1];
+          if (!latest) return;
+          const selected = window.getSelectedBrandBuilderProducts ? window.getSelectedBrandBuilderProducts() : {};
+          const detailLines = Object.entries(categoryMap)
+            .map(([slotKey, config]) => selected[slotKey] ? `${config.label}: ${selected[slotKey].name}` : "")
+            .filter(Boolean);
+
+          if (detailLines.length && !String(latest.details || "").includes("Selected branded products")) {
+            latest.details = `${latest.details || ""}<br><br><strong>Selected branded products</strong><br>${detailLines.join("<br>")}`;
+            localStorage.setItem("spinhaus-cart-v2", JSON.stringify(cart));
+          }
+        }, 50);
+      }, true);
+    }
+  }
+
+  function patchBuildSummaryForBrandProducts() {
+    const originalUpdate = window.updateBuilder;
+    if (typeof originalUpdate !== "function" || window.__brandBuilderSummaryPatched) return;
+    window.__brandBuilderSummaryPatched = true;
+
+    window.updateBuilder = function () {
+      originalUpdate();
+      const summaryLines = document.getElementById("buildSummaryLines");
+      const summaryTotal = document.getElementById("summaryTotal");
+      const builderTotal = document.getElementById("builderTotal");
+      if (!summaryLines) return;
+
+      const selected = window.getSelectedBrandBuilderProducts ? window.getSelectedBrandBuilderProducts() : {};
+      const brandedTotal = window.getSelectedBrandBuilderProductsTotal ? window.getSelectedBrandBuilderProductsTotal() : 0;
+
+      if (!summaryLines.querySelector(".brand-product-summary-block")) {
+        const block = document.createElement("div");
+        block.className = "brand-product-summary-block";
+        summaryLines.appendChild(block);
+      }
+
+      const block = summaryLines.querySelector(".brand-product-summary-block");
+      block.innerHTML = Object.entries(categoryMap).map(([slotKey, config]) => {
+        const product = selected[slotKey];
+        if (!product) return "";
+        return `<div class="summary-line brand-product-summary-line">
+          <span>${config.label} product</span>
+          <strong>${product.name}<br>${money(product.price)}</strong>
+        </div>`;
+      }).join("");
+
+      const currentText = (summaryTotal?.textContent || "₹0").replace(/[^\d]/g, "");
+      const currentTotal = Number(currentText || 0);
+      const displayedAlreadyIncludes = summaryLines.dataset.brandedTotal === String(brandedTotal);
+      if (!displayedAlreadyIncludes && brandedTotal) {
+        const total = currentTotal + brandedTotal;
+        if (summaryTotal) summaryTotal.textContent = money(total);
+        if (builderTotal) builderTotal.textContent = money(total);
+        summaryLines.dataset.brandedTotal = String(brandedTotal);
+      }
+    };
+  }
+
+  function initBrandProductDropdowns() {
+    if (!document.getElementById("brandProductSelectors")) return;
+
+    Object.keys(categoryMap).forEach(slotKey => {
+      populateBrandDropdown(slotKey);
+
+      const brandSelect = document.querySelector(`[data-brand-select="${slotKey}"]`);
+      const productSelect = document.querySelector(`[data-product-select="${slotKey}"]`);
+
+      brandSelect?.addEventListener("change", () => populateProductDropdown(slotKey));
+      productSelect?.addEventListener("change", () => {
+        updateSelectedBrandProductSummary();
+        if (typeof updateBuilder === "function") updateBuilder();
+      });
+    });
+
+    enhanceExistingBuilderPricing();
+    patchBuildSummaryForBrandProducts();
+    updateSelectedBrandProductSummary();
+    setTimeout(() => {
+      if (typeof updateBuilder === "function") updateBuilder();
+    }, 150);
+  }
+
+  document.addEventListener("DOMContentLoaded", initBrandProductDropdowns);
+})();
+
+
+/* Final Customize Studio: brand-first dropdown builder */
+(function () {
+  const studioSlots = {
+    blade: { label: "Blade", category: "blades", fallbackBrand: "joola", optional: false },
+    forehand: { label: "Forehand rubber", category: "rubbers", fallbackBrand: "joola", optional: false },
+    backhand: { label: "Backhand rubber", category: "rubbers", fallbackBrand: "joola", optional: false },
+    accessory: { label: "Add-on product", category: "accessories", fallbackBrand: "joola", optional: true }
+  };
+
+  function studioProducts() {
+    let products = [];
+    try {
+      if (typeof getProducts === "function") products = getProducts();
+      else if (Array.isArray(window.seedProducts)) products = window.seedProducts;
+      else if (typeof seedProducts !== "undefined") products = seedProducts;
+    } catch (error) {
+      products = [];
+    }
+    return products.filter(Boolean);
+  }
+
+  function studioMoney(value) {
+    return new Intl.NumberFormat("en-IN", {
+      style: "currency",
+      currency: "INR",
+      maximumFractionDigits: 0
+    }).format(Number(value || 0));
+  }
+
+  function studioTitle(value) {
+    return String(value || "")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function getSlotProducts(slotKey) {
+    const slot = studioSlots[slotKey];
+    if (!slot) return [];
+    return studioProducts().filter(product => product.category === slot.category);
+  }
+
+  function populateStudioBrands(slotKey) {
+    const slot = studioSlots[slotKey];
+    const brandSelect = document.querySelector(`[data-studio-brand="${slotKey}"]`);
+    if (!slot || !brandSelect) return;
+
+    const products = getSlotProducts(slotKey);
+    const brands = [...new Set(products.map(product => product.brand).filter(Boolean))];
+
+    brandSelect.innerHTML = brands.map(brand => `<option value="${brand}">${studioTitle(brand)}</option>`).join("");
+    if (brands.includes(slot.fallbackBrand)) brandSelect.value = slot.fallbackBrand;
+    else if (brands.length) brandSelect.value = brands[0];
+
+    populateStudioProducts(slotKey);
+  }
+
+  function populateStudioProducts(slotKey) {
+    const slot = studioSlots[slotKey];
+    const brandSelect = document.querySelector(`[data-studio-brand="${slotKey}"]`);
+    const productSelect = document.querySelector(`[data-studio-product="${slotKey}"]`);
+    if (!slot || !brandSelect || !productSelect) return;
+
+    const products = getSlotProducts(slotKey).filter(product => product.brand === brandSelect.value);
+
+    const optionalFirst = slot.optional ? `<option value="">No add-on product — ₹0</option>` : "";
+    productSelect.innerHTML = optionalFirst + products.map(product => {
+      return `<option value="${product.id}">${product.name} — ${studioMoney(product.price)}</option>`;
+    }).join("");
+
+    updateStudioSummary();
+  }
+
+  function findStudioProduct(id) {
+    if (!id) return null;
+    return studioProducts().find(product => String(product.id) === String(id)) || null;
+  }
+
+  function getStudioSelection() {
+    const selection = {};
+    Object.keys(studioSlots).forEach(slotKey => {
+      const productId = document.querySelector(`[data-studio-product="${slotKey}"]`)?.value || "";
+      selection[slotKey] = findStudioProduct(productId);
+    });
+
+    const serviceSelect = document.getElementById("studioAssemblyService");
+    const serviceOption = serviceSelect?.selectedOptions?.[0];
+    selection.service = {
+      name: serviceOption?.dataset?.name || "Standard assembly",
+      price: Number(serviceSelect?.value || 0)
+    };
+
+    selection.forehandColour = document.querySelector('input[name="studioForehandColour"]:checked')?.value || "Red";
+    selection.backhandColour = document.querySelector('input[name="studioBackhandColour"]:checked')?.value || "Black";
+
+    selection.total =
+      Number(selection.blade?.price || 0) +
+      Number(selection.forehand?.price || 0) +
+      Number(selection.backhand?.price || 0) +
+      Number(selection.accessory?.price || 0) +
+      Number(selection.service.price || 0);
+
+    return selection;
+  }
+
+  function studioLine(label, product, extra) {
+    if (!product) {
+      return `<div class="studio-summary-line"><span>${label}</span><strong>Not selected<small>₹0</small></strong></div>`;
+    }
+
+    return `<div class="studio-summary-line">
+      <span>${label}</span>
+      <strong>${product.name}${extra ? `<em>${extra}</em>` : ""}<small>${studioTitle(product.brand)} • ${studioMoney(product.price)}</small></strong>
+    </div>`;
+  }
+
+  function updateStudioSummary() {
+    const lines = document.getElementById("studioSummaryLines");
+    const total = document.getElementById("studioTotal");
+    const heroTotal = document.getElementById("studioHeroTotal");
+    if (!lines) return;
+
+    const build = getStudioSelection();
+    lines.innerHTML = [
+      studioLine("Blade", build.blade),
+      studioLine("Forehand rubber", build.forehand, build.forehandColour),
+      studioLine("Backhand rubber", build.backhand, build.backhandColour),
+      studioLine("Add-on", build.accessory),
+      `<div class="studio-summary-line"><span>Assembly</span><strong>${build.service.name}<small>${studioMoney(build.service.price)}</small></strong></div>`
+    ].join("");
+
+    if (total) total.textContent = studioMoney(build.total);
+    if (heroTotal) heroTotal.textContent = studioMoney(build.total);
+
+    const redFace = document.querySelector(".studio-face-red");
+    const blackFace = document.querySelector(".studio-face-black");
+    if (redFace) redFace.style.background = build.forehandColour === "Red" ? "#d8312b" : "#111311";
+    if (blackFace) blackFace.style.background = build.backhandColour === "Red" ? "#d8312b" : "#111311";
+  }
+
+  function initStudioBuilder() {
+    if (!document.getElementById("racketStudioForm")) return;
+
+    Object.keys(studioSlots).forEach(slotKey => {
+      populateStudioBrands(slotKey);
+
+      const brandSelect = document.querySelector(`[data-studio-brand="${slotKey}"]`);
+      const productSelect = document.querySelector(`[data-studio-product="${slotKey}"]`);
+
+      brandSelect?.addEventListener("change", () => populateStudioProducts(slotKey));
+      productSelect?.addEventListener("change", updateStudioSummary);
+    });
+
+    document.querySelectorAll('input[name="studioForehandColour"], input[name="studioBackhandColour"]').forEach(input => {
+      input.addEventListener("change", updateStudioSummary);
+    });
+
+    document.getElementById("studioAssemblyService")?.addEventListener("change", updateStudioSummary);
+
+    document.getElementById("addStudioBuild")?.addEventListener("click", () => {
+      const build = getStudioSelection();
+
+      if (!build.blade || !build.forehand || !build.backhand) {
+        if (typeof showToast === "function") showToast("Please select blade and both rubbers");
+        else alert("Please select blade and both rubbers");
+        return;
+      }
+
+      const detailLines = [
+        `Blade: ${build.blade.name}`,
+        `Forehand: ${build.forehand.name} (${build.forehandColour})`,
+        `Backhand: ${build.backhand.name} (${build.backhandColour})`,
+        build.accessory ? `Add-on: ${build.accessory.name}` : "Add-on: None",
+        `Assembly: ${build.service.name}`
+      ];
+
+      const cartItem = {
+        id: `custom-studio-${Date.now()}`,
+        name: "Custom Table Tennis Racket Build",
+        brand: "custom",
+        category: "rackets",
+        price: build.total,
+        color: "#d7ff3f",
+        details: detailLines.join("<br>"),
+        custom: true
+      };
+
+      if (typeof addToCart === "function") addToCart(cartItem);
+      else {
+        const cart = JSON.parse(localStorage.getItem("ttw-cart-v3") || "[]");
+        cart.push({ ...cartItem, quantity: 1 });
+        localStorage.setItem("ttw-cart-v3", JSON.stringify(cart));
+      }
+
+      if (typeof openCart === "function") openCart();
+    });
+
+    updateStudioSummary();
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    initStudioBuilder();
+    setTimeout(updateStudioSummary, 250);
+  });
+})();
+
+
+/* Final Studio v2: multi-select Extra Accessories + cleaner dropdown UI */
+(function () {
+  const slotConfig = {
+    blade: { label: "Blade", category: "blades", fallbackBrand: "joola" },
+    forehand: { label: "Forehand rubber", category: "rubbers", fallbackBrand: "joola" },
+    backhand: { label: "Backhand rubber", category: "rubbers", fallbackBrand: "joola" }
+  };
+
+  const accessoryCategories = ["accessories", "balls", "footwear"];
+
+  function productsSource() {
+    try {
+      if (typeof getProducts === "function") return getProducts();
+      if (Array.isArray(window.seedProducts)) return window.seedProducts;
+      if (typeof seedProducts !== "undefined") return seedProducts;
+    } catch (error) {}
+    return [];
+  }
+
+  function titleCase(value) {
+    return String(value || "")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function money(value) {
+    return new Intl.NumberFormat("en-IN", {
+      style: "currency",
+      currency: "INR",
+      maximumFractionDigits: 0
+    }).format(Number(value || 0));
+  }
+
+  function slotProducts(slotKey) {
+    const config = slotConfig[slotKey];
+    if (!config) return [];
+    return productsSource().filter(product => product.category === config.category);
+  }
+
+  function accessoryProducts() {
+    return productsSource().filter(product => accessoryCategories.includes(product.category));
+  }
+
+  function findProduct(id) {
+    return productsSource().find(product => String(product.id) === String(id)) || null;
+  }
+
+  function productThumb(product) {
+    if (product?.image) {
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.style.display='none'">`;
+    }
+    return `<div class="studio-accessory-fallback">${String(product?.name || "TT").slice(0, 2).toUpperCase()}</div>`;
+  }
+
+  function populateSlotBrands(slotKey) {
+    const config = slotConfig[slotKey];
+    const brandSelect = document.querySelector(`[data-studio-brand="${slotKey}"]`);
+    if (!config || !brandSelect) return;
+
+    const brands = [...new Set(slotProducts(slotKey).map(product => product.brand).filter(Boolean))];
+    brandSelect.innerHTML = brands.map(brand => `<option value="${brand}">${titleCase(brand)}</option>`).join("");
+    if (brands.includes(config.fallbackBrand)) brandSelect.value = config.fallbackBrand;
+    else if (brands.length) brandSelect.value = brands[0];
+
+    populateSlotProducts(slotKey);
+  }
+
+  function populateSlotProducts(slotKey) {
+    const brandSelect = document.querySelector(`[data-studio-brand="${slotKey}"]`);
+    const productSelect = document.querySelector(`[data-studio-product="${slotKey}"]`);
+    if (!brandSelect || !productSelect) return;
+
+    const products = slotProducts(slotKey).filter(product => product.brand === brandSelect.value);
+    productSelect.innerHTML = products.map(product => {
+      return `<option value="${product.id}">${product.name} — ${money(product.price)}</option>`;
+    }).join("");
+
+    updateStudioV2Summary();
+  }
+
+  function populateAccessoryBrands() {
+    const brandSelect = document.querySelector('[data-studio-brand="accessory"]');
+    if (!brandSelect) return;
+
+    const brands = [...new Set(accessoryProducts().map(product => product.brand).filter(Boolean))];
+    brandSelect.innerHTML = `<option value="all">All brands</option>` + brands.map(brand => `<option value="${brand}">${titleCase(brand)}</option>`).join("");
+    if (brands.includes("joola")) brandSelect.value = "joola";
+    renderAccessoryGrid();
+  }
+
+  function selectedAccessoryIds() {
+    return [...document.querySelectorAll(".studio-accessory-check:checked")].map(input => input.value);
+  }
+
+  function renderAccessoryGrid() {
+    const grid = document.getElementById("studioAccessoryGrid");
+    if (!grid) return;
+
+    const activeIds = new Set(selectedAccessoryIds());
+    const brand = document.querySelector('[data-studio-brand="accessory"]')?.value || "all";
+    const query = document.getElementById("studioAccessorySearch")?.value?.trim().toLowerCase() || "";
+
+    let list = accessoryProducts();
+
+    if (brand !== "all") list = list.filter(product => product.brand === brand);
+    if (query) {
+      list = list.filter(product =>
+        String(product.name || "").toLowerCase().includes(query) ||
+        String(product.category || "").toLowerCase().includes(query) ||
+        String(product.badge || "").toLowerCase().includes(query)
+      );
+    }
+
+    list = list.slice(0, 6);
+
+    grid.innerHTML = list.length ? list.map(product => `
+      <label class="studio-accessory-option">
+        <input class="studio-accessory-check" type="checkbox" value="${product.id}" ${activeIds.has(String(product.id)) ? "checked" : ""}>
+        <span class="studio-accessory-image">${productThumb(product)}</span>
+        <span class="studio-accessory-info">
+          <b>${product.name}</b>
+          <small>${titleCase(product.brand)} • ${titleCase(product.category)}</small>
+        </span>
+        <strong>${money(product.price)}</strong>
+      </label>
+    `).join("") : `<div class="studio-accessory-empty">No accessories found for this filter.</div>`;
+
+    grid.querySelectorAll(".studio-accessory-check").forEach(input => {
+      input.addEventListener("change", updateStudioV2Summary);
+    });
+
+    updateStudioV2Summary();
+  }
+
+  function getStudioV2Build() {
+    const build = {};
+
+    Object.keys(slotConfig).forEach(slotKey => {
+      const id = document.querySelector(`[data-studio-product="${slotKey}"]`)?.value || "";
+      build[slotKey] = findProduct(id);
+    });
+
+    build.accessories = selectedAccessoryIds().map(findProduct).filter(Boolean);
+
+    const serviceSelect = document.getElementById("studioAssemblyService");
+    const selectedService = serviceSelect?.selectedOptions?.[0];
+    build.service = {
+      name: selectedService?.dataset?.name || selectedService?.textContent?.split("—")[0]?.trim() || "Standard assembly",
+      price: Number(serviceSelect?.value || 0)
+    };
+
+    build.forehandColour = document.querySelector('input[name="studioForehandColour"]:checked')?.value || "Red";
+    build.backhandColour = document.querySelector('input[name="studioBackhandColour"]:checked')?.value || "Black";
+
+    build.accessoryTotal = build.accessories.reduce((sum, product) => sum + Number(product.price || 0), 0);
+    build.total =
+      Number(build.blade?.price || 0) +
+      Number(build.forehand?.price || 0) +
+      Number(build.backhand?.price || 0) +
+      build.accessoryTotal +
+      Number(build.service.price || 0);
+
+    return build;
+  }
+
+  function line(label, product, extra) {
+    if (!product) {
+      return `<div class="studio-summary-line"><span>${label}</span><strong>Not selected<small>₹0</small></strong></div>`;
+    }
+
+    return `<div class="studio-summary-line">
+      <span>${label}</span>
+      <strong>${product.name}${extra ? `<em>${extra}</em>` : ""}<small>${titleCase(product.brand)} • ${money(product.price)}</small></strong>
+    </div>`;
+  }
+
+  function accessoriesLine(accessories) {
+    if (!accessories.length) {
+      return `<div class="studio-summary-line"><span>Extra accessories</span><strong>None selected<small>₹0</small></strong></div>`;
+    }
+
+    const names = accessories.map(product => product.name).join(", ");
+    const total = accessories.reduce((sum, product) => sum + Number(product.price || 0), 0);
+
+    return `<div class="studio-summary-line">
+      <span>Extra accessories</span>
+      <strong>${names}<small>${accessories.length} selected • ${money(total)}</small></strong>
+    </div>`;
+  }
+
+  function updateStudioV2Summary() {
+    const lines = document.getElementById("studioSummaryLines");
+    const total = document.getElementById("studioTotal");
+    const heroTotal = document.getElementById("studioHeroTotal");
+    if (!lines) return;
+
+    const build = getStudioV2Build();
+
+    lines.innerHTML = [
+      line("Blade", build.blade),
+      line("Forehand rubber", build.forehand, build.forehandColour),
+      line("Backhand rubber", build.backhand, build.backhandColour),
+      accessoriesLine(build.accessories),
+      `<div class="studio-summary-line"><span>Assembly</span><strong>${build.service.name}<small>${money(build.service.price)}</small></strong></div>`
+    ].join("");
+
+    if (total) total.textContent = money(build.total);
+    if (heroTotal) heroTotal.textContent = money(build.total);
+
+    const forehandFace = document.querySelector(".studio-face-red");
+    const backhandFace = document.querySelector(".studio-face-black");
+    if (forehandFace) forehandFace.style.background = build.forehandColour === "Red" ? "#d8312b" : "#111311";
+    if (backhandFace) backhandFace.style.background = build.backhandColour === "Red" ? "#d8312b" : "#111311";
+  }
+
+  function addStudioV2ToCart() {
+    const build = getStudioV2Build();
+
+    if (!build.blade || !build.forehand || !build.backhand) {
+      if (typeof showToast === "function") showToast("Please select blade and both rubbers");
+      else alert("Please select blade and both rubbers");
+      return;
+    }
+
+    const details = [
+      `Blade: ${build.blade.name}`,
+      `Forehand: ${build.forehand.name} (${build.forehandColour})`,
+      `Backhand: ${build.backhand.name} (${build.backhandColour})`,
+      build.accessories.length ? `Extra accessories: ${build.accessories.map(product => product.name).join(", ")}` : "Extra accessories: None",
+      `Assembly: ${build.service.name}`
+    ].join("<br>");
+
+    const item = {
+      id: `custom-studio-v2-${Date.now()}`,
+      name: "Custom Table Tennis Racket Build",
+      brand: "custom",
+      category: "rackets",
+      price: build.total,
+      color: "#d7ff3f",
+      details,
+      custom: true
+    };
+
+    if (typeof addToCart === "function") addToCart(item);
+    else {
+      const cart = JSON.parse(localStorage.getItem("spinhaus-cart-v2") || "[]");
+      cart.push({ ...item, quantity: 1 });
+      localStorage.setItem("spinhaus-cart-v2", JSON.stringify(cart));
+    }
+
+    if (typeof openCart === "function") openCart();
+  }
+
+  function initStudioV2() {
+    if (!document.getElementById("racketStudioForm")) return;
+
+    Object.keys(slotConfig).forEach(slotKey => {
+      populateSlotBrands(slotKey);
+
+      document.querySelector(`[data-studio-brand="${slotKey}"]`)?.addEventListener("change", () => populateSlotProducts(slotKey));
+      document.querySelector(`[data-studio-product="${slotKey}"]`)?.addEventListener("change", updateStudioV2Summary);
+    });
+
+    populateAccessoryBrands();
+
+    document.querySelector('[data-studio-brand="accessory"]')?.addEventListener("change", renderAccessoryGrid);
+    document.getElementById("studioAccessorySearch")?.addEventListener("input", renderAccessoryGrid);
+    document.getElementById("studioAssemblyService")?.addEventListener("change", updateStudioV2Summary);
+
+    document.querySelectorAll('input[name="studioForehandColour"], input[name="studioBackhandColour"]').forEach(input => {
+      input.addEventListener("change", updateStudioV2Summary);
+    });
+
+    const addButton = document.getElementById("addStudioBuild");
+    if (addButton && !addButton.dataset.v2Bound) {
+      addButton.dataset.v2Bound = "true";
+      addButton.addEventListener("click", event => {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        addStudioV2ToCart();
+      }, true);
+    }
+
+    updateStudioV2Summary();
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(initStudioV2, 0);
+    setTimeout(updateStudioV2Summary, 300);
+  });
+})();
+
+
+/* Final Customize UI polish: replace native dropdowns with clean custom dropdowns */
+(function () {
+  function moneyFromText(text) {
+    return String(text || "").replace("—", "<span>—</span>");
+  }
+
+  function closeAllCustomDropdowns(except) {
+    document.querySelectorAll(".ttw-custom-select.open").forEach(dropdown => {
+      if (dropdown !== except) dropdown.classList.remove("open");
+    });
+  }
+
+  function buildCustomSelect(select) {
+    if (!select || select.dataset.customSelectReady === "true") return;
+
+    select.dataset.customSelectReady = "true";
+    select.classList.add("ttw-native-select-hidden");
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "ttw-custom-select";
+    wrapper.dataset.forSelect = select.getAttribute("data-studio-product") || select.getAttribute("data-studio-brand") || select.id || "select";
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "ttw-custom-select-button";
+    button.innerHTML = `<span class="ttw-selected-main">Select option</span><span class="ttw-select-arrow">⌄</span>`;
+
+    const panel = document.createElement("div");
+    panel.className = "ttw-custom-select-panel";
+
+    wrapper.appendChild(button);
+    wrapper.appendChild(panel);
+    select.insertAdjacentElement("afterend", wrapper);
+
+    function refresh() {
+      const selectedOption = select.options[select.selectedIndex] || select.options[0];
+      const selectedText = selectedOption ? selectedOption.textContent : "Select option";
+      button.querySelector(".ttw-selected-main").innerHTML = moneyFromText(selectedText);
+
+      panel.innerHTML = "";
+      [...select.options].forEach(option => {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "ttw-custom-option";
+        if (option.value === select.value) item.classList.add("active");
+        item.dataset.value = option.value;
+
+        const rawText = option.textContent || "";
+        const parts = rawText.split("—");
+        const name = parts[0]?.trim() || rawText;
+        const price = parts.slice(1).join("—").trim();
+
+        item.innerHTML = `
+          <span class="ttw-option-name">${name}</span>
+          ${price ? `<span class="ttw-option-price">${price}</span>` : ""}
+        `;
+
+        item.addEventListener("click", event => {
+          event.preventDefault();
+          select.value = option.value;
+          select.dispatchEvent(new Event("change", { bubbles: true }));
+          wrapper.classList.remove("open");
+          refresh();
+        });
+
+        panel.appendChild(item);
+      });
+    }
+
+    button.addEventListener("click", event => {
+      event.preventDefault();
+      const willOpen = !wrapper.classList.contains("open");
+      closeAllCustomDropdowns(wrapper);
+      wrapper.classList.toggle("open", willOpen);
+    });
+
+    select.addEventListener("change", refresh);
+
+    const observer = new MutationObserver(refresh);
+    observer.observe(select, { childList: true, subtree: true, attributes: true });
+
+    refresh();
+  }
+
+  function initCustomizeCustomDropdowns() {
+    if (!document.getElementById("racketStudioForm")) return;
+
+    document.querySelectorAll(
+      ".studio-select-grid select, .studio-service-card select, .studio-accessory-toolbar select"
+    ).forEach(buildCustomSelect);
+  }
+
+  document.addEventListener("click", event => {
+    if (!event.target.closest(".ttw-custom-select")) closeAllCustomDropdowns();
+  });
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeAllCustomDropdowns();
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(initCustomizeCustomDropdowns, 80);
+    setTimeout(initCustomizeCustomDropdowns, 450);
+    setTimeout(initCustomizeCustomDropdowns, 1000);
+  });
+})();
+
+
+// Final safety: prevent accidental horizontal scroll on Customize page
+document.addEventListener("DOMContentLoaded", () => {
+  if (document.body?.dataset?.page === "customize") {
+    const resetX = () => {
+      if (window.scrollX !== 0) window.scrollTo(0, window.scrollY);
+      document.documentElement.scrollLeft = 0;
+      document.body.scrollLeft = 0;
+    };
+    resetX();
+    setTimeout(resetX, 100);
+    setTimeout(resetX, 600);
+  }
+});
+
+
+
+
+/* Safe Save Filter system: no global event blocking, so all buttons keep working */
+(function () {
+  const savedState = new WeakMap();
+
+  function isFilterPanel(root) {
+    if (!root || root.classList?.contains("cart-drawer") || root.closest?.(".cart-drawer")) return false;
+    const text = (root.textContent || "").toLowerCase();
+    return (
+      text.includes("filters") ||
+      text.includes("brands") ||
+      text.includes("categories") ||
+      root.querySelector?.("input[type='checkbox'], input[type='number'], select")
+    );
+  }
+
+  function getFilterPanels() {
+    return [...document.querySelectorAll(".filters, .filter-panel, .catalog-sidebar, .product-filters, .fixed-product-filters")]
+      .filter(isFilterPanel);
+  }
+
+  function filterKey(control) {
+    if (control.id) return "#" + control.id;
+    if (control.name) return "[name='" + control.name + "']";
+    return `${control.tagName}-${control.type || ""}-${[...control.parentElement.querySelectorAll(control.tagName)].indexOf(control)}`;
+  }
+
+  function readState(root) {
+    const state = {};
+    root.querySelectorAll("input, select").forEach(control => {
+      if (control.closest(".save-filter-actions")) return;
+      const key = filterKey(control);
+      state[key] = (control.type === "checkbox" || control.type === "radio") ? control.checked : control.value;
+    });
+    return state;
+  }
+
+  function writeState(root, state) {
+    root.querySelectorAll("input, select").forEach(control => {
+      if (control.closest(".save-filter-actions")) return;
+      const key = filterKey(control);
+      if (!(key in state)) return;
+      if (control.type === "checkbox" || control.type === "radio") control.checked = !!state[key];
+      else control.value = state[key];
+    });
+  }
+
+  function setPending(root, pending) {
+    root.classList.toggle("has-pending-filters", pending);
+    let note = root.querySelector(".pending-filter-note");
+    if (!note) {
+      note = document.createElement("p");
+      note.className = "pending-filter-note";
+      note.textContent = "Filters changed. Click Save Filter to update products.";
+      root.appendChild(note);
+    }
+    note.hidden = !pending;
+  }
+
+  function productTarget() {
+    return document.querySelector("#productGrid, #brandProductGrid, #homeProductGrid, .catalog-results, .product-grid");
+  }
+
+  function scrollToProducts() {
+    const target = productTarget();
+    if (target) setTimeout(() => target.scrollIntoView({ behavior: "smooth", block: "start" }), 120);
+  }
+
+  function triggerExistingFilters(root) {
+    window.__allowFilterApply = true;
+    root.querySelectorAll("input, select").forEach(control => {
+      if (control.closest(".save-filter-actions")) return;
+      control.dispatchEvent(new Event("input", { bubbles: true }));
+      control.dispatchEvent(new Event("change", { bubbles: true }));
+    });
+    window.__allowFilterApply = false;
+
+    setTimeout(() => {
+      if (typeof renderProducts === "function") {
+        try { renderProducts(); } catch (error) {}
+      }
+      if (typeof forceRenderProducts === "function") {
+        try { forceRenderProducts(); } catch (error) {}
+      }
+      document.querySelectorAll(".reveal").forEach(el => el.classList.add("visible"));
+    }, 40);
+  }
+
+  function clearFilters(root) {
+    root.querySelectorAll("input, select").forEach(control => {
+      if (control.closest(".save-filter-actions")) return;
+      if (control.type === "checkbox" || control.type === "radio") control.checked = false;
+      else if (control.tagName === "SELECT") control.selectedIndex = 0;
+      else control.value = "";
+    });
+    savedState.set(root, readState(root));
+    setPending(root, false);
+    triggerExistingFilters(root);
+    scrollToProducts();
+  }
+
+  function addActions(root) {
+    if (root.dataset.safeSaveFilterReady === "true") return;
+    root.dataset.safeSaveFilterReady = "true";
+
+    const actions = document.createElement("div");
+    actions.className = "save-filter-actions";
+    actions.innerHTML = `
+      <button type="button" class="save-filter-button">Save Filter</button>
+      <button type="button" class="clear-pending-filter-button">Clear Filter</button>
+    `;
+    root.appendChild(actions);
+
+    savedState.set(root, readState(root));
+
+    root.querySelectorAll("input, select").forEach(control => {
+      if (control.closest(".save-filter-actions")) return;
+      control.addEventListener("input", () => setPending(root, true));
+      control.addEventListener("change", () => setPending(root, true));
+    });
+
+    actions.querySelector(".save-filter-button").addEventListener("click", event => {
+      event.preventDefault();
+      savedState.set(root, readState(root));
+      setPending(root, false);
+      triggerExistingFilters(root);
+      scrollToProducts();
+      if (typeof showToast === "function") showToast("Filters saved");
+    });
+
+    actions.querySelector(".clear-pending-filter-button").addEventListener("click", event => {
+      event.preventDefault();
+      clearFilters(root);
+      if (typeof showToast === "function") showToast("Filters cleared");
+    });
+  }
+
+  function initSafeSaveFilters() {
+    getFilterPanels().forEach(root => {
+      addActions(root);
+      const actions = root.querySelector(".save-filter-actions");
+      const note = root.querySelector(".pending-filter-note");
+      if (actions) root.appendChild(actions);
+      if (note) root.appendChild(note);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    initSafeSaveFilters();
+    setTimeout(initSafeSaveFilters, 250);
+    setTimeout(initSafeSaveFilters, 900);
+  });
+})();

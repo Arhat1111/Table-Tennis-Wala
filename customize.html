@@ -54,35 +54,147 @@
   </nav>
   <p>Play faster. Play smarter.</p>
 </div>
+
 <main>
-    <section class="builder-hero"><div><span class="eyebrow light">Custom racket builder</span><h1>Build a racket that matches your game.</h1><p>Choose blade ply, forehand rubber, backhand rubber and assembly type. Select red or black rubber colour directly inside each rubber section.</p></div><div class="builder-visual"><div class="builder-racket"><div class="face forehand-face"></div><div class="face backhand-face"></div><div class="builder-handle"></div></div><div class="builder-total-card"><span>Total build</span><strong id="builderTotal">₹0</strong></div></div></section>
-    <section class="builder-layout section">
-      <form class="builder-form" id="racketBuilderForm">
-        <div class="builder-group"><div class="builder-group-head"><span>01</span><h2>Blade ply</h2></div><div class="option-grid" data-option-group="blade"></div></div>
-        <div class="builder-group">
-          <div class="builder-group-head"><span>02</span><h2>Forehand rubber</h2></div>
-          <div class="rubber-inline-filter" aria-label="Forehand rubber colour filter">
-            <span>Rubber colour</span>
-            <label><input type="radio" name="forehandRubberColour" value="red" checked><b class="red-dot"></b>Red</label>
-            <label><input type="radio" name="forehandRubberColour" value="black"><b class="black-dot"></b>Black</label>
+  <section class="customize-studio-hero">
+    <div class="studio-hero-copy">
+      <span class="eyebrow light">Custom racket studio</span>
+      <h1>Build your racket from real brand products.</h1>
+      <p>Select the brand first, then choose the exact blade, forehand rubber, backhand rubber and add-on product. Your build updates live with a clean final price.</p>
+    </div>
+
+    <div class="studio-racket-card" aria-label="Custom racket visual preview">
+      <div class="studio-racket">
+        <span class="studio-face studio-face-red"></span>
+        <span class="studio-face studio-face-black"></span>
+        <span class="studio-handle"></span>
+      </div>
+      <div class="studio-floating-total">
+        <span>Total build</span>
+        <strong id="studioHeroTotal">₹0</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="customize-studio-section section">
+    <div class="studio-section-heading">
+      <div>
+        <span class="eyebrow">Choose by brand</span>
+        <h2>One setup. Four simple choices.</h2>
+      </div>
+      <p>Use dropdowns to pick products from JOOLA, Tibhar, Butterfly, Stiga and any products uploaded through the admin panel.</p>
+    </div>
+
+    <div class="customize-studio-layout">
+      <form class="racket-studio-form" id="racketStudioForm">
+        <div class="studio-selector-card" data-studio-slot="blade">
+          <div class="studio-selector-intro">
+            <span>01</span>
+            <div>
+              <h3>Blade</h3>
+              <p>Pick a branded blade as the base of your racket.</p>
+            </div>
           </div>
-          <div class="option-grid" data-option-group="forehand"></div>
-        </div>
-        <div class="builder-group">
-          <div class="builder-group-head"><span>03</span><h2>Backhand rubber</h2></div>
-          <div class="rubber-inline-filter" aria-label="Backhand rubber colour filter">
-            <span>Rubber colour</span>
-            <label><input type="radio" name="backhandRubberColour" value="red"><b class="red-dot"></b>Red</label>
-            <label><input type="radio" name="backhandRubberColour" value="black" checked><b class="black-dot"></b>Black</label>
+          <div class="studio-select-grid">
+            <label>Brand<select data-studio-brand="blade"></select></label>
+            <label>Product<select data-studio-product="blade"></select></label>
           </div>
-          <div class="option-grid" data-option-group="backhand"></div>
         </div>
-        <div class="builder-group"><div class="builder-group-head"><span>04</span><h2>Assembly</h2></div><div class="option-grid two" data-option-group="service"></div></div>
-        <div class="builder-group addon-builder-group"><div class="builder-group-head"><span>05</span><h2>Add-on products</h2></div><p class="builder-helper">Add small essentials with your custom racket. These are optional and get added to the same cart item.</p><div class="addon-product-grid" id="builderAddons"></div></div>
+
+        <div class="studio-selector-card" data-studio-slot="forehand">
+          <div class="studio-selector-intro">
+            <span>02</span>
+            <div>
+              <h3>Forehand rubber</h3>
+              <p>Choose your attacking side rubber and colour.</p>
+            </div>
+          </div>
+          <div class="studio-select-grid">
+            <label>Brand<select data-studio-brand="forehand"></select></label>
+            <label>Product<select data-studio-product="forehand"></select></label>
+          </div>
+          <div class="studio-colour-filter" aria-label="Forehand rubber colour">
+            <small>Rubber colour</small>
+            <label><input type="radio" name="studioForehandColour" value="Red" checked><b class="red-dot"></b>Red</label>
+            <label><input type="radio" name="studioForehandColour" value="Black"><b class="black-dot"></b>Black</label>
+          </div>
+        </div>
+
+        <div class="studio-selector-card" data-studio-slot="backhand">
+          <div class="studio-selector-intro">
+            <span>03</span>
+            <div>
+              <h3>Backhand rubber</h3>
+              <p>Select a rubber for control, spin or speed on the backhand side.</p>
+            </div>
+          </div>
+          <div class="studio-select-grid">
+            <label>Brand<select data-studio-brand="backhand"></select></label>
+            <label>Product<select data-studio-product="backhand"></select></label>
+          </div>
+          <div class="studio-colour-filter" aria-label="Backhand rubber colour">
+            <small>Rubber colour</small>
+            <label><input type="radio" name="studioBackhandColour" value="Red"><b class="red-dot"></b>Red</label>
+            <label><input type="radio" name="studioBackhandColour" value="Black" checked><b class="black-dot"></b>Black</label>
+          </div>
+        </div>
+
+        <div class="studio-selector-card studio-accessory-card" data-studio-slot="accessory">
+          <div class="studio-selector-intro">
+            <span>04</span>
+            <div>
+              <h3>Extra accessories</h3>
+              <p>Select one or more accessories such as cases, cleaners, balls, glue and edge tape.</p>
+            </div>
+          </div>
+
+          <div class="studio-accessory-toolbar">
+            <label>Brand
+              <select data-studio-brand="accessory"></select>
+            </label>
+            <label>Search
+              <input type="search" id="studioAccessorySearch" placeholder="Search accessories..." />
+            </label>
+          </div>
+
+          <div class="studio-accessory-grid" id="studioAccessoryGrid" aria-live="polite"></div>
+        </div>
+
+        <div class="studio-selector-card studio-service-card">
+          <div class="studio-selector-intro">
+            <span>05</span>
+            <div>
+              <h3>Assembly service</h3>
+              <p>Choose how your racket should be assembled before delivery.</p>
+            </div>
+          </div>
+          <div class="studio-select-grid one">
+            <label>Service
+              <select id="studioAssemblyService">
+                <option value="600" data-name="Standard assembly">Standard assembly — ₹600</option>
+                <option value="1600" data-name="Premium setup with case check">Premium setup with case check — ₹1,600</option>
+                <option value="0" data-name="No assembly">No assembly — ₹0</option>
+              </select>
+            </label>
+          </div>
+        </div>
       </form>
-      <aside class="build-summary"><span class="eyebrow">Configuration</span><h2>Final build</h2><div id="buildSummaryLines"></div><div class="summary-total"><span>Total price</span><strong id="summaryTotal">₹0</strong></div><button class="button primary" id="addCustomBuild">Add custom racket to cart</button><p>Final availability depends on stock. You can also include selected add-on products with the custom racket build.</p></aside>
-    </section>
-  </main>
+
+      <aside class="studio-summary-card">
+        <span class="eyebrow">Final configuration</span>
+        <h2>Your custom build</h2>
+        <div class="studio-summary-lines" id="studioSummaryLines"></div>
+        <div class="studio-total-row">
+          <span>Total price</span>
+          <strong id="studioTotal">₹0</strong>
+        </div>
+        <button class="button primary" id="addStudioBuild" type="button">Add custom build to cart</button>
+        <p>Final stock availability can be confirmed by the store before dispatch.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
   <footer class="site-footer">
   <div class="footer-brand">
     <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i></span><span>TABLE TENNIS WALA</span></a>

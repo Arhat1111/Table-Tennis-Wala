@@ -131,3 +131,35 @@ Replace the Razorpay key and WhatsApp number before publishing.
 - Mobile navbar font sizes made consistent and Products dropdown redesigned with a minimalist aesthetic.
 
 - Mobile navbar font size reduced slightly for cleaner spacing.
+
+- JOOLA product catalogue added from the provided catalogue photos with official JOOLA product images/URLs where available.
+- JOOLA page now includes rubbers, balls, accessories, cases, blades, rackets and table products from the catalogue.
+- Final fix added so products.html and joola.html always render all products correctly.
+
+- Product and JOOLA pages fixed with local visible product artwork so images load even from local file mode.
+
+- Customize page now has brand/product dropdowns for blade, forehand rubber, backhand rubber and accessory selections.
+
+- Customize section redesigned as a minimal brand-first racket studio and the old option-card builder was removed from the page.
+
+- Customize page: Add-on Product renamed to Extra Accessories, now supports multiple selectable accessories with a cleaner minimal card UI.
+
+- Native customize dropdowns replaced with minimalist custom dropdown UI; accessories area polished.
+
+- Customize page made fully responsive with no horizontal overflow; Extra Accessories limited to 6 visible products.
+
+- Customize page responsiveness rectified: no right-side blank space and no horizontal scrolling on mobile/tablet.
+
+- Customize page hard layout fix applied: one-column layout, no reserved right-side space, no horizontal overflow.
+
+- Final true fix applied for Customize mobile overflow/clipping: hero text scaled, grid remnants removed, strict width rules added.
+
+- Dropdown overlap fixed on Customize page: open dropdowns now expand in-page instead of covering the next field.
+
+- Product/filter pages now include Save Filter and Clear Changes; products update only after Save Filter is clicked.
+
+- Save Filter and Clear Filter moved to the end of filter panels; Save Filter now scrolls to the products section.
+
+- Fixed broken buttons after Save Filter patch by replacing the global event-blocking code with a safe local filter system.
+
+JS syntax check: OK
