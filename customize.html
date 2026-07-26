@@ -55,145 +55,75 @@
   <p>Play faster. Play smarter.</p>
 </div>
 
-<main>
-  <section class="customize-studio-hero">
-    <div class="studio-hero-copy">
-      <span class="eyebrow light">Custom racket studio</span>
-      <h1>Build your racket from real brand products.</h1>
-      <p>Select the brand first, then choose the exact blade, forehand rubber, backhand rubber and add-on product. Your build updates live with a clean final price.</p>
-    </div>
 
-    <div class="studio-racket-card" aria-label="Custom racket visual preview">
-      <div class="studio-racket">
-        <span class="studio-face studio-face-red"></span>
-        <span class="studio-face studio-face-black"></span>
-        <span class="studio-handle"></span>
-      </div>
-      <div class="studio-floating-total">
-        <span>Total build</span>
-        <strong id="studioHeroTotal">₹0</strong>
-      </div>
+<main>
+  <section class="vc-hero">
+    <div>
+      <span class="eyebrow light">Custom racket studio</span>
+      <h1>Build your racket visually.</h1>
+      <p>Pick every part from image cards instead of dropdowns. Select brand tabs, choose products, set rubber colours, add accessories and see the total live.</p>
+      <div class="vc-pills"><span>Brand tabs</span><span>Product images</span><span>Live total</span></div>
+    </div>
+    <div class="vc-racket-card">
+      <div class="vc-racket"><i class="vc-fh"></i><i class="vc-bh"></i><b></b></div>
+      <div class="vc-hero-total"><span>Total build</span><strong id="vcHeroTotal">₹0</strong></div>
     </div>
   </section>
 
-  <section class="customize-studio-section section">
-    <div class="studio-section-heading">
-      <div>
-        <span class="eyebrow">Choose by brand</span>
-        <h2>One setup. Four simple choices.</h2>
-      </div>
-      <p>Use dropdowns to pick products from JOOLA, Tibhar, Butterfly, Stiga and any products uploaded through the admin panel.</p>
+  <section class="vc-section section">
+    <div class="vc-heading">
+      <div><span class="eyebrow">Choose by image</span><h2>Tap a product card to select it.</h2></div>
+      <p>This gives the owner what they wanted: every selectable product has a visible image, not just a text dropdown.</p>
     </div>
 
-    <div class="customize-studio-layout">
-      <form class="racket-studio-form" id="racketStudioForm">
-        <div class="studio-selector-card" data-studio-slot="blade">
-          <div class="studio-selector-intro">
-            <span>01</span>
-            <div>
-              <h3>Blade</h3>
-              <p>Pick a branded blade as the base of your racket.</p>
-            </div>
-          </div>
-          <div class="studio-select-grid">
-            <label>Brand<select data-studio-brand="blade"></select></label>
-            <label>Product<select data-studio-product="blade"></select></label>
-          </div>
-        </div>
+    <div class="vc-layout">
+      <div class="vc-steps">
+        <section class="vc-block" data-vc-slot="blade">
+          <div class="vc-head"><span>01</span><div><h3>Choose Blade</h3><p>Select the base blade.</p></div></div>
+          <div class="vc-tabs" data-vc-tabs="blade"></div>
+          <div class="vc-products" data-vc-products="blade"></div>
+        </section>
 
-        <div class="studio-selector-card" data-studio-slot="forehand">
-          <div class="studio-selector-intro">
-            <span>02</span>
-            <div>
-              <h3>Forehand rubber</h3>
-              <p>Choose your attacking side rubber and colour.</p>
-            </div>
-          </div>
-          <div class="studio-select-grid">
-            <label>Brand<select data-studio-brand="forehand"></select></label>
-            <label>Product<select data-studio-product="forehand"></select></label>
-          </div>
-          <div class="studio-colour-filter" aria-label="Forehand rubber colour">
-            <small>Rubber colour</small>
-            <label><input type="radio" name="studioForehandColour" value="Red" checked><b class="red-dot"></b>Red</label>
-            <label><input type="radio" name="studioForehandColour" value="Black"><b class="black-dot"></b>Black</label>
-          </div>
-        </div>
+        <section class="vc-block" data-vc-slot="forehand">
+          <div class="vc-head"><span>02</span><div><h3>Choose Forehand Rubber</h3><p>Select rubber and colour.</p></div></div>
+          <div class="vc-tabs" data-vc-tabs="forehand"></div>
+          <div class="vc-products" data-vc-products="forehand"></div>
+        </section>
 
-        <div class="studio-selector-card" data-studio-slot="backhand">
-          <div class="studio-selector-intro">
-            <span>03</span>
-            <div>
-              <h3>Backhand rubber</h3>
-              <p>Select a rubber for control, spin or speed on the backhand side.</p>
-            </div>
-          </div>
-          <div class="studio-select-grid">
-            <label>Brand<select data-studio-brand="backhand"></select></label>
-            <label>Product<select data-studio-product="backhand"></select></label>
-          </div>
-          <div class="studio-colour-filter" aria-label="Backhand rubber colour">
-            <small>Rubber colour</small>
-            <label><input type="radio" name="studioBackhandColour" value="Red"><b class="red-dot"></b>Red</label>
-            <label><input type="radio" name="studioBackhandColour" value="Black" checked><b class="black-dot"></b>Black</label>
-          </div>
-        </div>
+        <section class="vc-block" data-vc-slot="backhand">
+          <div class="vc-head"><span>03</span><div><h3>Choose Backhand Rubber</h3><p>Select rubber and colour.</p></div></div>
+          <div class="vc-tabs" data-vc-tabs="backhand"></div>
+          <div class="vc-products" data-vc-products="backhand"></div>
+        </section>
 
-        <div class="studio-selector-card studio-accessory-card" data-studio-slot="accessory">
-          <div class="studio-selector-intro">
-            <span>04</span>
-            <div>
-              <h3>Extra accessories</h3>
-              <p>Select one or more accessories such as cases, cleaners, balls, glue and edge tape.</p>
-            </div>
-          </div>
+        <section class="vc-block" data-vc-slot="accessories">
+          <div class="vc-head"><span>04</span><div><h3>Extra Accessories</h3><p>Select up to 6 accessories.</p></div></div>
+          <div class="vc-tabs" data-vc-tabs="accessories"></div>
+          <div class="vc-accessories" data-vc-products="accessories"></div>
+        </section>
 
-          <div class="studio-accessory-toolbar">
-            <label>Brand
-              <select data-studio-brand="accessory"></select>
-            </label>
-            <label>Search
-              <input type="search" id="studioAccessorySearch" placeholder="Search accessories..." />
-            </label>
+        <section class="vc-block">
+          <div class="vc-head"><span>05</span><div><h3>Assembly Service</h3><p>Choose setup service.</p></div></div>
+          <div class="vc-services">
+            <button type="button" class="vc-service active" data-name="Standard assembly" data-price="600"><strong>Standard assembly</strong><span>₹600</span></button>
+            <button type="button" class="vc-service" data-name="Premium setup with case check" data-price="1600"><strong>Premium setup</strong><span>₹1,600</span></button>
+            <button type="button" class="vc-service" data-name="No assembly" data-price="0"><strong>No assembly</strong><span>₹0</span></button>
           </div>
+        </section>
+      </div>
 
-          <div class="studio-accessory-grid" id="studioAccessoryGrid" aria-live="polite"></div>
-        </div>
-
-        <div class="studio-selector-card studio-service-card">
-          <div class="studio-selector-intro">
-            <span>05</span>
-            <div>
-              <h3>Assembly service</h3>
-              <p>Choose how your racket should be assembled before delivery.</p>
-            </div>
-          </div>
-          <div class="studio-select-grid one">
-            <label>Service
-              <select id="studioAssemblyService">
-                <option value="600" data-name="Standard assembly">Standard assembly — ₹600</option>
-                <option value="1600" data-name="Premium setup with case check">Premium setup with case check — ₹1,600</option>
-                <option value="0" data-name="No assembly">No assembly — ₹0</option>
-              </select>
-            </label>
-          </div>
-        </div>
-      </form>
-
-      <aside class="studio-summary-card">
-        <span class="eyebrow">Final configuration</span>
-        <h2>Your custom build</h2>
-        <div class="studio-summary-lines" id="studioSummaryLines"></div>
-        <div class="studio-total-row">
-          <span>Total price</span>
-          <strong id="studioTotal">₹0</strong>
-        </div>
-        <button class="button primary" id="addStudioBuild" type="button">Add custom build to cart</button>
-        <p>Final stock availability can be confirmed by the store before dispatch.</p>
+      <aside class="vc-summary">
+        <span class="eyebrow light">Final setup</span>
+        <h2>Your build</h2>
+        <div id="vcSummaryLines"></div>
+        <div class="vc-total"><span>Total</span><strong id="vcTotal">₹0</strong></div>
+        <button type="button" class="button primary" id="vcAddCart">Add custom build to cart</button>
+        <p>Stock and exact availability can be confirmed before dispatch.</p>
       </aside>
     </div>
   </section>
 </main>
+
 
   <footer class="site-footer">
   <div class="footer-brand">

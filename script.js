@@ -3315,3 +3315,91 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(initSafeSaveFilters, 900);
   });
 })();
+
+/* Visual Customizer: image-card racket builder */
+(function(){
+  const cfg={blade:{label:"Blade",cat:"blades"},forehand:{label:"Forehand",cat:"rubbers",rubber:true},backhand:{label:"Backhand",cat:"rubbers",rubber:true},accessories:{label:"Accessories",cats:["accessories","balls","footwear"],multi:true}};
+  const S={brand:{blade:"joola",forehand:"joola",backhand:"joola",accessories:"joola"},sel:{blade:null,forehand:null,backhand:null,accessories:[]},colour:{forehand:"Red",backhand:"Black"},service:{name:"Standard assembly",price:600}};
+  const get=()=>{try{return typeof getProducts==="function"?getProducts():(Array.isArray(window.seedProducts)?window.seedProducts:seedProducts)}catch(e){return[]}};
+  const money=v=>new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(Number(v||0));
+  const title=v=>String(v||"").replace(/-/g," ").replace(/\b\w/g,c=>c.toUpperCase());
+  const list=slot=>{let c=cfg[slot],p=get();return c.cats?p.filter(x=>c.cats.includes(x.category)):p.filter(x=>x.category===c.cat)};
+  const brands=slot=>[...new Set(list(slot).map(x=>x.brand).filter(Boolean))];
+  const byId=id=>get().find(x=>String(x.id)===String(id));
+  function img(p){if(p&&p.image){let f=p.fallbackImage?`this.onerror=null;this.src='${p.fallbackImage}';`:`this.onerror=null;this.style.display='none';`;return `<img src="${p.image}" alt="${p.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${f}">`}return `<div class="vc-fallback">${String(p?.name||"TT").slice(0,2).toUpperCase()}</div>`}
+  function makeTabs(slot){let el=document.querySelector(`[data-vc-tabs="${slot}"]`); if(!el)return; let bs=brands(slot); if(!bs.includes(S.brand[slot]))S.brand[slot]=bs.includes("joola")?"joola":bs[0]; el.innerHTML=bs.map(b=>`<button type="button" class="vc-tab ${S.brand[slot]===b?"active":""}" data-tab-slot="${slot}" data-brand="${b}">${title(b)}</button>`).join("")}
+  function visible(slot){let arr=list(slot).filter(p=>p.brand===S.brand[slot]); return slot==="accessories"?arr.slice(0,6):arr.slice(0,8)}
+  function ensure(slot){if(slot==="accessories")return; let arr=visible(slot); if(arr.length && (!S.sel[slot] || !list(slot).some(p=>p.id===S.sel[slot].id))) S.sel[slot]=arr[0]}
+  function cards(slot){let el=document.querySelector(`[data-vc-products="${slot}"]`); if(!el)return; ensure(slot); let arr=visible(slot); if(!arr.length){el.innerHTML=`<div class="vc-empty">No products found.</div>`;return} el.innerHTML=arr.map(p=>{let on=slot==="accessories"?S.sel.accessories.some(x=>x.id===p.id):S.sel[slot]?.id===p.id;return `<article class="vc-card ${on?"selected":""}" data-card-slot="${slot}" data-id="${p.id}"><div class="vc-img">${img(p)}<span>${p.badge||title(p.brand)}</span></div><div class="vc-info"><h4>${p.name}</h4><p>${title(p.brand)} • ${title(p.category)}</p><strong>${money(p.price)}</strong></div>${cfg[slot].rubber?`<div class="vc-colours" data-col-slot="${slot}"><button type="button" class="${S.colour[slot]==="Red"?"active":""}" data-colour="Red"><i class="red-dot"></i>Red</button><button type="button" class="${S.colour[slot]==="Black"?"active":""}" data-colour="Black"><i class="black-dot"></i>Black</button></div>`:""}<button type="button" class="vc-select">${on?"Selected":slot==="accessories"?"Add":"Select"}</button></article>`}).join("")}
+  function total(){return Number(S.sel.blade?.price||0)+Number(S.sel.forehand?.price||0)+Number(S.sel.backhand?.price||0)+S.sel.accessories.reduce((a,p)=>a+Number(p.price||0),0)+Number(S.service.price||0)}
+  function line(label,p,extra){return `<div class="vc-line"><span>${label}</span><strong>${p?p.name:"Not selected"}${extra?`<em>${extra}</em>`:""}<small>${p?`${title(p.brand)} • ${money(p.price)}`:"₹0"}</small></strong></div>`}
+  function update(){let lines=document.getElementById("vcSummaryLines"),t=document.getElementById("vcTotal"),ht=document.getElementById("vcHeroTotal"); if(lines)lines.innerHTML=[line("Blade",S.sel.blade),line("Forehand",S.sel.forehand,S.colour.forehand),line("Backhand",S.sel.backhand,S.colour.backhand),`<div class="vc-line"><span>Accessories</span><strong>${S.sel.accessories.length?S.sel.accessories.map(x=>x.name).join(", "):"None selected"}<small>${money(S.sel.accessories.reduce((a,p)=>a+Number(p.price||0),0))}</small></strong></div>`,`<div class="vc-line"><span>Assembly</span><strong>${S.service.name}<small>${money(S.service.price)}</small></strong></div>`].join(""); if(t)t.textContent=money(total()); if(ht)ht.textContent=money(total()); let fh=document.querySelector(".vc-fh"),bh=document.querySelector(".vc-bh"); if(fh)fh.style.background=S.colour.forehand==="Red"?"#d8312b":"#111311"; if(bh)bh.style.background=S.colour.backhand==="Red"?"#d8312b":"#111311"}
+  function render(slot){makeTabs(slot); cards(slot)}
+  function init(){if(!document.querySelector(".vc-section"))return; Object.keys(cfg).forEach(render); update(); document.addEventListener("click",e=>{let tab=e.target.closest(".vc-tab"); if(tab){let s=tab.dataset.tabSlot; S.brand[s]=tab.dataset.brand; if(s!=="accessories")S.sel[s]=null; render(s); update(); return} let col=e.target.closest(".vc-colours button"); if(col){let s=col.closest(".vc-colours").dataset.colSlot; S.colour[s]=col.dataset.colour; cards(s); update(); return} let card=e.target.closest(".vc-card"); if(card){let s=card.dataset.cardSlot,p=byId(card.dataset.id); if(!p)return; if(s==="accessories"){let has=S.sel.accessories.some(x=>x.id===p.id); if(has)S.sel.accessories=S.sel.accessories.filter(x=>x.id!==p.id); else if(S.sel.accessories.length<6)S.sel.accessories.push(p); else if(typeof showToast==="function")showToast("You can select up to 6 accessories")}else S.sel[s]=p; cards(s); update(); return} let sv=e.target.closest(".vc-service"); if(sv){document.querySelectorAll(".vc-service").forEach(b=>b.classList.remove("active")); sv.classList.add("active"); S.service={name:sv.dataset.name,price:Number(sv.dataset.price||0)}; update(); return}}); document.getElementById("vcAddCart")?.addEventListener("click",()=>{if(!S.sel.blade||!S.sel.forehand||!S.sel.backhand){if(typeof showToast==="function")showToast("Please select blade and both rubbers");else alert("Please select blade and both rubbers");return} let details=[`Blade: ${S.sel.blade.name}`,`Forehand: ${S.sel.forehand.name} (${S.colour.forehand})`,`Backhand: ${S.sel.backhand.name} (${S.colour.backhand})`,S.sel.accessories.length?`Accessories: ${S.sel.accessories.map(x=>x.name).join(", ")}`:"Accessories: None",`Assembly: ${S.service.name}`].join("<br>"); let item={id:`visual-custom-${Date.now()}`,name:"Custom Table Tennis Racket Build",brand:"custom",category:"rackets",price:total(),image:S.sel.blade.image||S.sel.forehand.image||"",details,custom:true}; if(typeof addToCart==="function")addToCart(item); else{let c=JSON.parse(localStorage.getItem("spinhaus-cart-v2")||"[]");c.push({...item,quantity:1});localStorage.setItem("spinhaus-cart-v2",JSON.stringify(c))} if(typeof openCart==="function")openCart()})}
+  document.addEventListener("DOMContentLoaded",()=>setTimeout(init,80));
+})();
+
+
+/* Mobile visual customizer arrows */
+(function () {
+  function setupVisualSliderArrows() {
+    document.querySelectorAll(".vc-products, .vc-accessories").forEach((scroller, index) => {
+      if (scroller.closest(".vc-slider-shell")) return;
+
+      const shell = document.createElement("div");
+      shell.className = "vc-slider-shell";
+      scroller.parentNode.insertBefore(shell, scroller);
+      shell.appendChild(scroller);
+
+      const prev = document.createElement("button");
+      const next = document.createElement("button");
+      prev.type = "button";
+      next.type = "button";
+      prev.className = "vc-slider-arrow vc-slider-prev";
+      next.className = "vc-slider-arrow vc-slider-next";
+      prev.setAttribute("aria-label", "Previous products");
+      next.setAttribute("aria-label", "Next products");
+      prev.innerHTML = "‹";
+      next.innerHTML = "›";
+
+      const hint = document.createElement("div");
+      hint.className = "vc-slider-hint";
+      hint.textContent = "Swipe or use arrows";
+
+      shell.appendChild(prev);
+      shell.appendChild(next);
+      shell.appendChild(hint);
+
+      function scrollCards(direction) {
+        const card = scroller.querySelector(".vc-card");
+        const amount = card ? card.getBoundingClientRect().width + 16 : Math.round(scroller.clientWidth * 0.82);
+        scroller.scrollBy({ left: direction * amount, behavior: "smooth" });
+      }
+
+      prev.addEventListener("click", event => {
+        event.preventDefault();
+        event.stopPropagation();
+        scrollCards(-1);
+      });
+
+      next.addEventListener("click", event => {
+        event.preventDefault();
+        event.stopPropagation();
+        scrollCards(1);
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(setupVisualSliderArrows, 250);
+    setTimeout(setupVisualSliderArrows, 900);
+    setTimeout(setupVisualSliderArrows, 1500);
+  });
+
+  document.addEventListener("click", event => {
+    if (event.target.closest(".vc-tab")) {
+      setTimeout(setupVisualSliderArrows, 80);
+      setTimeout(setupVisualSliderArrows, 300);
+    }
+  });
+})();

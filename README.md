@@ -167,3 +167,9 @@ JS syntax check: OK
 - JOOLA product images updated to official JOOLA.com CDN product images where available, with local fallback artwork for offline/local preview.
 
 - JOOLA official CDN images fixed: 53 JOOLA products now point to official JOOLA.com image URLs, with 53 local fallbacks.
+
+- Customize page redesigned with visual product-card selectors, brand tabs, rubber colour buttons, multi-select accessories, and live summary.
+- JS check: JS syntax OK
+
+- Added mobile slider arrows for visual product selectors and made the Customize top banner full-width landscape on mobile.
+- JS check: JS syntax OK
