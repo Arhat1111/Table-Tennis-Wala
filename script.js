@@ -1336,7 +1336,7 @@ function productCard(product) {
       </div>
       <div class="product-meta">
         <span>${cap(product.brand)} • ${cap(product.category)}</span>
-        <span class="rating">★ ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span>
+        <span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span>
       </div>
     </div>
   </article>`;
@@ -1494,7 +1494,7 @@ function cartItemMarkup(item) {
       ${item.details ? `<div class="cart-item-detail">${item.details}</div>` : ""}
       <div class="quantity"><button data-qty-minus="${item.id}">−</button><span>${item.quantity}</span><button data-qty-plus="${item.id}">+</button></div>
     </div>
-    <button class="remove-item" data-remove-item="${item.id}" aria-label="Remove ${item.name}">×</button>
+    <button class="remove-item" data-remove-item="${item.id}" aria-label="Remove ${item.name}"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button>
   </div>`;
 }
 
@@ -1619,7 +1619,7 @@ function ensureProductModal() {
   if (document.querySelector(".product-modal")) return;
   document.body.insertAdjacentHTML("beforeend", `
     <section class="product-modal" aria-hidden="true">
-      <button class="product-modal-close" data-close-product-modal aria-label="Close product details">×</button>
+      <button class="product-modal-close" data-close-product-modal aria-label="Close product details"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button>
       <div class="modal-product-visual" id="modalProductVisual"></div>
       <div class="modal-product-info">
         <span class="eyebrow" id="modalProductBrand"></span>
@@ -1985,7 +1985,7 @@ function renderCheckoutPage() {
     if (form) form.style.display = "grid";
     wrapper.innerHTML = state.cart.map(item => `<div class="checkout-line">
       <div><strong>${item.name}</strong>${item.details ? `<p>${item.details}</p>` : ""}</div>
-      <span>${item.quantity} × ${formatPrice(item.price)}</span>
+      <span>${item.quantity} <span class="ttw-icon ttw-icon-close" aria-hidden="true"></span> ${formatPrice(item.price)}</span>
     </div>`).join("");
   }
   if (subtotalEl) subtotalEl.textContent = formatPrice(getCartTotal());
@@ -2166,7 +2166,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body?.dataset?.page === "home" ||
       location.pathname.endsWith("/") ||
       location.pathname.endsWith("index.html");
-    if (isHomePage) addPrivacyPopup();
+    // Privacy popup removed as requested.
     addWhatsAppButton();
   });
 })();
@@ -2219,7 +2219,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
       <div class="product-info" data-view-product="${product.id}">
         <div class="product-topline"><h3 class="product-name">${product.name}</h3><span class="product-price">${ttwMoney(product.price)}</span></div>
-        <div class="product-meta"><span>${ttwCap(product.brand)} • ${ttwCap(product.category)}</span><span class="rating">★ ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span></div>
+        <div class="product-meta"><span>${ttwCap(product.brand)} • ${ttwCap(product.category)}</span><span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span></div>
       </div>
     </article>`;
   }
@@ -3063,7 +3063,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "ttw-custom-select-button";
-    button.innerHTML = `<span class="ttw-selected-main">Select option</span><span class="ttw-select-arrow">⌄</span>`;
+    button.innerHTML = `<span class="ttw-selected-main">Select option</span><span class="ttw-select-arrow"><span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></span>`;
 
     const panel = document.createElement("div");
     panel.className = "ttw-custom-select-panel";
@@ -3359,8 +3359,8 @@ document.addEventListener("DOMContentLoaded", () => {
       next.className = "vc-slider-arrow vc-slider-next";
       prev.setAttribute("aria-label", "Previous products");
       next.setAttribute("aria-label", "Next products");
-      prev.innerHTML = "‹";
-      next.innerHTML = "›";
+      prev.innerHTML = `<span class="ttw-icon ttw-icon-chevron-left" aria-hidden="true"></span>`;
+      next.innerHTML = `<span class="ttw-icon ttw-icon-chevron-right" aria-hidden="true"></span>`;
 
       const hint = document.createElement("div");
       hint.className = "vc-slider-hint";
@@ -3401,5 +3401,425 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(setupVisualSliderArrows, 80);
       setTimeout(setupVisualSliderArrows, 300);
     }
+  });
+})();
+
+
+/* Final navigation, URL filters, home slider and no policy popup */
+(function () {
+  function checkedValuesFinal(name) {
+    return [...document.querySelectorAll(`input[name="${name}"]`)].map(input => input);
+  }
+
+  function applyProductUrlFilters() {
+    const params = new URLSearchParams(window.location.search);
+    const brand = (params.get("brand") || "").toLowerCase();
+    const category = (params.get("category") || "").toLowerCase();
+
+    if (!brand && !category) return;
+
+    checkedValuesFinal("brandFilter").forEach(input => {
+      input.checked = brand ? input.value === brand : false;
+    });
+
+    checkedValuesFinal("categoryFilter").forEach(input => {
+      input.checked = category ? input.value === category : false;
+    });
+
+    const search = document.getElementById("productSearch");
+    if (search && params.get("search")) search.value = params.get("search");
+
+    const nice = value => value ? value.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase()) : "";
+    const note = document.getElementById("filterNote");
+    if (note) {
+      const label = [nice(brand), nice(category)].filter(Boolean).join(" • ");
+      if (label) note.textContent = `Showing ${label} products`;
+    }
+
+    setTimeout(() => {
+      if (typeof renderBrandProducts === "function") renderBrandProducts();
+      if (typeof renderHomeProducts === "function") renderHomeProducts();
+      document.querySelectorAll(".reveal").forEach(el => el.classList.add("visible"));
+    }, 80);
+  }
+
+  function setupHomeProductSlider() {
+    const grid = document.getElementById("homeProductGrid");
+    if (!grid || !grid.closest(".home-top-picks")) return;
+
+    const shell = grid.closest(".home-product-shell");
+    const prev = shell?.querySelector(".home-product-prev");
+    const next = shell?.querySelector(".home-product-next");
+
+    function move(direction) {
+      const card = grid.querySelector(".product-card");
+      const amount = card ? card.getBoundingClientRect().width + 18 : Math.round(grid.clientWidth * 0.85);
+      grid.scrollBy({ left: direction * amount, behavior: "smooth" });
+    }
+
+    if (prev && !prev.dataset.homeSliderBound) {
+      prev.dataset.homeSliderBound = "true";
+      prev.addEventListener("click", () => move(-1));
+    }
+
+    if (next && !next.dataset.homeSliderBound) {
+      next.dataset.homeSliderBound = "true";
+      next.addEventListener("click", () => move(1));
+    }
+  }
+
+  function removePolicyPopup() {
+    document.querySelectorAll(".privacy-popup").forEach(popup => popup.remove());
+  }
+
+  function setupBrandJump() {
+    const select = document.getElementById("brandJump");
+    if (!select || select.dataset.bound) return;
+    select.dataset.bound = "true";
+    select.addEventListener("change", () => {
+      if (select.value) window.location.href = select.value;
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    applyProductUrlFilters();
+    setupHomeProductSlider();
+    setupBrandJump();
+    removePolicyPopup();
+
+    setTimeout(setupHomeProductSlider, 350);
+    setTimeout(removePolicyPopup, 850);
+    setTimeout(removePolicyPopup, 1600);
+  });
+})();
+
+
+/* Final clean mobile navbar behavior */
+(function(){function init(){const t=document.querySelector('.clean-navbar .menu-toggle'),m=document.querySelector('.clean-mobile-menu');if(!t||!m||t.dataset.cleanNavBound)return;t.dataset.cleanNavBound='true';t.addEventListener('click',()=>{const o=m.classList.toggle('open');t.classList.toggle('active',o);t.setAttribute('aria-expanded',String(o));m.setAttribute('aria-hidden',String(!o));document.body.classList.toggle('menu-open',o)});m.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{m.classList.remove('open');t.classList.remove('active');t.setAttribute('aria-expanded','false');m.setAttribute('aria-hidden','true');document.body.classList.remove('menu-open')}))}document.addEventListener('DOMContentLoaded',init)})();
+
+
+/* FINAL normal mobile navbar behavior */
+(function () {
+  function closeMenu(menu, toggle) {
+    menu?.classList.remove("open");
+    toggle?.classList.remove("active");
+    toggle?.setAttribute("aria-expanded", "false");
+    menu?.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("menu-open");
+  }
+
+  function initNormalNavbar() {
+    const toggle = document.querySelector(".normal-navbar .menu-toggle");
+    const menu = document.querySelector(".normal-mobile-menu");
+    const close = document.querySelector(".normal-mobile-menu .mobile-menu-close");
+
+    if (!toggle || !menu || toggle.dataset.normalNavBound === "true") return;
+    toggle.dataset.normalNavBound = "true";
+
+    toggle.addEventListener("click", () => {
+      const open = !menu.classList.contains("open");
+      menu.classList.toggle("open", open);
+      toggle.classList.toggle("active", open);
+      toggle.setAttribute("aria-expanded", String(open));
+      menu.setAttribute("aria-hidden", String(!open));
+      document.body.classList.toggle("menu-open", open);
+    });
+
+    close?.addEventListener("click", () => closeMenu(menu, toggle));
+
+    menu.addEventListener("click", event => {
+      if (event.target === menu) closeMenu(menu, toggle);
+    });
+
+    menu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => closeMenu(menu, toggle));
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 1050) closeMenu(menu, toggle);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", initNormalNavbar);
+})();
+
+
+/* FINAL robust mobile navbar fix */
+(function () {
+  function mobileMenus() {
+    return Array.from(document.querySelectorAll(".normal-mobile-menu, .clean-mobile-menu, .mobile-menu"));
+  }
+
+  function menuButtons() {
+    return Array.from(document.querySelectorAll(".normal-navbar .menu-toggle, .clean-navbar .menu-toggle, .site-header .menu-toggle"));
+  }
+
+  function setMenu(open) {
+    mobileMenus().forEach(menu => {
+      menu.classList.toggle("open", open);
+      menu.setAttribute("aria-hidden", String(!open));
+      if (open) menu.style.display = "";
+    });
+
+    menuButtons().forEach(btn => {
+      btn.classList.toggle("active", open);
+      btn.setAttribute("aria-expanded", String(open));
+    });
+
+    document.body.classList.toggle("menu-open", open);
+  }
+
+  function initRobustMobileMenu() {
+    menuButtons().forEach(btn => {
+      if (btn.dataset.robustMobileBound === "true") return;
+      btn.dataset.robustMobileBound = "true";
+
+      btn.addEventListener("click", event => {
+        event.preventDefault();
+        event.stopPropagation();
+        const anyOpen = mobileMenus().some(menu => menu.classList.contains("open"));
+        setMenu(!anyOpen);
+      }, true);
+    });
+
+    document.querySelectorAll(".mobile-menu-close").forEach(closeBtn => {
+      if (closeBtn.dataset.robustMobileBound === "true") return;
+      closeBtn.dataset.robustMobileBound = "true";
+      closeBtn.addEventListener("click", event => {
+        event.preventDefault();
+        setMenu(false);
+      });
+    });
+
+    mobileMenus().forEach(menu => {
+      if (menu.dataset.overlayCloseBound !== "true") {
+        menu.dataset.overlayCloseBound = "true";
+        menu.addEventListener("click", event => {
+          if (event.target === menu) setMenu(false);
+        });
+      }
+
+      menu.querySelectorAll("a").forEach(link => {
+        if (link.dataset.menuLinkBound === "true") return;
+        link.dataset.menuLinkBound = "true";
+        link.addEventListener("click", () => setMenu(false));
+      });
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 1050) setMenu(false);
+    }, { passive: true });
+  }
+
+  document.addEventListener("DOMContentLoaded", initRobustMobileMenu);
+  setTimeout(initRobustMobileMenu, 300);
+  setTimeout(initRobustMobileMenu, 1000);
+})();
+
+
+/* FINAL compact mobile menu binder */
+(function () {
+  function menus() {
+    return Array.from(document.querySelectorAll(".normal-mobile-menu, .clean-mobile-menu, .mobile-menu"));
+  }
+
+  function toggles() {
+    return Array.from(document.querySelectorAll(".site-header .menu-toggle"));
+  }
+
+  function setOpen(open) {
+    menus().forEach(menu => {
+      menu.classList.toggle("open", open);
+      menu.setAttribute("aria-hidden", String(!open));
+    });
+    toggles().forEach(btn => {
+      btn.classList.toggle("active", open);
+      btn.setAttribute("aria-expanded", String(open));
+    });
+    document.body.classList.toggle("menu-open", open);
+  }
+
+  function init() {
+    toggles().forEach(btn => {
+      if (btn.dataset.finalCompactMenuBound === "true") return;
+      btn.dataset.finalCompactMenuBound = "true";
+      btn.addEventListener("click", event => {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        const open = !menus().some(menu => menu.classList.contains("open"));
+        setOpen(open);
+      }, true);
+    });
+
+    document.querySelectorAll(".mobile-menu-close").forEach(btn => {
+      if (btn.dataset.finalCompactCloseBound === "true") return;
+      btn.dataset.finalCompactCloseBound = "true";
+      btn.addEventListener("click", event => {
+        event.preventDefault();
+        setOpen(false);
+      });
+    });
+
+    menus().forEach(menu => {
+      if (menu.dataset.finalOverlayCloseBound !== "true") {
+        menu.dataset.finalOverlayCloseBound = "true";
+        menu.addEventListener("click", event => {
+          if (event.target === menu) setOpen(false);
+        });
+      }
+      menu.querySelectorAll("a").forEach(link => {
+        if (link.dataset.finalMenuLinkBound === "true") return;
+        link.dataset.finalMenuLinkBound = "true";
+        link.addEventListener("click", () => setOpen(false));
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", init);
+  setTimeout(init, 200);
+  setTimeout(init, 900);
+})();
+
+
+/* FINAL working mobile menu script */
+(function () {
+  function getMenu() {
+    return document.querySelector(".final-mobile-menu");
+  }
+
+  function getToggles() {
+    return Array.from(document.querySelectorAll(".final-menu-toggle, .site-header .menu-toggle"));
+  }
+
+  function setOpen(open) {
+    const menu = getMenu();
+    if (!menu) return;
+
+    menu.classList.toggle("open", open);
+    menu.setAttribute("aria-hidden", String(!open));
+    getToggles().forEach(btn => {
+      btn.classList.toggle("active", open);
+      btn.setAttribute("aria-expanded", String(open));
+    });
+    document.body.classList.toggle("menu-open", open);
+  }
+
+  function bindMenu() {
+    const menu = getMenu();
+    if (!menu) return;
+
+    getToggles().forEach(btn => {
+      if (btn.dataset.finalWorkingMenuBound === "true") return;
+      btn.dataset.finalWorkingMenuBound = "true";
+      btn.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        setOpen(!menu.classList.contains("open"));
+      }, true);
+    });
+
+    const close = menu.querySelector(".final-mobile-close");
+    if (close && close.dataset.finalWorkingCloseBound !== "true") {
+      close.dataset.finalWorkingCloseBound = "true";
+      close.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        setOpen(false);
+      }, true);
+    }
+
+    menu.querySelectorAll("a").forEach(link => {
+      if (link.dataset.finalWorkingLinkBound === "true") return;
+      link.dataset.finalWorkingLinkBound = "true";
+      link.addEventListener("click", () => setOpen(false));
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") setOpen(false);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", bindMenu);
+  setTimeout(bindMenu, 250);
+  setTimeout(bindMenu, 900);
+})();
+
+
+/* Auto-hide announcement bar after 5 seconds */
+(function () {
+  function hideAnnouncementBar() {
+    const bars = document.querySelectorAll(
+      ".announcement-bar, .top-announcement, .policy-bar, .notice-bar, [data-announcement-bar]"
+    );
+
+    bars.forEach(bar => {
+      bar.classList.add("announcement-auto-hide");
+      setTimeout(() => {
+        bar.remove();
+      }, 450);
+    });
+  }
+
+  function initAnnouncementAutoHide() {
+    const bars = document.querySelectorAll(
+      ".announcement-bar, .top-announcement, .policy-bar, .notice-bar, [data-announcement-bar]"
+    );
+
+    if (!bars.length) return;
+
+    setTimeout(hideAnnouncementBar, 5000);
+
+    bars.forEach(bar => {
+      const closeButton = bar.querySelector("button, .close, .announcement-close, [aria-label*='close' i]");
+      if (closeButton && closeButton.dataset.autoHideBound !== "true") {
+        closeButton.dataset.autoHideBound = "true";
+        closeButton.addEventListener("click", hideAnnouncementBar);
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", initAnnouncementAutoHide);
+  setTimeout(initAnnouncementAutoHide, 400);
+})();
+
+
+/* Professional icon sanitizer: replaces emoji-rendered text arrows with CSS icons */
+(function () {
+  const replacements = {
+    "\u2197": '<span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span>',
+    "\u2304": '<span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span>',
+    "\u2039": '<span class="ttw-icon ttw-icon-chevron-left" aria-hidden="true"></span>',
+    "\u203a": '<span class="ttw-icon ttw-icon-chevron-right" aria-hidden="true"></span>',
+    "\u00d7": '<span class="ttw-icon ttw-icon-close" aria-hidden="true"></span>',
+    "\u2605": '<span class="ttw-icon ttw-icon-star" aria-hidden="true"></span>'
+  };
+
+  function replaceTextIcons(root = document.body) {
+    if (!root) return;
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        if (!node.nodeValue || !/[\u2197\u2304\u2039\u203a\u00d7\u2605]/.test(node.nodeValue)) return NodeFilter.FILTER_REJECT;
+        const parent = node.parentElement;
+        if (!parent || parent.closest("script, style, textarea, input")) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+
+    nodes.forEach(node => {
+      const text = node.nodeValue;
+      const html = text.replace(/[\u2197\u2304\u2039\u203a\u00d7\u2605]/g, match => replacements[match] || match);
+      const span = document.createElement("span");
+      span.innerHTML = html;
+      node.replaceWith(...span.childNodes);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    replaceTextIcons();
+    setTimeout(replaceTextIcons, 500);
+    setTimeout(replaceTextIcons, 1200);
   });
 })();

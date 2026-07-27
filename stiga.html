@@ -2,59 +2,100 @@
 <html lang="en">
 <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Stiga Products — Table Tennis Wala</title><link rel="stylesheet" href="styles.css" /></head>
 <body data-page="brand" data-brand="stiga">
-  <div class="announcement"><p>NO RETURN AND EXCHANGE POLICY</p><button class="announcement-close" aria-label="Close announcement">×</button></div>
-  <header class="site-header" id="top">
-  <a class="brand" href="index.html" aria-label="Table Tennis Wala home">
+  <div class="announcement"><p>NO RETURN AND EXCHANGE POLICY</p><button class="announcement-close" aria-label="Close announcement"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div>
+  <input type="checkbox" id="navToggle" class="css-nav-toggle" aria-hidden="true">
+
+<header class="site-header css-navbar" id="top">
+  <a class="brand css-brand" href="index.html" aria-label="Table Tennis Wala home">
     <span class="brand-mark"><i></i><i></i></span>
     <span>TABLE TENNIS WALA</span>
   </a>
 
-  <nav class="desktop-nav" aria-label="Main navigation">
+  <nav class="desktop-nav css-desktop-nav" aria-label="Main navigation">
     <a href="index.html">Home</a>
     <a href="index.html#about">About</a>
+
     <div class="nav-dropdown">
-      <a class="nav-dropdown-trigger" href="products.html">Products <span>⌄</span></a>
-      <div class="nav-dropdown-menu" aria-label="Product brand pages">
-        <a href="products.html">All Products</a>
+      <a class="nav-dropdown-trigger" href="brands.html">Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
+      <div class="nav-dropdown-menu">
+        <a href="brands.html">All Brands</a>
         <a href="joola.html">JOOLA</a>
         <a href="tibhar.html">Tibhar</a>
         <a href="butterfly.html">Butterfly</a>
         <a href="stiga.html">Stiga</a>
       </div>
     </div>
+
+    <div class="nav-dropdown">
+      <a class="nav-dropdown-trigger" href="products.html">Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
+      <div class="nav-dropdown-menu product-category-menu">
+        <a href="products.html">All Products</a>
+        <a href="products.html?category=rubbers">Rubbers</a>
+        <a href="products.html?category=blades">Blades</a>
+        <a href="products.html?category=rackets">Rackets</a>
+        <a href="products.html?category=balls">Balls</a>
+        <a href="products.html?category=tables">Tables</a>
+        <a href="products.html?category=footwear">Footwear</a>
+        <a href="products.html?category=accessories">Accessories</a>
+      </div>
+    </div>
+
     <a href="customize.html">Customize</a>
     <a href="cart.html">Cart</a>
     <a href="privacy.html">Privacy Policy</a>
   </nav>
 
-  <div class="header-actions">
+  <div class="header-actions css-header-actions">
     <button class="cart-trigger icon-button" aria-label="Open cart">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H7"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
       <span class="cart-count">0</span>
     </button>
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <label for="navToggle" class="css-menu-toggle" aria-label="Open menu">
+      <span></span><span></span>
+    </label>
   </div>
 </header>
-<div class="mobile-menu" aria-hidden="true">
-  <nav>
+
+<nav class="css-mobile-menu" aria-label="Mobile navigation">
+  <label for="navToggle" class="css-mobile-close" aria-label="Close menu"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></label>
+
+  <div class="css-mobile-links">
     <a href="index.html">Home</a>
     <a href="index.html#about">About</a>
-    <details class="mobile-product-dropdown">
-      <summary>Products <span>⌄</span></summary>
-      <div class="mobile-product-links">
-        <a href="products.html">All Products</a>
+
+    <details class="css-mobile-details">
+      <summary>Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
+      <div>
+        <a href="brands.html">All Brands</a>
         <a href="joola.html">JOOLA</a>
         <a href="tibhar.html">Tibhar</a>
         <a href="butterfly.html">Butterfly</a>
         <a href="stiga.html">Stiga</a>
       </div>
     </details>
+
+    <details class="css-mobile-details">
+      <summary>Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
+      <div>
+        <a href="products.html">All Products</a>
+        <a href="products.html?category=rubbers">Rubbers</a>
+        <a href="products.html?category=blades">Blades</a>
+        <a href="products.html?category=rackets">Rackets</a>
+        <a href="products.html?category=balls">Balls</a>
+        <a href="products.html?category=tables">Tables</a>
+        <a href="products.html?category=footwear">Footwear</a>
+        <a href="products.html?category=accessories">Accessories</a>
+      </div>
+    </details>
+
     <a href="customize.html">Customize Racket</a>
     <a href="cart.html">Cart</a>
     <a href="privacy.html">Privacy Policy</a>
-  </nav>
+  </div>
+
   <p>Play faster. Play smarter.</p>
-</div>
+</nav>
+
 <main>
     <section class="brand-hero stiga"><span class="eyebrow light">Brand product page</span><h1>Stiga</h1><p>Training-friendly tables, rackets, balls and club equipment with clean styling.</p><div class="brand-hero-actions"><a class="button light-btn" href="#brandProducts">View products</a><a class="button ghost-light" href="customize.html">Build custom racket</a></div></section>
     <section class="shop section" id="brandProducts">
@@ -66,7 +107,7 @@
           <div class="filter-group"><h4>Brands</h4><label><input type="checkbox" name="brandFilter" value="joola" > JOOLA</label><label><input type="checkbox" name="brandFilter" value="tibhar" > Tibhar</label><label><input type="checkbox" name="brandFilter" value="butterfly" > Butterfly</label><label><input type="checkbox" name="brandFilter" value="stiga" checked> Stiga</label></div>
           <div class="filter-group"><h4>Categories</h4><label><input type="checkbox" name="categoryFilter" value="rackets"> Rackets</label><label><input type="checkbox" name="categoryFilter" value="rubbers"> Rubbers</label><label><input type="checkbox" name="categoryFilter" value="blades"> Blades</label><label><input type="checkbox" name="categoryFilter" value="balls"> Balls</label><label><input type="checkbox" name="categoryFilter" value="tables"> Tables</label><label><input type="checkbox" name="categoryFilter" value="footwear"> Footwear</label><label><input type="checkbox" name="categoryFilter" value="accessories"> Accessories</label></div>
           <div class="filter-group"><h4>Price range</h4><div class="price-fields"><input id="minPrice" type="number" min="0" placeholder="Min ₹"><input id="maxPrice" type="number" min="0" placeholder="Max ₹"></div></div>
-          <div class="filter-group"><h4>Rating</h4><label><input type="checkbox" name="ratingFilter" value="4.7"> 4.7★ and above</label></div>
+          <div class="filter-group"><h4>Rating</h4><label><input type="checkbox" name="ratingFilter" value="4.7"> 4.7<span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> and above</label></div>
         </aside>
         <div class="catalog-results">
           <div class="results-topbar">
@@ -94,6 +135,7 @@
   <div class="footer-links">
     <h4>Store</h4>
     <a href="index.html#about">About us</a>
+    <a href="brands.html">All brands</a>
     <a href="products.html">All products</a>
     <a href="customize.html">Customize racket</a>
     <a href="privacy.html">Privacy Policy</a>
@@ -110,7 +152,7 @@
   </div>
 </footer>
   <aside class="cart-drawer" aria-hidden="true">
-  <div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart">×</button></div>
+  <div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div>
   <div class="cart-items"></div>
   <div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div>
   <div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div>

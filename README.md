@@ -173,3 +173,69 @@ JS syntax check: OK
 
 - Added mobile slider arrows for visual product selectors and made the Customize top banner full-width landscape on mobile.
 - JS check: JS syntax OK
+
+- Added Brands page and Brands navbar dropdown.
+- Updated Products navbar dropdown with category links that apply filters on products.html.
+- Removed homepage product filters and converted homepage products to a mobile arrow slider.
+- Removed the privacy policy popup while keeping the Privacy Policy page.
+- Standardized product image alignment across cards, modal, cart and customizer.
+- JS check: JS syntax OK
+- Header updated on: admin.html, brands.html, butterfly.html, cart.html, customize.html, index.html, joola.html, privacy.html, products.html, stiga.html, tibhar.html
+
+- Fixed the broken navbar/mobile menu text showing under the desktop navbar.
+- Rebuilt navbar as a cleaner minimal sticky pill with dropdowns.
+- JS check: JS syntax OK
+
+- Restored navbar to a normal full-width minimal style instead of the large pill style.
+- Fixed mobile navbar open/close behavior with a proper side drawer and close button.
+- JS check: JS syntax OK
+
+- Fixed mobile navbar by adding a robust hamburger menu handler that overrides older conflicting menu scripts.
+- Fixed mobile product price visibility so full prices remain visible inside product cards/sliders.
+- JS check: JS syntax OK
+
+- Restored desktop/mobile navbar to the earlier normal full-width look and made mobile menu compact.
+- Fixed Customize page mobile banner by removing the cramped side preview on mobile.
+- Fixed homepage action cards so decorative images no longer overlap or hide text.
+- JS check: JS syntax OK
+
+- Fixed mobile navbar to match the previous lime full-screen menu style and kept Brands/Products dropdowns.
+- Rebuilt the header across pages with Brands page + product category links intact.
+- JS check: JS syntax OK
+
+- Rebuilt navbar as CSS-only mobile menu so hamburger cannot break due to JavaScript conflicts.
+- Mobile menu restored to lime full-screen design and still includes Brands + Products dropdowns.
+- Fixed homepage card text overlap and reduced WhatsApp overlap on mobile.
+- JS check: JS syntax OK
+
+- Fixed homepage mobile service-card overlap by forcing cards into a clean stacked layout and keeping decorative graphics behind text.
+- JS check: JS syntax OK
+
+- Added auto-hide behavior for the NO RETURN AND EXCHANGE POLICY announcement bar after 5 seconds, with smooth fade/slide removal.
+- JS check: JS syntax OK
+
+- Replaced emoji-rendered arrows, close marks, chevrons and stars with professional CSS icons across the website.
+- Added a sanitizer for dynamically generated text icons so mobile browsers do not render them as emoji.
+- JS check: JS syntax OK
+- Remaining icon text scan: {'script.js': ['↗', '⌄', '‹', '›', '×', '★']}
+
+- Final icon text scan after unicode escaping: None
+- JS check after escaping: JS syntax OK
+
+- Rebuilt home action cards with proper professional CSS visuals instead of empty/awkward decorative blobs.
+- Replaced the old large mobile card graphics with controlled racket, brand-wall and gear line-art visuals.
+- CTA icons remain CSS icons, not emoji characters.
+- HTML emoji/icon scan: None
+- JS check: JS syntax OK
+
+- Replaced the CSS-drawn redirect arrows with formal SVG-mask icons for clean symmetric arrows.
+- Overrode all old pseudo-element arrow drawings so malformed arrows cannot appear.
+- HTML/JS emoji symbol scan: None
+- JS check: JS syntax OK
+
+- Fixed slider arrows so they only appear on mobile/tablet view and stay hidden on laptop/desktop.
+- JS check: JS syntax OK
+
+- Fixed recurring mobile overlap by forcing the home action cards into a block stacked layout below 760px.
+- Reset grid-row, transform, float, and absolute positioning conflicts from older patches so cards cannot overlap again.
+- JS check: JS syntax OK
