@@ -7180,3 +7180,10 @@ body[data-page="customize"] .ttw-custom-option.active .ttw-option-price {
     padding-top: 52px !important;
   }
 }
+
+/* Removed announcement / policy top bar */
+.announcement,.announcement-bar,.top-announcement,.policy-bar,.notice-bar,[data-announcement-bar]{
+  display:none!important;opacity:0!important;visibility:hidden!important;
+  pointer-events:none!important;height:0!important;max-height:0!important;
+  padding:0!important;margin:0!important;overflow:hidden!important;
+}

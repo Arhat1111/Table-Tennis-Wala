@@ -3745,44 +3745,6 @@ document.addEventListener("DOMContentLoaded", () => {
 })();
 
 
-/* Auto-hide announcement bar after 5 seconds */
-(function () {
-  function hideAnnouncementBar() {
-    const bars = document.querySelectorAll(
-      ".announcement-bar, .top-announcement, .policy-bar, .notice-bar, [data-announcement-bar]"
-    );
-
-    bars.forEach(bar => {
-      bar.classList.add("announcement-auto-hide");
-      setTimeout(() => {
-        bar.remove();
-      }, 450);
-    });
-  }
-
-  function initAnnouncementAutoHide() {
-    const bars = document.querySelectorAll(
-      ".announcement-bar, .top-announcement, .policy-bar, .notice-bar, [data-announcement-bar]"
-    );
-
-    if (!bars.length) return;
-
-    setTimeout(hideAnnouncementBar, 5000);
-
-    bars.forEach(bar => {
-      const closeButton = bar.querySelector("button, .close, .announcement-close, [aria-label*='close' i]");
-      if (closeButton && closeButton.dataset.autoHideBound !== "true") {
-        closeButton.dataset.autoHideBound = "true";
-        closeButton.addEventListener("click", hideAnnouncementBar);
-      }
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", initAnnouncementAutoHide);
-  setTimeout(initAnnouncementAutoHide, 400);
-})();
-
-
 /* Professional icon sanitizer: replaces emoji-rendered text arrows with CSS icons */
 (function () {
   const replacements = {
@@ -3822,4 +3784,14 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(replaceTextIcons, 500);
     setTimeout(replaceTextIcons, 1200);
   });
+})();
+
+/* Remove any announcement / policy top bar */
+(function(){
+  function removeBars(){
+    document.querySelectorAll('.announcement,.announcement-bar,.top-announcement,.policy-bar,.notice-bar,[data-announcement-bar]').forEach(function(el){el.remove();});
+  }
+  document.addEventListener('DOMContentLoaded', removeBars);
+  setTimeout(removeBars, 100);
+  setTimeout(removeBars, 800);
 })();

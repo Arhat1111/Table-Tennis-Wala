@@ -239,3 +239,8 @@ JS syntax check: OK
 - Fixed recurring mobile overlap by forcing the home action cards into a block stacked layout below 760px.
 - Reset grid-row, transform, float, and absolute positioning conflicts from older patches so cards cannot overlap again.
 - JS check: JS syntax OK
+
+- Removed the NO RETURN AND EXCHANGE POLICY top announcement/popup from all pages.
+- Removed from 11 HTML pages.
+- Remaining announcement scan: None
+- JS check: JS syntax OK
