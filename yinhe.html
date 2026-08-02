@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cart & Checkout — Table Tennis Wala</title>
-  <meta name="description" content="Checkout page for Table Tennis Wala with customer details, Razorpay payment and order email workflow." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body data-page="checkout">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>YinHe Products — Table Tennis Wala</title><link rel="stylesheet" href="styles.css" /></head>
+<body data-page="brand" data-brand="yinhe">
 <input type="checkbox" id="navToggle" class="css-nav-toggle" aria-hidden="true">
 
 <header class="site-header css-navbar" id="top">
@@ -114,44 +108,34 @@
 </nav>
 
 <main>
-    <section class="checkout-hero">
-      <span class="eyebrow light">Cart and payment</span>
-      <h1>Complete your order.</h1>
-      <p>Enter your delivery details, review your cart and pay securely through Razorpay.</p>
-    </section>
+    <section class="brand-hero products"><span class="eyebrow light">YinHe catalogue</span><h1>YinHe products.</h1><p>Affordable blades, rubbers, balls, tables and accessories. Browse all YinHe products added with MRP pricing.</p><div class="brand-hero-actions"><a class="button light-btn" href="#brandProducts">View products</a><a class="button ghost-light" href="customize.html">Build custom racket</a></div></section>
+    <section class="shop section" id="brandProducts">
+      <div class="section-heading reveal"><div><span class="eyebrow">Full catalogue</span><h2>Products.</h2></div><button class="filter-toggle">Filters +</button></div>
 
-    <section class="checkout-layout section">
-      <div class="checkout-form-card">
-        <span class="eyebrow">Customer details</span>
-        <h2>Delivery information</h2>
-        <form id="checkoutForm" class="checkout-form">
-          <label>Full name<input name="fullName" required placeholder="Enter full name" /></label>
-          <label>Email<input name="email" type="email" required placeholder="name@email.com" /></label>
-          <label>Phone number<input name="phone" type="tel" required placeholder="98765 43210" /></label>
-          <label class="wide">Full address<textarea name="address" rows="4" required placeholder="House / flat, street, area"></textarea></label>
-          <label>City<input name="city" required placeholder="Surat" /></label>
-          <label>State<input name="state" required placeholder="Gujarat" /></label>
-          <label>Pincode<input name="pincode" required placeholder="395007" /></label>
-          <label>Order notes<input name="notes" placeholder="Optional" /></label>
-          <button class="button primary wide" type="submit">Pay with Razorpay</button>
-          <p class="checkout-note">Add your Razorpay Key ID in <code>script.js</code>. For automatic order emails, configure EmailJS or connect a backend email service.</p>
-        </form>
+      <div class="catalog-layout reveal">
+        <aside class="filter-panel">
+          <div class="filter-panel-head"><h3>Filters</h3><button type="button" id="resetFilters">Reset</button></div>
+          <div class="filter-group"><h4>Brands</h4><label><input type="checkbox" name="brandFilter" value="joola"> JOOLA</label><label><input type="checkbox" name="brandFilter" value="tibhar"> Tibhar</label><label><input type="checkbox" name="brandFilter" value="butterfly"> Butterfly</label><label><input type="checkbox" name="brandFilter" value="stiga"> Stiga</label><label><input type="checkbox" name="brandFilter" value="dhs"> DHS</label><label><input type="checkbox" name="brandFilter" value="yinhe" checked> YinHe</label><label><input type="checkbox" name="brandFilter" value="xiom"> Xiom</label><label><input type="checkbox" name="brandFilter" value="andro"> Andro</label><label><input type="checkbox" name="brandFilter" value="dawei"> Dawei</label></div><div class="filter-group"><h4>Categories</h4><label><input type="checkbox" name="categoryFilter" value="rubbers"> Rubbers</label><label><input type="checkbox" name="categoryFilter" value="blades"> Blades</label><label><input type="checkbox" name="categoryFilter" value="rackets"> Rackets</label><label><input type="checkbox" name="categoryFilter" value="balls"> Balls</label><label><input type="checkbox" name="categoryFilter" value="tables"> Tables</label><label><input type="checkbox" name="categoryFilter" value="footwear"> Footwear</label><label><input type="checkbox" name="categoryFilter" value="accessories"> Accessories</label><label><input type="checkbox" name="categoryFilter" value="glue"> Glue</label><label><input type="checkbox" name="categoryFilter" value="clothing"> Apparel</label></div>
+          <div class="filter-group"><h4>Price range</h4><div class="price-fields"><input id="minPrice" type="number" min="0" placeholder="Min ₹"><input id="maxPrice" type="number" min="0" placeholder="Max ₹"></div></div>
+          <div class="filter-group"><h4>Rating</h4><label><input type="checkbox" name="ratingFilter" value="4.7"> 4.7<span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> and above</label></div>
+          <div class="save-filter-actions">
+            <button type="button" class="save-filter-button" id="saveFilters">Save Filter</button>
+            <button type="button" class="clear-pending-filter-button" id="clearPendingFilters">Clear Filter</button>
+            <p class="pending-filter-note" id="pendingFilterNote">Change filters, then click Save Filter to update results.</p>
+          </div>
+
+        </aside>
+        <div class="catalog-results">
+          <div class="results-topbar">
+            <label class="search-control"><span>Search</span><input id="productSearch" type="search" placeholder="Search rackets, rubbers, balls..." /></label>
+            <label class="sort-control"><span>Sort</span><select id="sortProducts"><option value="featured">Featured</option><option value="price-low">Price: Low to High</option><option value="price-high">Price: High to Low</option><option value="rating">Top Rated</option></select></label>
+          </div>
+          <p class="filter-note" id="filterNote"></p>
+          <div class="product-grid" id="brandProductGrid"></div><p class="empty-state" hidden>No products match these filters.</p>
+        </div>
       </div>
-
-      <aside class="checkout-summary-card">
-        <span class="eyebrow">Order summary</span>
-        <h2>Your cart</h2>
-        <div id="checkoutCartItems" class="checkout-cart-items"></div>
-        <p id="checkoutEmpty" class="empty-state" hidden>Your cart is empty. Add products before checkout.</p>
-        <div class="checkout-total-line"><span>Subtotal</span><strong id="checkoutSubtotal">₹0</strong></div>
-        <div class="checkout-total-line grand"><span>Total</span><strong id="checkoutGrandTotal">₹0</strong></div>
-        <a class="button ghost" href="index.html">Continue shopping</a>
-      </aside>
     </section>
-
-    <section id="orderSuccess" class="section order-success" hidden></section>
   </main>
-
   <footer class="site-footer">
   <div class="footer-brand">
     <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i></span><span>TABLE TENNIS WALA</span></a>
@@ -185,18 +169,13 @@
     <p>No return and exchange policy. Brand names belong to their respective owners.</p>
   </div>
 </footer>
-
   <aside class="cart-drawer" aria-hidden="true">
-    <div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div>
-    <div class="cart-items"></div>
-    <div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div>
-    <div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div>
-  </aside>
-  <div class="page-backdrop"></div>
-  <div class="toast" role="status" aria-live="polite"></div>
-
-  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div>
+  <div class="cart-items"></div>
+  <div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div>
+  <div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div>
+</aside>
+<div class="page-backdrop"></div>
+<div class="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
-</body>
-</html>
+</body></html>

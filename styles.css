@@ -7187,3 +7187,3809 @@ body[data-page="customize"] .ttw-custom-option.active .ttw-option-price {
   pointer-events:none!important;height:0!important;max-height:0!important;
   padding:0!important;margin:0!important;overflow:hidden!important;
 }
+
+
+/* New 2026 brand catalogue additions */
+.brand-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.brand-card h3 {
+  word-break: normal;
+}
+
+.logo-pill img {
+  max-width: 132px;
+  max-height: 58px;
+  object-fit: contain;
+}
+
+.product-badge {
+  max-width: calc(100% - 24px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-visual img[src$=".svg"] {
+  padding: 8px !important;
+  max-width: 96% !important;
+  max-height: 96% !important;
+}
+
+@media (max-width: 1020px) {
+  .brand-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .brand-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Added brands: responsive grid expansion */
+.brand-grid,
+.brand-directory-grid {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+@media (min-width: 980px) {
+  .brand-directory-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1240px) {
+  .brand-directory-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+
+/* Brand showcase redesign: aesthetic minimal brand cards */
+.brand-showcase-redesign {
+  padding-top: clamp(84px, 9vw, 140px);
+}
+
+.brand-showcase-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 30px;
+}
+
+.brand-showcase-hero h2 {
+  margin: 10px 0 0;
+  font: 900 clamp(64px, 8vw, 132px)/.82 Manrope, sans-serif;
+  letter-spacing: -.09em;
+}
+
+.brand-showcase-hero p {
+  max-width: 640px;
+  margin: 20px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+.brand-showcase-cta {
+  min-height: 54px;
+  padding: 0 22px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 900;
+  box-shadow: 0 18px 42px rgba(17, 19, 17, .12);
+}
+
+.brand-showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.brand-tile {
+  min-height: 322px;
+  grid-column: span 3;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(17, 19, 17, .08);
+  border-radius: 34px;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 86% 82%, rgba(215, 255, 63, .52), transparent 24%),
+    linear-gradient(145deg, rgba(255,255,255,.92), rgba(242,242,235,.72));
+  box-shadow: 0 18px 46px rgba(17, 19, 17, .055);
+  transition: transform .24s ease, box-shadow .24s ease, border-color .24s ease;
+  color: var(--ink);
+  isolation: isolate;
+}
+
+.brand-tile:nth-child(1),
+.brand-tile:nth-child(7) {
+  grid-column: span 4;
+}
+
+.brand-tile:nth-child(5) {
+  grid-column: span 4;
+  background:
+    radial-gradient(circle at 86% 82%, rgba(255, 255, 255, .18), transparent 24%),
+    linear-gradient(145deg, #121612, #202a1d);
+  color: #fff;
+}
+
+.brand-tile:nth-child(8),
+.brand-tile:nth-child(9) {
+  grid-column: span 3;
+}
+
+.brand-tile:hover {
+  transform: translateY(-6px);
+  border-color: rgba(17, 19, 17, .16);
+  box-shadow: 0 26px 68px rgba(17, 19, 17, .12);
+}
+
+.brand-tile-top,
+.brand-tile-bottom {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.brand-index {
+  color: rgba(17, 19, 17, .48);
+  font-weight: 900;
+}
+
+.brand-tile:nth-child(5) .brand-index {
+  color: rgba(255, 255, 255, .54);
+}
+
+.brand-count {
+  padding: 8px 11px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .72);
+  color: rgba(17, 19, 17, .62);
+  font-size: 12px;
+  font-weight: 900;
+  border: 1px solid rgba(17, 19, 17, .06);
+}
+
+.brand-tile:nth-child(5) .brand-count {
+  background: rgba(255, 255, 255, .10);
+  color: rgba(255, 255, 255, .74);
+  border-color: rgba(255, 255, 255, .12);
+}
+
+.brand-logo-word {
+  position: relative;
+  z-index: 3;
+  margin-top: 48px;
+  font: 900 clamp(34px, 3.1vw, 58px)/.9 Manrope, sans-serif;
+  letter-spacing: -.075em;
+}
+
+.brand-tile p {
+  position: relative;
+  z-index: 3;
+  max-width: 280px;
+  margin: 18px 0 34px;
+  color: rgba(17, 19, 17, .62);
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 760;
+}
+
+.brand-tile:nth-child(5) p {
+  color: rgba(255, 255, 255, .66);
+}
+
+.brand-tile-bottom {
+  margin-top: auto;
+}
+
+.brand-tile-bottom strong {
+  font-size: 13px;
+  letter-spacing: .02em;
+}
+
+.brand-arrow {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--ink);
+  color: #fff;
+}
+
+.brand-tile:nth-child(5) .brand-arrow {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+.brand-visual {
+  position: absolute;
+  right: -18px;
+  bottom: -22px;
+  width: 178px;
+  height: 154px;
+  z-index: 1;
+  opacity: .72;
+  pointer-events: none;
+}
+
+.brand-visual span {
+  position: absolute;
+  display: block;
+}
+
+.brand-visual-joola span,
+.brand-visual-tibhar span,
+.brand-visual-butterfly span,
+.brand-visual-stiga span,
+.brand-visual-dhs span,
+.brand-visual-yinhe span,
+.brand-visual-xiom span,
+.brand-visual-andro span,
+.brand-visual-dawei span {
+  border-radius: 28px;
+  background: rgba(215, 255, 63, .72);
+  border: 1px solid rgba(17, 19, 17, .05);
+  box-shadow: 0 14px 30px rgba(17, 19, 17, .08);
+}
+
+.brand-visual-joola span:nth-child(1),
+.brand-visual-yinhe span:nth-child(1),
+.brand-visual-xiom span:nth-child(1) {
+  width: 116px;
+  height: 86px;
+  right: 0;
+  bottom: 18px;
+  transform: rotate(-10deg);
+}
+
+.brand-visual-joola span:nth-child(2),
+.brand-visual-yinhe span:nth-child(2),
+.brand-visual-xiom span:nth-child(2) {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  left: 10px;
+  bottom: 0;
+  background: rgba(255, 255, 255, .66);
+}
+
+.brand-visual-joola span:nth-child(3),
+.brand-visual-yinhe span:nth-child(3),
+.brand-visual-xiom span:nth-child(3) {
+  width: 56px;
+  height: 128px;
+  right: 42px;
+  bottom: -54px;
+  border-radius: 999px;
+  background: rgba(17, 19, 17, .08);
+}
+
+.brand-visual-butterfly span,
+.brand-visual-andro span,
+.brand-visual-dawei span {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+}
+
+.brand-visual-butterfly span:nth-child(1),
+.brand-visual-andro span:nth-child(1),
+.brand-visual-dawei span:nth-child(1) {
+  right: 24px;
+  bottom: 4px;
+  background: rgba(215, 255, 63, .72);
+}
+
+.brand-visual-butterfly span:nth-child(2),
+.brand-visual-andro span:nth-child(2),
+.brand-visual-dawei span:nth-child(2) {
+  right: -36px;
+  bottom: 44px;
+  background: rgba(255, 255, 255, .58);
+}
+
+.brand-visual-dhs span:nth-child(1) {
+  width: 118px;
+  height: 118px;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: rgba(215, 255, 63, .82);
+}
+
+.brand-visual-dhs span:nth-child(2) {
+  width: 70px;
+  height: 70px;
+  right: 76px;
+  bottom: 24px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.12);
+}
+
+.brand-visual-dhs span:nth-child(3) {
+  width: 44px;
+  height: 144px;
+  right: 42px;
+  bottom: -52px;
+  background: rgba(255,255,255,.10);
+  border-radius: 999px;
+}
+
+.brand-visual-stiga span:nth-child(1) {
+  width: 138px;
+  height: 92px;
+  right: 0;
+  bottom: 14px;
+  transform: skew(-12deg) rotate(-5deg);
+}
+
+.brand-visual-stiga span:nth-child(2) {
+  width: 92px;
+  height: 72px;
+  right: 70px;
+  bottom: 0;
+  background: rgba(255,255,255,.62);
+}
+
+.brand-visual-stiga span:nth-child(3) {
+  width: 28px;
+  height: 112px;
+  right: 28px;
+  bottom: -48px;
+  background: rgba(17,19,17,.10);
+  border-radius: 999px;
+}
+
+.brands-page-redesign {
+  overflow: hidden;
+}
+
+.brands-page-hero {
+  width: min(1180px, calc(100% - 32px));
+  margin: 38px auto 0;
+  min-height: 560px;
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  gap: 30px;
+  align-items: end;
+  padding: clamp(34px, 5vw, 66px);
+  border-radius: 42px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 82% 20%, rgba(215,255,63,.34), transparent 28%),
+    linear-gradient(135deg, #101310, #222d1e);
+  overflow: hidden;
+}
+
+.brands-page-copy {
+  position: relative;
+  z-index: 2;
+}
+
+.brands-page-copy h1 {
+  max-width: 850px;
+  margin: 16px 0 18px;
+  font: 900 clamp(60px, 8vw, 124px)/.84 Manrope, sans-serif;
+  letter-spacing: -.09em;
+}
+
+.brands-page-copy p {
+  max-width: 640px;
+  color: rgba(255,255,255,.68);
+  line-height: 1.7;
+}
+
+.brands-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.brands-hero-stats span {
+  padding: 12px 15px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.13);
+  color: rgba(255,255,255,.72);
+  font-weight: 800;
+}
+
+.brands-hero-stats strong {
+  color: var(--accent);
+  margin-right: 6px;
+}
+
+.brands-orbit {
+  position: absolute;
+  right: -70px;
+  top: -80px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+.brands-orbit span {
+  position: absolute;
+  border-radius: 34px;
+  background: rgba(215,255,63,.16);
+  border: 1px solid rgba(255,255,255,.10);
+}
+
+.brands-orbit span:nth-child(1) {
+  width: 180px;
+  height: 120px;
+  left: 70px;
+  top: 90px;
+  transform: rotate(-12deg);
+}
+
+.brands-orbit span:nth-child(2) {
+  width: 140px;
+  height: 140px;
+  right: 90px;
+  bottom: 80px;
+  border-radius: 50%;
+}
+
+.brands-orbit span:nth-child(3) {
+  width: 90px;
+  height: 220px;
+  right: 40px;
+  top: 120px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.06);
+}
+
+.brand-jump-redesign {
+  position: relative;
+  z-index: 2;
+  align-self: end;
+  display: grid;
+  gap: 12px;
+  padding: 22px;
+  border-radius: 28px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.14);
+  backdrop-filter: blur(16px);
+}
+
+.brand-jump-redesign label {
+  color: rgba(255,255,255,.72);
+  font-weight: 900;
+}
+
+.brand-jump-redesign select {
+  width: 100%;
+  min-height: 54px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 18px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.brand-directory-redesign {
+  padding-top: 82px;
+}
+
+@media (max-width: 1180px) {
+  .brand-tile,
+  .brand-tile:nth-child(1),
+  .brand-tile:nth-child(5),
+  .brand-tile:nth-child(7),
+  .brand-tile:nth-child(8),
+  .brand-tile:nth-child(9) {
+    grid-column: span 4;
+  }
+}
+
+@media (max-width: 880px) {
+  .brand-showcase-hero,
+  .brands-page-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-showcase-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .brand-tile,
+  .brand-tile:nth-child(1),
+  .brand-tile:nth-child(5),
+  .brand-tile:nth-child(7),
+  .brand-tile:nth-child(8),
+  .brand-tile:nth-child(9) {
+    grid-column: auto;
+  }
+
+  .brands-page-hero {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .brand-showcase-redesign {
+    padding-top: 60px;
+  }
+
+  .brand-showcase-hero h2 {
+    font-size: clamp(48px, 14vw, 72px);
+    line-height: .88;
+  }
+
+  .brand-showcase-hero p {
+    font-size: 15px;
+  }
+
+  .brand-showcase-cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .brand-showcase-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .brand-tile {
+    min-height: 285px;
+    border-radius: 28px;
+    padding: 22px;
+  }
+
+  .brand-logo-word {
+    margin-top: 36px;
+    font-size: clamp(42px, 12vw, 62px);
+  }
+
+  .brand-tile p {
+    max-width: 76%;
+    font-size: 14px;
+  }
+
+  .brand-visual {
+    opacity: .52;
+  }
+
+  .brands-page-hero {
+    width: calc(100% - 20px);
+    margin-top: 20px;
+    padding: 34px 20px;
+    border-radius: 30px;
+  }
+
+  .brands-page-copy h1 {
+    font-size: clamp(46px, 13vw, 70px);
+    line-height: .88;
+  }
+
+  .brands-page-copy p {
+    font-size: 14px;
+  }
+
+  .brands-hero-stats span {
+    font-size: 12px;
+    padding: 10px 12px;
+  }
+
+  .brand-jump-redesign {
+    padding: 16px;
+  }
+
+  .brand-directory-redesign {
+    padding-top: 54px;
+  }
+}
+
+
+/* Official product image cleanup */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 92% !important;
+  max-height: 92% !important;
+  padding: 14px !important;
+  background: transparent !important;
+}
+
+.product-visual {
+  background: radial-gradient(circle at 50% 40%, #ffffff, #f4f3ee 76%) !important;
+}
+
+
+/* XIOM official-image step: keep product cards clean */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 92% !important;
+  max-height: 92% !important;
+  padding: 14px !important;
+  background: transparent !important;
+}
+
+
+/* Andro official-image step: keep fallback and official images clean */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 92% !important;
+  max-height: 92% !important;
+  padding: 14px !important;
+  background: transparent !important;
+}
+
+
+/* Butterfly official-image step: keep fallback and official images clean */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 92% !important;
+  max-height: 92% !important;
+  padding: 14px !important;
+  background: transparent !important;
+}
+
+
+/* Remaining brands official-image step: keep fallback and official images clean */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 92% !important;
+  max-height: 92% !important;
+  padding: 14px !important;
+  background: transparent !important;
+}
+
+
+/* Actual product image mode: do not show generated illustrations as real photos */
+.product-visual img.actual-product-photo,
+.vc-img img.actual-product-photo,
+.visual-product-image img.actual-product-photo,
+.modal-product-visual img.actual-product-photo,
+.fixed-modal-media img.actual-product-photo {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 94% !important;
+  max-height: 94% !important;
+  padding: 10px !important;
+  background: transparent !important;
+}
+
+.official-image-pending {
+  width: 100%;
+  height: 100%;
+  min-height: 210px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 10px;
+  text-align: center;
+  padding: 24px;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 82% 22%, rgba(215, 255, 63, .34), transparent 32%),
+    linear-gradient(145deg, rgba(255,255,255,.95), rgba(242,242,235,.72));
+  border: 1px dashed rgba(17, 19, 17, .16);
+  color: var(--ink);
+}
+
+.official-image-pending .image-pending-brand {
+  font-size: 10px;
+  letter-spacing: .16em;
+  font-weight: 900;
+  color: rgba(17, 19, 17, .46);
+}
+
+.official-image-pending strong {
+  max-width: 210px;
+  font-size: 18px;
+  line-height: 1.05;
+  letter-spacing: -.04em;
+}
+
+.official-image-pending em {
+  font-style: normal;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(17, 19, 17, .06);
+  color: rgba(17, 19, 17, .58);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.image-load-failed .official-image-pending {
+  border-color: rgba(216, 49, 43, .25);
+}
+
+
+/* Product image display fix: remove pending placeholder look */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 94% !important;
+  max-height: 94% !important;
+  padding: 10px !important;
+  background: transparent !important;
+}
+
+.official-image-pending {
+  display: none !important;
+}
+
+
+/* Real product photo handling */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 96% !important;
+  max-height: 96% !important;
+  padding: 8px !important;
+  background: transparent !important;
+}
+
+.product-visual:has(img[src^="http"]) {
+  background: #fff !important;
+}
+
+.image-load-failed::after {
+  content: "Image loading issue";
+  position: absolute;
+  inset: auto 20px 18px 20px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 12px;
+  color: rgba(17,19,17,.62);
+}
+
+
+/* All-product web image mode */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 96% !important;
+  max-height: 96% !important;
+  padding: 8px !important;
+  background: transparent !important;
+}
+
+.product-visual {
+  background: #fff !important;
+}
+
+.image-load-failed::after {
+  content: "Image loading issue";
+  position: absolute;
+  inset: auto 20px 18px 20px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 12px;
+  color: rgba(17,19,17,.62);
+}
+
+.official-image-pending {
+  display: none !important;
+}
+
+
+/* Final products-page fixes */
+.save-filter-actions,
+.pending-filter-note {
+  display: none !important;
+}
+
+.product-detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 18px;
+  font-size: 13px;
+  font-weight: 900;
+  color: rgba(17, 19, 17, .72);
+}
+
+.product-card {
+  cursor: pointer;
+}
+
+.product-detail-shell {
+  padding-top: clamp(110px, 10vw, 150px);
+}
+
+.product-detail-page {
+  display: grid;
+  grid-template-columns: minmax(320px, .92fr) minmax(360px, 1fr);
+  gap: clamp(28px, 5vw, 70px);
+  align-items: start;
+}
+
+.product-detail-media {
+  position: sticky;
+  top: 110px;
+  min-height: 620px;
+  display: grid;
+  place-items: center;
+  border-radius: 44px;
+  background: #fff;
+  border: 1px solid rgba(17, 19, 17, .08);
+  box-shadow: 0 24px 70px rgba(17, 19, 17, .08);
+  overflow: hidden;
+  padding: 28px;
+}
+
+.product-detail-media > img {
+  width: 100%;
+  height: 520px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.detail-badge {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  z-index: 2;
+}
+
+.product-detail-thumbs {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 4px;
+}
+
+.detail-thumb {
+  width: 74px;
+  height: 74px;
+  flex: 0 0 auto;
+  border: 1px solid rgba(17, 19, 17, .10);
+  background: #fff;
+  border-radius: 18px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.detail-thumb.active {
+  border-color: var(--ink);
+  box-shadow: 0 10px 24px rgba(17,19,17,.10);
+}
+
+.detail-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-detail-copy {
+  padding: 12px 0 40px;
+}
+
+.back-link {
+  display: inline-flex;
+  margin-bottom: 28px;
+  color: rgba(17, 19, 17, .58);
+  font-weight: 900;
+}
+
+.product-detail-copy h1 {
+  margin: 12px 0 18px;
+  font: 900 clamp(44px, 5vw, 78px)/.88 Manrope, sans-serif;
+  letter-spacing: -.08em;
+}
+
+.product-detail-price-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 22px;
+  margin: 18px 0 24px;
+}
+
+.product-detail-price-row strong {
+  font-size: clamp(28px, 3vw, 44px);
+  letter-spacing: -.05em;
+}
+
+.product-detail-price-row span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(17, 19, 17, .06);
+  font-weight: 900;
+  color: rgba(17, 19, 17, .68);
+}
+
+.product-detail-copy > p {
+  max-width: 640px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.product-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 30px 0;
+}
+
+.detail-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 28px 0;
+}
+
+.detail-info-grid div {
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(255,255,255,.72);
+  border: 1px solid rgba(17,19,17,.08);
+}
+
+.detail-info-grid small {
+  display: block;
+  margin-bottom: 8px;
+  color: rgba(17, 19, 17, .48);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 10px;
+}
+
+.detail-info-grid b {
+  font-size: 18px;
+}
+
+.product-detail-features {
+  margin-top: 30px;
+  padding: 26px;
+  border-radius: 28px;
+  background: #fff;
+  border: 1px solid rgba(17,19,17,.08);
+}
+
+.product-detail-features h3 {
+  margin: 0 0 16px;
+  font-size: 24px;
+}
+
+.product-detail-features ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.9;
+  font-weight: 750;
+}
+
+.official-product-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 22px;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.product-not-found,
+.product-detail-loading {
+  min-height: 420px;
+  display: grid;
+  align-content: center;
+  gap: 18px;
+}
+
+.product-not-found h1,
+.product-detail-loading h1 {
+  font: 900 clamp(46px, 6vw, 86px)/.88 Manrope, sans-serif;
+  letter-spacing: -.08em;
+  margin: 0;
+}
+
+@media (max-width: 920px) {
+  .product-detail-page {
+    grid-template-columns: 1fr;
+  }
+
+  .product-detail-media {
+    position: relative;
+    top: auto;
+    min-height: 420px;
+    border-radius: 32px;
+  }
+
+  .product-detail-media > img {
+    height: 360px;
+  }
+}
+
+@media (max-width: 560px) {
+  .product-detail-shell {
+    padding-top: 92px;
+  }
+
+  .product-detail-media {
+    min-height: 360px;
+    padding: 18px;
+  }
+
+  .product-detail-media > img {
+    height: 300px;
+  }
+
+  .product-detail-copy h1 {
+    font-size: clamp(38px, 12vw, 54px);
+  }
+
+  .detail-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-detail-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+/* Clean brand logo slider redesign */
+.brand-logo-slider-section {
+  padding-top: clamp(78px, 8vw, 120px);
+  overflow: hidden;
+}
+
+.brand-slider-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: end;
+  margin-bottom: 28px;
+}
+
+.brand-slider-heading h2 {
+  margin: 10px 0 0;
+  font: 900 clamp(58px, 8vw, 118px)/.84 Manrope, sans-serif;
+  letter-spacing: -.09em;
+}
+
+.brand-slider-heading p {
+  max-width: 650px;
+  margin: 18px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+  font-size: 16px;
+}
+
+.brand-slider-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-slider-btn {
+  width: 54px;
+  height: 54px;
+  border: 0;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: 0 16px 36px rgba(17, 19, 17, .08);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.brand-slider-btn:hover {
+  transform: translateY(-2px);
+  background: var(--accent);
+}
+
+.brand-logo-slider-shell {
+  position: relative;
+  margin-inline: calc(-1 * clamp(16px, 4vw, 64px));
+  padding-inline: clamp(16px, 4vw, 64px);
+}
+
+.brand-logo-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(270px, 330px);
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding: 6px 0 22px;
+}
+
+.brand-logo-track::-webkit-scrollbar {
+  display: none;
+}
+
+.brand-logo-slide {
+  min-height: 330px;
+  scroll-snap-align: start;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 22px;
+  border-radius: 34px;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(215, 255, 63, .22), transparent 28%),
+    linear-gradient(145deg, rgba(255,255,255,.96), rgba(244,243,238,.78));
+  border: 1px solid rgba(17,19,17,.08);
+  box-shadow: 0 18px 46px rgba(17, 19, 17, .055);
+  color: var(--ink);
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  overflow: hidden;
+}
+
+.brand-logo-slide:hover {
+  transform: translateY(-5px);
+  border-color: rgba(17,19,17,.15);
+  box-shadow: 0 26px 66px rgba(17, 19, 17, .10);
+}
+
+.brand-logo-slide-dhs {
+  background:
+    radial-gradient(circle at 88% 20%, rgba(215,255,63,.26), transparent 28%),
+    linear-gradient(145deg, #101410, #23301f);
+  color: #fff;
+}
+
+.brand-logo-slide::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 48px;
+  right: -58px;
+  bottom: -54px;
+  background: rgba(215,255,63,.50);
+  transform: rotate(-12deg);
+  z-index: 0;
+}
+
+.brand-logo-slide-dhs::after {
+  background: rgba(215,255,63,.42);
+}
+
+.brand-logo-mark,
+.brand-logo-content,
+.brand-logo-slide em {
+  position: relative;
+  z-index: 2;
+}
+
+.brand-logo-mark {
+  width: 112px;
+  height: 112px;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+  background: #fff;
+  border: 1px solid rgba(17, 19, 17, .08);
+  box-shadow: 0 18px 38px rgba(17,19,17,.08);
+}
+
+.brand-logo-slide-dhs .brand-logo-mark {
+  background: rgba(255,255,255,.95);
+}
+
+.brand-logo-mark img {
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
+  image-rendering: auto;
+}
+
+.brand-logo-content span {
+  display: block;
+  color: rgba(17, 19, 17, .45);
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.brand-logo-slide-dhs .brand-logo-content span {
+  color: rgba(255,255,255,.56);
+}
+
+.brand-logo-content h3 {
+  margin: 0;
+  font: 900 clamp(38px, 4vw, 56px)/.88 Manrope, sans-serif;
+  letter-spacing: -.075em;
+}
+
+.brand-logo-content p {
+  margin: 13px 0 0;
+  color: rgba(17, 19, 17, .58);
+  font-weight: 850;
+}
+
+.brand-logo-slide-dhs .brand-logo-content p {
+  color: rgba(255,255,255,.68);
+}
+
+.brand-logo-slide em {
+  width: max-content;
+  max-width: 100%;
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: rgba(17,19,17,.06);
+  color: rgba(17,19,17,.65);
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.brand-logo-slide-dhs em {
+  background: rgba(255,255,255,.12);
+  color: rgba(255,255,255,.74);
+}
+
+/* Full landscape brands page hero */
+.brand-landscape-hero {
+  position: relative;
+  min-height: clamp(560px, 62vh, 760px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 410px);
+  align-items: end;
+  gap: 36px;
+  width: 100%;
+  margin: 0;
+  padding: clamp(140px, 14vw, 210px) clamp(22px, 6vw, 110px) clamp(54px, 8vw, 94px);
+  color: #fff;
+  background:
+    radial-gradient(circle at 76% 20%, rgba(215,255,63,.24), transparent 32%),
+    linear-gradient(135deg, #101310, #22301f);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.brand-landscape-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.brand-landscape-bg span {
+  position: absolute;
+  display: block;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(215,255,63,.14);
+  border-radius: 42px;
+}
+
+.brand-landscape-bg span:nth-child(1) {
+  width: 340px;
+  height: 340px;
+  right: 12%;
+  top: 18%;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.brand-landscape-bg span:nth-child(2) {
+  width: 220px;
+  height: 120px;
+  right: 20%;
+  top: 22%;
+  transform: rotate(-12deg);
+}
+
+.brand-landscape-bg span:nth-child(3) {
+  width: 160px;
+  height: 160px;
+  right: 10%;
+  bottom: 18%;
+  border-radius: 50%;
+  background: rgba(215,255,63,.18);
+}
+
+.brand-landscape-content {
+  max-width: 900px;
+}
+
+.brand-landscape-content h1 {
+  margin: 16px 0 22px;
+  font: 900 clamp(68px, 10vw, 152px)/.82 Manrope, sans-serif;
+  letter-spacing: -.095em;
+}
+
+.brand-landscape-content p {
+  max-width: 740px;
+  color: rgba(255,255,255,.72);
+  line-height: 1.7;
+  font-size: clamp(16px, 1.5vw, 21px);
+}
+
+.brand-hero-selector {
+  align-self: end;
+  display: grid;
+  gap: 12px;
+  padding: 22px;
+  border-radius: 30px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.16);
+  backdrop-filter: blur(18px);
+}
+
+.brand-hero-selector label {
+  color: rgba(255,255,255,.76);
+  font-weight: 900;
+}
+
+.brand-hero-selector select {
+  min-height: 58px;
+  border-radius: 999px;
+  border: 0;
+  background: #fff;
+  color: var(--ink);
+  padding: 0 18px;
+  font-weight: 900;
+}
+
+.brand-page-slider {
+  padding-top: clamp(70px, 7vw, 120px);
+}
+
+.brand-logo-track-large {
+  grid-auto-columns: minmax(290px, 360px);
+}
+
+.brand-minimal-list {
+  padding-top: 36px;
+}
+
+.brand-link-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.brand-link-strip a {
+  min-height: 58px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px 10px 10px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid rgba(17, 19, 17, .08);
+  color: var(--ink);
+  font-weight: 900;
+  box-shadow: 0 14px 32px rgba(17,19,17,.045);
+}
+
+.brand-link-strip img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #f5f4ee;
+  padding: 7px;
+}
+
+@media (max-width: 980px) {
+  .brand-slider-heading,
+  .brand-landscape-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-slider-controls {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .brand-landscape-hero {
+    min-height: auto;
+    padding-top: 128px;
+  }
+}
+
+@media (max-width: 640px) {
+  .brand-logo-slider-section {
+    padding-top: 56px;
+  }
+
+  .brand-slider-heading h2,
+  .brand-landscape-content h1 {
+    font-size: clamp(48px, 15vw, 72px);
+    line-height: .88;
+  }
+
+  .brand-slider-heading p,
+  .brand-landscape-content p {
+    font-size: 14.5px;
+  }
+
+  .brand-slider-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .brand-showcase-cta {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .brand-logo-track,
+  .brand-logo-track-large {
+    grid-auto-columns: minmax(250px, 82vw);
+  }
+
+  .brand-logo-slide {
+    min-height: 300px;
+    border-radius: 28px;
+  }
+
+  .brand-logo-mark {
+    width: 94px;
+    height: 94px;
+    border-radius: 24px;
+  }
+
+  .brand-logo-mark img {
+    width: 62px;
+    height: 62px;
+  }
+
+  .brand-landscape-hero {
+    padding: 116px 20px 42px;
+  }
+
+  .brand-hero-selector {
+    padding: 16px;
+  }
+}
+
+/* Hide old cluttered brand grid classes if cached markup exists */
+.brand-showcase-grid:not(.brand-logo-track),
+.brand-directory-grid-new {
+  display: none;
+}
+
+
+/* Premium full-HD brand logo slider refinements */
+.brand-logo-premium-section{padding-top:clamp(70px,7vw,110px)!important;padding-bottom:clamp(44px,6vw,80px)!important}
+.brand-logo-premium-section .brand-slider-heading{margin-bottom:24px!important}
+.brand-logo-track-premium{grid-auto-columns:clamp(240px,22vw,360px)!important;gap:clamp(14px,1.6vw,22px)!important;padding:10px 0 30px!important}
+.brand-logo-track-premium .brand-logo-slide{min-height:clamp(190px,18vw,260px)!important;padding:clamp(18px,2vw,26px)!important;justify-content:space-between!important;border-radius:clamp(26px,2.4vw,38px)!important;background:radial-gradient(circle at 82% 18%,rgba(215,255,63,.28),transparent 30%),linear-gradient(145deg,#fff,#f6f5ef)!important;box-shadow:0 24px 64px rgba(17,19,17,.075)!important;border:1px solid rgba(17,19,17,.075)!important}
+.brand-logo-track-premium .brand-logo-slide::after{width:122px!important;height:122px!important;right:-44px!important;bottom:-46px!important;border-radius:38px!important;opacity:.52!important}
+.brand-logo-track-premium .brand-logo-slide-dhs{background:radial-gradient(circle at 84% 20%,rgba(215,255,63,.22),transparent 32%),linear-gradient(145deg,#111511,#263420)!important}
+.brand-logo-track-premium .brand-logo-glass{width:100%!important;height:clamp(86px,8vw,126px)!important;display:grid!important;place-items:center!important;padding:clamp(16px,2vw,24px)!important;border-radius:26px!important;background:rgba(255,255,255,.82)!important;border:1px solid rgba(17,19,17,.065)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 14px 32px rgba(17,19,17,.045)!important;position:relative!important;z-index:2!important}
+.brand-logo-track-premium .brand-logo-slide-dhs .brand-logo-glass{background:rgba(255,255,255,.94)!important}
+.brand-logo-track-premium .brand-logo-glass img{width:100%!important;height:100%!important;max-width:245px!important;max-height:82px!important;object-fit:contain!important;display:block!important;padding:0!important;filter:none!important}
+.brand-logo-track-premium .brand-logo-details{position:relative!important;z-index:2!important;display:flex!important;align-items:end!important;justify-content:space-between!important;gap:16px!important}
+.brand-logo-track-premium .brand-logo-details span{padding:9px 12px!important;border-radius:999px!important;background:rgba(17,19,17,.06)!important;color:rgba(17,19,17,.62)!important;font-size:12px!important;font-weight:900!important;white-space:nowrap!important}
+.brand-logo-track-premium .brand-logo-details strong{max-width:140px!important;text-align:right!important;color:rgba(17,19,17,.86)!important;font-size:13px!important;line-height:1.25!important}
+.brand-logo-track-premium .brand-logo-slide-dhs .brand-logo-details span{background:rgba(255,255,255,.12)!important;color:rgba(255,255,255,.72)!important}
+.brand-logo-track-premium .brand-logo-slide-dhs .brand-logo-details strong{color:rgba(255,255,255,.9)!important}
+.brand-link-strip a img{width:96px!important;height:42px!important;border-radius:0!important;background:transparent!important;padding:0!important;object-fit:contain!important}
+@media(max-width:900px){.brand-logo-track-premium{grid-auto-columns:clamp(230px,44vw,330px)!important}}
+@media(max-width:560px){.brand-logo-premium-section{padding-top:52px!important}.brand-logo-track-premium{grid-auto-columns:minmax(238px,84vw)!important}.brand-logo-track-premium .brand-logo-slide{min-height:205px!important}.brand-logo-track-premium .brand-logo-glass{height:94px!important}.brand-logo-track-premium .brand-logo-details{align-items:start!important;flex-direction:column!important}.brand-logo-track-premium .brand-logo-details strong{text-align:left!important;max-width:none!important}}
+
+
+/* FINAL: make brand logo slider big and clearly visible */
+.brand-logo-slider-section,
+.brand-logo-premium-section {
+  padding-top: clamp(60px, 6vw, 92px) !important;
+  padding-bottom: clamp(58px, 7vw, 96px) !important;
+  min-height: auto !important;
+}
+
+.brand-logo-slider-shell {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 clamp(18px, 4vw, 70px) !important;
+  overflow: visible !important;
+}
+
+.brand-logo-track,
+.brand-logo-track-premium,
+.brand-logo-track-large {
+  display: grid !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: clamp(340px, 30vw, 520px) !important;
+  gap: clamp(22px, 2.6vw, 38px) !important;
+  align-items: stretch !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  scroll-snap-type: x mandatory !important;
+  scrollbar-width: none !important;
+  padding: 18px 0 42px !important;
+}
+
+.brand-logo-track::-webkit-scrollbar,
+.brand-logo-track-premium::-webkit-scrollbar,
+.brand-logo-track-large::-webkit-scrollbar {
+  display: none !important;
+}
+
+.brand-logo-slide,
+.brand-logo-track-premium .brand-logo-slide {
+  min-height: clamp(285px, 24vw, 390px) !important;
+  width: auto !important;
+  min-width: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  gap: 24px !important;
+  padding: clamp(26px, 3vw, 38px) !important;
+  border-radius: clamp(34px, 3vw, 48px) !important;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(215, 255, 63, .34), transparent 34%),
+    linear-gradient(145deg, #ffffff, #f4f3ee) !important;
+  border: 1px solid rgba(17, 19, 17, .10) !important;
+  box-shadow: 0 28px 80px rgba(17, 19, 17, .10) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  scroll-snap-align: start !important;
+  overflow: hidden !important;
+}
+
+.brand-logo-slide-dhs,
+.brand-logo-track-premium .brand-logo-slide-dhs {
+  background:
+    radial-gradient(circle at 84% 20%, rgba(215, 255, 63, .30), transparent 34%),
+    linear-gradient(145deg, #101410, #26351f) !important;
+}
+
+.brand-logo-slide::after,
+.brand-logo-track-premium .brand-logo-slide::after {
+  width: 180px !important;
+  height: 180px !important;
+  right: -64px !important;
+  bottom: -70px !important;
+  border-radius: 48px !important;
+  opacity: .55 !important;
+  display: block !important;
+  content: "" !important;
+}
+
+.brand-logo-glass,
+.brand-logo-track-premium .brand-logo-glass,
+.brand-logo-mark {
+  width: 100% !important;
+  height: clamp(150px, 12vw, 205px) !important;
+  min-height: 150px !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: clamp(24px, 2.5vw, 34px) !important;
+  border-radius: 34px !important;
+  background: rgba(255, 255, 255, .92) !important;
+  border: 1px solid rgba(17, 19, 17, .08) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 18px 44px rgba(17,19,17,.06) !important;
+  position: relative !important;
+  z-index: 2 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.brand-logo-slide-dhs .brand-logo-glass,
+.brand-logo-track-premium .brand-logo-slide-dhs .brand-logo-glass {
+  background: rgba(255, 255, 255, .96) !important;
+}
+
+.brand-logo-glass img,
+.brand-logo-track-premium .brand-logo-glass img,
+.brand-logo-mark img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 360px !important;
+  max-height: 135px !important;
+  object-fit: contain !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: none !important;
+  transform: scale(1.08) !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
+.brand-logo-details,
+.brand-logo-track-premium .brand-logo-details {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 18px !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.brand-logo-details span,
+.brand-logo-track-premium .brand-logo-details span {
+  display: inline-flex !important;
+  align-items: center !important;
+  min-height: 40px !important;
+  padding: 10px 15px !important;
+  border-radius: 999px !important;
+  background: rgba(17, 19, 17, .07) !important;
+  color: rgba(17, 19, 17, .68) !important;
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  white-space: nowrap !important;
+}
+
+.brand-logo-details strong,
+.brand-logo-track-premium .brand-logo-details strong {
+  max-width: 190px !important;
+  text-align: right !important;
+  color: rgba(17, 19, 17, .90) !important;
+  font-size: 16px !important;
+  line-height: 1.25 !important;
+  font-weight: 950 !important;
+}
+
+.brand-logo-slide-dhs .brand-logo-details span,
+.brand-logo-track-premium .brand-logo-slide-dhs .brand-logo-details span {
+  background: rgba(255, 255, 255, .13) !important;
+  color: rgba(255, 255, 255, .78) !important;
+}
+
+.brand-logo-slide-dhs .brand-logo-details strong,
+.brand-logo-track-premium .brand-logo-slide-dhs .brand-logo-details strong {
+  color: rgba(255, 255, 255, .92) !important;
+}
+
+.brand-slider-btn {
+  width: 58px !important;
+  height: 58px !important;
+}
+
+@media (max-width: 980px) {
+  .brand-logo-track,
+  .brand-logo-track-premium,
+  .brand-logo-track-large {
+    grid-auto-columns: clamp(310px, 48vw, 430px) !important;
+  }
+
+  .brand-logo-slide,
+  .brand-logo-track-premium .brand-logo-slide {
+    min-height: 310px !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .brand-logo-track,
+  .brand-logo-track-premium,
+  .brand-logo-track-large {
+    grid-auto-columns: minmax(285px, 86vw) !important;
+    gap: 16px !important;
+    padding-bottom: 32px !important;
+  }
+
+  .brand-logo-slide,
+  .brand-logo-track-premium .brand-logo-slide {
+    min-height: 280px !important;
+    border-radius: 30px !important;
+    padding: 22px !important;
+  }
+
+  .brand-logo-glass,
+  .brand-logo-track-premium .brand-logo-glass,
+  .brand-logo-mark {
+    height: 140px !important;
+    min-height: 140px !important;
+    border-radius: 26px !important;
+  }
+
+  .brand-logo-glass img,
+  .brand-logo-track-premium .brand-logo-glass img,
+  .brand-logo-mark img {
+    max-width: 280px !important;
+    max-height: 110px !important;
+  }
+
+  .brand-logo-details {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .brand-logo-details strong {
+    text-align: left !important;
+    max-width: none !important;
+  }
+}
+
+
+/* FINAL: oversized premium pill brand logos */
+.brand-logo-slider-section,
+.brand-logo-premium-section {
+  padding-top: clamp(58px, 6vw, 96px) !important;
+  padding-bottom: clamp(54px, 6vw, 90px) !important;
+}
+
+.brand-logo-slider-shell {
+  margin: 0 !important;
+  padding: 0 clamp(18px, 4vw, 72px) !important;
+  overflow: visible !important;
+}
+
+.brand-logo-track,
+.brand-logo-track-premium,
+.brand-logo-track-large {
+  display: grid !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: clamp(430px, 38vw, 680px) !important;
+  gap: clamp(22px, 3vw, 46px) !important;
+  align-items: center !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  scroll-snap-type: x mandatory !important;
+  scrollbar-width: none !important;
+  padding: 20px 0 44px !important;
+}
+
+.brand-logo-track::-webkit-scrollbar,
+.brand-logo-track-premium::-webkit-scrollbar,
+.brand-logo-track-large::-webkit-scrollbar {
+  display: none !important;
+}
+
+.brand-logo-slide,
+.brand-logo-track-premium .brand-logo-slide {
+  min-height: clamp(142px, 11vw, 190px) !important;
+  height: clamp(142px, 11vw, 190px) !important;
+  padding: clamp(12px, 1.2vw, 18px) clamp(28px, 3vw, 52px) !important;
+  border-radius: 999px !important;
+  display: grid !important;
+  place-items: center !important;
+  background: linear-gradient(145deg, #ffffff, #f6f5ef) !important;
+  border: 1px solid rgba(17, 19, 17, .12) !important;
+  box-shadow: 0 30px 84px rgba(17, 19, 17, .12) !important;
+  position: relative !important;
+  isolation: isolate !important;
+  overflow: hidden !important;
+  scroll-snap-align: start !important;
+}
+
+.brand-logo-slide::after,
+.brand-logo-track-premium .brand-logo-slide::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: auto auto -34px -18px !important;
+  width: 116px !important;
+  height: 116px !important;
+  border-radius: 50% !important;
+  background: rgba(215, 255, 63, .50) !important;
+  opacity: .72 !important;
+  z-index: 0 !important;
+  transform: none !important;
+}
+
+.brand-logo-slide::before,
+.brand-logo-track-premium .brand-logo-slide::before {
+  content: "" !important;
+  position: absolute !important;
+  right: 24px !important;
+  top: 50% !important;
+  width: clamp(42px, 4vw, 74px) !important;
+  height: clamp(42px, 4vw, 74px) !important;
+  border-radius: 50% !important;
+  transform: translateY(-50%) !important;
+  background: rgba(215, 255, 63, .38) !important;
+  z-index: 0 !important;
+}
+
+.brand-logo-slide-stiga,
+.brand-logo-track-premium .brand-logo-slide-stiga {
+  background: linear-gradient(145deg, #0f130f, #121812) !important;
+}
+
+.brand-logo-slide-dhs,
+.brand-logo-track-premium .brand-logo-slide-dhs {
+  background: linear-gradient(145deg, #ffffff, #f7f6f0) !important;
+}
+
+.brand-logo-slide-joola,
+.brand-logo-track-premium .brand-logo-slide-joola {
+  background: linear-gradient(145deg, #d7ff3f, #c9ff22) !important;
+}
+
+.brand-logo-glass,
+.brand-logo-track-premium .brand-logo-glass,
+.brand-logo-mark {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 999px !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.brand-logo-glass img,
+.brand-logo-track-premium .brand-logo-glass img,
+.brand-logo-mark img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: clamp(300px, 29vw, 500px) !important;
+  max-height: clamp(92px, 8.2vw, 145px) !important;
+  object-fit: contain !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  filter: none !important;
+  transform: scale(1.14) !important;
+}
+
+.brand-logo-slide-butterfly .brand-logo-glass img {
+  max-width: clamp(330px, 31vw, 530px) !important;
+}
+
+.brand-logo-slide-stiga .brand-logo-glass img {
+  filter: brightness(0) invert(1) !important;
+}
+
+.brand-logo-slide-stiga::after,
+.brand-logo-slide-stiga::before {
+  background: rgba(215, 255, 63, .78) !important;
+}
+
+.brand-logo-details,
+.brand-logo-track-premium .brand-logo-details {
+  display: none !important;
+}
+
+.brand-slider-btn {
+  width: 62px !important;
+  height: 62px !important;
+}
+
+/* Keep the compact strip readable but not tiny */
+.brand-link-strip a {
+  min-height: 82px !important;
+  padding: 14px 24px 14px 18px !important;
+  border-radius: 999px !important;
+}
+
+.brand-link-strip a img {
+  width: 150px !important;
+  height: 64px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+@media (max-width: 980px) {
+  .brand-logo-track,
+  .brand-logo-track-premium,
+  .brand-logo-track-large {
+    grid-auto-columns: clamp(390px, 70vw, 560px) !important;
+  }
+
+  .brand-logo-slide,
+  .brand-logo-track-premium .brand-logo-slide {
+    height: clamp(132px, 18vw, 170px) !important;
+    min-height: clamp(132px, 18vw, 170px) !important;
+  }
+
+  .brand-logo-glass img,
+  .brand-logo-track-premium .brand-logo-glass img,
+  .brand-logo-mark img {
+    max-width: clamp(275px, 55vw, 430px) !important;
+    max-height: clamp(84px, 13vw, 125px) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-logo-track,
+  .brand-logo-track-premium,
+  .brand-logo-track-large {
+    grid-auto-columns: minmax(300px, 88vw) !important;
+    gap: 16px !important;
+    padding-bottom: 32px !important;
+  }
+
+  .brand-logo-slide,
+  .brand-logo-track-premium .brand-logo-slide {
+    height: 120px !important;
+    min-height: 120px !important;
+    padding: 10px 24px !important;
+  }
+
+  .brand-logo-glass img,
+  .brand-logo-track-premium .brand-logo-glass img,
+  .brand-logo-mark img {
+    max-width: 260px !important;
+    max-height: 88px !important;
+    transform: scale(1.08) !important;
+  }
+
+  .brand-link-strip a img {
+    width: 120px !important;
+    height: 52px !important;
+  }
+}
+
+/* FINAL OVERRIDE: make every brand-logo area a large visible pill, like the reference image */
+.brand-logo-slider-section,
+.brand-logo-premium-section,
+.brand-page-slider,
+.brand-minimal-list {
+  padding-top: clamp(54px, 6vw, 90px) !important;
+  padding-bottom: clamp(54px, 6vw, 90px) !important;
+  overflow: hidden !important;
+}
+
+.brand-logo-slider-shell,
+.brand-logo-premium-section .brand-logo-slider-shell {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 clamp(20px, 5vw, 88px) !important;
+  overflow: visible !important;
+}
+
+.brand-logo-track,
+.brand-logo-track-premium,
+.brand-logo-track-large,
+.brand-logo-track.brand-logo-track-premium,
+.brand-logo-track.brand-logo-track-large.brand-logo-track-premium {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: clamp(28px, 3.2vw, 56px) !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  max-width: none !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  scroll-snap-type: x mandatory !important;
+  padding: 20px 0 48px !important;
+  scrollbar-width: none !important;
+}
+
+.brand-logo-track::-webkit-scrollbar,
+.brand-logo-track-premium::-webkit-scrollbar,
+.brand-logo-track-large::-webkit-scrollbar,
+.brand-link-strip::-webkit-scrollbar {
+  display: none !important;
+}
+
+.brand-logo-track > .brand-logo-slide,
+.brand-logo-track-premium > .brand-logo-slide,
+.brand-logo-track-large > .brand-logo-slide,
+a.brand-logo-slide {
+  flex: 0 0 clamp(520px, 40vw, 760px) !important;
+  width: clamp(520px, 40vw, 760px) !important;
+  height: clamp(150px, 11vw, 205px) !important;
+  min-height: clamp(150px, 11vw, 205px) !important;
+  max-height: none !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: clamp(16px, 1.6vw, 24px) clamp(44px, 4vw, 78px) !important;
+  margin: 0 !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(17, 19, 17, .13) !important;
+  box-shadow: 0 30px 85px rgba(17, 19, 17, .13) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  scroll-snap-align: start !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  color: var(--ink) !important;
+}
+
+a.brand-logo-slide:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 40px 100px rgba(17, 19, 17, .18) !important;
+}
+
+a.brand-logo-slide::before {
+  content: "" !important;
+  position: absolute !important;
+  left: clamp(28px, 2.4vw, 48px) !important;
+  top: 50% !important;
+  width: clamp(58px, 5vw, 92px) !important;
+  height: clamp(58px, 5vw, 92px) !important;
+  transform: translateY(-50%) !important;
+  border-radius: 50% !important;
+  background: rgba(215, 255, 63, .55) !important;
+  z-index: 0 !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+a.brand-logo-slide::after {
+  content: "" !important;
+  position: absolute !important;
+  right: clamp(28px, 2.4vw, 48px) !important;
+  top: 50% !important;
+  width: clamp(58px, 5vw, 92px) !important;
+  height: clamp(58px, 5vw, 92px) !important;
+  transform: translateY(-50%) !important;
+  border-radius: 50% !important;
+  background: rgba(215, 255, 63, .32) !important;
+  z-index: 0 !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+a.brand-logo-slide-joola {
+  background: linear-gradient(145deg, #d7ff3f, #caff24) !important;
+}
+
+a.brand-logo-slide-stiga {
+  background: linear-gradient(145deg, #101410, #131a13) !important;
+}
+
+a.brand-logo-slide-stiga::before,
+a.brand-logo-slide-stiga::after {
+  background: rgba(215, 255, 63, .74) !important;
+}
+
+a.brand-logo-slide-dhs::before {
+  background: rgba(229, 57, 53, .92) !important;
+}
+
+a.brand-logo-slide-yinhe::before {
+  background: rgba(66, 123, 255, .90) !important;
+}
+
+a.brand-logo-slide-xiom::before {
+  background: rgba(242, 140, 56, .85) !important;
+}
+
+a.brand-logo-slide-andro::before {
+  background: rgba(95, 212, 111, .88) !important;
+}
+
+a.brand-logo-slide-dawei::before {
+  background: rgba(216, 49, 43, .88) !important;
+}
+
+a.brand-logo-slide .brand-logo-glass,
+a.brand-logo-slide .brand-logo-mark,
+.brand-logo-track-premium .brand-logo-glass,
+.brand-logo-track-premium .brand-logo-mark {
+  position: relative !important;
+  z-index: 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  min-height: 0 !important;
+}
+
+a.brand-logo-slide .brand-logo-glass img,
+a.brand-logo-slide .brand-logo-mark img,
+.brand-logo-track-premium .brand-logo-glass img,
+.brand-logo-track-premium .brand-logo-mark img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: clamp(390px, 31vw, 600px) !important;
+  max-height: clamp(112px, 8.5vw, 165px) !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+a.brand-logo-slide-stiga .brand-logo-glass img,
+a.brand-logo-slide-stiga .brand-logo-mark img {
+  filter: brightness(0) invert(1) !important;
+}
+
+a.brand-logo-slide .brand-logo-details,
+a.brand-logo-slide .brand-logo-content,
+a.brand-logo-slide em,
+.brand-logo-track-premium .brand-logo-details,
+.brand-logo-track-premium .brand-logo-content,
+.brand-logo-track-premium em {
+  display: none !important;
+}
+
+.brand-link-strip {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: clamp(28px, 3.2vw, 56px) !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  padding: 20px 0 48px !important;
+  scrollbar-width: none !important;
+}
+
+.brand-link-strip a {
+  flex: 0 0 clamp(520px, 40vw, 760px) !important;
+  width: clamp(520px, 40vw, 760px) !important;
+  height: clamp(150px, 11vw, 205px) !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: clamp(16px, 1.6vw, 24px) clamp(44px, 4vw, 78px) !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  border: 1px solid rgba(17, 19, 17, .13) !important;
+  box-shadow: 0 30px 85px rgba(17, 19, 17, .13) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.brand-link-strip a img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: clamp(390px, 31vw, 600px) !important;
+  max-height: clamp(112px, 8.5vw, 165px) !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+.brand-link-strip a span {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .brand-logo-track > .brand-logo-slide,
+  .brand-logo-track-premium > .brand-logo-slide,
+  .brand-logo-track-large > .brand-logo-slide,
+  a.brand-logo-slide,
+  .brand-link-strip a {
+    flex-basis: clamp(430px, 74vw, 610px) !important;
+    width: clamp(430px, 74vw, 610px) !important;
+    height: clamp(138px, 20vw, 180px) !important;
+    min-height: clamp(138px, 20vw, 180px) !important;
+  }
+
+  a.brand-logo-slide .brand-logo-glass img,
+  .brand-link-strip a img {
+    max-width: clamp(330px, 58vw, 500px) !important;
+    max-height: clamp(98px, 15vw, 140px) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-logo-track > .brand-logo-slide,
+  .brand-logo-track-premium > .brand-logo-slide,
+  .brand-logo-track-large > .brand-logo-slide,
+  a.brand-logo-slide,
+  .brand-link-strip a {
+    flex-basis: min(88vw, 390px) !important;
+    width: min(88vw, 390px) !important;
+    height: 118px !important;
+    min-height: 118px !important;
+    padding: 12px 34px !important;
+  }
+
+  a.brand-logo-slide::before,
+  a.brand-logo-slide::after {
+    width: 52px !important;
+    height: 52px !important;
+  }
+
+  a.brand-logo-slide .brand-logo-glass img,
+  .brand-link-strip a img {
+    max-width: 290px !important;
+    max-height: 88px !important;
+  }
+}
+
+
+/* FINAL FIX: the visible homepage logo marquee was still tiny — make it huge */
+.brand-logo-marquee.logo-only,
+.brand-logo-marquee,
+.logo-only {
+  width: 100% !important;
+  min-height: clamp(210px, 17vw, 310px) !important;
+  padding: clamp(34px, 5vw, 72px) 0 !important;
+  overflow: hidden !important;
+  background: var(--paper, #f7f6f0) !important;
+  border: 0 !important;
+}
+
+.logo-marquee-shell {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  scrollbar-width: none !important;
+  padding: 0 clamp(18px, 5vw, 90px) !important;
+}
+
+.logo-marquee-shell::-webkit-scrollbar {
+  display: none !important;
+}
+
+.logo-marquee-track {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: clamp(28px, 3.4vw, 58px) !important;
+  width: max-content !important;
+  min-width: 100% !important;
+  animation: none !important;
+  transform: none !important;
+  padding: 12px 0 28px !important;
+}
+
+.logo-pill,
+.logo-marquee-track .logo-pill,
+a.logo-pill {
+  flex: 0 0 clamp(520px, 42vw, 780px) !important;
+  width: clamp(520px, 42vw, 780px) !important;
+  height: clamp(150px, 11.5vw, 210px) !important;
+  min-height: clamp(150px, 11.5vw, 210px) !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: clamp(18px, 2vw, 28px) clamp(48px, 4.5vw, 82px) !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(17,19,17,.14) !important;
+  box-shadow: 0 30px 88px rgba(17,19,17,.13) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative !important;
+  overflow: hidden !important;
+  text-decoration: none !important;
+}
+
+.logo-pill::before,
+.logo-marquee-track .logo-pill::before {
+  content: "" !important;
+  position: absolute !important;
+  left: clamp(30px, 3vw, 54px) !important;
+  top: 50% !important;
+  width: clamp(64px, 5.4vw, 96px) !important;
+  height: clamp(64px, 5.4vw, 96px) !important;
+  border-radius: 50% !important;
+  transform: translateY(-50%) !important;
+  background: rgba(215,255,63,.58) !important;
+  z-index: 0 !important;
+}
+
+.logo-pill::after,
+.logo-marquee-track .logo-pill::after {
+  content: "" !important;
+  position: absolute !important;
+  right: clamp(30px, 3vw, 54px) !important;
+  top: 50% !important;
+  width: clamp(64px, 5.4vw, 96px) !important;
+  height: clamp(64px, 5.4vw, 96px) !important;
+  border-radius: 50% !important;
+  transform: translateY(-50%) !important;
+  background: rgba(215,255,63,.32) !important;
+  z-index: 0 !important;
+}
+
+.logo-pill[href*="joola"] {
+  background: linear-gradient(145deg, #d7ff3f, #caff24) !important;
+}
+
+.logo-pill[href*="stiga"] {
+  background: linear-gradient(145deg, #101410, #121812) !important;
+}
+
+.logo-pill[href*="stiga"]::before,
+.logo-pill[href*="stiga"]::after {
+  background: rgba(215,255,63,.78) !important;
+}
+
+.logo-pill[href*="dhs"]::before {
+  background: rgba(229,57,53,.92) !important;
+}
+
+.logo-pill[href*="yinhe"]::before {
+  background: rgba(66,123,255,.92) !important;
+}
+
+.logo-pill[href*="xiom"]::before {
+  background: rgba(242,140,56,.88) !important;
+}
+
+.logo-pill[href*="andro"]::before {
+  background: rgba(95,212,111,.9) !important;
+}
+
+.logo-pill[href*="dawei"]::before {
+  background: rgba(216,49,43,.9) !important;
+}
+
+.logo-pill img,
+.logo-marquee-track .logo-pill img,
+a.logo-pill img {
+  position: relative !important;
+  z-index: 2 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: clamp(390px, 32vw, 620px) !important;
+  max-height: clamp(112px, 8.8vw, 170px) !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+.logo-pill[href*="stiga"] img {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Also target the brand page strip in case this same small-marquee section appears there */
+.brand-link-strip {
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: clamp(28px, 3.4vw, 58px) !important;
+  overflow-x: auto !important;
+  padding: 16px 0 42px !important;
+  scrollbar-width: none !important;
+}
+
+.brand-link-strip::-webkit-scrollbar {
+  display: none !important;
+}
+
+.brand-link-strip a {
+  flex: 0 0 clamp(520px, 42vw, 780px) !important;
+  width: clamp(520px, 42vw, 780px) !important;
+  height: clamp(150px, 11.5vw, 210px) !important;
+  min-height: clamp(150px, 11.5vw, 210px) !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: clamp(18px, 2vw, 28px) clamp(48px, 4.5vw, 82px) !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(17,19,17,.14) !important;
+  box-shadow: 0 30px 88px rgba(17,19,17,.13) !important;
+}
+
+.brand-link-strip a img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: clamp(390px, 32vw, 620px) !important;
+  max-height: clamp(112px, 8.8vw, 170px) !important;
+  object-fit: contain !important;
+}
+
+.brand-link-strip a span {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .logo-pill,
+  .logo-marquee-track .logo-pill,
+  a.logo-pill,
+  .brand-link-strip a {
+    flex-basis: clamp(420px, 74vw, 620px) !important;
+    width: clamp(420px, 74vw, 620px) !important;
+    height: clamp(138px, 20vw, 184px) !important;
+    min-height: clamp(138px, 20vw, 184px) !important;
+  }
+
+  .logo-pill img,
+  .brand-link-strip a img {
+    max-width: clamp(330px, 58vw, 510px) !important;
+    max-height: clamp(98px, 15vw, 145px) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-logo-marquee.logo-only,
+  .brand-logo-marquee,
+  .logo-only {
+    min-height: 178px !important;
+    padding: 24px 0 !important;
+  }
+
+  .logo-marquee-shell {
+    padding-inline: 16px !important;
+  }
+
+  .logo-pill,
+  .logo-marquee-track .logo-pill,
+  a.logo-pill,
+  .brand-link-strip a {
+    flex-basis: min(88vw, 390px) !important;
+    width: min(88vw, 390px) !important;
+    height: 118px !important;
+    min-height: 118px !important;
+    padding: 12px 34px !important;
+  }
+
+  .logo-pill::before,
+  .logo-pill::after {
+    width: 52px !important;
+    height: 52px !important;
+  }
+
+  .logo-pill img,
+  .brand-link-strip a img {
+    max-width: 290px !important;
+    max-height: 88px !important;
+  }
+}
+
+
+/* FINAL: reduce visible brand logo pills to half-size and keep them clean */
+.brand-logo-marquee.logo-only,
+.brand-logo-marquee,
+.logo-only {
+  min-height: clamp(130px, 10vw, 170px) !important;
+  padding: clamp(20px, 3vw, 38px) 0 !important;
+}
+
+.logo-marquee-shell {
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  padding: 0 clamp(16px, 4vw, 72px) !important;
+  scroll-behavior: smooth !important;
+}
+
+.logo-marquee-track {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: clamp(16px, 2vw, 28px) !important;
+  width: max-content !important;
+  min-width: max-content !important;
+  padding: 10px 0 22px !important;
+  animation: none !important;
+}
+
+.logo-pill,
+.logo-marquee-track .logo-pill,
+a.logo-pill {
+  flex: 0 0 clamp(260px, 21vw, 390px) !important;
+  width: clamp(260px, 21vw, 390px) !important;
+  height: clamp(76px, 5.8vw, 105px) !important;
+  min-height: clamp(76px, 5.8vw, 105px) !important;
+  padding: clamp(10px, 1vw, 14px) clamp(24px, 2.2vw, 40px) !important;
+  border-radius: 999px !important;
+  box-shadow: 0 16px 46px rgba(17, 19, 17, .10) !important;
+}
+
+.logo-pill::before,
+.logo-marquee-track .logo-pill::before,
+.logo-pill::after,
+.logo-marquee-track .logo-pill::after {
+  width: clamp(34px, 3vw, 50px) !important;
+  height: clamp(34px, 3vw, 50px) !important;
+}
+
+.logo-pill::before,
+.logo-marquee-track .logo-pill::before {
+  left: clamp(16px, 1.5vw, 26px) !important;
+}
+
+.logo-pill::after,
+.logo-marquee-track .logo-pill::after {
+  right: clamp(16px, 1.5vw, 26px) !important;
+}
+
+.logo-pill img,
+.logo-marquee-track .logo-pill img,
+a.logo-pill img {
+  max-width: clamp(205px, 16vw, 310px) !important;
+  max-height: clamp(54px, 4.4vw, 82px) !important;
+  transform: none !important;
+}
+
+/* Match brand page logo sliders to the same half-size look */
+.brand-logo-track,
+.brand-logo-track-premium,
+.brand-logo-track-large {
+  gap: clamp(16px, 2vw, 28px) !important;
+  padding: 10px 0 24px !important;
+}
+
+.brand-logo-track > .brand-logo-slide,
+.brand-logo-track-premium > .brand-logo-slide,
+.brand-logo-track-large > .brand-logo-slide,
+a.brand-logo-slide {
+  flex-basis: clamp(260px, 21vw, 390px) !important;
+  width: clamp(260px, 21vw, 390px) !important;
+  height: clamp(76px, 5.8vw, 105px) !important;
+  min-height: clamp(76px, 5.8vw, 105px) !important;
+  padding: clamp(10px, 1vw, 14px) clamp(24px, 2.2vw, 40px) !important;
+  box-shadow: 0 16px 46px rgba(17, 19, 17, .10) !important;
+}
+
+a.brand-logo-slide::before,
+a.brand-logo-slide::after {
+  width: clamp(34px, 3vw, 50px) !important;
+  height: clamp(34px, 3vw, 50px) !important;
+}
+
+a.brand-logo-slide::before {
+  left: clamp(16px, 1.5vw, 26px) !important;
+}
+
+a.brand-logo-slide::after {
+  right: clamp(16px, 1.5vw, 26px) !important;
+}
+
+a.brand-logo-slide .brand-logo-glass img,
+a.brand-logo-slide .brand-logo-mark img,
+.brand-logo-track-premium .brand-logo-glass img,
+.brand-logo-track-premium .brand-logo-mark img {
+  max-width: clamp(205px, 16vw, 310px) !important;
+  max-height: clamp(54px, 4.4vw, 82px) !important;
+}
+
+.brand-link-strip {
+  gap: clamp(16px, 2vw, 28px) !important;
+  padding: 10px 0 24px !important;
+  scroll-behavior: smooth !important;
+}
+
+.brand-link-strip a {
+  flex-basis: clamp(260px, 21vw, 390px) !important;
+  width: clamp(260px, 21vw, 390px) !important;
+  height: clamp(76px, 5.8vw, 105px) !important;
+  min-height: clamp(76px, 5.8vw, 105px) !important;
+  padding: clamp(10px, 1vw, 14px) clamp(24px, 2.2vw, 40px) !important;
+  box-shadow: 0 16px 46px rgba(17, 19, 17, .10) !important;
+}
+
+.brand-link-strip a img {
+  max-width: clamp(205px, 16vw, 310px) !important;
+  max-height: clamp(54px, 4.4vw, 82px) !important;
+}
+
+.logo-pill:hover,
+a.brand-logo-slide:hover,
+.brand-link-strip a:hover {
+  transform: translateY(-3px) !important;
+}
+
+@media (max-width: 980px) {
+  .logo-pill,
+  .logo-marquee-track .logo-pill,
+  a.logo-pill,
+  .brand-logo-track > .brand-logo-slide,
+  .brand-logo-track-premium > .brand-logo-slide,
+  .brand-logo-track-large > .brand-logo-slide,
+  a.brand-logo-slide,
+  .brand-link-strip a {
+    flex-basis: clamp(250px, 48vw, 360px) !important;
+    width: clamp(250px, 48vw, 360px) !important;
+    height: clamp(74px, 12vw, 100px) !important;
+    min-height: clamp(74px, 12vw, 100px) !important;
+  }
+
+  .logo-pill img,
+  a.brand-logo-slide .brand-logo-glass img,
+  .brand-link-strip a img {
+    max-width: clamp(195px, 38vw, 285px) !important;
+    max-height: clamp(52px, 9vw, 78px) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-logo-marquee.logo-only,
+  .brand-logo-marquee,
+  .logo-only {
+    min-height: 122px !important;
+    padding: 18px 0 !important;
+  }
+
+  .logo-pill,
+  .logo-marquee-track .logo-pill,
+  a.logo-pill,
+  .brand-logo-track > .brand-logo-slide,
+  .brand-logo-track-premium > .brand-logo-slide,
+  .brand-logo-track-large > .brand-logo-slide,
+  a.brand-logo-slide,
+  .brand-link-strip a {
+    flex-basis: min(76vw, 285px) !important;
+    width: min(76vw, 285px) !important;
+    height: 86px !important;
+    min-height: 86px !important;
+    padding: 10px 24px !important;
+  }
+
+  .logo-pill img,
+  a.brand-logo-slide .brand-logo-glass img,
+  .brand-link-strip a img {
+    max-width: 220px !important;
+    max-height: 62px !important;
+  }
+}
+
+
+/* FINAL REFERENCE BRAND LOGO STRIP — clean medium pill slider */
+.brand-pill-reference,
+.brand-logo-marquee.logo-only.brand-pill-reference {
+  width: 100% !important;
+  min-height: 172px !important;
+  padding: 28px 0 34px !important;
+  background: var(--paper, #f7f6f0) !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.brand-pill-reference .logo-marquee-shell {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+.brand-pill-reference .logo-marquee-track {
+  width: max-content !important;
+  min-width: max-content !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 34px !important;
+  padding: 0 34px !important;
+  animation: brandPillAutoSlide 34s linear infinite !important;
+  transform: translateZ(0) !important;
+  will-change: transform !important;
+}
+
+.brand-pill-reference:hover .logo-marquee-track {
+  animation-play-state: paused !important;
+}
+
+@keyframes brandPillAutoSlide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.brand-pill-reference .logo-pill,
+.brand-link-strip .logo-pill {
+  flex: 0 0 430px !important;
+  width: 430px !important;
+  height: 116px !important;
+  min-height: 116px !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 18px 54px !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(17, 19, 17, .13) !important;
+  box-shadow: 0 20px 58px rgba(17, 19, 17, .105) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  margin: 0 !important;
+}
+
+.brand-pill-reference .logo-pill::before,
+.brand-link-strip .logo-pill::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 32px !important;
+  top: 50% !important;
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 50% !important;
+  transform: translateY(-50%) !important;
+  background: rgba(215, 255, 63, .58) !important;
+  z-index: 0 !important;
+}
+
+.brand-pill-reference .logo-pill::after,
+.brand-link-strip .logo-pill::after {
+  content: "" !important;
+  position: absolute !important;
+  right: 32px !important;
+  top: 50% !important;
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 50% !important;
+  transform: translateY(-50%) !important;
+  background: rgba(215, 255, 63, .28) !important;
+  z-index: 0 !important;
+}
+
+.brand-pill-reference .logo-pill-joola,
+.brand-link-strip .logo-pill-joola {
+  background: linear-gradient(145deg, #d7ff3f, #caff24) !important;
+}
+
+.brand-pill-reference .logo-pill-stiga,
+.brand-link-strip .logo-pill-stiga {
+  background: linear-gradient(145deg, #101410, #121812) !important;
+}
+
+.brand-pill-reference .logo-pill-stiga::before,
+.brand-pill-reference .logo-pill-stiga::after,
+.brand-link-strip .logo-pill-stiga::before,
+.brand-link-strip .logo-pill-stiga::after {
+  background: rgba(215, 255, 63, .78) !important;
+}
+
+.brand-pill-reference .logo-pill-dhs::before,
+.brand-link-strip .logo-pill-dhs::before {
+  background: rgba(229, 57, 53, .92) !important;
+}
+
+.brand-pill-reference .logo-pill-yinhe::before,
+.brand-link-strip .logo-pill-yinhe::before {
+  background: rgba(66, 123, 255, .92) !important;
+}
+
+.brand-pill-reference .logo-pill-xiom::before,
+.brand-link-strip .logo-pill-xiom::before {
+  background: rgba(242, 140, 56, .88) !important;
+}
+
+.brand-pill-reference .logo-pill-andro::before,
+.brand-link-strip .logo-pill-andro::before {
+  background: rgba(95, 212, 111, .9) !important;
+}
+
+.brand-pill-reference .logo-pill-dawei::before,
+.brand-link-strip .logo-pill-dawei::before {
+  background: rgba(216, 49, 43, .9) !important;
+}
+
+.brand-pill-reference .logo-pill img,
+.brand-link-strip .logo-pill img {
+  position: relative !important;
+  z-index: 2 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 320px !important;
+  max-height: 78px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: none !important;
+  transform: none !important;
+}
+
+.brand-pill-reference .logo-pill-stiga img,
+.brand-link-strip .logo-pill-stiga img {
+  filter: brightness(0) invert(1) !important;
+}
+
+.brand-pill-reference .logo-pill:hover,
+.brand-link-strip .logo-pill:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 26px 70px rgba(17, 19, 17, .16) !important;
+}
+
+/* Brands page direct strip should match reference but not auto-scroll */
+.brand-link-strip {
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 34px !important;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  scrollbar-width: none !important;
+  padding: 4px 0 34px !important;
+}
+
+.brand-link-strip::-webkit-scrollbar {
+  display: none !important;
+}
+
+.brand-link-strip a span,
+.brand-link-strip .logo-pill span {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .brand-pill-reference {
+    min-height: 154px !important;
+    padding: 24px 0 30px !important;
+  }
+
+  .brand-pill-reference .logo-marquee-track,
+  .brand-link-strip {
+    gap: 24px !important;
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+
+  .brand-pill-reference .logo-pill,
+  .brand-link-strip .logo-pill {
+    flex-basis: 360px !important;
+    width: 360px !important;
+    height: 102px !important;
+    min-height: 102px !important;
+    padding: 16px 44px !important;
+  }
+
+  .brand-pill-reference .logo-pill img,
+  .brand-link-strip .logo-pill img {
+    max-width: 265px !important;
+    max-height: 68px !important;
+  }
+
+  .brand-pill-reference .logo-pill::before,
+  .brand-pill-reference .logo-pill::after,
+  .brand-link-strip .logo-pill::before,
+  .brand-link-strip .logo-pill::after {
+    width: 48px !important;
+    height: 48px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-pill-reference {
+    min-height: 122px !important;
+    padding: 18px 0 22px !important;
+  }
+
+  .brand-pill-reference .logo-marquee-track,
+  .brand-link-strip {
+    gap: 16px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .brand-pill-reference .logo-pill,
+  .brand-link-strip .logo-pill {
+    flex-basis: 270px !important;
+    width: 270px !important;
+    height: 82px !important;
+    min-height: 82px !important;
+    padding: 11px 30px !important;
+  }
+
+  .brand-pill-reference .logo-pill img,
+  .brand-link-strip .logo-pill img {
+    max-width: 205px !important;
+    max-height: 54px !important;
+  }
+
+  .brand-pill-reference .logo-pill::before,
+  .brand-pill-reference .logo-pill::after,
+  .brand-link-strip .logo-pill::before,
+  .brand-link-strip .logo-pill::after {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .brand-pill-reference .logo-pill::before,
+  .brand-link-strip .logo-pill::before {
+    left: 18px !important;
+  }
+
+  .brand-pill-reference .logo-pill::after,
+  .brand-link-strip .logo-pill::after {
+    right: 18px !important;
+  }
+}
+
+
+/* FINAL CLEAN COMPANY LOGO SLIDER — exact, simple, decent, theme-matched */
+.ttw-brand-strip-final {
+  width: 100%;
+  padding: clamp(22px, 3vw, 36px) 0;
+  background: var(--paper, #f7f6f0);
+  overflow: hidden;
+  border: 0;
+}
+
+.ttw-brand-strip-mask {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ttw-brand-strip-mask::before,
+.ttw-brand-strip-mask::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: clamp(42px, 8vw, 150px);
+  z-index: 4;
+  pointer-events: none;
+}
+
+.ttw-brand-strip-mask::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--paper, #f7f6f0), rgba(247,246,240,0));
+}
+
+.ttw-brand-strip-mask::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--paper, #f7f6f0), rgba(247,246,240,0));
+}
+
+.ttw-brand-strip-track {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: clamp(18px, 2.2vw, 32px);
+  padding: 4px clamp(18px, 3vw, 44px);
+  animation: ttwBrandLogoSlide 32s linear infinite;
+  will-change: transform;
+}
+
+.ttw-brand-strip-final:hover .ttw-brand-strip-track {
+  animation-play-state: paused;
+}
+
+@keyframes ttwBrandLogoSlide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.ttw-brand-logo-pill-final {
+  flex: 0 0 clamp(300px, 25vw, 420px);
+  width: clamp(300px, 25vw, 420px);
+  height: clamp(82px, 6.2vw, 108px);
+  display: grid;
+  place-items: center;
+  padding: clamp(14px, 1.4vw, 20px) clamp(34px, 2.8vw, 48px);
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid rgba(17, 19, 17, .11);
+  box-shadow: 0 16px 42px rgba(17, 19, 17, .08);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+
+.ttw-brand-logo-pill-final:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 56px rgba(17, 19, 17, .13);
+}
+
+.ttw-brand-logo-pill-final::before,
+.ttw-brand-logo-pill-final::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: clamp(38px, 3.4vw, 54px);
+  height: clamp(38px, 3.4vw, 54px);
+  border-radius: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.ttw-brand-logo-pill-final::before {
+  left: clamp(18px, 1.7vw, 26px);
+  background: rgba(215, 255, 63, .56);
+}
+
+.ttw-brand-logo-pill-final::after {
+  right: clamp(18px, 1.7vw, 26px);
+  background: rgba(215, 255, 63, .28);
+}
+
+.ttw-brand-logo-pill-final img {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: clamp(220px, 19vw, 315px);
+  max-height: clamp(52px, 4.6vw, 74px);
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* brand mood, but still simple */
+.ttw-brand-logo-joola {
+  background: linear-gradient(145deg, #d7ff3f, #caff26);
+}
+
+.ttw-brand-logo-stiga {
+  background: linear-gradient(145deg, #101410, #121812);
+}
+
+.ttw-brand-logo-stiga img {
+  filter: brightness(0) invert(1);
+}
+
+.ttw-brand-logo-stiga::before,
+.ttw-brand-logo-stiga::after {
+  background: rgba(215, 255, 63, .75);
+}
+
+.ttw-brand-logo-dhs::before {
+  background: rgba(229, 57, 53, .90);
+}
+
+.ttw-brand-logo-yinhe::before {
+  background: rgba(66, 123, 255, .90);
+}
+
+.ttw-brand-logo-xiom::before {
+  background: rgba(242, 140, 56, .86);
+}
+
+.ttw-brand-logo-andro::before {
+  background: rgba(95, 212, 111, .88);
+}
+
+.ttw-brand-logo-dawei::before {
+  background: rgba(216, 49, 43, .88);
+}
+
+.ttw-brand-strip-page {
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+/* Hide older logo strips if cached/duplicate markup remains */
+.brand-logo-marquee.logo-only:not(.brand-pill-reference),
+.logo-marquee-shell:not(.ttw-brand-strip-mask) {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .ttw-brand-logo-pill-final {
+    flex-basis: clamp(270px, 46vw, 360px);
+    width: clamp(270px, 46vw, 360px);
+    height: clamp(76px, 11vw, 96px);
+  }
+
+  .ttw-brand-logo-pill-final img {
+    max-width: clamp(205px, 36vw, 275px);
+    max-height: clamp(48px, 8vw, 66px);
+  }
+}
+
+@media (max-width: 560px) {
+  .ttw-brand-strip-final {
+    padding: 18px 0;
+  }
+
+  .ttw-brand-strip-track {
+    gap: 14px;
+    animation-duration: 28s;
+  }
+
+  .ttw-brand-logo-pill-final {
+    flex-basis: min(74vw, 270px);
+    width: min(74vw, 270px);
+    height: 78px;
+    padding: 10px 28px;
+  }
+
+  .ttw-brand-logo-pill-final::before,
+  .ttw-brand-logo-pill-final::after {
+    width: 34px;
+    height: 34px;
+  }
+
+  .ttw-brand-logo-pill-final img {
+    max-width: 205px;
+    max-height: 52px;
+  }
+}
+
+
+/* FINAL POLISH: simple aesthetic brand-logo auto slider with proper logos */
+.ttw-brand-strip-final {
+  width: 100%;
+  padding: clamp(24px, 3.2vw, 42px) 0;
+  background: var(--paper, #f7f6f0) !important;
+  overflow: hidden;
+  border: 0;
+}
+
+.ttw-brand-strip-mask {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ttw-brand-strip-mask::before,
+.ttw-brand-strip-mask::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: clamp(36px, 7vw, 130px);
+  z-index: 5;
+  pointer-events: none;
+}
+
+.ttw-brand-strip-mask::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--paper, #f7f6f0), rgba(247, 246, 240, 0));
+}
+
+.ttw-brand-strip-mask::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--paper, #f7f6f0), rgba(247, 246, 240, 0));
+}
+
+.ttw-brand-strip-track {
+  width: max-content;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: clamp(18px, 2.2vw, 30px);
+  padding: 6px clamp(18px, 3vw, 46px);
+  animation: ttwBrandLogoSlideClean 34s linear infinite;
+  will-change: transform;
+}
+
+.ttw-brand-strip-final:hover .ttw-brand-strip-track {
+  animation-play-state: paused;
+}
+
+@keyframes ttwBrandLogoSlideClean {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.ttw-brand-logo-pill-final {
+  flex: 0 0 clamp(310px, 26vw, 430px);
+  width: clamp(310px, 26vw, 430px);
+  height: clamp(82px, 6.4vw, 112px);
+  display: grid;
+  place-items: center;
+  padding: clamp(14px, 1.3vw, 20px) clamp(34px, 2.8vw, 48px);
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid rgba(17, 19, 17, .11);
+  box-shadow: 0 16px 42px rgba(17, 19, 17, .075);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.ttw-brand-logo-pill-final::before,
+.ttw-brand-logo-pill-final::after {
+  display: none !important;
+  content: none !important;
+}
+
+.ttw-brand-logo-pill-final:hover {
+  transform: translateY(-3px);
+  border-color: rgba(17, 19, 17, .18);
+  box-shadow: 0 22px 58px rgba(17, 19, 17, .12);
+}
+
+.ttw-brand-logo-pill-final img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: clamp(220px, 19vw, 330px);
+  max-height: clamp(52px, 4.7vw, 78px);
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+  padding: 0;
+  filter: none;
+  transform: none;
+  opacity: 1;
+}
+
+.ttw-brand-logo-stiga {
+  background: linear-gradient(145deg, #101410, #131a13);
+}
+
+.ttw-brand-logo-stiga img {
+  filter: brightness(0) invert(1);
+}
+
+.ttw-brand-logo-joola {
+  background: linear-gradient(145deg, #d7ff3f, #caff26);
+}
+
+.ttw-brand-logo-butterfly,
+.ttw-brand-logo-dhs,
+.ttw-brand-logo-yinhe,
+.ttw-brand-logo-xiom,
+.ttw-brand-logo-andro,
+.ttw-brand-logo-dawei,
+.ttw-brand-logo-tibhar {
+  background: #fff;
+}
+
+.ttw-brand-strip-page {
+  margin-top: 0;
+  padding-top: 8px;
+  padding-bottom: 36px;
+}
+
+/* suppress older duplicate logo strip/chip styling if markup remains */
+.brand-logo-marquee.logo-only,
+.logo-marquee-shell,
+.logo-marquee-track,
+.logo-pill,
+.brand-link-strip {
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .ttw-brand-logo-pill-final {
+    flex-basis: clamp(270px, 46vw, 360px);
+    width: clamp(270px, 46vw, 360px);
+    height: clamp(76px, 11vw, 98px);
+  }
+
+  .ttw-brand-logo-pill-final img {
+    max-width: clamp(205px, 36vw, 280px);
+    max-height: clamp(48px, 8vw, 66px);
+  }
+}
+
+@media (max-width: 560px) {
+  .ttw-brand-strip-final {
+    padding: 18px 0;
+  }
+
+  .ttw-brand-strip-track {
+    gap: 14px;
+    padding: 4px 16px;
+    animation-duration: 28s;
+  }
+
+  .ttw-brand-logo-pill-final {
+    flex-basis: min(76vw, 270px);
+    width: min(76vw, 270px);
+    height: 78px;
+    padding: 10px 26px;
+  }
+
+  .ttw-brand-logo-pill-final img {
+    max-width: 210px;
+    max-height: 54px;
+  }
+}
+
+
+/* Removed brand logo slider/marquee section */
+.ttw-brand-strip-final,
+.brand-logo-marquee.logo-only,
+.brand-logo-marquee,
+.logo-marquee-shell,
+.logo-marquee-track,
+.logo-pill,
+.brand-link-strip {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+
+/* Choose your brand section */
+.choose-brand-section {
+  padding-top: clamp(72px, 8vw, 120px);
+  padding-bottom: clamp(72px, 8vw, 120px);
+  background: var(--paper);
+}
+
+.choose-brand-shell {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(360px, 1.1fr);
+  gap: clamp(28px, 5vw, 70px);
+  align-items: stretch;
+}
+
+.choose-brand-copy {
+  align-self: center;
+}
+
+.choose-brand-copy h2 {
+  margin: 12px 0 18px;
+  font: 900 clamp(48px, 6vw, 92px)/.88 Manrope, sans-serif;
+  letter-spacing: -.085em;
+  max-width: 760px;
+}
+
+.choose-brand-copy p {
+  max-width: 560px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.choose-brand-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.choose-brand-mini {
+  position: relative;
+  min-height: 148px;
+  padding: 24px 26px;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 90% 20%, rgba(215, 255, 63, .28), transparent 28%),
+    rgba(255, 255, 255, .78);
+  border: 1px solid rgba(17, 19, 17, .08);
+  box-shadow: 0 18px 44px rgba(17, 19, 17, .055);
+  overflow: hidden;
+}
+
+.choose-brand-mini span {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+.choose-brand-mini strong {
+  display: block;
+  font-size: 24px;
+  letter-spacing: -.04em;
+  margin-bottom: 8px;
+}
+
+.choose-brand-mini p {
+  max-width: 460px;
+  color: var(--muted);
+  line-height: 1.55;
+  font-weight: 700;
+  margin: 0;
+}
+
+.choose-brand-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: clamp(28px, 4vw, 48px);
+}
+
+.choose-brand-strip a {
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid rgba(17, 19, 17, .08);
+  box-shadow: 0 12px 28px rgba(17, 19, 17, .045);
+  font-weight: 900;
+  letter-spacing: -.02em;
+  transition: transform .2s ease, background .2s ease, border-color .2s ease;
+}
+
+.choose-brand-strip a:hover {
+  transform: translateY(-2px);
+  background: var(--accent);
+  border-color: rgba(17, 19, 17, .12);
+}
+
+.choose-brand-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+@media (max-width: 920px) {
+  .choose-brand-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-brand-copy h2 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .choose-brand-section {
+    padding-top: 56px;
+    padding-bottom: 62px;
+  }
+
+  .choose-brand-copy h2 {
+    font-size: clamp(42px, 13vw, 62px);
+  }
+
+  .choose-brand-copy p {
+    font-size: 15px;
+  }
+
+  .choose-brand-mini {
+    min-height: auto;
+    padding: 22px;
+    border-radius: 24px;
+  }
+
+  .choose-brand-mini strong {
+    font-size: 22px;
+  }
+
+  .choose-brand-strip a {
+    min-height: 46px;
+    padding: 0 16px;
+  }
+
+  .choose-brand-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+/* DHS corrected images: keep packaging/blade photos contained and unclipped */
+.product-visual img,
+.vc-img img,
+.visual-product-image img,
+.modal-product-visual img,
+.fixed-modal-media img,
+.product-detail-media img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #fff !important;
+}
+
+
+/* Save Filter controls for product and brand catalogue pages */
+.save-filter-actions {
+  position: sticky;
+  bottom: 16px;
+  z-index: 5;
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 14px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, .92);
+  border: 1px solid rgba(17, 19, 17, .10);
+  box-shadow: 0 18px 48px rgba(17, 19, 17, .10);
+  backdrop-filter: blur(14px);
+}
+
+.save-filter-button,
+.clear-pending-filter-button {
+  width: 100%;
+  min-height: 48px;
+  border: 0;
+  border-radius: 999px;
+  font-weight: 950;
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+
+.save-filter-button {
+  background: var(--ink);
+  color: #fff;
+  box-shadow: 0 12px 28px rgba(17, 19, 17, .16);
+}
+
+.filters-have-unsaved-changes .save-filter-button {
+  background: var(--accent);
+  color: var(--ink);
+}
+
+.clear-pending-filter-button {
+  background: rgba(17, 19, 17, .06);
+  color: rgba(17, 19, 17, .72);
+}
+
+.save-filter-button:hover,
+.clear-pending-filter-button:hover {
+  transform: translateY(-2px);
+}
+
+.pending-filter-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+  font-weight: 800;
+  text-align: center;
+}
+
+.filter-note-pending {
+  color: #8b6b00 !important;
+  font-weight: 900 !important;
+}
+
+/* Keep product price visible after save-filter rendering */
+.product-topline {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) max-content !important;
+  gap: 14px !important;
+  align-items: start !important;
+}
+
+.product-price {
+  white-space: nowrap !important;
+  min-width: max-content !important;
+  justify-self: end !important;
+}
+
+.product-name {
+  min-width: 0 !important;
+  overflow-wrap: anywhere !important;
+}
+
+@media (max-width: 760px) {
+  .product-topline {
+    grid-template-columns: 1fr !important;
+  }
+
+  .product-price {
+    justify-self: start !important;
+  }
+
+  .save-filter-actions {
+    position: relative;
+    bottom: auto;
+  }
+}
+
+
+/* FINAL OVERRIDE: make Save Filter buttons visible inside every filter panel */
+.filter-panel .save-filter-actions,
+.save-filter-actions {
+  display: grid !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  gap: 10px !important;
+  margin-top: 24px !important;
+  padding: 14px !important;
+  border-radius: 24px !important;
+  background: rgba(255, 255, 255, .95) !important;
+  border: 1px solid rgba(17, 19, 17, .10) !important;
+  box-shadow: 0 18px 48px rgba(17, 19, 17, .10) !important;
+  backdrop-filter: blur(14px) !important;
+}
+
+.filter-panel .save-filter-button,
+.filter-panel .clear-pending-filter-button,
+.save-filter-button,
+.clear-pending-filter-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  width: 100% !important;
+  min-height: 50px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  font-weight: 950 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+}
+
+.filter-panel .save-filter-button,
+.save-filter-button {
+  background: var(--ink, #111311) !important;
+  color: #ffffff !important;
+  box-shadow: 0 12px 28px rgba(17, 19, 17, .16) !important;
+}
+
+.filters-have-unsaved-changes .filter-panel .save-filter-button,
+.filters-have-unsaved-changes .save-filter-button {
+  background: var(--accent, #d7ff3f) !important;
+  color: var(--ink, #111311) !important;
+}
+
+.filter-panel .clear-pending-filter-button,
+.clear-pending-filter-button {
+  background: rgba(17, 19, 17, .06) !important;
+  color: rgba(17, 19, 17, .72) !important;
+}
+
+.filter-panel .pending-filter-note,
+.pending-filter-note {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  margin: 0 !important;
+  color: var(--muted, #72756e) !important;
+  font-size: 12px !important;
+  line-height: 1.45 !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+}
+
+
+/* FINAL: Customize page banner full-width landscape like other pages */
+body[data-page="customize"] .visual-custom-hero,
+body[data-page="customize"] .customize-hero,
+body[data-page="customize"] .custom-hero,
+body[data-page="customize"] .vc-hero {
+  width: 100vw !important;
+  max-width: none !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  margin-top: 0 !important;
+  border-radius: 0 !important;
+  padding-left: clamp(22px, 7vw, 150px) !important;
+  padding-right: clamp(22px, 7vw, 150px) !important;
+  padding-top: clamp(140px, 13vw, 205px) !important;
+  padding-bottom: clamp(56px, 8vw, 100px) !important;
+  min-height: clamp(620px, 72vh, 820px) !important;
+}
+
+body[data-page="customize"] .visual-custom-hero {
+  background:
+    radial-gradient(circle at 78% 28%, rgba(215,255,63,.26), transparent 34%),
+    linear-gradient(135deg, #101410, #23321f) !important;
+}
+
+body[data-page="customize"] .visual-custom-hero::before,
+body[data-page="customize"] .customize-hero::before,
+body[data-page="customize"] .custom-hero::before,
+body[data-page="customize"] .vc-hero::before {
+  border-radius: 0 !important;
+}
+
+body[data-page="customize"] .visual-hero-grid,
+body[data-page="customize"] .customize-hero-grid,
+body[data-page="customize"] .custom-hero-grid,
+body[data-page="customize"] .vc-hero-grid {
+  max-width: 1480px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+}
+
+body[data-page="customize"] .visual-custom-hero h1,
+body[data-page="customize"] .customize-hero h1,
+body[data-page="customize"] .custom-hero h1,
+body[data-page="customize"] .vc-hero h1 {
+  max-width: 760px !important;
+}
+
+body[data-page="customize"] .visual-custom-hero p,
+body[data-page="customize"] .customize-hero p,
+body[data-page="customize"] .custom-hero p,
+body[data-page="customize"] .vc-hero p {
+  max-width: 700px !important;
+}
+
+/* prevent WhatsApp button from covering the full-width custom banner */
+body[data-page="customize"] .whatsapp-consult {
+  z-index: 30 !important;
+}
+
+@media (max-width: 900px) {
+  body[data-page="customize"] .visual-custom-hero,
+  body[data-page="customize"] .customize-hero,
+  body[data-page="customize"] .custom-hero,
+  body[data-page="customize"] .vc-hero {
+    min-height: auto !important;
+    padding-top: 120px !important;
+    padding-bottom: 54px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  body[data-page="customize"] .visual-custom-hero,
+  body[data-page="customize"] .customize-hero,
+  body[data-page="customize"] .custom-hero,
+  body[data-page="customize"] .vc-hero {
+    padding-top: 108px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    padding-bottom: 44px !important;
+  }
+}

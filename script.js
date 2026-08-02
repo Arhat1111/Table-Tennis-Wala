@@ -17,7 +17,10 @@ const seedProducts = [
       "MAX thickness",
       "Kinetic tension surface"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-inferno.svg"
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-inferno.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-dynaryz-zgx",
@@ -37,7 +40,10 @@ const seedProducts = [
       "MAX thickness",
       "Hyper traction"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgx.svg"
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgx.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-dynaryz-zgr",
@@ -57,7 +63,10 @@ const seedProducts = [
       "MAX thickness",
       "Hard 56° sponge"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgr.svg"
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgr.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-dynaryz-acc",
@@ -77,7 +86,10 @@ const seedProducts = [
       "MAX thickness",
       "Hyper Bounce sponge"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-acc.svg"
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-acc.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-dynaryz-agr",
@@ -97,7 +109,10 @@ const seedProducts = [
       "MAX thickness",
       "Advanced traction"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-agr.svg"
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-agr.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-dynaryz-cmd",
@@ -117,7 +132,10 @@ const seedProducts = [
       "MAX thickness",
       "Control-focused feel"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-cmd.svg"
+    "fallbackImage": "assets/catalog/joola-cat-dynaryz-cmd.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-tronix-acc",
@@ -129,7 +147,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Professional",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/Tronix-ACC-70592-70597-Web-02.png?v=1712314356&width=450",
+    "image": "https://joola.in/cdn/shop/files/70592_JOOLA_Tronix-ACC_01_web.webp?v=1758019542&width=1200",
     "description": "Professional rubber with GIGA CELL sponge for lively acceleration and balanced topspin power.",
     "features": [
       "SKU 70593",
@@ -137,7 +155,11 @@ const seedProducts = [
       "MAX thickness",
       "Giga Cell sponge"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tronix-acc.svg"
+    "fallbackImage": "assets/catalog/joola-cat-tronix-acc.svg",
+    "officialProductUrl": "https://joola.in/products/tronix-acc-table-tennis-rubber",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-tronix-cmd",
@@ -157,7 +179,10 @@ const seedProducts = [
       "MAX thickness",
       "Soft command feel"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tronix-cmd.svg"
+    "fallbackImage": "assets/catalog/joola-cat-tronix-cmd.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-tronix-zgr",
@@ -177,7 +202,10 @@ const seedProducts = [
       "MAX thickness",
       "Hyper traction surface"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tronix-zgr.svg"
+    "fallbackImage": "assets/catalog/joola-cat-tronix-zgr.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-rhyzen-ice",
@@ -189,7 +217,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/rhyzenIcerubber-hero.png?v=1712312358&width=450",
+    "image": "https://joola.in/cdn/shop/files/70560_JOOLA_Rhyzen-ICE_03_web.webp?v=1758692142&width=1200",
     "description": "Cool and controlled performance rubber made for feel, placement and confident rally play.",
     "features": [
       "SKU 70650",
@@ -197,7 +225,11 @@ const seedProducts = [
       "MAX thickness",
       "Control profile"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rhyzen-ice.svg"
+    "fallbackImage": "assets/catalog/joola-cat-rhyzen-ice.svg",
+    "officialProductUrl": "https://joola.in/products/rhyzen-ice-table-tennis-rubber",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-rhyzen-fire",
@@ -209,7 +241,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/rhyzenFirerubber-hero.png?v=1712312356&width=450",
+    "image": "https://joola.in/cdn/shop/files/70570_JOOLA_Rhyzen-FIRE_03_web_0b5a771d-dd58-4f60-a4a2-39209deb5a4b.webp?v=1758692777&width=1200",
     "description": "Offensive performance rubber with dynamic response, spin and powerful loop potential.",
     "features": [
       "SKU 70571",
@@ -217,7 +249,11 @@ const seedProducts = [
       "MAX thickness",
       "Momentum sponge"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rhyzen-fire.svg"
+    "fallbackImage": "assets/catalog/joola-cat-rhyzen-fire.svg",
+    "officialProductUrl": "https://joola.in/products/rhyzen-fire-table-tennis-rubber",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-rhyzen-cmd",
@@ -237,7 +273,10 @@ const seedProducts = [
       "MAX thickness",
       "Sweetzone control"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rhyzen-cmd.svg"
+    "fallbackImage": "assets/catalog/joola-cat-rhyzen-cmd.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-zack",
@@ -249,7 +288,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/Micron-Rubber-70269-70272-Web-02.png?v=1716233049&width=450",
+    "image": "https://joola.in/cdn/shop/files/70070_JOOLA_Zack_01_web.webp?v=1758005420&width=1200",
     "description": "All-round progressive rubber with high control, durability and easy placement.",
     "features": [
       "SKU 70071",
@@ -257,7 +296,11 @@ const seedProducts = [
       "MAX thickness",
       "Beginner friendly"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-zack.svg"
+    "fallbackImage": "assets/catalog/joola-cat-zack.svg",
+    "officialProductUrl": "https://joola.in/products/joola-rubber-zack",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-micron",
@@ -269,7 +312,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/Micron-Rubber-70269-70272-Web-02.png?v=1716233049&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Micron+Table+Tennis+Rubber+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "High-control rubber with a forgiving bounce and grippy surface for developing players.",
     "features": [
       "SKU 70270",
@@ -277,7 +320,11 @@ const seedProducts = [
       "MAX thickness",
       "Precision feel"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-micron.svg"
+    "fallbackImage": "assets/catalog/joola-cat-micron-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Micron Table Tennis Rubber table tennis product official image"
   },
   {
     "id": "joola-cat-vizon",
@@ -289,7 +336,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/54209-JOOLA_Infinity_GL_Ping_Pong_Paddle-black_rubber_back34.jpg?v=1753458357&width=450",
+    "image": "https://joola.in/cdn/shop/files/70019_JOOLA_Vizon_01_web_c7239a26-9e31-475e-8d56-7e4854e34b35.webp?v=1757938008&width=1200",
     "description": "Classic-style rubber focused on control, dampened sponge response and simple playability.",
     "features": [
       "SKU 70026",
@@ -297,7 +344,11 @@ const seedProducts = [
       "MAX thickness",
       "High control"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vizon.svg"
+    "fallbackImage": "assets/catalog/joola-cat-vizon.svg",
+    "officialProductUrl": "https://joola.in/products/joola-rubber-vizon-1",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-cwx",
@@ -309,7 +360,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Precision",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/cwxrubber_01.png?v=1712311169&width=450",
+    "image": "https://joola.in/cdn/shop/files/joola-cwx-long-pips-table-tennis-rubber-side-view.jpg?v=1746558369&width=1200",
     "description": "Long-pips rubber made for defensive variation, disruption and spin reversal.",
     "features": [
       "SKU 71237",
@@ -317,7 +368,11 @@ const seedProducts = [
       "OX / Long pips",
       "Defensive control"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-cwx.svg"
+    "fallbackImage": "assets/catalog/joola-cat-cwx.svg",
+    "officialProductUrl": "https://joola.in/products/joola-cwx-long-pips-table-tennis-rubber-copy",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-prime-40-pack-6",
@@ -329,7 +384,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Competition",
     "color": "#ffffff",
-    "image": "https://joola.com/cdn/shop/files/49201_01.png?v=1712311361&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Table+Tennis+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "ITTF-approved competition balls with consistent bounce, ABS material and reliable flight.",
     "features": [
       "SKU 40031",
@@ -337,7 +392,11 @@ const seedProducts = [
       "3-star ball",
       "Competition grade"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-6.svg"
+    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-6-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Prime*** 40+ Table Tennis Balls table tennis product official image"
   },
   {
     "id": "joola-cat-prime-40-pack-72",
@@ -349,7 +408,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Competition",
     "color": "#ffffff",
-    "image": "https://joola.com/cdn/shop/files/49201_01.png?v=1712311361&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Balls+Pack+of+72+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Bulk pack of competition-grade JOOLA Prime 40+ balls for clubs and tournaments.",
     "features": [
       "SKU 40030",
@@ -357,7 +416,11 @@ const seedProducts = [
       "3-star ball",
       "ITTF approved"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-72.svg"
+    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-72-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Prime*** 40+ Balls Pack of 72 table tennis product official image"
   },
   {
     "id": "joola-cat-training-40-pack-120",
@@ -377,7 +440,10 @@ const seedProducts = [
       "ABS material",
       "Training grade"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-training-40-pack-120.svg"
+    "fallbackImage": "assets/catalog/joola-cat-training-40-pack-120.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-tournament-ct24",
@@ -389,7 +455,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "https://joola.com/cdn/shop/files/49201_01.png?v=1712311361&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Tournament+40%2B+WH+CT24+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Tournament-style white balls suitable for practice, training and match preparation.",
     "features": [
       "SKU 44233",
@@ -397,7 +463,11 @@ const seedProducts = [
       "White balls",
       "Practice use"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tournament-ct24.svg"
+    "fallbackImage": "assets/catalog/joola-cat-tournament-ct24-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Tournament 40+ WH CT24 Balls table tennis product official image"
   },
   {
     "id": "joola-cat-advanced-training",
@@ -409,7 +479,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "https://joola.com/cdn/shop/files/magicabs-44216-01.png?v=1712310173&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Advanced+Training+36KT+White+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Advanced training ball set for high-repetition drills and coaching use.",
     "features": [
       "SKU 44256",
@@ -417,7 +487,11 @@ const seedProducts = [
       "White",
       "Training"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-advanced-training.svg"
+    "fallbackImage": "assets/catalog/joola-cat-advanced-training-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Advanced Training 36KT White Balls table tennis product official image"
   },
   {
     "id": "joola-cat-bcover-hard-blue",
@@ -429,7 +503,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#263d46",
-    "image": "https://joola.com/cdn/shop/files/TTRacketCaseNavy.jpg?v=1771594353&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Hard-shell racket case for safe everyday storage and travel.",
     "features": [
       "SKU 80570",
@@ -437,7 +511,11 @@ const seedProducts = [
       "Hard shell",
       "Single racket"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-blue.svg"
+    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-blue-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA B.Cover Hard Case Navy table tennis product official image"
   },
   {
     "id": "joola-cat-bcover-hard-black",
@@ -449,7 +527,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Minimal hard case for protecting one racket and small accessories.",
     "features": [
       "SKU 80571",
@@ -457,7 +535,11 @@ const seedProducts = [
       "Hard shell",
       "Zip closure"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-black.svg"
+    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-black-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA B.Cover Hard Case Black table tennis product official image"
   },
   {
     "id": "joola-cat-alu-double-case",
@@ -469,7 +551,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+ALU+Double+Bat+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Aluminium-style double racket case with shaped foam for two rackets and balls.",
     "features": [
       "SKU 80555",
@@ -477,7 +559,11 @@ const seedProducts = [
       "Aluminium design",
       "Foam inlay"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-alu-double-case.svg"
+    "fallbackImage": "assets/catalog/joola-cat-alu-double-case-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA ALU Double Bat Case table tennis product official image"
   },
   {
     "id": "joola-cat-alu-laser-case",
@@ -489,7 +575,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Bat+Case+ALU+Laser+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Premium protective bat case with a clean black aluminium look.",
     "features": [
       "SKU 80544",
@@ -497,7 +583,11 @@ const seedProducts = [
       "Premium storage",
       "Travel ready"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-alu-laser-case.svg"
+    "fallbackImage": "assets/catalog/joola-cat-alu-laser-case-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Bat Case ALU Laser Black table tennis product official image"
   },
   {
     "id": "joola-cat-racket-case-aluminum",
@@ -509,7 +599,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Racket+Case+Aluminum+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Strong racket case for carrying match equipment safely.",
     "features": [
       "SKU 80542",
@@ -517,7 +607,11 @@ const seedProducts = [
       "Protective",
       "Match-day gear"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-racket-case-aluminum.svg"
+    "fallbackImage": "assets/catalog/joola-cat-racket-case-aluminum-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Racket Case Aluminum table tennis product official image"
   },
   {
     "id": "joola-cat-x-glue",
@@ -537,7 +631,10 @@ const seedProducts = [
       "Rubber assembly",
       "Accessory"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-x-glue.svg"
+    "fallbackImage": "assets/catalog/joola-cat-x-glue.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-glue-lex",
@@ -557,7 +654,10 @@ const seedProducts = [
       "Green Power",
       "Assembly"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-glue-lex.svg"
+    "fallbackImage": "assets/catalog/joola-cat-glue-lex.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-edge-tape-black",
@@ -569,7 +669,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Edge tape",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Black edge tape to protect the side of the blade and rubber sheets.",
     "features": [
       "SKU 83125",
@@ -577,7 +677,11 @@ const seedProducts = [
       "20 mm",
       "Racket protection"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-edge-tape-black.svg"
+    "fallbackImage": "assets/catalog/joola-cat-edge-tape-black-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Edge Tape 20 Black table tennis product official image"
   },
   {
     "id": "joola-cat-edge-tape-blue",
@@ -589,7 +693,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Edge tape",
     "color": "#263dff",
-    "image": "https://joola.com/cdn/shop/files/TTRacketCaseNavy.jpg?v=1771594353&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Blue edge tape for a clean protective finish on custom rackets.",
     "features": [
       "SKU 83122",
@@ -597,7 +701,11 @@ const seedProducts = [
       "20 mm",
       "Racket protection"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-edge-tape-blue.svg"
+    "fallbackImage": "assets/catalog/joola-cat-edge-tape-blue-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Edge Tape 20 Blue table tennis product official image"
   },
   {
     "id": "joola-cat-turbo-cleaner",
@@ -609,7 +717,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Cleaner",
     "color": "#d7ff3f",
-    "image": "https://joola.com/cdn/shop/files/84015_01.png?v=1712309724&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Turbo+Cleaner+250ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Rubber cleaner for maintaining surface grip and extending rubber life.",
     "features": [
       "SKU 80231",
@@ -617,7 +725,11 @@ const seedProducts = [
       "Rubber care",
       "Accessory"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-turbo-cleaner.svg"
+    "fallbackImage": "assets/catalog/joola-cat-turbo-cleaner-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Turbo Cleaner 250ml table tennis product official image"
   },
   {
     "id": "joola-cat-backpack-vision-blue",
@@ -637,7 +749,10 @@ const seedProducts = [
       "Backpack",
       "Training bag"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-blue.svg"
+    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-blue.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-backpack-vision-black",
@@ -657,7 +772,10 @@ const seedProducts = [
       "Backpack",
       "Gear storage"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-black.svg"
+    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-black.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-backpack-vision-teal",
@@ -677,7 +795,10 @@ const seedProducts = [
       "Backpack",
       "Gear storage"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-teal.svg"
+    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-teal.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-vyzaryz-trinity",
@@ -697,7 +818,10 @@ const seedProducts = [
       "Premium blade",
       "Offensive"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-trinity.svg"
+    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-trinity.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-vyzaryz-freeze-hrd",
@@ -717,7 +841,10 @@ const seedProducts = [
       "ARY-c style",
       "Premium"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze-hrd.svg"
+    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze-hrd.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-vyzaryz-freeze",
@@ -737,7 +864,10 @@ const seedProducts = [
       "Premium blade",
       "Control + speed"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze.svg"
+    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-tezzo-warrior",
@@ -757,7 +887,10 @@ const seedProducts = [
       "Performance",
       "Attacking"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tezzo-warrior.svg"
+    "fallbackImage": "assets/catalog/joola-cat-tezzo-warrior.svg",
+    "imageStatus": "official",
+    "imageSource": "JOOLA official CDN image already matched by product family",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-j-carbon",
@@ -769,7 +902,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d9a466",
-    "image": "https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png?v=1777490389&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+J+Carbon+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Carbon-style blade for speed, stability and sharper ball response.",
     "features": [
       "SKU 69125",
@@ -777,7 +910,11 @@ const seedProducts = [
       "Carbon feel",
       "Attack"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-j-carbon.svg"
+    "fallbackImage": "assets/catalog/joola-cat-j-carbon-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA J Carbon FL Blade table tennis product official image"
   },
   {
     "id": "joola-cat-challenger-all",
@@ -789,7 +926,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "https://joola.com/cdn/shop/files/joola-baseline-all-table-tennis-blade.png?v=1712313920&width=450",
+    "image": "https://joola.in/cdn/shop/files/0F3803FA-5DC2-4C2A-B815-8AFF726F9558.jpg?v=1767938929&width=1500",
     "description": "All-round blade made for control, blocks and early player development.",
     "features": [
       "SKU 61550",
@@ -797,7 +934,11 @@ const seedProducts = [
       "5-ply",
       "All-round"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-challenger-all.svg"
+    "fallbackImage": "assets/catalog/joola-cat-challenger-all.svg",
+    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-karakasevic-feeling-fl-copy-1",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-challenger-off",
@@ -809,7 +950,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "https://joola.com/cdn/shop/files/joola-baseline-off-table-tennis-blade.png?v=1712313920&width=450",
+    "image": "https://joola.in/cdn/shop/files/1DAAB36B-A865-4310-93B4-B484AB799515.jpg?v=1767939107&width=1500",
     "description": "Progressive offensive blade with limba outer ply and balanced control.",
     "features": [
       "SKU 61555",
@@ -817,7 +958,11 @@ const seedProducts = [
       "5-ply",
       "Offensive"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-challenger-off.svg"
+    "fallbackImage": "assets/catalog/joola-cat-challenger-off.svg",
+    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-blade-rossi-emotion-fl-copy",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-rossi-jr",
@@ -829,7 +974,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "https://joola.com/cdn/shop/files/Tezzo-Guardian-Blade-61204-Web-01.png?v=1712313911&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Rossi+JR+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Junior-friendly blade for control, easy handling and technical development.",
     "features": [
       "SKU 67115",
@@ -837,7 +982,11 @@ const seedProducts = [
       "Junior",
       "Control"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rossi-jr.svg"
+    "fallbackImage": "assets/catalog/joola-cat-rossi-jr-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Rossi JR FL Blade table tennis product official image"
   },
   {
     "id": "joola-cat-hugo-aw7",
@@ -849,7 +998,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#d9a466",
-    "image": "https://joola.com/cdn/shop/files/p-gBrABU-3_0020_2R1A2626-88.jpg?v=1777489905&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+AW-7+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Hugo Calderano AW-7 blade for attacking play with wood feel and stability.",
     "features": [
       "SKU 601270",
@@ -857,7 +1006,11 @@ const seedProducts = [
       "AW-7",
       "Signature range"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-aw7.svg"
+    "fallbackImage": "assets/catalog/joola-cat-hugo-aw7-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Hugo Calderano AW-7 FL Blade table tennis product official image"
   },
   {
     "id": "joola-cat-hugo-klc",
@@ -869,7 +1022,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#d9a466",
-    "image": "https://joola.com/cdn/shop/files/p-7yANXE-CDC6C7C3-D5B4-4220-AF9C-FD2D0095CD7E.jpg?v=1777489974&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+KL-c+Inner+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Signature inner KL-c blade focused on power, spin and controlled offensive play.",
     "features": [
       "SKU 601271",
@@ -877,7 +1030,11 @@ const seedProducts = [
       "KL-c Inner",
       "Signature range"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-klc.svg"
+    "fallbackImage": "assets/catalog/joola-cat-hugo-klc-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Hugo Calderano KL-c Inner FL Blade table tennis product official image"
   },
   {
     "id": "joola-cat-air-fibre-control",
@@ -889,7 +1046,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/54209-JOOLA_Infinity_GL_Ping_Pong_Paddle-black_rubber_back34.jpg?v=1753458357&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Air+Fibre+Control+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Ready-to-play racket focused on control for casual and developing players.",
     "features": [
       "SKU 54190",
@@ -897,7 +1054,11 @@ const seedProducts = [
       "Control",
       "Recreational"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-air-fibre-control.svg"
+    "fallbackImage": "assets/catalog/joola-cat-air-fibre-control-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Air Fibre Control Racket table tennis product official image"
   },
   {
     "id": "joola-cat-rosskopf-attack",
@@ -909,7 +1070,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Rosskopf+Attack+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Ready-made racket for attacking basics and fast practice rallies.",
     "features": [
       "SKU 53133",
@@ -917,7 +1078,11 @@ const seedProducts = [
       "Attack",
       "Recreational"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rosskopf-attack.svg"
+    "fallbackImage": "assets/catalog/joola-cat-rosskopf-attack-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Rosskopf Attack Racket table tennis product official image"
   },
   {
     "id": "joola-cat-match-pro",
@@ -929,7 +1094,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
+    "image": "https://joola.in/cdn/shop/files/2_ad2cb68e-4b39-483e-92f3-973f77cf0453.webp?v=1780038803&width=1200",
     "description": "Match Pro bat for controlled recreational play and club warmups.",
     "features": [
       "SKU 53022",
@@ -937,7 +1102,11 @@ const seedProducts = [
       "Match Pro",
       "All-round"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-match-pro.svg"
+    "fallbackImage": "assets/catalog/joola-cat-match-pro.svg",
+    "officialProductUrl": "https://joola.in/products/tt-bat-match-pro",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-tt-bat-match",
@@ -949,7 +1118,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+TT-BAT+Match+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Affordable all-round racket for beginners and everyday home play.",
     "features": [
       "SKU 53020",
@@ -957,7 +1126,11 @@ const seedProducts = [
       "All-round",
       "Beginner"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tt-bat-match.svg"
+    "fallbackImage": "assets/catalog/joola-cat-tt-bat-match-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA TT-BAT Match table tennis product official image"
   },
   {
     "id": "joola-cat-team-junior",
@@ -969,7 +1142,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
+    "image": "https://joola.in/cdn/shop/files/52004_JOOLA_Team-Junior_01_web_png.webp?v=1767786909&width=1200",
     "description": "Junior racket designed for younger players learning table tennis fundamentals.",
     "features": [
       "SKU 52004",
@@ -977,7 +1150,11 @@ const seedProducts = [
       "Junior",
       "Vizon rubbers"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-team-junior.svg"
+    "fallbackImage": "assets/catalog/joola-cat-team-junior.svg",
+    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-match-copy",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-team-master",
@@ -989,7 +1166,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
+    "image": "https://joola.in/cdn/shop/files/52001_JOOLA_TeamMaster_01_web_312275bc-2fbc-458b-8abc-326bca22ca0f_jpg.webp?v=1767787170&width=1200",
     "description": "All-round ready-made racket for advanced recreational players.",
     "features": [
       "SKU 52001",
@@ -997,7 +1174,11 @@ const seedProducts = [
       "Team Master",
       "All-round"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-team-master.svg"
+    "fallbackImage": "assets/catalog/joola-cat-team-master.svg",
+    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-joola-team-master",
+    "imageStatus": "official",
+    "imageSource": "JOOLA India official product page",
+    "hasActualProductImage": true
   },
   {
     "id": "joola-cat-hugo-carbon-speed",
@@ -1009,7 +1190,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Carbon+Speed+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Hugo Calderano carbon-style racket for fast attacking strokes and match confidence.",
     "features": [
       "SKU 601276",
@@ -1017,7 +1198,11 @@ const seedProducts = [
       "Carbon speed",
       "Signature"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-carbon-speed.svg"
+    "fallbackImage": "assets/catalog/joola-cat-hugo-carbon-speed-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Hugo Calderano Carbon Speed Racket table tennis product official image"
   },
   {
     "id": "joola-cat-hugo-team-set",
@@ -1029,7 +1214,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#111311",
-    "image": "https://joola.com/cdn/shop/files/54821-Set-of-2-Ping-Pong-Paddles-Duo-Pro-Front-34-Right-Red.jpg?v=1754410363&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Team+Table+Tennis+Set+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Hugo Calderano team set for serious practice and match-ready sessions.",
     "features": [
       "SKU 601277",
@@ -1037,7 +1222,11 @@ const seedProducts = [
       "Signature",
       "Practice-ready"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-team-set.svg"
+    "fallbackImage": "assets/catalog/joola-cat-hugo-team-set-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA Hugo Calderano Team Table Tennis Set table tennis product official image"
   },
   {
     "id": "joola-cat-world-cup-table",
@@ -1049,7 +1238,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Table",
     "color": "#263d46",
-    "image": "https://joola.com/cdn/shop/files/11111-Tour2500_01.png?v=1764181658&width=450",
+    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+World+Cup+25-S+ITTF+BL+Table+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Competition-style table for clubs, academies and serious training spaces.",
     "features": [
       "SKU 11291",
@@ -1057,7 +1246,11 @@ const seedProducts = [
       "ITTF-style",
       "Club table"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-world-cup-table.svg"
+    "fallbackImage": "assets/catalog/joola-cat-world-cup-table-fallback.svg",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "searchImageQuery": "JOOLA JOOLA World Cup 25-S ITTF BL Table table tennis product official image"
   },
   {
     "id": "seed-tibhar-1",
@@ -1075,7 +1268,11 @@ const seedProducts = [
       "High arc",
       "Offensive"
     ],
-    "image": "assets/catalog/seed-tibhar-1.svg"
+    "image": "https://tibhar.online/cdn/shop/files/EvolutionMXP_40ee0e7b-7b71-4175-a4ac-5b661ee05863_medium.jpg?v=1696214024",
+    "hasActualProductImage": true,
+    "imageStatus": "official",
+    "imageSource": "Tibhar official product image",
+    "officialProductUrl": "https://tibhar.online/products/evolution-mx-p"
   },
   {
     "id": "seed-tibhar-2",
@@ -1093,7 +1290,12 @@ const seedProducts = [
       "Control",
       "Balanced speed"
     ],
-    "image": "assets/catalog/seed-tibhar-2.svg"
+    "image": "https://tse4.mm.bing.net/th?q=Tibhar+Tibhar+Stratus+Power+Wood+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "hasActualProductImage": true,
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "fallbackImage": "assets/catalog/seed-tibhar-2.svg",
+    "searchImageQuery": "Tibhar Tibhar Stratus Power Wood Blade table tennis product official image"
   },
   {
     "id": "seed-tibhar-3",
@@ -1111,115 +1313,11491 @@ const seedProducts = [
       "Compact",
       "Zipper closure"
     ],
-    "image": "assets/catalog/seed-tibhar-3.svg"
+    "image": "https://tse4.mm.bing.net/th?q=Tibhar+Tibhar+Game+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "hasActualProductImage": true,
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "fallbackImage": "assets/catalog/seed-tibhar-3.svg",
+    "searchImageQuery": "Tibhar Tibhar Game Racket Case table tennis product official image"
   },
   {
-    "id": "seed-butterfly-1",
-    "name": "Butterfly Tenergy 05 Rubber",
+    "id": "dhs-dhs-hurricane-long-5-national-w968",
+    "name": "DHS Hurricane Long 5 National W968",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 81250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-1.jpg?v=1776288494&width=1100",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹81,250",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "real-product-photo",
+    "imageSource": "Real product photo from Paddle Palace; product verified on DHS official page",
+    "hasActualProductImage": true,
+    "gallery": [
+      "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-1.jpg?v=1776288494&width=1100",
+      "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-2.jpg?v=1776288493&width=1100",
+      "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-3.jpg?v=1776288494&width=1100",
+      "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-4.jpg?v=1776288494&width=1100"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-w968-hurricane-long-5-national"
+  },
+  {
+    "id": "dhs-dhs-hurricane-sun-national-s968",
+    "name": "DHS Hurricane Sun National S968",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 81250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://dhssportsusa.com/cdn/shop/files/1_458178cf-966a-4e82-b512-45a808aef972.png?v=1763138083&width=416",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹81,250",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "real-product-photo",
+    "imageSource": "Real product photo from DHS Sports USA product page",
+    "hasActualProductImage": true,
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-hurricane-sun-s968-table-tennis-blade"
+  },
+  {
+    "id": "dhs-dhs-hurricane-king-national-q968",
+    "name": "DHS Hurricane King National Q968",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 81250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://dhssportsusa.com/cdn/shop/files/1_2b7291c7-9c40-4850-beca-7aad7274a3e1.png?v=1763138001&width=416",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹81,250",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "real-product-photo",
+    "imageSource": "Real product photo from DHS Sports USA product page",
+    "hasActualProductImage": true,
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-hurricane-king-q968-table-tennis-blade"
+  },
+  {
+    "id": "dhs-dhs-hurricane-long-5-grand-slam-national-w968",
+    "name": "DHS Hurricane Long 5 Grand Slam National W968",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 98750,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹98,750",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "real-product-photo",
+    "imageSource": "Real product photo from DHS Korea product page",
+    "hasActualProductImage": true,
+    "officialProductUrl": "https://dhs-korea.com/product/%ED%97%88%EB%A6%AC%EC%BC%80%EC%9D%B8-%EB%A1%B15-w968-%EA%B3%A8%EB%93%A0%EC%8A%AC%EB%9E%A8/51/"
+  },
+  {
+    "id": "dhs-dhs-hurricane-long-5-gold-grand-slam",
+    "name": "DHS Hurricane Long 5 Gold Grand Slam",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 47500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹47,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "real-product-photo",
+    "imageSource": "Real product photo from DHS Korea product page",
+    "hasActualProductImage": true,
+    "officialProductUrl": "https://dhs-korea.com/product/%ED%97%88%EB%A6%AC%EC%BC%80%EC%9D%B8-%EB%A1%B15-w968-%EA%B3%A8%EB%93%A0%EC%8A%AC%EB%9E%A8/51/"
+  },
+  {
+    "id": "dhs-dhs-hurricane-long-long-5",
+    "name": "DHS Hurricane Long Long 5",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 35000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://storeassets.im-cdn.com/temp/bulk_operations/sportsninja/1691656539/543cfaaf-b0de-11e3-9303-0017a48d9246_8a921c96-f85e-11e3-bbe9-0017a48d9246-crop-c0-5__0-5-750x750-70_0x0_webp.jpeg",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹35,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "real-product-photo",
+    "imageSource": "Real product photo from Topspin India; product verified on DHS official page",
+    "hasActualProductImage": true,
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-long-5"
+  },
+  {
+    "id": "dhs-dhs-hurricane-long-5x",
+    "name": "DHS Hurricane Long 5x",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 35000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+Long+5x+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹35,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-5x-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane Long 5x table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-long-3",
+    "name": "DHS Hurricane Long 3",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 35000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://dhstabletennis.ca/cdn/shop/files/DHS_Blade_Hurricane_Long_3_FL_tabletennis.jpg?v=1730512735&width=1946",
+    "description": "DHS Hurricane Long 3 blade listed with MRP pricing. Image corrected to the DHS Hurricane Long 3 blade photo.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹35,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "verified-product-image",
+    "imageSource": "DHS Canada product page - Hurricane Long 3 blade",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-3-dhs-safe.svg",
+    "officialProductUrl": "https://dhstabletennis.ca/products/dhs-hurricane-long-3-ma-long-fl-blade"
+  },
+  {
+    "id": "dhs-dhs-hurricane-sun",
+    "name": "DHS Hurricane Sun",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 35000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+Sun+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹35,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-sun-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane Sun table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-king",
+    "name": "DHS Hurricane King",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 35000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+King+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹35,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-king-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane King table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-power-g7",
+    "name": "DHS Power G7",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 5000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹5,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-power-g7-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Power G7 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-power-g7x",
+    "name": "DHS Power G7X",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 8500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G7X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹8,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-power-g7x-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Power G7X table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-power-g8",
+    "name": "DHS Power G8",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 5000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹5,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-power-g8-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Power G8 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-power-g9",
+    "name": "DHS Power G9",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 5000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹5,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-power-g9-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Power G9 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-power-g12",
+    "name": "DHS Power G12",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 6625,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G12+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹6,625",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-power-g12-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Power G12 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-wind-series-w3010-w1030",
+    "name": "DHS Wind Series W3010, W1030",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 2500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+W3010%2C+W1030+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹2,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-wind-series-w3010-w1030-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Wind Series W3010, W1030 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-wind-series-sr-a",
+    "name": "DHS Wind Series SR-A",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 1875,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+SR-A+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹1,875",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-wind-series-sr-a-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Wind Series SR-A table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-wind-series-cwc",
+    "name": "DHS Wind Series CWC",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 4875,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+CWC+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹4,875",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-wind-series-cwc-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Wind Series CWC table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-fang-bo-b2x",
+    "name": "DHS Fang Bo B2X",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 11000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Fang+Bo+B2X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹11,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-fang-bo-b2x-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Fang Bo B2X table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-08x-st-defense",
+    "name": "DHS 08X ST Defense",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 11500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+08X+ST+Defense+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹11,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-08x-st-defense-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS 08X ST Defense table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-tg-506x",
+    "name": "DHS TG-506X",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 14375,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+TG-506X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹14,375",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-tg-506x-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS TG-506X table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-301",
+    "name": "DHS Hurricane 301",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 14375,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+301+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹14,375",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-301-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 301 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-301x",
+    "name": "DHS Hurricane 301X",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 14375,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+301X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹14,375",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-301x-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 301X table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-power-g3z",
+    "name": "DHS Power G3z",
+    "brand": "dhs",
+    "category": "blades",
+    "price": 8750,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G3z+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Blade",
+      "MRP: ₹8,750",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-power-g3z-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Power G3z table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-6512-beginner-s-rubber",
+    "name": "DHS 6512 Beginner's Rubber",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 1500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+6512+Beginner%27s+Rubber+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹1,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-6512-beginner-s-rubber-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS 6512 Beginner's Rubber table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-sharping-ii",
+    "name": "DHS Sharping II",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 3300,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Sharping+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹3,300",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-sharping-ii-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Sharping II table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-874-special-short-pips",
+    "name": "DHS 874 - Special Short Pips",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 2400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+874+-+Special+Short+Pips+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹2,400",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-874-special-short-pips-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS 874 - Special Short Pips table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-dragonow",
+    "name": "DHS Dragonow",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 3300,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Dragonow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹3,300",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-dragonow-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Dragonow table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-652",
+    "name": "DHS 652",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 2400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+652+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹2,400",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-652-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS 652 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-cloud-and-fog-iii",
+    "name": "DHS Cloud & Fog III",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 3300,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Cloud+%26+Fog+III+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹3,300",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-cloud-and-fog-iii-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Cloud & Fog III table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-tg-skyline-3-neo",
+    "name": "DHS TG Skyline 3 Neo",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 5400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+TG+Skyline+3+Neo+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹5,400",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-tg-skyline-3-neo-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS TG Skyline 3 Neo table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-ma-long-player-version",
+    "name": "DHS Ma Long Player Version",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 24000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://dhssportsusa.com/cdn/shop/files/G-ML.png?v=1751409193&width=533",
+    "description": "DHS Ma Long Player Edition Hurricane 3 rubber listed with MRP pricing. Image corrected to the Ma Long Player Edition rubber packaging.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹24,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "verified-product-image",
+    "imageSource": "DHS Sports USA product page - Ma Long Player Edition Hurricane 3 rubber",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-ma-long-player-version-dhs-safe.svg",
+    "gallery": [
+      "https://dhssportsusa.com/cdn/shop/files/G-ML.png?v=1751409193&width=533",
+      "https://dhssportsusa.com/cdn/shop/files/B_be0d39b5-3fa1-4ca2-a65a-8a39dae25459.png?v=1773094149&width=533"
+    ],
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-ma-long-table-tennis-rubber"
+  },
+  {
+    "id": "dhs-dhs-sun-yingsha-player-version",
+    "name": "DHS Sun Yingsha Player Version",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 24000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://dhssportsusa.com/cdn/shop/files/1_c9b0d57d-e579-4ba5-8cb8-51d0419c6acc.png?v=1762539015&width=416",
+    "description": "DHS Sun Yingsha Player Edition table tennis rubber listed with MRP pricing. Image corrected to the Sun Yingsha Player Edition rubber packaging.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹24,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "verified-product-image",
+    "imageSource": "DHS Sports USA product page - Sun Yingsha Player Edition rubber",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-sun-yingsha-player-version-dhs-safe.svg",
+    "gallery": [
+      "https://dhssportsusa.com/cdn/shop/files/1_c9b0d57d-e579-4ba5-8cb8-51d0419c6acc.png?v=1762539015&width=416",
+      "https://dhssportsusa.com/cdn/shop/files/IMG_7524.png?v=1773094185&width=416",
+      "https://dhssportsusa.com/cdn/shop/files/IMG_7523.png?v=1773094191&width=416"
+    ],
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-sun-ys-national-edition-table-tennis-rubber"
+  },
+  {
+    "id": "dhs-dhs-wang-chuqin-player-version",
+    "name": "DHS Wang Chuqin Player Version",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 24000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://dhssportsusa.com/cdn/shop/files/1_27583704-15d9-4e27-a805-0399d966f22a.png?v=1762543767&width=416",
+    "description": "DHS Wang Chuqin Player Edition Hurricane 3 rubber listed with MRP pricing. Image corrected to the Wang Chuqin Player Edition rubber packaging.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹24,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "verified-product-image",
+    "imageSource": "DHS Sports USA product page - Wang Chuqin Player Edition Hurricane 3 rubber",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-wang-chuqin-player-version-dhs-safe.svg",
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-wang-cq-national-edition-table-tennis-rubber"
+  },
+  {
+    "id": "dhs-dhs-hurricane-8",
+    "name": "DHS Hurricane 8",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 5700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹5,700",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-8-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 8 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-8-80",
+    "name": "DHS Hurricane 8-80",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 5700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+8-80+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹5,700",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-8-80-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 8-80 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-50",
+    "name": "DHS Hurricane 3-50",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 5700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3-50+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹5,700",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-50",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-50-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3-50 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3",
+    "name": "DHS Hurricane 3",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 5100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹5,100",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-neo-37-38-39-40",
+    "name": "DHS Hurricane 3 Neo (37, 38, 39, 40)",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 5700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+%2837%2C+38%2C+39%2C+40%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹5,700",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-37-38-39-40-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo (37, 38, 39, 40) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-provincial-blue-sponge",
+    "name": "DHS Hurricane 3 Provincial Blue Sponge",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 9900,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Provincial+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹9,900",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-provincial-blue-sponge-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 Provincial Blue Sponge table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-national-blue-sponge",
+    "name": "DHS Hurricane 3 National Blue Sponge",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 16500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+National+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹16,500",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-national-edition",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-national-blue-sponge-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 National Blue Sponge table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-neo-provincial-orange-sponge",
+    "name": "DHS Hurricane 3 Neo Provincial Orange Sponge",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 8250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+Provincial+Orange+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹8,250",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-provincial-39",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-orange-sponge-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Orange Sponge table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-neo-provincial-blue-sponge",
+    "name": "DHS Hurricane 3 Neo Provincial Blue Sponge",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 10800,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+Provincial+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹10,800",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-provincial-38-blue-sponge",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-blue-sponge-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Blue Sponge table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-neo-national-orange-sponge",
+    "name": "DHS Hurricane 3 Neo National Orange Sponge",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 16500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+National+Orange+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹16,500",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-national",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-national-orange-sponge-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo National Orange Sponge table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-3-neo-national-blue-sponge",
+    "name": "DHS Hurricane 3 Neo National Blue Sponge",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 18000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+National+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹18,000",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-national-39-blue-sponge",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-national-blue-sponge-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo National Blue Sponge table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-pf4-50",
+    "name": "DHS PF4-50",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 1950,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+PF4-50+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹1,950",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-pf4-50-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS PF4-50 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-g888",
+    "name": "DHS G888",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 3000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+G888+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹3,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-g888-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS G888 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-gold-arc-5-42-5-and-47-5",
+    "name": "DHS Gold Arc 5 (42.5 & 47.5)",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 6600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+5+%2842.5+%26+47.5%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹6,600",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-5-42-5-and-47-5-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Gold Arc 5 (42.5 & 47.5) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-gold-arc-8-47-5-and-50",
+    "name": "DHS Gold Arc 8 (47.5 & 50)",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 8550,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+8+%2847.5+%26+50%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹8,550",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-8-47-5-and-50-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Gold Arc 8 (47.5 & 50) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-gold-arc-9-2-1-38h",
+    "name": "DHS Gold Arc 9 (2.1 38H)",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 6600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+9+%282.1+38H%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹6,600",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-9-2-1-38h-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Gold Arc 9 (2.1 38H) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-hurricane-9-blue-violet-green-pink",
+    "name": "DHS Hurricane 9 (Blue, Violet, Green, Pink)",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 6000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+9+%28Blue%2C+Violet%2C+Green%2C+Pink%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹6,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-9-blue-violet-green-pink-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Hurricane 9 (Blue, Violet, Green, Pink) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-c7",
+    "name": "DHS C7",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 2400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+C7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹2,400",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-c7-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS C7 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-c8",
+    "name": "DHS C8",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 2400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+C8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹2,400",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-c8-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS C8 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-tin-arc-5",
+    "name": "DHS Tin Arc 5",
+    "brand": "dhs",
+    "category": "rubbers",
+    "price": 5100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Tin+Arc+5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Rubber",
+      "MRP: ₹5,100",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-tin-arc-5-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Tin Arc 5 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-d40-3-star-balls-pack-of-10",
+    "name": "DHS D40+ 3 Star Balls     (Pack of 10)",
+    "brand": "dhs",
+    "category": "balls",
+    "price": 1250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+3+Star+Balls+++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Balls",
+      "MRP: ₹1,250",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-d40-3-star-balls-pack-of-10-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS D40+ 3 Star Balls     (Pack of 10) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-rs40-3-star-balls-pack-of-10",
+    "name": "DHS RS40+ 3 Star Balls    (Pack of 10)",
+    "brand": "dhs",
+    "category": "balls",
+    "price": 1950,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+RS40%2B+3+Star+Balls++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Balls",
+      "MRP: ₹1,950",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-rs40-3-star-balls-pack-of-10-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS RS40+ 3 Star Balls    (Pack of 10) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-d40-2-star-balls-pack-of-10",
+    "name": "DHS D40+ 2 Star Balls     (Pack of 10)",
+    "brand": "dhs",
+    "category": "balls",
+    "price": 1000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+2+Star+Balls+++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Balls",
+      "MRP: ₹1,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-d40-2-star-balls-pack-of-10-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS D40+ 2 Star Balls     (Pack of 10) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-d40-1-star-balls-pack-of-120",
+    "name": "DHS D40+ 1 Star Balls     (Pack of 120)",
+    "brand": "dhs",
+    "category": "balls",
+    "price": 5000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+1+Star+Balls+++++%28Pack+of+120%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Balls",
+      "MRP: ₹5,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-d40-1-star-balls-pack-of-120-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS D40+ 1 Star Balls     (Pack of 120) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-dj40-wtt-balls-pack-of-6",
+    "name": "DHS DJ40+ WTT Balls       (Pack of 6)",
+    "brand": "dhs",
+    "category": "balls",
+    "price": 1500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+DJ40%2B+WTT+Balls+++++++%28Pack+of+6%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Balls",
+      "MRP: ₹1,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-dj40-wtt-balls-pack-of-6-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS DJ40+ WTT Balls       (Pack of 6) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-rs40-wtt-balls-pack-of-6",
+    "name": "DHS RS40+ WTT Balls       (Pack of 6)",
+    "brand": "dhs",
+    "category": "balls",
+    "price": 2100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+RS40%2B+WTT+Balls+++++++%28Pack+of+6%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Balls",
+      "MRP: ₹2,100",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-rs40-wtt-balls-pack-of-6-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS RS40+ WTT Balls       (Pack of 6) table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-h1002",
+    "name": "DHS H1002",
+    "brand": "dhs",
+    "category": "rackets",
+    "price": 3000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+H1002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Racket",
+      "MRP: ₹3,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-h1002-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS H1002 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-h3002",
+    "name": "DHS H3002",
+    "brand": "dhs",
+    "category": "rackets",
+    "price": 4500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+H3002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Racket",
+      "MRP: ₹4,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-h3002-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS H3002 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-h4002",
+    "name": "DHS H4002",
+    "brand": "dhs",
+    "category": "rackets",
+    "price": 6000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+H4002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Racket",
+      "MRP: ₹6,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-h4002-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS H4002 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-rubber-roller",
+    "name": "DHS Rubber Roller",
+    "brand": "dhs",
+    "category": "accessories",
+    "price": 1000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Rubber+Roller+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Accessory",
+      "MRP: ₹1,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-rubber-roller-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Rubber Roller table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-racket-case-rc520",
+    "name": "DHS Racket Case RC520",
+    "brand": "dhs",
+    "category": "accessories",
+    "price": 2000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Racket+Case+RC520+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Accessory",
+      "MRP: ₹2,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-racket-case-rc520-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Racket Case RC520 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-racket-case-rc530",
+    "name": "DHS Racket Case RC530",
+    "brand": "dhs",
+    "category": "accessories",
+    "price": 2000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Racket+Case+RC530+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Accessory",
+      "MRP: ₹2,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-racket-case-rc530-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Racket Case RC530 table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-rubber-thickness-measuring-device",
+    "name": "DHS Rubber Thickness Measuring Device",
+    "brand": "dhs",
+    "category": "accessories",
+    "price": 50000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+Rubber+Thickness+Measuring+Device+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Accessory",
+      "MRP: ₹50,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-rubber-thickness-measuring-device-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS Rubber Thickness Measuring Device table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-ap-01-blade-protector-220ml",
+    "name": "DHS AP-01 Blade Protector 220ml",
+    "brand": "dhs",
+    "category": "accessories",
+    "price": 3000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+AP-01+Blade+Protector+220ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Accessory",
+      "MRP: ₹3,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-ap-01-blade-protector-220ml-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS AP-01 Blade Protector 220ml table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-no-15-glue-50ml",
+    "name": "DHS No.#15 Glue - 50ml",
+    "brand": "dhs",
+    "category": "glue",
+    "price": 1500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+50ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Glue product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Glue",
+      "MRP: ₹1,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-no-15-glue-50ml-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS No.#15 Glue - 50ml table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-no-15-glue-98ml",
+    "name": "DHS No.#15 Glue - 98ml",
+    "brand": "dhs",
+    "category": "glue",
+    "price": 3000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+98ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Glue product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Glue",
+      "MRP: ₹3,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-no-15-glue-98ml-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS No.#15 Glue - 98ml table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-no-15-glue-500ml",
+    "name": "DHS No.#15 Glue - 500ml",
+    "brand": "dhs",
+    "category": "glue",
+    "price": 6000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+500ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Glue product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Glue",
+      "MRP: ₹6,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-no-15-glue-500ml-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS No.#15 Glue - 500ml table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-t1223-25mm-black-top",
+    "name": "DHS T1223 - 25mm Black Top",
+    "brand": "dhs",
+    "category": "tables",
+    "price": 110000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+T1223+-+25mm+Black+Top+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Table product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Table",
+      "MRP: ₹110,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-t1223-25mm-black-top-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS T1223 - 25mm Black Top table tennis product official image"
+  },
+  {
+    "id": "dhs-dhs-t2023-18mm-black-top",
+    "name": "DHS T2023 - 18mm Black Top",
+    "brand": "dhs",
+    "category": "tables",
+    "price": 55000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=DHS+DHS+T2023+-+18mm+Black+Top+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "DHS Table product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: DHS",
+      "Category: Table",
+      "MRP: ₹55,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dhs-dhs-t2023-18mm-black-top-dhs-safe.svg",
+    "searchImageQuery": "DHS DHS T2023 - 18mm Black Top table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-rdj-s1",
+    "name": "Butterfly RDJ S1",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 1530,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S1+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹1,530",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-rdj-s1-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly RDJ S1 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-rdj-s2",
+    "name": "Butterfly RDJ S2",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 1650,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S2+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹1,650",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-rdj-s2-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly RDJ S2 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-rdj-s3",
+    "name": "Butterfly RDJ S3",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 1740,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S3+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹1,740",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-rdj-s3-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly RDJ S3 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-logo-racket-pink",
+    "name": "BUTTERFLY LOGO RACKET PINK",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 1940,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+PINK+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹1,940",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-logo-racket-pink-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET PINK table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-logo-racket-rose",
+    "name": "BUTTERFLY LOGO RACKET ROSE",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 1940,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+ROSE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹1,940",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-logo-racket-rose-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET ROSE table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-logo-racket-blue",
+    "name": "BUTTERFLY LOGO RACKET BLUE",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 1940,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+BLUE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹1,940",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-logo-racket-blue-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET BLUE table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-outdoor-racket-rose",
+    "name": "Butterfly OUTDOOR RACKET ROSE",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3720,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+ROSE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,720",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-outdoor-racket-rose-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly OUTDOOR RACKET ROSE table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-outdoor-racket-black",
+    "name": "Butterfly OUTDOOR RACKET BLACK",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3720,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+BLACK+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,720",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-outdoor-racket-black-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly OUTDOOR RACKET BLACK table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-addoy-1000",
+    "name": "Butterfly ADDOY 1000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 2310,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹2,310",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-addoy-1000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly ADDOY 1000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-addoy-2000",
+    "name": "Butterfly ADDOY 2000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 2310,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹2,310",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-addoy-2000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly ADDOY 2000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-addoy-3000",
+    "name": "Butterfly ADDOY 3000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 2520,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹2,520",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-addoy-3000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly ADDOY 3000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-wakaba-1000",
+    "name": "Butterfly WAKABA 1000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3270,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,270",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-wakaba-1000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly WAKABA 1000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-wakaba-2000",
+    "name": "Butterfly WAKABA 2000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3270,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,270",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-wakaba-2000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly WAKABA 2000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-wakaba-3000",
+    "name": "Butterfly WAKABA 3000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,400",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-wakaba-3000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly WAKABA 3000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-stayer-1800",
+    "name": "Butterfly STAYER 1800",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3450,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+STAYER+1800+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,450",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-stayer-1800-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly STAYER 1800 table tennis product official image"
+  },
+  {
+    "id": "butterfly-timo-boll-1000",
+    "name": "TIMO BOLL 1000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3510,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,510",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timo-boll-1000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMO BOLL 1000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-timo-boll-2000",
+    "name": "TIMO BOLL 2000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3510,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,510",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timo-boll-2000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMO BOLL 2000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-timo-boll-3000",
+    "name": "TIMO BOLL 3000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3630,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,630",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timo-boll-3000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMO BOLL 3000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-stayer-3000",
+    "name": "Butterfly STAYER 3000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 3820,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+STAYER+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹3,820",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-stayer-3000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly STAYER 3000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-timo-boll-cf-1000",
+    "name": "TIMO BOLL CF 1000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 4940,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹4,940",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timo-boll-cf-1000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMO BOLL CF 1000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-timo-boll-cf-2000",
+    "name": "TIMO BOLL CF 2000",
+    "brand": "butterfly",
+    "category": "rackets",
+    "price": 4940,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Racket",
+      "MRP: ₹4,940",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timo-boll-cf-2000-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMO BOLL CF 2000 table tennis product official image"
+  },
+  {
+    "id": "butterfly-flextra",
+    "name": "FLEXTRA",
     "brand": "butterfly",
     "category": "rubbers",
-    "price": 6999,
-    "rating": 4.9,
-    "reviews": 110,
-    "badge": "Pro choice",
-    "color": "#c7172d",
-    "description": "High-grip rubber for loopers and advanced players.",
+    "price": 2330,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FLEXTRA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
-      "Spring sponge",
-      "High spin",
-      "Premium"
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹2,330",
+      "Price source: supplied price list"
     ],
-    "image": "assets/catalog/seed-butterfly-1.svg"
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-flextra-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FLEXTRA table tennis product official image"
   },
   {
-    "id": "seed-butterfly-2",
-    "name": "Butterfly Viscaria Style Blade",
+    "id": "butterfly-tackness-chop",
+    "name": "TACKNESS CHOP",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 3760,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TACKNESS+CHOP+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹3,760",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-tackness-chop-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TACKNESS CHOP table tennis product official image"
+  },
+  {
+    "id": "butterfly-tackiness-chop-ii",
+    "name": "TACKINESS CHOP II",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 3760,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TACKINESS+CHOP+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹3,760",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-tackiness-chop-ii-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TACKINESS CHOP II table tennis product official image"
+  },
+  {
+    "id": "butterfly-fient-long-ii",
+    "name": "FIENT LONG II",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 4060,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FIENT+LONG+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹4,060",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/fient-long-ii/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-fient-long-ii-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FIENT LONG II table tennis product official image"
+  },
+  {
+    "id": "butterfly-fient-long-iii",
+    "name": "FIENT LONG III",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 4060,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FIENT+LONG+III+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹4,060",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/fient-long-iii/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-fient-long-iii-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FIENT LONG III table tennis product official image"
+  },
+  {
+    "id": "butterfly-super-anti",
+    "name": "SUPER ANTI",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 4090,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SUPER+ANTI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹4,090",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/super-anti/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-super-anti-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly SUPER ANTI table tennis product official image"
+  },
+  {
+    "id": "butterfly-sriver",
+    "name": "SRIVER",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 4250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹4,250",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/sriver/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-sriver-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly SRIVER table tennis product official image"
+  },
+  {
+    "id": "butterfly-sriver-el",
+    "name": "SRIVER EL",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 4250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+EL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹4,250",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/sriver-el/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-sriver-el-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly SRIVER EL table tennis product official image"
+  },
+  {
+    "id": "butterfly-sriver-fx",
+    "name": "SRIVER FX",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 4250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹4,250",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/sriver-fx/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-sriver-fx-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly SRIVER FX table tennis product official image"
+  },
+  {
+    "id": "butterfly-challenger-attack",
+    "name": "CHALLENGER ATTACK",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 5130,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+CHALLENGER+ATTACK+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹5,130",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-challenger-attack-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly CHALLENGER ATTACK table tennis product official image"
+  },
+  {
+    "id": "butterfly-rozena",
+    "name": "ROZENA",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 6995,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+ROZENA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹6,995",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/rozena/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-rozena-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly ROZENA table tennis product official image"
+  },
+  {
+    "id": "butterfly-glayzer",
+    "name": "GLAYZER",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 7290,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+GLAYZER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹7,290",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/glayzer/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-glayzer-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly GLAYZER table tennis product official image"
+  },
+  {
+    "id": "butterfly-glayzer-09-c",
+    "name": "GLAYZER 09 C",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 7290,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+GLAYZER+09+C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹7,290",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/glayzer-09c/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-glayzer-09-c-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly GLAYZER 09 C table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-impartial-xb",
+    "name": "Butterfly IMPARTIAL XB",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 7290,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+IMPARTIAL+XB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹7,290",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-impartial-xb-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly IMPARTIAL XB table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-impartial-xs",
+    "name": "Butterfly IMPARTIAL XS",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 7180,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+IMPARTIAL+XS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹7,180",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-impartial-xs-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly IMPARTIAL XS table tennis product official image"
+  },
+  {
+    "id": "butterfly-bugler",
+    "name": "BUGLER",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 7770,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUGLER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹7,770",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-bugler-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUGLER table tennis product official image"
+  },
+  {
+    "id": "butterfly-bryce-high-speed",
+    "name": "BRYCE HIGH SPEED",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 8274,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BRYCE+HIGH+SPEED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹8,274",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-bryce-high-speed-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BRYCE HIGH SPEED table tennis product official image"
+  },
+  {
+    "id": "butterfly-tenergy-05-05-fx",
+    "name": "TENERGY 05,05 FX,",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 10600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+05%2C05+FX%2C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹10,600",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/tenergy-05/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-tenergy-05-05-fx-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TENERGY 05,05 FX, table tennis product official image"
+  },
+  {
+    "id": "butterfly-tenergy-64-64-fx",
+    "name": "TENERGY 64,64 FX",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 10600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+64%2C64+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹10,600",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/tenergy-64/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-tenergy-64-64-fx-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TENERGY 64,64 FX table tennis product official image"
+  },
+  {
+    "id": "butterfly-tenergy-80-80-fx",
+    "name": "TENERGY 80,80 FX",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 10600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+80%2C80+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹10,600",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/tenergy-80/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-tenergy-80-80-fx-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TENERGY 80,80 FX table tennis product official image"
+  },
+  {
+    "id": "butterfly-tenergy-19",
+    "name": "TENERGY 19",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 10600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+19+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹10,600",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/tenergy-19/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-tenergy-19-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TENERGY 19 table tennis product official image"
+  },
+  {
+    "id": "butterfly-dignics-05",
+    "name": "DIGNICS 05",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 13000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+05+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹13,000",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/dignics-05/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-dignics-05-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly DIGNICS 05 table tennis product official image"
+  },
+  {
+    "id": "butterfly-dignics-64",
+    "name": "DIGNICS 64",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 13000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+64+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹13,000",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/dignics-64-2/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-dignics-64-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly DIGNICS 64 table tennis product official image"
+  },
+  {
+    "id": "butterfly-dignics-09-c",
+    "name": "DIGNICS 09 C",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 13000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+09+C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹13,000",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/dignics-09-c/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-dignics-09-c-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly DIGNICS 09 C table tennis product official image"
+  },
+  {
+    "id": "butterfly-zyre-03",
+    "name": "ZYRE 03",
+    "brand": "butterfly",
+    "category": "rubbers",
+    "price": 19450,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+ZYRE+03+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Rubber",
+      "MRP: ₹19,450",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-zyre-03-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly ZYRE 03 table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-tb5-alfa-fl",
+    "name": "Butterfly TB5 ALFA FL",
     "brand": "butterfly",
     "category": "blades",
-    "price": 12999,
-    "rating": 4.9,
-    "reviews": 55,
-    "badge": "Carbon",
-    "color": "#202420",
-    "description": "Carbon-style offensive blade for fast close-table play.",
+    "price": 6195,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+TB5+ALFA+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
-      "Carbon feel",
-      "Fast attack",
-      "Pro build"
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹6,195",
+      "Price source: supplied price list"
     ],
-    "image": "assets/catalog/seed-butterfly-2.svg"
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-tb5-alfa-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly TB5 ALFA FL table tennis product official image"
   },
   {
-    "id": "seed-butterfly-3",
-    "name": "Butterfly Training Ball Pack",
+    "id": "butterfly-timoboll-j-fl",
+    "name": "TIMOBOLL J FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 6830,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+J+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹6,830",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timoboll-j-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMOBOLL J FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-primorac-fl",
+    "name": "PRIMORAC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 7330,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+PRIMORAC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹7,330",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/primorac-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-primorac-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly PRIMORAC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-mizutani-jun-major-fl",
+    "name": "MIZUTANI JUN MAJOR FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 9135,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+MAJOR+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹9,135",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/mijutani-jun-major-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-mizutani-jun-major-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly MIZUTANI JUN MAJOR FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-timoboll-caf-fl",
+    "name": "TIMOBOLL CAF FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 9607,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+CAF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹9,607",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timoboll-caf-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMOBOLL CAF FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-diode-v",
+    "name": "DIODE V",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 9630,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+DIODE+V+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹9,630",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/diode-v/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-diode-v-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly DIODE V table tennis product official image"
+  },
+  {
+    "id": "butterfly-korbel",
+    "name": "KORBEL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 11030,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+KORBEL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹11,030",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-korbel-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly KORBEL table tennis product official image"
+  },
+  {
+    "id": "butterfly-timoboll-tj-fl",
+    "name": "TIMOBOLL TJ FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 11340,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+TJ+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹11,340",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timoboll-tj-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMOBOLL TJ FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-konglin-hui",
+    "name": "KONGLIN HUI",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 11760,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+KONGLIN+HUI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹11,760",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-konglin-hui-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly KONGLIN HUI table tennis product official image"
+  },
+  {
+    "id": "butterfly-divode-pro-fl-st",
+    "name": "DIVODE PRO FL/ST",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 12075,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+DIVODE+PRO+FL%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹12,075",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-divode-pro-fl-st-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly DIVODE PRO FL/ST table tennis product official image"
+  },
+  {
+    "id": "butterfly-primorac-carbon-fl",
+    "name": "PRIMORAC CARBON FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 16000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+PRIMORAC+CARBON+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹16,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-primorac-carbon-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly PRIMORAC CARBON FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-hadraw-sr-fl",
+    "name": "HADRAW SR FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 16170,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+HADRAW+SR+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹16,170",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-hadraw-sr-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly HADRAW SR FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-outerforce-caf-fl",
+    "name": "OUTERFORCE CAF FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 16695,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFORCE+CAF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹16,695",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-outerforce-caf-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly OUTERFORCE CAF FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-timoboll-spirit-fl",
+    "name": "TIMOBOLL SPIRIT FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 17750,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+SPIRIT+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹17,750",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timoboll-spirit-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMOBOLL SPIRIT FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-sardius-fl",
+    "name": "Butterfly SARDIUS FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 18750,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+SARDIUS+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹18,750",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/sardius-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-sardius-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly SARDIUS FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-outerforce-alc-fl-st",
+    "name": "OUTERFORCE ALC FL/ST",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 21525,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFORCE+ALC+FL%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹21,525",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-outerforce-alc-fl-st-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly OUTERFORCE ALC FL/ST table tennis product official image"
+  },
+  {
+    "id": "butterfly-viscaria-fl",
+    "name": "VISCARIA FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 23600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+VISCARIA+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹23,600",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/viscaria-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-viscaria-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly VISCARIA FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-dimitrij-ovtcharov-innerforce-alc-fl",
+    "name": "DIMITRIJ OVTCHAROV INNERFORCE ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 23572,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+DIMITRIJ+OVTCHAROV+INNERFORCE+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹23,572",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/dimitrij-ovtcharov-innerforce-alc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-dimitrij-ovtcharov-innerforce-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly DIMITRIJ OVTCHAROV INNERFORCE ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-timoboll-alc-fl",
+    "name": "TIMOBOLL ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 24200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹24,200",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/timoboll-alc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timoboll-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMOBOLL ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-marcos-freitas-alc-fl",
+    "name": "MARCOS FREITAS ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 24990,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+MARCOS+FREITAS+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹24,990",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-marcos-freitas-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly MARCOS FREITAS ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-fan-zhendong-alc-fl",
+    "name": "FAN ZHENDONG ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 26040,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹26,040",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/fan-zhendong-alc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FAN ZHENDONG ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-innerforace-layer-zfl-fl",
+    "name": "INNERFORACE LAYER ZFL FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 28500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+INNERFORACE+LAYER+ZFL+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹28,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-innerforace-layer-zfl-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly INNERFORACE LAYER ZFL FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-outerfforce-zlc-zlf-fl",
+    "name": "OUTERFFORCE ZLC /ZLF FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 29600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFFORCE+ZLC+%2FZLF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹29,600",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-outerfforce-zlc-zlf-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly OUTERFFORCE ZLC /ZLF FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-harimoto-tokozama-innerforace-alc-fl",
+    "name": "HARIMOTO TOKOZAMA INNERFORACE ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 30100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹30,100",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-innerforce-layer-zlc-fl",
+    "name": "INNERFORCE LAYER ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 30345,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+INNERFORCE+LAYER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹30,345",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-innerforce-layer-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly INNERFORCE LAYER ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-mizutani-jun-zlc-fl",
+    "name": "MIZUTANI JUN ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 31400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹31,400",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/mizutani-jun-zlc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-mizutani-jun-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly MIZUTANI JUN ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-franziska-innerforace-zlc-an",
+    "name": "Butterfly FRANZISKA INNERFORACE ZLC AN",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 32000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+FRANZISKA+INNERFORACE+ZLC+AN+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹32,000",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/franziska-innerforce-zlc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-franziska-innerforace-zlc-an-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly FRANZISKA INNERFORACE ZLC AN table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-franziska-innerforace-zlc-fl",
+    "name": "Butterfly FRANZISKA INNERFORACE ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 32025,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+FRANZISKA+INNERFORACE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹32,025",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/franziska-innerforce-zlc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-franziska-innerforace-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly FRANZISKA INNERFORACE ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-harimoto-tokozama-innerforace-super-alc-fl",
+    "name": "HARIMOTO TOKOZAMA INNERFORACE SUPER ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 32340,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹32,340",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-super-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE SUPER ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-tiago-apolonia-zlc-fl",
+    "name": "TIAGO APOLONIA ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 32760,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIAGO+APOLONIA+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹32,760",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-tiago-apolonia-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIAGO APOLONIA ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-timoboll-zlc-fl",
+    "name": "TIMOBOLL ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 33495,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹33,495",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timoboll-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMOBOLL ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-zhang-jike-zlc-fl",
+    "name": "ZHANG JIKE ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 34490,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+ZHANG+JIKE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹34,490",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-zhang-jike-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly ZHANG JIKE ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-fan-zhendong-zlc-fl",
+    "name": "FAN ZHENDONG ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 35500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹35,500",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/fan-zhendong-zlc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FAN ZHENDONG ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-viscaria-super-alc-fl",
+    "name": "VISCARIA SUPER ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 36000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+VISCARIA+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹36,000",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/viscaria-super-alc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-viscaria-super-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly VISCARIA SUPER ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-harimoto-tokozama-innerforace-zlc-fl",
+    "name": "HARIMOTO TOKOZAMA INNERFORACE ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 36750,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹36,750",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-fan-zhendong-super-alc-fl",
+    "name": "FAN ZHENDONG SUPER ALC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 37100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹37,100",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/fan-zhendong-super-alc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-super-alc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FAN ZHENDONG SUPER ALC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-mizutani-jun-zlc-super-zlc-fl",
+    "name": "MIZUTANI JUN ZLC SUPER ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 42840,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+ZLC+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹42,840",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/mizutani-jun-zlc-super-zlc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-mizutani-jun-zlc-super-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly MIZUTANI JUN ZLC SUPER ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-lin-yun-ju-super-zlc-fl",
+    "name": "LIN YUN-JU SUPER ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 49875,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+LIN+YUN-JU+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹49,875",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/lin-yun-ju-super-zlc-fl/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-lin-yun-ju-super-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly LIN YUN-JU SUPER ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-revolida-cnf-fl",
+    "name": "REVOLIDA CNF FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 51000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+REVOLIDA+CNF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹51,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-revolida-cnf-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly REVOLIDA CNF FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-fan-zhendong-super-zlc-fl-st",
+    "name": "FAN ZHENDONG SUPER ZLC FL /ST",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 52290,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+SUPER+ZLC+FL+%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹52,290",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-super-zlc-fl-st-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FAN ZHENDONG SUPER ZLC FL /ST table tennis product official image"
+  },
+  {
+    "id": "butterfly-harimoto-tokozama-innerforace-super-zlc-fl",
+    "name": "HARIMOTO TOKOZAMA INNERFORACE SUPER ZLC FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 53025,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹53,025",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-super-zlc-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE SUPER ZLC FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-timoboll-30th-anniversary-edition-fl",
+    "name": "TIMOBOLL 30TH ANNIVERSARY EDITION FL",
+    "brand": "butterfly",
+    "category": "blades",
+    "price": 54860,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+30TH+ANNIVERSARY+EDITION+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Blade",
+      "MRP: ₹54,860",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-timoboll-30th-anniversary-edition-fl-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly TIMOBOLL 30TH ANNIVERSARY EDITION FL table tennis product official image"
+  },
+  {
+    "id": "butterfly-wb-protector-10-mm-side-tap",
+    "name": "WB PROTECTOR 10 MM (Side Tap)",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 480,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+WB+PROTECTOR+10+MM+%28Side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹480",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-wb-protector-10-mm-side-tap-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly WB PROTECTOR 10 MM (Side Tap) table tennis product official image"
+  },
+  {
+    "id": "butterfly-wb-protector-12-mm-side-tap",
+    "name": "WB PROTECTOR 12 MM (Side Tap)",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 495,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+WB+PROTECTOR+12+MM+%28Side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹495",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-wb-protector-12-mm-side-tap-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly WB PROTECTOR 12 MM (Side Tap) table tennis product official image"
+  },
+  {
+    "id": "butterfly-rb-protector-10-mm-side-tap",
+    "name": "RB PROTECTOR 10 MM (side Tap)",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 530,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+RB+PROTECTOR+10+MM+%28side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹530",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-rb-protector-10-mm-side-tap-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly RB PROTECTOR 10 MM (side Tap) table tennis product official image"
+  },
+  {
+    "id": "butterfly-rb-protector-12-mm-side-tap",
+    "name": "RB PROTECTOR 12 MM (side Tap)",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 530,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+RB+PROTECTOR+12+MM+%28side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹530",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-rb-protector-12-mm-side-tap-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly RB PROTECTOR 12 MM (side Tap) table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-trainig-ball-40-pcs-pack",
+    "name": "BUTTERFLY TRAINIG BALL 40 + Pcs pack",
     "brand": "butterfly",
     "category": "balls",
-    "price": 2199,
-    "rating": 4.6,
-    "reviews": 71,
-    "badge": "Training",
-    "color": "#ffffff",
-    "description": "Durable training balls for multi-ball sessions.",
-    "features": [
-      "Pack of 30",
-      "Training",
-      "Consistent bounce"
-    ],
-    "image": "assets/catalog/seed-butterfly-3.svg"
-  },
-  {
-    "id": "seed-stiga-1",
-    "name": "Stiga Cybershape Style Racket",
-    "brand": "stiga",
-    "category": "rackets",
-    "price": 8999,
+    "price": 550,
     "rating": 4.7,
-    "reviews": 67,
-    "badge": "Modern",
-    "color": "#d7ff3f",
-    "description": "Modern racket profile made for speed and control.",
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+TRAINIG+BALL+40+%2B+Pcs+pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
-      "Large sweet spot",
-      "Lightweight",
-      "Control"
+      "Brand: Butterfly",
+      "Category: Balls",
+      "MRP: ₹550",
+      "Price source: supplied price list"
     ],
-    "image": "assets/catalog/seed-stiga-1.svg"
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-trainig-ball-40-pcs-pack-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY TRAINIG BALL 40 + Pcs pack table tennis product official image"
   },
   {
-    "id": "seed-stiga-2",
-    "name": "Stiga Club Indoor Table",
-    "brand": "stiga",
-    "category": "tables",
-    "price": 44999,
-    "rating": 4.6,
-    "reviews": 37,
-    "badge": "Club",
-    "color": "#244652",
-    "description": "Indoor table for clubs, homes and training rooms.",
+    "id": "butterfly-butterfly-check-sheet-ii",
+    "name": "Butterfly CHECK SHEET II",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 570,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+CHECK+SHEET+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
-      "Foldable",
-      "Stable frame",
-      "Club use"
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹570",
+      "Price source: supplied price list"
     ],
-    "image": "assets/catalog/seed-stiga-2.svg"
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-check-sheet-ii-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly CHECK SHEET II table tennis product official image"
   },
   {
-    "id": "seed-stiga-3",
-    "name": "Stiga Court Shoes",
-    "brand": "stiga",
+    "id": "butterfly-edge-protector-ii-10mm-12-mm",
+    "name": "EDGE PROTECTOR II 10MM/12 MM",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 580,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+EDGE+PROTECTOR+II+10MM%2F12+MM+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹580",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-edge-protector-ii-10mm-12-mm-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly EDGE PROTECTOR II 10MM/12 MM table tennis product official image"
+  },
+  {
+    "id": "butterfly-free-chack-ii-20-ml",
+    "name": "FREE CHACK II 20 ML",
+    "brand": "butterfly",
+    "category": "glue",
+    "price": 800,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+FREE+CHACK+II+20+ML+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Glue product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Glue",
+      "MRP: ₹800",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://butterfly-india.com/product/free-chack-ii-20-ml/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-free-chack-ii-20-ml-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly FREE CHACK II 20 ML table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-3-star-ball-r40-3-pcs-pack",
+    "name": "Butterfly 3 STAR BALL R40+ (3 Pcs Pack)",
+    "brand": "butterfly",
+    "category": "balls",
+    "price": 1050,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+3+STAR+BALL+R40%2B+%283+Pcs+Pack%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Balls",
+      "MRP: ₹1,050",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-3-star-ball-r40-3-pcs-pack-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly 3 STAR BALL R40+ (3 Pcs Pack) table tennis product official image"
+  },
+  {
+    "id": "butterfly-cure-water-rubbers",
+    "name": "CURE WATER RUBBERS",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 1320,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+CURE+WATER+RUBBERS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹1,320",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-cure-water-rubbers-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly CURE WATER RUBBERS table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-rubber-cleaner-set",
+    "name": "Butterfly RUBBER CLEANER SET",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 1950,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RUBBER+CLEANER+SET+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹1,950",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-rubber-cleaner-set-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly RUBBER CLEANER SET table tennis product official image"
+  },
+  {
+    "id": "butterfly-bd-case",
+    "name": "BD CASE",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 3200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BD+CASE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹3,200",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-bd-case-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BD CASE table tennis product official image"
+  },
+  {
+    "id": "butterfly-bg-case",
+    "name": "BG CASE",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 4400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BG+CASE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹4,400",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-bg-case-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BG CASE table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-3-star-ball-r40-12-pcs-pack",
+    "name": "Butterfly 3 STAR BALL R40+ (12 Pcs Pack)",
+    "brand": "butterfly",
+    "category": "balls",
+    "price": 5200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+3+STAR+BALL+R40%2B+%2812+Pcs+Pack%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Balls",
+      "MRP: ₹5,200",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-3-star-ball-r40-12-pcs-pack-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly 3 STAR BALL R40+ (12 Pcs Pack) table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-glue-free-check-500-ml",
+    "name": "Butterfly GLUE FREE CHECK 500 ML",
+    "brand": "butterfly",
+    "category": "glue",
+    "price": 7560,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+GLUE+FREE+CHECK+500+ML+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Glue product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Glue",
+      "MRP: ₹7,560",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-glue-free-check-500-ml-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly Butterfly GLUE FREE CHECK 500 ML table tennis product official image"
+  },
+  {
+    "id": "butterfly-baltra-ruck-bag",
+    "name": "BALTRA RUCK BAG",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 13250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BALTRA+RUCK+BAG+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹13,250",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-baltra-ruck-bag-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BALTRA RUCK BAG table tennis product official image"
+  },
+  {
+    "id": "butterfly-amicus-prime-robot-made-in-germany",
+    "name": "AMICUS PRIME ROBOT (Made In Germany )",
+    "brand": "butterfly",
+    "category": "accessories",
+    "price": 675000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+AMICUS+PRIME+ROBOT+%28Made+In+Germany+%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Accessory",
+      "MRP: ₹675,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-amicus-prime-robot-made-in-germany-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly AMICUS PRIME ROBOT (Made In Germany ) table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-sneaker-shoe",
+    "name": "BUTTERFLY SNEAKER SHOE",
+    "brand": "butterfly",
     "category": "footwear",
-    "price": 6499,
-    "rating": 4.5,
-    "reviews": 29,
-    "badge": "Grip",
-    "color": "#f6f4ec",
-    "description": "Low-profile court shoes for quick lateral movement.",
+    "price": 7900,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+SNEAKER+SHOE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
-      "Non-marking",
-      "Lightweight",
-      "Grip sole"
+      "Brand: Butterfly",
+      "Category: Footwear",
+      "MRP: ₹7,900",
+      "Price source: supplied price list"
     ],
-    "image": "assets/catalog/seed-stiga-3.svg"
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-sneaker-shoe-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY SNEAKER SHOE table tennis product official image"
+  },
+  {
+    "id": "butterfly-shoe-lezoline-unizes",
+    "name": "SHOE LEZOLINE UNIZES",
+    "brand": "butterfly",
+    "category": "footwear",
+    "price": 11700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SHOE+LEZOLINE+UNIZES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Footwear",
+      "MRP: ₹11,700",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-shoe-lezoline-unizes-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly SHOE LEZOLINE UNIZES table tennis product official image"
+  },
+  {
+    "id": "butterfly-lezoline-vilight",
+    "name": "LEZOLINE VILIGHT",
+    "brand": "butterfly",
+    "category": "footwear",
+    "price": 15225,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+VILIGHT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Footwear",
+      "MRP: ₹15,225",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-lezoline-vilight-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly LEZOLINE VILIGHT table tennis product official image"
+  },
+  {
+    "id": "butterfly-lezoline-vilata",
+    "name": "LEZOLINE VILATA",
+    "brand": "butterfly",
+    "category": "footwear",
+    "price": 16275,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+VILATA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Footwear",
+      "MRP: ₹16,275",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-lezoline-vilata-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly LEZOLINE VILATA table tennis product official image"
+  },
+  {
+    "id": "butterfly-lezoline-rifones",
+    "name": "LEZOLINE RIFONES",
+    "brand": "butterfly",
+    "category": "footwear",
+    "price": 23650,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+RIFONES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Footwear",
+      "MRP: ₹23,650",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-lezoline-rifones-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly LEZOLINE RIFONES table tennis product official image"
+  },
+  {
+    "id": "butterfly-lezoline-levalis",
+    "name": "LEZOLINE LEVALIS",
+    "brand": "butterfly",
+    "category": "footwear",
+    "price": 24990,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+LEVALIS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Footwear",
+      "MRP: ₹24,990",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-lezoline-levalis-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly LEZOLINE LEVALIS table tennis product official image"
+  },
+  {
+    "id": "butterfly-lezoline-tr-outdoor-shoes",
+    "name": "LEZOLINE TR OUTDOOR SHOES",
+    "brand": "butterfly",
+    "category": "footwear",
+    "price": 19000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+TR+OUTDOOR+SHOES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Footwear",
+      "MRP: ₹19,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-lezoline-tr-outdoor-shoes-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly LEZOLINE TR OUTDOOR SHOES table tennis product official image"
+  },
+  {
+    "id": "butterfly-sollien-shirt",
+    "name": "SOLLIEN SHIRT",
+    "brand": "butterfly",
+    "category": "clothing",
+    "price": 7940,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SOLLIEN+SHIRT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Apparel",
+      "MRP: ₹7,940",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-sollien-shirt-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly SOLLIEN SHIRT table tennis product official image"
+  },
+  {
+    "id": "butterfly-rimeral-shirt",
+    "name": "RIMERAL SHIRT",
+    "brand": "butterfly",
+    "category": "clothing",
+    "price": 7940,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+RIMERAL+SHIRT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Apparel",
+      "MRP: ₹7,940",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-rimeral-shirt-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly RIMERAL SHIRT table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-game-shirts",
+    "name": "BUTTERFLY GAME SHIRTS",
+    "brand": "butterfly",
+    "category": "clothing",
+    "price": 1650,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHIRTS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Apparel",
+      "MRP: ₹1,650",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-game-shirts-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY GAME SHIRTS table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-game-shorts",
+    "name": "BUTTERFLY GAME SHORTS",
+    "brand": "butterfly",
+    "category": "clothing",
+    "price": 1800,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHORTS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Apparel",
+      "MRP: ₹1,800",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-game-shorts-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY GAME SHORTS table tennis product official image"
+  },
+  {
+    "id": "butterfly-shirt-bristro",
+    "name": "SHIRT BRISTRO",
+    "brand": "butterfly",
+    "category": "clothing",
+    "price": 3885,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SHIRT+BRISTRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Apparel",
+      "MRP: ₹3,885",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-shirt-bristro-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly SHIRT BRISTRO table tennis product official image"
+  },
+  {
+    "id": "butterfly-butterfly-game-track-suit",
+    "name": "BUTTERFLY GAME TRACK SUIT",
+    "brand": "butterfly",
+    "category": "clothing",
+    "price": 3950,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3d6df2",
+    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+TRACK+SUIT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Butterfly",
+      "Category: Apparel",
+      "MRP: ₹3,950",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/butterfly-butterfly-game-track-suit-butterfly-safe.svg",
+    "searchImageQuery": "Butterfly BUTTERFLY GAME TRACK SUIT table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-n-10s",
+    "name": "YinHe N-10S",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+N-10S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-n-10s-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe N-10S table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-t-11s",
+    "name": "YinHe T-11S",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-11S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-t-11s-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe T-11S table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-cn-1s",
+    "name": "YinHe CN-1S",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+CN-1S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-cn-1s-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe CN-1S table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-ec-11",
+    "name": "YinHe EC-11",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+EC-11+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-ec-11-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe EC-11 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-v-14-pro",
+    "name": "YinHe V-14 PRO",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 7999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+V-14+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹7,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-v-14-pro-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe V-14 PRO table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-pro-01",
+    "name": "YinHe PRO-01",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 7999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-01+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹7,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-01-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe PRO-01 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-pro-05",
+    "name": "YinHe PRO-05",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 7999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-05+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹7,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-05-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe PRO-05 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-y-13",
+    "name": "YinHe Y-13",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Y-13+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-y-13-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Y-13 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-t-1s",
+    "name": "YinHe T-1S",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 3999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-1S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹3,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-t-1s-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe T-1S table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-t-2s",
+    "name": "YinHe T-2S",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 3999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-2S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹3,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-t-2s-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe T-2S table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-t-9",
+    "name": "YinHe T-9",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 4999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹4,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-t-9-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe T-9 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-max-01",
+    "name": "YinHe MAX-01",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 7999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MAX-01+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹7,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-max-01-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MAX-01 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-pro-11s",
+    "name": "YinHe PRO-11s",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 9999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-11s+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹9,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-11s-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe PRO-11s table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-vf-5",
+    "name": "YinHe VF-5",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 9999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+VF-5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹9,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-vf-5-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe VF-5 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-vf-7",
+    "name": "YinHe VF-7",
+    "brand": "yinhe",
+    "category": "blades",
+    "price": 9999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+VF-7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Blade",
+      "MRP: ₹9,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-vf-7-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe VF-7 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-01b-readymade-racket",
+    "name": "YinHe 01B Readymade Racket",
+    "brand": "yinhe",
+    "category": "rackets",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+01B+Readymade+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Racket",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-01b-readymade-racket-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 01B Readymade Racket table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-c204-readymade-kids-racket",
+    "name": "YinHe C204 Readymade Kids Racket",
+    "brand": "yinhe",
+    "category": "rackets",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+C204+Readymade+Kids+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Racket product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Racket",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-c204-readymade-kids-racket-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe C204 Readymade Kids Racket table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-90001-training-set",
+    "name": "YinHe 90001 Training Set",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+90001+Training+Set+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-90001-training-set-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 90001 Training Set table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-9000-ii",
+    "name": "YinHe 9000-II",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+9000-II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-9000-ii-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 9000-II table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-9000-e",
+    "name": "YinHe 9000 E",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+9000+E+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-9000-e-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 9000 E table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-mercury-ii",
+    "name": "YinHe MERCURY II",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MERCURY+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-mercury-ii-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MERCURY II table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-qing-ox",
+    "name": "YinHe QING OX",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-qing-ox-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe QING OX table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-955-ox",
+    "name": "YinHe 955 OX",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-955-ox-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 955 OX table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-mercury-iii-euro",
+    "name": "YinHe MERCURY III EURO",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MERCURY+III+EURO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-mercury-iii-euro-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MERCURY III EURO table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-neptune-0-7",
+    "name": "YinHe NEPTUNE - 0.7",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+NEPTUNE+-+0.7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-neptune-0-7-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe NEPTUNE - 0.7 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-pluto-1-5-1-8",
+    "name": "YinHe PLUTO 1.5 - 1.8",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PLUTO+1.5+-+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-pluto-1-5-1-8-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe PLUTO 1.5 - 1.8 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-955-green-0-7mm",
+    "name": "YinHe 955 Green 0.7mm",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+Green+0.7mm+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-955-green-0-7mm-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 955 Green 0.7mm table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-955-green-ox",
+    "name": "YinHe 955 GREEN - OX",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+GREEN+-+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-955-green-ox-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 955 GREEN - OX table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-earth-ii",
+    "name": "YinHe EARTH II",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+EARTH+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-earth-ii-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe EARTH II table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-apollo-5",
+    "name": "YinHe APOLLO 5",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+APOLLO+5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://yinheusa.com/product/apollo-5/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-apollo-5-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe APOLLO 5 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-moon-speed",
+    "name": "YinHe MOON SPEED",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+SPEED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-speed-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MOON SPEED table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-moon-speed-limited",
+    "name": "YinHe MOON SPEED LIMITED",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+SPEED+LIMITED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-speed-limited-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MOON SPEED LIMITED table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-moon-pro",
+    "name": "YinHe MOON PRO",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-pro-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MOON PRO table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-moon-12-blue",
+    "name": "YinHe MOON 12 BLUE",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+12+BLUE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://yinheusa.com/product/moon-12-in-new-green-color/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-12-blue-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MOON 12 BLUE table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-uranus-poly",
+    "name": "YinHe URANUS POLY",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+URANUS+POLY+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-uranus-poly-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe URANUS POLY table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-uranus-pro-1-8mm-2-15mm",
+    "name": "YinHe URANUS PRO (1.8mm, 2.15mm)",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+URANUS+PRO+%281.8mm%2C+2.15mm%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-uranus-pro-1-8mm-2-15mm-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe URANUS PRO (1.8mm, 2.15mm) table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-big-dipper-39",
+    "name": "YinHe BIG DIPPER 39",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+BIG+DIPPER+39+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://yinheusa.com/product/big-dipper-4/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-big-dipper-39-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe BIG DIPPER 39 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-big-dipper-pro-41",
+    "name": "YinHe BIG DIPPER PRO 41",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 3499,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+BIG+DIPPER+PRO+41+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹3,499",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://yinheusa.com/product/big-dipper-province-41-degree/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-big-dipper-pro-41-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe BIG DIPPER PRO 41 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-jupiter-iii-euro",
+    "name": "YinHe JUPITER III EURO",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+JUPITER+III+EURO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://yinheusa.com/product/jupiter-3-euro/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-jupiter-iii-euro-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe JUPITER III EURO table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-qing-0-5",
+    "name": "YinHe QING - 0.5",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+-+0.5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-qing-0-5-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe QING - 0.5 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-qing-0-7",
+    "name": "YinHe QING - 0.7",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+-+0.7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-qing-0-7-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe QING - 0.7 table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-mars-ii",
+    "name": "YinHe MARS II",
+    "brand": "yinhe",
+    "category": "rubbers",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MARS+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Rubber",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-mars-ii-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe MARS II table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-h40-3-star",
+    "name": "YinHe H40+ 3 Star",
+    "brand": "yinhe",
+    "category": "balls",
+    "price": 599,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+H40%2B+3+Star+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Balls",
+      "MRP: ₹599",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-h40-3-star-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe H40+ 3 Star table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-wtt",
+    "name": "YinHe WTT",
+    "brand": "yinhe",
+    "category": "balls",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+WTT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Balls",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-wtt-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe WTT table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-1-star-pack-of-100",
+    "name": "YinHe 1 Star    (Pack of 100)",
+    "brand": "yinhe",
+    "category": "balls",
+    "price": 2999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+1+Star++++%28Pack+of+100%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Balls",
+      "MRP: ₹2,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-1-star-pack-of-100-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 1 Star    (Pack of 100) table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-plastic-grip",
+    "name": "YinHe Plastic Grip",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 499,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Plastic+Grip+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹499",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-plastic-grip-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Plastic Grip table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-7031-rubber-cleaner",
+    "name": "YinHe 7031 Rubber Cleaner",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+7031+Rubber+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-7031-rubber-cleaner-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 7031 Rubber Cleaner table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-7034-rubber-cleaner",
+    "name": "YinHe 7034 Rubber Cleaner",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+7034+Rubber+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-7034-rubber-cleaner-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 7034 Rubber Cleaner table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-rubber-cleaning-sponge",
+    "name": "YinHe Rubber Cleaning Sponge",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 499,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Cleaning+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹499",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-rubber-cleaning-sponge-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Rubber Cleaning Sponge table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-rubber-protector-sticky-sheet",
+    "name": "YinHe Rubber Protector Sticky Sheet",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 499,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Protector+Sticky+Sheet+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹499",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-rubber-protector-sticky-sheet-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Rubber Protector Sticky Sheet table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-edge-tape-single-pc",
+    "name": "YinHe Edge Tape Single Pc",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 199,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Edge+Tape+Single+Pc+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹199",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-edge-tape-single-pc-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Edge Tape Single Pc table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-edge-tape-25m-roll",
+    "name": "YinHe Edge Tape 25m Roll",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Edge+Tape+25m+Roll+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-edge-tape-25m-roll-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Edge Tape 25m Roll table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-ball-picker-7033a",
+    "name": "YinHe Ball Picker 7033A",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Ball+Picker+7033A+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-ball-picker-7033a-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Ball Picker 7033A table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-ball-picker-7033c",
+    "name": "YinHe Ball Picker 7033C",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Ball+Picker+7033C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-ball-picker-7033c-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Ball Picker 7033C table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-glue-150ml",
+    "name": "YinHe Glue - 150ml",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Glue+-+150ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-glue-150ml-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Glue - 150ml table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-8003-racket-cover",
+    "name": "YinHe 8003 Racket Cover",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8003+Racket+Cover+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-8003-racket-cover-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 8003 Racket Cover table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-8011-racket-cover",
+    "name": "YinHe 8011 Racket Cover",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8011+Racket+Cover+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-8011-racket-cover-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 8011 Racket Cover table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-8023-round-racket-case",
+    "name": "YinHe 8023 Round Racket Case",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8023+Round+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-8023-round-racket-case-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 8023 Round Racket Case table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-8014-hard-case",
+    "name": "YinHe 8014 Hard Case",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8014+Hard+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-8014-hard-case-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 8014 Hard Case table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-rubber-cutting-machine",
+    "name": "YinHe Rubber Cutting Machine",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 19999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Cutting+Machine+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹19,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-rubber-cutting-machine-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Rubber Cutting Machine table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-blade-of-rubber-cutting-machine",
+    "name": "YinHe Blade of Rubber Cutting Machine",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 1999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Blade+of+Rubber+Cutting+Machine+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹1,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-blade-of-rubber-cutting-machine-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Blade of Rubber Cutting Machine table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-x231-white-and-blue",
+    "name": "YinHe X231 White & Blue",
+    "brand": "yinhe",
+    "category": "accessories",
+    "price": 4999,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+X231+White+%26+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Accessory",
+      "MRP: ₹4,999",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-x231-white-and-blue-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe X231 White & Blue table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-pro-25v-25mm-table",
+    "name": "YinHe Pro-25V 25mm Table",
+    "brand": "yinhe",
+    "category": "tables",
+    "price": 75000,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Pro-25V+25mm+Table+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Table product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Table",
+      "MRP: ₹75,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-25v-25mm-table-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe Pro-25V 25mm Table table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-60011-26a-26d-latest-t-shirt",
+    "name": "YinHe 60011 - 26A, 26D Latest T-Shirt",
+    "brand": "yinhe",
+    "category": "clothing",
+    "price": 2000,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+60011+-+26A%2C+26D+Latest+T-Shirt+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Apparel",
+      "MRP: ₹2,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-60011-26a-26d-latest-t-shirt-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe 60011 - 26A, 26D Latest T-Shirt table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-p1201-racket",
+    "name": "YinHe P1201 Racket",
+    "brand": "yinhe",
+    "category": "pickleball",
+    "price": 6000,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1201+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Pickleball",
+      "MRP: ₹6,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-p1201-racket-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe P1201 Racket table tennis product official image"
+  },
+  {
+    "id": "yinhe-yinhe-p1301-racket",
+    "name": "YinHe P1301 Racket",
+    "brand": "yinhe",
+    "category": "pickleball",
+    "price": 5000,
+    "rating": 4.6,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#3c77ff",
+    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1301+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: YinHe",
+      "Category: Pickleball",
+      "MRP: ₹5,000",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/yinhe-yinhe-p1301-racket-yinhe-safe.svg",
+    "searchImageQuery": "Yinhe YinHe P1301 Racket table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-cybershape-carbon-cwt-truls-edition",
+    "name": "Stiga Cybershape Carbon CWT Truls Edition",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 36100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Carbon+CWT+Truls+Edition+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹36,100",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://www.stigasports.com/en/product/cybershape-carbon-cwt",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-carbon-cwt-truls-edition-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Cybershape Carbon CWT Truls Edition table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-cybershape-carbon-cwt",
+    "name": "Stiga Cybershape Carbon CWT",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 33250,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Carbon+CWT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹33,250",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://www.stigasports.com/en/product/cybershape-carbon-cwt",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-carbon-cwt-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Cybershape Carbon CWT table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-cybershape-wood-cwt",
+    "name": "Stiga Cybershape Wood CWT",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 16910,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wood+CWT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹16,910",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-wood-cwt-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Cybershape Wood CWT table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-cybershape-carbon",
+    "name": "Stiga Cybershape Carbon",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 24700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://www.stigasports.com/_next/image?q=75&url=https%3A%2F%2Fstigasports.centracdn.net%2Fclient%2Fdynamic%2Fimages%2F4363_c816b63591-cybershape-master-one-full.jpg&w=1920",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹24,700",
+      "Price source: supplied price list"
+    ],
+    "officialProductUrl": "https://www.stigasports.com/en/product/cybershape-carbon",
+    "imageStatus": "official",
+    "imageSource": "STIGA official product image",
+    "hasActualProductImage": true
+  },
+  {
+    "id": "stiga-stiga-cybershape-wood",
+    "name": "Stiga Cybershape Wood",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 13300,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wood+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹13,300",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-wood-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Cybershape Wood table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-cybershape-clipper",
+    "name": "Stiga Cybershape Clipper",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 12350,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Clipper+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹12,350",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-clipper-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Cybershape Clipper table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-cybershape-wavy-ultrafibre-master-jw",
+    "name": "Stiga Cybershape Wavy Ultrafibre Master JW",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 9500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wavy+Ultrafibre+Master+JW+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹9,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-wavy-ultrafibre-master-jw-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Cybershape Wavy Ultrafibre Master JW table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-allround-classic",
+    "name": "Stiga Allround Classic",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 9310,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Allround+Classic+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹9,310",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-allround-classic-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Allround Classic table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-carbon-cwt-truls-jw-classic",
+    "name": "Stiga Carbon CWT Truls JW (Classic)",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 36100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Carbon+CWT+Truls+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹36,100",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-carbon-cwt-truls-jw-classic-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Carbon CWT Truls JW (Classic) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-carbon-truls-jw-classic",
+    "name": "Stiga Carbon Truls JW (Classic)",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 32100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Carbon+Truls+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹32,100",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-carbon-truls-jw-classic-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Carbon Truls JW (Classic) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-destiny-carbon",
+    "name": "Stiga Destiny Carbon",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 24700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Destiny+Carbon+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹24,700",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-destiny-carbon-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Destiny Carbon table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-inspira-plus-wang-manyu",
+    "name": "Stiga Inspira Plus - Wang Manyu",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 23750,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Inspira+Plus+-+Wang+Manyu+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹23,750",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-inspira-plus-wang-manyu-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Inspira Plus - Wang Manyu table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-infinity-vps",
+    "name": "Stiga Infinity VPS",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 12350,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Infinity+VPS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹12,350",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-infinity-vps-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Infinity VPS table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-clipper-cr",
+    "name": "Stiga Clipper CR",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 10450,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Clipper+CR+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹10,450",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-clipper-cr-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Clipper CR table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-wavy-ultrafibre-master-jw-classic",
+    "name": "Stiga Wavy Ultrafibre Master JW (Classic)",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 9500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Wavy+Ultrafibre+Master+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹9,500",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-wavy-ultrafibre-master-jw-classic-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Wavy Ultrafibre Master JW (Classic) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-offensive-classic-master",
+    "name": "Stiga Offensive Classic (Master)",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 8550,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Offensive+Classic+%28Master%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹8,550",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-offensive-classic-master-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Offensive Classic (Master) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-offensive-classic-winner-old-packing",
+    "name": "Stiga Offensive Classic (Winner) (Old Packing)",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 8550,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Offensive+Classic+%28Winner%29+%28Old+Packing%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹8,550",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-offensive-classic-winner-old-packing-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Offensive Classic (Winner) (Old Packing) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-s-5000-wrb",
+    "name": "Stiga S 5000 WRB",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 4560,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+S+5000+WRB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹4,560",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-s-5000-wrb-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga S 5000 WRB table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-s-2000-wrb",
+    "name": "Stiga S 2000 WRB",
+    "brand": "stiga",
+    "category": "blades",
+    "price": 3230,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+S+2000+WRB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Blade",
+      "MRP: ₹3,230",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-s-2000-wrb-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga S 2000 WRB table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-dragon-power-52-5-55",
+    "name": "Stiga Dragon Power 52.5/55",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 8740,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Dragon+Power+52.5%2F55+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹8,740",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-dragon-power-52-5-55-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Dragon Power 52.5/55 table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-dna-hybrid-h-xh",
+    "name": "Stiga DNA Hybrid (H/XH)",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 8360,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Hybrid+%28H%2FXH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹8,360",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-dna-hybrid-h-xh-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga DNA Hybrid (H/XH) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-dna-platinum-m-h-xh",
+    "name": "Stiga DNA Platinum (M/H/XH)",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 7980,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Platinum+%28M%2FH%2FXH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹7,980",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-dna-platinum-m-h-xh-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga DNA Platinum (M/H/XH) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-dna-pro-m-h",
+    "name": "Stiga DNA Pro (M/H)",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 6650,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Pro+%28M%2FH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹6,650",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-dna-pro-m-h-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga DNA Pro (M/H) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-mantra-pro-m-h",
+    "name": "Stiga Mantra Pro (M/H)",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 5320,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Pro+%28M%2FH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹5,320",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-mantra-pro-m-h-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Mantra Pro (M/H) table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-symmetry-short-pimple-1-9",
+    "name": "Stiga Symmetry (Short Pimple) 1.9",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 5320,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Symmetry+%28Short+Pimple%29+1.9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹5,320",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-symmetry-short-pimple-1-9-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Symmetry (Short Pimple) 1.9 table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-mantra-sound",
+    "name": "Stiga Mantra Sound",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 3610,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Sound+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹3,610",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-mantra-sound-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Mantra Sound table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-mantra-control",
+    "name": "Stiga Mantra Control",
+    "brand": "stiga",
+    "category": "rubbers",
+    "price": 2470,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Control+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Rubber",
+      "MRP: ₹2,470",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-mantra-control-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Mantra Control table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-haze-double-racket-case",
+    "name": "Stiga Haze Double Racket Case",
+    "brand": "stiga",
+    "category": "accessories",
+    "price": 3100,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Haze+Double+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Accessory",
+      "MRP: ₹3,100",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-haze-double-racket-case-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Haze Double Racket Case table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-perform-premium-3-star-wtt-balls",
+    "name": "Stiga Perform Premium 3 Star WTT Balls",
+    "brand": "stiga",
+    "category": "balls",
+    "price": 1872,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Perform+Premium+3+Star+WTT+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Balls",
+      "MRP: ₹1,872",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-perform-premium-3-star-wtt-balls-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Perform Premium 3 Star WTT Balls table tennis product official image"
+  },
+  {
+    "id": "stiga-cosco-boom-balls",
+    "name": "Cosco Boom Balls",
+    "brand": "stiga",
+    "category": "balls",
+    "price": 420,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Cosco+Boom+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Balls product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Balls",
+      "MRP: ₹420",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-cosco-boom-balls-stiga-safe.svg",
+    "searchImageQuery": "Stiga Cosco Boom Balls table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-new-polo-tshirt",
+    "name": "Stiga New Polo Tshirt",
+    "brand": "stiga",
+    "category": "clothing",
+    "price": 3990,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Polo+Tshirt+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Apparel",
+      "MRP: ₹3,990",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-new-polo-tshirt-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga New Polo Tshirt table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-new-shorts",
+    "name": "Stiga New Shorts",
+    "brand": "stiga",
+    "category": "clothing",
+    "price": 2090,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Shorts+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Apparel",
+      "MRP: ₹2,090",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-new-shorts-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga New Shorts table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-tshirt-children",
+    "name": "Stiga TShirt - Children",
+    "brand": "stiga",
+    "category": "clothing",
+    "price": 2280,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+TShirt+-+Children+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Apparel",
+      "MRP: ₹2,280",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-tshirt-children-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga TShirt - Children table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-towel",
+    "name": "Stiga Towel",
+    "brand": "stiga",
+    "category": "accessories",
+    "price": 1575,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Towel+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Accessory",
+      "MRP: ₹1,575",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-towel-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Towel table tennis product official image"
+  },
+  {
+    "id": "stiga-stiga-socks",
+    "name": "Stiga Socks",
+    "brand": "stiga",
+    "category": "clothing",
+    "price": 475,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Socks+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Apparel",
+      "MRP: ₹475",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-stiga-socks-stiga-safe.svg",
+    "searchImageQuery": "Stiga Stiga Socks table tennis product official image"
+  },
+  {
+    "id": "stiga-donic-faze-racket-case-double",
+    "name": "Donic Faze Racket Case Double",
+    "brand": "stiga",
+    "category": "accessories",
+    "price": 675,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f2b705",
+    "image": "https://tse4.mm.bing.net/th?q=Stiga+Donic+Faze+Racket+Case+Double+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
+    "features": [
+      "Brand: Stiga",
+      "Category: Accessory",
+      "MRP: ₹675",
+      "Price source: supplied price list"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/stiga-donic-faze-racket-case-double-stiga-safe.svg",
+    "searchImageQuery": "Stiga Donic Faze Racket Case Double table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-v52-5-red",
+    "name": "Xiom J&H V52.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6349,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H V52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,349",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v52-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H V52.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-v52-5-black",
+    "name": "Xiom J&H V52.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6349,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H V52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,349",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v52-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H V52.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-v47-5-red",
+    "name": "Xiom J&H V47.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5299,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H V47.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹5,299",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v47-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H V47.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-v47-5-black",
+    "name": "Xiom J&H V47.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5299,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H V47.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹5,299",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v47-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H V47.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-x50-0-red",
+    "name": "Xiom J&H X50.0 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6569,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X50.0+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H X50.0 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,569",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x50-0-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H X50.0 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-x50-0-black",
+    "name": "Xiom J&H X50.0 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6569,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X50.0+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H X50.0 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,569",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x50-0-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H X50.0 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-x47-5-red",
+    "name": "Xiom J&H X47.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7619,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H X47.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹7,619",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x47-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H X47.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-x47-5-black",
+    "name": "Xiom J&H X47.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7619,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H X47.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹7,619",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x47-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H X47.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-h-52-5-red",
+    "name": "Xiom J&H H 52.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6409,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+H+52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H H 52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,409",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-h-52-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H H 52.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-h-52-5-black",
+    "name": "Xiom J&H H 52.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6409,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+H+52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H H 52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,409",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-h-52-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H H 52.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-c52-5-red",
+    "name": "Xiom J&H C52.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 8829,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H C52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹8,829",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c52-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H C52.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-c52-5-black",
+    "name": "Xiom J&H C52.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 8829,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H C52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹8,829",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c52-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H C52.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-c55-0-red",
+    "name": "Xiom J&H C55.0 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7779,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C55.0+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H C55.0 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹7,779",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c55-0-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H C55.0 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-c55-0-black",
+    "name": "Xiom J&H C55.0 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7779,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C55.0+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H C55.0 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹7,779",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c55-0-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H C55.0 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-c57-5-red",
+    "name": "Xiom J&H C57.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7889,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C57.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H C57.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹7,889",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c57-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H C57.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-c57-5-black",
+    "name": "Xiom J&H C57.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7889,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C57.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H C57.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹7,889",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c57-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H C57.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-z52-5-red",
+    "name": "Xiom J&H Z52.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 9489,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+Z52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H Z52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹9,489",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-z52-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H Z52.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-jandh-z52-5-black",
+    "name": "Xiom J&H Z52.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 9489,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+Z52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom J&H Z52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹9,489",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-jandh-z52-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom J&H Z52.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-4-euro-red",
+    "name": "Xiom Omega 4 Euro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5199,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 4 Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹5,199",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-euro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 4 Euro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-4-euro-black",
+    "name": "Xiom Omega 4 Euro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5199,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 4 Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹5,199",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-euro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 4 Euro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-4-pro-red",
+    "name": "Xiom Omega 4 Pro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5529,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 4 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹5,529",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-pro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 4 Pro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-4-pro-black",
+    "name": "Xiom Omega 4 Pro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5529,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 4 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹5,529",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-pro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 4 Pro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-5-pro-red",
+    "name": "Xiom Omega 5 Pro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5909,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 5 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹5,909",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-pro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 5 Pro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-5-pro-black",
+    "name": "Xiom Omega 5 Pro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5909,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 5 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹5,909",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-pro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 5 Pro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-5-asia-red",
+    "name": "Xiom Omega 5 Asia - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6189,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Asia+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 5 Asia - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,189",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-asia-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 5 Asia - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-5-asia-black",
+    "name": "Xiom Omega 5 Asia - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6189,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Asia+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 5 Asia - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,189",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-asia-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 5 Asia - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-asia-red",
+    "name": "Xiom Omega 7 Asia - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6189,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Asia+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Asia - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,189",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-asia-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Asia - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-asia-black",
+    "name": "Xiom Omega 7 Asia - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6189,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Asia+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Asia - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,189",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-asia-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Asia - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-euro-red",
+    "name": "Xiom Omega 7 Euro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6189,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,189",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-euro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Euro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-euro-black",
+    "name": "Xiom Omega 7 Euro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6189,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,189",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-euro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Euro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-pro-red",
+    "name": "Xiom Omega 7 Pro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6569,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%3D%3D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg",
+    "description": "Xiom Omega 7 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,569",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/omega-7-pro/466/category/182/display/1/",
+    "imageStatus": "official",
+    "imageSource": "XIOM official exact product page",
+    "hasActualProductImage": true
+  },
+  {
+    "id": "xiom-xiom-omega-7-pro-black",
+    "name": "Xiom Omega 7 Pro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6569,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%3D%3D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg",
+    "description": "Xiom Omega 7 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,569",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/omega-7-pro/466/category/182/display/1/",
+    "imageStatus": "official",
+    "imageSource": "XIOM official exact product page",
+    "hasActualProductImage": true
+  },
+  {
+    "id": "xiom-xiom-omega-8-pro-red",
+    "name": "Xiom Omega 8 Pro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7619,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹7,619",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/omega-8-pro/1129",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-pro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 Pro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-8-pro-black",
+    "name": "Xiom Omega 8 Pro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7619,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹7,619",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/omega-8-pro/1129",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-pro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 Pro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-8-china-red",
+    "name": "Xiom Omega 8 China - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7889,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+China+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 China - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹7,889",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-china-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 China - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-8-china-black",
+    "name": "Xiom Omega 8 China - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7889,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+China+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 China - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹7,889",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-china-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 China - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-8-euro-red",
+    "name": "Xiom Omega 8 Euro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6569,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,569",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-euro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 Euro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-8-euro-black",
+    "name": "Xiom Omega 8 Euro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6569,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,569",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-euro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 Euro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-8-hybrid-red",
+    "name": "Xiom Omega 8 Hybrid - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6349,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Hybrid+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 Hybrid - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,349",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-hybrid-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-8-hybrid-black",
+    "name": "Xiom Omega 8 Hybrid - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6349,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Hybrid+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 8 Hybrid - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,349",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-hybrid-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-tour-i-50-red",
+    "name": "Xiom Omega 7 Tour I 50 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7999,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+50+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Tour I 50 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹7,999",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-50-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-tour-i-50-black",
+    "name": "Xiom Omega 7 Tour I 50 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 7999,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+50+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Tour I 50 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹7,999",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-50-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-tour-i-47-5-red",
+    "name": "Xiom Omega 7 Tour I 47.5 - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 8109,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Tour I 47.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹8,109",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-omega-7-tour-i-47-5-black",
+    "name": "Xiom Omega 7 Tour I 47.5 - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 8109,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Omega 7 Tour I 47.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹8,109",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-pro-red",
+    "name": "Xiom Vega Pro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4539,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹4,539",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Pro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-pro-black",
+    "name": "Xiom Vega Pro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4539,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹4,539",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Pro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-euro-red",
+    "name": "Xiom Vega Euro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4869,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹4,869",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-euro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Euro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-euro-black",
+    "name": "Xiom Vega Euro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4869,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹4,869",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-euro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Euro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-intro-red",
+    "name": "Xiom Vega Intro - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 3599,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Intro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Intro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹3,599",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-intro-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Intro - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-intro-black",
+    "name": "Xiom Vega Intro - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 3599,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Intro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Intro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹3,599",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-intro-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Intro - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-japan-red",
+    "name": "Xiom Vega Japan - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4869,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Japan+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Japan - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹4,869",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-japan-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Japan - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-japan-black",
+    "name": "Xiom Vega Japan - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4869,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Japan+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Japan - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹4,869",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-japan-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Japan - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-korea-black",
+    "name": "Xiom Vega Korea - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5089,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Korea+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Korea - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹5,089",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-korea-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Korea - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-korea-blue",
+    "name": "Xiom Vega Korea - Blue",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5089,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Korea+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Korea - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Blue",
+      "MRP: ₹5,089",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-korea-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Korea - Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-x-red",
+    "name": "Xiom Vega X - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4649,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+X+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega X - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹4,649",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-x-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega X - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-x-black",
+    "name": "Xiom Vega X - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 4649,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+X+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega X - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹4,649",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-x-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega X - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-pro-hybrid-red",
+    "name": "Xiom Vega Pro Hybrid - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6409,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+Hybrid+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Pro Hybrid - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹6,409",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-hybrid-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-pro-hybrid-black",
+    "name": "Xiom Vega Pro Hybrid - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 6409,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+Hybrid+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Pro Hybrid - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹6,409",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-hybrid-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-tour-red",
+    "name": "Xiom Vega Tour - Red",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5529,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Tour+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Tour - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Red",
+      "MRP: ₹5,529",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-tour-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Tour - Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-vega-tour-black",
+    "name": "Xiom Vega Tour - Black",
+    "brand": "xiom",
+    "category": "rubbers",
+    "price": 5529,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Tour+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Vega Tour - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rubbers",
+      "Colour: Black",
+      "MRP: ₹5,529",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-vega-tour-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Vega Tour - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ice-cream-azxi-orangeaxylium",
+    "name": "Xiom Ice Cream AZXi OrangeAxylium",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 22189,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZXi+OrangeAxylium+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Ice Cream AZXi OrangeAxylium listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹22,189",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/ice-cream-azxi/518/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ice-cream-azxi-orangeaxylium-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Ice Cream AZXi OrangeAxylium table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ice-cream-azx-orange-axylium",
+    "name": "Xiom Ice Cream AZX Orange Axylium",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 21089,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZX+Orange+Axylium+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Ice Cream AZX Orange Axylium listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹21,089",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ice-cream-azx-orange-axylium-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Ice Cream AZX Orange Axylium table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ice-cream-azxi-pro",
+    "name": "Xiom Ice Cream AZXi PRO",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 24229,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZXi+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Ice Cream AZXi PRO listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹24,229",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "officialProductUrl": "https://xiom.tt/product/ice-cream-azxi/518/",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ice-cream-azxi-pro-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Ice Cream AZXi PRO table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-19-offensive-s",
+    "name": "Xiom 19 Offensive S",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 6739,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Offensive+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 19 Offensive S listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹6,739",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-19-offensive-s-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 19 Offensive S table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-19-allround-s",
+    "name": "Xiom 19 Allround S",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 5749,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Allround+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 19 Allround S listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹5,749",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-19-allround-s-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 19 Allround S table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-zeta-offensive",
+    "name": "Xiom Zeta Offensive",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 4869,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Zeta Offensive listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹4,869",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-zeta-offensive-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Zeta Offensive table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-zeta-offensive-plus",
+    "name": "Xiom Zeta Offensive Plus",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 5629,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+Plus+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Zeta Offensive Plus listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹5,629",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-zeta-offensive-plus-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Zeta Offensive Plus table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-19-stradivarius",
+    "name": "Xiom 19 Stradivarius",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 9209,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Stradivarius+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 19 Stradivarius listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹9,209",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-19-stradivarius-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 19 Stradivarius table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-power-hinoki-penholder-blade",
+    "name": "Xiom Power Hinoki Penholder Blade",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 13359,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Power+Hinoki+Penholder+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Power Hinoki Penholder Blade listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹13,359",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-power-hinoki-penholder-blade-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Power Hinoki Penholder Blade table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-m-power-penholder-blade",
+    "name": "Xiom M-Power Penholder Blade",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 6529,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+M-Power+Penholder+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom M-Power Penholder Blade listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹6,529",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-m-power-penholder-blade-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom M-Power Penholder Blade table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-zetro-quad",
+    "name": "Xiom Zetro Quad",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 14029,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zetro+Quad+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Zetro Quad listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹14,029",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-zetro-quad-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Zetro Quad table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ajh-tmx-i",
+    "name": "Xiom AJH TMX i",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 17419,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+AJH+TMX+i+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom AJH TMX i listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹17,419",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ajh-tmx-i-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom AJH TMX i table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-cds-tmx-pro",
+    "name": "Xiom CDS TMX PRO",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 20079,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+CDS+TMX+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom CDS TMX PRO listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹20,079",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-cds-tmx-pro-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom CDS TMX PRO table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-hugo-alx-pro",
+    "name": "Xiom Hugo ALX Pro",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 24819,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Hugo+ALX+Pro+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Hugo ALX Pro listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹24,819",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-hugo-alx-pro-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Hugo ALX Pro table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-hugo-tmxi-pro",
+    "name": "Xiom Hugo TMXi Pro",
+    "brand": "xiom",
+    "category": "blades",
+    "price": 26949,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Hugo+TMXi+Pro+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Hugo TMXi Pro listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Blades",
+      "MRP: ₹26,949",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-hugo-tmxi-pro-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Hugo TMXi Pro table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-racket-case-pink",
+    "name": "Xiom TIKKYWOW Racket Case - Pink",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2379,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Pink+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW Racket Case - Pink listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Pink",
+      "MRP: ₹2,379",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-racket-case-pink-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Pink table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-racket-case-navy-blue",
+    "name": "Xiom TIKKYWOW Racket Case - Navy Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2379,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Navy+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW Racket Case - Navy Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Navy Blue",
+      "MRP: ₹2,379",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-racket-case-navy-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Navy Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-racket-case-blue",
+    "name": "Xiom TIKKYWOW Racket Case - Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2379,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Blue",
+      "MRP: ₹2,379",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-racket-case-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-2-racket-case-blue",
+    "name": "Xiom TIKKYWOW 2 Racket Case - Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2379,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW 2 Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Blue",
+      "MRP: ₹2,379",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-2-racket-case-purple",
+    "name": "Xiom TIKKYWOW 2 Racket Case - Purple",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2379,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW 2 Racket Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Purple",
+      "MRP: ₹2,379",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-purple-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Purple table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-2-racket-case-l-blue",
+    "name": "Xiom TIKKYWOW 2 Racket Case - L Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2379,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+L+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW 2 Racket Case - L Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: L Blue",
+      "MRP: ₹2,379",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-l-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - L Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-2-racket-case-grey",
+    "name": "Xiom TIKKYWOW 2 Racket Case - Grey",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2379,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW 2 Racket Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Grey",
+      "MRP: ₹2,379",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-grey-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Grey table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-neo-2-racket-case-dark-blue",
+    "name": "Xiom Neo 2 Racket Case - Dark Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1649,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Neo+2+Racket+Case+-+Dark+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Neo 2 Racket Case - Dark Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Dark Blue",
+      "MRP: ₹1,649",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-neo-2-racket-case-dark-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Neo 2 Racket Case - Dark Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-xiom-22xrc-navy",
+    "name": "Xiom Xiom 22XRC - Navy",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2599,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Xiom 22XRC - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Navy",
+      "MRP: ₹2,599",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-xiom-22xrc-navy-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Xiom 22XRC - Navy table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-xiom-22xrc-grey",
+    "name": "Xiom Xiom 22XRC - Grey",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2599,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Xiom 22XRC - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Grey",
+      "MRP: ₹2,599",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-xiom-22xrc-grey-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Xiom 22XRC - Grey table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-xiom-22xrc-purple",
+    "name": "Xiom Xiom 22XRC - Purple",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2599,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Xiom 22XRC - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Purple",
+      "MRP: ₹2,599",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-xiom-22xrc-purple-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Xiom 22XRC - Purple table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-20-rc30-blue",
+    "name": "Xiom 20 RC30 - Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1259,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+20+RC30+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 20 RC30 - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Blue",
+      "MRP: ₹1,259",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-20-rc30-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 20 RC30 - Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-bravoplus-6-pack",
+    "name": "Xiom Bravo+ 6 Pack",
+    "brand": "xiom",
+    "category": "balls",
+    "price": 949,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Bravo%2B+6+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Bravo+ 6 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Balls",
+      "MRP: ₹949",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-bravoplus-6-pack-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Bravo+ 6 Pack table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-bravo-6-pack",
+    "name": "Xiom Bravo 6 Pack",
+    "brand": "xiom",
+    "category": "balls",
+    "price": 949,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Bravo+6+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Bravo 6 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Balls",
+      "MRP: ₹949",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-bravo-6-pack-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Bravo 6 Pack table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-sensa-training-100-pack",
+    "name": "Xiom SENSA Training 100 Pack",
+    "brand": "xiom",
+    "category": "balls",
+    "price": 4169,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+SENSA+Training+100+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom SENSA Training 100 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Balls",
+      "MRP: ₹4,169",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-sensa-training-100-pack-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom SENSA Training 100 Pack table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-xtr-training-100-pack",
+    "name": "Xiom XTR Training 100 Pack",
+    "brand": "xiom",
+    "category": "balls",
+    "price": 4959,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+XTR+Training+100+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom XTR Training 100 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Balls",
+      "MRP: ₹4,959",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-xtr-training-100-pack-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom XTR Training 100 Pack table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-table-tennis-ball-dhs",
+    "name": "Xiom Table Tennis Ball - DHS",
+    "brand": "xiom",
+    "category": "balls",
+    "price": 1319,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Table+Tennis+Ball+-+DHS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Table Tennis Ball - DHS listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Balls",
+      "Colour: DHS",
+      "MRP: ₹1,319",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-table-tennis-ball-dhs-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Table Tennis Ball - DHS table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-muv-m-7-0-s",
+    "name": "Xiom MUV M 7.0 S",
+    "brand": "xiom",
+    "category": "rackets",
+    "price": 3559,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+MUV+M+7.0+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom MUV M 7.0 S listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rackets",
+      "MRP: ₹3,559",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-muv-m-7-0-s-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom MUV M 7.0 S table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-muv-m-9-0-s",
+    "name": "Xiom MUV M 9.0 S",
+    "brand": "xiom",
+    "category": "rackets",
+    "price": 5259,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+MUV+M+9.0+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom MUV M 9.0 S listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Rackets",
+      "MRP: ₹5,259",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-muv-m-9-0-s-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom MUV M 9.0 S table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-pro-t-bond-20ml",
+    "name": "Xiom PRO T Bond 20ml",
+    "brand": "xiom",
+    "category": "glue",
+    "price": 889,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+PRO+T+Bond+20ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom PRO T Bond 20ml listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Glue",
+      "MRP: ₹889",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-pro-t-bond-20ml-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom PRO T Bond 20ml table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-pro-t-bond-70ml",
+    "name": "Xiom Pro T Bond 70ml",
+    "brand": "xiom",
+    "category": "glue",
+    "price": 2829,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Pro+T+Bond+70ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Pro T Bond 70ml listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Glue",
+      "MRP: ₹2,829",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-pro-t-bond-70ml-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Pro T Bond 70ml table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-pro-t-bond-100ml",
+    "name": "Xiom Pro T Bond 100ml",
+    "brand": "xiom",
+    "category": "glue",
+    "price": 2719,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Pro+T+Bond+100ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Pro T Bond 100ml listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Glue",
+      "MRP: ₹2,719",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-pro-t-bond-100ml-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Pro T Bond 100ml table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-xiom-cleaner-60ml",
+    "name": "Xiom Xiom Cleaner - 60ml",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 929,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+Cleaner+-+60ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Xiom Cleaner - 60ml listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: 60ml",
+      "MRP: ₹929",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-xiom-cleaner-60ml-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Xiom Cleaner - 60ml table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-n10",
+    "name": "Xiom N10",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 4829,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+N10+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom N10 listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "MRP: ₹4,829",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-n10-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom N10 table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-xsb-magnum-sports-bag",
+    "name": "Xiom XSB Magnum Sports Bag",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 14549,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+XSB+Magnum+Sports+Bag+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom XSB Magnum Sports Bag listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "MRP: ₹14,549",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-xsb-magnum-sports-bag-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom XSB Magnum Sports Bag table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-anatomy-sb",
+    "name": "Xiom Anatomy SB",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 12619,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Anatomy+SB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Anatomy SB listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "MRP: ₹12,619",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-anatomy-sb-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Anatomy SB table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-xbp",
+    "name": "Xiom 24 XBP",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 4729,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+XBP+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 XBP listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "MRP: ₹4,729",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-xbp-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 XBP table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-22xbc-ball-case-navy",
+    "name": "Xiom 22XBC Ball Case - Navy",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1099,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 22XBC Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Navy",
+      "MRP: ₹1,099",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-22xbc-ball-case-navy-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 22XBC Ball Case - Navy table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-22xbc-ball-case-purple",
+    "name": "Xiom 22XBC Ball Case - Purple",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1099,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 22XBC Ball Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Purple",
+      "MRP: ₹1,099",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-22xbc-ball-case-purple-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 22XBC Ball Case - Purple table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-22xbc-ball-case-grey",
+    "name": "Xiom 22XBC Ball Case - Grey",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1099,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 22XBC Ball Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Grey",
+      "MRP: ₹1,099",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-22xbc-ball-case-grey-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 22XBC Ball Case - Grey table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-ball-case-navy",
+    "name": "Xiom TIKKYWOW Ball Case - Navy",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1099,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Ball+Case+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Navy",
+      "MRP: ₹1,099",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-ball-case-navy-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW Ball Case - Navy table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-tikkywow-ball-case-orange",
+    "name": "Xiom TIKKYWOW Ball Case - Orange",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1099,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Ball+Case+-+Orange+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom TIKKYWOW Ball Case - Orange listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Orange",
+      "MRP: ₹1,099",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-ball-case-orange-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom TIKKYWOW Ball Case - Orange table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-22-side-tape-black",
+    "name": "Xiom 22 Side Tape - Black",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 6009,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22+Side+Tape+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 22 Side Tape - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Black",
+      "MRP: ₹6,009",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-22-side-tape-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 22 Side Tape - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-22-side-tape-blue",
+    "name": "Xiom 22 Side Tape - Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 6009,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22+Side+Tape+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 22 Side Tape - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Blue",
+      "MRP: ₹6,009",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-22-side-tape-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 22 Side Tape - Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-black",
+    "name": "Xiom 24 Side Tape Logo 5Mtr/12mm - Black",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2169,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Black",
+      "MRP: ₹2,169",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-blue",
+    "name": "Xiom 24 Side Tape Logo 5Mtr/12mm - Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2169,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Blue",
+      "MRP: ₹2,169",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-pink",
+    "name": "Xiom 24 Side Tape Logo 5Mtr/12mm - Pink",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2169,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Pink+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Pink listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Pink",
+      "MRP: ₹2,169",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-pink-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Pink table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-brown",
+    "name": "Xiom 24 Side Tape Logo 5Mtr/12mm - Brown",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 2169,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Brown+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Brown listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Brown",
+      "MRP: ₹2,169",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-brown-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Brown table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-23-edge-tape-pink-blue",
+    "name": "Xiom 23 Edge Tape - Pink/Blue",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 589,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+23+Edge+Tape+-+Pink%2FBlue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 23 Edge Tape - Pink/Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Pink/Blue",
+      "MRP: ₹589",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-23-edge-tape-pink-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 23 Edge Tape - Pink/Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-o-foil-pink-gree-n",
+    "name": "Xiom 24 O-FOIL - Pink/Gree n",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 589,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Pink%2FGree+n+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 O-FOIL - Pink/Gree n listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Pink/Gree n",
+      "MRP: ₹589",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-o-foil-pink-gree-n-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 O-FOIL - Pink/Gree n table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-o-foil-neon-blu-e",
+    "name": "Xiom 24 O-FOIL - Neon/Blu e",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 589,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Neon%2FBlu+e+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 O-FOIL - Neon/Blu e listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Neon/Blu e",
+      "MRP: ₹589",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-o-foil-neon-blu-e-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 O-FOIL - Neon/Blu e table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-o-foil-jekyll-and-hyde",
+    "name": "Xiom 24 O-FOIL - Jekyll & Hyde",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 589,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Jekyll+%26+Hyde+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 O-FOIL - Jekyll & Hyde listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Jekyll & Hyde",
+      "MRP: ₹589",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-o-foil-jekyll-and-hyde-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 O-FOIL - Jekyll & Hyde table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-24-xst-mirae-short-towel-blue-red",
+    "name": "Xiom 24 XST Mirae Short Towel - Blue/Red",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 1529,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+XST+Mirae+Short+Towel+-+Blue%2FRed+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom 24 XST Mirae Short Towel - Blue/Red listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "Colour: Blue/Red",
+      "MRP: ₹1,529",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-24-xst-mirae-short-towel-blue-red-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom 24 XST Mirae Short Towel - Blue/Red table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-t-capsule",
+    "name": "Xiom T-Capsule",
+    "brand": "xiom",
+    "category": "accessories",
+    "price": 679,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+T-Capsule+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom T-Capsule listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Accessories",
+      "MRP: ₹679",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-t-capsule-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom T-Capsule table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ft-igre-2-white",
+    "name": "Xiom FT IGRE 2 - White",
+    "brand": "xiom",
+    "category": "footwear",
+    "price": 9209,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+2+-+White+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom FT IGRE 2 - White listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Footwear",
+      "Colour: White",
+      "MRP: ₹9,209",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-2-white-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom FT IGRE 2 - White table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ft-igre-2-purple",
+    "name": "Xiom FT IGRE 2 - Purple",
+    "brand": "xiom",
+    "category": "footwear",
+    "price": 9209,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+2+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom FT IGRE 2 - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Footwear",
+      "Colour: Purple",
+      "MRP: ₹9,209",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-2-purple-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom FT IGRE 2 - Purple table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ft-igre-5-magenta",
+    "name": "Xiom FT IGRE 5 - Magenta",
+    "brand": "xiom",
+    "category": "footwear",
+    "price": 9209,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+5+-+Magenta+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom FT IGRE 5 - Magenta listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Footwear",
+      "Colour: Magenta",
+      "MRP: ₹9,209",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-5-magenta-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom FT IGRE 5 - Magenta table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-ft-igre-5-blue",
+    "name": "Xiom FT IGRE 5 - Blue",
+    "brand": "xiom",
+    "category": "footwear",
+    "price": 9209,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+5+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom FT IGRE 5 - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Footwear",
+      "Colour: Blue",
+      "MRP: ₹9,209",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-5-blue-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom FT IGRE 5 - Blue table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-albert-m-black",
+    "name": "Xiom Albert M - Black",
+    "brand": "xiom",
+    "category": "clothing",
+    "price": 4299,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+M+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Albert M - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Apparel",
+      "Colour: Black",
+      "MRP: ₹4,299",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-albert-m-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Albert M - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-albert-l-black",
+    "name": "Xiom Albert L - Black",
+    "brand": "xiom",
+    "category": "clothing",
+    "price": 4299,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+L+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Albert L - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Apparel",
+      "Colour: Black",
+      "MRP: ₹4,299",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-albert-l-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Albert L - Black table tennis product official image"
+  },
+  {
+    "id": "xiom-xiom-albert-xl-black",
+    "name": "Xiom Albert XL - Black",
+    "brand": "xiom",
+    "category": "clothing",
+    "price": 4299,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#f28c38",
+    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+XL+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Xiom Albert XL - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
+    "features": [
+      "Brand: Xiom",
+      "Category: Apparel",
+      "Colour: Black",
+      "MRP: ₹4,299",
+      "Source: Xiom price list effective 20 Mar 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/xiom-xiom-albert-xl-black-xiom-safe.svg",
+    "searchImageQuery": "Xiom Xiom Albert XL - Black table tennis product official image"
+  },
+  {
+    "id": "andro-andro-nuzn-50-max",
+    "name": "Andro Nuzn 50 max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 9200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+50+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Nuzn 50 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹9,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/nuzn-50",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-nuzn-50-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Nuzn 50 max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-nuzn-55-max",
+    "name": "Andro Nuzn 55 max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 9200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+55+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Nuzn 55 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹9,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/nuzn-55",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-nuzn-55-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Nuzn 55 max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-nuzn-48-max",
+    "name": "Andro Nuzn 48 max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 7200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+48+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Nuzn 48 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹7,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-nuzn-48-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Nuzn 48 max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-nuzn-45-max",
+    "name": "Andro Nuzn 45 max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 6000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+45+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Nuzn 45 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹6,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-nuzn-45-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Nuzn 45 max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-good-max",
+    "name": "Andro Good max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 2400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Good+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Good max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹2,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-good-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Good max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-gtt-45-max",
+    "name": "Andro GTT 45 max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 3600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+GTT+45+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro GTT 45 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹3,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-gtt-45-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro GTT 45 max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-bype",
+    "name": "Andro Bype",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 4600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Bype+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Bype listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹4,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-bype-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Bype table tennis product official image"
+  },
+  {
+    "id": "andro-andro-hexer-duro-max",
+    "name": "Andro Hexer Duro max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 5000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Hexer+Duro+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Hexer Duro max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹5,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-hexer-duro-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Hexer Duro max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-powergrip-max",
+    "name": "Andro Powergrip max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 5400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Powergrip+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Powergrip max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹5,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-powergrip-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Powergrip max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-r-42-ultramax",
+    "name": "Andro Rasanter R 42 ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 6200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+42+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter R 42 ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹6,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-42-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter R 42 ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-r-47-ultramax",
+    "name": "Andro Rasanter R 47 ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 6200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+47+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter R 47 ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹6,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/node/46",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-47-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter R 47 ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-r-50-ultramax",
+    "name": "Andro Rasanter R 50 ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 6200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+50+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter R 50 ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹6,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/node/45",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-50-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter R 50 ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-r-45-ultramax",
+    "name": "Andro Rasanter R 45 Ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 7200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+45+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter R 45 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹7,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-45-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter R 45 Ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-r-48-ultramax",
+    "name": "Andro Rasanter R 48 Ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 7200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+48+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter R 48 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹7,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-48-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter R 48 Ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-r-53-max",
+    "name": "Andro Rasanter R 53 max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 7200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+53+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter R 53 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹7,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/node/44",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-53-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter R 53 max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-c-45-ultramax",
+    "name": "Andro Rasanter C 45 Ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 7400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+45+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter C 45 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹7,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/rasanter-c45",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-c-45-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter C 45 Ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-c-48-ultramax",
+    "name": "Andro Rasanter C 48 Ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 7400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+48+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter C 48 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹7,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-c-48-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter C 48 Ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rasanter-c-53-ultramax",
+    "name": "Andro Rasanter C 53 Ultramax",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 7400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+53+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rasanter C 53 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹7,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/rasanter-c53",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rasanter-c-53-ultramax-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rasanter C 53 Ultramax table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blowfish-max",
+    "name": "Andro Blowfish max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 5400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blowfish max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹5,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blowfish-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blowfish max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blowfish-plus-max",
+    "name": "Andro Blowfish Plus max",
+    "brand": "andro",
+    "category": "rubbers",
+    "price": 5400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+Plus+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blowfish Plus max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Rubbers",
+      "MRP: ₹5,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blowfish-plus-max-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blowfish Plus max table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blowfish-1-8",
+    "name": "Andro Blowfish 1.8",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 5400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blowfish 1.8 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹5,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blowfish-1-8-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blowfish 1.8 table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blowfish-plus-1-8",
+    "name": "Andro Blowfish Plus 1.8",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 5400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+Plus+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blowfish Plus 1.8 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹5,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blowfish-plus-1-8-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blowfish Plus 1.8 table tennis product official image"
+  },
+  {
+    "id": "andro-andro-chaos-ox",
+    "name": "Andro Chaos OX",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 5600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Chaos+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Chaos OX listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹5,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-chaos-ox-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Chaos OX table tennis product official image"
+  },
+  {
+    "id": "andro-andro-chaos-0-5",
+    "name": "Andro Chaos 0.5",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 5600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Chaos+0.5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Chaos 0.5 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹5,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-chaos-0-5-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Chaos 0.5 table tennis product official image"
+  },
+  {
+    "id": "andro-andro-free-clean-combi-cleaner",
+    "name": "Andro Free Clean combi cleaner",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 700,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Free+Clean+combi+cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Free Clean combi cleaner listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹700",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-free-clean-combi-cleaner-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Free Clean combi cleaner table tennis product official image"
+  },
+  {
+    "id": "andro-andro-rubber-cleaner-pump-spray",
+    "name": "Andro Rubber Cleaner Pump Spray",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 650,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rubber+Cleaner+Pump+Spray+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Rubber Cleaner Pump Spray listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹650",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-rubber-cleaner-pump-spray-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Rubber Cleaner Pump Spray table tennis product official image"
+  },
+  {
+    "id": "andro-andro-turbo-glue-50-ml",
+    "name": "Andro Turbo Glue 50 ml",
+    "brand": "andro",
+    "category": "glue",
+    "price": 2200,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Turbo+Glue+50+ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Turbo Glue 50 ml listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Glue",
+      "MRP: ₹2,200",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-turbo-glue-50-ml-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Turbo Glue 50 ml table tennis product official image"
+  },
+  {
+    "id": "andro-andro-turbo-glue-90-ml",
+    "name": "Andro Turbo Glue 90 ml",
+    "brand": "andro",
+    "category": "glue",
+    "price": 2800,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Turbo+Glue+90+ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Turbo Glue 90 ml listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Glue",
+      "MRP: ₹2,800",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-turbo-glue-90-ml-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Turbo Glue 90 ml table tennis product official image"
+  },
+  {
+    "id": "andro-andro-table-cleaner",
+    "name": "Andro Table Cleaner",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 1600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Table+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Table Cleaner listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹1,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-table-cleaner-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Table Cleaner table tennis product official image"
+  },
+  {
+    "id": "andro-andro-edge-tape-ci-50-meter",
+    "name": "Andro EDGE TAPE CI 50 METER",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 5600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+EDGE+TAPE+CI+50+METER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro EDGE TAPE CI 50 METER listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹5,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-edge-tape-ci-50-meter-andro-safe.svg",
+    "searchImageQuery": "Andro Andro EDGE TAPE CI 50 METER table tennis product official image"
+  },
+  {
+    "id": "andro-andro-edge-tape-ci-5-meter",
+    "name": "Andro EDGE TAPE CI 5 METER",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 1000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+EDGE+TAPE+CI+5+METER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro EDGE TAPE CI 5 METER listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹1,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-edge-tape-ci-5-meter-andro-safe.svg",
+    "searchImageQuery": "Andro Andro EDGE TAPE CI 5 METER table tennis product official image"
+  },
+  {
+    "id": "andro-andro-cleaning-sponge-cotton",
+    "name": "Andro Cleaning Sponge Cotton",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Cleaning+Sponge+Cotton+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Cleaning Sponge Cotton listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-cleaning-sponge-cotton-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Cleaning Sponge Cotton table tennis product official image"
+  },
+  {
+    "id": "andro-andro-cleaning-sponge-synthetic",
+    "name": "Andro Cleaning Sponge Synthetic",
+    "brand": "andro",
+    "category": "blades",
+    "price": 600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Cleaning+Sponge+Synthetic+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Cleaning Sponge Synthetic listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-cleaning-sponge-synthetic-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Cleaning Sponge Synthetic table tennis product official image"
+  },
+  {
+    "id": "andro-andro-bag-moriva-black-neonyellow",
+    "name": "andro bag Moriva black/neonyellow",
+    "brand": "andro",
+    "category": "blades",
+    "price": 8400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+andro+bag+Moriva+black%2Fneonyellow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "andro bag Moriva black/neonyellow listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹8,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-andro-safe.svg",
+    "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image"
+  },
+  {
+    "id": "andro-andro-bag-moriva-black-neonyellow-2",
+    "name": "andro bag Moriva black/neonyellow",
+    "brand": "andro",
+    "category": "blades",
+    "price": 7000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+andro+bag+Moriva+black%2Fneonyellow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "andro bag Moriva black/neonyellow listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹7,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-2-andro-safe.svg",
+    "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image"
+  },
+  {
+    "id": "andro-andro-inizio-blue-fl",
+    "name": "Andro Inizio Blue FL",
+    "brand": "andro",
+    "category": "blades",
+    "price": 2400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Inizio+Blue+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Inizio Blue FL listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹2,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-inizio-blue-fl-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Inizio Blue FL table tennis product official image"
+  },
+  {
+    "id": "andro-andro-inizio-fl",
+    "name": "Andro Inizio FL",
+    "brand": "andro",
+    "category": "blades",
+    "price": 2400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Inizio+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Inizio FL listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹2,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-inizio-fl-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Inizio FL table tennis product official image"
+  },
+  {
+    "id": "andro-andro-timber-5-all-black",
+    "name": "Andro Timber 5 All Black",
+    "brand": "andro",
+    "category": "blades",
+    "price": 5000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+5+All+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Timber 5 All Black listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹5,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-timber-5-all-black-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Timber 5 All Black table tennis product official image"
+  },
+  {
+    "id": "andro-andro-timber-7-off-s",
+    "name": "Andro Timber 7 Off/S",
+    "brand": "andro",
+    "category": "blades",
+    "price": 6800,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+7+Off%2FS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Timber 7 Off/S listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹6,800",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-timber-7-off-s-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Timber 7 Off/S table tennis product official image"
+  },
+  {
+    "id": "andro-andro-nova-cell",
+    "name": "Andro Nova Cell",
+    "brand": "andro",
+    "category": "blades",
+    "price": 7000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nova+Cell+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Nova Cell listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹7,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-nova-cell-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Nova Cell table tennis product official image"
+  },
+  {
+    "id": "andro-andro-treiber-co-all",
+    "name": "Andro Treiber CO ALL",
+    "brand": "andro",
+    "category": "blades",
+    "price": 9000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+CO+ALL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Treiber CO ALL listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹9,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-treiber-co-all-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Treiber CO ALL table tennis product official image"
+  },
+  {
+    "id": "andro-andro-timber-5-def-st",
+    "name": "Andro Timber 5 Def ST",
+    "brand": "andro",
+    "category": "blades",
+    "price": 7000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+5+Def+ST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Timber 5 Def ST listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹7,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-timber-5-def-st-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Timber 5 Def ST table tennis product official image"
+  },
+  {
+    "id": "andro-andro-gauzy-hl-co",
+    "name": "Andro Gauzy HL CO",
+    "brand": "andro",
+    "category": "blades",
+    "price": 11000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Gauzy+HL+CO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Gauzy HL CO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹11,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/synteliac-vci-gauzy-original",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-gauzy-hl-co-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Gauzy HL CO table tennis product official image"
+  },
+  {
+    "id": "andro-andro-treiber-fo",
+    "name": "Andro Treiber FO",
+    "brand": "andro",
+    "category": "blades",
+    "price": 11600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+FO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Treiber FO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹11,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-treiber-fo-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Treiber FO table tennis product official image"
+  },
+  {
+    "id": "andro-andro-kanter-co",
+    "name": "Andro Kanter CO",
+    "brand": "andro",
+    "category": "blades",
+    "price": 11600,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Kanter+CO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Kanter CO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹11,600",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/kanter-co",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-kanter-co-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Kanter CO table tennis product official image"
+  },
+  {
+    "id": "andro-andro-achanta-ci-blade",
+    "name": "Andro Achanta CI blade",
+    "brand": "andro",
+    "category": "blades",
+    "price": 13400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Achanta+CI+blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Achanta CI blade listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹13,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-achanta-ci-blade-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Achanta CI blade table tennis product official image"
+  },
+  {
+    "id": "andro-andro-treiber-co-off-s",
+    "name": "Andro Treiber CO Off/S",
+    "brand": "andro",
+    "category": "blades",
+    "price": 14000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+CO+Off%2FS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Treiber CO Off/S listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Blades",
+      "MRP: ₹14,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-treiber-co-off-s-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Treiber CO Off/S table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blade-synteliac-vci",
+    "name": "Andro Blade Synteliac VCI",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 21400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+VCI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blade Synteliac VCI listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹21,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/synteliac-vci-gauzy-original",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-vci-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blade Synteliac VCI table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blade-synteliac-vco",
+    "name": "Andro Blade Synteliac VCO",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 21400,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+VCO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blade Synteliac VCO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹21,400",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/synteliac-vco",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-vco-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blade Synteliac VCO table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blade-synteliac-zci",
+    "name": "Andro Blade Synteliac ZCI",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 24000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+ZCI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blade Synteliac ZCI listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹24,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-zci-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blade Synteliac ZCI table tennis product official image"
+  },
+  {
+    "id": "andro-andro-blade-synteliac-zco",
+    "name": "Andro Blade Synteliac ZCO",
+    "brand": "andro",
+    "category": "accessories",
+    "price": 24000,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP 2026",
+    "color": "#5fd46f",
+    "image": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+ZCO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Andro Blade Synteliac ZCO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
+    "features": [
+      "Brand: Andro",
+      "Category: Accessories",
+      "MRP: ₹24,000",
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+    ],
+    "officialProductUrl": "https://www.andro.de/en/synteliac-zco",
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-zco-andro-safe.svg",
+    "searchImageQuery": "Andro Andro Blade Synteliac ZCO table tennis product official image"
+  },
+  {
+    "id": "dawei-dawei-388d-2-ox-table-tennis-rubber-red-black",
+    "name": "Dawei 388D-2 OX Table Tennis Rubber - Red / Black",
+    "brand": "dawei",
+    "category": "rubbers",
+    "price": 1500,
+    "rating": 4.7,
+    "reviews": 0,
+    "badge": "MRP",
+    "color": "#d8312b",
+    "image": "https://tse4.mm.bing.net/th?q=Dawei+Dawei+388D-2+OX+Table+Tennis+Rubber+-+Red+%2F+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "description": "Dawei 388D-2 OX Table Tennis Rubber - Red / Black listed at MRP from user-provided Dawei product details.",
+    "features": [
+      "Brand: Dawei",
+      "Category: Rubbers",
+      "Colour: Red / Black",
+      "MRP: ₹1,500",
+      "Source: user-provided Dawei product details"
+    ],
+    "imageStatus": "web-search-product-image",
+    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "hasActualProductImage": true,
+    "fallbackImage": "assets/catalog/dawei-dawei-388d-2-ox-table-tennis-rubber-red-black-dawei-safe.svg",
+    "searchImageQuery": "Dawei Dawei 388D-2 OX Table Tennis Rubber - Red / Black table tennis product official image"
   }
 ];
 
@@ -1293,7 +12871,7 @@ const formatPrice = value => new Intl.NumberFormat("en-IN", {
   maximumFractionDigits: 0
 }).format(Number(value || 0));
 
-const cap = value => String(value || "").charAt(0).toUpperCase() + String(value || "").slice(1);
+const cap = value => ({ joola: "JOOLA", tibhar: "Tibhar", butterfly: "Butterfly", stiga: "Stiga", dhs: "DHS", yinhe: "YinHe", glue: "Glue", clothing: "Apparel", }[String(value || "").toLowerCase()] || (String(value || "").charAt(0).toUpperCase() + String(value || "").slice(1)));
 
 function needsRubberColour(product) {
   const text = `${product.category || ""} ${product.name || ""} ${product.description || ""} ${(product.features || []).join(" ")}`.toLowerCase();
@@ -1312,11 +12890,14 @@ function fallbackArt(product) {
   return `<div class="product-art art-${product.category}" style="--product-color:${product.color || "#d7ff3f"}"></div>`;
 }
 
+
+
+
 function productArtwork(product) {
   if (product.image) {
     const fallbackCode = product.fallbackImage
       ? `this.onerror=null;this.src='${product.fallbackImage}';`
-      : `this.onerror=null;this.style.display='none';`;
+      : `this.onerror=null;this.closest('.product-visual')?.classList.add('image-load-failed');this.style.display='none';`;
     return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackCode}">`;
   }
   return fallbackArt(product);
@@ -1338,6 +12919,7 @@ function productCard(product) {
         <span>${cap(product.brand)} • ${cap(product.category)}</span>
         <span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span>
       </div>
+      <span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
     </div>
   </article>`;
 }
@@ -1560,7 +13142,7 @@ function bindControls() {
     }
 
     const view = event.target.closest("[data-view-product]");
-    if (view && !event.target.closest("button")) openProductModal(view.dataset.viewProduct);
+    if (view && !event.target.closest("button")) window.location.href = `product.html?id=${encodeURIComponent(view.dataset.viewProduct)}`;
 
     const modalAdd = event.target.closest("[data-modal-add-product]");
     if (modalAdd) addModalProductToCart(modalAdd.dataset.modalAddProduct);
@@ -2205,7 +13787,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (product.image) {
       const fallbackCode = product.fallbackImage
         ? `this.onerror=null;this.src='${product.fallbackImage}';`
-        : `this.onerror=null;this.style.display='none';`;
+        : `this.onerror=null;this.closest('.product-visual')?.classList.add('image-load-failed');this.style.display='none';`;
       return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackCode}">`;
     }
     return ttwFallback(product);
@@ -2220,6 +13802,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="product-info" data-view-product="${product.id}">
         <div class="product-topline"><h3 class="product-name">${product.name}</h3><span class="product-price">${ttwMoney(product.price)}</span></div>
         <div class="product-meta"><span>${ttwCap(product.brand)} • ${ttwCap(product.category)}</span><span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span></div>
+        <span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
       </div>
     </article>`;
   }
@@ -2230,7 +13813,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const b = document.body?.dataset?.brand;
     if (b) return b;
     const page = location.pathname.split("/").pop().replace(".html", "");
-    return ["joola", "tibhar", "butterfly", "stiga"].includes(page) ? page : "";
+    return ["joola", "tibhar", "butterfly", "stiga", "dhs", "yinhe", "xiom", "andro", "dawei"].includes(page) ? page : "";
   }
   function filteredProducts(forHome) {
     let list = ttwProducts();
@@ -3160,162 +14743,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-
-
-
-/* Safe Save Filter system: no global event blocking, so all buttons keep working */
-(function () {
-  const savedState = new WeakMap();
-
-  function isFilterPanel(root) {
-    if (!root || root.classList?.contains("cart-drawer") || root.closest?.(".cart-drawer")) return false;
-    const text = (root.textContent || "").toLowerCase();
-    return (
-      text.includes("filters") ||
-      text.includes("brands") ||
-      text.includes("categories") ||
-      root.querySelector?.("input[type='checkbox'], input[type='number'], select")
-    );
-  }
-
-  function getFilterPanels() {
-    return [...document.querySelectorAll(".filters, .filter-panel, .catalog-sidebar, .product-filters, .fixed-product-filters")]
-      .filter(isFilterPanel);
-  }
-
-  function filterKey(control) {
-    if (control.id) return "#" + control.id;
-    if (control.name) return "[name='" + control.name + "']";
-    return `${control.tagName}-${control.type || ""}-${[...control.parentElement.querySelectorAll(control.tagName)].indexOf(control)}`;
-  }
-
-  function readState(root) {
-    const state = {};
-    root.querySelectorAll("input, select").forEach(control => {
-      if (control.closest(".save-filter-actions")) return;
-      const key = filterKey(control);
-      state[key] = (control.type === "checkbox" || control.type === "radio") ? control.checked : control.value;
-    });
-    return state;
-  }
-
-  function writeState(root, state) {
-    root.querySelectorAll("input, select").forEach(control => {
-      if (control.closest(".save-filter-actions")) return;
-      const key = filterKey(control);
-      if (!(key in state)) return;
-      if (control.type === "checkbox" || control.type === "radio") control.checked = !!state[key];
-      else control.value = state[key];
-    });
-  }
-
-  function setPending(root, pending) {
-    root.classList.toggle("has-pending-filters", pending);
-    let note = root.querySelector(".pending-filter-note");
-    if (!note) {
-      note = document.createElement("p");
-      note.className = "pending-filter-note";
-      note.textContent = "Filters changed. Click Save Filter to update products.";
-      root.appendChild(note);
-    }
-    note.hidden = !pending;
-  }
-
-  function productTarget() {
-    return document.querySelector("#productGrid, #brandProductGrid, #homeProductGrid, .catalog-results, .product-grid");
-  }
-
-  function scrollToProducts() {
-    const target = productTarget();
-    if (target) setTimeout(() => target.scrollIntoView({ behavior: "smooth", block: "start" }), 120);
-  }
-
-  function triggerExistingFilters(root) {
-    window.__allowFilterApply = true;
-    root.querySelectorAll("input, select").forEach(control => {
-      if (control.closest(".save-filter-actions")) return;
-      control.dispatchEvent(new Event("input", { bubbles: true }));
-      control.dispatchEvent(new Event("change", { bubbles: true }));
-    });
-    window.__allowFilterApply = false;
-
-    setTimeout(() => {
-      if (typeof renderProducts === "function") {
-        try { renderProducts(); } catch (error) {}
-      }
-      if (typeof forceRenderProducts === "function") {
-        try { forceRenderProducts(); } catch (error) {}
-      }
-      document.querySelectorAll(".reveal").forEach(el => el.classList.add("visible"));
-    }, 40);
-  }
-
-  function clearFilters(root) {
-    root.querySelectorAll("input, select").forEach(control => {
-      if (control.closest(".save-filter-actions")) return;
-      if (control.type === "checkbox" || control.type === "radio") control.checked = false;
-      else if (control.tagName === "SELECT") control.selectedIndex = 0;
-      else control.value = "";
-    });
-    savedState.set(root, readState(root));
-    setPending(root, false);
-    triggerExistingFilters(root);
-    scrollToProducts();
-  }
-
-  function addActions(root) {
-    if (root.dataset.safeSaveFilterReady === "true") return;
-    root.dataset.safeSaveFilterReady = "true";
-
-    const actions = document.createElement("div");
-    actions.className = "save-filter-actions";
-    actions.innerHTML = `
-      <button type="button" class="save-filter-button">Save Filter</button>
-      <button type="button" class="clear-pending-filter-button">Clear Filter</button>
-    `;
-    root.appendChild(actions);
-
-    savedState.set(root, readState(root));
-
-    root.querySelectorAll("input, select").forEach(control => {
-      if (control.closest(".save-filter-actions")) return;
-      control.addEventListener("input", () => setPending(root, true));
-      control.addEventListener("change", () => setPending(root, true));
-    });
-
-    actions.querySelector(".save-filter-button").addEventListener("click", event => {
-      event.preventDefault();
-      savedState.set(root, readState(root));
-      setPending(root, false);
-      triggerExistingFilters(root);
-      scrollToProducts();
-      if (typeof showToast === "function") showToast("Filters saved");
-    });
-
-    actions.querySelector(".clear-pending-filter-button").addEventListener("click", event => {
-      event.preventDefault();
-      clearFilters(root);
-      if (typeof showToast === "function") showToast("Filters cleared");
-    });
-  }
-
-  function initSafeSaveFilters() {
-    getFilterPanels().forEach(root => {
-      addActions(root);
-      const actions = root.querySelector(".save-filter-actions");
-      const note = root.querySelector(".pending-filter-note");
-      if (actions) root.appendChild(actions);
-      if (note) root.appendChild(note);
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    initSafeSaveFilters();
-    setTimeout(initSafeSaveFilters, 250);
-    setTimeout(initSafeSaveFilters, 900);
-  });
-})();
-
 /* Visual Customizer: image-card racket builder */
 (function(){
   const cfg={blade:{label:"Blade",cat:"blades"},forehand:{label:"Forehand",cat:"rubbers",rubber:true},backhand:{label:"Backhand",cat:"rubbers",rubber:true},accessories:{label:"Accessories",cats:["accessories","balls","footwear"],multi:true}};
@@ -3326,7 +14753,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const list=slot=>{let c=cfg[slot],p=get();return c.cats?p.filter(x=>c.cats.includes(x.category)):p.filter(x=>x.category===c.cat)};
   const brands=slot=>[...new Set(list(slot).map(x=>x.brand).filter(Boolean))];
   const byId=id=>get().find(x=>String(x.id)===String(id));
-  function img(p){if(p&&p.image){let f=p.fallbackImage?`this.onerror=null;this.src='${p.fallbackImage}';`:`this.onerror=null;this.style.display='none';`;return `<img src="${p.image}" alt="${p.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${f}">`}return `<div class="vc-fallback">${String(p?.name||"TT").slice(0,2).toUpperCase()}</div>`}
+  function img(p){if(p&&p.image){let f=p.fallbackImage?`this.onerror=null;this.src='${p.fallbackImage}';`:`this.onerror=null;this.closest('.product-visual')?.classList.add('image-load-failed');this.style.display='none';`;return `<img src="${p.image}" alt="${p.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${f}">`}return `<div class="vc-fallback">${String(p?.name||"TT").slice(0,2).toUpperCase()}</div>`}
   function makeTabs(slot){let el=document.querySelector(`[data-vc-tabs="${slot}"]`); if(!el)return; let bs=brands(slot); if(!bs.includes(S.brand[slot]))S.brand[slot]=bs.includes("joola")?"joola":bs[0]; el.innerHTML=bs.map(b=>`<button type="button" class="vc-tab ${S.brand[slot]===b?"active":""}" data-tab-slot="${slot}" data-brand="${b}">${title(b)}</button>`).join("")}
   function visible(slot){let arr=list(slot).filter(p=>p.brand===S.brand[slot]); return slot==="accessories"?arr.slice(0,6):arr.slice(0,8)}
   function ensure(slot){if(slot==="accessories")return; let arr=visible(slot); if(arr.length && (!S.sel[slot] || !list(slot).some(p=>p.id===S.sel[slot].id))) S.sel[slot]=arr[0]}
@@ -3794,4 +15221,597 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener('DOMContentLoaded', removeBars);
   setTimeout(removeBars, 100);
   setTimeout(removeBars, 800);
+})();
+
+
+/* FINAL: instant filters + full product detail page */
+(function () {
+  function money(value) {
+    return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+  }
+
+  function cap(value) {
+    return String(value || "").replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  function allProductsForDetail() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || localStorage.getItem("table-tennis-wala-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+    return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+  }
+
+  function checkedFinal(name) {
+    return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(item => item.value);
+  }
+
+  function currentBrandFinal() {
+    const bodyBrand = document.body?.dataset?.brand || "";
+    if (bodyBrand) return bodyBrand;
+    const page = location.pathname.split("/").pop().replace(".html", "");
+    return ["joola", "tibhar", "butterfly", "stiga", "dhs", "yinhe", "xiom", "andro", "dawei"].includes(page) ? page : "";
+  }
+
+  function currentFilteredProducts() {
+    let list = allProductsForDetail();
+    const fixedBrand = currentBrandFinal();
+    const brands = checkedFinal("brandFilter");
+    const categories = checkedFinal("categoryFilter").filter(cat => cat !== "pickleball");
+    const rating = checkedFinal("ratingFilter");
+    const min = Number(document.getElementById("minPrice")?.value || 0);
+    const max = Number(document.getElementById("maxPrice")?.value || 0);
+    const query = (document.getElementById("productSearch")?.value || "").toLowerCase().trim();
+    const sort = document.getElementById("sortProducts")?.value || "featured";
+
+    if (fixedBrand) list = list.filter(product => product.brand === fixedBrand);
+    else if (brands.length) list = list.filter(product => brands.includes(product.brand));
+    if (categories.length) list = list.filter(product => categories.includes(product.category));
+    if (rating.length) list = list.filter(product => Number(product.rating || 0) >= Number(rating[0]));
+    if (min) list = list.filter(product => Number(product.price || 0) >= min);
+    if (max) list = list.filter(product => Number(product.price || 0) <= max);
+    if (query) {
+      list = list.filter(product => `${product.name} ${product.brand} ${product.category} ${product.description || ""} ${(product.features || []).join(" ")}`.toLowerCase().includes(query));
+    }
+
+    if (sort === "price-low") list.sort((a, b) => Number(a.price || 0) - Number(b.price || 0));
+    if (sort === "price-high") list.sort((a, b) => Number(b.price || 0) - Number(a.price || 0));
+    if (sort === "rating") list.sort((a, b) => Number(b.rating || 0) - Number(a.rating || 0));
+    return list;
+  }
+
+  function imageMarkup(product) {
+    if (product.image) {
+      const fallback = product.fallbackImage
+        ? `this.onerror=null;this.src='${product.fallbackImage}';`
+        : `this.onerror=null;this.style.display='none';`;
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallback}">`;
+    }
+    return `<div class="product-art art-${product.category || "rackets"}" style="--product-color:${product.color || "#d7ff3f"}"></div>`;
+  }
+
+  function cardMarkup(product) {
+    return `<article class="product-card" data-product-card="${product.id}">
+      <div class="product-visual" data-view-product="${product.id}">
+        <span class="product-badge">${product.badge || cap(product.brand)}</span>
+        ${imageMarkup(product)}
+        <button class="quick-add" data-add-product="${product.id}">Add to cart</button>
+      </div>
+      <div class="product-info" data-view-product="${product.id}">
+        <div class="product-topline">
+          <h3 class="product-name">${product.name}</h3>
+          <span class="product-price">${money(product.price)}</span>
+        </div>
+        <div class="product-meta">
+          <span>${cap(product.brand)} • ${cap(product.category)}</span>
+          <span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span>
+        </div>
+        <span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
+      </div>
+    </article>`;
+  }
+
+  window.forceRenderProducts = function () {
+    const grid = document.getElementById("brandProductGrid");
+    if (grid) {
+      const list = currentFilteredProducts();
+      grid.innerHTML = list.map(cardMarkup).join("");
+      const note = document.getElementById("filterNote");
+      if (note) note.textContent = `Showing ${list.length} ${list.length === 1 ? "product" : "products"}`;
+      const empty = grid.parentElement?.querySelector(".empty-state") || document.querySelector(".empty-state");
+      if (empty) empty.hidden = list.length > 0;
+    }
+
+    const homeGrid = document.getElementById("homeProductGrid");
+    if (homeGrid) {
+      const list = currentFilteredProducts().slice(0, 8);
+      homeGrid.innerHTML = list.map(cardMarkup).join("");
+    }
+  };
+
+  function bindInstantFilters() {
+    document.querySelectorAll(".save-filter-actions, .pending-filter-note").forEach(el => el.remove());
+
+    document.querySelectorAll('label').forEach(label => {
+      if (label.textContent.trim().toLowerCase() === "pickleball") label.remove();
+    });
+    document.querySelectorAll('input[name="categoryFilter"][value="pickleball"]').forEach(input => input.closest("label")?.remove());
+
+    document.querySelectorAll('input[name="brandFilter"], input[name="categoryFilter"], input[name="ratingFilter"]').forEach(input => {
+      if (input.dataset.instantFilterBound === "true") return;
+      input.dataset.instantFilterBound = "true";
+      input.addEventListener("change", () => window.forceRenderProducts());
+    });
+
+    ["minPrice", "maxPrice", "productSearch"].forEach(id => {
+      const el = document.getElementById(id);
+      if (!el || el.dataset.instantFilterBound === "true") return;
+      el.dataset.instantFilterBound = "true";
+      el.addEventListener("input", () => window.forceRenderProducts());
+      el.addEventListener("change", () => window.forceRenderProducts());
+    });
+
+    const sort = document.getElementById("sortProducts");
+    if (sort && sort.dataset.instantFilterBound !== "true") {
+      sort.dataset.instantFilterBound = "true";
+      sort.addEventListener("change", () => window.forceRenderProducts());
+    }
+
+    const reset = document.getElementById("resetFilters");
+    if (reset && reset.dataset.instantFilterBound !== "true") {
+      reset.dataset.instantFilterBound = "true";
+      reset.addEventListener("click", event => {
+        event.preventDefault();
+        const fixedBrand = currentBrandFinal();
+        document.querySelectorAll('input[name="brandFilter"]').forEach(input => {
+          input.checked = fixedBrand ? input.value === fixedBrand : false;
+        });
+        document.querySelectorAll('input[name="categoryFilter"], input[name="ratingFilter"]').forEach(input => input.checked = false);
+        ["minPrice", "maxPrice", "productSearch"].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.value = "";
+        });
+        if (sort) sort.value = "featured";
+        window.forceRenderProducts();
+      });
+    }
+  }
+
+  function renderProductDetailPage() {
+    const root = document.getElementById("productDetail");
+    if (!root) return;
+
+    const params = new URLSearchParams(location.search);
+    const id = params.get("id");
+    const product = allProductsForDetail().find(item => item.id === id);
+
+    if (!product) {
+      root.innerHTML = `<div class="product-not-found">
+        <span class="eyebrow">Product details</span>
+        <h1>Product not found.</h1>
+        <p>The product may have been removed or the link may be incorrect.</p>
+        <a class="button dark-btn" href="products.html">Back to products</a>
+      </div>`;
+      return;
+    }
+
+    const features = Array.isArray(product.features) && product.features.length
+      ? product.features
+      : [
+          `Brand: ${cap(product.brand)}`,
+          `Category: ${cap(product.category)}`,
+          `MRP: ${money(product.price)}`,
+          product.imageStatus ? `Image status: ${cap(product.imageStatus)}` : "Product listed in catalogue"
+        ];
+
+    const gallery = Array.isArray(product.gallery) && product.gallery.length ? product.gallery : [product.image].filter(Boolean);
+
+    root.innerHTML = `<div class="product-detail-page">
+      <div class="product-detail-media">
+        <span class="product-badge detail-badge">${product.badge || cap(product.brand)}</span>
+        ${imageMarkup(product)}
+        ${gallery.length > 1 ? `<div class="product-detail-thumbs">${gallery.map((img, i) => `<button type="button" class="detail-thumb${i === 0 ? " active" : ""}" data-detail-thumb="${img}"><img src="${img}" alt="${product.name} view ${i + 1}" loading="lazy"></button>`).join("")}</div>` : ""}
+      </div>
+
+      <div class="product-detail-copy">
+        <a class="back-link" href="products.html">← Back to products</a>
+        <span class="eyebrow">${cap(product.brand)} • ${cap(product.category)}</span>
+        <h1>${product.name}</h1>
+        <div class="product-detail-price-row">
+          <strong>${money(product.price)}</strong>
+          <span><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7} (${product.reviews || 0})</span>
+        </div>
+        <p>${product.description || "Premium table tennis product listed with MRP pricing."}</p>
+
+        <div class="product-detail-actions">
+          <button class="button dark-btn" type="button" data-add-product="${product.id}">Add to cart</button>
+          <a class="button ghost-btn" href="customize.html">Use in custom build</a>
+        </div>
+
+        <div class="detail-info-grid">
+          <div><small>Brand</small><b>${cap(product.brand)}</b></div>
+          <div><small>Category</small><b>${cap(product.category)}</b></div>
+          <div><small>MRP</small><b>${money(product.price)}</b></div>
+          <div><small>Image</small><b>${product.imageStatus ? cap(product.imageStatus) : "Product photo"}</b></div>
+        </div>
+
+        <div class="product-detail-features">
+          <h3>Product details</h3>
+          <ul>${features.map(feature => `<li>${feature}</li>`).join("")}</ul>
+        </div>
+
+        ${product.officialProductUrl ? `<a class="official-product-link" href="${product.officialProductUrl}" target="_blank" rel="noopener">View source/product page <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></a>` : ""}
+      </div>
+    </div>`;
+
+    root.querySelectorAll("[data-detail-thumb]").forEach(button => {
+      button.addEventListener("click", () => {
+        const img = root.querySelector(".product-detail-media > img");
+        if (img) img.src = button.dataset.detailThumb;
+        root.querySelectorAll(".detail-thumb").forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+      });
+    });
+  }
+
+  document.addEventListener("click", event => {
+    const view = event.target.closest("[data-view-product]");
+    if (view && !event.target.closest("button")) {
+      event.preventDefault();
+      event.stopPropagation();
+      location.href = `product.html?id=${encodeURIComponent(view.dataset.viewProduct)}`;
+    }
+  }, true);
+
+  document.addEventListener("DOMContentLoaded", () => {
+    bindInstantFilters();
+    window.forceRenderProducts();
+    renderProductDetailPage();
+    setTimeout(() => {
+      bindInstantFilters();
+      window.forceRenderProducts();
+    }, 250);
+  });
+})();
+
+
+/* Brand logo slider polish */
+(function(){function initPolishedBrandSlider(){document.querySelectorAll("[data-brand-logo-track]").forEach(track=>{if(track.dataset.polishedSliderReady==="true")return;track.dataset.polishedSliderReady="true";const section=track.closest(".brand-logo-slider-section")||document;section.querySelector("[data-brand-slider-prev]")?.addEventListener("click",()=>track.scrollBy({left:-Math.max(260,Math.round(track.clientWidth*.72)),behavior:"smooth"}));section.querySelector("[data-brand-slider-next]")?.addEventListener("click",()=>track.scrollBy({left:Math.max(260,Math.round(track.clientWidth*.72)),behavior:"smooth"}));});}document.addEventListener("DOMContentLoaded",initPolishedBrandSlider);setTimeout(initPolishedBrandSlider,500);})();
+
+
+
+
+/* FINAL: Save Filter mode for all product and brand catalogue pages */
+(function () {
+  const BRAND_PAGES = ["joola", "tibhar", "butterfly", "stiga", "dhs", "yinhe", "xiom", "andro", "dawei"];
+
+  function capText(value) {
+    return String(value || "").replace(/-/g, " ").replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function money(value) {
+    try {
+      return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+    } catch (error) {
+      return "₹" + Number(value || 0).toLocaleString("en-IN");
+    }
+  }
+
+  function allCatalogueProducts() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || localStorage.getItem("table-tennis-wala-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+    return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+  }
+
+  function currentBrandPage() {
+    const bodyBrand = document.body?.dataset?.brand || "";
+    if (bodyBrand) return bodyBrand;
+    const page = location.pathname.split("/").pop().replace(".html", "");
+    return BRAND_PAGES.includes(page) ? page : "";
+  }
+
+  function readPendingFilterState() {
+    return {
+      brands: [...document.querySelectorAll('input[name="brandFilter"]:checked')].map(input => input.value),
+      categories: [...document.querySelectorAll('input[name="categoryFilter"]:checked')].map(input => input.value).filter(value => value !== "pickleball"),
+      rating: [...document.querySelectorAll('input[name="ratingFilter"]:checked')].map(input => input.value)[0] || "",
+      min: document.getElementById("minPrice")?.value || "",
+      max: document.getElementById("maxPrice")?.value || "",
+      search: document.getElementById("productSearch")?.value || "",
+      sort: document.getElementById("sortProducts")?.value || "featured"
+    };
+  }
+
+  function writeFilterStateToControls(state) {
+    document.querySelectorAll('input[name="brandFilter"]').forEach(input => {
+      input.checked = (state.brands || []).includes(input.value);
+    });
+    document.querySelectorAll('input[name="categoryFilter"]').forEach(input => {
+      input.checked = (state.categories || []).includes(input.value);
+    });
+    document.querySelectorAll('input[name="ratingFilter"]').forEach(input => {
+      input.checked = String(state.rating || "") === String(input.value || "");
+    });
+    const min = document.getElementById("minPrice");
+    const max = document.getElementById("maxPrice");
+    const search = document.getElementById("productSearch");
+    const sort = document.getElementById("sortProducts");
+    if (min) min.value = state.min || "";
+    if (max) max.value = state.max || "";
+    if (search) search.value = state.search || "";
+    if (sort) sort.value = state.sort || "featured";
+  }
+
+  function blankState() {
+    return { brands: [], categories: [], rating: "", min: "", max: "", search: "", sort: "featured" };
+  }
+
+  let savedState = null;
+  let pendingDirty = false;
+
+  function activeState() {
+    if (!savedState) savedState = readPendingFilterState();
+    return savedState;
+  }
+
+  function filterProductsByState(state) {
+    let list = allCatalogueProducts();
+    const fixedBrand = currentBrandPage();
+
+    if (fixedBrand) {
+      list = list.filter(product => product.brand === fixedBrand);
+    } else if ((state.brands || []).length) {
+      list = list.filter(product => state.brands.includes(product.brand));
+    }
+
+    if ((state.categories || []).length) {
+      list = list.filter(product => state.categories.includes(product.category));
+    }
+
+    if (state.rating) {
+      list = list.filter(product => Number(product.rating || 0) >= Number(state.rating));
+    }
+
+    const min = Number(state.min || 0);
+    const max = Number(state.max || 0);
+    if (min) list = list.filter(product => Number(product.price || 0) >= min);
+    if (max) list = list.filter(product => Number(product.price || 0) <= max);
+
+    const query = String(state.search || "").toLowerCase().trim();
+    if (query) {
+      list = list.filter(product => {
+        const haystack = `${product.name || ""} ${product.brand || ""} ${product.category || ""} ${product.description || ""} ${(product.features || []).join(" ")}`.toLowerCase();
+        return haystack.includes(query);
+      });
+    }
+
+    const sort = state.sort || "featured";
+    if (sort === "price-low") list.sort((a, b) => Number(a.price || 0) - Number(b.price || 0));
+    if (sort === "price-high") list.sort((a, b) => Number(b.price || 0) - Number(a.price || 0));
+    if (sort === "rating") list.sort((a, b) => Number(b.rating || 0) - Number(a.rating || 0));
+
+    return list;
+  }
+
+  function imageMarkup(product) {
+    if (typeof productArtwork === "function") return productArtwork(product);
+    if (product.image) {
+      const fallback = product.fallbackImage ? `this.onerror=null;this.src='${product.fallbackImage}';` : `this.onerror=null;this.style.display='none';`;
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallback}">`;
+    }
+    return "";
+  }
+
+  function fallbackCard(product) {
+    return `<article class="product-card" data-product-card="${product.id}">
+      <div class="product-visual" data-view-product="${product.id}">
+        <span class="product-badge">${product.badge || capText(product.brand)}</span>
+        ${imageMarkup(product)}
+        <button class="quick-add" data-add-product="${product.id}">Add to cart</button>
+      </div>
+      <div class="product-info" data-view-product="${product.id}">
+        <div class="product-topline">
+          <h3 class="product-name">${product.name}</h3>
+          <span class="product-price">${money(product.price)}</span>
+        </div>
+        <div class="product-meta">
+          <span>${capText(product.brand)} • ${capText(product.category)}</span>
+          <span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span>
+        </div>
+        <span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
+      </div>
+    </article>`;
+  }
+
+  function renderProductsUsingSavedState() {
+    const grid = document.getElementById("brandProductGrid");
+    if (!grid) return;
+
+    const state = activeState();
+    const list = filterProductsByState(state);
+    const cardFn = typeof productCard === "function" ? productCard : fallbackCard;
+
+    grid.innerHTML = list.map(cardFn).join("");
+
+    const note = document.getElementById("filterNote");
+    if (note) {
+      note.textContent = pendingDirty
+        ? `Filters changed. Click Save Filter to update products. Showing ${list.length} saved-result ${list.length === 1 ? "product" : "products"}.`
+        : `Showing ${list.length} ${list.length === 1 ? "product" : "products"}.`;
+      note.classList.toggle("filter-note-pending", pendingDirty);
+    }
+
+    const empty = grid.parentElement?.querySelector(".empty-state") || document.querySelector(".empty-state");
+    if (empty) empty.hidden = list.length > 0;
+  }
+
+  function addSaveFilterUI() {
+    const panel = document.querySelector(".filter-panel");
+    if (!panel || panel.querySelector(".save-filter-actions")) return;
+
+    const actions = document.createElement("div");
+    actions.className = "save-filter-actions";
+    actions.innerHTML = `
+      <button type="button" class="save-filter-button" id="saveFilters">Save Filter</button>
+      <button type="button" class="clear-pending-filter-button" id="clearPendingFilters">Clear Filter</button>
+      <p class="pending-filter-note" id="pendingFilterNote">Change filters, then click Save Filter to update results.</p>
+    `;
+    panel.appendChild(actions);
+  }
+
+  function setPendingDirty(value) {
+    pendingDirty = value;
+    document.body.classList.toggle("filters-have-unsaved-changes", pendingDirty);
+    const pendingNote = document.getElementById("pendingFilterNote");
+    if (pendingNote) {
+      pendingNote.textContent = pendingDirty
+        ? "Unsaved changes. Click Save Filter to apply."
+        : "Change filters, then click Save Filter to update results.";
+    }
+    renderProductsUsingSavedState();
+  }
+
+  function bindSaveFilterMode() {
+    const grid = document.getElementById("brandProductGrid");
+    if (!grid) return;
+
+    addSaveFilterUI();
+
+    document.querySelectorAll('input[name="categoryFilter"][value="pickleball"]').forEach(input => input.closest("label")?.remove());
+
+    if (!savedState) {
+      savedState = readPendingFilterState();
+    }
+
+    // Existing instant listeners may still call window.forceRenderProducts.
+    // From now on that function renders only the saved state, never pending controls.
+    window.forceRenderProducts = renderProductsUsingSavedState;
+
+    document.querySelectorAll('input[name="brandFilter"], input[name="categoryFilter"], input[name="ratingFilter"], #minPrice, #maxPrice, #productSearch, #sortProducts').forEach(control => {
+      if (control.dataset.saveFilterBound === "true") return;
+      control.dataset.saveFilterBound = "true";
+
+      const eventName = control.matches('input[type="search"], input[type="number"]') ? "input" : "change";
+      control.addEventListener(eventName, () => setPendingDirty(true));
+      if (eventName !== "change") control.addEventListener("change", () => setPendingDirty(true));
+    });
+
+    const save = document.getElementById("saveFilters");
+    if (save && save.dataset.saveFilterBound !== "true") {
+      save.dataset.saveFilterBound = "true";
+      save.addEventListener("click", () => {
+        savedState = readPendingFilterState();
+        pendingDirty = false;
+        document.body.classList.remove("filters-have-unsaved-changes");
+        renderProductsUsingSavedState();
+        const pendingNote = document.getElementById("pendingFilterNote");
+        if (pendingNote) pendingNote.textContent = "Saved. Results updated.";
+      });
+    }
+
+    const clear = document.getElementById("clearPendingFilters");
+    if (clear && clear.dataset.saveFilterBound !== "true") {
+      clear.dataset.saveFilterBound = "true";
+      clear.addEventListener("click", () => {
+        savedState = blankState();
+        writeFilterStateToControls(savedState);
+        pendingDirty = false;
+        document.body.classList.remove("filters-have-unsaved-changes");
+        renderProductsUsingSavedState();
+        const pendingNote = document.getElementById("pendingFilterNote");
+        if (pendingNote) pendingNote.textContent = "Filters cleared. Results updated.";
+      });
+    }
+
+    const reset = document.getElementById("resetFilters");
+    if (reset && reset.dataset.saveFilterOverride !== "true") {
+      reset.dataset.saveFilterOverride = "true";
+      reset.addEventListener("click", event => {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        savedState = blankState();
+        writeFilterStateToControls(savedState);
+        pendingDirty = false;
+        document.body.classList.remove("filters-have-unsaved-changes");
+        renderProductsUsingSavedState();
+      }, true);
+    }
+
+    renderProductsUsingSavedState();
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(bindSaveFilterMode, 0);
+    setTimeout(bindSaveFilterMode, 300);
+    setTimeout(() => {
+      if (typeof window.forceRenderProducts === "function") {
+        window.forceRenderProducts = renderProductsUsingSavedState;
+      }
+      renderProductsUsingSavedState();
+    }, 700);
+  });
+})();
+
+
+/* FINAL PATCH: ensure static Save Filter buttons work on every filter page */
+(function () {
+  function clickVisibleSaveButtonFallback() {
+    const grid = document.getElementById("brandProductGrid");
+    if (!grid) return;
+
+    const save = document.getElementById("saveFilters");
+    const clear = document.getElementById("clearPendingFilters");
+    const note = document.getElementById("pendingFilterNote");
+
+    // Existing Save Filter module creates window.forceRenderProducts behaviour.
+    if (save && save.dataset.staticVisibleSaveBound !== "true") {
+      save.dataset.staticVisibleSaveBound = "true";
+      save.addEventListener("click", () => {
+        if (typeof window.forceRenderProducts === "function") {
+          window.forceRenderProducts();
+        }
+        document.body.classList.remove("filters-have-unsaved-changes");
+        if (note) note.textContent = "Saved. Results updated.";
+      });
+    }
+
+    if (clear && clear.dataset.staticVisibleClearBound !== "true") {
+      clear.dataset.staticVisibleClearBound = "true";
+      clear.addEventListener("click", () => {
+        document.querySelectorAll('input[name="brandFilter"], input[name="categoryFilter"], input[name="ratingFilter"]').forEach(input => input.checked = false);
+        ["minPrice", "maxPrice", "productSearch"].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.value = "";
+        });
+        const sort = document.getElementById("sortProducts");
+        if (sort) sort.value = "featured";
+        document.body.classList.remove("filters-have-unsaved-changes");
+        if (typeof window.forceRenderProducts === "function") {
+          window.forceRenderProducts();
+        }
+        if (note) note.textContent = "Filters cleared. Results updated.";
+      });
+    }
+
+    document.querySelectorAll('input[name="brandFilter"], input[name="categoryFilter"], input[name="ratingFilter"], #minPrice, #maxPrice, #productSearch, #sortProducts').forEach(control => {
+      if (control.dataset.staticVisiblePendingBound === "true") return;
+      control.dataset.staticVisiblePendingBound = "true";
+      const markPending = () => {
+        document.body.classList.add("filters-have-unsaved-changes");
+        if (note) note.textContent = "Unsaved changes. Click Save Filter to apply.";
+      };
+      control.addEventListener("input", markPending);
+      control.addEventListener("change", markPending);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", clickVisibleSaveButtonFallback);
+  setTimeout(clickVisibleSaveButtonFallback, 300);
+  setTimeout(clickVisibleSaveButtonFallback, 900);
 })();

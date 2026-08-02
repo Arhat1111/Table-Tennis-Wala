@@ -18,11 +18,15 @@
       <a class="nav-dropdown-trigger" href="brands.html">Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
       <div class="nav-dropdown-menu">
         <a href="brands.html">All Brands</a>
-        <a href="joola.html">JOOLA</a>
-        <a href="tibhar.html">Tibhar</a>
-        <a href="butterfly.html">Butterfly</a>
-        <a href="stiga.html">Stiga</a>
-      </div>
+<a href="joola.html">JOOLA</a>
+<a href="tibhar.html">Tibhar</a>
+<a href="butterfly.html">Butterfly</a>
+<a href="stiga.html">Stiga</a>
+<a href="dhs.html">DHS</a>
+<a href="yinhe.html">YinHe</a>
+<a href="xiom.html">Xiom</a>
+<a href="andro.html">Andro</a>
+<a href="dawei.html">Dawei</a></div>
     </div>
 
     <div class="nav-dropdown">
@@ -36,7 +40,9 @@
         <a href="products.html?category=tables">Tables</a>
         <a href="products.html?category=footwear">Footwear</a>
         <a href="products.html?category=accessories">Accessories</a>
-      </div>
+        <a href="products.html?category=glue">Glue</a>
+        <a href="products.html?category=clothing">Apparel</a>
+</div>
     </div>
 
     <a href="customize.html">Customize</a>
@@ -66,11 +72,15 @@
       <summary>Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
       <div>
         <a href="brands.html">All Brands</a>
-        <a href="joola.html">JOOLA</a>
-        <a href="tibhar.html">Tibhar</a>
-        <a href="butterfly.html">Butterfly</a>
-        <a href="stiga.html">Stiga</a>
-      </div>
+<a href="joola.html">JOOLA</a>
+<a href="tibhar.html">Tibhar</a>
+<a href="butterfly.html">Butterfly</a>
+<a href="stiga.html">Stiga</a>
+<a href="dhs.html">DHS</a>
+<a href="yinhe.html">YinHe</a>
+<a href="xiom.html">Xiom</a>
+<a href="andro.html">Andro</a>
+<a href="dawei.html">Dawei</a></div>
     </details>
 
     <details class="css-mobile-details">
@@ -84,7 +94,9 @@
         <a href="products.html?category=tables">Tables</a>
         <a href="products.html?category=footwear">Footwear</a>
         <a href="products.html?category=accessories">Accessories</a>
-      </div>
+        <a href="products.html?category=glue">Glue</a>
+        <a href="products.html?category=clothing">Apparel</a>
+</div>
     </details>
 
     <a href="customize.html">Customize Racket</a>
@@ -96,65 +108,90 @@
 </nav>
 
 <main>
-    <section class="brand-hero products brands-page-hero reveal">
-      <div>
-        <span class="eyebrow light">Shop by brand</span>
-        <h1>Explore every table tennis brand.</h1>
-        <p>Choose a brand to browse its complete product range, or jump directly to a brand page from the dropdown.</p>
+    <section class="brand-landscape-hero">
+      <div class="brand-landscape-bg" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="brand-landscape-content reveal">
+        <span class="eyebrow light">Brand directory</span>
+        <h1>Choose your brand.</h1>
+        <p>Browse every table tennis brand from one clean landscape page. Use the slider, quick selector or product counts to enter the right catalogue.</p>
+        <div class="brands-hero-stats">
+          <span><strong>9</strong> Brands</span>
+          <span><strong>527</strong> Products</span>
+          <span><strong>MRP</strong> Pricing</span>
+        </div>
+      </div>
+      <div class="brand-hero-selector reveal">
+        <label for="brandJump">Quick brand selector</label>
+        <select id="brandJump"><option value="">Choose a brand</option><option value="joola.html">JOOLA</option><option value="tibhar.html">Tibhar</option><option value="butterfly.html">Butterfly</option><option value="stiga.html">Stiga</option><option value="dhs.html">DHS</option><option value="yinhe.html">YinHe</option><option value="xiom.html">Xiom</option><option value="andro.html">Andro</option><option value="dawei.html">Dawei</option></select>
       </div>
     </section>
 
-    <section class="section brands-directory">
+    <section class="section brand-logo-slider-section brand-page-slider">
+      <div class="brand-slider-heading reveal">
+        <div>
+          <span class="eyebrow">Choose a brand</span>
+          <h2>Swipe through brands.</h2>
+          <p>Logo-first cards keep the page minimal and make it easier to jump into each brand’s product catalogue.</p>
+        </div>
+        <div class="brand-slider-controls">
+          <button class="brand-slider-btn" type="button" data-brand-slider-prev aria-label="Previous brands"><span class="ttw-icon ttw-icon-chevron-left" aria-hidden="true"></span></button>
+          <button class="brand-slider-btn" type="button" data-brand-slider-next aria-label="Next brands"><span class="ttw-icon ttw-icon-chevron-right" aria-hidden="true"></span></button>
+        </div>
+      </div>
+
+      <div class="brand-logo-slider-shell reveal">
+        <div class="brand-logo-track brand-logo-track-large brand-logo-track-premium" data-brand-logo-track>
+        <a class="brand-logo-slide brand-logo-slide-joola" href="joola.html" data-brand-slide="joola" aria-label="Open JOOLA brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/joola.svg" alt="JOOLA logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>53 products</span><strong>Speed focused</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-tibhar" href="tibhar.html" data-brand-slide="tibhar" aria-label="Open Tibhar brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/tibhar.svg" alt="Tibhar logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>3 products</span><strong>Control setups</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-butterfly" href="butterfly.html" data-brand-slide="butterfly" aria-label="Open Butterfly brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/butterfly.svg" alt="Butterfly logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>118 products</span><strong>Premium gear</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-stiga" href="stiga.html" data-brand-slide="stiga" aria-label="Open Stiga brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/stiga.svg" alt="Stiga logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>36 products</span><strong>Club ready</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-dhs" href="dhs.html" data-brand-slide="dhs" aria-label="Open DHS brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/dhs.svg" alt="DHS logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>73 products</span><strong>Hurricane range</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-yinhe" href="yinhe.html" data-brand-slide="yinhe" aria-label="Open YinHe brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/yinhe.svg" alt="YinHe logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>66 products</span><strong>Value picks</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-xiom" href="xiom.html" data-brand-slide="xiom" aria-label="Open Xiom brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/xiom.svg" alt="Xiom logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>126 products</span><strong>Modern rubbers</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-andro" href="andro.html" data-brand-slide="andro" aria-label="Open Andro brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/andro.svg" alt="Andro logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>51 products</span><strong>German tech</strong></div>
+        </a>
+        <a class="brand-logo-slide brand-logo-slide-dawei" href="dawei.html" data-brand-slide="dawei" aria-label="Open Dawei brand page">
+          <div class="brand-logo-glass"><img src="assets/brand-logos/dawei.svg" alt="Dawei logo" loading="lazy"></div>
+          <div class="brand-logo-details"><span>1 product</span><strong>Special pips</strong></div>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brand-minimal-list">
       <div class="section-heading reveal">
         <div>
-          <span class="eyebrow">Brands directory</span>
-          <h2>All brands.</h2>
+          <span class="eyebrow">All catalogues</span>
+          <h2>Direct brand links.</h2>
         </div>
-        <p>Select a brand below. The dropdown is useful on mobile, while the cards give a visual overview on desktop.</p>
+        <p>Simple text links for users who prefer a compact list.</p>
       </div>
-
-      <div class="brand-jump-card reveal">
-        <label for="brandJump">Quick brand dropdown</label>
-        <select id="brandJump">
-          <option value="">Choose a brand</option>
-          <option value="joola.html">JOOLA</option>
-          <option value="tibhar.html">Tibhar</option>
-          <option value="butterfly.html">Butterfly</option>
-          <option value="stiga.html">Stiga</option>
-        </select>
-      </div>
-
-      <div class="brand-grid brand-directory-grid">
-        <a class="brand-card reveal" href="joola.html">
-          <span>01</span>
-          <img src="assets/brand-logos/joola.svg" alt="JOOLA logo" />
-          <h3>JOOLA</h3>
-          <p>Rubbers, blades, balls, tables and professional accessories.</p>
-          <b>View JOOLA products <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></b>
-        </a>
-        <a class="brand-card reveal" href="tibhar.html">
-          <span>02</span>
-          <img src="assets/brand-logos/tibhar.svg" alt="Tibhar logo" />
-          <h3>Tibhar</h3>
-          <p>High-control rubbers, blades and complete player setups.</p>
-          <b>View Tibhar products <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></b>
-        </a>
-        <a class="brand-card reveal" href="butterfly.html">
-          <span>03</span>
-          <img src="assets/brand-logos/butterfly.svg" alt="Butterfly logo" />
-          <h3>Butterfly</h3>
-          <p>Premium competitive gear for speed, spin and consistency.</p>
-          <b>View Butterfly products <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></b>
-        </a>
-        <a class="brand-card reveal" href="stiga.html">
-          <span>04</span>
-          <img src="assets/brand-logos/stiga.svg" alt="Stiga logo" />
-          <h3>Stiga</h3>
-          <p>Training essentials, rackets, tables and accessories.</p>
-          <b>View Stiga products <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></b>
-        </a>
-      </div>
-    </section>
+</section>
   </main>
   <footer class="site-footer">
   <div class="footer-brand">
@@ -167,6 +204,8 @@
     <a href="tibhar.html">Tibhar</a>
     <a href="butterfly.html">Butterfly</a>
     <a href="stiga.html">Stiga</a>
+        <a href="dhs.html">DHS</a>
+        <a href="yinhe.html">YinHe</a>
   </div>
   <div class="footer-links">
     <h4>Store</h4>

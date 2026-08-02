@@ -18,11 +18,15 @@
       <a class="nav-dropdown-trigger" href="brands.html">Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
       <div class="nav-dropdown-menu">
         <a href="brands.html">All Brands</a>
-        <a href="joola.html">JOOLA</a>
-        <a href="tibhar.html">Tibhar</a>
-        <a href="butterfly.html">Butterfly</a>
-        <a href="stiga.html">Stiga</a>
-      </div>
+<a href="joola.html">JOOLA</a>
+<a href="tibhar.html">Tibhar</a>
+<a href="butterfly.html">Butterfly</a>
+<a href="stiga.html">Stiga</a>
+<a href="dhs.html">DHS</a>
+<a href="yinhe.html">YinHe</a>
+<a href="xiom.html">Xiom</a>
+<a href="andro.html">Andro</a>
+<a href="dawei.html">Dawei</a></div>
     </div>
 
     <div class="nav-dropdown">
@@ -36,7 +40,9 @@
         <a href="products.html?category=tables">Tables</a>
         <a href="products.html?category=footwear">Footwear</a>
         <a href="products.html?category=accessories">Accessories</a>
-      </div>
+        <a href="products.html?category=glue">Glue</a>
+        <a href="products.html?category=clothing">Apparel</a>
+</div>
     </div>
 
     <a href="customize.html">Customize</a>
@@ -66,11 +72,15 @@
       <summary>Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
       <div>
         <a href="brands.html">All Brands</a>
-        <a href="joola.html">JOOLA</a>
-        <a href="tibhar.html">Tibhar</a>
-        <a href="butterfly.html">Butterfly</a>
-        <a href="stiga.html">Stiga</a>
-      </div>
+<a href="joola.html">JOOLA</a>
+<a href="tibhar.html">Tibhar</a>
+<a href="butterfly.html">Butterfly</a>
+<a href="stiga.html">Stiga</a>
+<a href="dhs.html">DHS</a>
+<a href="yinhe.html">YinHe</a>
+<a href="xiom.html">Xiom</a>
+<a href="andro.html">Andro</a>
+<a href="dawei.html">Dawei</a></div>
     </details>
 
     <details class="css-mobile-details">
@@ -84,7 +94,9 @@
         <a href="products.html?category=tables">Tables</a>
         <a href="products.html?category=footwear">Footwear</a>
         <a href="products.html?category=accessories">Accessories</a>
-      </div>
+        <a href="products.html?category=glue">Glue</a>
+        <a href="products.html?category=clothing">Apparel</a>
+</div>
     </details>
 
     <a href="customize.html">Customize Racket</a>
@@ -103,10 +115,15 @@
       <div class="catalog-layout reveal">
         <aside class="filter-panel">
           <div class="filter-panel-head"><h3>Filters</h3><button type="button" id="resetFilters">Reset</button></div>
-          <div class="filter-group"><h4>Brands</h4><label><input type="checkbox" name="brandFilter" value="joola"> JOOLA</label><label><input type="checkbox" name="brandFilter" value="tibhar" > Tibhar</label><label><input type="checkbox" name="brandFilter" value="butterfly" > Butterfly</label><label><input type="checkbox" name="brandFilter" value="stiga" > Stiga</label></div>
-          <div class="filter-group"><h4>Categories</h4><label><input type="checkbox" name="categoryFilter" value="rackets"> Rackets</label><label><input type="checkbox" name="categoryFilter" value="rubbers"> Rubbers</label><label><input type="checkbox" name="categoryFilter" value="blades"> Blades</label><label><input type="checkbox" name="categoryFilter" value="balls"> Balls</label><label><input type="checkbox" name="categoryFilter" value="tables"> Tables</label><label><input type="checkbox" name="categoryFilter" value="footwear"> Footwear</label><label><input type="checkbox" name="categoryFilter" value="accessories"> Accessories</label></div>
+          <div class="filter-group"><h4>Brands</h4><label><input type="checkbox" name="brandFilter" value="joola"> JOOLA</label><label><input type="checkbox" name="brandFilter" value="tibhar"> Tibhar</label><label><input type="checkbox" name="brandFilter" value="butterfly"> Butterfly</label><label><input type="checkbox" name="brandFilter" value="stiga"> Stiga</label><label><input type="checkbox" name="brandFilter" value="dhs"> DHS</label><label><input type="checkbox" name="brandFilter" value="yinhe"> YinHe</label><label><input type="checkbox" name="brandFilter" value="xiom"> Xiom</label><label><input type="checkbox" name="brandFilter" value="andro"> Andro</label><label><input type="checkbox" name="brandFilter" value="dawei"> Dawei</label></div><div class="filter-group"><h4>Categories</h4><label><input type="checkbox" name="categoryFilter" value="rubbers"> Rubbers</label><label><input type="checkbox" name="categoryFilter" value="blades"> Blades</label><label><input type="checkbox" name="categoryFilter" value="rackets"> Rackets</label><label><input type="checkbox" name="categoryFilter" value="balls"> Balls</label><label><input type="checkbox" name="categoryFilter" value="tables"> Tables</label><label><input type="checkbox" name="categoryFilter" value="footwear"> Footwear</label><label><input type="checkbox" name="categoryFilter" value="accessories"> Accessories</label><label><input type="checkbox" name="categoryFilter" value="glue"> Glue</label><label><input type="checkbox" name="categoryFilter" value="clothing"> Apparel</label></div>
           <div class="filter-group"><h4>Price range</h4><div class="price-fields"><input id="minPrice" type="number" min="0" placeholder="Min ₹"><input id="maxPrice" type="number" min="0" placeholder="Max ₹"></div></div>
           <div class="filter-group"><h4>Rating</h4><label><input type="checkbox" name="ratingFilter" value="4.7"> 4.7<span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> and above</label></div>
+          <div class="save-filter-actions">
+            <button type="button" class="save-filter-button" id="saveFilters">Save Filter</button>
+            <button type="button" class="clear-pending-filter-button" id="clearPendingFilters">Clear Filter</button>
+            <p class="pending-filter-note" id="pendingFilterNote">Change filters, then click Save Filter to update results.</p>
+          </div>
+
         </aside>
         <div class="catalog-results">
           <div class="results-topbar">
@@ -130,6 +147,8 @@
     <a href="tibhar.html">Tibhar</a>
     <a href="butterfly.html">Butterfly</a>
     <a href="stiga.html">Stiga</a>
+        <a href="dhs.html">DHS</a>
+        <a href="yinhe.html">YinHe</a>
   </div>
   <div class="footer-links">
     <h4>Store</h4>
