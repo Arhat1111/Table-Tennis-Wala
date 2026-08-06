@@ -15,12 +15,20 @@ const seedProducts = [
       "SKU 70465",
       "Available: Red / Black / Purple",
       "MAX thickness",
-      "Kinetic tension surface"
+      "Kinetic tension surface",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-dynaryz-inferno.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-dynaryz-zgx",
@@ -38,12 +46,20 @@ const seedProducts = [
       "SKU 70488",
       "Available: Red / Black",
       "MAX thickness",
-      "Hyper traction"
+      "Hyper traction",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgx.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-dynaryz-zgr",
@@ -61,12 +77,20 @@ const seedProducts = [
       "SKU 70522",
       "Available: Red / Black",
       "MAX thickness",
-      "Hard 56° sponge"
+      "Hard 56° sponge",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgr.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-dynaryz-acc",
@@ -84,12 +108,20 @@ const seedProducts = [
       "SKU 70502",
       "Available: Red / Black / Purple",
       "MAX thickness",
-      "Hyper Bounce sponge"
+      "Hyper Bounce sponge",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-dynaryz-acc.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-dynaryz-agr",
@@ -107,12 +139,20 @@ const seedProducts = [
       "SKU 70512",
       "Available: Red / Black / Purple",
       "MAX thickness",
-      "Advanced traction"
+      "Advanced traction",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-dynaryz-agr.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-dynaryz-cmd",
@@ -130,12 +170,20 @@ const seedProducts = [
       "SKU 70532",
       "Available: Red / Black",
       "MAX thickness",
-      "Control-focused feel"
+      "Control-focused feel",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-dynaryz-cmd.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-tronix-acc",
@@ -153,13 +201,21 @@ const seedProducts = [
       "SKU 70593",
       "Available: Red / Black / Blue",
       "MAX thickness",
-      "Giga Cell sponge"
+      "Giga Cell sponge",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-tronix-acc.svg",
     "officialProductUrl": "https://joola.in/products/tronix-acc-table-tennis-rubber",
     "imageStatus": "official",
     "imageSource": "JOOLA India official product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-tronix-cmd",
@@ -177,12 +233,20 @@ const seedProducts = [
       "SKU 70587",
       "Available: Red / Black / Blue",
       "MAX thickness",
-      "Soft command feel"
+      "Soft command feel",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-tronix-cmd.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-tronix-zgr",
@@ -200,12 +264,20 @@ const seedProducts = [
       "SKU 70599",
       "Available: Red / Black",
       "MAX thickness",
-      "Hyper traction surface"
+      "Hyper traction surface",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-tronix-zgr.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-rhyzen-ice",
@@ -223,13 +295,21 @@ const seedProducts = [
       "SKU 70650",
       "Available: Red / Black / Blue",
       "MAX thickness",
-      "Control profile"
+      "Control profile",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-rhyzen-ice.svg",
     "officialProductUrl": "https://joola.in/products/rhyzen-ice-table-tennis-rubber",
     "imageStatus": "official",
     "imageSource": "JOOLA India official product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-rhyzen-fire",
@@ -247,13 +327,21 @@ const seedProducts = [
       "SKU 70571",
       "Available: Red / Black / Blue",
       "MAX thickness",
-      "Momentum sponge"
+      "Momentum sponge",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-rhyzen-fire.svg",
     "officialProductUrl": "https://joola.in/products/rhyzen-fire-table-tennis-rubber",
     "imageStatus": "official",
     "imageSource": "JOOLA India official product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-rhyzen-cmd",
@@ -271,12 +359,20 @@ const seedProducts = [
       "SKU 70552",
       "Available: Red / Black / Blue",
       "MAX thickness",
-      "Sweetzone control"
+      "Sweetzone control",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-rhyzen-cmd.svg",
     "imageStatus": "official",
     "imageSource": "JOOLA official CDN image already matched by product family",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-zack",
@@ -294,13 +390,21 @@ const seedProducts = [
       "SKU 70071",
       "Available: Red / Black",
       "MAX thickness",
-      "Beginner friendly"
+      "Beginner friendly",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-zack.svg",
     "officialProductUrl": "https://joola.in/products/joola-rubber-zack",
     "imageStatus": "official",
     "imageSource": "JOOLA India official product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-micron",
@@ -318,13 +422,21 @@ const seedProducts = [
       "SKU 70270",
       "Available: Red / Black",
       "MAX thickness",
-      "Precision feel"
+      "Precision feel",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-micron-fallback.svg",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Micron Table Tennis Rubber table tennis product official image"
+    "searchImageQuery": "JOOLA JOOLA Micron Table Tennis Rubber table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-vizon",
@@ -342,13 +454,21 @@ const seedProducts = [
       "SKU 70026",
       "Available: Red / Black",
       "MAX thickness",
-      "High control"
+      "High control",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-vizon.svg",
     "officialProductUrl": "https://joola.in/products/joola-rubber-vizon-1",
     "imageStatus": "official",
     "imageSource": "JOOLA India official product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-cwx",
@@ -366,13 +486,21 @@ const seedProducts = [
       "SKU 71237",
       "Available: Red / Black",
       "OX / Long pips",
-      "Defensive control"
+      "Defensive control",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "fallbackImage": "assets/catalog/joola-cat-cwx.svg",
     "officialProductUrl": "https://joola.in/products/joola-cwx-long-pips-table-tennis-rubber-copy",
     "imageStatus": "official",
     "imageSource": "JOOLA India official product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-prime-40-pack-6",
@@ -1266,13 +1394,21 @@ const seedProducts = [
     "features": [
       "Hard sponge",
       "High arc",
-      "Offensive"
+      "Offensive",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "image": "https://tibhar.online/cdn/shop/files/EvolutionMXP_40ee0e7b-7b71-4175-a4ac-5b661ee05863_medium.jpg?v=1696214024",
     "hasActualProductImage": true,
     "imageStatus": "official",
     "imageSource": "Tibhar official product image",
-    "officialProductUrl": "https://tibhar.online/products/evolution-mx-p"
+    "officialProductUrl": "https://tibhar.online/products/evolution-mx-p",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "seed-tibhar-2",
@@ -1914,13 +2050,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹1,500",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-6512-beginner-s-rubber-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS 6512 Beginner's Rubber table tennis product official image"
+    "searchImageQuery": "DHS DHS 6512 Beginner's Rubber table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-sharping-ii",
@@ -1938,13 +2082,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹3,300",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-sharping-ii-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Sharping II table tennis product official image"
+    "searchImageQuery": "DHS DHS Sharping II table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-874-special-short-pips",
@@ -1962,13 +2114,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹2,400",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-874-special-short-pips-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS 874 - Special Short Pips table tennis product official image"
+    "searchImageQuery": "DHS DHS 874 - Special Short Pips table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-dragonow",
@@ -1986,13 +2146,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹3,300",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-dragonow-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Dragonow table tennis product official image"
+    "searchImageQuery": "DHS DHS Dragonow table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-652",
@@ -2010,13 +2178,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹2,400",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-652-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS 652 table tennis product official image"
+    "searchImageQuery": "DHS DHS 652 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-cloud-and-fog-iii",
@@ -2034,13 +2210,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹3,300",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-cloud-and-fog-iii-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Cloud & Fog III table tennis product official image"
+    "searchImageQuery": "DHS DHS Cloud & Fog III table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-tg-skyline-3-neo",
@@ -2058,13 +2242,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹5,400",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-tg-skyline-3-neo-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS TG Skyline 3 Neo table tennis product official image"
+    "searchImageQuery": "DHS DHS TG Skyline 3 Neo table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-ma-long-player-version",
@@ -2082,7 +2274,9 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹24,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "verified-product-image",
     "imageSource": "DHS Sports USA product page - Ma Long Player Edition Hurricane 3 rubber",
@@ -2092,7 +2286,13 @@ const seedProducts = [
       "https://dhssportsusa.com/cdn/shop/files/G-ML.png?v=1751409193&width=533",
       "https://dhssportsusa.com/cdn/shop/files/B_be0d39b5-3fa1-4ca2-a65a-8a39dae25459.png?v=1773094149&width=533"
     ],
-    "officialProductUrl": "https://dhssportsusa.com/products/dhs-ma-long-table-tennis-rubber"
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-ma-long-table-tennis-rubber",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-sun-yingsha-player-version",
@@ -2110,7 +2310,9 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹24,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "verified-product-image",
     "imageSource": "DHS Sports USA product page - Sun Yingsha Player Edition rubber",
@@ -2121,7 +2323,13 @@ const seedProducts = [
       "https://dhssportsusa.com/cdn/shop/files/IMG_7524.png?v=1773094185&width=416",
       "https://dhssportsusa.com/cdn/shop/files/IMG_7523.png?v=1773094191&width=416"
     ],
-    "officialProductUrl": "https://dhssportsusa.com/products/dhs-sun-ys-national-edition-table-tennis-rubber"
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-sun-ys-national-edition-table-tennis-rubber",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-wang-chuqin-player-version",
@@ -2139,13 +2347,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹24,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "verified-product-image",
     "imageSource": "DHS Sports USA product page - Wang Chuqin Player Edition Hurricane 3 rubber",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-wang-chuqin-player-version-dhs-safe.svg",
-    "officialProductUrl": "https://dhssportsusa.com/products/dhs-wang-cq-national-edition-table-tennis-rubber"
+    "officialProductUrl": "https://dhssportsusa.com/products/dhs-wang-cq-national-edition-table-tennis-rubber",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-8",
@@ -2163,13 +2379,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹5,700",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-8-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 8 table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 8 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-8-80",
@@ -2187,13 +2411,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹5,700",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-8-80-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 8-80 table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 8-80 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-50",
@@ -2211,14 +2443,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹5,700",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-50",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-50-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3-50 table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3-50 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3",
@@ -2236,14 +2476,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹5,100",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-37-38-39-40",
@@ -2261,14 +2509,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹5,700",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-37-38-39-40-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 Neo (37, 38, 39, 40) table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo (37, 38, 39, 40) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-provincial-blue-sponge",
@@ -2286,14 +2542,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹9,900",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-provincial-blue-sponge-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 Provincial Blue Sponge table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 Provincial Blue Sponge table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-national-blue-sponge",
@@ -2311,14 +2575,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹16,500",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-national-edition",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-national-blue-sponge-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 National Blue Sponge table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 National Blue Sponge table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-provincial-orange-sponge",
@@ -2336,14 +2608,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹8,250",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-provincial-39",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-orange-sponge-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Orange Sponge table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Orange Sponge table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-provincial-blue-sponge",
@@ -2361,14 +2641,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹10,800",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-provincial-38-blue-sponge",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-blue-sponge-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Blue Sponge table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Blue Sponge table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-national-orange-sponge",
@@ -2386,14 +2674,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹16,500",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-national",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-national-orange-sponge-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 Neo National Orange Sponge table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo National Orange Sponge table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-national-blue-sponge",
@@ -2411,14 +2707,22 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹18,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-national-39-blue-sponge",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-national-blue-sponge-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 3 Neo National Blue Sponge table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 3 Neo National Blue Sponge table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-pf4-50",
@@ -2436,13 +2740,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹1,950",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-pf4-50-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS PF4-50 table tennis product official image"
+    "searchImageQuery": "DHS DHS PF4-50 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-g888",
@@ -2460,13 +2772,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹3,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-g888-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS G888 table tennis product official image"
+    "searchImageQuery": "DHS DHS G888 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-gold-arc-5-42-5-and-47-5",
@@ -2484,13 +2804,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹6,600",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-5-42-5-and-47-5-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Gold Arc 5 (42.5 & 47.5) table tennis product official image"
+    "searchImageQuery": "DHS DHS Gold Arc 5 (42.5 & 47.5) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-gold-arc-8-47-5-and-50",
@@ -2508,13 +2836,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹8,550",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-8-47-5-and-50-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Gold Arc 8 (47.5 & 50) table tennis product official image"
+    "searchImageQuery": "DHS DHS Gold Arc 8 (47.5 & 50) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-gold-arc-9-2-1-38h",
@@ -2532,13 +2868,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹6,600",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-9-2-1-38h-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Gold Arc 9 (2.1 38H) table tennis product official image"
+    "searchImageQuery": "DHS DHS Gold Arc 9 (2.1 38H) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-hurricane-9-blue-violet-green-pink",
@@ -2556,13 +2900,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹6,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-hurricane-9-blue-violet-green-pink-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Hurricane 9 (Blue, Violet, Green, Pink) table tennis product official image"
+    "searchImageQuery": "DHS DHS Hurricane 9 (Blue, Violet, Green, Pink) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-c7",
@@ -2580,13 +2932,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹2,400",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-c7-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS C7 table tennis product official image"
+    "searchImageQuery": "DHS DHS C7 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-c8",
@@ -2604,13 +2964,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹2,400",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-c8-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS C8 table tennis product official image"
+    "searchImageQuery": "DHS DHS C8 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-tin-arc-5",
@@ -2628,13 +2996,21 @@ const seedProducts = [
       "Brand: DHS",
       "Category: Rubber",
       "MRP: ₹5,100",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dhs-dhs-tin-arc-5-dhs-safe.svg",
-    "searchImageQuery": "DHS DHS Tin Arc 5 table tennis product official image"
+    "searchImageQuery": "DHS DHS Tin Arc 5 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "dhs-dhs-d40-3-star-balls-pack-of-10",
@@ -3612,13 +3988,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹2,330",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-flextra-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly FLEXTRA table tennis product official image"
+    "searchImageQuery": "Butterfly FLEXTRA table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-tackness-chop",
@@ -3636,13 +4020,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹3,760",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-tackness-chop-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly TACKNESS CHOP table tennis product official image"
+    "searchImageQuery": "Butterfly TACKNESS CHOP table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-tackiness-chop-ii",
@@ -3660,13 +4052,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹3,760",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-tackiness-chop-ii-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly TACKINESS CHOP II table tennis product official image"
+    "searchImageQuery": "Butterfly TACKINESS CHOP II table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-fient-long-ii",
@@ -3684,14 +4084,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹4,060",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/fient-long-ii/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-fient-long-ii-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly FIENT LONG II table tennis product official image"
+    "searchImageQuery": "Butterfly FIENT LONG II table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-fient-long-iii",
@@ -3709,14 +4117,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹4,060",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/fient-long-iii/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-fient-long-iii-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly FIENT LONG III table tennis product official image"
+    "searchImageQuery": "Butterfly FIENT LONG III table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-super-anti",
@@ -3734,14 +4150,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹4,090",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/super-anti/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-super-anti-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly SUPER ANTI table tennis product official image"
+    "searchImageQuery": "Butterfly SUPER ANTI table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-sriver",
@@ -3759,14 +4183,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹4,250",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/sriver/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-sriver-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly SRIVER table tennis product official image"
+    "searchImageQuery": "Butterfly SRIVER table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-sriver-el",
@@ -3784,14 +4216,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹4,250",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/sriver-el/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-sriver-el-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly SRIVER EL table tennis product official image"
+    "searchImageQuery": "Butterfly SRIVER EL table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-sriver-fx",
@@ -3809,14 +4249,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹4,250",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/sriver-fx/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-sriver-fx-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly SRIVER FX table tennis product official image"
+    "searchImageQuery": "Butterfly SRIVER FX table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-challenger-attack",
@@ -3834,13 +4282,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹5,130",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-challenger-attack-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly CHALLENGER ATTACK table tennis product official image"
+    "searchImageQuery": "Butterfly CHALLENGER ATTACK table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-rozena",
@@ -3858,14 +4314,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹6,995",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/rozena/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-rozena-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly ROZENA table tennis product official image"
+    "searchImageQuery": "Butterfly ROZENA table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-glayzer",
@@ -3883,14 +4347,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹7,290",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/glayzer/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-glayzer-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly GLAYZER table tennis product official image"
+    "searchImageQuery": "Butterfly GLAYZER table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-glayzer-09-c",
@@ -3908,14 +4380,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹7,290",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/glayzer-09c/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-glayzer-09-c-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly GLAYZER 09 C table tennis product official image"
+    "searchImageQuery": "Butterfly GLAYZER 09 C table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-butterfly-impartial-xb",
@@ -3933,13 +4413,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹7,290",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-butterfly-impartial-xb-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly Butterfly IMPARTIAL XB table tennis product official image"
+    "searchImageQuery": "Butterfly Butterfly IMPARTIAL XB table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-butterfly-impartial-xs",
@@ -3957,13 +4445,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹7,180",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-butterfly-impartial-xs-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly Butterfly IMPARTIAL XS table tennis product official image"
+    "searchImageQuery": "Butterfly Butterfly IMPARTIAL XS table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-bugler",
@@ -3981,13 +4477,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹7,770",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-bugler-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly BUGLER table tennis product official image"
+    "searchImageQuery": "Butterfly BUGLER table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-bryce-high-speed",
@@ -4005,13 +4509,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹8,274",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-bryce-high-speed-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly BRYCE HIGH SPEED table tennis product official image"
+    "searchImageQuery": "Butterfly BRYCE HIGH SPEED table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-tenergy-05-05-fx",
@@ -4029,14 +4541,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹10,600",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-05/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-tenergy-05-05-fx-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly TENERGY 05,05 FX, table tennis product official image"
+    "searchImageQuery": "Butterfly TENERGY 05,05 FX, table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-tenergy-64-64-fx",
@@ -4054,14 +4574,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹10,600",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-64/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-tenergy-64-64-fx-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly TENERGY 64,64 FX table tennis product official image"
+    "searchImageQuery": "Butterfly TENERGY 64,64 FX table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-tenergy-80-80-fx",
@@ -4079,14 +4607,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹10,600",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-80/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-tenergy-80-80-fx-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly TENERGY 80,80 FX table tennis product official image"
+    "searchImageQuery": "Butterfly TENERGY 80,80 FX table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-tenergy-19",
@@ -4104,14 +4640,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹10,600",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-19/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-tenergy-19-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly TENERGY 19 table tennis product official image"
+    "searchImageQuery": "Butterfly TENERGY 19 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-dignics-05",
@@ -4129,14 +4673,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹13,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/dignics-05/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-dignics-05-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly DIGNICS 05 table tennis product official image"
+    "searchImageQuery": "Butterfly DIGNICS 05 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-dignics-64",
@@ -4154,14 +4706,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹13,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/dignics-64-2/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-dignics-64-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly DIGNICS 64 table tennis product official image"
+    "searchImageQuery": "Butterfly DIGNICS 64 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-dignics-09-c",
@@ -4179,14 +4739,22 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹13,000",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/dignics-09-c/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-dignics-09-c-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly DIGNICS 09 C table tennis product official image"
+    "searchImageQuery": "Butterfly DIGNICS 09 C table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-zyre-03",
@@ -4204,13 +4772,21 @@ const seedProducts = [
       "Brand: Butterfly",
       "Category: Rubber",
       "MRP: ₹19,450",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/butterfly-zyre-03-butterfly-safe.svg",
-    "searchImageQuery": "Butterfly ZYRE 03 table tennis product official image"
+    "searchImageQuery": "Butterfly ZYRE 03 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "butterfly-butterfly-tb5-alfa-fl",
@@ -6381,13 +6957,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-90001-training-set-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe 90001 Training Set table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe 90001 Training Set table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-9000-ii",
@@ -6405,13 +6989,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-9000-ii-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe 9000-II table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe 9000-II table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-9000-e",
@@ -6429,13 +7021,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-9000-e-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe 9000 E table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe 9000 E table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-mercury-ii",
@@ -6453,13 +7053,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-mercury-ii-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe MERCURY II table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe MERCURY II table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-qing-ox",
@@ -6477,13 +7085,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-qing-ox-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe QING OX table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe QING OX table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-955-ox",
@@ -6501,13 +7117,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-955-ox-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe 955 OX table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe 955 OX table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-mercury-iii-euro",
@@ -6525,13 +7149,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-mercury-iii-euro-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe MERCURY III EURO table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe MERCURY III EURO table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-neptune-0-7",
@@ -6549,13 +7181,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-neptune-0-7-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe NEPTUNE - 0.7 table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe NEPTUNE - 0.7 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-pluto-1-5-1-8",
@@ -6573,13 +7213,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-pluto-1-5-1-8-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe PLUTO 1.5 - 1.8 table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe PLUTO 1.5 - 1.8 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-955-green-0-7mm",
@@ -6597,13 +7245,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-955-green-0-7mm-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe 955 Green 0.7mm table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe 955 Green 0.7mm table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-955-green-ox",
@@ -6621,13 +7277,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-955-green-ox-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe 955 GREEN - OX table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe 955 GREEN - OX table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-earth-ii",
@@ -6645,13 +7309,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-earth-ii-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe EARTH II table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe EARTH II table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-apollo-5",
@@ -6669,14 +7341,22 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹2,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/apollo-5/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-apollo-5-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe APOLLO 5 table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe APOLLO 5 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-moon-speed",
@@ -6694,13 +7374,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-moon-speed-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe MOON SPEED table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe MOON SPEED table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-moon-speed-limited",
@@ -6718,13 +7406,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-moon-speed-limited-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe MOON SPEED LIMITED table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe MOON SPEED LIMITED table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-moon-pro",
@@ -6742,13 +7438,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹2,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-moon-pro-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe MOON PRO table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe MOON PRO table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-moon-12-blue",
@@ -6766,14 +7470,22 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹2,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/moon-12-in-new-green-color/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-moon-12-blue-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe MOON 12 BLUE table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe MOON 12 BLUE table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-uranus-poly",
@@ -6791,13 +7503,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-uranus-poly-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe URANUS POLY table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe URANUS POLY table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-uranus-pro-1-8mm-2-15mm",
@@ -6815,13 +7535,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-uranus-pro-1-8mm-2-15mm-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe URANUS PRO (1.8mm, 2.15mm) table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe URANUS PRO (1.8mm, 2.15mm) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-big-dipper-39",
@@ -6839,14 +7567,22 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹2,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/big-dipper-4/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-big-dipper-39-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe BIG DIPPER 39 table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe BIG DIPPER 39 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-big-dipper-pro-41",
@@ -6864,14 +7600,22 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹3,499",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/big-dipper-province-41-degree/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-big-dipper-pro-41-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe BIG DIPPER PRO 41 table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe BIG DIPPER PRO 41 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-jupiter-iii-euro",
@@ -6889,14 +7633,22 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹2,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/jupiter-3-euro/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-jupiter-iii-euro-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe JUPITER III EURO table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe JUPITER III EURO table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-qing-0-5",
@@ -6914,13 +7666,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-qing-0-5-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe QING - 0.5 table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe QING - 0.5 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-qing-0-7",
@@ -6938,13 +7698,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-qing-0-7-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe QING - 0.7 table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe QING - 0.7 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-mars-ii",
@@ -6962,13 +7730,21 @@ const seedProducts = [
       "Brand: YinHe",
       "Category: Rubber",
       "MRP: ₹1,999",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/yinhe-yinhe-mars-ii-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe MARS II table tennis product official image"
+    "searchImageQuery": "Yinhe YinHe MARS II table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "yinhe-yinhe-h40-3-star",
@@ -8019,13 +8795,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹8,740",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-dragon-power-52-5-55-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga Dragon Power 52.5/55 table tennis product official image"
+    "searchImageQuery": "Stiga Stiga Dragon Power 52.5/55 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-dna-hybrid-h-xh",
@@ -8043,13 +8827,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹8,360",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-dna-hybrid-h-xh-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga DNA Hybrid (H/XH) table tennis product official image"
+    "searchImageQuery": "Stiga Stiga DNA Hybrid (H/XH) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-dna-platinum-m-h-xh",
@@ -8067,13 +8859,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹7,980",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-dna-platinum-m-h-xh-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga DNA Platinum (M/H/XH) table tennis product official image"
+    "searchImageQuery": "Stiga Stiga DNA Platinum (M/H/XH) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-dna-pro-m-h",
@@ -8091,13 +8891,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹6,650",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-dna-pro-m-h-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga DNA Pro (M/H) table tennis product official image"
+    "searchImageQuery": "Stiga Stiga DNA Pro (M/H) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-mantra-pro-m-h",
@@ -8115,13 +8923,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹5,320",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-mantra-pro-m-h-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga Mantra Pro (M/H) table tennis product official image"
+    "searchImageQuery": "Stiga Stiga Mantra Pro (M/H) table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-symmetry-short-pimple-1-9",
@@ -8139,13 +8955,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹5,320",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-symmetry-short-pimple-1-9-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga Symmetry (Short Pimple) 1.9 table tennis product official image"
+    "searchImageQuery": "Stiga Stiga Symmetry (Short Pimple) 1.9 table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-mantra-sound",
@@ -8163,13 +8987,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹3,610",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-mantra-sound-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga Mantra Sound table tennis product official image"
+    "searchImageQuery": "Stiga Stiga Mantra Sound table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-mantra-control",
@@ -8187,13 +9019,21 @@ const seedProducts = [
       "Brand: Stiga",
       "Category: Rubber",
       "MRP: ₹2,470",
-      "Price source: supplied price list"
+      "Price source: supplied price list",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/stiga-stiga-mantra-control-stiga-safe.svg",
-    "searchImageQuery": "Stiga Stiga Mantra Control table tennis product official image"
+    "searchImageQuery": "Stiga Stiga Mantra Control table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "stiga-stiga-haze-double-racket-case",
@@ -8428,14 +9268,22 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,349",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-v52-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H V52.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H V52.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-v52-5-black",
@@ -8454,14 +9302,22 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,349",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-v52-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H V52.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H V52.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-v47-5-red",
@@ -8480,14 +9336,22 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹5,299",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-v47-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H V47.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H V47.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-v47-5-black",
@@ -8506,14 +9370,22 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹5,299",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-v47-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H V47.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H V47.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-x50-0-red",
@@ -8532,13 +9404,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,569",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-x50-0-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H X50.0 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H X50.0 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-x50-0-black",
@@ -8557,13 +9437,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,569",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-x50-0-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H X50.0 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H X50.0 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-x47-5-red",
@@ -8582,13 +9470,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹7,619",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-x47-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H X47.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H X47.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-x47-5-black",
@@ -8607,13 +9503,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹7,619",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-x47-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H X47.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H X47.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-h-52-5-red",
@@ -8632,13 +9536,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,409",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-h-52-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H H 52.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H H 52.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-h-52-5-black",
@@ -8657,13 +9569,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,409",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-h-52-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H H 52.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H H 52.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-c52-5-red",
@@ -8682,13 +9602,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹8,829",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-c52-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H C52.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H C52.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-c52-5-black",
@@ -8707,13 +9635,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹8,829",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-c52-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H C52.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H C52.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-c55-0-red",
@@ -8732,13 +9668,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹7,779",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-c55-0-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H C55.0 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H C55.0 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-c55-0-black",
@@ -8757,13 +9701,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹7,779",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-c55-0-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H C55.0 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H C55.0 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-c57-5-red",
@@ -8782,13 +9734,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹7,889",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-c57-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H C57.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H C57.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-c57-5-black",
@@ -8807,13 +9767,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹7,889",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-c57-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H C57.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H C57.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-z52-5-red",
@@ -8832,13 +9800,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹9,489",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-z52-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H Z52.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H Z52.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-jandh-z52-5-black",
@@ -8857,13 +9833,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹9,489",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-jandh-z52-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom J&H Z52.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom J&H Z52.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-4-euro-red",
@@ -8882,13 +9866,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹5,199",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-4-euro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 4 Euro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 4 Euro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-4-euro-black",
@@ -8907,13 +9899,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹5,199",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-4-euro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 4 Euro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 4 Euro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-4-pro-red",
@@ -8932,13 +9932,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹5,529",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-4-pro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 4 Pro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 4 Pro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-4-pro-black",
@@ -8957,13 +9965,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹5,529",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-4-pro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 4 Pro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 4 Pro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-5-pro-red",
@@ -8982,13 +9998,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹5,909",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-5-pro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 5 Pro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 5 Pro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-5-pro-black",
@@ -9007,13 +10031,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹5,909",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-5-pro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 5 Pro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 5 Pro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-5-asia-red",
@@ -9032,13 +10064,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,189",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-5-asia-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 5 Asia - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 5 Asia - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-5-asia-black",
@@ -9057,13 +10097,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,189",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-5-asia-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 5 Asia - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 5 Asia - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-asia-red",
@@ -9082,13 +10130,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,189",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-asia-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Asia - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Asia - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-asia-black",
@@ -9107,13 +10163,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,189",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-asia-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Asia - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Asia - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-euro-red",
@@ -9132,13 +10196,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,189",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-euro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Euro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Euro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-euro-black",
@@ -9157,13 +10229,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,189",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-euro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Euro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Euro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-pro-red",
@@ -9182,12 +10262,20 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,569",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-7-pro/466/category/182/display/1/",
     "imageStatus": "official",
     "imageSource": "XIOM official exact product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-pro-black",
@@ -9206,12 +10294,20 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,569",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-7-pro/466/category/182/display/1/",
     "imageStatus": "official",
     "imageSource": "XIOM official exact product page",
-    "hasActualProductImage": true
+    "hasActualProductImage": true,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-pro-red",
@@ -9230,14 +10326,22 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹7,619",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-8-pro/1129",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-pro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 Pro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 Pro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-pro-black",
@@ -9256,14 +10360,22 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹7,619",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-8-pro/1129",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-pro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 Pro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 Pro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-china-red",
@@ -9282,13 +10394,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹7,889",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-china-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 China - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 China - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-china-black",
@@ -9307,13 +10427,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹7,889",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-china-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 China - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 China - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-euro-red",
@@ -9332,13 +10460,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,569",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-euro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 Euro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 Euro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-euro-black",
@@ -9357,13 +10493,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,569",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-euro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 Euro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 Euro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-hybrid-red",
@@ -9382,13 +10526,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,349",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-hybrid-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-8-hybrid-black",
@@ -9407,13 +10559,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,349",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-8-hybrid-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-50-red",
@@ -9432,13 +10592,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹7,999",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-50-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-50-black",
@@ -9457,13 +10625,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹7,999",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-50-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-47-5-red",
@@ -9482,13 +10658,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹8,109",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-47-5-black",
@@ -9507,13 +10691,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹8,109",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-pro-red",
@@ -9532,13 +10724,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹4,539",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Pro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Pro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-pro-black",
@@ -9557,13 +10757,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹4,539",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Pro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Pro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-euro-red",
@@ -9582,13 +10790,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹4,869",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-euro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Euro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Euro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-euro-black",
@@ -9607,13 +10823,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹4,869",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-euro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Euro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Euro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-intro-red",
@@ -9632,13 +10856,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹3,599",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-intro-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Intro - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Intro - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-intro-black",
@@ -9657,13 +10889,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹3,599",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-intro-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Intro - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Intro - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-japan-red",
@@ -9682,13 +10922,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹4,869",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-japan-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Japan - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Japan - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-japan-black",
@@ -9707,13 +10955,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹4,869",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-japan-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Japan - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Japan - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-korea-black",
@@ -9732,13 +10988,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹5,089",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-korea-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Korea - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Korea - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-korea-blue",
@@ -9757,13 +11021,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Blue",
       "MRP: ₹5,089",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-korea-blue-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Korea - Blue table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Korea - Blue table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-x-red",
@@ -9782,13 +11054,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹4,649",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-x-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega X - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega X - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-x-black",
@@ -9807,13 +11087,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹4,649",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-x-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega X - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega X - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-pro-hybrid-red",
@@ -9832,13 +11120,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹6,409",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-hybrid-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-pro-hybrid-black",
@@ -9857,13 +11153,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹6,409",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-hybrid-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-tour-red",
@@ -9882,13 +11186,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red",
       "MRP: ₹5,529",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-tour-red-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Tour - Red table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Tour - Red table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-vega-tour-black",
@@ -9907,13 +11219,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Black",
       "MRP: ₹5,529",
-      "Source: Xiom price list effective 20 Mar 2026"
+      "Source: Xiom price list effective 20 Mar 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/xiom-xiom-vega-tour-black-xiom-safe.svg",
-    "searchImageQuery": "Xiom Xiom Vega Tour - Black table tennis product official image"
+    "searchImageQuery": "Xiom Xiom Vega Tour - Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "xiom-xiom-ice-cream-azxi-orangeaxylium",
@@ -11554,14 +12874,22 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹9,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/nuzn-50",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-nuzn-50-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Nuzn 50 max table tennis product official image"
+    "searchImageQuery": "Andro Andro Nuzn 50 max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-nuzn-55-max",
@@ -11579,14 +12907,22 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹9,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/nuzn-55",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-nuzn-55-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Nuzn 55 max table tennis product official image"
+    "searchImageQuery": "Andro Andro Nuzn 55 max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-nuzn-48-max",
@@ -11604,13 +12940,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹7,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-nuzn-48-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Nuzn 48 max table tennis product official image"
+    "searchImageQuery": "Andro Andro Nuzn 48 max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-nuzn-45-max",
@@ -11628,13 +12972,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹6,000",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-nuzn-45-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Nuzn 45 max table tennis product official image"
+    "searchImageQuery": "Andro Andro Nuzn 45 max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-good-max",
@@ -11652,13 +13004,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹2,400",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-good-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Good max table tennis product official image"
+    "searchImageQuery": "Andro Andro Good max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-gtt-45-max",
@@ -11676,13 +13036,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹3,600",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-gtt-45-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro GTT 45 max table tennis product official image"
+    "searchImageQuery": "Andro Andro GTT 45 max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-bype",
@@ -11700,13 +13068,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹4,600",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-bype-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Bype table tennis product official image"
+    "searchImageQuery": "Andro Andro Bype table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-hexer-duro-max",
@@ -11724,13 +13100,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹5,000",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-hexer-duro-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Hexer Duro max table tennis product official image"
+    "searchImageQuery": "Andro Andro Hexer Duro max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-powergrip-max",
@@ -11748,13 +13132,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹5,400",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-powergrip-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Powergrip max table tennis product official image"
+    "searchImageQuery": "Andro Andro Powergrip max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-r-42-ultramax",
@@ -11772,13 +13164,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹6,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-r-42-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter R 42 ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter R 42 ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-r-47-ultramax",
@@ -11796,14 +13196,22 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹6,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/node/46",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-r-47-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter R 47 ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter R 47 ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-r-50-ultramax",
@@ -11821,14 +13229,22 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹6,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/node/45",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-r-50-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter R 50 ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter R 50 ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-r-45-ultramax",
@@ -11846,13 +13262,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹7,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-r-45-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter R 45 Ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter R 45 Ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-r-48-ultramax",
@@ -11870,13 +13294,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹7,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-r-48-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter R 48 Ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter R 48 Ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-r-53-max",
@@ -11894,14 +13326,22 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹7,200",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/node/44",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-r-53-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter R 53 max table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter R 53 max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-c-45-ultramax",
@@ -11919,14 +13359,22 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹7,400",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/rasanter-c45",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-c-45-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter C 45 Ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter C 45 Ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-c-48-ultramax",
@@ -11944,13 +13392,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹7,400",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-c-48-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter C 48 Ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter C 48 Ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-rasanter-c-53-ultramax",
@@ -11968,14 +13424,22 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹7,400",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/rasanter-c53",
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-rasanter-c-53-ultramax-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Rasanter C 53 Ultramax table tennis product official image"
+    "searchImageQuery": "Andro Andro Rasanter C 53 Ultramax table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-blowfish-max",
@@ -11993,13 +13457,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹5,400",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-blowfish-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Blowfish max table tennis product official image"
+    "searchImageQuery": "Andro Andro Blowfish max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-blowfish-plus-max",
@@ -12017,13 +13489,21 @@ const seedProducts = [
       "Brand: Andro",
       "Category: Rubbers",
       "MRP: ₹5,400",
-      "Source: Andro dealer price list W.E.F. 21 Jan 2026"
+      "Source: Andro dealer price list W.E.F. 21 Jan 2026",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-blowfish-plus-max-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Blowfish Plus max table tennis product official image"
+    "searchImageQuery": "Andro Andro Blowfish Plus max table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   },
   {
     "id": "andro-andro-blowfish-1-8",
@@ -12791,13 +14271,21 @@ const seedProducts = [
       "Category: Rubbers",
       "Colour: Red / Black",
       "MRP: ₹1,500",
-      "Source: user-provided Dawei product details"
+      "Source: user-provided Dawei product details",
+      "Max thickness: MAX",
+      "Colour options: Red / Black"
     ],
     "imageStatus": "web-search-product-image",
     "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/dawei-dawei-388d-2-ox-table-tennis-rubber-red-black-dawei-safe.svg",
-    "searchImageQuery": "Dawei Dawei 388D-2 OX Table Tennis Rubber - Red / Black table tennis product official image"
+    "searchImageQuery": "Dawei Dawei 388D-2 OX Table Tennis Rubber - Red / Black table tennis product official image",
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
   }
 ];
 
@@ -15814,4 +17302,438 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("DOMContentLoaded", clickVisibleSaveButtonFallback);
   setTimeout(clickVisibleSaveButtonFallback, 300);
   setTimeout(clickVisibleSaveButtonFallback, 900);
+})();
+
+
+/* FINAL: rubber colour options + max thickness display */
+(function () {
+  function ttwMoneyFinal(value) {
+    try {
+      return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+    } catch (error) {
+      return "₹" + Number(value || 0).toLocaleString("en-IN");
+    }
+  }
+
+  function ttwCapFinal(value) {
+    return String(value || "").replace(/-/g, " ").replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function allProductsFinal() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || localStorage.getItem("table-tennis-wala-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+    return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+  }
+
+  function isRubber(product) {
+    return String(product?.category || "").toLowerCase() === "rubbers";
+  }
+
+  function maxThicknessLabel(product) {
+    return product.maxThickness || product.thickness || "MAX";
+  }
+
+  function cardImageFinal(product) {
+    if (typeof productArtwork === "function") return productArtwork(product);
+    if (product.image) {
+      const fallback = product.fallbackImage ? `this.onerror=null;this.src='${product.fallbackImage}';` : `this.onerror=null;this.style.display='none';`;
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallback}">`;
+    }
+    return "";
+  }
+
+  function rubberCardSpecs(product) {
+    if (!isRubber(product)) return "";
+    return `<div class="rubber-card-specs">
+      <span class="rubber-spec-pill">Red / Black</span>
+      <span class="rubber-spec-pill">Max thickness ${maxThicknessLabel(product)}</span>
+    </div>`;
+  }
+
+  window.productCard = function productCard(product) {
+    return `<article class="product-card" data-product-card="${product.id}">
+      <div class="product-visual" data-view-product="${product.id}">
+        <span class="product-badge">${product.badge || ttwCapFinal(product.brand)}</span>
+        ${cardImageFinal(product)}
+        <button class="quick-add" data-add-product="${product.id}">Add to cart</button>
+      </div>
+      <div class="product-info" data-view-product="${product.id}">
+        <div class="product-topline">
+          <h3 class="product-name">${product.name}</h3>
+          <span class="product-price">${ttwMoneyFinal(product.price)}</span>
+        </div>
+        <div class="product-meta">
+          <span>${ttwCapFinal(product.brand)} • ${ttwCapFinal(product.category)}</span>
+          <span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span>
+        </div>
+        ${rubberCardSpecs(product)}
+        <span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
+      </div>
+    </article>`;
+  };
+
+  function productImageFinal(product) {
+    if (product.image) {
+      const fallback = product.fallbackImage ? `this.onerror=null;this.src='${product.fallbackImage}';` : `this.onerror=null;this.style.display='none';`;
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallback}">`;
+    }
+    return `<div class="product-art art-${product.category || "rackets"}" style="--product-color:${product.color || "#d7ff3f"}"></div>`;
+  }
+
+  function rubberDetailOptions(product) {
+    if (!isRubber(product)) return "";
+    return `<div class="rubber-detail-options">
+      <div class="rubber-option-head">
+        <div>
+          <small>Rubber options</small>
+          <h3>Select colour and thickness</h3>
+        </div>
+        <span>Max thickness ${maxThicknessLabel(product)}</span>
+      </div>
+
+      <div class="rubber-colour-options" role="group" aria-label="Rubber colour options">
+        <button type="button" class="rubber-colour-button active" data-rubber-colour="Red">
+          <i class="rubber-colour-dot red"></i>
+          Red
+        </button>
+        <button type="button" class="rubber-colour-button" data-rubber-colour="Black">
+          <i class="rubber-colour-dot black"></i>
+          Black
+        </button>
+      </div>
+
+      <p class="rubber-selected-note">Selected colour: <strong data-selected-rubber-colour>Red</strong> • Thickness: <strong>${maxThicknessLabel(product)}</strong></p>
+    </div>`;
+  }
+
+  function renderFinalProductDetail() {
+    const root = document.getElementById("productDetail");
+    if (!root) return;
+
+    const id = new URLSearchParams(location.search).get("id");
+    const product = allProductsFinal().find(item => item.id === id);
+    if (!product) return;
+
+    const features = Array.isArray(product.features) && product.features.length
+      ? product.features
+      : [
+          `Brand: ${ttwCapFinal(product.brand)}`,
+          `Category: ${ttwCapFinal(product.category)}`,
+          `MRP: ${ttwMoneyFinal(product.price)}`
+        ];
+
+    const gallery = Array.isArray(product.gallery) && product.gallery.length ? product.gallery : [product.image].filter(Boolean);
+
+    root.innerHTML = `<div class="product-detail-page">
+      <div class="product-detail-media">
+        <span class="product-badge detail-badge">${product.badge || ttwCapFinal(product.brand)}</span>
+        ${productImageFinal(product)}
+        ${gallery.length > 1 ? `<div class="product-detail-thumbs">${gallery.map((img, i) => `<button type="button" class="detail-thumb${i === 0 ? " active" : ""}" data-detail-thumb="${img}"><img src="${img}" alt="${product.name} view ${i + 1}" loading="lazy"></button>`).join("")}</div>` : ""}
+      </div>
+
+      <div class="product-detail-copy">
+        <a class="back-link" href="products.html">← Back to products</a>
+        <span class="eyebrow">${ttwCapFinal(product.brand)} • ${ttwCapFinal(product.category)}</span>
+        <h1>${product.name}</h1>
+        <div class="product-detail-price-row">
+          <strong>${ttwMoneyFinal(product.price)}</strong>
+          <span><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7} (${product.reviews || 0})</span>
+        </div>
+        <p>${product.description || "Premium table tennis product listed with MRP pricing."}</p>
+
+        ${rubberDetailOptions(product)}
+
+        <div class="product-detail-actions">
+          <button class="button dark-btn" type="button" data-add-product="${product.id}">Add to cart</button>
+          <a class="button ghost-btn" href="customize.html">Use in custom build</a>
+        </div>
+
+        <div class="detail-info-grid">
+          <div><small>Brand</small><b>${ttwCapFinal(product.brand)}</b></div>
+          <div><small>Category</small><b>${ttwCapFinal(product.category)}</b></div>
+          <div><small>MRP</small><b>${ttwMoneyFinal(product.price)}</b></div>
+          <div><small>${isRubber(product) ? "Thickness" : "Image"}</small><b>${isRubber(product) ? maxThicknessLabel(product) : (product.imageStatus ? ttwCapFinal(product.imageStatus) : "Product photo")}</b></div>
+        </div>
+
+        <div class="product-detail-features">
+          <h3>Product details</h3>
+          <ul>${features.map(feature => `<li>${feature}</li>`).join("")}</ul>
+        </div>
+
+        ${product.officialProductUrl ? `<a class="official-product-link" href="${product.officialProductUrl}" target="_blank" rel="noopener">View source/product page <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></a>` : ""}
+      </div>
+    </div>`;
+
+    root.querySelectorAll("[data-detail-thumb]").forEach(button => {
+      button.addEventListener("click", () => {
+        const img = root.querySelector(".product-detail-media > img");
+        if (img) img.src = button.dataset.detailThumb;
+        root.querySelectorAll(".detail-thumb").forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+      });
+    });
+
+    root.querySelectorAll("[data-rubber-colour]").forEach(button => {
+      button.addEventListener("click", () => {
+        root.querySelectorAll("[data-rubber-colour]").forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        const selected = root.querySelector("[data-selected-rubber-colour]");
+        if (selected) selected.textContent = button.dataset.rubberColour;
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      if (typeof window.forceRenderProducts === "function") {
+        window.forceRenderProducts();
+      }
+      renderFinalProductDetail();
+    }, 900);
+  });
+
+  setTimeout(renderFinalProductDetail, 1300);
+})();
+
+
+/* FINAL: auto-scroll through visual customizer and highlight checkout */
+(function () {
+  const nextSlot = {
+    blade: "forehand",
+    forehand: "backhand",
+    backhand: "accessories"
+  };
+
+  function headerOffset() {
+    return window.innerWidth <= 760 ? 88 : 108;
+  }
+
+  function scrollToCustomizerPart(slot) {
+    const target = document.querySelector(`[data-vc-slot="${slot}"]`);
+    if (!target) return;
+
+    const y = target.getBoundingClientRect().top + window.pageYOffset - headerOffset();
+    window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+
+    target.classList.add("vc-scroll-focus");
+    setTimeout(() => target.classList.remove("vc-scroll-focus"), 1400);
+  }
+
+  function highlightCheckout() {
+    const summary = document.querySelector(".vc-summary");
+    if (!summary) return;
+    summary.classList.add("vc-checkout-highlight");
+    setTimeout(() => summary.classList.remove("vc-checkout-highlight"), 1800);
+  }
+
+  document.addEventListener("click", event => {
+    const card = event.target.closest(".vc-card");
+    if (!card) return;
+
+    const slot = card.dataset.cardSlot;
+    const next = nextSlot[slot];
+
+    if (next) {
+      setTimeout(() => scrollToCustomizerPart(next), 180);
+    } else if (slot === "accessories") {
+      setTimeout(() => highlightCheckout(), 180);
+    }
+  });
+
+  document.addEventListener("click", event => {
+    const service = event.target.closest(".vc-service");
+    if (!service) return;
+    setTimeout(() => highlightCheckout(), 120);
+  });
+})();
+
+
+/* FINAL: inline rubber colour selection on product cards; no rubber colour popup */
+(function () {
+  const RUBBER_COLOURS_FINAL = {
+    red: { label: "Red", hex: "#e3342f" },
+    black: { label: "Black", hex: "#111311" }
+  };
+
+  function moneyFinal(value) {
+    try {
+      return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+    } catch (error) {
+      return "₹" + Number(value || 0).toLocaleString("en-IN");
+    }
+  }
+
+  function capFinal(value) {
+    return String(value || "").replace(/-/g, " ").replace(/\b\w/g, char => char.toUpperCase());
+  }
+
+  function isRubberFinal(product) {
+    return String(product?.category || "").toLowerCase() === "rubbers";
+  }
+
+  function maxThicknessFinal(product) {
+    return product.maxThickness || product.thickness || "MAX";
+  }
+
+  function allProductsFinal() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || localStorage.getItem("table-tennis-wala-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+    return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+  }
+
+  function cardImageFinal(product) {
+    if (typeof productArtwork === "function") return productArtwork(product);
+    if (product.image) {
+      const fallback = product.fallbackImage ? `this.onerror=null;this.src='${product.fallbackImage}';` : `this.onerror=null;this.style.display='none';`;
+      return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallback}">`;
+    }
+    return "";
+  }
+
+  function rubberInlineControls(product) {
+    if (!isRubberFinal(product)) return "";
+    return `<div class="inline-rubber-panel" data-inline-rubber-panel>
+      <div class="inline-rubber-labels">
+        <span>Colour: <b data-inline-colour-label>Red</b></span>
+        <span>Thickness: <b>${maxThicknessFinal(product)}</b></span>
+      </div>
+      <div class="inline-rubber-buttons" role="group" aria-label="Choose rubber colour">
+        <button type="button" class="inline-rubber-colour active" data-card-rubber-colour="red">
+          <i></i> Red
+        </button>
+        <button type="button" class="inline-rubber-colour" data-card-rubber-colour="black">
+          <i></i> Black
+        </button>
+      </div>
+    </div>`;
+  }
+
+  function rubberCardSpecsFinal(product) {
+    if (!isRubberFinal(product)) return "";
+    return `<div class="rubber-card-specs">
+      <span class="rubber-spec-pill">Red / Black</span>
+      <span class="rubber-spec-pill">Max thickness ${maxThicknessFinal(product)}</span>
+    </div>`;
+  }
+
+  function productCardFinal(product) {
+    return `<article class="product-card" data-product-card="${product.id}" ${isRubberFinal(product) ? 'data-selected-rubber-colour="red"' : ""}>
+      <div class="product-visual" data-view-product="${product.id}">
+        <span class="product-badge">${product.badge || capFinal(product.brand)}</span>
+        ${cardImageFinal(product)}
+        <button class="quick-add" data-add-product="${product.id}">Add to cart</button>
+      </div>
+      <div class="product-info" data-view-product="${product.id}">
+        <div class="product-topline">
+          <h3 class="product-name">${product.name}</h3>
+          <span class="product-price">${moneyFinal(product.price)}</span>
+        </div>
+        <div class="product-meta">
+          <span>${capFinal(product.brand)} • ${capFinal(product.category)}</span>
+          <span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span>
+        </div>
+        ${rubberCardSpecsFinal(product)}
+        ${rubberInlineControls(product)}
+        <span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
+      </div>
+    </article>`;
+  }
+
+  window.productCard = productCardFinal;
+
+  // In many browsers, a global function declaration is also writable via this assignment.
+  try { productCard = productCardFinal; } catch (error) {}
+
+  function selectedColourFromCard(button) {
+    const card = button.closest("[data-product-card]");
+    const value = card?.dataset.selectedRubberColour || "red";
+    return RUBBER_COLOURS_FINAL[value] || RUBBER_COLOURS_FINAL.red;
+  }
+
+  function addProductWithInlineColour(productId, trigger) {
+    const product = allProductsFinal().find(item => item.id === productId);
+    if (!product) return;
+
+    if (!isRubberFinal(product)) {
+      if (typeof addToCart === "function") addToCart(product);
+      return;
+    }
+
+    const selected = selectedColourFromCard(trigger);
+    const value = selected.label.toLowerCase();
+
+    if (typeof addToCart === "function") {
+      addToCart({
+        ...product,
+        cartId: `${product.id}-${value}`,
+        details: `Rubber colour: ${selected.label}<br>Thickness: ${maxThicknessFinal(product)}`,
+        selectedRubberColour: selected.label,
+        color: selected.hex
+      });
+    }
+  }
+
+  // Capture-phase handler prevents the older addProductById() logic from opening the rubber popup.
+  document.addEventListener("click", event => {
+    const colourButton = event.target.closest("[data-card-rubber-colour]");
+    if (colourButton) {
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+
+      const card = colourButton.closest("[data-product-card]");
+      const value = colourButton.dataset.cardRubberColour || "red";
+      card.dataset.selectedRubberColour = value;
+
+      card.querySelectorAll("[data-card-rubber-colour]").forEach(button => button.classList.remove("active"));
+      colourButton.classList.add("active");
+
+      const label = card.querySelector("[data-inline-colour-label]");
+      if (label) label.textContent = RUBBER_COLOURS_FINAL[value]?.label || "Red";
+      return;
+    }
+
+    const addButton = event.target.closest("[data-add-product]");
+    if (addButton) {
+      const product = allProductsFinal().find(item => item.id === addButton.dataset.addProduct);
+      if (product && isRubberFinal(product)) {
+        event.preventDefault();
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        addProductWithInlineColour(addButton.dataset.addProduct, addButton);
+      }
+    }
+  }, true);
+
+  // Disable older rubber-colour modal path if any older handler directly calls addProductById().
+  const oldAddProductById = window.addProductById;
+  window.addProductById = function addProductByIdInline(productId) {
+    const product = allProductsFinal().find(item => item.id === productId);
+    if (product && isRubberFinal(product)) {
+      const card = document.querySelector(`[data-product-card="${CSS.escape(productId)}"]`);
+      addProductWithInlineColour(productId, card || document.body);
+      return;
+    }
+    if (typeof oldAddProductById === "function") return oldAddProductById(productId);
+    if (product && typeof addToCart === "function") addToCart(product);
+  };
+
+  // Hide the external rubber modal colour picker UI if any old modal is created.
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      document.querySelectorAll(".rubber-colour-picker, #modalRubberColours").forEach(el => el.remove());
+    }, 400);
+
+    setTimeout(() => {
+      if (typeof window.forceRenderProducts === "function") window.forceRenderProducts();
+    }, 850);
+  });
 })();
