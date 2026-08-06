@@ -445,3 +445,14 @@ JS syntax check: OK
 - Cart details now include selected rubber colour and max thickness for rubber products.
 - Hid the old modal rubber-colour picker as a safeguard.
 - Checks: {'inline_colour_js': True, 'modal_picker_hidden': True, 'js_check': 'JS syntax OK'}
+
+- Fixed mobile product cards so product images are smaller and fully visible.
+- Reduced mobile product visual height, image max-size, card text sizing and spacing.
+- Product images now use object-fit: contain with max-width/max-height on mobile.
+- JS check: JS syntax OK
+
+- Fixed Customize page brand names not fitting on mobile.
+- Desktop/tablet brand tabs now scroll horizontally instead of clipping.
+- Mobile now shows a clean Choose brand dropdown for each customizer step.
+- Dropdown changes trigger the existing brand-filter logic for the visual customizer.
+- Checks: {'dropdown_js': True, 'dropdown_css': True, 'js_check': 'JS syntax OK'}

@@ -17737,3 +17737,83 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 850);
   });
 })();
+
+
+/* FINAL: Customize page brand dropdown fallback for small screens */
+(function () {
+  function labelFromBrand(value) {
+    const map = {
+      joola: "JOOLA",
+      tibhar: "Tibhar",
+      dhs: "DHS",
+      butterfly: "Butterfly",
+      yinhe: "YinHe",
+      stiga: "Stiga",
+      xiom: "Xiom",
+      andro: "Andro",
+      dawei: "Dawei"
+    };
+    return map[value] || String(value || "").replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  function syncOneDropdown(tabs) {
+    const slot = tabs.dataset.vcTabs;
+    if (!slot) return;
+
+    let wrap = tabs.querySelector(".vc-brand-select-wrap");
+    if (!wrap) {
+      wrap = document.createElement("div");
+      wrap.className = "vc-brand-select-wrap";
+      wrap.innerHTML = `
+        <label>Choose brand</label>
+        <select class="vc-brand-select" aria-label="Choose ${slot} brand"></select>
+      `;
+      tabs.prepend(wrap);
+    }
+
+    const select = wrap.querySelector("select");
+    const buttons = [...tabs.querySelectorAll(".vc-tab")];
+
+    if (!buttons.length) return;
+
+    const optionsHtml = buttons.map(button => {
+      const brand = button.dataset.brand || "";
+      return `<option value="${brand}">${labelFromBrand(brand)}</option>`;
+    }).join("");
+
+    if (select.dataset.optionsHtml !== optionsHtml) {
+      select.innerHTML = optionsHtml;
+      select.dataset.optionsHtml = optionsHtml;
+    }
+
+    const active = buttons.find(button => button.classList.contains("active")) || buttons[0];
+    if (active && select.value !== active.dataset.brand) {
+      select.value = active.dataset.brand || "";
+    }
+
+    if (select.dataset.vcBrandDropdownBound !== "true") {
+      select.dataset.vcBrandDropdownBound = "true";
+      select.addEventListener("change", () => {
+        const target = [...tabs.querySelectorAll(".vc-tab")].find(button => button.dataset.brand === select.value);
+        if (target) target.click();
+      });
+    }
+  }
+
+  function setupCustomizerBrandDropdowns() {
+    document.querySelectorAll(".vc-tabs[data-vc-tabs]").forEach(syncOneDropdown);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setupCustomizerBrandDropdowns();
+    setTimeout(setupCustomizerBrandDropdowns, 250);
+    setTimeout(setupCustomizerBrandDropdowns, 800);
+    setTimeout(setupCustomizerBrandDropdowns, 1500);
+  });
+
+  document.addEventListener("click", event => {
+    if (event.target.closest(".vc-tab")) {
+      setTimeout(setupCustomizerBrandDropdowns, 80);
+    }
+  });
+})();
