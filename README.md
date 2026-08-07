@@ -456,3 +456,48 @@ JS syntax check: OK
 - Mobile now shows a clean Choose brand dropdown for each customizer step.
 - Dropdown changes trigger the existing brand-filter logic for the visual customizer.
 - Checks: {'dropdown_js': True, 'dropdown_css': True, 'js_check': 'JS syntax OK'}
+
+- Fixed mobile alignment/clipping issues for homepage service-card buttons and text.
+- Removed the old overlay Add to cart button from product images.
+- Added Add to cart below rubber colour options on product cards.
+- Added Buy now below Add to cart; it adds the product and redirects to cart.html for purchase.
+- Added Buy now to individual product detail pages as well.
+- Checks: {'card_actions_js': True, 'quick_add_hidden': True, 'alignment_css': False, 'js_check': 'JS syntax OK'}
+
+- Fixed mobile product image cropping by forcing product images to use smaller contained sizing.
+- Product image containers now center images and keep them fully visible on mobile.
+- Reduced mobile image max-width and max-height so packaging images do not get covered.
+- Source ZIP: table-tennis-wala-product-actions-alignment-fixed.zip
+- JS check: JS syntax OK
+
+- Fixed mobile homepage service-card text/button alignment.
+- Matched service section background to the homepage paper colour.
+- Prevented text/button clipping inside Shop Premium Brands and Club Essentials cards.
+- Improved mobile spacing, card padding and background colours.
+- Source ZIP: table-tennis-wala-mobile-image-contain-fixed.zip
+- JS check: JS syntax OK
+
+- Highlighted the product detail page Add to cart button with a strong dark button, lime plus icon and stronger shadow.
+- Kept Buy now highlighted in lime below it.
+- Source ZIP: table-tennis-wala-mobile-card-alignment-fixed.zip
+- JS check: JS syntax OK
+
+- Fixed rubber colour selection delay on product detail pages using capture-phase event handling.
+- Red/Black selection now updates active state and selected-colour text instantly.
+- Add to cart and Buy now now use the currently selected rubber colour immediately.
+- Reduced CSS transition time on rubber colour buttons.
+- Source ZIP: table-tennis-wala-highlight-add-cart-fixed.zip
+- JS check: JS syntax OK
+
+- Fixed cart drawer overlap with the navbar on mobile and laptop.
+- Cart drawer now starts below the navbar and uses viewport-safe height.
+- Added a visible close cart button/header inside the cart drawer.
+- Escape key and close button both close the cart drawer.
+- Source ZIP: table-tennis-wala-rubber-color-instant-fixed.zip
+- Checks: {'cart_close_js': True, 'cart_no_overlap_css': True, 'js_check': 'JS syntax OK'}
+
+- Removed the duplicate close cart button from the cart drawer.
+- Kept only the top black close button inside the cart drawer header.
+- Added JS cleanup and CSS fallback so duplicate close buttons do not reappear when cart opens.
+- Source ZIP: table-tennis-wala-cart-drawer-fix.zip
+- Checks: {'single_close_js': True, 'single_close_css': True, 'js_check': 'JS syntax OK'}

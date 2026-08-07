@@ -17817,3 +17817,242 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 })();
+
+
+/* FINAL: product-card actions below rubber options + Buy Now */
+(function () {
+  const RUBBER_COLOURS = { red: { label: "Red", hex: "#e3342f" }, black: { label: "Black", hex: "#111311" } };
+  function money(value){try{return new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(Number(value||0));}catch(e){return "₹"+Number(value||0).toLocaleString("en-IN");}}
+  function cap(value){return String(value||"").replace(/-/g," ").replace(/\b\w/g,c=>c.toUpperCase());}
+  function allProducts(){let admin=[];try{admin=JSON.parse(localStorage.getItem("ttw-admin-products")||localStorage.getItem("table-tennis-wala-admin-products")||"[]");}catch(e){admin=[];}return [...(typeof seedProducts!=="undefined"?seedProducts:[]),...admin];}
+  function isRubber(product){return String(product?.category||"").toLowerCase()==="rubbers";}
+  function maxThickness(product){return product.maxThickness||product.thickness||"MAX";}
+  function image(product){if(typeof productArtwork==="function")return productArtwork(product);if(product.image){const fallback=product.fallbackImage?`this.onerror=null;this.src='${product.fallbackImage}';`:`this.onerror=null;this.style.display='none';`;return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallback}">`;}return "";}
+  function rubberSpecs(product){if(!isRubber(product))return "";return `<div class="rubber-card-specs"><span class="rubber-spec-pill">Red / Black</span><span class="rubber-spec-pill">Max thickness ${maxThickness(product)}</span></div><div class="inline-rubber-panel" data-inline-rubber-panel><div class="inline-rubber-labels"><span>Colour: <b data-inline-colour-label>Red</b></span><span>Thickness: <b>${maxThickness(product)}</b></span></div><div class="inline-rubber-buttons" role="group" aria-label="Choose rubber colour"><button type="button" class="inline-rubber-colour active" data-card-rubber-colour="red"><i></i> Red</button><button type="button" class="inline-rubber-colour" data-card-rubber-colour="black"><i></i> Black</button></div></div>`;}
+  function actions(product){return `<div class="product-card-actions"><button type="button" class="product-action-btn product-add-btn" data-add-product="${product.id}">Add to cart</button><button type="button" class="product-action-btn product-buy-btn" data-buy-now-product="${product.id}">Buy now</button></div>`;}
+  function productCardFinal(product){return `<article class="product-card" data-product-card="${product.id}" ${isRubber(product)?'data-selected-rubber-colour="red"':""}><div class="product-visual" data-view-product="${product.id}"><span class="product-badge">${product.badge||cap(product.brand)}</span>${image(product)}</div><div class="product-info" data-view-product="${product.id}"><div class="product-topline"><h3 class="product-name">${product.name}</h3><span class="product-price">${money(product.price)}</span></div><div class="product-meta"><span>${cap(product.brand)} • ${cap(product.category)}</span><span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating||4.7}<small>(${product.reviews||0})</small></span></div>${rubberSpecs(product)}${actions(product)}<span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span></div></article>`;}
+  window.productCard=productCardFinal; try{productCard=productCardFinal;}catch(e){}
+  function selectedColour(trigger){const card=trigger.closest("[data-product-card]");const value=card?.dataset.selectedRubberColour||"red";return RUBBER_COLOURS[value]||RUBBER_COLOURS.red;}
+  function productFor(id){return allProducts().find(item=>item.id===id);}
+  function addWithOptions(id, trigger){const product=productFor(id);if(!product)return false;if(!isRubber(product)){if(typeof addToCart==="function")addToCart(product);return true;}const colour=selectedColour(trigger||document.body);if(typeof addToCart==="function"){addToCart({...product,cartId:`${product.id}-${colour.label.toLowerCase()}`,details:`Rubber colour: ${colour.label}<br>Thickness: ${maxThickness(product)}`,selectedRubberColour:colour.label,color:colour.hex});}return true;}
+  document.addEventListener("click", event=>{
+    const colourButton=event.target.closest("[data-card-rubber-colour]");
+    if(colourButton){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();const card=colourButton.closest("[data-product-card]");const value=colourButton.dataset.cardRubberColour||"red";if(card)card.dataset.selectedRubberColour=value;card?.querySelectorAll("[data-card-rubber-colour]").forEach(b=>b.classList.remove("active"));colourButton.classList.add("active");const label=card?.querySelector("[data-inline-colour-label]");if(label)label.textContent=RUBBER_COLOURS[value]?.label||"Red";return;}
+    const buyNow=event.target.closest("[data-buy-now-product]");
+    if(buyNow){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();if(addWithOptions(buyNow.dataset.buyNowProduct,buyNow)){setTimeout(()=>{window.location.href=`cart.html?buyNow=${encodeURIComponent(buyNow.dataset.buyNowProduct)}`;},120);}return;}
+    const add=event.target.closest("[data-add-product]");
+    if(add){const product=productFor(add.dataset.addProduct);if(product){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();addWithOptions(add.dataset.addProduct,add);}}
+  }, true);
+  function addBuyNowToDetailPage(){const root=document.getElementById("productDetail");if(!root)return;const id=new URLSearchParams(location.search).get("id");if(!id)return;const actions=root.querySelector(".product-detail-actions");if(actions&&!actions.querySelector("[data-buy-now-product]")){const button=document.createElement("button");button.type="button";button.className="button product-detail-buy-now";button.dataset.buyNowProduct=id;button.textContent="Buy now";actions.appendChild(button);}}
+  document.addEventListener("DOMContentLoaded",()=>{setTimeout(()=>{if(typeof window.forceRenderProducts==="function")window.forceRenderProducts();addBuyNowToDetailPage();},850);setTimeout(addBuyNowToDetailPage,1400);});
+})();
+
+
+/* FINAL: instant rubber colour switching on product detail pages */
+(function () {
+  const COLOURS = {
+    Red: { label: "Red", value: "red", hex: "#e3342f" },
+    Black: { label: "Black", value: "black", hex: "#111311" },
+    red: { label: "Red", value: "red", hex: "#e3342f" },
+    black: { label: "Black", value: "black", hex: "#111311" }
+  };
+
+  function getProductsSafe() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || localStorage.getItem("table-tennis-wala-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+    return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+  }
+
+  function isRubber(product) {
+    return String(product?.category || "").toLowerCase() === "rubbers";
+  }
+
+  function maxThickness(product) {
+    return product?.maxThickness || product?.thickness || "MAX";
+  }
+
+  function updateDetailRubberColour(button) {
+    const value = button.dataset.rubberColour || button.dataset.cardRubberColour || "Red";
+    const colour = COLOURS[value] || COLOURS.Red;
+    const scope = button.closest(".rubber-detail-options") || button.closest("#productDetail") || document;
+
+    scope.querySelectorAll("[data-rubber-colour], .rubber-colour-button").forEach(item => {
+      item.classList.toggle("active", item === button);
+      item.setAttribute("aria-pressed", item === button ? "true" : "false");
+    });
+
+    const selected = scope.querySelector("[data-selected-rubber-colour]");
+    if (selected) selected.textContent = colour.label;
+
+    const note = scope.querySelector(".rubber-selected-note");
+    if (note) {
+      note.innerHTML = `Selected colour: <strong data-selected-rubber-colour>${colour.label}</strong> • Thickness: <strong>${note.textContent.includes("Thickness") ? (note.querySelector("strong:last-child")?.textContent || "MAX") : "MAX"}</strong>`;
+    }
+
+    const root = document.getElementById("productDetail");
+    if (root) {
+      root.dataset.selectedRubberColour = colour.value;
+      root.dataset.selectedRubberLabel = colour.label;
+      root.dataset.selectedRubberHex = colour.hex;
+    }
+  }
+
+  // Capture click immediately before any older listener runs.
+  document.addEventListener("click", event => {
+    const detailColour = event.target.closest("[data-rubber-colour]");
+    if (!detailColour) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+    updateDetailRubberColour(detailColour);
+  }, true);
+
+  // Make detail-page Add to cart/Buy now respect selected colour instantly.
+  document.addEventListener("click", event => {
+    const detailAction = event.target.closest("#productDetail [data-add-product], #productDetail [data-buy-now-product]");
+    if (!detailAction) return;
+
+    const id = detailAction.dataset.addProduct || detailAction.dataset.buyNowProduct;
+    const product = getProductsSafe().find(item => item.id === id);
+    if (!product || !isRubber(product)) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+
+    const root = document.getElementById("productDetail");
+    const selectedValue = root?.dataset.selectedRubberColour || "red";
+    const colour = COLOURS[selectedValue] || COLOURS.red;
+
+    if (typeof addToCart === "function") {
+      addToCart({
+        ...product,
+        cartId: `${product.id}-${colour.value}`,
+        details: `Rubber colour: ${colour.label}<br>Thickness: ${maxThickness(product)}`,
+        selectedRubberColour: colour.label,
+        color: colour.hex
+      });
+    }
+
+    if (detailAction.matches("[data-buy-now-product]")) {
+      setTimeout(() => {
+        window.location.href = `cart.html?buyNow=${encodeURIComponent(id)}`;
+      }, 80);
+    }
+  }, true);
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      const root = document.getElementById("productDetail");
+      if (!root || root.dataset.selectedRubberColour) return;
+      const active = root.querySelector("[data-rubber-colour].active") || root.querySelector("[data-rubber-colour]");
+      if (active) updateDetailRubberColour(active);
+    }, 350);
+  });
+})();
+
+
+/* FINAL: cart drawer close button and navbar-safe positioning */
+(function () {
+  function ensureCartDrawerCloseButton() {
+    const drawer = document.querySelector(".cart-drawer");
+    if (!drawer) return;
+
+    if (!drawer.querySelector(".cart-drawer-topbar")) {
+      const topbar = document.createElement("div");
+      topbar.className = "cart-drawer-topbar";
+      topbar.innerHTML = `
+        <div>
+          <span class="eyebrow">Shopping cart</span>
+          <strong>Your cart</strong>
+        </div>
+        <button type="button" class="cart-drawer-close" data-close-cart aria-label="Close cart">
+          <span class="ttw-icon ttw-icon-close" aria-hidden="true"></span>
+        </button>
+      `;
+      drawer.prepend(topbar);
+    } else if (!drawer.querySelector("[data-close-cart]")) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "cart-drawer-close";
+      button.dataset.closeCart = "";
+      button.setAttribute("aria-label", "Close cart");
+      button.innerHTML = `<span class="ttw-icon ttw-icon-close" aria-hidden="true"></span>`;
+      drawer.querySelector(".cart-drawer-topbar").appendChild(button);
+    }
+  }
+
+  function closeCartDrawerSafely() {
+    document.querySelector(".cart-drawer")?.classList.remove("open");
+    document.querySelector(".page-backdrop")?.classList.remove("open");
+    document.body.classList.remove("locked");
+  }
+
+  document.addEventListener("click", event => {
+    const close = event.target.closest("[data-close-cart], .cart-drawer-close");
+    if (!close) return;
+    event.preventDefault();
+    event.stopPropagation();
+    closeCartDrawerSafely();
+  }, true);
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeCartDrawerSafely();
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    ensureCartDrawerCloseButton();
+    setTimeout(ensureCartDrawerCloseButton, 250);
+    setTimeout(ensureCartDrawerCloseButton, 900);
+  });
+
+  const observer = new MutationObserver(() => ensureCartDrawerCloseButton());
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+  });
+})();
+
+
+/* FINAL: keep only one close button in cart drawer */
+(function () {
+  function removeDuplicateCartCloseButtons() {
+    const drawer = document.querySelector(".cart-drawer");
+    if (!drawer) return;
+
+    const topbar = drawer.querySelector(".cart-drawer-topbar");
+    const topbarClose = topbar?.querySelector(".cart-drawer-close, [data-close-cart]");
+
+    drawer.querySelectorAll("[data-close-cart], .cart-close, .cart-drawer > .product-modal-close").forEach(button => {
+      if (topbarClose && button !== topbarClose && !button.closest(".cart-drawer-topbar")) {
+        button.remove();
+      }
+    });
+
+    drawer.querySelectorAll(".cart-drawer-close").forEach((button, index) => {
+      if (index > 0 && !button.closest(".cart-drawer-topbar")) button.remove();
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    removeDuplicateCartCloseButtons();
+    setTimeout(removeDuplicateCartCloseButtons, 250);
+    setTimeout(removeDuplicateCartCloseButtons, 900);
+  });
+
+  document.addEventListener("click", event => {
+    if (event.target.closest(".cart-toggle, [data-cart-open], [data-open-cart]")) {
+      setTimeout(removeDuplicateCartCloseButtons, 50);
+      setTimeout(removeDuplicateCartCloseButtons, 250);
+    }
+  });
+
+  const observer = new MutationObserver(removeDuplicateCartCloseButtons);
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+  });
+})();
