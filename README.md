@@ -501,3 +501,17 @@ JS syntax check: OK
 - Added JS cleanup and CSS fallback so duplicate close buttons do not reappear when cart opens.
 - Source ZIP: table-tennis-wala-cart-drawer-fix.zip
 - Checks: {'single_close_js': True, 'single_close_css': True, 'js_check': 'JS syntax OK'}
+
+- Fixed Customize page custom build not appearing in cart.
+- Added a reliable custom build add-to-cart handler for #vcAddCart that reads selected blade, forehand, backhand, accessories and assembly service.
+- The custom build is now pushed into the same ttw-cart-v3 cart storage and the cart drawer is re-rendered/opened immediately.
+- Improved custom-build cart detail readability.
+- Source ZIP: table-tennis-wala-single-cart-close-fixed.zip
+- Checks: {'custom_build_fix_js': True, 'cart_key': True, 'js_check': 'JS syntax OK'}
+
+- Fixed custom build showing toast but not appearing in cart drawer.
+- Added a storage-based cart renderer so custom builds are read from ttw-cart-v3 and displayed immediately.
+- Added final #vcAddCart capture handler to build, store, render and open the cart reliably.
+- Added cart item styling so custom build details are visible inside the cart.
+- Source ZIP: table-tennis-wala-custom-build-cart-visible-fixed.zip
+- Checks: {'final_custom_render_fix': True, 'custom_cart_item_css': True, 'js_check': 'JS syntax OK'}

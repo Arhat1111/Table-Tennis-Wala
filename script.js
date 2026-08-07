@@ -18056,3 +18056,405 @@ document.addEventListener("DOMContentLoaded", () => {
     if (document.body) observer.observe(document.body, { childList: true, subtree: true });
   });
 })();
+
+
+/* FINAL: make visual custom build add and show in cart reliably */
+(function () {
+  const CART_KEY = "ttw-cart-v3";
+
+  function moneyNumber(text) {
+    const raw = String(text || "").replace(/[^\d.-]/g, "");
+    return Number(raw || 0);
+  }
+
+  function safeProducts() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+    try {
+      return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+    } catch (error) {
+      return admin;
+    }
+  }
+
+  function productById(id) {
+    return safeProducts().find(product => String(product.id) === String(id));
+  }
+
+  function selectedProduct(slot) {
+    const selected = document.querySelector(`.vc-card.selected[data-card-slot="${slot}"]`);
+    const id = selected?.dataset?.id;
+    return id ? productById(id) : null;
+  }
+
+  function selectedAccessories() {
+    return [...document.querySelectorAll('.vc-card.selected[data-card-slot="accessories"]')]
+      .map(card => productById(card.dataset.id))
+      .filter(Boolean);
+  }
+
+  function selectedColour(slot, fallback) {
+    return document.querySelector(`.vc-colours[data-col-slot="${slot}"] button.active`)?.dataset?.colour || fallback;
+  }
+
+  function activeService() {
+    const service = document.querySelector(".vc-service.active");
+    return {
+      name: service?.dataset?.name || "Standard assembly",
+      price: Number(service?.dataset?.price || 600)
+    };
+  }
+
+  function buildCustomCartItem() {
+    const blade = selectedProduct("blade");
+    const forehand = selectedProduct("forehand");
+    const backhand = selectedProduct("backhand");
+    const accessories = selectedAccessories();
+    const service = activeService();
+    const forehandColour = selectedColour("forehand", "Red");
+    const backhandColour = selectedColour("backhand", "Black");
+
+    if (!blade || !forehand || !backhand) {
+      return { error: "Please select blade and both rubbers" };
+    }
+
+    const total =
+      Number(blade.price || 0) +
+      Number(forehand.price || 0) +
+      Number(backhand.price || 0) +
+      accessories.reduce((sum, item) => sum + Number(item.price || 0), 0) +
+      Number(service.price || 0);
+
+    const details = [
+      `<strong>Custom racket build</strong>`,
+      `Blade: ${blade.name}`,
+      `Forehand: ${forehand.name} (${forehandColour})`,
+      `Backhand: ${backhand.name} (${backhandColour})`,
+      accessories.length ? `Accessories: ${accessories.map(item => item.name).join(", ")}` : "Accessories: None",
+      `Assembly: ${service.name}`
+    ].join("<br>");
+
+    return {
+      id: `visual-custom-${Date.now()}`,
+      productId: `visual-custom-${Date.now()}`,
+      name: "Custom Table Tennis Racket Build",
+      brand: "custom",
+      category: "rackets",
+      price: total,
+      image: blade.image || forehand.image || backhand.image || "",
+      color: "#d7ff3f",
+      details,
+      custom: true,
+      quantity: 1
+    };
+  }
+
+  function storeCustomItem(item) {
+    let pushedIntoState = false;
+
+    try {
+      if (typeof state !== "undefined" && state && Array.isArray(state.cart)) {
+        state.cart.push(item);
+        pushedIntoState = true;
+      }
+    } catch (error) {
+      pushedIntoState = false;
+    }
+
+    try {
+      if (typeof saveCart === "function" && pushedIntoState) {
+        saveCart();
+      } else {
+        const cart = JSON.parse(localStorage.getItem(CART_KEY) || "[]");
+        cart.push(item);
+        localStorage.setItem(CART_KEY, JSON.stringify(cart));
+      }
+    } catch (error) {
+      const cart = [];
+      cart.push(item);
+      localStorage.setItem(CART_KEY, JSON.stringify(cart));
+    }
+
+    // Keep in-memory cart in sync if the state existed but storage fallback was used.
+    try {
+      if (!pushedIntoState && typeof state !== "undefined" && state && Array.isArray(state.cart)) {
+        state.cart = JSON.parse(localStorage.getItem(CART_KEY) || "[]");
+      }
+    } catch (error) {}
+
+    try { if (typeof renderCart === "function") renderCart(); } catch (error) {}
+    try { if (typeof renderCheckoutPage === "function") renderCheckoutPage(); } catch (error) {}
+    try { if (typeof showToast === "function") showToast("Custom build added to cart"); } catch (error) {}
+    try { if (typeof openCart === "function") openCart(); } catch (error) {
+      document.querySelector(".cart-drawer")?.classList.add("open");
+      document.querySelector(".page-backdrop")?.classList.add("open");
+      document.body.classList.add("locked");
+    }
+  }
+
+  function bindCustomBuildCartFix() {
+    const button = document.getElementById("vcAddCart");
+    if (!button || button.dataset.customCartReliable === "true") return;
+    button.dataset.customCartReliable = "true";
+
+    button.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+
+      const item = buildCustomCartItem();
+      if (item.error) {
+        if (typeof showToast === "function") showToast(item.error);
+        else alert(item.error);
+        return;
+      }
+
+      storeCustomItem(item);
+    }, true);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    bindCustomBuildCartFix();
+    setTimeout(bindCustomBuildCartFix, 250);
+    setTimeout(bindCustomBuildCartFix, 900);
+    setTimeout(bindCustomBuildCartFix, 1600);
+  });
+})();
+
+
+/* FINAL FIX: custom build must render visibly in cart drawer */
+(function () {
+  const CART_KEY = "ttw-cart-v3";
+
+  function inr(value) {
+    try {
+      return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+    } catch (error) {
+      return "₹" + Number(value || 0).toLocaleString("en-IN");
+    }
+  }
+
+  function readCart() {
+    try {
+      return JSON.parse(localStorage.getItem(CART_KEY) || "[]");
+    } catch (error) {
+      return [];
+    }
+  }
+
+  function writeCart(cart) {
+    localStorage.setItem(CART_KEY, JSON.stringify(cart));
+    try {
+      if (typeof state !== "undefined" && state && Array.isArray(state.cart)) {
+        state.cart = cart;
+      }
+    } catch (error) {}
+  }
+
+  function getAllProducts() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || "[]");
+    } catch (error) {}
+    try {
+      return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+    } catch (error) {
+      return admin;
+    }
+  }
+
+  function productById(id) {
+    return getAllProducts().find(product => String(product.id) === String(id));
+  }
+
+  function selectedProduct(slot) {
+    const card = document.querySelector(`.vc-card.selected[data-card-slot="${slot}"]`);
+    return card ? productById(card.dataset.id) : null;
+  }
+
+  function selectedAccessories() {
+    return [...document.querySelectorAll('.vc-card.selected[data-card-slot="accessories"]')]
+      .map(card => productById(card.dataset.id))
+      .filter(Boolean);
+  }
+
+  function selectedColour(slot, fallback) {
+    return document.querySelector(`.vc-colours[data-col-slot="${slot}"] button.active`)?.dataset.colour || fallback;
+  }
+
+  function selectedService() {
+    const service = document.querySelector(".vc-service.active");
+    return {
+      name: service?.dataset.name || "Standard assembly",
+      price: Number(service?.dataset.price || 600)
+    };
+  }
+
+  function buildCustomItem() {
+    const blade = selectedProduct("blade");
+    const forehand = selectedProduct("forehand");
+    const backhand = selectedProduct("backhand");
+    const accessories = selectedAccessories();
+    const service = selectedService();
+    const fhColour = selectedColour("forehand", "Red");
+    const bhColour = selectedColour("backhand", "Black");
+
+    if (!blade || !forehand || !backhand) {
+      return { error: "Please select blade and both rubbers" };
+    }
+
+    const total =
+      Number(blade.price || 0) +
+      Number(forehand.price || 0) +
+      Number(backhand.price || 0) +
+      accessories.reduce((sum, item) => sum + Number(item.price || 0), 0) +
+      Number(service.price || 0);
+
+    return {
+      id: `custom-build-${Date.now()}`,
+      productId: `custom-build-${Date.now()}`,
+      name: "Custom Table Tennis Racket Build",
+      brand: "custom",
+      category: "rackets",
+      price: total,
+      image: blade.image || forehand.image || backhand.image || "",
+      color: "#d7ff3f",
+      details: [
+        "<strong>Custom racket build</strong>",
+        `Blade: ${blade.name}`,
+        `Forehand: ${forehand.name} (${fhColour})`,
+        `Backhand: ${backhand.name} (${bhColour})`,
+        accessories.length ? `Accessories: ${accessories.map(item => item.name).join(", ")}` : "Accessories: None",
+        `Assembly: ${service.name}`
+      ].join("<br>"),
+      custom: true,
+      quantity: 1
+    };
+  }
+
+  function itemMarkup(item) {
+    const visual = item.image
+      ? `<img src="${item.image}" alt="${item.name}" loading="lazy">`
+      : `<div class="cart-puck" style="background:${item.color || "#d7ff3f"}"></div>`;
+
+    return `<div class="cart-item">
+      <div class="cart-item-visual">${visual}</div>
+      <div class="cart-item-copy">
+        <h3>${item.name}</h3>
+        <div class="cart-item-price">${inr(item.price)}</div>
+        ${item.details ? `<div class="cart-item-detail">${item.details}</div>` : ""}
+        <div class="quantity">
+          <button type="button" data-qty-minus="${item.id}">−</button>
+          <span>${item.quantity || 1}</span>
+          <button type="button" data-qty-plus="${item.id}">+</button>
+        </div>
+      </div>
+      <button class="remove-item" data-remove-item="${item.id}" aria-label="Remove ${item.name}">
+        <span class="ttw-icon ttw-icon-close" aria-hidden="true"></span>
+      </button>
+    </div>`;
+  }
+
+  function renderCartFromStorage() {
+    const cart = readCart();
+    try {
+      if (typeof state !== "undefined" && state && Array.isArray(state.cart)) {
+        state.cart = cart;
+      }
+    } catch (error) {}
+
+    document.querySelectorAll(".cart-count").forEach(el => {
+      el.textContent = cart.reduce((sum, item) => sum + Number(item.quantity || 1), 0);
+    });
+
+    const items = document.querySelector(".cart-items");
+    const empty = document.querySelector(".cart-empty");
+    const summary = document.querySelector(".cart-summary");
+    const total = document.querySelector(".cart-total");
+
+    if (!items) return;
+
+    if (!cart.length) {
+      items.innerHTML = "";
+      items.style.display = "none";
+      if (empty) empty.style.display = "grid";
+      if (summary) summary.style.display = "none";
+      return;
+    }
+
+    items.style.display = "grid";
+    items.innerHTML = cart.map(itemMarkup).join("");
+    if (empty) empty.style.display = "none";
+    if (summary) summary.style.display = "block";
+    if (total) total.textContent = inr(cart.reduce((sum, item) => sum + Number(item.price || 0) * Number(item.quantity || 1), 0));
+  }
+
+  function openCartSafe() {
+    document.querySelector(".cart-drawer")?.classList.add("open");
+    document.querySelector(".page-backdrop")?.classList.add("open");
+    document.body.classList.add("locked");
+  }
+
+  function addCustomBuildToCart() {
+    const item = buildCustomItem();
+
+    if (item.error) {
+      if (typeof showToast === "function") showToast(item.error);
+      else alert(item.error);
+      return;
+    }
+
+    const cart = readCart();
+    cart.push(item);
+    writeCart(cart);
+
+    renderCartFromStorage();
+    try { if (typeof renderCheckoutPage === "function") renderCheckoutPage(); } catch (error) {}
+    try { if (typeof showToast === "function") showToast("Custom build added to cart"); } catch (error) {}
+    openCartSafe();
+
+    setTimeout(renderCartFromStorage, 50);
+    setTimeout(renderCartFromStorage, 250);
+  }
+
+  function bindButton() {
+    const button = document.getElementById("vcAddCart");
+    if (!button || button.dataset.finalCustomCartRenderBound === "true") return;
+    button.dataset.finalCustomCartRenderBound = "true";
+
+    button.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+      addCustomBuildToCart();
+    }, true);
+  }
+
+  document.addEventListener("click", event => {
+    if (event.target.closest(".cart-toggle, [data-open-cart], [data-cart-open]")) {
+      setTimeout(renderCartFromStorage, 80);
+    }
+
+    const remove = event.target.closest("[data-remove-item]");
+    if (remove) {
+      setTimeout(renderCartFromStorage, 60);
+    }
+
+    const qty = event.target.closest("[data-qty-plus], [data-qty-minus]");
+    if (qty) {
+      setTimeout(renderCartFromStorage, 60);
+    }
+  }, true);
+
+  document.addEventListener("DOMContentLoaded", () => {
+    bindButton();
+    renderCartFromStorage();
+    setTimeout(bindButton, 250);
+    setTimeout(bindButton, 900);
+    setTimeout(renderCartFromStorage, 900);
+  });
+})();

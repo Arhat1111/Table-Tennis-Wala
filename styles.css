@@ -12150,3 +12150,110 @@ header.site-header {
   visibility: visible !important;
   pointer-events: auto !important;
 }
+
+
+/* FINAL: make custom build cart item details readable */
+.cart-item-detail strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--ink, #101410);
+  font-weight: 950;
+}
+
+.cart-item-detail {
+  line-height: 1.45 !important;
+  word-break: normal !important;
+  overflow-wrap: anywhere !important;
+}
+
+.cart-item-visual .cart-puck {
+  display: grid;
+  place-items: center;
+}
+
+.cart-item-visual .cart-puck::after {
+  content: "TT";
+  font-size: 13px;
+  font-weight: 950;
+  color: var(--ink, #101410);
+}
+
+
+/* FINAL FIX: custom build cart item visible layout */
+.cart-items {
+  display: grid;
+  gap: 14px;
+  padding: 18px 0;
+}
+
+.cart-items .cart-item {
+  display: grid !important;
+  grid-template-columns: 88px minmax(0, 1fr) 36px !important;
+  gap: 14px !important;
+  align-items: start !important;
+  padding: 14px !important;
+  border-radius: 24px !important;
+  background: #fff !important;
+  border: 1px solid rgba(17, 19, 17, .08) !important;
+  box-shadow: 0 12px 30px rgba(17, 19, 17, .055) !important;
+}
+
+.cart-item-copy {
+  min-width: 0 !important;
+}
+
+.cart-item-copy h3,
+.cart-item h3 {
+  margin: 0 0 6px !important;
+  font-size: 17px !important;
+  line-height: 1.1 !important;
+  letter-spacing: -.04em !important;
+}
+
+.cart-item-detail {
+  display: block !important;
+  margin-top: 8px !important;
+  color: rgba(17, 19, 17, .62) !important;
+  font-size: 12px !important;
+  line-height: 1.45 !important;
+  font-weight: 800 !important;
+}
+
+.cart-item-detail strong {
+  color: var(--ink, #101410) !important;
+  font-size: 12px !important;
+  display: block !important;
+  margin-bottom: 4px !important;
+}
+
+.cart-item-visual {
+  width: 88px !important;
+  height: 88px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 20px !important;
+  background: rgba(17, 19, 17, .04) !important;
+  overflow: hidden !important;
+}
+
+.cart-item-visual img {
+  max-width: 86% !important;
+  max-height: 86% !important;
+  object-fit: contain !important;
+}
+
+.cart-empty[style*="none"] {
+  display: none !important;
+}
+
+@media (max-width: 560px) {
+  .cart-items .cart-item {
+    grid-template-columns: 76px minmax(0, 1fr) 32px !important;
+    padding: 12px !important;
+  }
+
+  .cart-item-visual {
+    width: 76px !important;
+    height: 76px !important;
+  }
+}
