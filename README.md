@@ -515,3 +515,36 @@ JS syntax check: OK
 - Added cart item styling so custom build details are visible inside the cart.
 - Source ZIP: table-tennis-wala-custom-build-cart-visible-fixed.zip
 - Checks: {'final_custom_render_fix': True, 'custom_cart_item_css': True, 'js_check': 'JS syntax OK'}
+
+- Rebuilt admin panel into a multi-section control panel: Dashboard, Upload/Remove Products, View Orders, Website Content, and Order Email Setup.
+- Orders placed through checkout are saved in localStorage under ttw-orders and displayed in the View Orders tab.
+- Added export/clear/search for orders.
+- Added content editor for announcement, hero text, phone, WhatsApp and order email using ttw-site-content localStorage.
+- Added EmailJS setup fields and dynamic order-email sender override using ttw-email-config.
+- Note: fully reliable live order emails for all visitors require EmailJS configured in the deployed site or a backend service.
+- Source ZIP: table-tennis-wala-custom-cart-render-fixed.zip
+- Checks: {'admin_tabs': True, 'emailjs_added': True, 'orders_js': True, 'email_override': True, 'js_check': '/mnt/data/table-tennis-wala-admin-orders-panel-work/table-tennis-wala-ecommerce/script.js:15174\n    order_items: order.items.map(item => `${item.name} x ${item.quantity} — ${formatPrice(item.price * item.quantity)} ${item.details ? item.details.replace(/<br>/g, ", ") : ""}`).join("\n                                                                                                                                                                                         ^\n\nSyntaxError: Invalid or unexpected token\n\x1b[90m    at wrapSafe (node:internal/modules/cjs/loader:1662:18)\x1b[39m\n\x1b[90m    at checkSyntax (node:internal/main/check_syntax:78:3)\x1b[39m\n\nNode.js v22.16.0'}
+
+- Final JS syntax check after admin panel build: JS syntax OK
+- Final admin checks: {"admin_tabs": true, "emailjs_added": true, "orders_js": true, "email_override": true, "js_check": "JS syntax OK"}
+
+- Added admin monthly sales analytics and live customers panels.
+- Removed Buy Now from listing/front product cards; Buy Now remains on product detail page.
+- Save Filter now scrolls to product results after saving.
+- Corrected product categories with automated heuristics; visible Andro sponge/bag/Synteliac issues referenced to official Andro pages.
+- Made Customize page price summary sticky on laptop/desktop.
+- Category updates applied: 82; official page references updated: 8.
+- Source ZIP: table-tennis-wala-admin-orders-panel.zip
+- Checks: {'admin_analytics_panel': True, 'admin_customers_panel': True, 'buy_now_hidden_listing': True, 'save_filter_scroll': True, 'sticky_summary': True, 'category_updates': 82, 'image_refs': 8, 'js_check': 'JS syntax OK'}
+
+- Redesigned the homepage Choose Your Brand section into a premium brand showcase.
+- Added a large featured JOOLA panel and a clean brand grid for Tibhar, Butterfly, Stiga, DHS, YinHe, Xiom, Andro and Dawei.
+- Added external logo image references for JOOLA, Tibhar and Butterfly plus matching styled wordmarks for the remaining brands.
+- Added live product counts for each brand card.
+- Highlighted JOOLA across navigation, brand links, customizer tabs and JOOLA product cards.
+- Checks: {'source_zip': 'table-tennis-wala-admin-analytics-cleanup-fixed.zip', 'home_brand_lab': True, 'joola_logo': True, 'joola_highlight_css': True, 'brand_count_js': True, 'js_check': 'JS syntax OK'}
+
+- Fixed homepage brand logo visibility by replacing broken external image URLs with local SVG logo assets under assets/logos/.
+- Added reliable local SVG logos/wordmarks for JOOLA, Tibhar, Butterfly, STIGA, DHS, YinHe, XIOM, Andro and Dawei.
+- Reduced the height of the homepage brand feature card and all brand tiles for a cleaner compact layout.
+- Checks: {'local_logos_created': 9, 'homepage_uses_local_joola': True, 'compact_css': True, 'source_zip': 'table-tennis-wala-home-brands-joola-highlight.zip', 'js_check': 'JS syntax OK'}

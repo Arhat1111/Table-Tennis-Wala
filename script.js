@@ -221,7 +221,7 @@ const seedProducts = [
     "id": "joola-cat-tronix-cmd",
     "name": "JOOLA Tronix CMD Table Tennis Rubber",
     "brand": "joola",
-    "category": "rubbers",
+    "category": "balls",
     "price": 5300,
     "rating": 4.7,
     "reviews": 0,
@@ -231,6 +231,7 @@ const seedProducts = [
     "description": "Professional control rubber for close-table counters, spin control and consistent ball feedback.",
     "features": [
       "SKU 70587",
+      "Category: Balls",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Soft command feel",
@@ -625,7 +626,7 @@ const seedProducts = [
     "id": "joola-cat-bcover-hard-blue",
     "name": "JOOLA B.Cover Hard Case Navy",
     "brand": "joola",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2099,
     "rating": 4.6,
     "reviews": 0,
@@ -635,6 +636,7 @@ const seedProducts = [
     "description": "Hard-shell racket case for safe everyday storage and travel.",
     "features": [
       "SKU 80570",
+      "Category: Rackets",
       "Blue/Navy",
       "Hard shell",
       "Single racket"
@@ -649,7 +651,7 @@ const seedProducts = [
     "id": "joola-cat-bcover-hard-black",
     "name": "JOOLA B.Cover Hard Case Black",
     "brand": "joola",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2099,
     "rating": 4.6,
     "reviews": 0,
@@ -659,6 +661,7 @@ const seedProducts = [
     "description": "Minimal hard case for protecting one racket and small accessories.",
     "features": [
       "SKU 80571",
+      "Category: Rackets",
       "Black",
       "Hard shell",
       "Zip closure"
@@ -673,7 +676,7 @@ const seedProducts = [
     "id": "joola-cat-alu-double-case",
     "name": "JOOLA ALU Double Bat Case",
     "brand": "joola",
-    "category": "accessories",
+    "category": "balls",
     "price": 4199,
     "rating": 4.7,
     "reviews": 0,
@@ -683,6 +686,7 @@ const seedProducts = [
     "description": "Aluminium-style double racket case with shaped foam for two rackets and balls.",
     "features": [
       "SKU 80555",
+      "Category: Balls",
       "Double racket case",
       "Aluminium design",
       "Foam inlay"
@@ -697,7 +701,7 @@ const seedProducts = [
     "id": "joola-cat-alu-laser-case",
     "name": "JOOLA Bat Case ALU Laser Black",
     "brand": "joola",
-    "category": "accessories",
+    "category": "rackets",
     "price": 4499,
     "rating": 4.7,
     "reviews": 0,
@@ -707,6 +711,7 @@ const seedProducts = [
     "description": "Premium protective bat case with a clean black aluminium look.",
     "features": [
       "SKU 80544",
+      "Category: Rackets",
       "Black case",
       "Premium storage",
       "Travel ready"
@@ -721,7 +726,7 @@ const seedProducts = [
     "id": "joola-cat-racket-case-aluminum",
     "name": "JOOLA Racket Case Aluminum",
     "brand": "joola",
-    "category": "accessories",
+    "category": "rackets",
     "price": 3600,
     "rating": 4.6,
     "reviews": 0,
@@ -731,6 +736,7 @@ const seedProducts = [
     "description": "Strong racket case for carrying match equipment safely.",
     "features": [
       "SKU 80542",
+      "Category: Rackets",
       "Aluminium-style",
       "Protective",
       "Match-day gear"
@@ -745,7 +751,7 @@ const seedProducts = [
     "id": "joola-cat-x-glue",
     "name": "JOOLA X-Glue 90ml",
     "brand": "joola",
-    "category": "accessories",
+    "category": "glue",
     "price": 1999,
     "rating": 4.5,
     "reviews": 0,
@@ -755,6 +761,7 @@ const seedProducts = [
     "description": "Water-based table tennis glue for rubber assembly and racket maintenance.",
     "features": [
       "SKU 82037",
+      "Category: Glue",
       "90 ml",
       "Rubber assembly",
       "Accessory"
@@ -768,7 +775,7 @@ const seedProducts = [
     "id": "joola-cat-glue-lex",
     "name": "JOOLA Glue Lex Green Power 90ml",
     "brand": "joola",
-    "category": "accessories",
+    "category": "glue",
     "price": 900,
     "rating": 4.5,
     "reviews": 0,
@@ -778,6 +785,7 @@ const seedProducts = [
     "description": "Glue accessory for rubber fitting and equipment setup.",
     "features": [
       "SKU 82037",
+      "Category: Glue",
       "90 ml",
       "Green Power",
       "Assembly"
@@ -791,7 +799,7 @@ const seedProducts = [
     "id": "joola-cat-edge-tape-black",
     "name": "JOOLA Edge Tape 20 Black",
     "brand": "joola",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 420,
     "rating": 4.4,
     "reviews": 0,
@@ -801,6 +809,7 @@ const seedProducts = [
     "description": "Black edge tape to protect the side of the blade and rubber sheets.",
     "features": [
       "SKU 83125",
+      "Category: Rubbers",
       "Black",
       "20 mm",
       "Racket protection"
@@ -815,7 +824,7 @@ const seedProducts = [
     "id": "joola-cat-edge-tape-blue",
     "name": "JOOLA Edge Tape 20 Blue",
     "brand": "joola",
-    "category": "accessories",
+    "category": "rackets",
     "price": 850,
     "rating": 4.4,
     "reviews": 0,
@@ -825,6 +834,7 @@ const seedProducts = [
     "description": "Blue edge tape for a clean protective finish on custom rackets.",
     "features": [
       "SKU 83122",
+      "Category: Rackets",
       "Blue",
       "20 mm",
       "Racket protection"
@@ -839,7 +849,7 @@ const seedProducts = [
     "id": "joola-cat-turbo-cleaner",
     "name": "JOOLA Turbo Cleaner 250ml",
     "brand": "joola",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 1250,
     "rating": 4.5,
     "reviews": 0,
@@ -849,6 +859,7 @@ const seedProducts = [
     "description": "Rubber cleaner for maintaining surface grip and extending rubber life.",
     "features": [
       "SKU 80231",
+      "Category: Rubbers",
       "250 ml",
       "Rubber care",
       "Accessory"
@@ -863,7 +874,7 @@ const seedProducts = [
     "id": "joola-cat-backpack-vision-blue",
     "name": "JOOLA Backpack Vision II Blue",
     "brand": "joola",
-    "category": "accessories",
+    "category": "footwear",
     "price": 4700,
     "rating": 4.6,
     "reviews": 0,
@@ -873,6 +884,7 @@ const seedProducts = [
     "description": "Compact backpack for carrying racket, shoes, clothing and match-day gear.",
     "features": [
       "SKU 80125",
+      "Category: Footwear",
       "Blue",
       "Backpack",
       "Training bag"
@@ -886,7 +898,7 @@ const seedProducts = [
     "id": "joola-cat-backpack-vision-black",
     "name": "JOOLA Backpack Vision II Black",
     "brand": "joola",
-    "category": "accessories",
+    "category": "tables",
     "price": 4700,
     "rating": 4.6,
     "reviews": 0,
@@ -896,6 +908,7 @@ const seedProducts = [
     "description": "Black equipment backpack for table tennis training and tournaments.",
     "features": [
       "SKU 83112",
+      "Category: Tables",
       "Black",
       "Backpack",
       "Gear storage"
@@ -1024,7 +1037,7 @@ const seedProducts = [
     "id": "joola-cat-j-carbon",
     "name": "JOOLA J Carbon FL Blade",
     "brand": "joola",
-    "category": "blades",
+    "category": "balls",
     "price": 6900,
     "rating": 4.6,
     "reviews": 0,
@@ -1034,6 +1047,7 @@ const seedProducts = [
     "description": "Carbon-style blade for speed, stability and sharper ball response.",
     "features": [
       "SKU 69125",
+      "Category: Balls",
       "Flared handle",
       "Carbon feel",
       "Attack"
@@ -1264,7 +1278,7 @@ const seedProducts = [
     "id": "joola-cat-team-junior",
     "name": "JOOLA Team Junior Racket",
     "brand": "joola",
-    "category": "rackets",
+    "category": "tables",
     "price": 1749,
     "rating": 4.5,
     "reviews": 0,
@@ -1274,6 +1288,7 @@ const seedProducts = [
     "description": "Junior racket designed for younger players learning table tennis fundamentals.",
     "features": [
       "SKU 52004",
+      "Category: Tables",
       "Pre-assembled",
       "Junior",
       "Vizon rubbers"
@@ -1312,7 +1327,7 @@ const seedProducts = [
     "id": "joola-cat-hugo-carbon-speed",
     "name": "JOOLA Hugo Calderano Carbon Speed Racket",
     "brand": "joola",
-    "category": "rackets",
+    "category": "blades",
     "price": 9999,
     "rating": 4.8,
     "reviews": 0,
@@ -1322,6 +1337,7 @@ const seedProducts = [
     "description": "Hugo Calderano carbon-style racket for fast attacking strokes and match confidence.",
     "features": [
       "SKU 601276",
+      "Category: Blades",
       "Pre-assembled",
       "Carbon speed",
       "Signature"
@@ -1336,7 +1352,7 @@ const seedProducts = [
     "id": "joola-cat-hugo-team-set",
     "name": "JOOLA Hugo Calderano Team Table Tennis Set",
     "brand": "joola",
-    "category": "rackets",
+    "category": "tables",
     "price": 9999,
     "rating": 4.8,
     "reviews": 0,
@@ -1346,6 +1362,7 @@ const seedProducts = [
     "description": "Hugo Calderano team set for serious practice and match-ready sessions.",
     "features": [
       "SKU 601277",
+      "Category: Tables",
       "Team set",
       "Signature",
       "Practice-ready"
@@ -1437,7 +1454,7 @@ const seedProducts = [
     "id": "seed-tibhar-3",
     "name": "Tibhar Game Racket Case",
     "brand": "tibhar",
-    "category": "accessories",
+    "category": "rackets",
     "price": 1699,
     "rating": 4.5,
     "reviews": 42,
@@ -1446,6 +1463,7 @@ const seedProducts = [
     "description": "Slim protective case for one assembled racket.",
     "features": [
       "Hard shell",
+      "Category: Rackets",
       "Compact",
       "Zipper closure"
     ],
@@ -1460,7 +1478,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-long-5-national-w968",
     "name": "DHS Hurricane Long 5 National W968",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 81250,
     "rating": 4.7,
     "reviews": 0,
@@ -1470,7 +1488,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹81,250",
       "Price source: supplied price list"
     ],
@@ -1489,7 +1507,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-sun-national-s968",
     "name": "DHS Hurricane Sun National S968",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 81250,
     "rating": 4.7,
     "reviews": 0,
@@ -1499,7 +1517,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹81,250",
       "Price source: supplied price list"
     ],
@@ -1512,7 +1530,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-king-national-q968",
     "name": "DHS Hurricane King National Q968",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 81250,
     "rating": 4.7,
     "reviews": 0,
@@ -1522,7 +1540,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹81,250",
       "Price source: supplied price list"
     ],
@@ -1535,7 +1553,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-long-5-grand-slam-national-w968",
     "name": "DHS Hurricane Long 5 Grand Slam National W968",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 98750,
     "rating": 4.7,
     "reviews": 0,
@@ -1545,7 +1563,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹98,750",
       "Price source: supplied price list"
     ],
@@ -1558,7 +1576,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-long-5-gold-grand-slam",
     "name": "DHS Hurricane Long 5 Gold Grand Slam",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 47500,
     "rating": 4.7,
     "reviews": 0,
@@ -1568,7 +1586,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹47,500",
       "Price source: supplied price list"
     ],
@@ -1581,7 +1599,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-long-long-5",
     "name": "DHS Hurricane Long Long 5",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 35000,
     "rating": 4.7,
     "reviews": 0,
@@ -1591,7 +1609,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
@@ -1604,7 +1622,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-long-5x",
     "name": "DHS Hurricane Long 5x",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 35000,
     "rating": 4.7,
     "reviews": 0,
@@ -1614,7 +1632,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
@@ -1628,7 +1646,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-long-3",
     "name": "DHS Hurricane Long 3",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 35000,
     "rating": 4.7,
     "reviews": 0,
@@ -1638,7 +1656,7 @@ const seedProducts = [
     "description": "DHS Hurricane Long 3 blade listed with MRP pricing. Image corrected to the DHS Hurricane Long 3 blade photo.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
@@ -1652,7 +1670,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-sun",
     "name": "DHS Hurricane Sun",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 35000,
     "rating": 4.7,
     "reviews": 0,
@@ -1662,7 +1680,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
@@ -1676,7 +1694,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-king",
     "name": "DHS Hurricane King",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 35000,
     "rating": 4.7,
     "reviews": 0,
@@ -1686,7 +1704,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
@@ -1964,7 +1982,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-301",
     "name": "DHS Hurricane 301",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 14375,
     "rating": 4.7,
     "reviews": 0,
@@ -1974,7 +1992,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹14,375",
       "Price source: supplied price list"
     ],
@@ -1989,7 +2007,7 @@ const seedProducts = [
     "id": "dhs-dhs-hurricane-301x",
     "name": "DHS Hurricane 301X",
     "brand": "dhs",
-    "category": "blades",
+    "category": "rubbers",
     "price": 14375,
     "rating": 4.7,
     "reviews": 0,
@@ -1999,7 +2017,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Rubbers",
       "MRP: ₹14,375",
       "Price source: supplied price list"
     ],
@@ -3232,7 +3250,7 @@ const seedProducts = [
     "id": "dhs-dhs-rubber-roller",
     "name": "DHS Rubber Roller",
     "brand": "dhs",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 1000,
     "rating": 4.7,
     "reviews": 0,
@@ -3242,7 +3260,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹1,000",
       "Price source: supplied price list"
     ],
@@ -3256,7 +3274,7 @@ const seedProducts = [
     "id": "dhs-dhs-racket-case-rc520",
     "name": "DHS Racket Case RC520",
     "brand": "dhs",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2000,
     "rating": 4.7,
     "reviews": 0,
@@ -3266,7 +3284,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Accessory",
+      "Category: Rackets",
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
@@ -3280,7 +3298,7 @@ const seedProducts = [
     "id": "dhs-dhs-racket-case-rc530",
     "name": "DHS Racket Case RC530",
     "brand": "dhs",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2000,
     "rating": 4.7,
     "reviews": 0,
@@ -3290,7 +3308,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Accessory",
+      "Category: Rackets",
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
@@ -3304,7 +3322,7 @@ const seedProducts = [
     "id": "dhs-dhs-rubber-thickness-measuring-device",
     "name": "DHS Rubber Thickness Measuring Device",
     "brand": "dhs",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 50000,
     "rating": 4.7,
     "reviews": 0,
@@ -3314,7 +3332,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹50,000",
       "Price source: supplied price list"
     ],
@@ -3328,7 +3346,7 @@ const seedProducts = [
     "id": "dhs-dhs-ap-01-blade-protector-220ml",
     "name": "DHS AP-01 Blade Protector 220ml",
     "brand": "dhs",
-    "category": "accessories",
+    "category": "blades",
     "price": 3000,
     "rating": 4.7,
     "reviews": 0,
@@ -3338,7 +3356,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Accessory",
+      "Category: Blades",
       "MRP: ₹3,000",
       "Price source: supplied price list"
     ],
@@ -3832,7 +3850,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-1000",
     "name": "TIMO BOLL 1000",
     "brand": "butterfly",
-    "category": "rackets",
+    "category": "blades",
     "price": 3510,
     "rating": 4.7,
     "reviews": 0,
@@ -3842,7 +3860,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Blades",
       "MRP: ₹3,510",
       "Price source: supplied price list"
     ],
@@ -3856,7 +3874,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-2000",
     "name": "TIMO BOLL 2000",
     "brand": "butterfly",
-    "category": "rackets",
+    "category": "blades",
     "price": 3510,
     "rating": 4.7,
     "reviews": 0,
@@ -3866,7 +3884,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Blades",
       "MRP: ₹3,510",
       "Price source: supplied price list"
     ],
@@ -3880,7 +3898,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-3000",
     "name": "TIMO BOLL 3000",
     "brand": "butterfly",
-    "category": "rackets",
+    "category": "blades",
     "price": 3630,
     "rating": 4.7,
     "reviews": 0,
@@ -3890,7 +3908,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Blades",
       "MRP: ₹3,630",
       "Price source: supplied price list"
     ],
@@ -3928,7 +3946,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-cf-1000",
     "name": "TIMO BOLL CF 1000",
     "brand": "butterfly",
-    "category": "rackets",
+    "category": "blades",
     "price": 4940,
     "rating": 4.7,
     "reviews": 0,
@@ -3938,7 +3956,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Blades",
       "MRP: ₹4,940",
       "Price source: supplied price list"
     ],
@@ -3952,7 +3970,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-cf-2000",
     "name": "TIMO BOLL CF 2000",
     "brand": "butterfly",
-    "category": "rackets",
+    "category": "blades",
     "price": 4940,
     "rating": 4.7,
     "reviews": 0,
@@ -3962,7 +3980,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Blades",
       "MRP: ₹4,940",
       "Price source: supplied price list"
     ],
@@ -6057,7 +6075,7 @@ const seedProducts = [
     "id": "butterfly-butterfly-rubber-cleaner-set",
     "name": "Butterfly RUBBER CLEANER SET",
     "brand": "butterfly",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 1950,
     "rating": 4.7,
     "reviews": 0,
@@ -6067,7 +6085,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹1,950",
       "Price source: supplied price list"
     ],
@@ -7846,7 +7864,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-7031-rubber-cleaner",
     "name": "YinHe 7031 Rubber Cleaner",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -7856,7 +7874,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -7870,7 +7888,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-7034-rubber-cleaner",
     "name": "YinHe 7034 Rubber Cleaner",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -7880,7 +7898,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -7894,7 +7912,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-rubber-cleaning-sponge",
     "name": "YinHe Rubber Cleaning Sponge",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 499,
     "rating": 4.6,
     "reviews": 0,
@@ -7904,7 +7922,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
@@ -7918,7 +7936,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-rubber-protector-sticky-sheet",
     "name": "YinHe Rubber Protector Sticky Sheet",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 499,
     "rating": 4.6,
     "reviews": 0,
@@ -7928,7 +7946,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
@@ -7990,7 +8008,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-ball-picker-7033a",
     "name": "YinHe Ball Picker 7033A",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "balls",
     "price": 1999,
     "rating": 4.6,
     "reviews": 0,
@@ -8000,7 +8018,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Balls",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
@@ -8014,7 +8032,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-ball-picker-7033c",
     "name": "YinHe Ball Picker 7033C",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "balls",
     "price": 1999,
     "rating": 4.6,
     "reviews": 0,
@@ -8024,7 +8042,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Balls",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
@@ -8038,7 +8056,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-glue-150ml",
     "name": "YinHe Glue - 150ml",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "glue",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -8048,7 +8066,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Glue",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8062,7 +8080,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-8003-racket-cover",
     "name": "YinHe 8003 Racket Cover",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rackets",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -8072,7 +8090,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rackets",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8086,7 +8104,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-8011-racket-cover",
     "name": "YinHe 8011 Racket Cover",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rackets",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -8096,7 +8114,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rackets",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8110,7 +8128,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-8023-round-racket-case",
     "name": "YinHe 8023 Round Racket Case",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rackets",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -8120,7 +8138,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rackets",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8158,7 +8176,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-rubber-cutting-machine",
     "name": "YinHe Rubber Cutting Machine",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 19999,
     "rating": 4.6,
     "reviews": 0,
@@ -8168,7 +8186,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹19,999",
       "Price source: supplied price list"
     ],
@@ -8182,7 +8200,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-blade-of-rubber-cutting-machine",
     "name": "YinHe Blade of Rubber Cutting Machine",
     "brand": "yinhe",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 1999,
     "rating": 4.6,
     "reviews": 0,
@@ -8192,7 +8210,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
@@ -8278,7 +8296,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-p1201-racket",
     "name": "YinHe P1201 Racket",
     "brand": "yinhe",
-    "category": "pickleball",
+    "category": "rackets",
     "price": 6000,
     "rating": 4.6,
     "reviews": 0,
@@ -8288,7 +8306,7 @@ const seedProducts = [
     "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Pickleball",
+      "Category: Rackets",
       "MRP: ₹6,000",
       "Price source: supplied price list"
     ],
@@ -8302,7 +8320,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-p1301-racket",
     "name": "YinHe P1301 Racket",
     "brand": "yinhe",
-    "category": "pickleball",
+    "category": "rackets",
     "price": 5000,
     "rating": 4.6,
     "reviews": 0,
@@ -8312,7 +8330,7 @@ const seedProducts = [
     "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Pickleball",
+      "Category: Rackets",
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
@@ -9039,7 +9057,7 @@ const seedProducts = [
     "id": "stiga-stiga-haze-double-racket-case",
     "name": "Stiga Haze Double Racket Case",
     "brand": "stiga",
-    "category": "accessories",
+    "category": "rackets",
     "price": 3100,
     "rating": 4.7,
     "reviews": 0,
@@ -9049,7 +9067,7 @@ const seedProducts = [
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Accessory",
+      "Category: Rackets",
       "MRP: ₹3,100",
       "Price source: supplied price list"
     ],
@@ -9183,7 +9201,7 @@ const seedProducts = [
     "id": "stiga-stiga-towel",
     "name": "Stiga Towel",
     "brand": "stiga",
-    "category": "accessories",
+    "category": "clothing",
     "price": 1575,
     "rating": 4.7,
     "reviews": 0,
@@ -9193,7 +9211,7 @@ const seedProducts = [
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Accessory",
+      "Category: Clothing",
       "MRP: ₹1,575",
       "Price source: supplied price list"
     ],
@@ -9231,7 +9249,7 @@ const seedProducts = [
     "id": "stiga-donic-faze-racket-case-double",
     "name": "Donic Faze Racket Case Double",
     "brand": "stiga",
-    "category": "accessories",
+    "category": "rackets",
     "price": 675,
     "rating": 4.7,
     "reviews": 0,
@@ -9241,7 +9259,7 @@ const seedProducts = [
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Accessory",
+      "Category: Rackets",
       "MRP: ₹675",
       "Price source: supplied price list"
     ],
@@ -11601,7 +11619,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-racket-case-pink",
     "name": "Xiom TIKKYWOW Racket Case - Pink",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11611,7 +11629,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Racket Case - Pink listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: Pink",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11626,7 +11644,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-racket-case-navy-blue",
     "name": "Xiom TIKKYWOW Racket Case - Navy Blue",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11636,7 +11654,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Racket Case - Navy Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: Navy Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11651,7 +11669,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-racket-case-blue",
     "name": "Xiom TIKKYWOW Racket Case - Blue",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11661,7 +11679,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11676,7 +11694,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-blue",
     "name": "Xiom TIKKYWOW 2 Racket Case - Blue",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11686,7 +11704,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11701,7 +11719,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-purple",
     "name": "Xiom TIKKYWOW 2 Racket Case - Purple",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11711,7 +11729,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: Purple",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11726,7 +11744,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-l-blue",
     "name": "Xiom TIKKYWOW 2 Racket Case - L Blue",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11736,7 +11754,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - L Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: L Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11751,7 +11769,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-grey",
     "name": "Xiom TIKKYWOW 2 Racket Case - Grey",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11761,7 +11779,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: Grey",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11776,7 +11794,7 @@ const seedProducts = [
     "id": "xiom-xiom-neo-2-racket-case-dark-blue",
     "name": "Xiom Neo 2 Racket Case - Dark Blue",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rackets",
     "price": 1649,
     "rating": 4.7,
     "reviews": 0,
@@ -11786,7 +11804,7 @@ const seedProducts = [
     "description": "Xiom Neo 2 Racket Case - Dark Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rackets",
       "Colour: Dark Blue",
       "MRP: ₹1,649",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12263,7 +12281,7 @@ const seedProducts = [
     "id": "xiom-xiom-22xbc-ball-case-navy",
     "name": "Xiom 22XBC Ball Case - Navy",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "balls",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12273,7 +12291,7 @@ const seedProducts = [
     "description": "Xiom 22XBC Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Balls",
       "Colour: Navy",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12288,7 +12306,7 @@ const seedProducts = [
     "id": "xiom-xiom-22xbc-ball-case-purple",
     "name": "Xiom 22XBC Ball Case - Purple",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "balls",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12298,7 +12316,7 @@ const seedProducts = [
     "description": "Xiom 22XBC Ball Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Balls",
       "Colour: Purple",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12313,7 +12331,7 @@ const seedProducts = [
     "id": "xiom-xiom-22xbc-ball-case-grey",
     "name": "Xiom 22XBC Ball Case - Grey",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "balls",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12323,7 +12341,7 @@ const seedProducts = [
     "description": "Xiom 22XBC Ball Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Balls",
       "Colour: Grey",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12338,7 +12356,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-ball-case-navy",
     "name": "Xiom TIKKYWOW Ball Case - Navy",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "balls",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12348,7 +12366,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Balls",
       "Colour: Navy",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12363,7 +12381,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-ball-case-orange",
     "name": "Xiom TIKKYWOW Ball Case - Orange",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "balls",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12373,7 +12391,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Ball Case - Orange listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Balls",
       "Colour: Orange",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12613,7 +12631,7 @@ const seedProducts = [
     "id": "xiom-xiom-24-o-foil-jekyll-and-hyde",
     "name": "Xiom 24 O-FOIL - Jekyll & Hyde",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 589,
     "rating": 4.7,
     "reviews": 0,
@@ -12623,7 +12641,7 @@ const seedProducts = [
     "description": "Xiom 24 O-FOIL - Jekyll & Hyde listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Rubbers",
       "Colour: Jekyll & Hyde",
       "MRP: ₹589",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12638,7 +12656,7 @@ const seedProducts = [
     "id": "xiom-xiom-24-xst-mirae-short-towel-blue-red",
     "name": "Xiom 24 XST Mirae Short Towel - Blue/Red",
     "brand": "xiom",
-    "category": "accessories",
+    "category": "clothing",
     "price": 1529,
     "rating": 4.7,
     "reviews": 0,
@@ -12648,7 +12666,7 @@ const seedProducts = [
     "description": "Xiom 24 XST Mirae Short Towel - Blue/Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Accessories",
+      "Category: Clothing",
       "Colour: Blue/Red",
       "MRP: ₹1,529",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -13629,7 +13647,7 @@ const seedProducts = [
     "id": "andro-andro-rubber-cleaner-pump-spray",
     "name": "Andro Rubber Cleaner Pump Spray",
     "brand": "andro",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 650,
     "rating": 4.7,
     "reviews": 0,
@@ -13639,7 +13657,7 @@ const seedProducts = [
     "description": "Andro Rubber Cleaner Pump Spray listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Rubbers",
       "MRP: ₹650",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -13701,7 +13719,7 @@ const seedProducts = [
     "id": "andro-andro-table-cleaner",
     "name": "Andro Table Cleaner",
     "brand": "andro",
-    "category": "accessories",
+    "category": "tables",
     "price": 1600,
     "rating": 4.7,
     "reviews": 0,
@@ -13711,7 +13729,7 @@ const seedProducts = [
     "description": "Andro Table Cleaner listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Tables",
       "MRP: ₹1,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -13787,17 +13805,18 @@ const seedProducts = [
       "MRP: ₹600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Accessories.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-cleaning-sponge-cotton-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Cleaning Sponge Cotton table tennis product official image"
+    "searchImageQuery": "Andro Andro Cleaning Sponge Cotton table tennis product official image",
+    "officialProductUrl": "https://www.andro.de/en/reinigungsschwamm"
   },
   {
     "id": "andro-andro-cleaning-sponge-synthetic",
     "name": "Andro Cleaning Sponge Synthetic",
     "brand": "andro",
-    "category": "blades",
+    "category": "accessories",
     "price": 600,
     "rating": 4.7,
     "reviews": 0,
@@ -13807,21 +13826,22 @@ const seedProducts = [
     "description": "Andro Cleaning Sponge Synthetic listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Blades",
+      "Category: Accessories",
       "MRP: ₹600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Accessories.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-cleaning-sponge-synthetic-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Cleaning Sponge Synthetic table tennis product official image"
+    "searchImageQuery": "Andro Andro Cleaning Sponge Synthetic table tennis product official image",
+    "officialProductUrl": "https://www.andro.de/en/reinigungsschwamm-synthetisches-leder"
   },
   {
     "id": "andro-andro-bag-moriva-black-neonyellow",
     "name": "andro bag Moriva black/neonyellow",
     "brand": "andro",
-    "category": "blades",
+    "category": "accessories",
     "price": 8400,
     "rating": 4.7,
     "reviews": 0,
@@ -13831,21 +13851,22 @@ const seedProducts = [
     "description": "andro bag Moriva black/neonyellow listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Blades",
+      "Category: Accessories",
       "MRP: ₹8,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Accessories.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-andro-safe.svg",
-    "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image"
+    "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image",
+    "officialProductUrl": "https://www.andro.de/en/sporttasche-moriva-l"
   },
   {
     "id": "andro-andro-bag-moriva-black-neonyellow-2",
     "name": "andro bag Moriva black/neonyellow",
     "brand": "andro",
-    "category": "blades",
+    "category": "accessories",
     "price": 7000,
     "rating": 4.7,
     "reviews": 0,
@@ -13855,15 +13876,16 @@ const seedProducts = [
     "description": "andro bag Moriva black/neonyellow listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Blades",
+      "Category: Accessories",
       "MRP: ₹7,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Accessories.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-2-andro-safe.svg",
-    "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image"
+    "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image",
+    "officialProductUrl": "https://www.andro.de/en/sporttasche-moriva-l"
   },
   {
     "id": "andro-andro-inizio-blue-fl",
@@ -14159,7 +14181,7 @@ const seedProducts = [
     "id": "andro-andro-blade-synteliac-vci",
     "name": "Andro Blade Synteliac VCI",
     "brand": "andro",
-    "category": "accessories",
+    "category": "blades",
     "price": 21400,
     "rating": 4.7,
     "reviews": 0,
@@ -14169,13 +14191,13 @@ const seedProducts = [
     "description": "Andro Blade Synteliac VCI listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Blades",
       "MRP: ₹21,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "officialProductUrl": "https://www.andro.de/en/synteliac-vci-gauzy-original",
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "officialProductUrl": "https://www.andro.de/en/synteliac-vci",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Blades.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-vci-andro-safe.svg",
     "searchImageQuery": "Andro Andro Blade Synteliac VCI table tennis product official image"
@@ -14184,7 +14206,7 @@ const seedProducts = [
     "id": "andro-andro-blade-synteliac-vco",
     "name": "Andro Blade Synteliac VCO",
     "brand": "andro",
-    "category": "accessories",
+    "category": "blades",
     "price": 21400,
     "rating": 4.7,
     "reviews": 0,
@@ -14194,13 +14216,13 @@ const seedProducts = [
     "description": "Andro Blade Synteliac VCO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Blades",
       "MRP: ₹21,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
     "officialProductUrl": "https://www.andro.de/en/synteliac-vco",
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Blades.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-vco-andro-safe.svg",
     "searchImageQuery": "Andro Andro Blade Synteliac VCO table tennis product official image"
@@ -14209,7 +14231,7 @@ const seedProducts = [
     "id": "andro-andro-blade-synteliac-zci",
     "name": "Andro Blade Synteliac ZCI",
     "brand": "andro",
-    "category": "accessories",
+    "category": "blades",
     "price": 24000,
     "rating": 4.7,
     "reviews": 0,
@@ -14219,21 +14241,22 @@ const seedProducts = [
     "description": "Andro Blade Synteliac ZCI listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Blades",
       "MRP: ₹24,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Blades.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-zci-andro-safe.svg",
-    "searchImageQuery": "Andro Andro Blade Synteliac ZCI table tennis product official image"
+    "searchImageQuery": "Andro Andro Blade Synteliac ZCI table tennis product official image",
+    "officialProductUrl": "https://www.andro.de/en/synteliac-zci"
   },
   {
     "id": "andro-andro-blade-synteliac-zco",
     "name": "Andro Blade Synteliac ZCO",
     "brand": "andro",
-    "category": "accessories",
+    "category": "blades",
     "price": 24000,
     "rating": 4.7,
     "reviews": 0,
@@ -14243,13 +14266,13 @@ const seedProducts = [
     "description": "Andro Blade Synteliac ZCO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Blades",
       "MRP: ₹24,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
     "officialProductUrl": "https://www.andro.de/en/synteliac-zco",
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "official-page-referenced",
+    "imageSource": "Andro official product page referenced; category corrected to Blades.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-zco-andro-safe.svg",
     "searchImageQuery": "Andro Andro Blade Synteliac ZCO table tennis product official image"
@@ -15158,6 +15181,7 @@ function showOrderSuccess(order) {
 }
 
 function sendOrderEmails(order) {
+  if (window.sendOrderEmails && window.sendOrderEmails !== sendOrderEmails) return window.sendOrderEmails(order);
   const configured = EMAILJS_CONFIG.publicKey && EMAILJS_CONFIG.serviceId && EMAILJS_CONFIG.ownerTemplateId && EMAILJS_CONFIG.customerTemplateId;
   if (!configured || !window.emailjs) return;
   emailjs.init({ publicKey: EMAILJS_CONFIG.publicKey });
@@ -18456,5 +18480,391 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(bindButton, 250);
     setTimeout(bindButton, 900);
     setTimeout(renderCartFromStorage, 900);
+  });
+})();
+
+
+/* FINAL: enhanced admin panel with orders, content editor and email setup */
+(function () {
+  const ORDER_KEY = "ttw-orders";
+  const PRODUCT_KEY = "ttw-admin-products";
+  const CONTENT_KEY = "ttw-site-content";
+  const EMAIL_KEY = "ttw-email-config";
+
+  function safeJSON(key, fallback) {
+    try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); }
+    catch (error) { return fallback; }
+  }
+
+  function money(value) {
+    try {
+      return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+    } catch (error) {
+      return "₹" + Number(value || 0).toLocaleString("en-IN");
+    }
+  }
+
+  function getOrders() {
+    return safeJSON(ORDER_KEY, []);
+  }
+
+  function getClientProducts() {
+    return safeJSON(PRODUCT_KEY, []);
+  }
+
+  function getAllProductsCount() {
+    try {
+      return (typeof seedProducts !== "undefined" ? seedProducts.length : 0) + getClientProducts().length;
+    } catch (error) {
+      return getClientProducts().length;
+    }
+  }
+
+  function getEmailConfig() {
+    return {
+      ownerEmail: "orders@tabletenniswala.in",
+      publicKey: "",
+      serviceId: "",
+      ownerTemplateId: "",
+      customerTemplateId: "",
+      ...safeJSON(EMAIL_KEY, {})
+    };
+  }
+
+  function getSiteContent() {
+    return {
+      announcement: "NO RETURN AND EXCHANGE POLICY",
+      heroTitle: "",
+      heroSubtitle: "",
+      phone: "+91 99999 99999",
+      whatsapp: "919999999999",
+      orderEmail: "orders@tabletenniswala.in",
+      ...safeJSON(CONTENT_KEY, {})
+    };
+  }
+
+  function renderAdminDashboard() {
+    const orders = getOrders();
+    const uploaded = getClientProducts();
+    const totalValue = orders.reduce((sum, order) => sum + Number(order.amount || 0), 0);
+    const totalProducts = document.getElementById("adminTotalProducts");
+    const uploadedProducts = document.getElementById("adminUploadedProducts");
+    const orderCount = document.getElementById("adminOrderCount");
+    const orderValue = document.getElementById("adminOrderValue");
+    if (totalProducts) totalProducts.textContent = getAllProductsCount();
+    if (uploadedProducts) uploadedProducts.textContent = uploaded.length;
+    if (orderCount) orderCount.textContent = orders.length;
+    if (orderValue) orderValue.textContent = money(totalValue);
+  }
+
+  function orderMatches(order, query) {
+    if (!query) return true;
+    const text = [
+      order.orderId,
+      order.customer?.fullName,
+      order.customer?.email,
+      order.customer?.phone,
+      order.customer?.city,
+      order.items?.map(item => `${item.name} ${item.details || ""}`).join(" ")
+    ].join(" ").toLowerCase();
+    return text.includes(query.toLowerCase());
+  }
+
+  function renderAdminOrders() {
+    const list = document.getElementById("adminOrdersList");
+    if (!list) return;
+    const query = document.getElementById("adminOrderSearch")?.value || "";
+    const orders = getOrders().filter(order => orderMatches(order, query)).reverse();
+
+    if (!orders.length) {
+      list.innerHTML = `<div class="admin-empty-card"><h3>No orders yet</h3><p>Orders placed through checkout will appear here.</p></div>`;
+      renderAdminDashboard();
+      return;
+    }
+
+    list.innerHTML = orders.map(order => {
+      const items = (order.items || []).map(item => `<li><strong>${item.name}</strong> × ${item.quantity || 1}<small>${item.details || ""}</small></li>`).join("");
+      const customer = order.customer || {};
+      return `<article class="admin-order-card">
+        <div class="admin-order-top">
+          <div><span class="eyebrow">${order.orderId || "Order"}</span><h3>${customer.fullName || "Customer"}</h3></div>
+          <strong>${money(order.amount)}</strong>
+        </div>
+        <div class="admin-order-meta">
+          <span>${new Date(order.date || Date.now()).toLocaleString()}</span>
+          <span>${order.paymentMode || "Payment"}</span>
+          <span>${order.paymentId || ""}</span>
+        </div>
+        <div class="admin-order-customer">
+          <p><b>Email:</b> ${customer.email || "-"}</p>
+          <p><b>Phone:</b> ${customer.phone || "-"}</p>
+          <p><b>Address:</b> ${[customer.address, customer.city, customer.state, customer.pincode].filter(Boolean).join(", ") || "-"}</p>
+        </div>
+        <ul class="admin-order-items">${items}</ul>
+      </article>`;
+    }).join("");
+    renderAdminDashboard();
+  }
+
+  function downloadJSON(filename, data) {
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    link.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function bindAdminTabs() {
+    document.querySelectorAll("[data-admin-panel]").forEach(button => {
+      if (button.dataset.bound === "true") return;
+      button.dataset.bound = "true";
+      button.addEventListener("click", () => {
+        const panel = button.dataset.adminPanel;
+        document.querySelectorAll("[data-admin-panel]").forEach(item => item.classList.toggle("active", item === button));
+        document.querySelectorAll("[data-admin-panel-view]").forEach(view => view.classList.toggle("active", view.dataset.adminPanelView === panel));
+        renderAdminDashboard();
+        renderAdminOrders();
+      });
+    });
+  }
+
+  function bindOrderAdmin() {
+    document.getElementById("refreshOrders")?.addEventListener("click", renderAdminOrders);
+    document.getElementById("refreshAdminDashboard")?.addEventListener("click", () => { renderAdminDashboard(); renderAdminOrders(); });
+    document.getElementById("adminOrderSearch")?.addEventListener("input", renderAdminOrders);
+    document.getElementById("exportOrders")?.addEventListener("click", () => downloadJSON("table-tennis-wala-orders.json", getOrders()));
+    document.getElementById("clearOrders")?.addEventListener("click", () => {
+      if (!confirm("Clear all locally saved orders?")) return;
+      localStorage.setItem(ORDER_KEY, "[]");
+      renderAdminOrders();
+      renderAdminDashboard();
+    });
+  }
+
+  function bindContentEditor() {
+    const form = document.getElementById("siteContentForm");
+    if (!form || form.dataset.bound === "true") return;
+    form.dataset.bound = "true";
+    const content = getSiteContent();
+    const map = {
+      contentAnnouncement: "announcement",
+      contentHeroTitle: "heroTitle",
+      contentHeroSubtitle: "heroSubtitle",
+      contentPhone: "phone",
+      contentWhatsapp: "whatsapp",
+      contentOrderEmail: "orderEmail"
+    };
+    Object.entries(map).forEach(([id, key]) => {
+      const input = document.getElementById(id);
+      if (input) input.value = content[key] || "";
+    });
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      const next = {};
+      Object.entries(map).forEach(([id, key]) => {
+        const input = document.getElementById(id);
+        next[key] = input?.value || "";
+      });
+      localStorage.setItem(CONTENT_KEY, JSON.stringify(next));
+      applySiteContent();
+      if (typeof showToast === "function") showToast("Website content saved");
+    });
+    document.getElementById("resetSiteContent")?.addEventListener("click", () => {
+      localStorage.removeItem(CONTENT_KEY);
+      location.reload();
+    });
+  }
+
+  function bindEmailSetup() {
+    const form = document.getElementById("emailConfigForm");
+    if (!form || form.dataset.bound === "true") return;
+    form.dataset.bound = "true";
+    const config = getEmailConfig();
+    const ids = {
+      mailOwnerEmail: "ownerEmail",
+      mailPublicKey: "publicKey",
+      mailServiceId: "serviceId",
+      mailOwnerTemplateId: "ownerTemplateId",
+      mailCustomerTemplateId: "customerTemplateId"
+    };
+    Object.entries(ids).forEach(([id, key]) => {
+      const input = document.getElementById(id);
+      if (input) input.value = config[key] || "";
+    });
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      const next = {};
+      Object.entries(ids).forEach(([id, key]) => {
+        next[key] = document.getElementById(id)?.value || "";
+      });
+      localStorage.setItem(EMAIL_KEY, JSON.stringify(next));
+      if (typeof showToast === "function") showToast("Email setup saved");
+    });
+
+    document.getElementById("testOrderEmail")?.addEventListener("click", () => {
+      const test = {
+        orderId: `TEST-${Date.now()}`,
+        date: new Date().toISOString(),
+        customer: { fullName: "Test Customer", email: config.ownerEmail, phone: "9999999999", address: "Test address", city: "Test city", state: "Test state", pincode: "000000" },
+        items: [{ name: "Test Product", quantity: 1, price: 1, details: "Email setup test" }],
+        amount: 1,
+        paymentId: "TEST",
+        paymentMode: "EmailJS test"
+      };
+      sendOrderEmails(test);
+      if (typeof showToast === "function") showToast("Test email attempted. Check EmailJS setup.");
+    });
+  }
+
+  window.applySiteContent = function applySiteContent() {
+    const content = getSiteContent();
+
+    if (content.announcement) {
+      document.querySelectorAll(".announcement-bar, .top-announcement, [data-announcement-bar]").forEach(el => {
+        el.textContent = content.announcement;
+      });
+    }
+
+    if (content.phone) {
+      document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+        link.href = `tel:${content.phone.replace(/\s+/g, "")}`;
+        link.textContent = content.phone;
+      });
+    }
+
+    if (content.whatsapp) {
+      document.querySelectorAll(".whatsapp-consult").forEach(link => {
+        link.href = `https://wa.me/${content.whatsapp.replace(/[^\d]/g, "")}?text=Hi%20Table%20Tennis%20Wala`;
+      });
+    }
+
+    if (content.orderEmail) {
+      document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+        if (link.href.includes("orders") || link.textContent.includes("@")) {
+          link.href = `mailto:${content.orderEmail}`;
+        }
+      });
+    }
+  };
+
+  // Override the earlier email sender so it can use admin-saved EmailJS config.
+  window.sendOrderEmails = function sendOrderEmails(order) {
+    const dynamic = getEmailConfig();
+    const config = {
+      publicKey: dynamic.publicKey || (typeof EMAILJS_CONFIG !== "undefined" ? EMAILJS_CONFIG.publicKey : ""),
+      serviceId: dynamic.serviceId || (typeof EMAILJS_CONFIG !== "undefined" ? EMAILJS_CONFIG.serviceId : ""),
+      ownerTemplateId: dynamic.ownerTemplateId || (typeof EMAILJS_CONFIG !== "undefined" ? EMAILJS_CONFIG.ownerTemplateId : ""),
+      customerTemplateId: dynamic.customerTemplateId || (typeof EMAILJS_CONFIG !== "undefined" ? EMAILJS_CONFIG.customerTemplateId : ""),
+      ownerEmail: dynamic.ownerEmail || "orders@tabletenniswala.in"
+    };
+
+    const configured = config.publicKey && config.serviceId && config.ownerTemplateId && config.customerTemplateId && window.emailjs;
+    const templateParams = {
+      order_id: order.orderId,
+      store_email: config.ownerEmail,
+      customer_name: order.customer?.fullName || "",
+      customer_email: order.customer?.email || "",
+      customer_phone: order.customer?.phone || "",
+      customer_address: `${order.customer?.address || ""}, ${order.customer?.city || ""}, ${order.customer?.state || ""} - ${order.customer?.pincode || ""}`,
+      order_total: money(order.amount),
+      payment_id: order.paymentId || "",
+      order_items: (order.items || []).map(item => `${item.name} x ${item.quantity || 1} — ${money(Number(item.price || 0) * Number(item.quantity || 1))} ${item.details ? String(item.details).replace(/<br>/g, ", ") : ""}`).join("\n")
+    };
+
+    if (!configured) {
+      console.warn("EmailJS is not configured. Order is saved in admin panel only.", templateParams);
+      return;
+    }
+
+    try {
+      emailjs.init({ publicKey: config.publicKey });
+      emailjs.send(config.serviceId, config.ownerTemplateId, templateParams).catch(error => console.warn("Owner order email failed", error));
+      emailjs.send(config.serviceId, config.customerTemplateId, templateParams).catch(error => console.warn("Customer order email failed", error));
+    } catch (error) {
+      console.warn("Order email failed", error);
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    bindAdminTabs();
+    bindOrderAdmin();
+    bindContentEditor();
+    bindEmailSetup();
+    renderAdminDashboard();
+    renderAdminOrders();
+    applySiteContent();
+  });
+})();
+
+
+/* FINAL: analytics/customers admin, no front-page Buy Now, save-filter scroll, sticky custom price */
+(function () {
+  const ORDER_KEY = "ttw-orders";
+  const PRODUCT_KEY = "ttw-admin-products";
+  function money(value) { try { return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0)); } catch (e) { return "₹" + Number(value || 0).toLocaleString("en-IN"); } }
+  function cap(value) { return String(value || "").replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase()); }
+  function safeJSON(key, fallback) { try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); } catch (e) { return fallback; } }
+  function orders() { return safeJSON(ORDER_KEY, []); }
+  function allProducts() { let admin = safeJSON(PRODUCT_KEY, []); try { return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin]; } catch (e) { return admin; } }
+  function isRubber(product) { return String(product?.category || "").toLowerCase() === "rubbers"; }
+  function maxThickness(product) { return product.maxThickness || product.thickness || "MAX"; }
+  function imageMarkup(product) { if (typeof productArtwork === "function") return productArtwork(product); if (product.image) { const fb = product.fallbackImage ? `this.onerror=null;this.src='${product.fallbackImage}';` : `this.onerror=null;this.style.display='none';`; return `<img src="${product.image}" alt="${product.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${fb}">`; } return ""; }
+  function rubberInline(product) { if (!isRubber(product)) return ""; return `<div class="rubber-card-specs"><span class="rubber-spec-pill">Red / Black</span><span class="rubber-spec-pill">Max thickness ${maxThickness(product)}</span></div><div class="inline-rubber-panel" data-inline-rubber-panel><div class="inline-rubber-labels"><span>Colour: <b data-inline-colour-label>Red</b></span><span>Thickness: <b>${maxThickness(product)}</b></span></div><div class="inline-rubber-buttons" role="group" aria-label="Choose rubber colour"><button type="button" class="inline-rubber-colour active" data-card-rubber-colour="red"><i></i> Red</button><button type="button" class="inline-rubber-colour" data-card-rubber-colour="black"><i></i> Black</button></div></div>`; }
+  function finalListingProductCard(product) { return `<article class="product-card" data-product-card="${product.id}" ${isRubber(product) ? 'data-selected-rubber-colour="red"' : ""}><div class="product-visual" data-view-product="${product.id}"><span class="product-badge">${product.badge || cap(product.brand)}</span>${imageMarkup(product)}</div><div class="product-info" data-view-product="${product.id}"><div class="product-topline"><h3 class="product-name">${product.name}</h3><span class="product-price">${money(product.price)}</span></div><div class="product-meta"><span>${cap(product.brand)} • ${cap(product.category)}</span><span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${product.rating || 4.7}<small>(${product.reviews || 0})</small></span></div>${rubberInline(product)}<div class="product-card-actions single-action"><button type="button" class="product-action-btn product-add-btn" data-add-product="${product.id}">Add to cart</button></div><span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span></div></article>`; }
+  window.productCard = finalListingProductCard; try { productCard = finalListingProductCard; } catch (e) {}
+  function monthKey(date) { const d = new Date(date || Date.now()); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`; }
+  function lastSixMonths() { const arr = []; const now = new Date(); for (let i = 5; i >= 0; i--) { const d = new Date(now.getFullYear(), now.getMonth() - i, 1); arr.push({ key: monthKey(d), label: d.toLocaleString("en-IN", { month: "short", year: "2-digit" }), sales: 0, orders: 0 }); } return arr; }
+  function computeItemSales(list) { const map = new Map(); list.forEach(order => (order.items || []).forEach(item => { const cur = map.get(item.name) || { name: item.name, qty: 0, value: 0 }; cur.qty += Number(item.quantity || 1); cur.value += Number(item.price || 0) * Number(item.quantity || 1); map.set(item.name, cur); })); return [...map.values()].sort((a, b) => b.qty - a.qty || b.value - a.value); }
+  window.renderAdminAnalytics = function renderAdminAnalytics() { const list = orders(); const months = lastSixMonths(); const byKey = Object.fromEntries(months.map(m => [m.key, m])); list.forEach(o => { const k = monthKey(o.date); if (byKey[k]) { byKey[k].sales += Number(o.amount || 0); byKey[k].orders += 1; } }); const current = months[months.length - 1] || { sales: 0, orders: 0 }; const total = list.reduce((s, o) => s + Number(o.amount || 0), 0); const aov = list.length ? total / list.length : 0; const items = computeItemSales(list); const maxSales = Math.max(...months.map(m => m.sales), 1); const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; }; set("analyticsMonthSales", money(current.sales)); set("analyticsMonthOrders", current.orders); set("analyticsAov", money(aov)); set("analyticsTopItem", items[0]?.name ? items[0].name.slice(0, 28) : "-"); const bars = document.getElementById("monthlySalesBars"); if (bars) bars.innerHTML = months.map(m => `<div class="sales-bar-row"><span>${m.label}</span><div class="sales-bar-track"><i style="width:${Math.max(4, (m.sales / maxSales) * 100)}%"></i></div><b>${money(m.sales)}</b></div>`).join(""); const best = document.getElementById("bestSellerList"); if (best) best.innerHTML = items.length ? items.slice(0, 8).map((item, idx) => `<div class="best-seller-item"><span>${idx + 1}</span><strong>${item.name}</strong><small>${item.qty} sold • ${money(item.value)}</small></div>`).join("") : `<div class="admin-empty-card"><h3>No product sales yet</h3><p>Completed orders will build this list.</p></div>`; };
+  function customersFromOrders() { const map = new Map(); orders().forEach(order => { const c = order.customer || {}; const key = (c.email || c.phone || c.fullName || order.orderId || "").toLowerCase(); if (!key) return; const ex = map.get(key) || { name: c.fullName || "Customer", email: c.email || "", phone: c.phone || "", city: c.city || "", orders: 0, value: 0, lastDate: order.date }; ex.orders += 1; ex.value += Number(order.amount || 0); if (new Date(order.date || 0) > new Date(ex.lastDate || 0)) ex.lastDate = order.date; map.set(key, ex); }); return [...map.values()].sort((a, b) => b.value - a.value); }
+  window.renderAdminCustomers = function renderAdminCustomers() { const q = (document.getElementById("adminCustomerSearch")?.value || "").toLowerCase(); const filtered = customersFromOrders().filter(c => `${c.name} ${c.email} ${c.phone} ${c.city}`.toLowerCase().includes(q)); const totalValue = filtered.reduce((s, c) => s + c.value, 0); const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; }; set("customerTotalCount", filtered.length); set("customerRepeatCount", filtered.filter(c => c.orders > 1).length); set("customerTotalValue", money(totalValue)); set("customerTopName", filtered[0]?.name ? filtered[0].name.slice(0, 28) : "-"); const list = document.getElementById("adminCustomersList"); if (list) list.innerHTML = filtered.length ? filtered.map(c => `<article class="customer-card"><div><h3>${c.name}</h3><p>${c.email || "-"} • ${c.phone || "-"}</p><small>${c.city || ""}${c.lastDate ? " • Last order " + new Date(c.lastDate).toLocaleDateString("en-IN") : ""}</small></div><strong>${money(c.value)}</strong><span>${c.orders} ${c.orders === 1 ? "order" : "orders"}</span></article>`).join("") : `<div class="admin-empty-card"><h3>No customers found</h3><p>Customers appear here after checkout orders are placed.</p></div>`; };
+  function exportCustomers() { const blob = new Blob([JSON.stringify(customersFromOrders(), null, 2)], { type: "application/json" }); const url = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = url; a.download = "table-tennis-wala-customers.json"; a.click(); URL.revokeObjectURL(url); }
+  document.addEventListener("click", event => { if (event.target.closest("#saveFilters, .save-filter-button")) { setTimeout(() => { const target = document.querySelector(".catalog-results, #brandProductGrid, .product-listing"); if (!target) return; const y = target.getBoundingClientRect().top + window.scrollY - (window.innerWidth < 760 ? 96 : 118); window.scrollTo({ top: Math.max(0, y), behavior: "smooth" }); }, 180); } }, true);
+  document.addEventListener("DOMContentLoaded", () => { document.getElementById("refreshAnalytics")?.addEventListener("click", renderAdminAnalytics); document.getElementById("adminCustomerSearch")?.addEventListener("input", renderAdminCustomers); document.getElementById("exportCustomers")?.addEventListener("click", exportCustomers); document.querySelectorAll("[data-admin-panel]").forEach(btn => btn.addEventListener("click", () => setTimeout(() => { renderAdminAnalytics(); renderAdminCustomers(); }, 60))); setTimeout(() => { if (typeof window.forceRenderProducts === "function") window.forceRenderProducts(); renderAdminAnalytics(); renderAdminCustomers(); }, 900); });
+})();
+
+
+/* FINAL: live product counts for homepage brand showcase */
+(function () {
+  function getAllProductsForBrandShowcase() {
+    let admin = [];
+    try {
+      admin = JSON.parse(localStorage.getItem("ttw-admin-products") || "[]");
+    } catch (error) {
+      admin = [];
+    }
+    try {
+      return [...(typeof seedProducts !== "undefined" ? seedProducts : []), ...admin];
+    } catch (error) {
+      return admin;
+    }
+  }
+
+  function updateHomeBrandCounts() {
+    const products = getAllProductsForBrandShowcase();
+    const counts = products.reduce((acc, product) => {
+      const brand = String(product.brand || "").toLowerCase();
+      if (!brand) return acc;
+      acc[brand] = (acc[brand] || 0) + 1;
+      return acc;
+    }, {});
+
+    document.querySelectorAll("[data-home-brand-count]").forEach(el => {
+      const brand = el.dataset.homeBrandCount;
+      const count = counts[brand] || 0;
+      if (el.tagName.toLowerCase() === "b") {
+        el.textContent = count ? `${count}+` : "New";
+      } else {
+        el.textContent = count ? `${count} products` : "View products";
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    updateHomeBrandCounts();
+    setTimeout(updateHomeBrandCounts, 500);
+    setTimeout(updateHomeBrandCounts, 1400);
   });
 })();
