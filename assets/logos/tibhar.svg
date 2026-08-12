@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="Tibhar">
+  <rect width="760" height="180" rx="34" fill="#ffffff"/>
+  <path d="M104 107 C238 40, 409 146, 656 47" fill="none" stroke="#df514f" stroke-width="18" stroke-linecap="round"/>
+  <text x="380" y="111" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="78" font-weight="900" letter-spacing="14" fill="#101410" opacity=".58">TIBHAR</text>
+  <line x1="104" y1="132" x2="656" y2="132" stroke="#d7ff3f" stroke-width="8" stroke-linecap="round"/>
+</svg>

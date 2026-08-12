@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="Butterfly">
+  <rect width="760" height="180" rx="34" fill="#ffffff"/>
+  <circle cx="226" cy="90" r="54" fill="#101410"/>
+  <circle cx="330" cy="90" r="54" fill="#101410"/>
+  <circle cx="278" cy="90" r="17" fill="#e83835"/>
+  <circle cx="278" cy="90" r="7" fill="#fff"/>
+  <text x="482" y="113" font-family="Arial Black, Arial, sans-serif" font-size="58" font-weight="900" fill="#101410">Butterfly</text>
+</svg>

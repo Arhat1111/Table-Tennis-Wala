@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="YinHe">
+  <rect width="760" height="180" rx="34" fill="#ffffff"/>
+  <circle cx="220" cy="90" r="45" fill="#4d7cff"/>
+  <ellipse cx="220" cy="90" rx="32" ry="14" fill="#ffffff"/>
+  <text x="440" y="114" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="66" font-weight="900" fill="#101410">YinHe</text>
+</svg>

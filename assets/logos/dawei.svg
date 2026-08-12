@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="Dawei">
+  <rect width="760" height="180" rx="34" fill="#ffffff"/>
+  <text x="380" y="112" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="76" font-weight="900" fill="#101410">Dawei</text>
+  <line x1="218" y1="134" x2="542" y2="134" stroke="#de3b37" stroke-width="10" stroke-linecap="round"/>
+</svg>

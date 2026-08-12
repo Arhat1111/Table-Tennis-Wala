@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="XIOM">
+  <rect width="760" height="180" rx="34" fill="#ffffff"/>
+  <g transform="translate(235 90) rotate(45)">
+    <rect x="-58" y="-9" width="116" height="18" rx="9" fill="#ff8a35"/>
+    <rect x="-9" y="-58" width="18" height="116" rx="9" fill="#ff8a35"/>
+  </g>
+  <text x="455" y="114" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="72" font-weight="900" fill="#101410">XIOM</text>
+</svg>
