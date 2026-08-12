@@ -548,3 +548,5 @@ JS syntax check: OK
 - Added reliable local SVG logos/wordmarks for JOOLA, Tibhar, Butterfly, STIGA, DHS, YinHe, XIOM, Andro and Dawei.
 - Reduced the height of the homepage brand feature card and all brand tiles for a cleaner compact layout.
 - Checks: {'local_logos_created': 9, 'homepage_uses_local_joola': True, 'compact_css': True, 'source_zip': 'table-tennis-wala-home-brands-joola-highlight.zip', 'js_check': 'JS syntax OK'}
+
+- Redesigned the homepage brand section with a more premium split layout, sticky intro, compact JOOLA spotlight card, and cleaner responsive brand tiles.

@@ -12559,350 +12559,6 @@ header.site-header {
 
 
 /* FINAL: extraordinary homepage brand section + JOOLA brand emphasis */
-.home-brand-lab {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  padding-top: clamp(80px, 9vw, 140px);
-  padding-bottom: clamp(80px, 10vw, 150px);
-  background:
-    radial-gradient(circle at 16% 18%, rgba(215, 255, 63, .16), transparent 28%),
-    radial-gradient(circle at 88% 12%, rgba(215, 255, 63, .22), transparent 30%),
-    linear-gradient(180deg, var(--paper, #f7f6f0), #ffffff 54%, var(--paper, #f7f6f0));
-}
-
-.home-brand-lab-bg {
-  position: absolute;
-  inset: 42px clamp(18px, 5vw, 80px);
-  z-index: -1;
-  border-radius: clamp(32px, 5vw, 72px);
-  background:
-    linear-gradient(90deg, rgba(17, 19, 17, .045) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(17, 19, 17, .035) 1px, transparent 1px);
-  background-size: 64px 64px;
-  mask-image: radial-gradient(circle at 50% 50%, #000, transparent 72%);
-  opacity: .55;
-}
-
-.home-brand-lab-head {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 540px);
-  gap: clamp(22px, 5vw, 72px);
-  align-items: end;
-  margin-bottom: clamp(32px, 5vw, 64px);
-}
-
-.home-brand-lab-head h2 {
-  margin: 12px 0 0;
-  max-width: 920px;
-  font: 950 clamp(54px, 8.8vw, 138px)/.82 Manrope, sans-serif;
-  letter-spacing: -.095em;
-  color: var(--ink, #101410);
-}
-
-.home-brand-lab-head p {
-  margin: 0 0 10px;
-  color: var(--muted, #74786f);
-  font-size: clamp(16px, 1.2vw, 19px);
-  line-height: 1.65;
-  font-weight: 750;
-}
-
-.home-brand-showcase {
-  display: grid;
-  grid-template-columns: minmax(380px, .92fr) minmax(0, 1.08fr);
-  gap: clamp(18px, 2.4vw, 32px);
-  align-items: stretch;
-}
-
-.home-brand-feature {
-  position: relative;
-  min-height: 650px;
-  display: grid;
-  align-content: space-between;
-  gap: 24px;
-  padding: clamp(26px, 3vw, 42px);
-  border-radius: clamp(34px, 4vw, 58px);
-  overflow: hidden;
-  color: #fff;
-  background:
-    radial-gradient(circle at 80% 17%, rgba(215,255,63,.42), transparent 30%),
-    radial-gradient(circle at 18% 92%, rgba(215,255,63,.18), transparent 34%),
-    linear-gradient(145deg, #101410, #202d19 58%, #0d110e);
-  box-shadow: 0 30px 88px rgba(17, 19, 17, .24);
-  border: 1px solid rgba(215, 255, 63, .22);
-}
-
-.home-brand-feature::before {
-  content: "JOOLA";
-  position: absolute;
-  right: -5%;
-  bottom: -8%;
-  font-size: clamp(110px, 17vw, 250px);
-  line-height: .8;
-  font-weight: 950;
-  letter-spacing: .12em;
-  color: rgba(255, 255, 255, .045);
-  pointer-events: none;
-}
-
-.feature-tag {
-  width: max-content;
-  min-height: 40px;
-  display: inline-flex;
-  align-items: center;
-  padding: 0 14px;
-  border-radius: 999px;
-  background: var(--accent, #d7ff3f);
-  color: var(--ink, #101410);
-  font-weight: 950;
-  font-size: 12px;
-  letter-spacing: .04em;
-  text-transform: uppercase;
-  box-shadow: 0 14px 34px rgba(215,255,63,.24);
-}
-
-.feature-logo-card {
-  width: min(100%, 520px);
-  min-height: 168px;
-  display: grid;
-  place-items: center;
-  padding: 28px;
-  border-radius: 34px;
-  background:
-    radial-gradient(circle at 90% 20%, rgba(215,255,63,.28), transparent 26%),
-    rgba(255, 255, 255, .94);
-  box-shadow: inset 0 0 0 1px rgba(17, 19, 17, .08), 0 24px 60px rgba(0,0,0,.16);
-}
-
-.feature-logo-card img {
-  width: min(360px, 84%);
-  max-height: 92px;
-  object-fit: contain;
-  display: block;
-}
-
-.feature-copy {
-  position: relative;
-  z-index: 1;
-}
-
-.feature-copy .eyebrow {
-  color: rgba(255, 255, 255, .68);
-}
-
-.feature-copy h3 {
-  margin: 10px 0 18px;
-  max-width: 660px;
-  font-size: clamp(42px, 5vw, 76px);
-  line-height: .88;
-  letter-spacing: -.075em;
-  color: #fff;
-}
-
-.feature-copy p {
-  margin: 0 0 20px;
-  max-width: 540px;
-  color: rgba(255,255,255,.68);
-  font-weight: 750;
-  line-height: 1.62;
-}
-
-.feature-action {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 52px;
-  padding: 0 20px;
-  border-radius: 999px;
-  background: #fff;
-  color: var(--ink);
-  font-weight: 950;
-}
-
-.feature-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  position: relative;
-  z-index: 1;
-}
-
-.feature-stats span {
-  min-height: 48px;
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 0 15px;
-  border-radius: 999px;
-  background: rgba(255,255,255,.10);
-  color: rgba(255,255,255,.75);
-  border: 1px solid rgba(255,255,255,.12);
-  font-weight: 850;
-  backdrop-filter: blur(12px);
-}
-
-.feature-stats b {
-  color: var(--accent);
-  font-size: 18px;
-}
-
-.home-brand-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(12px, 1.6vw, 20px);
-}
-
-.home-brand-tile {
-  position: relative;
-  min-height: 300px;
-  display: grid;
-  grid-template-rows: 1fr auto auto;
-  align-items: end;
-  padding: 22px;
-  border-radius: 34px;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 88% 18%, rgba(215,255,63,.30), transparent 30%),
-    rgba(255, 255, 255, .82);
-  border: 1px solid rgba(17,19,17,.08);
-  box-shadow: 0 18px 48px rgba(17,19,17,.075);
-  color: var(--ink);
-  transition: transform .22s ease, box-shadow .22s ease, background .22s ease;
-}
-
-.home-brand-tile:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 28px 72px rgba(17,19,17,.13);
-  background:
-    radial-gradient(circle at 88% 18%, rgba(215,255,63,.42), transparent 30%),
-    #fff;
-}
-
-.tile-number {
-  position: absolute;
-  top: 18px;
-  left: 18px;
-  width: 36px;
-  height: 36px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: rgba(17,19,17,.06);
-  color: rgba(17,19,17,.54);
-  font-weight: 950;
-  font-size: 12px;
-}
-
-.home-brand-tile img {
-  width: min(160px, 86%);
-  max-height: 78px;
-  object-fit: contain;
-  justify-self: start;
-  align-self: center;
-  filter: drop-shadow(0 10px 22px rgba(17,19,17,.10));
-}
-
-.home-brand-tile b {
-  display: block;
-  margin-top: 18px;
-  font-size: 28px;
-  line-height: .95;
-  letter-spacing: -.06em;
-}
-
-.home-brand-tile small {
-  margin-top: 7px;
-  color: var(--muted);
-  font-weight: 900;
-}
-
-.logo-stiga,
-.logo-dhs,
-.logo-yinhe,
-.logo-xiom,
-.logo-andro,
-.logo-dawei {
-  align-self: center;
-  justify-self: start;
-  display: inline-flex;
-  align-items: center;
-  color: var(--ink);
-  font-weight: 950;
-  font-size: clamp(26px, 2.1vw, 38px);
-  line-height: 1;
-  letter-spacing: .08em;
-}
-
-.logo-stiga {
-  padding: 9px 20px;
-  border-radius: 999px;
-  background: #101410;
-  color: #fff;
-  text-decoration: line-through var(--accent) 4px;
-  text-underline-offset: -10px;
-}
-
-.logo-dhs i,
-.logo-yinhe i,
-.logo-xiom i {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  margin-right: 10px;
-  display: inline-block;
-  background: #ef3b34;
-}
-
-.logo-yinhe i {
-  background: #4d7cff;
-  box-shadow: inset 0 0 0 8px #4d7cff, inset 0 0 0 13px #fff;
-}
-
-.logo-xiom i {
-  border-radius: 6px;
-  background: transparent;
-  position: relative;
-  transform: rotate(45deg);
-}
-
-.logo-xiom i::before,
-.logo-xiom i::after {
-  content: "";
-  position: absolute;
-  inset: 12px 0;
-  background: #ff8a35;
-  border-radius: 999px;
-}
-
-.logo-xiom i::after {
-  transform: rotate(90deg);
-}
-
-.logo-andro {
-  letter-spacing: -.07em;
-  text-transform: lowercase;
-  font-size: clamp(34px, 2.8vw, 48px);
-}
-
-.logo-dawei {
-  letter-spacing: -.04em;
-  border-bottom: 5px solid #de3b37;
-  padding-bottom: 5px;
-}
-
-.home-brand-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: clamp(24px, 4vw, 42px);
-}
-
-.joola-ghost {
-  background: var(--accent) !important;
-  color: var(--ink) !important;
-  border-color: transparent !important;
-}
 
 /* JOOLA emphasis across the site */
 .nav-dropdown-menu a[href="joola.html"],
@@ -13159,5 +12815,396 @@ body[data-page="joola"] .brand-hero {
   .home-brand-tile b,
   .home-brand-tile small {
     grid-column: 1 !important;
+  }
+}
+
+
+/* Redesigned home brand showcase */
+.home-brand-lab {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding-top: clamp(70px, 7vw, 110px);
+  padding-bottom: clamp(70px, 8vw, 120px);
+  background:
+    radial-gradient(circle at 14% 15%, rgba(215,255,63,.12), transparent 22%),
+    radial-gradient(circle at 88% 20%, rgba(215,255,63,.18), transparent 24%),
+    linear-gradient(180deg, #fbfbf7 0%, #f5f5ef 100%);
+}
+
+.home-brand-lab-bg {
+  position: absolute;
+  inset: 46px clamp(16px, 4vw, 56px);
+  border-radius: 42px;
+  background:
+    linear-gradient(90deg, rgba(16,20,16,.035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(16,20,16,.03) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: radial-gradient(circle at 50% 45%, #000, transparent 75%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.home-brand-lab-shell {
+  display: grid;
+  grid-template-columns: minmax(320px, .9fr) minmax(0, 1.1fr);
+  gap: clamp(24px, 3vw, 36px);
+  align-items: start;
+}
+
+.home-brand-lead {
+  position: sticky;
+  top: 112px;
+  display: grid;
+  gap: 20px;
+  align-content: start;
+}
+
+.home-brand-lead h2 {
+  margin: 6px 0 0;
+  max-width: 620px;
+  font: 950 clamp(54px, 6.5vw, 104px)/.84 Manrope, sans-serif;
+  letter-spacing: -.1em;
+  color: var(--ink);
+}
+
+.home-brand-lead p {
+  margin: 0;
+  max-width: 520px;
+  color: var(--muted);
+  font-size: clamp(17px, 1.15vw, 19px);
+  line-height: 1.7;
+  font-weight: 760;
+}
+
+.home-brand-quick-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home-brand-quick-pills span {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.88);
+  border: 1px solid rgba(16,20,16,.08);
+  color: var(--ink);
+  font-weight: 850;
+  box-shadow: 0 14px 28px rgba(16,20,16,.05);
+}
+
+.home-brand-spotlight {
+  display: grid;
+  gap: 18px;
+}
+
+.home-brand-note {
+  display: grid;
+  gap: 10px;
+  padding: 22px 24px;
+  border-radius: 28px;
+  background: rgba(255,255,255,.7);
+  border: 1px solid rgba(16,20,16,.08);
+  box-shadow: 0 18px 42px rgba(16,20,16,.06);
+}
+
+.home-brand-note span {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(16,20,16,.58);
+}
+
+.home-brand-note p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 760;
+  line-height: 1.7;
+}
+
+.home-brand-feature {
+  position: relative;
+  min-height: 470px;
+  display: grid;
+  align-content: space-between;
+  gap: 20px;
+  padding: clamp(24px, 2.6vw, 34px);
+  border-radius: 36px;
+  overflow: hidden;
+  color: #fff;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(215,255,63,.42), transparent 28%),
+    radial-gradient(circle at 18% 92%, rgba(215,255,63,.13), transparent 32%),
+    linear-gradient(145deg, #101410, #192516 58%, #0f130f);
+  box-shadow: 0 28px 72px rgba(17,19,17,.2);
+}
+
+.home-brand-feature::before {
+  content: "JOOLA";
+  position: absolute;
+  right: -1%;
+  bottom: -6%;
+  font-size: clamp(92px, 12vw, 190px);
+  line-height: .9;
+  font-weight: 950;
+  letter-spacing: .1em;
+  color: rgba(255,255,255,.05);
+  pointer-events: none;
+}
+
+.feature-tag {
+  width: max-content;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  box-shadow: 0 12px 24px rgba(215,255,63,.28);
+}
+
+.feature-logo-card {
+  width: min(100%, 420px);
+  min-height: 112px;
+  display: grid;
+  place-items: center;
+  padding: 18px 20px;
+  border-radius: 26px;
+  background: rgba(255,255,255,.92);
+  box-shadow: inset 0 0 0 1px rgba(16,20,16,.08), 0 18px 32px rgba(0,0,0,.12);
+}
+
+.feature-logo-card img {
+  width: min(240px, 80%);
+  max-height: 60px;
+  object-fit: contain;
+}
+
+.feature-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-copy .eyebrow {
+  color: rgba(255,255,255,.7);
+}
+
+.feature-copy h3 {
+  margin: 10px 0 12px;
+  max-width: 560px;
+  font-size: clamp(38px, 4vw, 64px);
+  line-height: .9;
+  letter-spacing: -.08em;
+  color: #fff;
+}
+
+.feature-copy p {
+  max-width: 510px;
+  margin: 0 0 16px;
+  color: rgba(255,255,255,.72);
+  font-weight: 760;
+  line-height: 1.65;
+}
+
+.feature-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 50px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 950;
+}
+
+.feature-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-stats span {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.11);
+  border: 1px solid rgba(255,255,255,.14);
+  color: rgba(255,255,255,.82);
+  font-weight: 840;
+  backdrop-filter: blur(10px);
+}
+
+.feature-stats b { color: var(--accent); }
+
+.home-brand-grid {
+  margin-top: clamp(24px, 3vw, 34px);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(14px, 1.6vw, 18px);
+}
+
+.home-brand-tile {
+  position: relative;
+  min-height: 210px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: start;
+  gap: 16px;
+  padding: 22px;
+  border-radius: 28px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(215,255,63,.23), transparent 26%),
+    rgba(255,255,255,.82);
+  border: 1px solid rgba(16,20,16,.08);
+  box-shadow: 0 16px 40px rgba(16,20,16,.06);
+  transition: transform .22s ease, box-shadow .22s ease, background .22s ease;
+}
+
+.home-brand-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 52px rgba(16,20,16,.10);
+  background:
+    radial-gradient(circle at 88% 18%, rgba(215,255,63,.30), transparent 26%),
+    #fff;
+}
+
+.tile-number {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(16,20,16,.06);
+  color: rgba(16,20,16,.52);
+  font-size: 11px;
+  font-weight: 950;
+}
+
+.home-brand-tile img {
+  width: min(150px, 90%);
+  max-height: 54px;
+  object-fit: contain;
+  justify-self: start;
+  align-self: end;
+  margin-top: 18px;
+}
+
+.brand-tile-copy {
+  display: grid;
+  gap: 4px;
+  align-content: end;
+}
+
+.home-brand-tile b {
+  display: block;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -.06em;
+}
+
+.home-brand-tile small {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.home-brand-tile em {
+  margin-top: 8px;
+  color: rgba(16,20,16,.58);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.45;
+  font-weight: 760;
+}
+
+.home-brand-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.joola-ghost {
+  background: var(--accent) !important;
+  color: var(--ink) !important;
+  border-color: transparent !important;
+}
+
+@media (max-width: 1180px) {
+  .home-brand-lab-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .home-brand-lead {
+    position: static;
+  }
+
+  .home-brand-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .home-brand-lab {
+    padding-top: 56px;
+    padding-bottom: 64px;
+  }
+
+  .home-brand-lead h2 {
+    font-size: clamp(40px, 12vw, 64px);
+  }
+
+  .home-brand-feature {
+    min-height: 420px;
+    border-radius: 28px;
+  }
+
+  .feature-logo-card {
+    width: 100%;
+  }
+
+  .feature-copy h3 {
+    font-size: clamp(28px, 8vw, 42px);
+  }
+
+  .home-brand-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-brand-tile {
+    min-height: auto;
+    grid-template-columns: 130px minmax(0, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 18px;
+    padding: 20px 18px 20px 52px;
+  }
+
+  .home-brand-tile img {
+    width: 120px;
+    max-height: 48px;
+    margin-top: 0;
+  }
+
+  .brand-tile-copy em {
+    font-size: 13px;
   }
 }
