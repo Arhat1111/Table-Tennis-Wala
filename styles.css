@@ -13884,3 +13884,50 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
     justify-content: center;
   }
 }
+
+
+/* FINAL: Email setup/admin status UI */
+.email-live-warning,
+.email-status-card {
+  margin-top: 16px;
+  padding: 18px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 170, 0, .28);
+  background: rgba(255, 245, 210, .78);
+  color: rgba(17, 19, 17, .72);
+  font-weight: 760;
+  line-height: 1.55;
+}
+
+.email-live-warning code,
+.email-status-card code {
+  padding: 2px 7px;
+  border-radius: 8px;
+  background: rgba(17, 19, 17, .06);
+  color: var(--ink, #101410);
+  font-weight: 900;
+}
+
+.email-status-card h3 {
+  margin: 6px 0 8px;
+  font-size: 24px;
+  letter-spacing: -.05em;
+  color: var(--ink, #101410);
+}
+
+.email-status-card p {
+  margin: 0;
+}
+
+.email-status-card small {
+  display: block;
+  margin-top: 12px;
+  color: rgba(17, 19, 17, .58);
+  font-weight: 850;
+}
+
+
+/* FINAL FIX: no spacing leftovers when ready-made rackets are removed from blade selector */
+[data-card-slot="blade"].wrong-builder-category {
+  display: none !important;
+}

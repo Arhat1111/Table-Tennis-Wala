@@ -3888,7 +3888,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-1000",
     "name": "TIMO BOLL 1000",
     "brand": "butterfly",
-    "category": "blades",
+    "category": "rackets",
     "price": 3510,
     "rating": 4.7,
     "reviews": 0,
@@ -3897,8 +3897,8 @@ const seedProducts = [
     "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
+      "Category: Rackets",
       "Brand: Butterfly",
-      "Category: Blades",
       "MRP: ₹3,510",
       "Price source: supplied price list"
     ],
@@ -3912,7 +3912,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-2000",
     "name": "TIMO BOLL 2000",
     "brand": "butterfly",
-    "category": "blades",
+    "category": "rackets",
     "price": 3510,
     "rating": 4.7,
     "reviews": 0,
@@ -3921,8 +3921,8 @@ const seedProducts = [
     "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
+      "Category: Rackets",
       "Brand: Butterfly",
-      "Category: Blades",
       "MRP: ₹3,510",
       "Price source: supplied price list"
     ],
@@ -3936,7 +3936,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-3000",
     "name": "TIMO BOLL 3000",
     "brand": "butterfly",
-    "category": "blades",
+    "category": "rackets",
     "price": 3630,
     "rating": 4.7,
     "reviews": 0,
@@ -3945,8 +3945,8 @@ const seedProducts = [
     "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
+      "Category: Rackets",
       "Brand: Butterfly",
-      "Category: Blades",
       "MRP: ₹3,630",
       "Price source: supplied price list"
     ],
@@ -3984,7 +3984,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-cf-1000",
     "name": "TIMO BOLL CF 1000",
     "brand": "butterfly",
-    "category": "blades",
+    "category": "rackets",
     "price": 4940,
     "rating": 4.7,
     "reviews": 0,
@@ -3993,8 +3993,8 @@ const seedProducts = [
     "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
+      "Category: Rackets",
       "Brand: Butterfly",
-      "Category: Blades",
       "MRP: ₹4,940",
       "Price source: supplied price list"
     ],
@@ -4008,7 +4008,7 @@ const seedProducts = [
     "id": "butterfly-timo-boll-cf-2000",
     "name": "TIMO BOLL CF 2000",
     "brand": "butterfly",
-    "category": "blades",
+    "category": "rackets",
     "price": 4940,
     "rating": 4.7,
     "reviews": 0,
@@ -4017,8 +4017,8 @@ const seedProducts = [
     "image": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
+      "Category: Rackets",
       "Brand: Butterfly",
-      "Category: Blades",
       "MRP: ₹4,940",
       "Price source: supplied price list"
     ],
@@ -14401,10 +14401,13 @@ const STORE_ORDER_EMAIL = "orders@tabletenniswala.in";
 
 // Optional EmailJS configuration. Fill these values to send automatic emails from the static site.
 const EMAILJS_CONFIG = {
+  // For automatic emails on the live website, paste your EmailJS credentials here before deploying.
+  // Admin localStorage settings are useful for local testing, but they do not automatically publish to every customer browser.
   publicKey: "",
   serviceId: "",
   ownerTemplateId: "",
-  customerTemplateId: ""
+  customerTemplateId: "",
+  ownerEmail: "orders@tabletenniswala.in"
 };
 
 const state = {
@@ -19602,5 +19605,274 @@ document.addEventListener("DOMContentLoaded", () => {
   const observer = new MutationObserver(removeCustomerAndEmailBoxes);
   document.addEventListener("DOMContentLoaded", () => {
     if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+  });
+})();
+
+
+/* FINAL: robust EmailJS sender for owner + customer confirmation */
+(function () {
+  const EMAIL_CONFIG_STORAGE = "ttw-email-config";
+  const EMAIL_STATUS_STORAGE = "ttw-last-email-status";
+
+  function readStoredEmailConfig() {
+    try {
+      return JSON.parse(localStorage.getItem(EMAIL_CONFIG_STORAGE) || "{}");
+    } catch (error) {
+      return {};
+    }
+  }
+
+  function mergedEmailConfig() {
+    const embedded = typeof EMAILJS_CONFIG !== "undefined" ? EMAILJS_CONFIG : {};
+    const stored = readStoredEmailConfig();
+
+    // Embedded values are preferred for live deployment. Stored values help in local testing/admin browser only.
+    return {
+      ownerEmail: embedded.ownerEmail || stored.ownerEmail || "orders@tabletenniswala.in",
+      publicKey: embedded.publicKey || stored.publicKey || "",
+      serviceId: embedded.serviceId || stored.serviceId || "",
+      ownerTemplateId: embedded.ownerTemplateId || stored.ownerTemplateId || "",
+      customerTemplateId: embedded.customerTemplateId || stored.customerTemplateId || ""
+    };
+  }
+
+  function htmlToPlain(value) {
+    const temp = document.createElement("div");
+    temp.innerHTML = String(value || "").replace(/<br\s*\/?>/gi, "\n");
+    return (temp.textContent || temp.innerText || "").replace(/\n{3,}/g, "\n\n").trim();
+  }
+
+  function emailOrderItems(order) {
+    return (order.items || []).map(item => {
+      const qty = Number(item.quantity || 1);
+      const lineTotal = Number(item.price || 0) * qty;
+      const details = item.details ? `\n   ${htmlToPlain(item.details)}` : "";
+      return `• ${item.name} x ${qty} — ${formatPrice(lineTotal)}${details}`;
+    }).join("\n\n");
+  }
+
+  function emailParams(order, config) {
+    const customer = order.customer || {};
+    const address = `${customer.address || ""}, ${customer.city || ""}, ${customer.state || ""} - ${customer.pincode || ""}`.replace(/^,\s*/, "").trim();
+
+    return {
+      to_email: customer.email || "",
+      reply_to: customer.email || "",
+      store_email: config.ownerEmail,
+      owner_email: config.ownerEmail,
+      customer_name: customer.fullName || "",
+      customer_email: customer.email || "",
+      customer_phone: customer.phone || "",
+      customer_address: address,
+      customer_notes: customer.notes || "",
+      order_id: order.orderId || "",
+      order_total: formatPrice(order.amount || 0),
+      payment_id: order.paymentId || "",
+      payment_mode: order.paymentMode || "WhatsApp order - QR payment pending",
+      payment_status: order.paymentStatus || "QR payment pending",
+      order_channel: order.orderChannel || "WhatsApp",
+      order_items: emailOrderItems(order),
+      order_date: new Date(order.date || Date.now()).toLocaleString("en-IN"),
+      message: `Order ${order.orderId} received. Total ${formatPrice(order.amount || 0)}. QR payment pending.`
+    };
+  }
+
+  function emailConfigured(config) {
+    return Boolean(config.publicKey && config.serviceId && config.ownerTemplateId && config.customerTemplateId && window.emailjs);
+  }
+
+  window.getTTWEmailStatus = function getTTWEmailStatus() {
+    try {
+      return JSON.parse(localStorage.getItem(EMAIL_STATUS_STORAGE) || "{}");
+    } catch (error) {
+      return {};
+    }
+  };
+
+  window.sendOrderEmails = async function sendOrderEmails(order) {
+    const config = mergedEmailConfig();
+    const params = emailParams(order, config);
+
+    const status = {
+      orderId: order.orderId,
+      configured: emailConfigured(config),
+      attemptedAt: new Date().toISOString(),
+      owner: "not_sent",
+      customer: "not_sent",
+      reason: ""
+    };
+
+    if (!status.configured) {
+      status.reason = "EmailJS is not configured. Add publicKey, serviceId, ownerTemplateId and customerTemplateId in script.js EMAILJS_CONFIG or connect a backend email service.";
+      localStorage.setItem(EMAIL_STATUS_STORAGE, JSON.stringify(status));
+      console.warn("Table Tennis Wala email not sent:", status.reason);
+      return status;
+    }
+
+    try {
+      emailjs.init({ publicKey: config.publicKey });
+    } catch (error) {
+      status.reason = `EmailJS init failed: ${error?.message || error}`;
+      localStorage.setItem(EMAIL_STATUS_STORAGE, JSON.stringify(status));
+      console.warn("Table Tennis Wala email init failed", error);
+      return status;
+    }
+
+    try {
+      await emailjs.send(config.serviceId, config.ownerTemplateId, {
+        ...params,
+        to_email: config.ownerEmail
+      });
+      status.owner = "sent";
+    } catch (error) {
+      status.owner = `failed: ${error?.text || error?.message || error}`;
+      console.warn("Owner order email failed", error);
+    }
+
+    try {
+      if (params.to_email) {
+        await emailjs.send(config.serviceId, config.customerTemplateId, params);
+        status.customer = "sent";
+      } else {
+        status.customer = "failed: no customer email entered";
+      }
+    } catch (error) {
+      status.customer = `failed: ${error?.text || error?.message || error}`;
+      console.warn("Customer confirmation email failed", error);
+    }
+
+    localStorage.setItem(EMAIL_STATUS_STORAGE, JSON.stringify(status));
+    return status;
+  };
+
+  function addAdminEmailStatus() {
+    const panel = document.querySelector('[data-admin-panel-view="mail"]');
+    if (!panel || panel.querySelector(".email-status-card")) return;
+
+    const config = mergedEmailConfig();
+    const status = window.getTTWEmailStatus();
+    const configured = emailConfigured(config);
+
+    const card = document.createElement("div");
+    card.className = "email-status-card";
+    card.innerHTML = `
+      <span class="eyebrow">Email status</span>
+      <h3>${configured ? "Automatic email is configured" : "Automatic email is not configured yet"}</h3>
+      <p>${configured ? "Orders will attempt owner and customer confirmation emails through EmailJS." : "Orders will still save in admin and WhatsApp will work, but customer emails will not send until EmailJS keys are added."}</p>
+      ${status.orderId ? `<small>Last order: ${status.orderId} • Owner: ${status.owner} • Customer: ${status.customer}</small>` : ""}
+    `;
+    panel.appendChild(card);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(addAdminEmailStatus, 500);
+    setTimeout(addAdminEmailStatus, 1200);
+  });
+
+  document.addEventListener("click", event => {
+    if (event.target.closest("[data-admin-panel='mail'], #testOrderEmail")) {
+      setTimeout(() => {
+        document.querySelector(".email-status-card")?.remove();
+        addAdminEmailStatus();
+      }, 400);
+    }
+  });
+})();
+
+
+/* FINAL FIX: keep ready-made rackets out of Customize Blade selector */
+(function () {
+  const READY_RACKET_RE = /(ready\s*made|ready\s*to\s*play|racket\s*set|racquet\s*set|\btimo\s*boll\s*(1000|2000|3000|4000|500|600|700|800|900|cf|sg|platinum)\b|\bwakaba\b|\baddoy\b|\bnakama\b|\bzhang\s*jike\s*2000\b|\bzeta\s+offensive\s+plus\b|\bcarbon\s+set\s*up\b|\bassembled\b|\bcomplete\s*racket\b)/i;
+
+  function productText(product) {
+    return [
+      product?.name || "",
+      product?.description || "",
+      Array.isArray(product?.features) ? product.features.join(" ") : ""
+    ].join(" ");
+  }
+
+  function isReadyMadeRacket(product) {
+    return READY_RACKET_RE.test(productText(product));
+  }
+
+  function markReadyMadeRacketsAsRackets() {
+    try {
+      if (!Array.isArray(seedProducts)) return;
+      seedProducts.forEach(product => {
+        if (product.category === "blades" && isReadyMadeRacket(product)) {
+          product.category = "rackets";
+        }
+      });
+    } catch (error) {}
+  }
+
+  function findProduct(productId) {
+    try {
+      if (!Array.isArray(seedProducts)) return null;
+      return seedProducts.find(item => String(item.id) === String(productId)) || null;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function removeWrongBladeCards() {
+    markReadyMadeRacketsAsRackets();
+
+    document.querySelectorAll('[data-card-slot="blade"]').forEach(card => {
+      const productId = card.dataset.id || card.getAttribute("data-product-id") || "";
+      const product = findProduct(productId);
+      const text = product ? productText(product) : (card.textContent || "");
+
+      if ((product && product.category !== "blades") || READY_RACKET_RE.test(text)) {
+        card.remove();
+      }
+    });
+  }
+
+  const oldGetBuilderProducts = typeof getBuilderProducts === "function" ? getBuilderProducts : null;
+  if (oldGetBuilderProducts && !oldGetBuilderProducts.__noReadyRacketsInBlade) {
+    const safeGetBuilderProducts = function(slot, brand) {
+      markReadyMadeRacketsAsRackets();
+      const list = oldGetBuilderProducts(slot, brand) || [];
+      if (slot !== "blade") return list;
+      return list.filter(product => product.category === "blades" && !isReadyMadeRacket(product));
+    };
+    safeGetBuilderProducts.__noReadyRacketsInBlade = true;
+    try { getBuilderProducts = safeGetBuilderProducts; } catch (error) {}
+  }
+
+  const oldRenderVisualCards = typeof renderVisualCards === "function" ? renderVisualCards : null;
+  if (oldRenderVisualCards && !oldRenderVisualCards.__noReadyRacketsInBlade) {
+    const safeRenderVisualCards = function(slot, brand) {
+      markReadyMadeRacketsAsRackets();
+      oldRenderVisualCards(slot, brand);
+      if (slot === "blade") removeWrongBladeCards();
+    };
+    safeRenderVisualCards.__noReadyRacketsInBlade = true;
+    try { renderVisualCards = safeRenderVisualCards; } catch (error) {}
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    markReadyMadeRacketsAsRackets();
+    setTimeout(removeWrongBladeCards, 250);
+    setTimeout(removeWrongBladeCards, 900);
+    setTimeout(removeWrongBladeCards, 1600);
+  });
+
+  document.addEventListener("click", event => {
+    if (event.target.closest(".vc-tab, [data-card-slot], [data-brand], .brand-chip")) {
+      setTimeout(removeWrongBladeCards, 90);
+      setTimeout(removeWrongBladeCards, 350);
+    }
+  }, true);
+
+  const observer = new MutationObserver(() => {
+    requestAnimationFrame(removeWrongBladeCards);
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const root = document.querySelector(".visual-customizer, .vc-layout, #customizeBuilder, body[data-page='customize']");
+    if (root) observer.observe(root, { childList: true, subtree: true });
   });
 })();

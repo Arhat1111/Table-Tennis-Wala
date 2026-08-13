@@ -586,3 +586,13 @@ JS syntax check: OK
 - Removed visible customer confirmation and email confirmation boxes from the user success page.
 - Store order WhatsApp and customer confirmation WhatsApp are both opened from the checkout action.
 - Note: WhatsApp still requires the user/store to tap Send unless WhatsApp Business API/backend is connected.
+
+- Fixed and clarified customer email confirmation system.
+- Added robust EmailJS order sender that sends both owner and customer emails when EmailJS is configured.
+- Added Admin email status card and EMAIL_SETUP.md with exact template variables.
+- Important: no email will send until EmailJS publicKey, serviceId, ownerTemplateId and customerTemplateId are added in script.js or a backend email service is connected.
+
+- Fixed Customize page Butterfly Blade selector: ready-made Timo Boll racket sets are now categorized as Rackets and cannot appear in the Blade section.
+- Added runtime safety so any future ready-made racket accidentally tagged as a blade is removed from the Blade selector.
+- Ready-made racket category fixes applied: 5.
+- Fixed items: TIMO BOLL 1000; TIMO BOLL 2000; TIMO BOLL 3000; TIMO BOLL CF 1000; TIMO BOLL CF 2000
