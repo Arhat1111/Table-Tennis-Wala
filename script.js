@@ -15096,8 +15096,90 @@ function initCheckoutPage() {
       return;
     }
     const data = Object.fromEntries(new FormData(form).entries());
-    startRazorpayPayment(data);
+    placeOrderThroughWhatsApp(data);
   });
+}
+
+
+function getOrderWhatsappNumber() {
+  let number = "";
+  try {
+    const content = JSON.parse(localStorage.getItem("ttw-site-content") || "{}");
+    number = content.orderWhatsapp || content.whatsapp || "";
+  } catch (error) {
+    number = "";
+  }
+  number = String(number || "919999999999").replace(/[^\d]/g, "");
+  return number || "919999999999";
+}
+
+function plainTextFromHtml(value) {
+  const div = document.createElement("div");
+  div.innerHTML = String(value || "").replace(/<br\s*\/?>/gi, "\n");
+  return div.textContent || div.innerText || "";
+}
+
+function buildWhatsAppOrderMessage(order) {
+  const address = `${order.customer.address}, ${order.customer.city}, ${order.customer.state} - ${order.customer.pincode}`;
+  const items = order.items.map((item, index) => {
+    const details = item.details ? `\n   ${plainTextFromHtml(item.details)}` : "";
+    return `${index + 1}. ${item.name}\n   Qty: ${item.quantity || 1}\n   Price: ${formatPrice(Number(item.price || 0) * Number(item.quantity || 1))}${details}`;
+  }).join("\n\n");
+
+  return [
+    "🏓 *New Table Tennis Wala Order*",
+    "",
+    `*Order ID:* ${order.orderId}`,
+    `*Payment status:* Pending - QR required`,
+    `*Total:* ${formatPrice(order.amount)}`,
+    "",
+    "*Customer Details*",
+    `Name: ${order.customer.fullName}`,
+    `Phone: ${order.customer.phone}`,
+    `Email: ${order.customer.email || "-"}`,
+    `Address: ${address}`,
+    order.customer.notes ? `Notes: ${order.customer.notes}` : "",
+    "",
+    "*Items*",
+    items,
+    "",
+    "Please send the QR code/payment details for this order. Once payment is confirmed, please process dispatch."
+  ].filter(Boolean).join("\n");
+}
+
+function buildWhatsAppOrderUrl(order) {
+  const number = getOrderWhatsappNumber();
+  return `https://wa.me/${number}?text=${encodeURIComponent(buildWhatsAppOrderMessage(order))}`;
+}
+
+function placeOrderThroughWhatsApp(customer) {
+  const amount = getCartTotal();
+  if (!amount || !state.cart.length) {
+    showToast("Your cart is empty");
+    return;
+  }
+
+  const orderDraft = createOrderObject(customer, amount);
+  const order = {
+    ...orderDraft,
+    paymentId: `WHATSAPP-PENDING-${Date.now()}`,
+    paymentMode: "WhatsApp order - QR payment pending",
+    paymentStatus: "Pending QR payment",
+    orderChannel: "WhatsApp",
+    status: "New WhatsApp order"
+  };
+
+  const whatsappUrl = buildWhatsAppOrderUrl(order);
+  const whatsappWindow = window.open("", "_blank");
+
+  completeOrder(order);
+  showToast("Order saved. Send it to us on WhatsApp.");
+
+  if (whatsappWindow) {
+    whatsappWindow.location.href = whatsappUrl;
+  } else {
+    window.location.href = whatsappUrl;
+  }
 }
 
 function startRazorpayPayment(customer) {
@@ -15169,12 +15251,18 @@ function orderPlainText(order) {
 function showOrderSuccess(order) {
   const success = document.getElementById("orderSuccess");
   if (!success) return;
+  const whatsappUrl = buildWhatsAppOrderUrl(order);
   success.hidden = false;
-  success.innerHTML = `<div class="order-success-card">
-    <span class="eyebrow">Order placed</span>
+  success.innerHTML = `<div class="order-success-card whatsapp-order-success">
+    <span class="eyebrow">WhatsApp order placed</span>
     <h2>Thank you, ${order.customer.fullName}.</h2>
-    <p>Your order <strong>${order.orderId}</strong> has been placed. Payment reference: <strong>${order.paymentId}</strong>.</p>
-    <a class="button primary" href="mailto:${STORE_ORDER_EMAIL}?subject=New Table Tennis Wala Order ${order.orderId}&body=${orderPlainText(order)}">Send order details to store email</a>
+    <p>Your order <strong>${order.orderId}</strong> has been saved. Please send the order to us on WhatsApp. We will send the QR code/payment details after confirming availability.</p>
+    <div class="whatsapp-order-steps">
+      <span><b>01</b> Order sent on WhatsApp</span>
+      <span><b>02</b> QR code will be shared</span>
+      <span><b>03</b> Dispatch after payment</span>
+    </div>
+    <a class="button primary whatsapp-place-order-btn" target="_blank" rel="noopener" href="${whatsappUrl}">Send order on WhatsApp</a>
     <a class="button ghost" href="index.html">Continue shopping</a>
   </div>`;
   success.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -18538,6 +18626,7 @@ document.addEventListener("DOMContentLoaded", () => {
       heroSubtitle: "",
       phone: "+91 99999 99999",
       whatsapp: "919999999999",
+      orderWhatsapp: "919999999999",
       orderEmail: "orders@tabletenniswala.in",
       ...safeJSON(CONTENT_KEY, {})
     };
@@ -18654,6 +18743,7 @@ document.addEventListener("DOMContentLoaded", () => {
       contentHeroSubtitle: "heroSubtitle",
       contentPhone: "phone",
       contentWhatsapp: "whatsapp",
+      contentOrderWhatsapp: "orderWhatsapp",
       contentOrderEmail: "orderEmail"
     };
     Object.entries(map).forEach(([id, key]) => {
@@ -18866,5 +18956,183 @@ document.addEventListener("DOMContentLoaded", () => {
     updateHomeBrandCounts();
     setTimeout(updateHomeBrandCounts, 500);
     setTimeout(updateHomeBrandCounts, 1400);
+  });
+})();
+
+
+/* FINAL: WhatsApp order checkout while Razorpay is pending */
+(function () {
+  function bindWhatsAppCheckoutFallback() {
+    const form = document.getElementById("checkoutForm");
+    if (!form || form.dataset.whatsappCheckoutBound === "true") return;
+    form.dataset.whatsappCheckoutBound = "true";
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+
+      if (!state.cart.length) {
+        showToast("Your cart is empty");
+        return;
+      }
+
+      const data = Object.fromEntries(new FormData(form).entries());
+      placeOrderThroughWhatsApp(data);
+    }, true);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    bindWhatsAppCheckoutFallback();
+    setTimeout(bindWhatsAppCheckoutFallback, 250);
+    setTimeout(bindWhatsAppCheckoutFallback, 1000);
+  });
+})();
+
+
+/* FINAL: WhatsApp confirmation message for customer */
+(function () {
+  function normalizeCustomerWhatsApp(phone) {
+    let digits = String(phone || "").replace(/[^\d]/g, "");
+    if (!digits) return "";
+    if (digits.length === 10) digits = "91" + digits;
+    return digits;
+  }
+
+  function cleanDetails(value) {
+    const temp = document.createElement("div");
+    temp.innerHTML = String(value || "").replace(/<br\s*\/?>/gi, "\n");
+    return (temp.textContent || temp.innerText || "").replace(/\n+/g, ", ").trim();
+  }
+
+  function customerConfirmationText(order) {
+    const items = (order.items || []).map((item, index) => {
+      const details = item.details ? " - " + cleanDetails(item.details) : "";
+      return `${index + 1}. ${item.name} x ${item.quantity || 1} - ${formatPrice(Number(item.price || 0) * Number(item.quantity || 1))}${details}`;
+    }).join("\n");
+
+    return [
+      "🏓 *Table Tennis Wala - Order Received*",
+      "",
+      `Hi ${order.customer?.fullName || "there"},`,
+      "Thank you for placing your order with Table Tennis Wala.",
+      "",
+      `*Order ID:* ${order.orderId}`,
+      `*Order total:* ${formatPrice(order.amount)}`,
+      "*Payment status:* QR payment pending",
+      "",
+      "*Order items:*",
+      items,
+      "",
+      "We have received your order request. We will confirm availability and send you the QR code/payment details on WhatsApp. Your products will be dispatched once payment is received.",
+      "",
+      "Thank you,",
+      "Table Tennis Wala"
+    ].filter(Boolean).join("\n");
+  }
+
+  function customerConfirmationUrl(order) {
+    const number = normalizeCustomerWhatsApp(order.customer?.phone);
+    if (!number) return "";
+    return `https://wa.me/${number}?text=${encodeURIComponent(customerConfirmationText(order))}`;
+  }
+
+  window.customerConfirmationUrl = customerConfirmationUrl;
+  window.customerConfirmationText = customerConfirmationText;
+
+  const oldShowOrderSuccess = typeof showOrderSuccess === "function" ? showOrderSuccess : null;
+  if (oldShowOrderSuccess && !oldShowOrderSuccess.__customerWhatsappEnhanced) {
+    const enhancedShowOrderSuccess = function(order) {
+      oldShowOrderSuccess(order);
+
+      const success = document.getElementById("orderSuccess");
+      if (!success) return;
+
+      const card = success.querySelector(".order-success-card");
+      if (!card || card.querySelector(".customer-whatsapp-confirm-btn")) return;
+
+      const url = customerConfirmationUrl(order);
+      if (!url) return;
+
+      const box = document.createElement("div");
+      box.className = "customer-confirmation-box";
+      box.innerHTML = `
+        <span class="eyebrow">Customer confirmation</span>
+        <h3>Send confirmation to customer</h3>
+        <p>A confirmation WhatsApp message has been prepared for the customer's phone number entered in checkout.</p>
+        <a class="button ghost customer-whatsapp-confirm-btn" target="_blank" rel="noopener" href="${url}">Send confirmation to customer</a>
+      `;
+      card.appendChild(box);
+    };
+    enhancedShowOrderSuccess.__customerWhatsappEnhanced = true;
+    showOrderSuccess = enhancedShowOrderSuccess;
+  }
+
+  function addCustomerConfirmationToAdminOrders() {
+    document.querySelectorAll(".admin-order-card").forEach(card => {
+      if (card.querySelector(".customer-whatsapp-confirm-btn")) return;
+
+      const orderId = card.querySelector(".eyebrow")?.textContent?.trim();
+      if (!orderId) return;
+
+      let orders = [];
+      try {
+        orders = JSON.parse(localStorage.getItem("ttw-orders") || "[]");
+      } catch (error) {
+        orders = [];
+      }
+
+      const order = orders.find(item => item.orderId === orderId);
+      if (!order) return;
+
+      const url = customerConfirmationUrl(order);
+      if (!url) return;
+
+      const actions = document.createElement("div");
+      actions.className = "admin-order-actions";
+      actions.innerHTML = `
+        <a class="button small customer-whatsapp-confirm-btn" target="_blank" rel="noopener" href="${url}">Send customer confirmation</a>
+        <button class="button small ghost copy-customer-confirmation" type="button" data-copy-customer-confirmation="${order.orderId}">Copy message</button>
+      `;
+      card.appendChild(actions);
+    });
+  }
+
+  document.addEventListener("click", event => {
+    const copy = event.target.closest("[data-copy-customer-confirmation]");
+    if (!copy) return;
+
+    const orderId = copy.dataset.copyCustomerConfirmation;
+    let orders = [];
+    try {
+      orders = JSON.parse(localStorage.getItem("ttw-orders") || "[]");
+    } catch (error) {
+      orders = [];
+    }
+
+    const order = orders.find(item => item.orderId === orderId);
+    if (!order) return;
+
+    navigator.clipboard?.writeText(customerConfirmationText(order)).then(() => {
+      if (typeof showToast === "function") showToast("Customer confirmation message copied");
+    }).catch(() => {
+      if (typeof showToast === "function") showToast("Copy failed. Use the WhatsApp button.");
+    });
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(addCustomerConfirmationToAdminOrders, 500);
+    setTimeout(addCustomerConfirmationToAdminOrders, 1200);
+  });
+
+  document.addEventListener("click", event => {
+    if (event.target.closest("[data-admin-panel='orders'], #refreshOrders, .admin-pro-tab")) {
+      setTimeout(addCustomerConfirmationToAdminOrders, 250);
+      setTimeout(addCustomerConfirmationToAdminOrders, 900);
+    }
+  });
+
+  const observer = new MutationObserver(() => addCustomerConfirmationToAdminOrders());
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.body) observer.observe(document.body, { childList: true, subtree: true });
   });
 })();

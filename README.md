@@ -550,3 +550,16 @@ JS syntax check: OK
 - Checks: {'local_logos_created': 9, 'homepage_uses_local_joola': True, 'compact_css': True, 'source_zip': 'table-tennis-wala-home-brands-joola-highlight.zip', 'js_check': 'JS syntax OK'}
 
 - Redesigned the homepage brand section with a more premium split layout, sticky intro, compact JOOLA spotlight card, and cleaner responsive brand tiles.
+
+- Converted the homepage brand cards into a horizontal slider and redesigned brands.html with a premium editorial layout and JOOLA spotlight.
+
+- Added WhatsApp order checkout flow while Razorpay approval is pending.
+- Checkout button now says Place order on WhatsApp and saves the order to the admin orders list.
+- Order message opens in WhatsApp with customer details, item list, total and QR-payment-pending note.
+- Admin content editor now includes WhatsApp order number so the owner can update the number later.
+- Important: on a purely static site, the WhatsApp message is the reliable live order capture. Local admin orders are browser-local unless connected to a backend/database.
+
+- Added WhatsApp confirmation message system for customers.
+- After order placement, a customer confirmation WhatsApp button is generated using the phone number entered in checkout.
+- Admin View Orders now adds Send customer confirmation and Copy message actions for each order.
+- Note: a static website cannot automatically send a WhatsApp message from the store number without WhatsApp Business API/backend; this creates one-click WhatsApp confirmation links.
