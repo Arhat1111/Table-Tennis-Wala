@@ -13,6 +13,7 @@ const seedProducts = [
     "description": "Explosive premium rubber built for maximum acceleration, tension and high-level offensive play.",
     "features": [
       "SKU 70465",
+      "Category: Rubbers",
       "Available: Red / Black / Purple",
       "MAX thickness",
       "Kinetic tension surface",
@@ -44,6 +45,7 @@ const seedProducts = [
     "description": "High-grip offensive rubber with explosive sponge response and strong sweet-zone feeling.",
     "features": [
       "SKU 70488",
+      "Category: Rubbers",
       "Available: Red / Black",
       "MAX thickness",
       "Hyper traction",
@@ -75,6 +77,7 @@ const seedProducts = [
     "description": "Tacky and grippy premium rubber for extreme rotation, power and flatter attacking trajectories.",
     "features": [
       "SKU 70522",
+      "Category: Rubbers",
       "Available: Red / Black",
       "MAX thickness",
       "Hard 56° sponge",
@@ -106,6 +109,7 @@ const seedProducts = [
     "description": "Balanced premium rubber made for speed, spin, control and safe topspin arcs.",
     "features": [
       "SKU 70502",
+      "Category: Rubbers",
       "Available: Red / Black / Purple",
       "MAX thickness",
       "Hyper Bounce sponge",
@@ -137,6 +141,7 @@ const seedProducts = [
     "description": "Professional-level premium rubber for players wanting hard sponge power and reliable grip.",
     "features": [
       "SKU 70512",
+      "Category: Rubbers",
       "Available: Red / Black / Purple",
       "MAX thickness",
       "Advanced traction",
@@ -168,6 +173,7 @@ const seedProducts = [
     "description": "Controlled premium rubber option for players who want Dynaryz quality with added command.",
     "features": [
       "SKU 70532",
+      "Category: Rubbers",
       "Available: Red / Black",
       "MAX thickness",
       "Control-focused feel",
@@ -199,6 +205,7 @@ const seedProducts = [
     "description": "Professional rubber with GIGA CELL sponge for lively acceleration and balanced topspin power.",
     "features": [
       "SKU 70593",
+      "Category: Rubbers",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Giga Cell sponge",
@@ -221,7 +228,7 @@ const seedProducts = [
     "id": "joola-cat-tronix-cmd",
     "name": "JOOLA Tronix CMD Table Tennis Rubber",
     "brand": "joola",
-    "category": "balls",
+    "category": "rubbers",
     "price": 5300,
     "rating": 4.7,
     "reviews": 0,
@@ -231,7 +238,7 @@ const seedProducts = [
     "description": "Professional control rubber for close-table counters, spin control and consistent ball feedback.",
     "features": [
       "SKU 70587",
-      "Category: Balls",
+      "Category: Rubbers",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Soft command feel",
@@ -263,6 +270,7 @@ const seedProducts = [
     "description": "Grippy professional rubber for heavy rotation and direct power transfer in offensive play.",
     "features": [
       "SKU 70599",
+      "Category: Rubbers",
       "Available: Red / Black",
       "MAX thickness",
       "Hyper traction surface",
@@ -294,6 +302,7 @@ const seedProducts = [
     "description": "Cool and controlled performance rubber made for feel, placement and confident rally play.",
     "features": [
       "SKU 70650",
+      "Category: Rubbers",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Control profile",
@@ -326,6 +335,7 @@ const seedProducts = [
     "description": "Offensive performance rubber with dynamic response, spin and powerful loop potential.",
     "features": [
       "SKU 70571",
+      "Category: Rubbers",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Momentum sponge",
@@ -358,6 +368,7 @@ const seedProducts = [
     "description": "Command-focused performance rubber for precise takeoff, balanced pace and spin safety.",
     "features": [
       "SKU 70552",
+      "Category: Rubbers",
       "Available: Red / Black / Blue",
       "MAX thickness",
       "Sweetzone control",
@@ -389,6 +400,7 @@ const seedProducts = [
     "description": "All-round progressive rubber with high control, durability and easy placement.",
     "features": [
       "SKU 70071",
+      "Category: Rubbers",
       "Available: Red / Black",
       "MAX thickness",
       "Beginner friendly",
@@ -421,6 +433,7 @@ const seedProducts = [
     "description": "High-control rubber with a forgiving bounce and grippy surface for developing players.",
     "features": [
       "SKU 70270",
+      "Category: Rubbers",
       "Available: Red / Black",
       "MAX thickness",
       "Precision feel",
@@ -453,6 +466,7 @@ const seedProducts = [
     "description": "Classic-style rubber focused on control, dampened sponge response and simple playability.",
     "features": [
       "SKU 70026",
+      "Category: Rubbers",
       "Available: Red / Black",
       "MAX thickness",
       "High control",
@@ -485,6 +499,7 @@ const seedProducts = [
     "description": "Long-pips rubber made for defensive variation, disruption and spin reversal.",
     "features": [
       "SKU 71237",
+      "Category: Rubbers",
       "Available: Red / Black",
       "OX / Long pips",
       "Defensive control",
@@ -517,6 +532,7 @@ const seedProducts = [
     "description": "ITTF-approved competition balls with consistent bounce, ABS material and reliable flight.",
     "features": [
       "SKU 40031",
+      "Category: Balls",
       "Pack options: 6 / 72",
       "3-star ball",
       "Competition grade"
@@ -541,6 +557,7 @@ const seedProducts = [
     "description": "Bulk pack of competition-grade JOOLA Prime 40+ balls for clubs and tournaments.",
     "features": [
       "SKU 40030",
+      "Category: Balls",
       "Pack of 72",
       "3-star ball",
       "ITTF approved"
@@ -565,6 +582,7 @@ const seedProducts = [
     "description": "High-volume training ball pack for drills, coaching sessions and club practice.",
     "features": [
       "SKU 44230",
+      "Category: Balls",
       "Pack of 120",
       "ABS material",
       "Training grade"
@@ -588,6 +606,7 @@ const seedProducts = [
     "description": "Tournament-style white balls suitable for practice, training and match preparation.",
     "features": [
       "SKU 44233",
+      "Category: Balls",
       "CT24 pack",
       "White balls",
       "Practice use"
@@ -612,6 +631,7 @@ const seedProducts = [
     "description": "Advanced training ball set for high-repetition drills and coaching use.",
     "features": [
       "SKU 44256",
+      "Category: Balls",
       "36 balls",
       "White",
       "Training"
@@ -626,7 +646,7 @@ const seedProducts = [
     "id": "joola-cat-bcover-hard-blue",
     "name": "JOOLA B.Cover Hard Case Navy",
     "brand": "joola",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2099,
     "rating": 4.6,
     "reviews": 0,
@@ -636,7 +656,7 @@ const seedProducts = [
     "description": "Hard-shell racket case for safe everyday storage and travel.",
     "features": [
       "SKU 80570",
-      "Category: Rackets",
+      "Category: Accessories",
       "Blue/Navy",
       "Hard shell",
       "Single racket"
@@ -651,7 +671,7 @@ const seedProducts = [
     "id": "joola-cat-bcover-hard-black",
     "name": "JOOLA B.Cover Hard Case Black",
     "brand": "joola",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2099,
     "rating": 4.6,
     "reviews": 0,
@@ -661,7 +681,7 @@ const seedProducts = [
     "description": "Minimal hard case for protecting one racket and small accessories.",
     "features": [
       "SKU 80571",
-      "Category: Rackets",
+      "Category: Accessories",
       "Black",
       "Hard shell",
       "Zip closure"
@@ -676,7 +696,7 @@ const seedProducts = [
     "id": "joola-cat-alu-double-case",
     "name": "JOOLA ALU Double Bat Case",
     "brand": "joola",
-    "category": "balls",
+    "category": "accessories",
     "price": 4199,
     "rating": 4.7,
     "reviews": 0,
@@ -686,7 +706,7 @@ const seedProducts = [
     "description": "Aluminium-style double racket case with shaped foam for two rackets and balls.",
     "features": [
       "SKU 80555",
-      "Category: Balls",
+      "Category: Accessories",
       "Double racket case",
       "Aluminium design",
       "Foam inlay"
@@ -701,7 +721,7 @@ const seedProducts = [
     "id": "joola-cat-alu-laser-case",
     "name": "JOOLA Bat Case ALU Laser Black",
     "brand": "joola",
-    "category": "rackets",
+    "category": "accessories",
     "price": 4499,
     "rating": 4.7,
     "reviews": 0,
@@ -711,7 +731,7 @@ const seedProducts = [
     "description": "Premium protective bat case with a clean black aluminium look.",
     "features": [
       "SKU 80544",
-      "Category: Rackets",
+      "Category: Accessories",
       "Black case",
       "Premium storage",
       "Travel ready"
@@ -726,7 +746,7 @@ const seedProducts = [
     "id": "joola-cat-racket-case-aluminum",
     "name": "JOOLA Racket Case Aluminum",
     "brand": "joola",
-    "category": "rackets",
+    "category": "accessories",
     "price": 3600,
     "rating": 4.6,
     "reviews": 0,
@@ -736,7 +756,7 @@ const seedProducts = [
     "description": "Strong racket case for carrying match equipment safely.",
     "features": [
       "SKU 80542",
-      "Category: Rackets",
+      "Category: Accessories",
       "Aluminium-style",
       "Protective",
       "Match-day gear"
@@ -799,7 +819,7 @@ const seedProducts = [
     "id": "joola-cat-edge-tape-black",
     "name": "JOOLA Edge Tape 20 Black",
     "brand": "joola",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 420,
     "rating": 4.4,
     "reviews": 0,
@@ -809,7 +829,7 @@ const seedProducts = [
     "description": "Black edge tape to protect the side of the blade and rubber sheets.",
     "features": [
       "SKU 83125",
-      "Category: Rubbers",
+      "Category: Accessories",
       "Black",
       "20 mm",
       "Racket protection"
@@ -824,7 +844,7 @@ const seedProducts = [
     "id": "joola-cat-edge-tape-blue",
     "name": "JOOLA Edge Tape 20 Blue",
     "brand": "joola",
-    "category": "rackets",
+    "category": "accessories",
     "price": 850,
     "rating": 4.4,
     "reviews": 0,
@@ -834,7 +854,7 @@ const seedProducts = [
     "description": "Blue edge tape for a clean protective finish on custom rackets.",
     "features": [
       "SKU 83122",
-      "Category: Rackets",
+      "Category: Accessories",
       "Blue",
       "20 mm",
       "Racket protection"
@@ -849,7 +869,7 @@ const seedProducts = [
     "id": "joola-cat-turbo-cleaner",
     "name": "JOOLA Turbo Cleaner 250ml",
     "brand": "joola",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 1250,
     "rating": 4.5,
     "reviews": 0,
@@ -859,7 +879,7 @@ const seedProducts = [
     "description": "Rubber cleaner for maintaining surface grip and extending rubber life.",
     "features": [
       "SKU 80231",
-      "Category: Rubbers",
+      "Category: Accessories",
       "250 ml",
       "Rubber care",
       "Accessory"
@@ -874,7 +894,7 @@ const seedProducts = [
     "id": "joola-cat-backpack-vision-blue",
     "name": "JOOLA Backpack Vision II Blue",
     "brand": "joola",
-    "category": "footwear",
+    "category": "accessories",
     "price": 4700,
     "rating": 4.6,
     "reviews": 0,
@@ -884,7 +904,7 @@ const seedProducts = [
     "description": "Compact backpack for carrying racket, shoes, clothing and match-day gear.",
     "features": [
       "SKU 80125",
-      "Category: Footwear",
+      "Category: Accessories",
       "Blue",
       "Backpack",
       "Training bag"
@@ -898,7 +918,7 @@ const seedProducts = [
     "id": "joola-cat-backpack-vision-black",
     "name": "JOOLA Backpack Vision II Black",
     "brand": "joola",
-    "category": "tables",
+    "category": "accessories",
     "price": 4700,
     "rating": 4.6,
     "reviews": 0,
@@ -908,7 +928,7 @@ const seedProducts = [
     "description": "Black equipment backpack for table tennis training and tournaments.",
     "features": [
       "SKU 83112",
-      "Category: Tables",
+      "Category: Accessories",
       "Black",
       "Backpack",
       "Gear storage"
@@ -932,6 +952,7 @@ const seedProducts = [
     "description": "Teal equipment backpack for players who need compact storage.",
     "features": [
       "SKU 83114",
+      "Category: Accessories",
       "Teal",
       "Backpack",
       "Gear storage"
@@ -955,6 +976,7 @@ const seedProducts = [
     "description": "Premium Vyzaryz blade for dynamic offensive play with precision and feeling.",
     "features": [
       "SKU 65041",
+      "Category: Blades",
       "Flared handle",
       "Premium blade",
       "Offensive"
@@ -978,6 +1000,7 @@ const seedProducts = [
     "description": "High-end Freeze HRD blade designed for precise offensive play.",
     "features": [
       "SKU 65040",
+      "Category: Blades",
       "Flared handle",
       "ARY-c style",
       "Premium"
@@ -1001,6 +1024,7 @@ const seedProducts = [
     "description": "Premium Freeze blade for controlled speed and crisp attacking strokes.",
     "features": [
       "SKU 65000",
+      "Category: Blades",
       "Flared handle",
       "Premium blade",
       "Control + speed"
@@ -1024,6 +1048,7 @@ const seedProducts = [
     "description": "Performance blade for controlled attack and confident rally building.",
     "features": [
       "SKU 69127",
+      "Category: Blades",
       "Flared handle",
       "Performance",
       "Attacking"
@@ -1037,7 +1062,7 @@ const seedProducts = [
     "id": "joola-cat-j-carbon",
     "name": "JOOLA J Carbon FL Blade",
     "brand": "joola",
-    "category": "balls",
+    "category": "blades",
     "price": 6900,
     "rating": 4.6,
     "reviews": 0,
@@ -1047,7 +1072,7 @@ const seedProducts = [
     "description": "Carbon-style blade for speed, stability and sharper ball response.",
     "features": [
       "SKU 69125",
-      "Category: Balls",
+      "Category: Blades",
       "Flared handle",
       "Carbon feel",
       "Attack"
@@ -1072,6 +1097,7 @@ const seedProducts = [
     "description": "All-round blade made for control, blocks and early player development.",
     "features": [
       "SKU 61550",
+      "Category: Blades",
       "Flared handle",
       "5-ply",
       "All-round"
@@ -1096,6 +1122,7 @@ const seedProducts = [
     "description": "Progressive offensive blade with limba outer ply and balanced control.",
     "features": [
       "SKU 61555",
+      "Category: Blades",
       "Flared handle",
       "5-ply",
       "Offensive"
@@ -1120,6 +1147,7 @@ const seedProducts = [
     "description": "Junior-friendly blade for control, easy handling and technical development.",
     "features": [
       "SKU 67115",
+      "Category: Blades",
       "Flared handle",
       "Junior",
       "Control"
@@ -1144,6 +1172,7 @@ const seedProducts = [
     "description": "Hugo Calderano AW-7 blade for attacking play with wood feel and stability.",
     "features": [
       "SKU 601270",
+      "Category: Blades",
       "Flared handle",
       "AW-7",
       "Signature range"
@@ -1168,6 +1197,7 @@ const seedProducts = [
     "description": "Signature inner KL-c blade focused on power, spin and controlled offensive play.",
     "features": [
       "SKU 601271",
+      "Category: Blades",
       "Flared handle",
       "KL-c Inner",
       "Signature range"
@@ -1188,17 +1218,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Air+Fibre+Control+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/joola-rackets.svg",
     "description": "Ready-to-play racket focused on control for casual and developing players.",
     "features": [
       "SKU 54190",
+      "Category: Rackets",
       "Pre-assembled",
       "Control",
       "Recreational"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-air-fibre-control-fallback.svg",
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "fallbackImage": "assets/product-fallbacks/joola-rackets.svg",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Air Fibre Control Racket table tennis product official image"
   },
@@ -1212,17 +1243,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Rosskopf+Attack+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/joola-rackets.svg",
     "description": "Ready-made racket for attacking basics and fast practice rallies.",
     "features": [
       "SKU 53133",
+      "Category: Rackets",
       "Pre-assembled",
       "Attack",
       "Recreational"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rosskopf-attack-fallback.svg",
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "fallbackImage": "assets/product-fallbacks/joola-rackets.svg",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Rosskopf Attack Racket table tennis product official image"
   },
@@ -1240,6 +1272,7 @@ const seedProducts = [
     "description": "Match Pro bat for controlled recreational play and club warmups.",
     "features": [
       "SKU 53022",
+      "Category: Rackets",
       "Pre-assembled",
       "Match Pro",
       "All-round"
@@ -1264,6 +1297,7 @@ const seedProducts = [
     "description": "Affordable all-round racket for beginners and everyday home play.",
     "features": [
       "SKU 53020",
+      "Category: Rackets",
       "Pre-assembled",
       "All-round",
       "Beginner"
@@ -1278,7 +1312,7 @@ const seedProducts = [
     "id": "joola-cat-team-junior",
     "name": "JOOLA Team Junior Racket",
     "brand": "joola",
-    "category": "tables",
+    "category": "rackets",
     "price": 1749,
     "rating": 4.5,
     "reviews": 0,
@@ -1288,7 +1322,7 @@ const seedProducts = [
     "description": "Junior racket designed for younger players learning table tennis fundamentals.",
     "features": [
       "SKU 52004",
-      "Category: Tables",
+      "Category: Rackets",
       "Pre-assembled",
       "Junior",
       "Vizon rubbers"
@@ -1313,6 +1347,7 @@ const seedProducts = [
     "description": "All-round ready-made racket for advanced recreational players.",
     "features": [
       "SKU 52001",
+      "Category: Rackets",
       "Pre-assembled",
       "Team Master",
       "All-round"
@@ -1327,24 +1362,24 @@ const seedProducts = [
     "id": "joola-cat-hugo-carbon-speed",
     "name": "JOOLA Hugo Calderano Carbon Speed Racket",
     "brand": "joola",
-    "category": "blades",
+    "category": "rackets",
     "price": 9999,
     "rating": 4.8,
     "reviews": 0,
     "badge": "Hugo",
     "color": "#111311",
-    "image": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Carbon+Speed+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/joola-rackets.svg",
     "description": "Hugo Calderano carbon-style racket for fast attacking strokes and match confidence.",
     "features": [
       "SKU 601276",
-      "Category: Blades",
+      "Category: Rackets",
       "Pre-assembled",
       "Carbon speed",
       "Signature"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-carbon-speed-fallback.svg",
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "fallbackImage": "assets/product-fallbacks/joola-rackets.svg",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Hugo Calderano Carbon Speed Racket table tennis product official image"
   },
@@ -1387,6 +1422,7 @@ const seedProducts = [
     "description": "Competition-style table for clubs, academies and serious training spaces.",
     "features": [
       "SKU 11291",
+      "Category: Tables",
       "25 mm style",
       "ITTF-style",
       "Club table"
@@ -1410,6 +1446,7 @@ const seedProducts = [
     "description": "Fast attacking rubber for heavy topspin.",
     "features": [
       "Hard sponge",
+      "Category: Rubbers",
       "High arc",
       "Offensive",
       "Max thickness: MAX",
@@ -1440,6 +1477,7 @@ const seedProducts = [
     "description": "Classic allround offensive blade with clean feedback.",
     "features": [
       "5-ply wood",
+      "Category: Blades",
       "Control",
       "Balanced speed"
     ],
@@ -1454,7 +1492,7 @@ const seedProducts = [
     "id": "seed-tibhar-3",
     "name": "Tibhar Game Racket Case",
     "brand": "tibhar",
-    "category": "rackets",
+    "category": "accessories",
     "price": 1699,
     "rating": 4.5,
     "reviews": 42,
@@ -1463,7 +1501,7 @@ const seedProducts = [
     "description": "Slim protective case for one assembled racket.",
     "features": [
       "Hard shell",
-      "Category: Rackets",
+      "Category: Accessories",
       "Compact",
       "Zipper closure"
     ],
@@ -1728,7 +1766,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
@@ -1752,7 +1790,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹8,500",
       "Price source: supplied price list"
     ],
@@ -1776,7 +1814,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
@@ -1800,7 +1838,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
@@ -1824,7 +1862,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹6,625",
       "Price source: supplied price list"
     ],
@@ -1848,7 +1886,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹2,500",
       "Price source: supplied price list"
     ],
@@ -1872,7 +1910,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹1,875",
       "Price source: supplied price list"
     ],
@@ -1896,7 +1934,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹4,875",
       "Price source: supplied price list"
     ],
@@ -1920,7 +1958,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹11,000",
       "Price source: supplied price list"
     ],
@@ -1944,7 +1982,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹11,500",
       "Price source: supplied price list"
     ],
@@ -1968,7 +2006,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹14,375",
       "Price source: supplied price list"
     ],
@@ -2042,7 +2080,7 @@ const seedProducts = [
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹8,750",
       "Price source: supplied price list"
     ],
@@ -2066,7 +2104,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,500",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2098,7 +2136,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,300",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2130,7 +2168,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,400",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2162,7 +2200,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,300",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2194,7 +2232,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,400",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2226,7 +2264,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,300",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2258,7 +2296,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,400",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2290,7 +2328,7 @@ const seedProducts = [
     "description": "DHS Ma Long Player Edition Hurricane 3 rubber listed with MRP pricing. Image corrected to the Ma Long Player Edition rubber packaging.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹24,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2326,7 +2364,7 @@ const seedProducts = [
     "description": "DHS Sun Yingsha Player Edition table tennis rubber listed with MRP pricing. Image corrected to the Sun Yingsha Player Edition rubber packaging.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹24,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2363,7 +2401,7 @@ const seedProducts = [
     "description": "DHS Wang Chuqin Player Edition Hurricane 3 rubber listed with MRP pricing. Image corrected to the Wang Chuqin Player Edition rubber packaging.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹24,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2395,7 +2433,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,700",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2427,7 +2465,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,700",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2459,7 +2497,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,700",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2492,7 +2530,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,100",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2525,7 +2563,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,700",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2558,7 +2596,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹9,900",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2591,7 +2629,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹16,500",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2624,7 +2662,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹8,250",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2657,7 +2695,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹10,800",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2690,7 +2728,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹16,500",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2723,7 +2761,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹18,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2756,7 +2794,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,950",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2788,7 +2826,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2820,7 +2858,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹6,600",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2852,7 +2890,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹8,550",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2884,7 +2922,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹6,600",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2916,7 +2954,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹6,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2948,7 +2986,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,400",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -2980,7 +3018,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,400",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -3012,7 +3050,7 @@ const seedProducts = [
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,100",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -3188,7 +3226,7 @@ const seedProducts = [
     "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,000",
       "Price source: supplied price list"
     ],
@@ -3212,7 +3250,7 @@ const seedProducts = [
     "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹4,500",
       "Price source: supplied price list"
     ],
@@ -3236,7 +3274,7 @@ const seedProducts = [
     "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹6,000",
       "Price source: supplied price list"
     ],
@@ -3274,7 +3312,7 @@ const seedProducts = [
     "id": "dhs-dhs-racket-case-rc520",
     "name": "DHS Racket Case RC520",
     "brand": "dhs",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2000,
     "rating": 4.7,
     "reviews": 0,
@@ -3284,7 +3322,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rackets",
+      "Category: Accessories",
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
@@ -3298,7 +3336,7 @@ const seedProducts = [
     "id": "dhs-dhs-racket-case-rc530",
     "name": "DHS Racket Case RC530",
     "brand": "dhs",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2000,
     "rating": 4.7,
     "reviews": 0,
@@ -3308,7 +3346,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Rackets",
+      "Category: Accessories",
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
@@ -3346,7 +3384,7 @@ const seedProducts = [
     "id": "dhs-dhs-ap-01-blade-protector-220ml",
     "name": "DHS AP-01 Blade Protector 220ml",
     "brand": "dhs",
-    "category": "blades",
+    "category": "accessories",
     "price": 3000,
     "rating": 4.7,
     "reviews": 0,
@@ -3356,7 +3394,7 @@ const seedProducts = [
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Blades",
+      "Category: Accessories",
       "MRP: ₹3,000",
       "Price source: supplied price list"
     ],
@@ -3452,7 +3490,7 @@ const seedProducts = [
     "description": "DHS Table product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Table",
+      "Category: Tables",
       "MRP: ₹110,000",
       "Price source: supplied price list"
     ],
@@ -3476,7 +3514,7 @@ const seedProducts = [
     "description": "DHS Table product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
-      "Category: Table",
+      "Category: Tables",
       "MRP: ₹55,000",
       "Price source: supplied price list"
     ],
@@ -3500,7 +3538,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,530",
       "Price source: supplied price list"
     ],
@@ -3524,7 +3562,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,650",
       "Price source: supplied price list"
     ],
@@ -3548,7 +3586,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,740",
       "Price source: supplied price list"
     ],
@@ -3568,18 +3606,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+PINK+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-rackets.svg",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-logo-racket-pink-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
     "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET PINK table tennis product official image"
   },
   {
@@ -3592,18 +3630,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+ROSE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-rackets.svg",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-logo-racket-rose-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
     "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET ROSE table tennis product official image"
   },
   {
@@ -3616,18 +3654,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+BLUE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-rackets.svg",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-logo-racket-blue-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
     "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET BLUE table tennis product official image"
   },
   {
@@ -3640,18 +3678,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+ROSE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-rackets.svg",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,720",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-outdoor-racket-rose-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
     "searchImageQuery": "Butterfly Butterfly OUTDOOR RACKET ROSE table tennis product official image"
   },
   {
@@ -3664,18 +3702,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+BLACK+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-rackets.svg",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,720",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-outdoor-racket-black-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
     "searchImageQuery": "Butterfly Butterfly OUTDOOR RACKET BLACK table tennis product official image"
   },
   {
@@ -3692,7 +3730,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹2,310",
       "Price source: supplied price list"
     ],
@@ -3716,7 +3754,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹2,310",
       "Price source: supplied price list"
     ],
@@ -3740,7 +3778,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹2,520",
       "Price source: supplied price list"
     ],
@@ -3764,7 +3802,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,270",
       "Price source: supplied price list"
     ],
@@ -3788,7 +3826,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,270",
       "Price source: supplied price list"
     ],
@@ -3812,7 +3850,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,400",
       "Price source: supplied price list"
     ],
@@ -3836,7 +3874,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,450",
       "Price source: supplied price list"
     ],
@@ -3932,7 +3970,7 @@ const seedProducts = [
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹3,820",
       "Price source: supplied price list"
     ],
@@ -4004,7 +4042,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,330",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4036,7 +4074,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,760",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4068,7 +4106,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,760",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4100,7 +4138,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹4,060",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4133,7 +4171,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹4,060",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4166,7 +4204,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹4,090",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4199,7 +4237,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹4,250",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4232,7 +4270,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹4,250",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4265,7 +4303,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹4,250",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4298,7 +4336,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,130",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4330,7 +4368,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹6,995",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4363,7 +4401,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹7,290",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4396,7 +4434,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹7,290",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4429,7 +4467,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹7,290",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4461,7 +4499,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹7,180",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4493,7 +4531,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹7,770",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4525,7 +4563,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹8,274",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4557,7 +4595,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹10,600",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4590,7 +4628,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹10,600",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4623,7 +4661,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹10,600",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4656,7 +4694,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹10,600",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4689,7 +4727,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹13,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4722,7 +4760,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹13,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4755,7 +4793,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹13,000",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4788,7 +4826,7 @@ const seedProducts = [
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹19,450",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -4820,7 +4858,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹6,195",
       "Price source: supplied price list"
     ],
@@ -4844,7 +4882,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹6,830",
       "Price source: supplied price list"
     ],
@@ -4868,7 +4906,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹7,330",
       "Price source: supplied price list"
     ],
@@ -4893,7 +4931,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,135",
       "Price source: supplied price list"
     ],
@@ -4918,7 +4956,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,607",
       "Price source: supplied price list"
     ],
@@ -4942,7 +4980,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,630",
       "Price source: supplied price list"
     ],
@@ -4967,7 +5005,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹11,030",
       "Price source: supplied price list"
     ],
@@ -4991,7 +5029,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹11,340",
       "Price source: supplied price list"
     ],
@@ -5015,7 +5053,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹11,760",
       "Price source: supplied price list"
     ],
@@ -5039,7 +5077,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹12,075",
       "Price source: supplied price list"
     ],
@@ -5063,7 +5101,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹16,000",
       "Price source: supplied price list"
     ],
@@ -5087,7 +5125,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹16,170",
       "Price source: supplied price list"
     ],
@@ -5111,7 +5149,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹16,695",
       "Price source: supplied price list"
     ],
@@ -5135,7 +5173,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹17,750",
       "Price source: supplied price list"
     ],
@@ -5159,7 +5197,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹18,750",
       "Price source: supplied price list"
     ],
@@ -5184,7 +5222,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹21,525",
       "Price source: supplied price list"
     ],
@@ -5208,7 +5246,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹23,600",
       "Price source: supplied price list"
     ],
@@ -5233,7 +5271,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹23,572",
       "Price source: supplied price list"
     ],
@@ -5258,7 +5296,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹24,200",
       "Price source: supplied price list"
     ],
@@ -5283,7 +5321,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹24,990",
       "Price source: supplied price list"
     ],
@@ -5307,7 +5345,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹26,040",
       "Price source: supplied price list"
     ],
@@ -5332,7 +5370,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹28,500",
       "Price source: supplied price list"
     ],
@@ -5356,7 +5394,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹29,600",
       "Price source: supplied price list"
     ],
@@ -5380,7 +5418,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹30,100",
       "Price source: supplied price list"
     ],
@@ -5404,7 +5442,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹30,345",
       "Price source: supplied price list"
     ],
@@ -5428,7 +5466,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹31,400",
       "Price source: supplied price list"
     ],
@@ -5453,7 +5491,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹32,000",
       "Price source: supplied price list"
     ],
@@ -5478,7 +5516,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹32,025",
       "Price source: supplied price list"
     ],
@@ -5503,7 +5541,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹32,340",
       "Price source: supplied price list"
     ],
@@ -5527,7 +5565,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹32,760",
       "Price source: supplied price list"
     ],
@@ -5551,7 +5589,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹33,495",
       "Price source: supplied price list"
     ],
@@ -5575,7 +5613,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹34,490",
       "Price source: supplied price list"
     ],
@@ -5599,7 +5637,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹35,500",
       "Price source: supplied price list"
     ],
@@ -5624,7 +5662,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹36,000",
       "Price source: supplied price list"
     ],
@@ -5649,7 +5687,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹36,750",
       "Price source: supplied price list"
     ],
@@ -5673,7 +5711,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹37,100",
       "Price source: supplied price list"
     ],
@@ -5698,7 +5736,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹42,840",
       "Price source: supplied price list"
     ],
@@ -5723,7 +5761,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹49,875",
       "Price source: supplied price list"
     ],
@@ -5748,7 +5786,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹51,000",
       "Price source: supplied price list"
     ],
@@ -5772,7 +5810,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹52,290",
       "Price source: supplied price list"
     ],
@@ -5796,7 +5834,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹53,025",
       "Price source: supplied price list"
     ],
@@ -5820,7 +5858,7 @@ const seedProducts = [
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹54,860",
       "Price source: supplied price list"
     ],
@@ -5844,7 +5882,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹480",
       "Price source: supplied price list"
     ],
@@ -5868,7 +5906,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹495",
       "Price source: supplied price list"
     ],
@@ -5892,7 +5930,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹530",
       "Price source: supplied price list"
     ],
@@ -5916,7 +5954,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹530",
       "Price source: supplied price list"
     ],
@@ -5964,7 +6002,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹570",
       "Price source: supplied price list"
     ],
@@ -5988,7 +6026,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹580",
       "Price source: supplied price list"
     ],
@@ -6051,7 +6089,7 @@ const seedProducts = [
     "id": "butterfly-cure-water-rubbers",
     "name": "CURE WATER RUBBERS",
     "brand": "butterfly",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 1320,
     "rating": 4.7,
     "reviews": 0,
@@ -6061,7 +6099,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Rubbers",
       "MRP: ₹1,320",
       "Price source: supplied price list"
     ],
@@ -6075,7 +6113,7 @@ const seedProducts = [
     "id": "butterfly-butterfly-rubber-cleaner-set",
     "name": "Butterfly RUBBER CLEANER SET",
     "brand": "butterfly",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 1950,
     "rating": 4.7,
     "reviews": 0,
@@ -6085,7 +6123,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Rubbers",
+      "Category: Accessories",
       "MRP: ₹1,950",
       "Price source: supplied price list"
     ],
@@ -6109,7 +6147,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹3,200",
       "Price source: supplied price list"
     ],
@@ -6133,7 +6171,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹4,400",
       "Price source: supplied price list"
     ],
@@ -6205,7 +6243,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹13,250",
       "Price source: supplied price list"
     ],
@@ -6229,7 +6267,7 @@ const seedProducts = [
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹675,000",
       "Price source: supplied price list"
     ],
@@ -6417,18 +6455,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SOLLIEN+SHIRT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-clothing.svg",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹7,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-sollien-shirt-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
     "searchImageQuery": "Butterfly SOLLIEN SHIRT table tennis product official image"
   },
   {
@@ -6441,18 +6479,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+RIMERAL+SHIRT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-clothing.svg",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹7,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-rimeral-shirt-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
     "searchImageQuery": "Butterfly RIMERAL SHIRT table tennis product official image"
   },
   {
@@ -6465,18 +6503,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHIRTS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-clothing.svg",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹1,650",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-game-shirts-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
     "searchImageQuery": "Butterfly BUTTERFLY GAME SHIRTS table tennis product official image"
   },
   {
@@ -6489,18 +6527,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHORTS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-clothing.svg",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹1,800",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-game-shorts-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
     "searchImageQuery": "Butterfly BUTTERFLY GAME SHORTS table tennis product official image"
   },
   {
@@ -6513,18 +6551,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+SHIRT+BRISTRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-clothing.svg",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹3,885",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-shirt-bristro-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
     "searchImageQuery": "Butterfly SHIRT BRISTRO table tennis product official image"
   },
   {
@@ -6537,18 +6575,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+TRACK+SUIT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/butterfly-clothing.svg",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹3,950",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-game-track-suit-butterfly-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
     "searchImageQuery": "Butterfly BUTTERFLY GAME TRACK SUIT table tennis product official image"
   },
   {
@@ -6565,7 +6603,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
@@ -6589,7 +6627,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹2,999",
       "Price source: supplied price list"
     ],
@@ -6613,7 +6651,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
@@ -6637,7 +6675,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹2,999",
       "Price source: supplied price list"
     ],
@@ -6661,7 +6699,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
@@ -6685,7 +6723,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
@@ -6709,7 +6747,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
@@ -6733,7 +6771,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
@@ -6757,7 +6795,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹3,999",
       "Price source: supplied price list"
     ],
@@ -6781,7 +6819,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹3,999",
       "Price source: supplied price list"
     ],
@@ -6805,7 +6843,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹4,999",
       "Price source: supplied price list"
     ],
@@ -6829,7 +6867,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
@@ -6853,7 +6891,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,999",
       "Price source: supplied price list"
     ],
@@ -6877,7 +6915,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,999",
       "Price source: supplied price list"
     ],
@@ -6901,7 +6939,7 @@ const seedProducts = [
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,999",
       "Price source: supplied price list"
     ],
@@ -6921,18 +6959,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+01B+Readymade+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/yinhe-rackets.svg",
     "description": "YinHe Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-01b-readymade-racket-yinhe-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
     "searchImageQuery": "Yinhe YinHe 01B Readymade Racket table tennis product official image"
   },
   {
@@ -6945,18 +6983,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+C204+Readymade+Kids+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/yinhe-rackets.svg",
     "description": "YinHe Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Racket",
+      "Category: Rackets",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-c204-readymade-kids-racket-yinhe-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
     "searchImageQuery": "Yinhe YinHe C204 Readymade Kids Racket table tennis product official image"
   },
   {
@@ -6973,7 +7011,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7005,7 +7043,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7037,7 +7075,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7069,7 +7107,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7101,7 +7139,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7133,7 +7171,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7165,7 +7203,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7197,7 +7235,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7229,7 +7267,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7261,7 +7299,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7293,7 +7331,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7325,7 +7363,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7357,7 +7395,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7390,7 +7428,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7422,7 +7460,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7454,7 +7492,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7486,7 +7524,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7519,7 +7557,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7551,7 +7589,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7583,7 +7621,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7616,7 +7654,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,499",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7649,7 +7687,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7682,7 +7720,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7714,7 +7752,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7746,7 +7784,7 @@ const seedProducts = [
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹1,999",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -7850,7 +7888,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
@@ -7864,7 +7902,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-7031-rubber-cleaner",
     "name": "YinHe 7031 Rubber Cleaner",
     "brand": "yinhe",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -7874,7 +7912,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubbers",
+      "Category: Accessories",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -7888,7 +7926,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-7034-rubber-cleaner",
     "name": "YinHe 7034 Rubber Cleaner",
     "brand": "yinhe",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -7898,7 +7936,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubbers",
+      "Category: Accessories",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -7912,7 +7950,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-rubber-cleaning-sponge",
     "name": "YinHe Rubber Cleaning Sponge",
     "brand": "yinhe",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 499,
     "rating": 4.6,
     "reviews": 0,
@@ -7922,7 +7960,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubbers",
+      "Category: Accessories",
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
@@ -7936,7 +7974,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-rubber-protector-sticky-sheet",
     "name": "YinHe Rubber Protector Sticky Sheet",
     "brand": "yinhe",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 499,
     "rating": 4.6,
     "reviews": 0,
@@ -7946,7 +7984,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rubbers",
+      "Category: Accessories",
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
@@ -7970,7 +8008,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹199",
       "Price source: supplied price list"
     ],
@@ -7994,7 +8032,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
@@ -8080,7 +8118,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-8003-racket-cover",
     "name": "YinHe 8003 Racket Cover",
     "brand": "yinhe",
-    "category": "rackets",
+    "category": "accessories",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -8090,7 +8128,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rackets",
+      "Category: Accessories",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8104,7 +8142,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-8011-racket-cover",
     "name": "YinHe 8011 Racket Cover",
     "brand": "yinhe",
-    "category": "rackets",
+    "category": "accessories",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -8114,7 +8152,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rackets",
+      "Category: Accessories",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8128,7 +8166,7 @@ const seedProducts = [
     "id": "yinhe-yinhe-8023-round-racket-case",
     "name": "YinHe 8023 Round Racket Case",
     "brand": "yinhe",
-    "category": "rackets",
+    "category": "accessories",
     "price": 999,
     "rating": 4.6,
     "reviews": 0,
@@ -8138,7 +8176,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Rackets",
+      "Category: Accessories",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8162,7 +8200,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
@@ -8234,7 +8272,7 @@ const seedProducts = [
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Accessory",
+      "Category: Accessories",
       "MRP: ₹4,999",
       "Price source: supplied price list"
     ],
@@ -8258,7 +8296,7 @@ const seedProducts = [
     "description": "YinHe Table product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Table",
+      "Category: Tables",
       "MRP: ₹75,000",
       "Price source: supplied price list"
     ],
@@ -8278,18 +8316,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+60011+-+26A%2C+26D+Latest+T-Shirt+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/yinhe-clothing.svg",
     "description": "YinHe Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-60011-26a-26d-latest-t-shirt-yinhe-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/yinhe-clothing.svg",
     "searchImageQuery": "Yinhe YinHe 60011 - 26A, 26D Latest T-Shirt table tennis product official image"
   },
   {
@@ -8302,7 +8340,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1201+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/yinhe-rackets.svg",
     "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8310,11 +8348,12 @@ const seedProducts = [
       "MRP: ₹6,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-p1201-racket-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe P1201 Racket table tennis product official image"
+    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
+    "searchImageQuery": "Yinhe YinHe P1201 Racket table tennis product official image",
+    "hidden": true
   },
   {
     "id": "yinhe-yinhe-p1301-racket",
@@ -8326,7 +8365,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1301+Racket+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/yinhe-rackets.svg",
     "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8334,11 +8373,12 @@ const seedProducts = [
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-p1301-racket-yinhe-safe.svg",
-    "searchImageQuery": "Yinhe YinHe P1301 Racket table tennis product official image"
+    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
+    "searchImageQuery": "Yinhe YinHe P1301 Racket table tennis product official image",
+    "hidden": true
   },
   {
     "id": "stiga-stiga-cybershape-carbon-cwt-truls-edition",
@@ -8354,7 +8394,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹36,100",
       "Price source: supplied price list"
     ],
@@ -8379,7 +8419,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹33,250",
       "Price source: supplied price list"
     ],
@@ -8404,7 +8444,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹16,910",
       "Price source: supplied price list"
     ],
@@ -8428,7 +8468,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹24,700",
       "Price source: supplied price list"
     ],
@@ -8451,7 +8491,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹13,300",
       "Price source: supplied price list"
     ],
@@ -8475,7 +8515,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹12,350",
       "Price source: supplied price list"
     ],
@@ -8499,7 +8539,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,500",
       "Price source: supplied price list"
     ],
@@ -8523,7 +8563,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,310",
       "Price source: supplied price list"
     ],
@@ -8547,7 +8587,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹36,100",
       "Price source: supplied price list"
     ],
@@ -8571,7 +8611,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹32,100",
       "Price source: supplied price list"
     ],
@@ -8595,7 +8635,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹24,700",
       "Price source: supplied price list"
     ],
@@ -8619,7 +8659,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹23,750",
       "Price source: supplied price list"
     ],
@@ -8643,7 +8683,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹12,350",
       "Price source: supplied price list"
     ],
@@ -8667,7 +8707,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹10,450",
       "Price source: supplied price list"
     ],
@@ -8691,7 +8731,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹9,500",
       "Price source: supplied price list"
     ],
@@ -8715,7 +8755,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹8,550",
       "Price source: supplied price list"
     ],
@@ -8739,7 +8779,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹8,550",
       "Price source: supplied price list"
     ],
@@ -8763,7 +8803,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹4,560",
       "Price source: supplied price list"
     ],
@@ -8787,7 +8827,7 @@ const seedProducts = [
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Blade",
+      "Category: Blades",
       "MRP: ₹3,230",
       "Price source: supplied price list"
     ],
@@ -8811,7 +8851,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹8,740",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -8843,7 +8883,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹8,360",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -8875,7 +8915,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹7,980",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -8907,7 +8947,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹6,650",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -8939,7 +8979,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,320",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -8971,7 +9011,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹5,320",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -9003,7 +9043,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹3,610",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -9035,7 +9075,7 @@ const seedProducts = [
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rubber",
+      "Category: Rubbers",
       "MRP: ₹2,470",
       "Price source: supplied price list",
       "Max thickness: MAX",
@@ -9057,7 +9097,7 @@ const seedProducts = [
     "id": "stiga-stiga-haze-double-racket-case",
     "name": "Stiga Haze Double Racket Case",
     "brand": "stiga",
-    "category": "rackets",
+    "category": "accessories",
     "price": 3100,
     "rating": 4.7,
     "reviews": 0,
@@ -9067,7 +9107,7 @@ const seedProducts = [
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rackets",
+      "Category: Accessories",
       "MRP: ₹3,100",
       "Price source: supplied price list"
     ],
@@ -9135,18 +9175,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Polo+Tshirt+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/stiga-clothing.svg",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹3,990",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-new-polo-tshirt-stiga-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
     "searchImageQuery": "Stiga Stiga New Polo Tshirt table tennis product official image"
   },
   {
@@ -9159,18 +9199,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Shorts+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/stiga-clothing.svg",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹2,090",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-new-shorts-stiga-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
     "searchImageQuery": "Stiga Stiga New Shorts table tennis product official image"
   },
   {
@@ -9183,18 +9223,18 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+TShirt+-+Children+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/stiga-clothing.svg",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹2,280",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-tshirt-children-stiga-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
     "searchImageQuery": "Stiga Stiga TShirt - Children table tennis product official image"
   },
   {
@@ -9207,7 +9247,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Towel+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/stiga-clothing.svg",
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9215,10 +9255,10 @@ const seedProducts = [
       "MRP: ₹1,575",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-towel-stiga-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
     "searchImageQuery": "Stiga Stiga Towel table tennis product official image"
   },
   {
@@ -9231,25 +9271,25 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Socks+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/stiga-clothing.svg",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Apparel",
+      "Category: Clothing",
       "MRP: ₹475",
       "Price source: supplied price list"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-socks-stiga-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
     "searchImageQuery": "Stiga Stiga Socks table tennis product official image"
   },
   {
     "id": "stiga-donic-faze-racket-case-double",
     "name": "Donic Faze Racket Case Double",
     "brand": "stiga",
-    "category": "rackets",
+    "category": "accessories",
     "price": 675,
     "rating": 4.7,
     "reviews": 0,
@@ -9259,7 +9299,7 @@ const seedProducts = [
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
-      "Category: Rackets",
+      "Category: Accessories",
       "MRP: ₹675",
       "Price source: supplied price list"
     ],
@@ -11379,48 +11419,48 @@ const seedProducts = [
     "id": "xiom-xiom-zeta-offensive",
     "name": "Xiom Zeta Offensive",
     "brand": "xiom",
-    "category": "blades",
+    "category": "rackets",
     "price": 4869,
     "rating": 4.7,
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/xiom-rackets.svg",
     "description": "Xiom Zeta Offensive listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Blades",
+      "Category: Rackets",
       "MRP: ₹4,869",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-zeta-offensive-xiom-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/xiom-rackets.svg",
     "searchImageQuery": "Xiom Xiom Zeta Offensive table tennis product official image"
   },
   {
     "id": "xiom-xiom-zeta-offensive-plus",
     "name": "Xiom Zeta Offensive Plus",
     "brand": "xiom",
-    "category": "blades",
+    "category": "rackets",
     "price": 5629,
     "rating": 4.7,
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+Plus+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/xiom-rackets.svg",
     "description": "Xiom Zeta Offensive Plus listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Blades",
+      "Category: Rackets",
       "MRP: ₹5,629",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-zeta-offensive-plus-xiom-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/xiom-rackets.svg",
     "searchImageQuery": "Xiom Xiom Zeta Offensive Plus table tennis product official image"
   },
   {
@@ -11619,7 +11659,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-racket-case-pink",
     "name": "Xiom TIKKYWOW Racket Case - Pink",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11629,7 +11669,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Racket Case - Pink listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: Pink",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11644,7 +11684,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-racket-case-navy-blue",
     "name": "Xiom TIKKYWOW Racket Case - Navy Blue",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11654,7 +11694,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Racket Case - Navy Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: Navy Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11669,7 +11709,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-racket-case-blue",
     "name": "Xiom TIKKYWOW Racket Case - Blue",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11679,7 +11719,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11694,7 +11734,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-blue",
     "name": "Xiom TIKKYWOW 2 Racket Case - Blue",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11704,7 +11744,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11719,7 +11759,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-purple",
     "name": "Xiom TIKKYWOW 2 Racket Case - Purple",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11729,7 +11769,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: Purple",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11744,7 +11784,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-l-blue",
     "name": "Xiom TIKKYWOW 2 Racket Case - L Blue",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11754,7 +11794,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - L Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: L Blue",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11769,7 +11809,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-2-racket-case-grey",
     "name": "Xiom TIKKYWOW 2 Racket Case - Grey",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 2379,
     "rating": 4.7,
     "reviews": 0,
@@ -11779,7 +11819,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW 2 Racket Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: Grey",
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -11794,7 +11834,7 @@ const seedProducts = [
     "id": "xiom-xiom-neo-2-racket-case-dark-blue",
     "name": "Xiom Neo 2 Racket Case - Dark Blue",
     "brand": "xiom",
-    "category": "rackets",
+    "category": "accessories",
     "price": 1649,
     "rating": 4.7,
     "reviews": 0,
@@ -11804,7 +11844,7 @@ const seedProducts = [
     "description": "Xiom Neo 2 Racket Case - Dark Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rackets",
+      "Category: Accessories",
       "Colour: Dark Blue",
       "MRP: ₹1,649",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12281,7 +12321,7 @@ const seedProducts = [
     "id": "xiom-xiom-22xbc-ball-case-navy",
     "name": "Xiom 22XBC Ball Case - Navy",
     "brand": "xiom",
-    "category": "balls",
+    "category": "accessories",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12291,7 +12331,7 @@ const seedProducts = [
     "description": "Xiom 22XBC Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Balls",
+      "Category: Accessories",
       "Colour: Navy",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12306,7 +12346,7 @@ const seedProducts = [
     "id": "xiom-xiom-22xbc-ball-case-purple",
     "name": "Xiom 22XBC Ball Case - Purple",
     "brand": "xiom",
-    "category": "balls",
+    "category": "accessories",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12316,7 +12356,7 @@ const seedProducts = [
     "description": "Xiom 22XBC Ball Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Balls",
+      "Category: Accessories",
       "Colour: Purple",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12331,7 +12371,7 @@ const seedProducts = [
     "id": "xiom-xiom-22xbc-ball-case-grey",
     "name": "Xiom 22XBC Ball Case - Grey",
     "brand": "xiom",
-    "category": "balls",
+    "category": "accessories",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12341,7 +12381,7 @@ const seedProducts = [
     "description": "Xiom 22XBC Ball Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Balls",
+      "Category: Accessories",
       "Colour: Grey",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12356,7 +12396,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-ball-case-navy",
     "name": "Xiom TIKKYWOW Ball Case - Navy",
     "brand": "xiom",
-    "category": "balls",
+    "category": "accessories",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12366,7 +12406,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Balls",
+      "Category: Accessories",
       "Colour: Navy",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12381,7 +12421,7 @@ const seedProducts = [
     "id": "xiom-xiom-tikkywow-ball-case-orange",
     "name": "Xiom TIKKYWOW Ball Case - Orange",
     "brand": "xiom",
-    "category": "balls",
+    "category": "accessories",
     "price": 1099,
     "rating": 4.7,
     "reviews": 0,
@@ -12391,7 +12431,7 @@ const seedProducts = [
     "description": "Xiom TIKKYWOW Ball Case - Orange listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Balls",
+      "Category: Accessories",
       "Colour: Orange",
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12631,7 +12671,7 @@ const seedProducts = [
     "id": "xiom-xiom-24-o-foil-jekyll-and-hyde",
     "name": "Xiom 24 O-FOIL - Jekyll & Hyde",
     "brand": "xiom",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 589,
     "rating": 4.7,
     "reviews": 0,
@@ -12641,7 +12681,7 @@ const seedProducts = [
     "description": "Xiom 24 O-FOIL - Jekyll & Hyde listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Rubbers",
+      "Category: Accessories",
       "Colour: Jekyll & Hyde",
       "MRP: ₹589",
       "Source: Xiom price list effective 20 Mar 2026"
@@ -12662,7 +12702,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+XST+Mirae+Short+Towel+-+Blue%2FRed+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/xiom-clothing.svg",
     "description": "Xiom 24 XST Mirae Short Towel - Blue/Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12671,10 +12711,10 @@ const seedProducts = [
       "MRP: ₹1,529",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-xst-mirae-short-towel-blue-red-xiom-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
     "searchImageQuery": "Xiom Xiom 24 XST Mirae Short Towel - Blue/Red table tennis product official image"
   },
   {
@@ -12811,19 +12851,19 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+M+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/xiom-clothing.svg",
     "description": "Xiom Albert M - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Apparel",
+      "Category: Clothing",
       "Colour: Black",
       "MRP: ₹4,299",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-albert-m-black-xiom-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
     "searchImageQuery": "Xiom Xiom Albert M - Black table tennis product official image"
   },
   {
@@ -12836,19 +12876,19 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+L+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/xiom-clothing.svg",
     "description": "Xiom Albert L - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Apparel",
+      "Category: Clothing",
       "Colour: Black",
       "MRP: ₹4,299",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-albert-l-black-xiom-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
     "searchImageQuery": "Xiom Xiom Albert L - Black table tennis product official image"
   },
   {
@@ -12861,19 +12901,19 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+XL+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "image": "assets/product-fallbacks/xiom-clothing.svg",
     "description": "Xiom Albert XL - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
-      "Category: Apparel",
+      "Category: Clothing",
       "Colour: Black",
       "MRP: ₹4,299",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "web-search-product-image",
-    "imageSource": "Web image-search thumbnail generated from exact brand and product name; local catalogue visual kept as fallback",
+    "imageStatus": "category-accurate-local-fallback",
+    "imageSource": "Wrong/unreliable search thumbnail replaced with a matching branded category image.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-albert-xl-black-xiom-safe.svg",
+    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
     "searchImageQuery": "Xiom Xiom Albert XL - Black table tennis product official image"
   },
   {
@@ -13527,7 +13567,7 @@ const seedProducts = [
     "id": "andro-andro-blowfish-1-8",
     "name": "Andro Blowfish 1.8",
     "brand": "andro",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 5400,
     "rating": 4.7,
     "reviews": 0,
@@ -13537,7 +13577,7 @@ const seedProducts = [
     "description": "Andro Blowfish 1.8 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Rubbers",
       "MRP: ₹5,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -13551,7 +13591,7 @@ const seedProducts = [
     "id": "andro-andro-blowfish-plus-1-8",
     "name": "Andro Blowfish Plus 1.8",
     "brand": "andro",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 5400,
     "rating": 4.7,
     "reviews": 0,
@@ -13561,7 +13601,7 @@ const seedProducts = [
     "description": "Andro Blowfish Plus 1.8 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Rubbers",
       "MRP: ₹5,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -13575,7 +13615,7 @@ const seedProducts = [
     "id": "andro-andro-chaos-ox",
     "name": "Andro Chaos OX",
     "brand": "andro",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 5600,
     "rating": 4.7,
     "reviews": 0,
@@ -13585,7 +13625,7 @@ const seedProducts = [
     "description": "Andro Chaos OX listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Rubbers",
       "MRP: ₹5,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -13599,7 +13639,7 @@ const seedProducts = [
     "id": "andro-andro-chaos-0-5",
     "name": "Andro Chaos 0.5",
     "brand": "andro",
-    "category": "accessories",
+    "category": "rubbers",
     "price": 5600,
     "rating": 4.7,
     "reviews": 0,
@@ -13609,7 +13649,7 @@ const seedProducts = [
     "description": "Andro Chaos 0.5 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Accessories",
+      "Category: Rubbers",
       "MRP: ₹5,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -13647,7 +13687,7 @@ const seedProducts = [
     "id": "andro-andro-rubber-cleaner-pump-spray",
     "name": "Andro Rubber Cleaner Pump Spray",
     "brand": "andro",
-    "category": "rubbers",
+    "category": "accessories",
     "price": 650,
     "rating": 4.7,
     "reviews": 0,
@@ -13657,7 +13697,7 @@ const seedProducts = [
     "description": "Andro Rubber Cleaner Pump Spray listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Rubbers",
+      "Category: Accessories",
       "MRP: ₹650",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -13719,7 +13759,7 @@ const seedProducts = [
     "id": "andro-andro-table-cleaner",
     "name": "Andro Table Cleaner",
     "brand": "andro",
-    "category": "tables",
+    "category": "accessories",
     "price": 1600,
     "rating": 4.7,
     "reviews": 0,
@@ -13729,7 +13769,7 @@ const seedProducts = [
     "description": "Andro Table Cleaner listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
-      "Category: Tables",
+      "Category: Accessories",
       "MRP: ₹1,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
@@ -14394,7 +14434,7 @@ function getAdminProducts() {
   catch { return []; }
 }
 function saveAdminProducts(products) { localStorage.setItem(STORAGE_PRODUCTS, JSON.stringify(products)); }
-function getProducts() { return [...seedProducts, ...getAdminProducts()]; }
+function getProducts() { return [...seedProducts, ...getAdminProducts()].map(product => window.ttwNormalizedProduct ? window.ttwNormalizedProduct(product) : product); }
 function getCartTotal() { return state.cart.reduce((sum, item) => sum + Number(item.price) * Number(item.quantity), 0); }
 
 function fallbackArt(product) {
@@ -15109,8 +15149,8 @@ function getOrderWhatsappNumber() {
   } catch (error) {
     number = "";
   }
-  number = String(number || "919999999999").replace(/[^\d]/g, "");
-  return number || "919999999999";
+  number = String(number || "919558187425").replace(/[^\d]/g, "");
+  return number || "919558187425";
 }
 
 function plainTextFromHtml(value) {
@@ -15251,19 +15291,23 @@ function orderPlainText(order) {
 function showOrderSuccess(order) {
   const success = document.getElementById("orderSuccess");
   if (!success) return;
-  const whatsappUrl = buildWhatsAppOrderUrl(order);
+  const storeWhatsappUrl = buildWhatsAppOrderUrl(order);
+  const customerUrl = window.buildCustomerWhatsAppConfirmationUrl ? window.buildCustomerWhatsAppConfirmationUrl(order) : "";
   success.hidden = false;
-  success.innerHTML = `<div class="order-success-card whatsapp-order-success">
-    <span class="eyebrow">WhatsApp order placed</span>
+  success.innerHTML = `<div class="order-success-card whatsapp-order-success compact-order-success">
+    <span class="eyebrow">Order request placed</span>
     <h2>Thank you, ${order.customer.fullName}.</h2>
-    <p>Your order <strong>${order.orderId}</strong> has been saved. Please send the order to us on WhatsApp. We will send the QR code/payment details after confirming availability.</p>
+    <p>Your order <strong>${order.orderId}</strong> has been saved in our system. WhatsApp order messages have been prepared automatically for the store and for the customer's checkout number.</p>
     <div class="whatsapp-order-steps">
-      <span><b>01</b> Order sent on WhatsApp</span>
-      <span><b>02</b> QR code will be shared</span>
-      <span><b>03</b> Dispatch after payment</span>
+      <span><b>01</b> Store order WhatsApp opened</span>
+      <span><b>02</b> Customer confirmation WhatsApp opened</span>
+      <span><b>03</b> QR will be sent after stock confirmation</span>
     </div>
-    <a class="button primary whatsapp-place-order-btn" target="_blank" rel="noopener" href="${whatsappUrl}">Send order on WhatsApp</a>
-    <a class="button ghost" href="index.html">Continue shopping</a>
+    <div class="order-success-actions">
+      <a class="button primary whatsapp-place-order-btn" target="_blank" rel="noopener" href="${storeWhatsappUrl}">Open store WhatsApp again</a>
+      ${customerUrl ? `<a class="button ghost customer-whatsapp-confirm-btn" target="_blank" rel="noopener" href="${customerUrl}">Open customer WhatsApp again</a>` : ""}
+      <a class="button ghost" href="index.html">Continue shopping</a>
+    </div>
   </div>`;
   success.scrollIntoView({ behavior: "smooth", block: "center" });
 }
@@ -15330,7 +15374,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const link = document.createElement("a");
     link.className = "whatsapp-consult";
-    link.href = "https://wa.me/919999999999?text=Hi%20Table%20Tennis%20Wala%2C%20I%20want%20a%20free%20consultation%20for%20table%20tennis%20equipment.";
+    link.href = "https://wa.me/919558187425?text=Hi%20Table%20Tennis%20Wala%2C%20I%20want%20a%20free%20consultation%20for%20table%20tennis%20equipment.";
     link.target = "_blank";
     link.rel = "noopener";
     link.setAttribute("aria-label", "Free consultation on WhatsApp");
@@ -16350,7 +16394,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const get=()=>{try{return typeof getProducts==="function"?getProducts():(Array.isArray(window.seedProducts)?window.seedProducts:seedProducts)}catch(e){return[]}};
   const money=v=>new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(Number(v||0));
   const title=v=>String(v||"").replace(/-/g," ").replace(/\b\w/g,c=>c.toUpperCase());
-  const list=slot=>{let c=cfg[slot],p=get();return c.cats?p.filter(x=>c.cats.includes(x.category)):p.filter(x=>x.category===c.cat)};
+  const list=slot=>{let c=cfg[slot],p=get().map(x=>window.ttwNormalizedProduct?window.ttwNormalizedProduct(x):x);let arr=c.cats?p.filter(x=>c.cats.includes(x.category)):p.filter(x=>x.category===c.cat);if(slot==="blade")arr=arr.filter(x=>!/\b(racket|racquet|set\s*up|setup|combo|complete|logo\s*racket|ready\s*made|bat)\b/i.test(x.name));if(slot==="forehand"||slot==="backhand")arr=arr.filter(x=>x.category==="rubbers"&&!/cleaner|cleaning|protector|sheet|tape|case|cover|bag/i.test(x.name));return arr};
   const brands=slot=>[...new Set(list(slot).map(x=>x.brand).filter(Boolean))];
   const byId=id=>get().find(x=>String(x.id)===String(id));
   function img(p){if(p&&p.image){let f=p.fallbackImage?`this.onerror=null;this.src='${p.fallbackImage}';`:`this.onerror=null;this.closest('.product-visual')?.classList.add('image-load-failed');this.style.display='none';`;return `<img src="${p.image}" alt="${p.name}" loading="lazy" referrerpolicy="no-referrer" onerror="${f}">`}return `<div class="vc-fallback">${String(p?.name||"TT").slice(0,2).toUpperCase()}</div>`}
@@ -18624,9 +18668,9 @@ document.addEventListener("DOMContentLoaded", () => {
       announcement: "NO RETURN AND EXCHANGE POLICY",
       heroTitle: "",
       heroSubtitle: "",
-      phone: "+91 99999 99999",
-      whatsapp: "919999999999",
-      orderWhatsapp: "919999999999",
+      phone: "+91 95581 87425",
+      whatsapp: "919558187425",
+      orderWhatsapp: "919558187425",
       orderEmail: "orders@tabletenniswala.in",
       ...safeJSON(CONTENT_KEY, {})
     };
@@ -19132,6 +19176,430 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const observer = new MutationObserver(() => addCustomerConfirmationToAdminOrders());
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+  });
+})();
+
+
+/* FINAL: full-site category/filter cleanup, order WhatsApp number and customer email confirmation */
+(function () {
+  const FINAL_ORDER_WHATSAPP = "919558187425";
+  const FINAL_ORDER_PHONE_DISPLAY = "+91 95581 87425";
+  const PRODUCT_STORAGE_KEYS = ["ttw-admin-products", "table-tennis-wala-admin-products"];
+
+  function canonicalCategory(product) {
+    const features = Array.isArray(product?.features) ? product.features.join(" ") : String(product?.features || "");
+    const text = `${product?.name || ""} ${product?.description || ""} ${features} ${product?.category || ""}`.toLowerCase();
+    if (text.includes("pickleball")) return "hidden";
+    if (/(glue|adhesive|free chack|vario clean|water glue|edge glue)/.test(text)) return "glue";
+    if (/(t[- ]?shirt|shirt|shorts|sock|socks|tracksuit|polo|jersey|apparel|towel|cap)/.test(text)) return "clothing";
+    if (/(shoe|shoes|footwear)/.test(text) && !/shoe bag/.test(text)) return "footwear";
+    if (/(ball|balls|40\+|3 star|three star|training ball|competition ball)/.test(text) && !/ball holder|ball case/.test(text)) return "balls";
+    if (/(table|tables)/.test(text) && !/table tennis (rubber|blade|racket)/.test(text)) return "tables";
+    if (/(bag|case|cover|cleaner|cleaning|sponge|edge tape|side tape|tape|net|post|bottle|protector|wallet|holder|accessor|shoe bag|backpack|rucksack|bat cover|racket cover)/.test(text)) return "accessories";
+    if (/(ready racket|ready-made|premade|pre-made|pre assembled|pre-assembled|assembled|combo|racket set|bat set)/.test(text)) return "rackets";
+    if (/(racket|racquet|bat)/.test(text) && !/blade/.test(text)) return "rackets";
+    if (/(rubber|hurricane|dynaryz|rhyzen|rasanter|nuzn|omega|vega|j&h|jekyll|hyde|jkyll|mantra|dna|dignics|tenergy|rozes|rozena|do knuckle|dragon power|388d|long pips|short pips|pips|anti spin|sponge)/.test(text)) return "rubbers";
+    if (/(blade|cybershape|clipper|carbon|alc|zlc|super alc|szlc|viscaria|harimoto|boll|innerforce|falcima|hadraw|maze|korbel|primorac|ovtcharov|apolonia|frey|treiber|synteliac|novacell|wanokiwami|calix|zetro|azalea|firefall|sweden classic|offensive classic|allround classic|trinity|vyzaryz|tezzo|freeze|warrior)/.test(text)) return "blades";
+    return String(product?.category || "accessories").toLowerCase();
+  }
+
+  function normalizeProduct(product) {
+    if (!product) return product;
+    const category = canonicalCategory(product);
+    return { ...product, category, hidden: product.hidden || category === "hidden" };
+  }
+
+  window.ttwCanonicalCategory = canonicalCategory;
+  window.ttwNormalizeProduct = normalizeProduct;
+
+  try {
+    if (Array.isArray(seedProducts)) {
+      seedProducts.forEach((product, index) => {
+        seedProducts[index] = normalizeProduct(product);
+      });
+    }
+  } catch (error) {}
+
+  PRODUCT_STORAGE_KEYS.forEach(key => {
+    try {
+      const products = JSON.parse(localStorage.getItem(key) || "[]");
+      if (Array.isArray(products)) {
+        localStorage.setItem(key, JSON.stringify(products.map(normalizeProduct)));
+      }
+    } catch (error) {}
+  });
+
+  const previousGetProducts = typeof getProducts === "function" ? getProducts : null;
+  if (previousGetProducts && !previousGetProducts.__ttwFinalCleaned) {
+    const cleanedGetProducts = function () {
+      return previousGetProducts().map(normalizeProduct).filter(product => product && !product.hidden && product.category !== "hidden");
+    };
+    cleanedGetProducts.__ttwFinalCleaned = true;
+    getProducts = cleanedGetProducts;
+  }
+
+  // Final safety for Customize page: blade section can only show real blades; racket products are excluded.
+  function removeWrongCustomizerCards() {
+    document.querySelectorAll('[data-vc-products="blade"] .vc-card').forEach(card => {
+      const id = card.dataset.id;
+      let product = null;
+      try { product = getProducts().find(item => String(item.id) === String(id)); } catch (error) {}
+      const name = `${product?.name || card.textContent || ""}`.toLowerCase();
+      if (!product || product.category !== "blades" || (/(racket|racquet|ready-made|pre-made|assembled|bat set)/.test(name) && !/blade/.test(name))) {
+        card.remove();
+      }
+    });
+  }
+
+  // Clean filter options and prevent old unwanted categories from appearing.
+  function cleanFilterUi() {
+    document.querySelectorAll('input[name="categoryFilter"]').forEach(input => {
+      const value = String(input.value || "").toLowerCase();
+      if (["pickleball", "hidden", "apparel"].includes(value)) {
+        input.closest("label")?.remove();
+      }
+    });
+    document.querySelectorAll("label").forEach(label => {
+      if (/pickleball/i.test(label.textContent || "")) label.remove();
+    });
+  }
+
+  function migrateSiteContentPhone() {
+    let content = {};
+    try { content = JSON.parse(localStorage.getItem("ttw-site-content") || "{}"); } catch (error) { content = {}; }
+    if (!content.whatsapp || /^91?9{10}$/.test(String(content.whatsapp).replace(/\D/g, ""))) content.whatsapp = FINAL_ORDER_WHATSAPP;
+    if (!content.orderWhatsapp || /^91?9{10}$/.test(String(content.orderWhatsapp).replace(/\D/g, ""))) content.orderWhatsapp = FINAL_ORDER_WHATSAPP;
+    if (!content.phone || /99999/.test(String(content.phone))) content.phone = FINAL_ORDER_PHONE_DISPLAY;
+    localStorage.setItem("ttw-site-content", JSON.stringify(content));
+  }
+
+  window.getOrderWhatsappNumber = function getOrderWhatsappNumberFinal() {
+    let number = FINAL_ORDER_WHATSAPP;
+    try {
+      const content = JSON.parse(localStorage.getItem("ttw-site-content") || "{}");
+      number = content.orderWhatsapp || content.whatsapp || FINAL_ORDER_WHATSAPP;
+    } catch (error) {
+      number = FINAL_ORDER_WHATSAPP;
+    }
+    number = String(number || FINAL_ORDER_WHATSAPP).replace(/\D/g, "");
+    return number || FINAL_ORDER_WHATSAPP;
+  };
+
+  function cleanHtmlDetails(value) {
+    const div = document.createElement("div");
+    div.innerHTML = String(value || "").replace(/<br\s*\/?>/gi, "\n");
+    return (div.textContent || div.innerText || "").replace(/\n+/g, ", ").trim();
+  }
+
+  function customerEmailSubject(order) {
+    return `Table Tennis Wala order received - ${order.orderId}`;
+  }
+
+  function customerEmailBody(order) {
+    const items = (order.items || []).map((item, index) => {
+      const details = item.details ? ` - ${cleanHtmlDetails(item.details)}` : "";
+      return `${index + 1}. ${item.name} x ${item.quantity || 1} - ${formatPrice(Number(item.price || 0) * Number(item.quantity || 1))}${details}`;
+    }).join("\n");
+    return [
+      `Hi ${order.customer?.fullName || "there"},`,
+      "",
+      "Thank you for placing your order with Table Tennis Wala.",
+      "",
+      `Order ID: ${order.orderId}`,
+      `Order total: ${formatPrice(order.amount)}`,
+      "Payment status: QR payment pending",
+      "",
+      "Order items:",
+      items,
+      "",
+      "We have received your order request. We will confirm availability and send the QR code/payment details on WhatsApp. Your products will be dispatched once payment is received.",
+      "",
+      "Thank you,",
+      "Table Tennis Wala"
+    ].join("\n");
+  }
+
+  function customerMailtoUrl(order) {
+    const email = order.customer?.email;
+    if (!email) return "";
+    return `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(customerEmailSubject(order))}&body=${encodeURIComponent(customerEmailBody(order))}`;
+  }
+
+  window.customerEmailBody = customerEmailBody;
+  window.customerEmailSubject = customerEmailSubject;
+  window.customerMailtoUrl = customerMailtoUrl;
+
+  function addEmailButtonToSuccess(order) {
+    const success = document.getElementById("orderSuccess");
+    const card = success?.querySelector(".order-success-card");
+    if (!card || card.querySelector(".customer-email-confirm-btn")) return;
+    const mailto = customerMailtoUrl(order);
+    if (!mailto) return;
+    const box = document.createElement("div");
+    box.className = "customer-email-box";
+    box.innerHTML = `
+      <span class="eyebrow">Email confirmation</span>
+      <h3>Customer email ready</h3>
+      <p>The website attempts automatic EmailJS confirmation when configured. This fallback opens a prepared email to the customer.</p>
+      <a class="button ghost customer-email-confirm-btn" href="${mailto}">Open customer email</a>
+    `;
+    card.appendChild(box);
+  }
+
+  const previousShowOrderSuccess = typeof showOrderSuccess === "function" ? showOrderSuccess : null;
+  if (previousShowOrderSuccess && !previousShowOrderSuccess.__emailFinalEnhanced) {
+    const enhanced = function(order) {
+      previousShowOrderSuccess(order);
+      addEmailButtonToSuccess(order);
+    };
+    enhanced.__emailFinalEnhanced = true;
+    showOrderSuccess = enhanced;
+  }
+
+  // Ensure customer email is attempted through EmailJS config and fallback button exists.
+  const previousSendOrderEmails = typeof sendOrderEmails === "function" ? sendOrderEmails : null;
+  if (previousSendOrderEmails && !previousSendOrderEmails.__finalEmailSafe) {
+    const emailSafe = function(order) {
+      try { previousSendOrderEmails(order); } catch (error) { console.warn("EmailJS order email attempt failed", error); }
+      // Store a copy for admin fallback actions.
+      try { localStorage.setItem("ttw-last-customer-email", JSON.stringify({ orderId: order.orderId, to: order.customer?.email || "", subject: customerEmailSubject(order), body: customerEmailBody(order) })); } catch (error) {}
+    };
+    emailSafe.__finalEmailSafe = true;
+    sendOrderEmails = emailSafe;
+  }
+
+  function addAdminEmailActions() {
+    document.querySelectorAll(".admin-order-card").forEach(card => {
+      const orderId = card.querySelector(".eyebrow")?.textContent?.trim();
+      if (!orderId || card.querySelector(".customer-email-confirm-btn")) return;
+      let orders = [];
+      try { orders = JSON.parse(localStorage.getItem("ttw-orders") || "[]"); } catch (error) { orders = []; }
+      const order = orders.find(item => item.orderId === orderId);
+      if (!order) return;
+      const mailto = customerMailtoUrl(order);
+      if (!mailto) return;
+      let actions = card.querySelector(".admin-order-actions");
+      if (!actions) {
+        actions = document.createElement("div");
+        actions.className = "admin-order-actions";
+        card.appendChild(actions);
+      }
+      actions.insertAdjacentHTML("beforeend", `<a class="button small customer-email-confirm-btn" href="${mailto}">Send email confirmation</a>`);
+    });
+  }
+
+  document.addEventListener("click", event => {
+    if (event.target.closest("[data-admin-panel='orders'], #refreshOrders, .admin-pro-tab")) {
+      setTimeout(addAdminEmailActions, 250);
+      setTimeout(addAdminEmailActions, 900);
+    }
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    migrateSiteContentPhone();
+    cleanFilterUi();
+    setTimeout(cleanFilterUi, 400);
+    setTimeout(removeWrongCustomizerCards, 450);
+    setTimeout(removeWrongCustomizerCards, 1100);
+    setTimeout(addAdminEmailActions, 900);
+    try { if (typeof applySiteContent === "function") applySiteContent(); } catch (error) {}
+  });
+
+  const observer = new MutationObserver(() => {
+    cleanFilterUi();
+    removeWrongCustomizerCards();
+    addAdminEmailActions();
+  });
+  document.addEventListener("DOMContentLoaded", () => { if (document.body) observer.observe(document.body, { childList: true, subtree: true }); });
+})();
+
+
+/* FINAL: category, filter and image safety rules */
+(function () {
+  const RUBBER_MODELS = /\b(dynaryz|tronix|rhyzen|vizon|evolution|mx-p|mx-s|mx-d|el-p|fx-p|aurus|hurricane|skyline|tin\s*arc|goldarc|tenergy|dignics|rozena|glayzer|bryce|sriver|dragon\s*power|dna|mantra|vega|omega|sigma|tau|j&h|jekyll|hyde|jupiter|big\s*dipper|moon|mars|mercury|apollo|rasanter|rasant|hexer|nuzn|gtt|blowfish|chaos|roxon|backside|do\s*knuckle|388d|pips|long\s*pip|short\s*pip|anti|antispin)\b/i;
+  const ACCESSORY = /\b(cleaner|cleaning|protector|protective|sheet|edge\s*tape|side\s*tape|tape|case|cover|bag|backpack|robot|grip|sponge\s*(cotton|synthetic)|bottle|net|post|foil|capsule)\b/i;
+  const CLOTHING = /\b(t[- ]?shirt|shirt|shorts|sock|socks|polo|jersey|apparel|tracksuit|pant|pants|skirt|dress|cap|towel)\b/i;
+  const FOOTWEAR = /\b(shoe|shoes|footwear|sneaker)\b/i;
+  const BALLS = /\b(ball|balls|40\+|3\s*star|training\s*ball)\b/i;
+  const GLUE = /\b(glue|adhesive|free\s*chack|vario\s*clean|water\s*glue|speed\s*glue)\b/i;
+  const BLADE = /\b(blade|cybershape|carbon|clipper|alc|zlc|szlc|super\s*alc|viscaria|innerforce|harimoto|boll|maze|korbel|primorac|frey|falcima|hadraw|treiber|synteliac|novacell|wanokiwami|calix|zetro|azalea|firefall|offensive\s*classic|allround\s*classic|sweden\s*classic|trinity|warrior|freeze|vyzaryz|tezzo)\b/i;
+  const RACKET = /\b(racket|racquet|ready\s*made|readymade|ready\s*to\s*play|bat|set\s*up|setup|complete\s*set|combo|zeta\s*offensive)\b/i;
+  window.ttwInferCategory = function(product){
+    const name = String(product?.name || '').toLowerCase();
+    const brand = String(product?.brand || '').toLowerCase();
+    if (name.includes('backpack vision ii')) return 'accessories';
+    if (name.includes('60011') && name.includes('t-shirt')) return 'clothing';
+    if (brand === 'xiom' && /\balbert\s*(m|l|xl)\b/.test(name)) return 'clothing';
+    if (name.includes('logo racket')) return 'rackets';
+    if (name.includes('zeta offensive')) return 'rackets';
+    if (GLUE.test(name)) return 'glue';
+    if (CLOTHING.test(name)) return 'clothing';
+    if (FOOTWEAR.test(name) && !name.includes('shoe bag')) return 'footwear';
+    if (ACCESSORY.test(name) && !name.includes('blue sponge') && !name.includes('orange sponge') && !name.includes('provincial') && !name.includes('national')) return 'accessories';
+    if (BALLS.test(name) && !RUBBER_MODELS.test(name)) return 'balls';
+    if (name.includes('table tennis rubber') || (RUBBER_MODELS.test(name) && !/cleaner|cleaning|protector|sheet|tape|case|cover|bag/.test(name))) return 'rubbers';
+    if (name.includes('rubber') && !/cleaner|cleaning|protector|sheet|tape|case|cover|bag/.test(name)) return 'rubbers';
+    if (RACKET.test(name)) return 'rackets';
+    if (BLADE.test(name)) return 'blades';
+    return product?.category || 'accessories';
+  };
+  window.ttwNormalizedProduct = product => product ? { ...product, category: window.ttwInferCategory(product) } : product;
+})();
+
+
+/* FINAL: clean public product listings and filters */
+(function () {
+  function cleanVisibleCards(){document.querySelectorAll('.product-card').forEach(card=>{const meta=card.querySelector('.product-meta span:first-child')?.textContent?.toLowerCase()||'';const name=card.querySelector('.product-name')?.textContent?.toLowerCase()||card.querySelector('h3')?.textContent?.toLowerCase()||'';if(meta.includes('hidden')||name.includes('pickleball'))card.remove();});}
+  document.addEventListener('DOMContentLoaded',()=>{cleanVisibleCards();setTimeout(cleanVisibleCards,300);setTimeout(cleanVisibleCards,1200);});
+  const observer=new MutationObserver(cleanVisibleCards);document.addEventListener('DOMContentLoaded',()=>{if(document.body)observer.observe(document.body,{childList:true,subtree:true});});
+})();
+
+
+/* FINAL: customer email confirmation status and fallback draft */
+(function () {
+  const EMAIL_KEY='ttw-email-config', ORDER_KEY='ttw-orders';
+  function moneyEmail(v){try{return new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(Number(v||0));}catch{return '₹'+Number(v||0).toLocaleString('en-IN');}}
+  function emailConfig(){try{return{ownerEmail:'orders@tabletenniswala.in',publicKey:'',serviceId:'',ownerTemplateId:'',customerTemplateId:'',...JSON.parse(localStorage.getItem(EMAIL_KEY)||'{}')}}catch{return{ownerEmail:'orders@tabletenniswala.in',publicKey:'',serviceId:'',ownerTemplateId:'',customerTemplateId:''}}}
+  function cleanDetails(v){const d=document.createElement('div');d.innerHTML=String(v||'').replace(/<br\s*\/?>/gi,'\n');return(d.textContent||d.innerText||'').replace(/\n+/g,', ').trim();}
+  function customerEmailSubject(order){return `Table Tennis Wala order received - ${order.orderId}`;}
+  function customerEmailBody(order){const items=(order.items||[]).map((item,i)=>`${i+1}. ${item.name} x ${item.quantity||1} - ${moneyEmail(Number(item.price||0)*Number(item.quantity||1))}${item.details?' - '+cleanDetails(item.details):''}`).join('\n');return[`Hi ${order.customer?.fullName||'there'},`,'','Thank you for placing your order with Table Tennis Wala.','',`Order ID: ${order.orderId}`,`Order total: ${moneyEmail(order.amount)}`,'Payment status: QR payment pending','','Order items:',items,'','We have received your order request. We will confirm availability and send the QR code/payment details on WhatsApp. Your products will be dispatched once payment is received.','','Thank you,','Table Tennis Wala'].join('\n');}
+  function customerMailto(order){const email=String(order.customer?.email||'').trim();if(!email)return'';return`mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(customerEmailSubject(order))}&body=${encodeURIComponent(customerEmailBody(order))}`;}
+  function updateOrderEmailStatus(orderId,status,note){let orders=[];try{orders=JSON.parse(localStorage.getItem(ORDER_KEY)||'[]')}catch{};orders=orders.map(order=>order.orderId===orderId?{...order,customerEmailStatus:status,customerEmailNote:note||'',customerEmailUpdatedAt:new Date().toISOString()}:order);localStorage.setItem(ORDER_KEY,JSON.stringify(orders));}
+  window.ttwCustomerMailto=customerMailto;window.ttwCustomerEmailBody=customerEmailBody;
+  window.sendOrderEmails=function(order){const cfg=emailConfig();const params={order_id:order.orderId,store_email:cfg.ownerEmail,customer_name:order.customer?.fullName||'',customer_email:order.customer?.email||'',customer_phone:order.customer?.phone||'',customer_address:`${order.customer?.address||''}, ${order.customer?.city||''}, ${order.customer?.state||''} - ${order.customer?.pincode||''}`,order_total:moneyEmail(order.amount),payment_id:order.paymentId||'',payment_status:order.paymentStatus||'Pending QR payment',order_items:(order.items||[]).map(item=>`${item.name} x ${item.quantity||1} — ${moneyEmail(Number(item.price||0)*Number(item.quantity||1))} ${item.details?cleanDetails(item.details):''}`).join('\n')};const ready=cfg.publicKey&&cfg.serviceId&&cfg.ownerTemplateId&&cfg.customerTemplateId&&window.emailjs;if(!ready){updateOrderEmailStatus(order.orderId,'not_configured','EmailJS is not configured. Use the email draft button or configure EmailJS in admin.');console.warn('EmailJS not configured. Customer email draft is available.',params);return Promise.resolve(false);}try{emailjs.init({publicKey:cfg.publicKey});return Promise.allSettled([emailjs.send(cfg.serviceId,cfg.ownerTemplateId,params),emailjs.send(cfg.serviceId,cfg.customerTemplateId,params)]).then(results=>{const ok=results.every(r=>r.status==='fulfilled');updateOrderEmailStatus(order.orderId,ok?'sent':'failed',ok?'Owner and customer email sent through EmailJS.':'One or more EmailJS sends failed. Check EmailJS keys/templates.');return ok;});}catch(error){updateOrderEmailStatus(order.orderId,'failed',String(error?.message||error));console.warn('EmailJS send failed',error);return Promise.resolve(false);}};
+  function addEmailStatusToSuccess(){let order;try{order=JSON.parse(localStorage.getItem('ttw-last-order')||'null')}catch{return};if(!order)return;const card=document.querySelector('#orderSuccess .order-success-card');if(!card||card.querySelector('.customer-email-box'))return;const cfg=emailConfig(),configured=!!(cfg.publicKey&&cfg.serviceId&&cfg.ownerTemplateId&&cfg.customerTemplateId&&window.emailjs);const draft=customerMailto(order);const box=document.createElement('div');box.className='customer-email-box';box.innerHTML=`<span class="eyebrow">Email confirmation</span><h3>${configured?'Email confirmation queued':'Email setup required'}</h3><p>${configured?'The customer confirmation email is being sent through EmailJS.':'Automatic customer email needs EmailJS keys in Admin → Order email setup. Until then, use the email draft button below.'}</p>${draft?`<a class="button ghost customer-email-draft-btn" href="${draft}">Open customer email draft</a>`:''}`;card.appendChild(box);}
+  function addEmailActionsToAdminOrders(){document.querySelectorAll('.admin-order-card').forEach(card=>{if(card.querySelector('.customer-email-draft-btn'))return;const orderId=card.querySelector('.eyebrow')?.textContent?.trim();if(!orderId)return;let orders=[];try{orders=JSON.parse(localStorage.getItem(ORDER_KEY)||'[]')}catch{};const order=orders.find(x=>x.orderId===orderId);if(!order)return;const draft=customerMailto(order);if(!draft)return;const actions=card.querySelector('.admin-order-actions')||(()=>{const el=document.createElement('div');el.className='admin-order-actions';card.appendChild(el);return el;})();const status=order.customerEmailStatus||'not_configured';actions.insertAdjacentHTML('beforeend',`<a class="button small ghost customer-email-draft-btn" href="${draft}">Email customer draft</a><span class="email-status-pill">Email: ${status.replace(/_/g,' ')}</span>`);});}
+  document.addEventListener('DOMContentLoaded',()=>{setTimeout(addEmailStatusToSuccess,400);setTimeout(addEmailActionsToAdminOrders,700);setTimeout(addEmailActionsToAdminOrders,1400);});const obs=new MutationObserver(()=>{addEmailStatusToSuccess();addEmailActionsToAdminOrders();});document.addEventListener('DOMContentLoaded',()=>{if(document.body)obs.observe(document.body,{childList:true,subtree:true});});
+})();
+
+
+/* FINAL: auto-open customer WhatsApp confirmation and remove user-page confirmation boxes */
+(function () {
+  function normalizePhoneForWhatsApp(phone) {
+    let digits = String(phone || "").replace(/[^\d]/g, "");
+    if (!digits) return "";
+    if (digits.length === 10) digits = "91" + digits;
+    return digits;
+  }
+
+  function detailsText(value) {
+    const div = document.createElement("div");
+    div.innerHTML = String(value || "").replace(/<br\s*\/?\>/gi, "\n");
+    return (div.textContent || div.innerText || "").replace(/\n+/g, ", ").trim();
+  }
+
+  function buildCustomerWhatsAppConfirmationText(order) {
+    const items = (order.items || []).map((item, index) => {
+      const qty = Number(item.quantity || 1);
+      const lineTotal = Number(item.price || 0) * qty;
+      const details = item.details ? `\n   ${detailsText(item.details)}` : "";
+      return `${index + 1}. ${item.name}\n   Qty: ${qty}\n   Amount: ${formatPrice(lineTotal)}${details}`;
+    }).join("\n\n");
+
+    return [
+      "🏓 *Table Tennis Wala - Order Received*",
+      "",
+      `Hi ${order.customer?.fullName || "there"},`,
+      "Thank you for placing your order with Table Tennis Wala.",
+      "",
+      `*Order ID:* ${order.orderId}`,
+      `*Order total:* ${formatPrice(order.amount)}`,
+      "*Payment status:* QR payment pending",
+      "",
+      "*Order items:*",
+      items,
+      "",
+      "We have received your order request. We will confirm product availability and send you the QR code/payment details on WhatsApp.",
+      "Your products will be dispatched once payment is received.",
+      "",
+      "Thank you,",
+      "Table Tennis Wala"
+    ].filter(Boolean).join("\n");
+  }
+
+  function buildCustomerWhatsAppConfirmationUrl(order) {
+    const number = normalizePhoneForWhatsApp(order.customer?.phone);
+    if (!number) return "";
+    return `https://wa.me/${number}?text=${encodeURIComponent(buildCustomerWhatsAppConfirmationText(order))}`;
+  }
+
+  window.buildCustomerWhatsAppConfirmationText = buildCustomerWhatsAppConfirmationText;
+  window.buildCustomerWhatsAppConfirmationUrl = buildCustomerWhatsAppConfirmationUrl;
+  window.customerConfirmationText = buildCustomerWhatsAppConfirmationText;
+  window.customerConfirmationUrl = buildCustomerWhatsAppConfirmationUrl;
+
+  function removeCustomerAndEmailBoxes() {
+    document.querySelectorAll(".customer-confirmation-box, .customer-email-box").forEach(el => el.remove());
+  }
+
+  // Prevent older fallback modules from adding visible boxes to the customer success page.
+  const oldShow = typeof showOrderSuccess === "function" ? showOrderSuccess : null;
+  if (oldShow && !oldShow.__autoWhatsappClean) {
+    const cleanShow = function(order) {
+      oldShow(order);
+      removeCustomerAndEmailBoxes();
+      setTimeout(removeCustomerAndEmailBoxes, 50);
+      setTimeout(removeCustomerAndEmailBoxes, 350);
+      setTimeout(removeCustomerAndEmailBoxes, 1000);
+    };
+    cleanShow.__autoWhatsappClean = true;
+    showOrderSuccess = cleanShow;
+  }
+
+  // Replaces checkout WhatsApp flow: store order + customer confirmation are both opened from the same user action.
+  const autoWhatsappCheckout = function(customer) {
+    const amount = getCartTotal();
+    if (!amount || !state.cart.length) {
+      showToast("Your cart is empty");
+      return;
+    }
+
+    const orderDraft = createOrderObject(customer, amount);
+    const order = {
+      ...orderDraft,
+      paymentId: `WHATSAPP-PENDING-${Date.now()}`,
+      paymentMode: "WhatsApp order - QR payment pending",
+      paymentStatus: "Pending QR payment",
+      orderChannel: "WhatsApp",
+      status: "New WhatsApp order",
+      customerWhatsAppStatus: "Confirmation WhatsApp prepared"
+    };
+
+    const storeUrl = buildWhatsAppOrderUrl(order);
+    const customerUrl = buildCustomerWhatsAppConfirmationUrl(order);
+
+    // Pre-open tabs synchronously to reduce browser popup blocking.
+    const storeWindow = window.open("", "_blank");
+    const customerWindow = customerUrl ? window.open("", "_blank") : null;
+
+    completeOrder(order);
+    removeCustomerAndEmailBoxes();
+    showToast(customerUrl ? "Order saved. Store and customer WhatsApp messages opened." : "Order saved. Store WhatsApp message opened.");
+
+    if (storeWindow) storeWindow.location.href = storeUrl;
+    else window.open(storeUrl, "_blank") || (window.location.href = storeUrl);
+
+    if (customerUrl) {
+      if (customerWindow) {
+        setTimeout(() => { customerWindow.location.href = customerUrl; }, 180);
+      } else {
+        setTimeout(() => { window.open(customerUrl, "_blank"); }, 500);
+      }
+    }
+  };
+
+  window.placeOrderThroughWhatsApp = autoWhatsappCheckout;
+  try { placeOrderThroughWhatsApp = autoWhatsappCheckout; } catch (error) {}
+
+  document.addEventListener("DOMContentLoaded", () => {
+    removeCustomerAndEmailBoxes();
+    setTimeout(removeCustomerAndEmailBoxes, 500);
+    setTimeout(removeCustomerAndEmailBoxes, 1400);
+  });
+
+  const observer = new MutationObserver(removeCustomerAndEmailBoxes);
   document.addEventListener("DOMContentLoaded", () => {
     if (document.body) observer.observe(document.body, { childList: true, subtree: true });
   });

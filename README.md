@@ -563,3 +563,26 @@ JS syntax check: OK
 - After order placement, a customer confirmation WhatsApp button is generated using the phone number entered in checkout.
 - Admin View Orders now adds Send customer confirmation and Copy message actions for each order.
 - Note: a static website cannot automatically send a WhatsApp message from the store number without WhatsApp Business API/backend; this creates one-click WhatsApp confirmation links.
+
+- Final cleanup: normalized product categories and filters, removed hidden/pickleball products from public getProducts(), and prevented rackets from appearing inside the Customize page Blade section.
+- Updated WhatsApp/order phone number to +91 95581 87425 / 919558187425.
+- WhatsApp order placement continues to save orders to the admin View Orders panel.
+- Added customer email confirmation support: EmailJS is attempted if configured, and a fallback prepared-email link appears after order placement and in admin orders.
+- Static seed category updates: 55; hidden products marked: 2.
+
+- Final checks: {"phone_in_script": true, "phone_in_html": true, "canonical_category_js": true, "email_confirmation_js": true, "visible_pickleball_html": false, "wrong_blades_count": 0, "category_counts": {"rubbers": 188, "accessories": 96, "balls": 29, "glue": 13, "footwear": 12, "tables": 8, "blades": 129, "rackets": 34, "clothing": 16, "hidden": 2}, "js_check": "/mnt/data/table-tennis-wala-final-system-clean-work/table-tennis-wala-ecommerce/script.js:19250\n    div.innerHTML = String(value || \"\").replace(/<br\\s*\\/?>/gi, \"\n                                                                ^\n\nSyntaxError: Invalid or unexpected token\n    at wrapSafe (node:internal/modules/cjs/loader:1662:18)\n    at checkSyntax (node:internal/main/check_syntax:78:3)\n\nNode.js v22.16.0"}
+
+- Corrected final JS check after escape cleanup: JS syntax OK
+- Corrected final validation: {"js_check": "JS syntax OK", "phone_default": true, "canonical_cleanup": true, "customer_email": true, "whatsapp_order": true, "wrong_blades_count": 0, "category_counts": {"rubbers": 188, "accessories": 96, "balls": 29, "glue": 13, "footwear": 12, "tables": 8, "blades": 129, "rackets": 34, "clothing": 16, "hidden": 2}}
+
+- Fixed category errors: rubbers wrongly shown under Accessories/Balls are moved into Rubbers; backpacks/cases are Accessories; clothing stays Apparel; racket sets are Rackets; blade selector excludes ready-made rackets.
+- Replaced visibly wrong/unreliable search thumbnails with clean branded category artwork for the problematic apparel/racket products.
+- Added runtime safety rules so filters, catalogue pages and customizer sections normalize product categories before rendering.
+- Set WhatsApp order number to +91 95581 87425.
+- Added customer email status and fallback email draft links. True automatic email delivery requires EmailJS keys configured in Admin → Order email setup or a backend email service.
+- Category counts after cleanup: {'rubbers': 207, 'balls': 26, 'accessories': 82, 'glue': 13, 'blades': 133, 'rackets': 34, 'tables': 5, 'footwear': 11, 'clothing': 16}. Category changes: 36. Image corrections: 30.
+
+- Changed WhatsApp order flow so customer confirmation is automatically opened as a WhatsApp message to the phone number entered in checkout.
+- Removed visible customer confirmation and email confirmation boxes from the user success page.
+- Store order WhatsApp and customer confirmation WhatsApp are both opened from the checkout action.
+- Note: WhatsApp still requires the user/store to tap Send unless WhatsApp Business API/backend is connected.

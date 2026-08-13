@@ -13789,3 +13789,98 @@ body[data-page="joola"] .brand-hero {
     justify-content: center;
   }
 }
+
+
+/* FINAL: category/filter cleanup + WhatsApp/email confirmation UI polish */
+.customer-email-box {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(215, 255, 63, .12);
+  border: 1px solid rgba(215, 255, 63, .30);
+}
+
+.customer-email-box h3 {
+  margin: 6px 0 8px;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -.05em;
+}
+
+.customer-email-box p {
+  margin: 0 0 14px;
+  color: rgba(17, 19, 17, .62);
+  font-weight: 760;
+  line-height: 1.55;
+}
+
+.customer-email-confirm-btn {
+  background: var(--accent, #d7ff3f) !important;
+  color: var(--ink, #101410) !important;
+  border-color: transparent !important;
+  box-shadow: 0 14px 30px rgba(215, 255, 63, .18) !important;
+}
+
+/* Strict customizer category safety: prevent empty gaps after bad cards are removed */
+.vc-products,
+.vc-accessories {
+  align-items: stretch !important;
+}
+
+.vc-products .vc-card,
+.vc-accessories .vc-card {
+  min-width: 0;
+}
+
+/* Do not show hidden/deprecated categories in filters */
+label:has(input[name="categoryFilter"][value="pickleball"]),
+label:has(input[name="categoryFilter"][value="hidden"]),
+label:has(input[name="categoryFilter"][value="apparel"]) {
+  display: none !important;
+}
+
+.admin-order-actions .customer-email-confirm-btn,
+.admin-order-actions .customer-whatsapp-confirm-btn {
+  min-height: 42px !important;
+  padding-inline: 14px !important;
+}
+
+@media (max-width: 640px) {
+  .customer-email-box .button,
+  .admin-order-actions .customer-email-confirm-btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+}
+
+
+/* FINAL: category/image cleanup and email status UI */
+.customer-email-box{margin-top:18px;padding:18px;border-radius:22px;background:rgba(215,255,63,.12);border:1px solid rgba(17,19,17,.08)}
+.customer-email-box h3{margin:6px 0 8px;font-size:24px;line-height:1;letter-spacing:-.05em}.customer-email-box p{margin:0 0 14px;color:rgba(17,19,17,.62);font-weight:760;line-height:1.55}.customer-email-draft-btn{background:rgba(17,19,17,.06)!important;color:var(--ink,#101410)!important}.email-status-pill{display:inline-flex;align-items:center;min-height:38px;padding:0 12px;border-radius:999px;background:rgba(215,255,63,.22);color:var(--ink,#101410);font-weight:900;font-size:12px;text-transform:capitalize}.product-card .product-meta span:first-child{text-transform:none!important}
+
+
+/* FINAL: no visible customer confirmation/email fallback boxes on success page */
+#orderSuccess .customer-confirmation-box,
+#orderSuccess .customer-email-box {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.compact-order-success .order-success-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.compact-order-success .order-success-actions .button {
+  width: auto;
+}
+
+@media (max-width: 720px) {
+  .compact-order-success .order-success-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
