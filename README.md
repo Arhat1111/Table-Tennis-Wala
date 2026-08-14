@@ -600,3 +600,7 @@ JS syntax check: OK
 - Updated order receiving WhatsApp number to +91 72019 96720.
 - Fixed checkout so the store WhatsApp order message opens immediately after the order is saved in admin.
 - Added a stronger fallback Send order on WhatsApp button on the success page in case the browser blocks the popup.
+
+- Fixed cart drawer item visibility bug: cart items now render and show whenever products/custom builds are in cart.
+- Fixed stale display:none issue on .cart-items after cart changed from empty to filled.
+- Cart icon opens the drawer after forcing cart re-render from localStorage.
