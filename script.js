@@ -15152,8 +15152,8 @@ function getOrderWhatsappNumber() {
   } catch (error) {
     number = "";
   }
-  number = String(number || "919558187425").replace(/[^\d]/g, "");
-  return number || "919558187425";
+  number = String(number || "917201996720").replace(/[^\d]/g, "");
+  return number || "917201996720";
 }
 
 function plainTextFromHtml(value) {
@@ -15212,17 +15212,36 @@ function placeOrderThroughWhatsApp(customer) {
     status: "New WhatsApp order"
   };
 
-  const whatsappUrl = buildWhatsAppOrderUrl(order);
-  const whatsappWindow = window.open("", "_blank");
+  const storeWhatsappUrl = buildWhatsAppOrderUrl(order);
 
   completeOrder(order);
-  showToast("Order saved. Send it to us on WhatsApp.");
+  showToast("Order saved. WhatsApp order message is opening.");
 
-  if (whatsappWindow) {
-    whatsappWindow.location.href = whatsappUrl;
-  } else {
-    window.location.href = whatsappUrl;
+  let opened = null;
+  try {
+    opened = window.open(storeWhatsappUrl, "_blank", "noopener,noreferrer");
+  } catch (error) {
+    opened = null;
   }
+
+  if (!opened) {
+    try {
+      const link = document.createElement("a");
+      link.href = storeWhatsappUrl;
+      link.target = "_blank";
+      link.rel = "noopener";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+    } catch (error) {
+      console.warn("WhatsApp order popup was blocked", error);
+    }
+  }
+
+  try {
+    const customerUrl = typeof customerConfirmationUrl === "function" ? customerConfirmationUrl(order) : "";
+    if (customerUrl) localStorage.setItem("ttw-last-customer-whatsapp-confirmation-url", customerUrl);
+  } catch (error) {}
 }
 
 function startRazorpayPayment(customer) {
@@ -15294,23 +15313,21 @@ function orderPlainText(order) {
 function showOrderSuccess(order) {
   const success = document.getElementById("orderSuccess");
   if (!success) return;
-  const storeWhatsappUrl = buildWhatsAppOrderUrl(order);
-  const customerUrl = window.buildCustomerWhatsAppConfirmationUrl ? window.buildCustomerWhatsAppConfirmationUrl(order) : "";
+  const whatsappUrl = buildWhatsAppOrderUrl(order);
+  const customerUrl = typeof customerConfirmationUrl === "function" ? customerConfirmationUrl(order) : "";
   success.hidden = false;
-  success.innerHTML = `<div class="order-success-card whatsapp-order-success compact-order-success">
-    <span class="eyebrow">Order request placed</span>
+  success.innerHTML = `<div class="order-success-card whatsapp-order-success">
+    <span class="eyebrow">Order placed</span>
     <h2>Thank you, ${order.customer.fullName}.</h2>
-    <p>Your order <strong>${order.orderId}</strong> has been saved in our system. WhatsApp order messages have been prepared automatically for the store and for the customer's checkout number.</p>
+    <p>Your order <strong>${order.orderId}</strong> has been saved in the admin panel. The WhatsApp order message should open automatically. If it does not open, tap the button below.</p>
     <div class="whatsapp-order-steps">
-      <span><b>01</b> Store order WhatsApp opened</span>
-      <span><b>02</b> Customer confirmation WhatsApp opened</span>
-      <span><b>03</b> QR will be sent after stock confirmation</span>
+      <span><b>01</b> Order saved in admin</span>
+      <span><b>02</b> Send WhatsApp order</span>
+      <span><b>03</b> QR code after confirmation</span>
     </div>
-    <div class="order-success-actions">
-      <a class="button primary whatsapp-place-order-btn" target="_blank" rel="noopener" href="${storeWhatsappUrl}">Open store WhatsApp again</a>
-      ${customerUrl ? `<a class="button ghost customer-whatsapp-confirm-btn" target="_blank" rel="noopener" href="${customerUrl}">Open customer WhatsApp again</a>` : ""}
-      <a class="button ghost" href="index.html">Continue shopping</a>
-    </div>
+    <a class="button primary whatsapp-place-order-btn" target="_blank" rel="noopener" href="${whatsappUrl}">Send order on WhatsApp</a>
+    ${customerUrl ? `<a class="button ghost customer-whatsapp-confirm-btn" target="_blank" rel="noopener" href="${customerUrl}">Send customer confirmation</a>` : ""}
+    <a class="button ghost" href="index.html">Continue shopping</a>
   </div>`;
   success.scrollIntoView({ behavior: "smooth", block: "center" });
 }
@@ -15377,7 +15394,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const link = document.createElement("a");
     link.className = "whatsapp-consult";
-    link.href = "https://wa.me/919558187425?text=Hi%20Table%20Tennis%20Wala%2C%20I%20want%20a%20free%20consultation%20for%20table%20tennis%20equipment.";
+    link.href = "https://wa.me/917201996720?text=Hi%20Table%20Tennis%20Wala%2C%20I%20want%20a%20free%20consultation%20for%20table%20tennis%20equipment.";
     link.target = "_blank";
     link.rel = "noopener";
     link.setAttribute("aria-label", "Free consultation on WhatsApp");
@@ -18672,8 +18689,8 @@ document.addEventListener("DOMContentLoaded", () => {
       heroTitle: "",
       heroSubtitle: "",
       phone: "+91 95581 87425",
-      whatsapp: "919558187425",
-      orderWhatsapp: "919558187425",
+      whatsapp: "917201996720",
+      orderWhatsapp: "917201996720",
       orderEmail: "orders@tabletenniswala.in",
       ...safeJSON(CONTENT_KEY, {})
     };
@@ -18844,7 +18861,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const test = {
         orderId: `TEST-${Date.now()}`,
         date: new Date().toISOString(),
-        customer: { fullName: "Test Customer", email: config.ownerEmail, phone: "9999999999", address: "Test address", city: "Test city", state: "Test state", pincode: "000000" },
+        customer: { fullName: "Test Customer", email: config.ownerEmail, phone: "917201996720", address: "Test address", city: "Test city", state: "Test state", pincode: "000000" },
         items: [{ name: "Test Product", quantity: 1, price: 1, details: "Email setup test" }],
         amount: 1,
         paymentId: "TEST",
@@ -19187,7 +19204,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* FINAL: full-site category/filter cleanup, order WhatsApp number and customer email confirmation */
 (function () {
-  const FINAL_ORDER_WHATSAPP = "919558187425";
+  const FINAL_ORDER_WHATSAPP = "917201996720";
   const FINAL_ORDER_PHONE_DISPLAY = "+91 95581 87425";
   const PRODUCT_STORAGE_KEYS = ["ttw-admin-products", "table-tennis-wala-admin-products"];
 
@@ -19874,5 +19891,62 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("DOMContentLoaded", () => {
     const root = document.querySelector(".visual-customizer, .vc-layout, #customizeBuilder, body[data-page='customize']");
     if (root) observer.observe(root, { childList: true, subtree: true });
+  });
+})();
+
+
+/* FINAL FIX: correct owner WhatsApp number and reliable order message opening */
+(function () {
+  const OWNER_ORDER_WHATSAPP = "917201996720";
+
+  function forceOrderNumberInContent() {
+    let content = {};
+    try {
+      content = JSON.parse(localStorage.getItem("ttw-site-content") || "{}");
+    } catch (error) {
+      content = {};
+    }
+    if (content.orderWhatsapp !== OWNER_ORDER_WHATSAPP || content.whatsapp !== OWNER_ORDER_WHATSAPP) {
+      content.orderWhatsapp = OWNER_ORDER_WHATSAPP;
+      content.whatsapp = OWNER_ORDER_WHATSAPP;
+      localStorage.setItem("ttw-site-content", JSON.stringify(content));
+    }
+  }
+
+  window.ttwOwnerOrderWhatsapp = OWNER_ORDER_WHATSAPP;
+
+  if (typeof getOrderWhatsappNumber === "function" && !getOrderWhatsappNumber.__forced7201996720) {
+    const fixedGetOrderWhatsappNumber = function() {
+      return OWNER_ORDER_WHATSAPP;
+    };
+    fixedGetOrderWhatsappNumber.__forced7201996720 = true;
+    try { getOrderWhatsappNumber = fixedGetOrderWhatsappNumber; } catch (error) {}
+  }
+
+  function bindReliableWhatsAppCheckout() {
+    forceOrderNumberInContent();
+    const form = document.getElementById("checkoutForm");
+    if (!form || form.dataset.finalReliableWhatsappBound === "true") return;
+    form.dataset.finalReliableWhatsappBound = "true";
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+
+      if (!state.cart.length) {
+        showToast("Your cart is empty");
+        return;
+      }
+
+      const data = Object.fromEntries(new FormData(form).entries());
+      placeOrderThroughWhatsApp(data);
+    }, true);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    forceOrderNumberInContent();
+    bindReliableWhatsAppCheckout();
+    setTimeout(bindReliableWhatsAppCheckout, 400);
+    setTimeout(bindReliableWhatsAppCheckout, 1200);
   });
 })();

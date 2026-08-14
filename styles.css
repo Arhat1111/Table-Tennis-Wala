@@ -13931,3 +13931,23 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
 [data-card-slot="blade"].wrong-builder-category {
   display: none !important;
 }
+
+
+/* FINAL FIX: stronger WhatsApp order success action */
+.whatsapp-order-success .button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.whatsapp-order-success .whatsapp-place-order-btn {
+  font-size: 18px !important;
+  min-height: 58px !important;
+}
+
+@media (max-width: 640px) {
+  .whatsapp-order-success .button {
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
+  }
+}

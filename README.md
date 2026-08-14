@@ -596,3 +596,7 @@ JS syntax check: OK
 - Added runtime safety so any future ready-made racket accidentally tagged as a blade is removed from the Blade selector.
 - Ready-made racket category fixes applied: 5.
 - Fixed items: TIMO BOLL 1000; TIMO BOLL 2000; TIMO BOLL 3000; TIMO BOLL CF 1000; TIMO BOLL CF 2000
+
+- Updated order receiving WhatsApp number to +91 72019 96720.
+- Fixed checkout so the store WhatsApp order message opens immediately after the order is saved in admin.
+- Added a stronger fallback Send order on WhatsApp button on the success page in case the browser blocks the popup.
