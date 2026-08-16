@@ -1,392 +1,106 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Table Tennis Wala — Table Tennis Ecommerce</title>
-  <meta name="description" content="Minimal ecommerce website for Table Tennis Wala with multi-brand products and custom racket builds." />
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="InkWave — affordable 300 GSM posters and custom prints by student founders from NITK Surathkal." name="description"/>
+<meta content="#ffffff" name="theme-color"/>
+<title>InkWave — Posters for walls with personality</title>
+<link href="assets/inkwaves-icon.webp" rel="icon" type="image/webp"/>
+<link href="styles.css" rel="stylesheet"/>
 </head>
-<body data-page="home">
-<input type="checkbox" id="navToggle" class="css-nav-toggle" aria-hidden="true">
-
-<header class="site-header css-navbar" id="top">
-  <a class="brand css-brand" href="index.html" aria-label="Table Tennis Wala home">
-    <span class="brand-mark"><i></i><i></i></span>
-    <span>TABLE TENNIS WALA</span>
-  </a>
-
-  <nav class="desktop-nav css-desktop-nav" aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="index.html#about">About</a>
-
-    <div class="nav-dropdown">
-      <a class="nav-dropdown-trigger" href="brands.html">Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
-      <div class="nav-dropdown-menu">
-        <a href="brands.html">All Brands</a>
-<a href="joola.html">JOOLA</a>
-<a href="tibhar.html">Tibhar</a>
-<a href="butterfly.html">Butterfly</a>
-<a href="stiga.html">Stiga</a>
-<a href="dhs.html">DHS</a>
-<a href="yinhe.html">YinHe</a>
-<a href="xiom.html">Xiom</a>
-<a href="andro.html">Andro</a>
-<a href="dawei.html">Dawei</a></div>
-    </div>
-
-    <div class="nav-dropdown">
-      <a class="nav-dropdown-trigger" href="products.html">Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
-      <div class="nav-dropdown-menu product-category-menu">
-        <a href="products.html">All Products</a>
-        <a href="products.html?category=rubbers">Rubbers</a>
-        <a href="products.html?category=blades">Blades</a>
-        <a href="products.html?category=rackets">Rackets</a>
-        <a href="products.html?category=balls">Balls</a>
-        <a href="products.html?category=tables">Tables</a>
-        <a href="products.html?category=footwear">Footwear</a>
-        <a href="products.html?category=accessories">Accessories</a>
-        <a href="products.html?category=glue">Glue</a>
-        <a href="products.html?category=clothing">Apparel</a>
+<body>
+<header class="site-header">
+<div class="header-left">
+<button aria-expanded="false" aria-label="Open menu" class="menu-button" id="menuButton"><span></span><span></span><span></span></button>
+<nav aria-label="Primary navigation" class="desktop-nav"><a href="#shop">Bestsellers</a><a href="#categories">Categories</a><a href="#offers">Offers</a><a href="#custom">Custom</a><a href="#about-preview">Why InkWave</a><a href="#reviews">Reviews</a><a href="#story">About</a></nav>
 </div>
-    </div>
-
-    <a href="customize.html">Customize</a>
-    <a href="cart.html">Cart</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </nav>
-
-  <div class="header-actions css-header-actions">
-    <button class="cart-trigger icon-button" aria-label="Open cart">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H7"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
-      <span class="cart-count">0</span>
-    </button>
-    <label for="navToggle" class="css-menu-toggle" aria-label="Open menu">
-      <span></span><span></span>
-    </label>
-  </div>
+<a aria-label="InkWave home" class="brand brand-image" href="#top"><img alt="InkWaves — Posters That Inspire" src="assets/inkwaves-wordmark.webp"/></a>
+<div class="header-actions">
+<button aria-label="Search posters" class="icon-btn" id="searchToggle"><svg viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+<button aria-label="Open cart" class="cart-button" id="cartButton"><svg viewbox="0 0 24 24"><path d="M6 8h12l-1 12H7L6 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span id="cartCount">0</span></button>
+</div>
 </header>
+<nav aria-label="Poster categories" class="category-bar" id="categoryBar"></nav>
+<nav class="mobile-menu" id="mobileMenu"><a href="#shop">Shop Bestsellers</a><a href="#categories">Shop by Category</a><a href="#offers">Bundle Offers</a><a href="#custom">Custom Posters</a><a href="#about-preview">Why InkWave</a><a href="#reviews">Customer Reviews</a><a href="#story">About</a></nav>
+<main id="top">
 
-<nav class="css-mobile-menu" aria-label="Mobile navigation">
-  <label for="navToggle" class="css-mobile-close" aria-label="Close menu"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></label>
 
-  <div class="css-mobile-links">
-    <a href="index.html">Home</a>
-    <a href="index.html#about">About</a>
 
-    <details class="css-mobile-details">
-      <summary>Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
-      <div>
-        <a href="brands.html">All Brands</a>
-<a href="joola.html">JOOLA</a>
-<a href="tibhar.html">Tibhar</a>
-<a href="butterfly.html">Butterfly</a>
-<a href="stiga.html">Stiga</a>
-<a href="dhs.html">DHS</a>
-<a href="yinhe.html">YinHe</a>
-<a href="xiom.html">Xiom</a>
-<a href="andro.html">Andro</a>
-<a href="dawei.html">Dawei</a></div>
-    </details>
 
-    <details class="css-mobile-details">
-      <summary>Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
-      <div>
-        <a href="products.html">All Products</a>
-        <a href="products.html?category=rubbers">Rubbers</a>
-        <a href="products.html?category=blades">Blades</a>
-        <a href="products.html?category=rackets">Rackets</a>
-        <a href="products.html?category=balls">Balls</a>
-        <a href="products.html?category=tables">Tables</a>
-        <a href="products.html?category=footwear">Footwear</a>
-        <a href="products.html?category=accessories">Accessories</a>
-        <a href="products.html?category=glue">Glue</a>
-        <a href="products.html?category=clothing">Apparel</a>
+
+
+
+
+
+
+<section class="hero">
+<div class="hero-copy">
+<div class="stars">★★★★★</div>
+<p class="hero-kicker" id="heroKicker">STUDENT-BUILT POSTER STUDIO · NITK SURATHKAL</p>
+<h1><span id="heroTitle">MAKE YOUR WALL</span><em id="heroAccent">IMPOSSIBLE TO IGNORE.</em></h1>
+<p class="hero-description" id="heroDescription"></p>
+<div class="hero-actions"><a class="button button-dark" href="products.html">SHOP POSTERS <span>→</span></a><button class="button button-outline" data-custom-product="">DESIGN YOUR OWN</button></div>
+<div class="hero-notes"><span>300 GSM QUALITY</span><span>MATTE LAMINATED</span><span>DELIVERY ACROSS INDIA</span></div>
 </div>
-    </details>
-
-    <a href="customize.html">Customize Racket</a>
-    <a href="cart.html">Cart</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </div>
-
-  <p>Play faster. Play smarter.</p>
-</nav>
-
-<main>
-<section class="home-banner reveal">
-      <img class="banner-bg" src="assets/hero-banner.svg" alt="Aesthetic table tennis banner" />
-      <div class="banner-overlay"></div>
-      <div class="banner-content">
-        <span class="eyebrow light">Premium multi-brand table tennis store</span>
-        <h1>Play sharper. Build smarter.</h1>
-        <p>Shop JOOLA, Tibhar, Butterfly, Stiga, DHS and YinHe products, or customize your own racket with different ply, forehand rubber and backhand rubber.</p>
-        <div class="banner-actions"><a class="button light-btn" href="#brands">Shop brands</a><a class="button ghost-light" href="customize.html">Customize racket</a></div>
-      </div>
-    </section>
-<section class="home-about-minimal section reveal" id="about">
-      <div class="about-minimal-layout">
-        <div class="about-minimal-kicker">
-          <span class="eyebrow">About Table Tennis Wala</span>
-          <div class="about-mini-line"></div>
-        </div>
-
-        <div class="about-minimal-copy">
-          <h2>Everything table tennis, chosen with clarity.</h2>
-          <p>
-            Table Tennis Wala is built for players who want the right equipment without confusion. From branded rackets,
-            rubbers, blades, tables and balls to custom racket builds, the store helps players shop by brand, category,
-            budget and playing style.
-          </p>
-          <div class="about-minimal-points">
-            <div>
-              <strong>01</strong>
-              <h3>Multi-brand range</h3>
-              <span>Shop JOOLA, Tibhar, Butterfly, Stiga and more from clean product pages.</span>
-            </div>
-            <div>
-              <strong>02</strong>
-              <h3>Custom racket setup</h3>
-              <span>Pick your blade, forehand rubber, backhand rubber and small add-ons.</span>
-            </div>
-            <div>
-              <strong>03</strong>
-              <h3>Simple buying flow</h3>
-              <span>Use filters, product popups, cart checkout and payment-ready ordering.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section home-brand-lab" id="chooseBrand" aria-labelledby="homeBrandTitle">
-      <div class="home-brand-lab-bg" aria-hidden="true"></div>
-
-      <div class="home-brand-lab-shell reveal">
-        <div class="home-brand-lead">
-          <span class="eyebrow">Choose your brand</span>
-          <h2 id="homeBrandTitle">Play by brand.<br>Start with JOOLA.</h2>
-          <p>Discover premium table tennis gear through a clean brand-first experience. JOOLA leads the collection, while every other brand stays easy to compare, browse and shop.</p>
-          <div class="home-brand-quick-pills">
-            <span>9 curated brands</span>
-            <span>Official-style logos</span>
-            <span>Clean product pages</span>
-          </div>
-          <div class="home-brand-bottom">
-            <a class="button dark-btn" href="brands.html">View all brands</a>
-            <a class="button ghost-btn joola-ghost" href="joola.html">Start with JOOLA</a>
-            <a class="button ghost-btn" href="products.html">Browse catalogue</a>
-          </div>
-        </div>
-
-        <div class="home-brand-spotlight">
-          <div class="home-brand-note">
-            <span>Brand spotlight</span>
-            <p>Minimal, visual and easy to browse — this section helps players jump directly into the brand they already know, or explore new options with confidence.</p>
-          </div>
-
-          <a class="home-brand-feature" href="joola.html" aria-label="Open JOOLA products">
-            <span class="feature-tag">Featured brand</span>
-            <div class="feature-logo-card">
-              <img src="assets/logos/joola.svg" alt="JOOLA logo" loading="lazy">
-            </div>
-            <div class="feature-copy">
-              <span class="eyebrow">JOOLA universe</span>
-              <h3>Premium rubbers, blades, tables and match gear.</h3>
-              <p>Explore Dynaryz rubbers, performance blades, accessories and training essentials with dedicated filters and a stronger brand-first experience.</p>
-              <span class="feature-action">Shop JOOLA <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
-            </div>
-            <div class="feature-stats">
-              <span><b data-home-brand-count="joola">50+</b> products</span>
-              <span>Rubbers</span>
-              <span>Blades</span>
-              <span>Accessories</span>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="home-brand-carousel brand-logo-slider-section reveal" aria-label="Brand pages slider">
-        <div class="home-brand-slider-head">
-          <div>
-            <span class="eyebrow">Brand pages</span>
-            <h3>Slide through every brand.</h3>
-            <p>Use the slider to quickly browse each catalogue while keeping JOOLA highlighted as the premium first stop.</p>
-          </div>
-          <div class="brand-slider-controls home-brand-slider-controls">
-            <button class="brand-slider-btn" type="button" data-brand-slider-prev aria-label="Previous brands"><span class="ttw-icon ttw-icon-chevron-left" aria-hidden="true"></span></button>
-            <button class="brand-slider-btn" type="button" data-brand-slider-next aria-label="Next brands"><span class="ttw-icon ttw-icon-chevron-right" aria-hidden="true"></span></button>
-          </div>
-        </div>
-
-        <div class="brand-logo-slider-shell home-brand-slider-shell">
-          <div class="home-brand-slider-track" data-brand-logo-track>
-            <a class="home-brand-slide home-brand-slide-joola" href="joola.html" aria-label="Open JOOLA brand page">
-              <span class="tile-number">01</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/joola.svg" alt="JOOLA logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>JOOLA</b><small data-home-brand-count="joola">53 products</small><em>Featured premium range with rubbers, blades, tables and training gear.</em></div>
-            </a>
-            <a class="home-brand-slide" href="tibhar.html" aria-label="Open Tibhar brand page">
-              <span class="tile-number">02</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/tibhar.svg" alt="Tibhar logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>Tibhar</b><small data-home-brand-count="tibhar">3 products</small><em>Control-oriented rubbers and professional match gear.</em></div>
-            </a>
-            <a class="home-brand-slide" href="butterfly.html" aria-label="Open Butterfly brand page">
-              <span class="tile-number">03</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/butterfly.svg" alt="Butterfly logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>Butterfly</b><small data-home-brand-count="butterfly">118 products</small><em>Premium Japanese blades, rubbers and apparel.</em></div>
-            </a>
-            <a class="home-brand-slide" href="stiga.html" aria-label="Open Stiga brand page">
-              <span class="tile-number">04</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/stiga.svg" alt="Stiga logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>Stiga</b><small data-home-brand-count="stiga">36 products</small><em>Training favourites, blades and club essentials.</em></div>
-            </a>
-            <a class="home-brand-slide" href="dhs.html" aria-label="Open DHS brand page">
-              <span class="tile-number">05</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/dhs.svg" alt="DHS logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>DHS</b><small data-home-brand-count="dhs">73 products</small><em>Hurricane rubbers, pro gear and Chinese classics.</em></div>
-            </a>
-            <a class="home-brand-slide" href="yinhe.html" aria-label="Open YinHe brand page">
-              <span class="tile-number">06</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/yinhe.svg" alt="YinHe logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>YinHe</b><small data-home-brand-count="yinhe">66 products</small><em>Value-performance picks for all-around players.</em></div>
-            </a>
-            <a class="home-brand-slide" href="xiom.html" aria-label="Open Xiom brand page">
-              <span class="tile-number">07</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/xiom.svg" alt="XIOM logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>Xiom</b><small data-home-brand-count="xiom">126 products</small><em>Modern offensive gear with clean Korean design.</em></div>
-            </a>
-            <a class="home-brand-slide" href="andro.html" aria-label="Open Andro brand page">
-              <span class="tile-number">08</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/andro.svg" alt="Andro logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>Andro</b><small data-home-brand-count="andro">51 products</small><em>German-tech rubbers and serious training tools.</em></div>
-            </a>
-            <a class="home-brand-slide" href="dawei.html" aria-label="Open Dawei brand page">
-              <span class="tile-number">09</span>
-              <div class="home-brand-slide-logo"><img src="assets/brand-logos/dawei.svg" alt="Dawei logo" loading="lazy"></div>
-              <div class="home-brand-slide-copy"><b>Dawei</b><small data-home-brand-count="dawei">1 product</small><em>Accessible gear and practical everyday essentials.</em></div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<section class="section service-showcase" id="play-services">
-      <div class="section-heading reveal">
-        <div>
-          <span class="eyebrow">Build, shop and play</span>
-          <h2>Choose your setup.</h2>
-        </div>
-        <p>A cleaner layout for the most important actions: custom racket building, brand shopping and club-ready essentials.</p>
-      </div>
-
-      <div class="service-grid professional-service-grid">
-        <a class="service-card pro-service-card pro-custom reveal" href="customize.html">
-          <div class="service-copy">
-            <span>01</span>
-            <h3>Customize your racket</h3>
-            <p>Select blade ply, forehand rubber, backhand rubber and assembly service with live pricing.</p>
-            <b class="service-cta">Start custom build <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></b>
-          </div>
-          <div class="pro-visual pro-racket-visual" aria-hidden="true">
-            <i class="pro-racket-face"></i>
-            <i class="pro-racket-handle"></i>
-          </div>
-        </a>
-
-        <a class="service-card pro-service-card pro-brands reveal" href="brands.html">
-          <div class="service-copy">
-            <span>02</span>
-            <h3>Shop premium brands</h3>
-            <p>Browse JOOLA, Tibhar, Butterfly and Stiga with filters.</p>
-            <b class="service-cta">View products <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></b>
-          </div>
-          <div class="pro-visual pro-brand-wall" aria-hidden="true">
-            <i></i><i></i><i></i><i></i>
-          </div>
-        </a>
-
-        <a class="service-card pro-service-card pro-gear dark reveal" href="products.html?category=accessories">
-          <div class="service-copy">
-            <span>03</span>
-            <h3>Club essentials</h3>
-            <p>Rackets, balls, bags and table gear for daily practice.</p>
-            <b class="service-cta">Explore gear <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></b>
-          </div>
-          <div class="pro-visual pro-gear-visual" aria-hidden="true">
-            <i></i><i></i><i></i>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section class="section home-top-picks" id="products">
-      <div class="section-heading reveal">
-        <div>
-          <span class="eyebrow">Featured catalogue</span>
-          <h2>Top picks.</h2>
-        </div>
-        <p>A clean selection of popular products. For filters by brand, category, price and rating, open the full products page.</p>
-      </div>
-
-      <div class="home-product-shell reveal">
-        <button type="button" class="home-product-arrow home-product-prev" aria-label="Previous products"><span class="ttw-icon ttw-icon-chevron-left" aria-hidden="true"></span></button>
-        <div class="product-grid home-product-slider" id="homeProductGrid"></div>
-        <button type="button" class="home-product-arrow home-product-next" aria-label="Next products"><span class="ttw-icon ttw-icon-chevron-right" aria-hidden="true"></span></button>
-      </div>
-
-      <p class="filter-note home-note" id="filterNote"></p>
-      <p class="empty-state" hidden>No products available right now.</p>
-
-      <div class="home-product-actions" id="homeViewMoreWrap">
-        <a class="button primary" href="products.html">View more products</a>
-      </div>
-    </section>
-</main>
-  <footer class="site-footer">
-  <div class="footer-brand">
-    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i></span><span>TABLE TENNIS WALA</span></a>
-    <p>Premium table tennis equipment, branded products and custom racket builds.</p>
-  </div>
-  <div class="footer-links">
-    <h4>Brands</h4>
-    <a href="joola.html">JOOLA</a>
-    <a href="tibhar.html">Tibhar</a>
-    <a href="butterfly.html">Butterfly</a>
-    <a href="stiga.html">Stiga</a>
-        <a href="dhs.html">DHS</a>
-        <a href="yinhe.html">YinHe</a>
-  </div>
-  <div class="footer-links">
-    <h4>Store</h4>
-    <a href="#about">About us</a>
-    <a href="brands.html">All brands</a>
-    <a href="products.html">All products</a>
-    <a href="customize.html">Customize racket</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </div>
-  <div class="footer-contact">
-    <h4>Contact</h4>
-    <a href="mailto:hello@tabletenniswala.in">hello@tabletenniswala.in</a>
-    <a href="tel:+919558187425">+91 95581 87425</a>
-    <p>Mon–Sat, 10:00–19:00</p>
-  </div>
-  <div class="footer-bottom">
-    <p>© <span id="year"></span> Table Tennis Wala. All rights reserved.</p>
-    <p>No return and exchange policy. Brand names belong to their respective owners.</p>
-  </div>
-</footer>
-  <aside class="cart-drawer" aria-hidden="true">
-  <div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div>
-  <div class="cart-items"></div>
-  <div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div>
-  <div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div>
-</aside>
-<div class="page-backdrop"></div>
-<div class="toast" role="status" aria-live="polite"></div>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="script.js"></script>
+<div aria-label="Automatically scrolling InkWave poster wall" class="polaroid-slider" id="verticalSlider">
+<div class="polaroid-wall" id="polaroidWall"></div>
+<div aria-hidden="true" class="polaroid-fade polaroid-fade-top"></div>
+<div aria-hidden="true" class="polaroid-fade polaroid-fade-bottom"></div>
+<div class="slider-price">FROM <strong>₹19</strong></div>
+<div class="slider-caption">AUTOMATIC POSTER WALL ↓</div>
+</div>
+</section><section class="benefit-strip"><span>PRINTED IN INDIA</span><span>✦</span><span>300 GSM QUALITY</span><span>✦</span><span>MATTE LAMINATED PAPER</span><span>✦</span><span>SECURE RAZORPAY CHECKOUT</span></section><section class="shop section-pad" id="shop">
+<div class="title-row"><div><p class="overline">BESTSELLERS</p><h2 id="shopTitle">SHOP BESTSELLERS</h2></div><p class="section-description">Every poster is available in all four sizes with transparent, fixed pricing.</p></div>
+<div class="shop-toolbar"><div class="filter-chips" id="filterChips"></div><label class="search-field" id="searchField"><svg viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input id="productSearch" placeholder="Search InkWave" type="search"/></label></div>
+<div class="product-grid" id="productGrid"></div><div class="empty-state" hidden="" id="emptyState">New posters are being added soon.</div><div class="home-products-cta"><a class="button button-dark" href="products.html">VIEW ALL PRODUCTS →</a></div>
+</section><section class="poster-categories section-pad" id="categories">
+<div class="title-row"><div><p class="overline">FIND YOUR WALL'S MOOD</p><h2 id="categoriesTitle">SHOP BY CATEGORY</h2></div><p class="section-description">Pick a category, then choose A6, A5, A4 or A3 on any product.</p></div>
+<div class="category-grid" id="categoryGrid"></div>
+</section><section class="offers section-pad" id="offers">
+<div class="title-row drop-title-row"><div><p class="overline drop-overline">NITK FRESHER DROP — LIMITED STOCK</p><h2>THIS WEEK'S WALL DROP</h2></div><p class="section-description">Limited-stock poster deals for this week. Mix designs in the same size and eligible bundle savings are calculated automatically in your bag.</p></div>
+<div class="offer-grid" id="offerGrid"></div>
+</section><section class="custom-section section-pad" id="custom">
+<div class="custom-copy"><p class="overline">CUSTOM POSTERS</p><h2 id="customTitle">BUILD A POSTER THAT IS COMPLETELY YOURS.</h2><p id="customDescription"></p><div class="custom-points"><span>01 · UPLOAD</span><span>02 · PICK SIZE</span><span>03 · PREVIEW</span><span>04 · ORDER</span></div><button class="button button-dark" data-custom-product="">START CUSTOMIZING →</button></div>
+<div class="custom-stage"><div class="custom-grid"></div><div class="custom-poster custom-back"><img alt="Custom poster example" src="assets/poster-chaos.svg"/></div><div class="custom-poster custom-front"><img alt="Custom poster preview" src="assets/poster-custom.svg"/></div><div class="custom-sticker">YOUR ART<br/>YOUR WALL ✦</div></div>
+</section><section class="quality-grid section-pad" id="about-preview"><div class="why-heading"><p class="overline">WHY INKWAVE</p><h2>MADE FOR BETTER WALLS.</h2></div>
+<article><span>01</span><h3>300 GSM QUALITY</h3><p>Thick paper stock that feels substantial and holds colour sharply.</p></article>
+<article><span>02</span><h3>CUSTOM CREATIONS</h3><p>Turn your own photos, graphics and artwork into an InkWave print.</p></article>
+<article><span>03</span><h3>MATTE LAMINATED PAPER</h3><p>A low-glare laminated finish designed for cleaner-looking wall displays.</p></article>
+</section><section class="reviews-section section-pad" id="reviews">
+<div class="title-row reviews-heading"><div><p class="overline">FROM THE INKWAVE COMMUNITY</p><h2>CUSTOMER WALL PHOTOS / REVIEWS</h2></div><div class="review-summary"><strong id="reviewAverage">5.0</strong><span aria-hidden="true" class="review-summary-stars">★★★★★</span><small id="reviewCount">Customer reviews</small></div></div>
+<div class="reviews-viewport">
+<div class="reviews-track" id="reviewsTrack"></div>
+</div>
+<div class="reviews-footer"><p>Reviews are managed from the InkWave control panel.</p><div class="review-controls"><button aria-label="Previous reviews" id="reviewPrev">←</button><button aria-label="Next reviews" id="reviewNext">→</button></div></div>
+</section><section class="story section-pad" id="story">
+<div class="story-visual"><div class="story-sun"></div><div class="story-type">NITK<br/>SURATHKAL</div><div class="story-wave"></div><span>WHERE INKWAVE STARTED</span></div>
+<div class="story-copy"><p class="overline">ABOUT INKWAVE</p><h2 id="aboutTitle">FROM A HOSTEL ROOM TO YOUR WALL.</h2><p id="aboutBody"></p><a href="about.html">READ OUR STORY →</a></div>
+</section><section class="faq section-pad" id="faq"><div class="title-row"><div><p class="overline">HELP CENTER</p><h2>GOOD TO KNOW</h2></div></div><div class="accordion">
+<details><summary>What are the poster sizes and prices?<span>+</span></summary><p>A6 ₹19, A5 ₹39, A4 ₹69 and A3 ₹99. The size offers are applied automatically in the cart.</p></details>
+<details><summary>Can I upload my own design?<span>+</span></summary><p>Yes. Select “Design your own,” upload a JPG, PNG or WebP file, then choose your size and finish.</p></details>
+<details><summary>What paper do you use?<span>+</span></summary><p>InkWave posters are presented as 300 GSM quality prints with matte lamination as the standard finish.</p></details>
+<details><summary>How are payments processed?<span>+</span></summary><p>Checkout uses Razorpay for supported UPI, cards and other enabled payment methods.</p></details>
+</div></section></main>
+<footer><div class="footer-top"><div><div class="footer-brand footer-brand-image"><img alt="InkWaves" src="assets/inkwaves-wordmark.webp"/></div><p>POSTERS FOR WALLS WITH PERSONALITY.</p></div><div class="footer-columns"><div><strong>SHOP</strong><a href="products.html">Products</a><a href="#categories">Categories</a><a href="#offers">Offers</a><button data-custom-product="">Custom build</button></div><div><strong>INFO</strong><a href="about.html">About</a><a href="#reviews">Reviews</a><a href="#faq">FAQs</a><a href="admin.html">Admin</a></div><div><strong>CONTACT</strong><a href="mailto:hello@inkwave.in" id="footerEmail">Email ↗</a><a href="https://instagram.com" id="footerInstagram" rel="noreferrer" target="_blank">Instagram ↗</a></div></div></div><div class="footer-bottom"><span>© 2026 INKWAVE INDIA</span><span>BUILT AT NITK SURATHKAL.</span></div></footer>
+<aside aria-hidden="true" class="cart-drawer" id="cartDrawer"><div class="drawer-head"><h2>YOUR BAG</h2><button class="close-btn" id="closeCart">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><div class="empty-art">✦</div><h3>YOUR WALL LOOKS LONELY.</h3><p>Add a poster to get started.</p></div><div class="cart-footer" hidden="" id="cartFooter"><p class="offer-message" id="offerMessage"></p><div class="coupon-row"><input id="couponInput" placeholder="Coupon code"/><button id="applyCoupon">APPLY</button></div><p class="coupon-message" id="couponMessage"></p><div class="price-line"><span>Poster + finish</span><strong id="cartSubtotal">₹0</strong></div><div class="price-line savings-line"><span>Size offer savings</span><strong id="offerSavings">− ₹0</strong></div><div class="price-line total-line"><span>Total</span><strong id="cartTotal">₹0</strong></div><button class="button button-dark full" id="checkoutButton">SECURE CHECKOUT</button><small>Payments secured by Razorpay</small></div></aside>
+<div class="overlay" id="overlay"></div>
+<div aria-labelledby="modalTitle" aria-modal="true" class="modal" hidden="" id="productModal" role="dialog">
+<button class="modal-close" data-close-modal="">×</button>
+<div class="modal-media modal-mockup-media">
+<div class="modal-mockup-slider" id="modalMockupSlider">
+<button aria-label="Previous mockup" class="modal-mockup-arrow prev" id="modalMockupPrev" type="button">←</button>
+<div class="modal-mockup-track" id="modalMockupTrack"></div>
+<button aria-label="Next mockup" class="modal-mockup-arrow next" id="modalMockupNext" type="button">→</button>
+<div class="modal-mockup-dots" id="modalMockupDots"></div>
+</div>
+<label class="upload-box" hidden="" id="uploadBox"><input accept="image/png,image/jpeg,image/webp" id="customUpload" type="file"/><span>UPLOAD JPG, PNG OR WEBP</span><small>Recommended: 2000px or larger</small></label>
+</div>
+<div class="modal-content"><span class="overline" id="modalCategory"></span><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="option-group"><div class="option-label"><strong>SIZE</strong><span id="selectedSizeText"></span></div><div class="segmented size-segmented" id="sizeOptions"></div><div class="selected-offer" id="selectedOffer"></div></div><div class="option-group"><div class="option-label"><strong>FINISH</strong></div><div class="segmented" id="finishOptions"></div></div><div class="modal-buy-row"><div><small>PER POSTER</small><strong id="modalPrice">₹0</strong></div><button class="button button-dark" id="addToCartButton">ADD TO BAG</button></div><a class="modal-full-page-link" href="products.html" id="modalFullPageLink">VIEW FULL PRODUCT PAGE →</a></div>
+</div>
+<div aria-labelledby="checkoutTitle" aria-modal="true" class="modal checkout-modal" hidden="" id="checkoutModal" role="dialog"><button class="modal-close" data-close-checkout="">×</button><div class="checkout-copy"><span class="overline">FINAL CHECKOUT</span><h2 id="checkoutTitle">DELIVERY DETAILS</h2><p>Enter your delivery details, then complete your payment securely with Razorpay.</p><form id="checkoutForm"><label>FULL NAME<input autocomplete="name" name="name" required=""/></label><div class="checkout-grid"><label>EMAIL<input autocomplete="email" name="email" required="" type="email"/></label><label>MOBILE NUMBER<input autocomplete="tel" inputmode="numeric" name="phone" pattern="[0-9]{10}" required="" type="tel"/></label></div><label>DELIVERY ADDRESS<input autocomplete="street-address" name="address" required=""/></label><div class="checkout-grid three"><label>CITY<input name="city" required=""/></label><label>STATE<input name="state" required=""/></label><label>PIN CODE<input inputmode="numeric" name="pincode" pattern="[0-9]{6}" required=""/></label></div><label class="whatsapp-optin"><input checked="" name="whatsappOptIn" type="checkbox" value="yes"/><span>Send my paid-order confirmation and invoice link to this mobile number on WhatsApp.</span></label><div class="razorpay-payment-card"><div class="razorpay-payment-head"><div><span>PAYMENT METHOD</span><strong>Razorpay Secure Checkout</strong></div><span class="secure-pill">SECURE</span></div><div class="razorpay-methods"><span>UPI</span><span>CARDS</span><span>NETBANKING</span><span>WALLETS</span></div><p>You will choose your payment method inside Razorpay after clicking the button below.</p></div><button class="button button-dark full razorpay-pay-button" type="submit"><span>PAY SECURELY</span><strong id="checkoutAmount">₹0</strong></button></form><small class="checkout-security-note">Payment details are entered on Razorpay Checkout. InkWaves does not collect or store your card or UPI credentials.</small></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="default-data.js"></script><script src="payment-config.js"></script><script src="https://checkout.razorpay.com/v1/checkout.js"></script><script src="app.js"></script>
 </body>
 </html>

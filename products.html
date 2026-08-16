@@ -1,184 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>All Products — Table Tennis Wala</title><link rel="stylesheet" href="styles.css" /></head>
-<body data-page="brand" data-brand="">
-<input type="checkbox" id="navToggle" class="css-nav-toggle" aria-hidden="true">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shop all InkWave posters by category, available in A6, A5, A4 and A3." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Products — InkWave</title>
+  <link rel="icon" type="image/webp" href="assets/inkwaves-icon.webp" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="product-page.css" />
+</head>
+<body class="products-page-body">
+<header class="product-site-header">
+    <a class="product-back" href="index.html">← HOME</a>
+    <a class="brand brand-image" href="index.html" aria-label="InkWave home"><img src="assets/inkwaves-wordmark.webp" alt="InkWaves — Posters That Inspire" /></a>
+    <a class="product-bag-link" href="index.html?cart=1">BAG <span id="productsCartCount">0</span></a>
+  </header>
 
-<header class="site-header css-navbar" id="top">
-  <a class="brand css-brand" href="index.html" aria-label="Table Tennis Wala home">
-    <span class="brand-mark"><i></i><i></i></span>
-    <span>TABLE TENNIS WALA</span>
-  </a>
-
-  <nav class="desktop-nav css-desktop-nav" aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="index.html#about">About</a>
-
-    <div class="nav-dropdown">
-      <a class="nav-dropdown-trigger" href="brands.html">Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
-      <div class="nav-dropdown-menu">
-        <a href="brands.html">All Brands</a>
-<a href="joola.html">JOOLA</a>
-<a href="tibhar.html">Tibhar</a>
-<a href="butterfly.html">Butterfly</a>
-<a href="stiga.html">Stiga</a>
-<a href="dhs.html">DHS</a>
-<a href="yinhe.html">YinHe</a>
-<a href="xiom.html">Xiom</a>
-<a href="andro.html">Andro</a>
-<a href="dawei.html">Dawei</a></div>
-    </div>
-
-    <div class="nav-dropdown">
-      <a class="nav-dropdown-trigger" href="products.html">Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
-      <div class="nav-dropdown-menu product-category-menu">
-        <a href="products.html">All Products</a>
-        <a href="products.html?category=rubbers">Rubbers</a>
-        <a href="products.html?category=blades">Blades</a>
-        <a href="products.html?category=rackets">Rackets</a>
-        <a href="products.html?category=balls">Balls</a>
-        <a href="products.html?category=tables">Tables</a>
-        <a href="products.html?category=footwear">Footwear</a>
-        <a href="products.html?category=accessories">Accessories</a>
-        <a href="products.html?category=glue">Glue</a>
-        <a href="products.html?category=clothing">Apparel</a>
-</div>
-    </div>
-
-    <a href="customize.html">Customize</a>
-    <a href="cart.html">Cart</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </nav>
-
-  <div class="header-actions css-header-actions">
-    <button class="cart-trigger icon-button" aria-label="Open cart">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H7"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
-      <span class="cart-count">0</span>
-    </button>
-    <label for="navToggle" class="css-menu-toggle" aria-label="Open menu">
-      <span></span><span></span>
-    </label>
-  </div>
-</header>
-
-<nav class="css-mobile-menu" aria-label="Mobile navigation">
-  <label for="navToggle" class="css-mobile-close" aria-label="Close menu"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></label>
-
-  <div class="css-mobile-links">
-    <a href="index.html">Home</a>
-    <a href="index.html#about">About</a>
-
-    <details class="css-mobile-details">
-      <summary>Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
-      <div>
-        <a href="brands.html">All Brands</a>
-<a href="joola.html">JOOLA</a>
-<a href="tibhar.html">Tibhar</a>
-<a href="butterfly.html">Butterfly</a>
-<a href="stiga.html">Stiga</a>
-<a href="dhs.html">DHS</a>
-<a href="yinhe.html">YinHe</a>
-<a href="xiom.html">Xiom</a>
-<a href="andro.html">Andro</a>
-<a href="dawei.html">Dawei</a></div>
-    </details>
-
-    <details class="css-mobile-details">
-      <summary>Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
-      <div>
-        <a href="products.html">All Products</a>
-        <a href="products.html?category=rubbers">Rubbers</a>
-        <a href="products.html?category=blades">Blades</a>
-        <a href="products.html?category=rackets">Rackets</a>
-        <a href="products.html?category=balls">Balls</a>
-        <a href="products.html?category=tables">Tables</a>
-        <a href="products.html?category=footwear">Footwear</a>
-        <a href="products.html?category=accessories">Accessories</a>
-        <a href="products.html?category=glue">Glue</a>
-        <a href="products.html?category=clothing">Apparel</a>
-</div>
-    </details>
-
-    <a href="customize.html">Customize Racket</a>
-    <a href="cart.html">Cart</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </div>
-
-  <p>Play faster. Play smarter.</p>
-</nav>
-
-<main>
-    <section class="brand-hero products"><span class="eyebrow light">Complete product page</span><h1>Products</h1><p>Browse all rackets, rubbers, blades, balls, tables, footwear and accessories across every brand.</p><div class="brand-hero-actions"><a class="button light-btn" href="#brandProducts">View products</a><a class="button ghost-light" href="customize.html">Build custom racket</a></div></section>
-    <section class="shop section" id="brandProducts">
-      <div class="section-heading reveal"><div><span class="eyebrow">Full catalogue</span><h2>Products.</h2></div><button class="filter-toggle">Filters +</button></div>
-
-      <div class="catalog-layout reveal">
-        <aside class="filter-panel">
-          <div class="filter-panel-head"><h3>Filters</h3><button type="button" id="resetFilters">Reset</button></div>
-          <div class="filter-group"><h4>Brands</h4><label><input type="checkbox" name="brandFilter" value="joola"> JOOLA</label><label><input type="checkbox" name="brandFilter" value="tibhar"> Tibhar</label><label><input type="checkbox" name="brandFilter" value="butterfly"> Butterfly</label><label><input type="checkbox" name="brandFilter" value="stiga"> Stiga</label><label><input type="checkbox" name="brandFilter" value="dhs"> DHS</label><label><input type="checkbox" name="brandFilter" value="yinhe"> YinHe</label><label><input type="checkbox" name="brandFilter" value="xiom"> Xiom</label><label><input type="checkbox" name="brandFilter" value="andro"> Andro</label><label><input type="checkbox" name="brandFilter" value="dawei"> Dawei</label></div><div class="filter-group"><h4>Categories</h4><label><input type="checkbox" name="categoryFilter" value="rubbers"> Rubbers</label><label><input type="checkbox" name="categoryFilter" value="blades"> Blades</label><label><input type="checkbox" name="categoryFilter" value="rackets"> Rackets</label><label><input type="checkbox" name="categoryFilter" value="balls"> Balls</label><label><input type="checkbox" name="categoryFilter" value="tables"> Tables</label><label><input type="checkbox" name="categoryFilter" value="footwear"> Footwear</label><label><input type="checkbox" name="categoryFilter" value="accessories"> Accessories</label><label><input type="checkbox" name="categoryFilter" value="glue"> Glue</label><label><input type="checkbox" name="categoryFilter" value="clothing"> Apparel</label></div>
-          <div class="filter-group"><h4>Price range</h4><div class="price-fields"><input id="minPrice" type="number" min="0" placeholder="Min ₹"><input id="maxPrice" type="number" min="0" placeholder="Max ₹"></div></div>
-          <div class="filter-group"><h4>Rating</h4><label><input type="checkbox" name="ratingFilter" value="4.7"> 4.7<span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> and above</label></div>
-          <div class="save-filter-actions">
-            <button type="button" class="save-filter-button" id="saveFilters">Save Filter</button>
-            <button type="button" class="clear-pending-filter-button" id="clearPendingFilters">Clear Filter</button>
-            <p class="pending-filter-note" id="pendingFilterNote">Change filters, then click Save Filter to update results.</p>
-          </div>
-
-        </aside>
-        <div class="catalog-results">
-          <div class="results-topbar">
-            <label class="search-control"><span>Search</span><input id="productSearch" type="search" placeholder="Search rackets, rubbers, balls..." /></label>
-            <label class="sort-control"><span>Sort</span><select id="sortProducts"><option value="featured">Featured</option><option value="price-low">Price: Low to High</option><option value="price-high">Price: High to Low</option><option value="rating">Top Rated</option></select></label>
-          </div>
-          <p class="filter-note" id="filterNote"></p>
-          <div class="product-grid" id="brandProductGrid"></div><p class="empty-state" hidden>No products match these filters.</p>
+  <main>
+    <section class="products-hero">
+      <div class="products-hero-grid">
+        <div>
+          <p class="overline">ALL INKWAVE PRINTS</p>
+          <h1>PRODUCTS.</h1>
+          <p>Browse every InkWave poster in one place. Filter by your mood, open a design for the full product page, then choose A6, A5, A4 or A3 before adding it to your bag.</p>
         </div>
+        <div class="products-size-board" id="productsSizeBoard"></div>
       </div>
     </section>
+
+    <section class="products-catalog">
+      <div class="products-toolbar products-toolbar-minimal">
+        <label class="products-search products-search-minimal">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+          <input id="productsSearch" type="search" placeholder="Search posters" aria-label="Search posters" />
+        </label>
+        <label class="products-category-select-wrap">
+          <span>CATEGORY</span>
+          <select id="productsCategorySelect" aria-label="Filter posters by category"></select>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"></path></svg>
+        </label>
+      </div>
+      <p class="products-count" id="productsCount"></p>
+      <div class="product-grid products-page-grid" id="productsGrid"></div>
+      <div class="products-load-more-wrap"><button class="button button-dark" id="productsLoadMore" type="button">LOAD MORE POSTERS →</button></div>
+      <div class="empty-state" id="productsEmpty" hidden>No posters have been published yet.</div>
+    </section>
   </main>
-  <footer class="site-footer">
-  <div class="footer-brand">
-    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i></span><span>TABLE TENNIS WALA</span></a>
-    <p>Premium table tennis equipment, branded products and custom racket builds.</p>
-  </div>
-  <div class="footer-links">
-    <h4>Brands</h4>
-    <a href="joola.html">JOOLA</a>
-    <a href="tibhar.html">Tibhar</a>
-    <a href="butterfly.html">Butterfly</a>
-    <a href="stiga.html">Stiga</a>
-        <a href="dhs.html">DHS</a>
-        <a href="yinhe.html">YinHe</a>
-  </div>
-  <div class="footer-links">
-    <h4>Store</h4>
-    <a href="index.html#about">About us</a>
-    <a href="brands.html">All brands</a>
-    <a href="products.html">All products</a>
-    <a href="customize.html">Customize racket</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </div>
-  <div class="footer-contact">
-    <h4>Contact</h4>
-    <a href="mailto:hello@tabletenniswala.in">hello@tabletenniswala.in</a>
-    <a href="tel:+919558187425">+91 95581 87425</a>
-    <p>Mon–Sat, 10:00–19:00</p>
-  </div>
-  <div class="footer-bottom">
-    <p>© <span id="year"></span> Table Tennis Wala. All rights reserved.</p>
-    <p>No return and exchange policy. Brand names belong to their respective owners.</p>
-  </div>
-</footer>
-  <aside class="cart-drawer" aria-hidden="true">
-  <div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div>
-  <div class="cart-items"></div>
-  <div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div>
-  <div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div>
-</aside>
-<div class="page-backdrop"></div>
-<div class="toast" role="status" aria-live="polite"></div>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="script.js"></script>
-</body></html>
+
+  <footer><div class="footer-top"><div><div class="footer-brand footer-brand-image"><img src="assets/inkwaves-wordmark.webp" alt="InkWaves" /></div><p>POSTERS FOR WALLS WITH PERSONALITY.</p></div><div class="footer-columns"><div><strong>SHOP</strong><a href="products.html">Products</a><a href="index.html#categories">Categories</a><a href="index.html#offers">Offers</a><a href="index.html#custom">Custom build</a></div><div><strong>INFO</strong><a href="about.html">About</a><a href="index.html#reviews">Reviews</a><a href="index.html#faq">FAQs</a></div><div><strong>CONTACT</strong><a id="footerEmail" href="mailto:hello@inkwave.in">Email ↗</a><a id="footerInstagram" href="https://instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a></div></div></div><div class="footer-bottom"><span>© 2026 INKWAVE INDIA</span><span>BUILT AT NITK SURATHKAL.</span></div></footer>
+
+  <script src="default-data.js"></script>
+  <script src="payment-config.js?v=66"></script>
+  <script src="products.js"></script>
+</body>
+</html>

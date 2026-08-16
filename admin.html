@@ -1,322 +1,208 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Admin Product Upload Panel — Table Tennis Wala</title><link rel="stylesheet" href="styles.css" /></head>
-<body data-page="admin">
-<input type="checkbox" id="navToggle" class="css-nav-toggle" aria-hidden="true">
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><title>InkWaves Admin V6.3</title><meta name="inkwaves-admin-build" content="v6.3-ttw-static"><style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600&display=swap');
+*{box-sizing:border-box}body{margin:0;background:#f4f4ef;color:#111;font-family:Inter,Arial,sans-serif;font-weight:400}.admin-head{height:72px;padding:0 4vw;background:#111;color:#fff;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:10}.admin-brand{background:#fff;color:#111;padding:7px 12px;font-weight:600;font-style:italic;text-decoration:none;box-shadow:4px 4px 0 #d9ff00}.admin-brand span{color:#73a900}.admin-head div{display:flex;align-items:center;gap:12px}.admin-head a,.admin-head button{color:#fff;background:transparent;border:0;text-decoration:none;font-size:11px}.login-card{max-width:620px;margin:12vh auto;padding:48px;background:#fff;border:1px solid #111}.login-card>p:first-child,.dashboard-intro p{font-size:10px;letter-spacing:.15em}.login-card h1,.dashboard-intro h1{font-family:Oswald,Arial,sans-serif;font-weight:500;font-size:clamp(40px,6vw,70px);line-height:.95;margin:12px 0}.login-card p{font-size:13px;line-height:1.7;color:#555}.login-card form{display:grid;grid-template-columns:1fr 1fr auto;margin-top:25px}.login-card form input+input{border-left:0}.login-card form button{min-width:110px}.login-card input{flex:1;border:1px solid #111;padding:14px}.login-card button,.save-all,.panel-title button,.mini-btn{border:1px solid #111;background:#111;color:#fff;padding:13px 18px;font-size:10px;font-weight:600;text-transform:uppercase}.status{margin-top:12px;color:#c0392b;font-size:11px}.dashboard-intro{padding:42px 4vw 25px;display:flex;justify-content:space-between;align-items:end;gap:20px}.save-all{background:#d9ff00;color:#111;min-width:170px}.tabs{display:flex;gap:0;padding:0 4vw;border-bottom:1px solid #bbb;overflow-x:auto}.tabs button{white-space:nowrap;border:1px solid #bbb;border-bottom:0;background:#fff;padding:13px 18px;font-size:10px}.tabs button.active{background:#111;color:#fff;border-color:#111}.panel{display:none;padding:35px 4vw 80px}.panel.active{display:block}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{background:#fff;border:1px solid #ccc;padding:16px}.field label{display:block;font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}.field input,.field textarea,.field select,.editor-card input,.editor-card textarea,.editor-card select{width:100%;border:1px solid #aaa;background:#fff;padding:11px;font-size:12px;outline:none}.field textarea,.editor-card textarea{min-height:92px;resize:vertical}.field.wide{grid-column:1/-1}.panel-title{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:22px}.panel-title h2{font-family:Oswald;font-weight:500;font-size:38px;margin:0}.panel-title p{font-size:12px;color:#666;margin:6px 0 0}.editor-list{display:grid;gap:12px}.editor-card{background:#fff;border:1px solid #bbb;padding:16px;display:grid;grid-template-columns:50px repeat(4,minmax(0,1fr)) auto;gap:10px;align-items:start}.editor-card.product-card{grid-template-columns:repeat(2,minmax(0,1fr));position:relative}.editor-card label{display:block;font-size:8px;font-weight:600;text-transform:uppercase;margin-bottom:5px}.drag-num{width:42px;height:42px;background:#111;color:#fff;display:grid;place-items:center;font-family:Oswald;font-size:18px}.card-actions{display:flex;gap:5px}.card-actions button{width:34px;height:34px;border:1px solid #aaa;background:#fff}.remove-btn{color:#c3291c!important}.upload-row{display:flex;gap:7px}.upload-row input{flex:1}.upload-row button{border:1px solid #111;background:#efefef;font-size:9px;padding:0 9px}.product-editor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.product-card .product-number{position:absolute;right:12px;top:10px;color:#aaa;font-family:Oswald;font-size:28px}.product-card .full{grid-column:1/-1}.product-card .remove-product{grid-column:1/-1;border:1px solid #d7a29c;background:#fff3f1;color:#9d251a;padding:10px}.commerce-sizes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.commerce-card{background:#fff;border:1px solid #bbb;padding:17px}.commerce-card h3{font-family:Oswald;font-weight:500;font-size:32px;margin:0 0 15px}.commerce-card label{display:block;font-size:8px;font-weight:600;margin:10px 0 4px}.commerce-card input{width:100%;border:1px solid #aaa;padding:10px}.commerce-other{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.floating-status{position:fixed;right:20px;bottom:20px;background:#111;color:#fff;padding:12px 17px;font-size:10px;opacity:0;transform:translateY(15px);transition:.2s}.floating-status.show{opacity:1;transform:none}.image-preview{height:110px;background:#eee;border:1px solid #ddd;margin-top:8px;display:grid;place-items:center;overflow:hidden}.image-preview img{width:100%;height:100%;object-fit:cover}@media(max-width:900px){.grid-2,.product-editor-grid,.commerce-other{grid-template-columns:1fr}.commerce-sizes{grid-template-columns:1fr 1fr}.editor-card{grid-template-columns:40px 1fr 1fr}.editor-card .card-actions{grid-column:3}.editor-card>div:nth-last-child(n+2){min-width:0}.dashboard-intro{align-items:start;flex-direction:column}.save-all{width:100%}}@media(max-width:560px){.login-card{margin:30px 14px;padding:28px}.login-card form{display:grid;grid-template-columns:1fr;gap:8px}.login-card form input+input{border-left:1px solid #111}.commerce-sizes{grid-template-columns:1fr}.editor-card{grid-template-columns:1fr}.drag-num,.editor-card .card-actions{grid-column:auto}.panel{padding-inline:14px}.tabs,.dashboard-intro{padding-inline:14px}.admin-head{padding-inline:14px}.panel-title{align-items:start;flex-direction:column}.panel-title button{width:100%}}
+.admin-brand-image{background:#fff;padding:4px 8px;box-shadow:none}.admin-brand-image img{display:block;width:155px;max-height:44px;object-fit:contain}.admin-catalog-tools{display:flex;gap:12px;align-items:center;margin:0 0 18px}.admin-catalog-tools input{flex:1;min-width:0;padding:12px;border:1px solid #aaa;background:#fff}.admin-catalog-tools span{font-size:11px;color:#666;white-space:nowrap}.admin-load-more{display:block;margin:20px auto 0;border:1px solid #111;background:#fff;padding:12px 20px;font-size:10px;text-transform:uppercase}.admin-load-more[hidden]{display:none}@media(max-width:560px){.admin-brand-image img{width:120px}.admin-catalog-tools{align-items:stretch;flex-direction:column}.admin-catalog-tools span{white-space:normal}}
 
-<header class="site-header css-navbar" id="top">
-  <a class="brand css-brand" href="index.html" aria-label="Table Tennis Wala home">
-    <span class="brand-mark"><i></i><i></i></span>
-    <span>TABLE TENNIS WALA</span>
-  </a>
+/* v4.5 order manager */
+.order-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:18px}.order-stats article{background:#fff;border:1px solid #bbb;padding:18px}.order-stats span{display:block;font-size:8px;font-weight:600;letter-spacing:.08em;color:#666}.order-stats strong{display:block;margin-top:7px;font-family:Oswald,sans-serif;font-size:31px;font-weight:500}.order-list{display:grid;gap:12px}.order-card{background:#fff;border:1px solid #aaa}.order-head{display:flex;justify-content:space-between;gap:18px;padding:16px;border-bottom:1px solid #ddd}.order-head>div:first-child{display:grid;gap:3px}.order-id{font-family:Oswald,sans-serif;font-size:19px}.order-head strong{font-size:12px}.order-head small{font-size:9px;color:#777}.order-payment{align-self:flex-start;border:1px solid #111;padding:7px 9px;font-size:8px;text-transform:uppercase}.order-payment.paid{background:#d9ff00}.order-payment.pending{background:#fff1b8}.order-payment.failed{background:#ffd4cf}.order-grid{display:grid;grid-template-columns:1fr 1fr 1.4fr;gap:0}.order-grid>div{padding:15px;border-right:1px solid #ddd}.order-grid>div:last-child{border-right:0}.order-grid label{display:block;font-size:8px;font-weight:600;text-transform:uppercase;margin-bottom:8px}.order-grid p{margin:0;font-size:10px;line-height:1.7}.order-items ul{margin:0;padding-left:18px;font-size:10px;line-height:1.7}.order-items small{color:#777}.order-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px 15px;border-top:1px solid #ddd}.order-actions select{padding:9px;border:1px solid #aaa}.order-actions .mini-btn{padding:9px 11px;text-decoration:none}.order-actions span{margin-left:auto;font-size:8px;color:#666}.orders-empty{background:#fff;border:1px dashed #aaa;padding:45px;text-align:center;color:#777}.commerce-card p{font-size:11px;line-height:1.6;color:#666}@media(max-width:900px){.order-stats{grid-template-columns:1fr 1fr}.order-grid{grid-template-columns:1fr}.order-grid>div{border-right:0;border-bottom:1px solid #ddd}.order-grid>div:last-child{border-bottom:0}.order-actions span{width:100%;margin-left:0}}@media(max-width:560px){.order-stats{grid-template-columns:1fr}.order-head{align-items:flex-start}.order-actions{align-items:stretch}.order-actions>*{width:100%}}
 
-  <nav class="desktop-nav css-desktop-nav" aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="index.html#about">About</a>
+/* v5.0 product uploader */
+.product-uploader{background:#fff;border:1px solid #bdbdb7;padding:24px;margin-bottom:34px}.uploader-heading{display:flex;justify-content:space-between;gap:24px;align-items:end;padding-bottom:18px;border-bottom:1px solid #ddd}.uploader-heading span{font-size:8px;font-weight:600;letter-spacing:.14em;color:#777}.uploader-heading h3,.manage-products-head h3{font-family:Oswald,sans-serif;font-size:32px;font-weight:500;margin:4px 0 0}.uploader-heading p,.manage-products-head p{margin:0;color:#777;font-size:10px}.uploader-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}.uploader-field label{display:block;font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}.uploader-field input,.uploader-field textarea,.uploader-field select{width:100%;border:1px solid #aaa;background:#fff;padding:12px;font:inherit;font-size:12px;outline:none}.uploader-field textarea{min-height:100px;resize:vertical}.uploader-wide{grid-column:1/-1}.new-product-upload{display:grid;grid-template-columns:minmax(220px,.65fr) minmax(260px,1.35fr);gap:14px;align-items:stretch}.new-product-upload>input{align-self:start}.new-product-preview{min-height:180px;border:1px dashed #aaa;background:#f4f4ef;display:grid;place-items:center;overflow:hidden}.new-product-preview span{font-size:10px;color:#777}.new-product-preview img{width:100%;height:220px;object-fit:contain;background:#eee}.uploader-sizes{margin-top:22px;padding-top:20px;border-top:1px solid #ddd}.uploader-size-head{display:flex;justify-content:space-between;gap:15px;align-items:end;margin-bottom:12px}.uploader-size-head strong{font-size:11px;text-transform:uppercase;letter-spacing:.05em}.uploader-size-head span{font-size:9px;color:#777}.uploader-size-grid,.edit-size-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.uploader-size-card,.edit-size-card{border:1px solid #ccc;background:#fafaf7;padding:12px}.uploader-size-card{display:grid;gap:10px}.size-toggle,.edit-size-toggle{display:flex;align-items:center;gap:8px}.size-toggle input,.edit-size-toggle input{width:auto}.size-toggle b{font-family:Oswald;font-size:24px;font-weight:500}.uploader-size-card small{color:#777;font-size:8px;min-height:24px}.price-input{display:flex;align-items:center;gap:5px;font-size:12px}.price-input input,.edit-size-card span input{width:100%;border:0;border-bottom:1px solid #aaa;background:transparent;padding:6px 2px;outline:none}.uploader-actions{display:flex;align-items:center;gap:14px;margin-top:20px}.publish-product{border:1px solid #111;background:#111;color:#fff;padding:14px 24px;text-transform:uppercase;font-size:10px;font-weight:600}.publish-product:disabled{opacity:.55}.uploader-actions span{font-size:10px;color:#666}.manage-products-head{margin:8px 0 16px;display:flex;justify-content:space-between;align-items:end}.product-size-editor>label small{font-weight:400;color:#777;text-transform:none;margin-left:4px}.edit-size-card{display:grid;gap:10px}.edit-size-card strong{font-size:12px}.edit-size-card span{display:flex;align-items:center;gap:4px;font-size:10px}@media(max-width:900px){.uploader-size-grid,.edit-size-grid{grid-template-columns:1fr 1fr}}@media(max-width:620px){.uploader-grid,.new-product-upload{grid-template-columns:1fr}.uploader-size-grid,.edit-size-grid{grid-template-columns:1fr 1fr}.uploader-heading,.uploader-size-head,.uploader-actions{align-items:flex-start;flex-direction:column}.publish-product{width:100%}}@media(max-width:390px){.uploader-size-grid,.edit-size-grid{grid-template-columns:1fr}}
 
-    <div class="nav-dropdown">
-      <a class="nav-dropdown-trigger" href="brands.html">Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
-      <div class="nav-dropdown-menu">
-        <a href="brands.html">All Brands</a>
-<a href="joola.html">JOOLA</a>
-<a href="tibhar.html">Tibhar</a>
-<a href="butterfly.html">Butterfly</a>
-<a href="stiga.html">Stiga</a>
-<a href="dhs.html">DHS</a>
-<a href="yinhe.html">YinHe</a>
-<a href="xiom.html">Xiom</a>
-<a href="andro.html">Andro</a>
-<a href="dawei.html">Dawei</a></div>
-    </div>
-
-    <div class="nav-dropdown">
-      <a class="nav-dropdown-trigger" href="products.html">Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></a>
-      <div class="nav-dropdown-menu product-category-menu">
-        <a href="products.html">All Products</a>
-        <a href="products.html?category=rubbers">Rubbers</a>
-        <a href="products.html?category=blades">Blades</a>
-        <a href="products.html?category=rackets">Rackets</a>
-        <a href="products.html?category=balls">Balls</a>
-        <a href="products.html?category=tables">Tables</a>
-        <a href="products.html?category=footwear">Footwear</a>
-        <a href="products.html?category=accessories">Accessories</a>
-        <a href="products.html?category=glue">Glue</a>
-        <a href="products.html?category=clothing">Apparel</a>
-</div>
-    </div>
-
-    <a href="customize.html">Customize</a>
-    <a href="cart.html">Cart</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </nav>
-
-  <div class="header-actions css-header-actions">
-    <button class="cart-trigger icon-button" aria-label="Open cart">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.1a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 2-1.6L20.5 8H7"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg>
-      <span class="cart-count">0</span>
-    </button>
-    <label for="navToggle" class="css-menu-toggle" aria-label="Open menu">
-      <span></span><span></span>
-    </label>
-  </div>
-</header>
-
-<nav class="css-mobile-menu" aria-label="Mobile navigation">
-  <label for="navToggle" class="css-mobile-close" aria-label="Close menu"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></label>
-
-  <div class="css-mobile-links">
-    <a href="index.html">Home</a>
-    <a href="index.html#about">About</a>
-
-    <details class="css-mobile-details">
-      <summary>Brands <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
-      <div>
-        <a href="brands.html">All Brands</a>
-<a href="joola.html">JOOLA</a>
-<a href="tibhar.html">Tibhar</a>
-<a href="butterfly.html">Butterfly</a>
-<a href="stiga.html">Stiga</a>
-<a href="dhs.html">DHS</a>
-<a href="yinhe.html">YinHe</a>
-<a href="xiom.html">Xiom</a>
-<a href="andro.html">Andro</a>
-<a href="dawei.html">Dawei</a></div>
-    </details>
-
-    <details class="css-mobile-details">
-      <summary>Products <span class="ttw-icon ttw-icon-chevron-down" aria-hidden="true"></span></summary>
-      <div>
-        <a href="products.html">All Products</a>
-        <a href="products.html?category=rubbers">Rubbers</a>
-        <a href="products.html?category=blades">Blades</a>
-        <a href="products.html?category=rackets">Rackets</a>
-        <a href="products.html?category=balls">Balls</a>
-        <a href="products.html?category=tables">Tables</a>
-        <a href="products.html?category=footwear">Footwear</a>
-        <a href="products.html?category=accessories">Accessories</a>
-        <a href="products.html?category=glue">Glue</a>
-        <a href="products.html?category=clothing">Apparel</a>
-</div>
-    </details>
-
-    <a href="customize.html">Customize Racket</a>
-    <a href="cart.html">Cart</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </div>
-
-  <p>Play faster. Play smarter.</p>
-</nav>
-
+</style></head><body>
+<header class="admin-head"><a href="index.html" class="admin-brand admin-brand-image"><img src="assets/inkwaves-wordmark.webp" alt="InkWaves" /></a><div><a href="index.html" target="_blank">View store ↗</a><button id="logoutBtn" hidden>Log out</button></div></header>
 <main>
-    <section class="admin-hero"><span class="eyebrow light">Private client area</span><h1>Admin login.</h1><p>Login to add new products, upload product images, edit pricing and connect products to the homepage and brand pages.</p></section>
+<section class="login-card" id="loginCard" data-build="v6.3-ttw"><p>INKWAVE CONTROL PANEL · TTW-STYLE ADMIN V6.3</p><h1>Edit the store without coding.</h1><p>Enter your InkWaves admin password. TTW-STYLE ADMIN V6.3 checks the password directly in this page. No login request is sent anywhere.</p><form id="loginForm" class="ttw-login-form">
+  <input id="username" type="text" autocomplete="username" placeholder="Username" required>
+  <input id="password" type="password" autocomplete="current-password" placeholder="Password" required>
+  <button type="submit">Sign in</button>
+</form><div class="status" id="loginStatus"></div></section>
+<section id="dashboard" hidden>
+<div class="dashboard-intro"><div><p>NO-CODE STORE MANAGER</p><h1>Website Control Panel</h1></div><button class="save-all" id="saveAll">Save all changes</button></div>
+<nav class="tabs"><button class="active" data-tab="orders">Orders</button><button data-tab="content">Site content</button><button data-tab="hero">Hero slider</button><button data-tab="categories">Categories</button><button data-tab="products">Products</button><button data-tab="reviews">Reviews</button><button data-tab="commerce">Pricing & offers</button></nav>
+<div class="panel active" id="panel-orders"><div class="panel-title"><div><h2>Orders</h2><p>Paid and pending Razorpay orders appear here automatically. Download invoices, update fulfilment status, or resend notifications.</p></div><button id="refreshOrders">↻ Refresh orders</button></div><div class="order-stats" id="orderStats"></div><div class="order-list" id="orderList"></div></div>
+<div class="panel" id="panel-content"><div class="grid-2" id="contentFields"></div></div>
+<div class="panel" id="panel-hero"><div class="panel-title"><div><h2>Vertical hero slider</h2><p>Add, remove and reorder slider cards. Use paths such as <code>assets/pack-velocity.svg</code> or upload an image.</p></div><button id="addSlide">+ Add slide</button></div><div id="heroEditor" class="editor-list"></div></div>
+<div class="panel" id="panel-categories"><div class="panel-title"><div><h2>Shop categories</h2><p>These automatically update the homepage, filters and product category choices.</p></div><button id="addCategory">+ Add category</button></div><div id="categoryEditor" class="editor-list"></div></div>
+<div class="panel" id="panel-products">
+  <div class="panel-title"><div><h2>Products</h2><p>Upload new posters, create categories, control size availability and set product-specific prices.</p></div></div>
+  <section class="product-uploader" id="productUploader">
+    <div class="uploader-heading"><div><span>NEW PRODUCT</span><h3>Upload poster</h3></div><p>Publishing here updates the website immediately.</p></div>
+    <div class="uploader-grid">
+      <div class="uploader-field"><label>Product title</label><input id="newProductName" placeholder="e.g. Midnight Run"></div>
+      <div class="uploader-field"><label>Badge</label><input id="newProductBadge" placeholder="New / Bestseller (optional)"></div>
+      <div class="uploader-field"><label>Category</label><select id="newProductCategory"></select></div>
+      <div class="uploader-field" id="newCategoryWrap" hidden><label>New category name</label><input id="newCategoryName" placeholder="e.g. Street Art"></div>
+      <div class="uploader-field uploader-wide"><label>Description</label><textarea id="newProductDescription" placeholder="Short product description shown below the poster and on the product page."></textarea></div>
+      <div class="uploader-field uploader-wide"><label>Poster image</label><div class="new-product-upload"><input id="newProductImage" type="file" accept="image/png,image/jpeg,image/webp"><div id="newProductPreview" class="new-product-preview"><span>Choose a PNG, JPG or WebP image</span></div></div></div>
+    </div>
+    <div class="uploader-sizes"><div class="uploader-size-head"><strong>Sizes & prices</strong><span>Choose which sizes this product is available in.</span></div><div id="newProductSizes" class="uploader-size-grid"></div></div>
+    <div class="uploader-actions"><button type="button" id="publishProduct" class="publish-product">Publish product</button><span id="productUploadStatus"></span></div>
+  </section>
+  <div class="manage-products-head"><div><h3>Manage products</h3><p>Edit or remove existing products below.</p></div></div>
+  <div class="admin-catalog-tools"><input id="adminProductSearch" type="search" placeholder="Search products by title, category or ID"><span id="adminProductCount"></span></div><div id="productEditor" class="product-editor-grid"></div><button type="button" class="admin-load-more" id="adminLoadMore">Load more products</button>
+</div>
+<div class="panel" id="panel-reviews"><div class="panel-title"><div><h2>Customer reviews</h2><p>Add genuine customer feedback here. Reviews publish to the homepage after saving.</p></div><button id="addReview">+ Add review</button></div><div id="reviewEditor" class="editor-list"></div></div>
+<div class="panel" id="panel-commerce"><div class="panel-title"><div><h2>Pricing, offers & checkout</h2><p>Change the price or offer copy for each size. Cart and server checkout use the same values.</p></div></div><div id="commerceEditor"></div></div>
+<div class="floating-status" id="saveStatus"></div>
+</section>
+</main>
+<script>
+window.INKWAVE_DEFAULT_DATA = {"settings":{"announcement":"","heroKicker":"POSTERS THAT INSPIRE · STUDENT-BUILT AT NITK SURATHKAL","heroTitle":"MAKE YOUR WALL","heroAccent":"IMPOSSIBLE TO IGNORE.","heroDescription":"Explore hundreds of posters across music, anime, sport, cinema, cars, space, motivation and more — or build a custom print of your own.","customTitle":"BUILD A POSTER THAT IS COMPLETELY YOURS.","customDescription":"Upload your photo, artwork or design, choose A6 to A3, preview it instantly and order it on 300 GSM matte laminated paper.","categoriesTitle":"SHOP BY CATEGORIES","shopTitle":"INKWAVES STUDIO PICKS","aboutTitle":"FROM A HOSTEL ROOM TO YOUR WALL.","aboutBody":"InkWave began as a college startup at NITK Surathkal with one simple idea: make expressive, affordable wall art that students can use to make temporary rooms feel personal.","email":"hello@inkwave.in","instagram":"https://instagram.com","couponCode":"NITK10","couponPercent":10,"freeShippingAbove":0,"shippingFee":0},"heroSlides":[{"image":"https://drive.google.com/thumbnail?id=1Oh0Vk3gckZByr8NMaXDldCCCIfirRsG2&sz=w1200","label":"MUSIC ARTISTS","caption":"Artists, albums and loud walls · from ₹19","accent":"#9f8cff"},{"image":"https://drive.google.com/thumbnail?id=14EGVCM6Of1W0N-JoqYj8ydiyaChx8yJv&sz=w1200","label":"FORMULA 1","caption":"Race-day energy, legends and paddock graphics · from ₹19","accent":"#ff5147"},{"image":"https://drive.google.com/thumbnail?id=1k4UCYjUtrA6lsL6cNCwMRrKql3hslnSp&sz=w1200","label":"ANIME","caption":"Manga energy, heroes and iconic frames · from ₹19","accent":"#ff8fb1"},{"image":"https://drive.google.com/thumbnail?id=114KOdsHkyguPEYOtkXwJbJ_KYAudJQEF&sz=w1200","label":"FOOTBALL","caption":"Clubs, legends and the beautiful game · from ₹19","accent":"#4fc07a"},{"image":"https://drive.google.com/thumbnail?id=1OM4qk7A8jlT2U7ExzxE9eH_krdeg9NDl&sz=w1200","label":"MOVIES","caption":"Cinema, characters and frame-worthy scenes · from ₹19","accent":"#f1c755"},{"image":"https://drive.google.com/thumbnail?id=1RSIrnKK1P9Z3A6luzBTh_gyveRGM81AE&sz=w1200","label":"AESTHETIC","caption":"Soft colour, moodboards and design-led prints · from ₹19","accent":"#f4b6d7"},{"image":"https://drive.google.com/thumbnail?id=1zBKE7Qn-SBlIUoYJWzyjpaVIqi8GvL44&sz=w1200","label":"CARS","caption":"Automotive icons, machines and garage walls · from ₹19","accent":"#67c4ff"},{"image":"https://drive.google.com/thumbnail?id=1hSE6BQokxwwFi0oY09x02aemR6W7lkih&sz=w1200","label":"CRICKET","caption":"Indian cricket, icons and stadium energy · from ₹19","accent":"#5b9cff"}],"categories":[],"products":[],"commerce":{"sizes":{"A3":{"price":99,"detail":"297 × 420 mm","offer":"Buy 2, get 1 free","groupQty":3,"payQty":2},"A4":{"price":69,"detail":"210 × 297 mm","offer":"Buy 3, get 2 free","groupQty":5,"payQty":3},"A5":{"price":39,"detail":"148 × 210 mm","offer":"Buy 4, get 3 free","groupQty":7,"payQty":4},"A6":{"price":19,"detail":"105 × 148 mm","offer":"Buy 6, get 4 free · or 20 for ₹200","groupQty":10,"payQty":6,"bundle20Price":200}},"finishes":{"Matte Laminated":{"price":0,"label":"Matte laminated"}},"frames":{},"captionPrice":0},"reviews":[{"name":"YOUR CUSTOMER","location":"City","rating":5,"text":"Add a real customer review from the InkWave admin panel.","product":"Review placeholder"},{"name":"YOUR CUSTOMER","location":"City","rating":5,"text":"Replace this placeholder with feedback from a real InkWave order.","product":"Review placeholder"},{"name":"YOUR CUSTOMER","location":"City","rating":5,"text":"Use the Reviews tab in the control panel to publish genuine customer feedback.","product":"Review placeholder"},{"name":"YOUR CUSTOMER","location":"City","rating":5,"text":"You can edit the name, city, rating, product and review text without touching code.","product":"Review placeholder"}]};
 
-    <section class="admin-login-section section" id="adminLoginPanel">
-      <form class="admin-login-card" id="adminLoginForm">
-        <span class="eyebrow">Protected panel</span>
-        <h2>Login to upload products</h2>
-        <p>Static demo credentials: <strong>admin</strong> / <strong>ttwala123</strong></p>
-        <label>Username<input id="adminUsername" autocomplete="username" required placeholder="admin" /></label>
-        <label>Password<input id="adminPassword" type="password" autocomplete="current-password" required placeholder="ttwala123" /></label>
-        <button class="button primary" type="submit">Login</button>
-        <p class="login-message" id="loginMessage" aria-live="polite"></p>
-      </form>
-    </section>
+</script>
+<script src="payment-config.js?v=66"></script>
+<script>
+const ADMIN_PASSWORD='InkWaves@2026';
+const LOCAL_ADMIN_DATA_KEY='inkwaves-admin-local-v54-empty';
+let token=sessionStorage.getItem('inkwave-admin-token')||'';
+let data=null;let orders=[];let productAdminQuery='';let productAdminLimit=40;
+const $=s=>document.querySelector(s);
+const esc=v=>String(v??'').replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':'&quot;'}[c]));
+const money=v=>new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(Number(v)||0);
+const clone=v=>JSON.parse(JSON.stringify(v));
+const HOSTED=(location.protocol==='http:'||location.protocol==='https:');
+let localAdminMode=(!HOSTED && token==='local-admin');
+const ADMIN_API_BASE=String(window.INKWAVES_ADMIN_API_BASE||window.INKWAVES_PAYMENT_API_BASE||'').replace(/\/$/,'');
+function adminApiUrl(path){const p=path.startsWith('/')?path:`/${path}`;return `${ADMIN_API_BASE}${p}`}
+function publicAssetUrl(value){const v=String(value||'');if(!v||/^https?:\/\//i.test(v)||v.startsWith('data:')||v.startsWith('/'))return v;if(!ADMIN_API_BASE)return v;return `${ADMIN_API_BASE}/${v.replace(/^\/+/, '')}`}
+function localSiteData(){
+  try{const saved=localStorage.getItem(LOCAL_ADMIN_DATA_KEY);if(saved){const parsed=JSON.parse(saved);if(parsed?.products&&parsed?.commerce)return parsed}}catch{}
+  return clone(window.INKWAVE_DEFAULT_DATA||{settings:{},heroSlides:[],categories:[],products:[],commerce:{sizes:{},finishes:{}},reviews:[]});
+}
+function saveLocalSiteData(next){try{localStorage.setItem(LOCAL_ADMIN_DATA_KEY,JSON.stringify(next));return true}catch(e){throw new Error('This change is too large for browser storage. Run the InkWaves server for large image uploads.')}}
+const contentDefs=[['heroKicker','Hero kicker','text'],['heroTitle','Hero title','text'],['heroAccent','Hero highlighted title','text'],['heroDescription','Hero description','textarea'],['customTitle','Custom-build title','text'],['customDescription','Custom-build description','textarea'],['categoriesTitle','Categories heading','text'],['shopTitle','Shop heading','text'],['aboutTitle','About heading','text'],['aboutBody','About story','textarea'],['email','Contact email','email'],['instagram','Instagram URL','text'],['couponCode','Coupon code','text'],['couponPercent','Coupon discount %','number']];
+const PRODUCT_SIZES=['A6','A5','A4','A3'];
+function slugify(v){return String(v||'').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,55)}
+function effectiveProductPrice(p,size){const own=p?.sizes?.[size];return own&&own.price!==null&&own.price!==undefined&&own.price!==''?Number(own.price):Number(data.commerce.sizes[size]?.price||0)}
+function productSizeEnabled(p,size){if(!p?.sizes||!Object.keys(p.sizes).length)return Boolean(data.commerce.sizes[size]);return p.sizes[size]?.enabled!==false&&Boolean(p.sizes[size])}
+function renderNewProductForm(){if(!data)return;const cat=$('#newProductCategory');if(cat){const current=cat.value;cat.innerHTML=`<option value="">Select category</option>${data.categories.map(c=>`<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('')}<option value="__new__">+ Create new category</option>`;if([...cat.options].some(o=>o.value===current))cat.value=current}const sizeBox=$('#newProductSizes');if(sizeBox)sizeBox.innerHTML=PRODUCT_SIZES.map(k=>`<label class="uploader-size-card"><span class="size-toggle"><input type="checkbox" data-new-size-enabled="${k}" checked><b>${k}</b></span><small>${esc(data.commerce.sizes[k]?.detail||'')}</small><span class="price-input">₹ <input type="number" min="0" step="1" data-new-size-price="${k}" value="${Number(data.commerce.sizes[k]?.price||0)}"></span></label>`).join('')}
+function resetNewProductForm(){['newProductName','newProductBadge','newProductDescription','newCategoryName'].forEach(id=>{const e=$('#'+id);if(e)e.value=''});if($('#newProductCategory'))$('#newProductCategory').value='';if($('#newCategoryWrap'))$('#newCategoryWrap').hidden=true;if($('#newProductImage'))$('#newProductImage').value='';if($('#newProductPreview'))$('#newProductPreview').innerHTML='<span>Choose a PNG, JPG or WebP image</span>';renderNewProductForm()}
+async function uploadFile(file){if(!file)throw new Error('Choose a product image.');if(!file.type.startsWith('image/'))throw new Error('Choose a PNG, JPG or WebP image.');if(file.size>15*1024*1024)throw new Error('Image must be under 15 MB.');const dataUrl=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(file)});const uploaded=await api('/api/admin/upload',{method:'POST',body:JSON.stringify({dataUrl,filename:file.name})});if(uploaded?.path)uploaded.path=publicAssetUrl(uploaded.path);return uploaded}
+async function publishNewProduct(){collect();const name=$('#newProductName').value.trim(),description=$('#newProductDescription').value.trim(),badge=$('#newProductBadge').value.trim(),categoryValue=$('#newProductCategory').value,file=$('#newProductImage').files[0];if(!name)throw new Error('Enter a product title.');if(!description)throw new Error('Add a product description.');if(!categoryValue)throw new Error('Choose a category or create a new one.');const sizes={};for(const k of PRODUCT_SIZES){const enabled=document.querySelector(`[data-new-size-enabled="${k}"]`)?.checked;const price=Number(document.querySelector(`[data-new-size-price="${k}"]`)?.value);sizes[k]={enabled:Boolean(enabled),price:Number.isFinite(price)&&price>=0?price:Number(data.commerce.sizes[k]?.price||0)}}if(!PRODUCT_SIZES.some(k=>sizes[k].enabled))throw new Error('Select at least one size.');const uploaded=await uploadFile(file);let category=categoryValue;if(categoryValue==='__new__'){const categoryName=$('#newCategoryName').value.trim();if(!categoryName)throw new Error('Enter the new category name.');let base=slugify(categoryName)||`category-${Date.now()}`,id=base,n=2;while(data.categories.some(c=>c.id===id)){id=`${base}-${n++}`}category=id;data.categories.push({id,name:categoryName,subtitle:`Shop ${categoryName} posters`,image:uploaded.path,accent:'#eeeeee'})}let base=slugify(name)||`product-${Date.now()}`,id=base,n=2;while(data.products.some(p=>p.id===id)){id=`${base}-${n++}`}data.products.push({id,name,category,image:uploaded.path,badge,description,sizes});const saved=await api('/api/admin/site',{method:'PUT',body:JSON.stringify(data)});data=saved.data;productAdminQuery=id;productAdminLimit=40;renderAll();resetNewProductForm();status('Product published to the store.')}
+function status(msg){const e=$('#saveStatus');e.textContent=msg;e.classList.add('show');clearTimeout(status.t);status.t=setTimeout(()=>e.classList.remove('show'),3000)}
+async function api(url,options={}){
+  if(localAdminMode && !HOSTED){
+    const clean=url.replace(/^\//,'');
+    const method=(options.method||'GET').toUpperCase();
+    if(clean==='api/admin/site'&&method==='GET')return localSiteData();
+    if(clean==='api/admin/site'&&method==='PUT'){
+      const next=typeof options.body==='string'?JSON.parse(options.body):options.body;
+      saveLocalSiteData(next);return {ok:true,data:clone(next)};
+    }
+    if(clean==='api/admin/orders'&&method==='GET')return [];
+    if(clean==='api/admin/upload'&&method==='POST'){
+      const body=typeof options.body==='string'?JSON.parse(options.body):options.body;
+      if(!body?.dataUrl)throw new Error('Choose an image first.');
+      return {path:body.dataUrl};
+    }
+    throw new Error('This feature needs the live InkWaves server. The admin dashboard itself can still be opened directly.');
+  }
+  const headers={...(options.headers||{})};if(token)headers.Authorization=`Bearer ${token}`;if(options.body&&!headers['Content-Type'])headers['Content-Type']='application/json';
+  try{const r=await fetch(adminApiUrl(url),{...options,headers});const type=r.headers.get('content-type')||'';const j=type.includes('application/json')?await r.json().catch(()=>({})):null;if(!r.ok)throw new Error(j?.error||'Server request could not be completed');return j}catch(e){if(e.message==='Failed to fetch')throw new Error('InkWaves server is not running.');throw e}
+}
+async function login(password){
+  if(password!==ADMIN_PASSWORD)throw new Error('Incorrect admin password.');
+  if(HOSTED){
+    localAdminMode=false;
+    const j=await api('/api/admin/login',{method:'POST',body:JSON.stringify({password})});
+    if(!j?.token)throw new Error('Central admin login failed.');
+    token=j.token;
+    sessionStorage.setItem('inkwave-admin-token',token);
+  }else{
+    token='local-admin';
+    localAdminMode=true;
+    sessionStorage.setItem('inkwave-admin-token',token);
+  }
+  await loadDashboard();
+}
+window.openInkWavesAdmin=async function(password=ADMIN_PASSWORD){return login(password)};
+async function loadDashboard(){
+  try{
+    if(!token)return;
+    if(HOSTED){
+      localAdminMode=false;
+      [data,orders]=await Promise.all([api('/api/admin/site'),api('/api/admin/orders')]);
+    }else{
+      localAdminMode=true;
+      data=localSiteData();orders=[];
+    }
+    $('#loginCard').hidden=true;$('#dashboard').hidden=false;$('#logoutBtn').hidden=false;renderAll();
+    status(HOSTED?'CENTRAL SYNC ONLINE — changes publish to every device.':'LOCAL PREVIEW MODE — changes stay on this device only.');
+  }catch(e){
+    token='';sessionStorage.removeItem('inkwave-admin-token');
+    $('#loginCard').hidden=false;$('#dashboard').hidden=true;$('#logoutBtn').hidden=true;
+    if(HOSTED){
+      $('#loginStatus').textContent=(e.message||'Central sync backend is unavailable.')+' The hosted admin must be connected to the InkWaves Node backend for products to appear on every device.';
+    }else if(e.message){$('#loginStatus').textContent=e.message}
+    throw e;
+  }
+}
+function renderAll(){renderOrders();renderContent();renderHero();renderCategories();renderNewProductForm();renderProducts();renderReviewsAdmin();renderCommerce()}
+function renderOrders(){if(!$('#orderList'))return;const paid=orders.filter(o=>o.paymentStatus==='paid'),pending=orders.filter(o=>o.paymentStatus==='pending'),revenue=paid.reduce((s,o)=>s+Number(o.totals?.total||0),0);$('#orderStats').innerHTML=`<article><span>TOTAL ORDERS</span><strong>${orders.length}</strong></article><article><span>PAID</span><strong>${paid.length}</strong></article><article><span>PENDING</span><strong>${pending.length}</strong></article><article><span>PAID VALUE</span><strong>${money(revenue)}</strong></article>`;$('#orderList').innerHTML=orders.length?orders.map(o=>{const items=(o.items||[]).map(i=>`<li>${esc(i.name)} × ${i.quantity} <small>${esc(i.options?.size||'')} · ${esc(i.options?.finish||'')}</small></li>`).join('');const notification=`Email: ${esc(o.notifications?.customerEmail||'pending')} · Admin: ${esc(o.notifications?.adminEmail||'pending')} · WhatsApp: ${esc(o.notifications?.whatsapp||'pending')}`;return`<article class="order-card"><div class="order-head"><div><span class="order-id">${esc(o.id)}</span><strong>${esc(o.customer?.name||'Customer')}</strong><small>${new Date(o.createdAt).toLocaleString('en-IN')}</small></div><div class="order-payment ${o.paymentStatus==='paid'?'paid':o.paymentStatus==='failed'?'failed':'pending'}">${esc(o.paymentStatus||'pending')}</div></div><div class="order-grid"><div><label>Customer</label><p>${esc(o.customer?.email||'')}<br>+91 ${esc(o.customer?.phone||'')}<br>${esc(o.customer?.address||'')}, ${esc(o.customer?.city||'')}, ${esc(o.customer?.state||'')} - ${esc(o.customer?.pincode||'')}</p></div><div><label>Payment</label><p><strong>${money(o.totals?.total)}</strong><br>Razorpay: ${esc(o.razorpayPaymentId||'Awaiting payment')}<br>Order: ${esc(o.razorpayOrderId||'')}</p></div><div class="order-items"><label>Items</label><ul>${items}</ul></div></div><div class="order-actions"><select data-order-status="${esc(o.id)}">${['New','Processing','Packed','Shipped','Delivered','Cancelled'].map(s=>`<option ${s===(o.fulfillmentStatus||'New')?'selected':''}>${s}</option>`).join('')}</select>${o.paymentStatus==='paid'?`<a class="mini-btn invoice-btn" href="api/admin/orders/${encodeURIComponent(o.id)}/invoice" data-invoice-id="${esc(o.id)}">Download invoice</a><button class="mini-btn" data-resend-order="${esc(o.id)}">Resend confirmation</button>`:''}<span>${notification}</span></div></article>`}).join(''):'<div class="orders-empty">No orders yet. Orders will appear here as soon as checkout creates them.</div>'}
+function renderContent(){$('#contentFields').innerHTML=contentDefs.map(([key,label,type])=>`<div class="field ${type==='textarea'?'wide':''}"><label>${label}</label>${type==='textarea'?`<textarea data-setting="${key}">${esc(data.settings[key])}</textarea>`:`<input data-setting="${key}" type="${type}" value="${esc(data.settings[key])}">`}</div>`).join('')}
+function uploadControl(value,index,type){return`<div><label>Image path</label><div class="upload-row"><input data-${type}-image="${index}" value="${esc(value)}"><button type="button" data-upload-for="${type}" data-index="${index}">Upload</button></div><div class="image-preview">${value?`<img src="${esc(value)}" alt="">`:''}</div></div>`}
+function renderHero(){$('#heroEditor').innerHTML=data.heroSlides.map((s,i)=>`<div class="editor-card"><div class="drag-num">${i+1}</div><div><label>Label</label><input data-slide-field="label" data-index="${i}" value="${esc(s.label)}"></div><div><label>Caption</label><input data-slide-field="caption" data-index="${i}" value="${esc(s.caption)}"></div>${uploadControl(s.image,i,'slide')}<div><label>Accent</label><input type="color" data-slide-field="accent" data-index="${i}" value="${esc(s.accent||'#d9ff00')}"></div><div class="card-actions"><button data-move-slide="up" data-index="${i}">↑</button><button data-move-slide="down" data-index="${i}">↓</button><button class="remove-btn" data-remove-slide="${i}">×</button></div></div>`).join('')}
+function renderCategories(){$('#categoryEditor').innerHTML=data.categories.map((c,i)=>`<div class="editor-card"><div class="drag-num">${i+1}</div><div><label>ID</label><input data-cat-field="id" data-index="${i}" value="${esc(c.id)}" readonly></div><div><label>Name</label><input data-cat-field="name" data-index="${i}" value="${esc(c.name)}"></div><div><label>Subtitle</label><input data-cat-field="subtitle" data-index="${i}" value="${esc(c.subtitle)}"></div>${uploadControl(c.image,i,'cat')}<div><label>Accent</label><input type="color" data-cat-field="accent" data-index="${i}" value="${esc(c.accent||'#eeeeee')}"></div><div class="card-actions"><button data-move-cat="up" data-index="${i}">↑</button><button data-move-cat="down" data-index="${i}">↓</button><button class="remove-btn" data-remove-cat="${i}">×</button></div></div>`).join('')}
+function renderProducts(){
+  const options=data.categories.map(c=>`<option value="${esc(c.id)}">${esc(c.name)}</option>`).join(''),q=productAdminQuery.trim().toLowerCase(),matched=data.products.map((p,i)=>({p,i})).filter(({p})=>!q||`${p.name} ${p.id} ${p.category}`.toLowerCase().includes(q)),visible=matched.slice(0,productAdminLimit);
+  $('#productEditor').innerHTML=visible.map(({p,i})=>`<div class="editor-card product-card"><span class="product-number">${String(i+1).padStart(2,'0')}</span><div><label>Product ID</label><input data-product-field="id" data-index="${i}" value="${esc(p.id)}"></div><div><label>Name</label><input data-product-field="name" data-index="${i}" value="${esc(p.name)}"></div><div><label>Category</label><select data-product-field="category" data-index="${i}">${options}</select></div><div><label>Badge</label><input data-product-field="badge" data-index="${i}" value="${esc(p.badge)}"></div><div class="full">${uploadControl(p.image,i,'product')}</div><div class="full"><label>Description</label><textarea data-product-field="description" data-index="${i}">${esc(p.description)}</textarea></div><div class="full product-size-editor"><label>Sizes & product prices <small>Leave price blank to use the global price.</small></label><div class="edit-size-grid">${PRODUCT_SIZES.map(k=>`<div class="edit-size-card"><label class="edit-size-toggle"><input type="checkbox" data-product-size-enabled="${k}" data-index="${i}" ${productSizeEnabled(p,k)?'checked':''}><strong>${k}</strong></label><span>₹ <input type="number" min="0" step="1" data-product-size-price="${k}" data-index="${i}" value="${p.sizes?.[k]?.price??''}" placeholder="Global ${effectiveProductPrice(p,k)}"></span></div>`).join('')}</div></div><button class="remove-product" data-remove-product="${i}">Remove product</button></div>`).join('');
+  visible.forEach(({p,i})=>{const sel=document.querySelector(`[data-product-field="category"][data-index="${i}"]`);if(sel)sel.value=p.category});
+  $('#adminProductCount').textContent=`Showing ${visible.length} of ${matched.length} · ${data.products.length} total`;$('#adminLoadMore').hidden=visible.length>=matched.length;if($('#adminProductSearch').value!==productAdminQuery)$('#adminProductSearch').value=productAdminQuery
+}
+function renderReviewsAdmin(){data.reviews=data.reviews||[];$('#reviewEditor').innerHTML=data.reviews.map((r,i)=>`<div class="editor-card"><div class="drag-num">${i+1}</div><div><label>Name</label><input data-review-field="name" data-index="${i}" value="${esc(r.name)}"></div><div><label>Location</label><input data-review-field="location" data-index="${i}" value="${esc(r.location)}"></div><div><label>Rating (1–5)</label><input type="number" min="1" max="5" data-review-field="rating" data-index="${i}" value="${Number(r.rating)||5}"></div><div><label>Product / label</label><input data-review-field="product" data-index="${i}" value="${esc(r.product||'')}"></div><div class="full"><label>Review</label><textarea data-review-field="text" data-index="${i}">${esc(r.text)}</textarea></div><div class="card-actions"><button data-move-review="up" data-index="${i}">↑</button><button data-move-review="down" data-index="${i}">↓</button><button class="remove-btn" data-remove-review="${i}">×</button></div></div>`).join('')}
+function renderCommerce(){const sizes=data.commerce.sizes;$('#commerceEditor').innerHTML=`<div class="commerce-sizes">${['A3','A4','A5','A6'].map(k=>{const x=sizes[k];return`<div class="commerce-card"><h3>${k}</h3><label>Price ₹</label><input type="number" data-size="${k}" data-field="price" value="${x.price}"><label>Dimensions</label><input data-size="${k}" data-field="detail" value="${esc(x.detail)}"><label>Offer text</label><input data-size="${k}" data-field="offer" value="${esc(x.offer)}"><label>Offer group quantity</label><input type="number" data-size="${k}" data-field="groupQty" value="${x.groupQty}"><label>Customer pays for</label><input type="number" data-size="${k}" data-field="payQty" value="${x.payQty}">${k==='A6'?`<label>20-poster bundle price ₹</label><input type="number" data-size="A6" data-field="bundle20Price" value="${x.bundle20Price||200}">`:''}</div>`}).join('')}</div><div class="commerce-other"><div class="commerce-card"><h3>Finishes</h3>${Object.entries(data.commerce.finishes).map(([k,v])=>`<label>${esc(k)} add-on ₹</label><input type="number" data-finish="${esc(k)}" value="${v.price}">`).join('')}</div><div class="commerce-card"><h3>Checkout</h3><p>Frame and personal-caption add-ons have been removed from the storefront. Matte laminated is the standard included finish. Size offers and coupons are the only priced poster options. Shipping is free.</p></div></div>`}
+function collect(){
+  document.querySelectorAll('[data-setting]').forEach(e=>data.settings[e.dataset.setting]=e.type==='number'?Number(e.value):e.value);document.querySelectorAll('[data-slide-field]').forEach(e=>data.heroSlides[+e.dataset.index][e.dataset.slideField]=e.value);document.querySelectorAll('[data-slide-image]').forEach(e=>data.heroSlides[+e.dataset.slideImage].image=e.value);document.querySelectorAll('[data-cat-field]').forEach(e=>data.categories[+e.dataset.index][e.dataset.catField]=e.value);document.querySelectorAll('[data-cat-image]').forEach(e=>data.categories[+e.dataset.catImage].image=e.value);document.querySelectorAll('[data-product-field]').forEach(e=>data.products[+e.dataset.index][e.dataset.productField]=e.value);document.querySelectorAll('[data-product-image]').forEach(e=>data.products[+e.dataset.productImage].image=e.value);
+  const touched=new Set();document.querySelectorAll('[data-product-size-enabled],[data-product-size-price]').forEach(e=>touched.add(+e.dataset.index));touched.forEach(i=>{const p=data.products[i];if(!p)return;p.sizes=p.sizes&&Object.keys(p.sizes).length?p.sizes:{};for(const k of PRODUCT_SIZES){const en=document.querySelector(`[data-product-size-enabled="${k}"][data-index="${i}"]`),pr=document.querySelector(`[data-product-size-price="${k}"][data-index="${i}"]`);if(!en&&!pr)continue;const raw=pr?.value??'';p.sizes[k]={enabled:Boolean(en?.checked),price:raw===''?null:Math.max(0,Number(raw)||0)}}});
+  document.querySelectorAll('[data-review-field]').forEach(e=>{const r=data.reviews[+e.dataset.index];r[e.dataset.reviewField]=e.type==='number'?Number(e.value):e.value});document.querySelectorAll('[data-size]').forEach(e=>data.commerce.sizes[e.dataset.size][e.dataset.field]=e.type==='number'?Number(e.value):e.value);document.querySelectorAll('[data-finish]').forEach(e=>data.commerce.finishes[e.dataset.finish].price=Number(e.value));data.commerce.captionPrice=0
+}
+async function saveAll(){collect();const j=await api('/api/admin/site',{method:'PUT',body:JSON.stringify(data)});data=j.data;renderAll();status(HOSTED?'Saved centrally. Store updated on every device.':'Saved in this browser.')}
+async function uploadImage(type,index){const input=document.createElement('input');input.type='file';input.accept='image/png,image/jpeg,image/webp';input.onchange=async()=>{const f=input.files[0];if(!f)return;if(f.size>15*1024*1024)return status('Image must be under 15 MB');const reader=new FileReader();reader.onload=async()=>{try{const j=await api('/api/admin/upload',{method:'POST',body:JSON.stringify({dataUrl:reader.result,filename:f.name})});j.path=publicAssetUrl(j.path);if(type==='slide')data.heroSlides[index].image=j.path;if(type==='cat')data.categories[index].image=j.path;if(type==='product')data.products[index].image=j.path;renderAll();status('Image uploaded. Save changes to publish.')}catch(e){status(e.message)}};reader.readAsDataURL(f)};input.click()}
+function move(arr,i,dir){const j=dir==='up'?i-1:i+1;if(j<0||j>=arr.length)return;[arr[i],arr[j]]=[arr[j],arr[i]]}
+$('#newProductCategory')?.addEventListener('change',e=>{if($('#newCategoryWrap'))$('#newCategoryWrap').hidden=e.target.value!=='__new__'});$('#newProductImage')?.addEventListener('change',e=>{const f=e.target.files[0],preview=$('#newProductPreview');if(!preview)return;if(!f){preview.innerHTML='<span>Choose a PNG, JPG or WebP image</span>';return}const url=URL.createObjectURL(f);preview.innerHTML=`<img src="${url}" alt="Product preview">`;setTimeout(()=>URL.revokeObjectURL(url),60000)});$('#publishProduct')?.addEventListener('click',async()=>{const b=$('#publishProduct'),msg=$('#productUploadStatus');try{b.disabled=true;b.textContent='Publishing…';if(msg)msg.textContent='Uploading image and saving product…';await publishNewProduct();if(msg)msg.textContent='Published successfully.'}catch(e){if(msg)msg.textContent=e.message;status(e.message)}finally{b.disabled=false;b.textContent='Publish product'}});
+$('#adminProductSearch')?.addEventListener('input',e=>{collect();productAdminQuery=e.target.value;productAdminLimit=40;renderProducts()});$('#adminLoadMore')?.addEventListener('click',()=>{collect();productAdminLimit+=40;renderProducts()});
+document.addEventListener('change',async e=>{const sel=e.target.closest('[data-order-status]');if(!sel)return;try{await api(`/api/admin/orders/${encodeURIComponent(sel.dataset.orderStatus)}/status`,{method:'PUT',body:JSON.stringify({status:sel.value})});status('Order status updated');await loadOrders()}catch(err){status(err.message)}});
+$('#logoutBtn').addEventListener('click',()=>{token='';sessionStorage.removeItem('inkwave-admin-token');localStorage.removeItem('inkwaves-ttw-admin-auth-v66');location.reload()});
+document.addEventListener('click',async e=>{const invoice=e.target.closest('[data-invoice-id]');if(invoice){e.preventDefault();try{const r=await fetch(adminApiUrl(invoice.getAttribute('href')),{headers:{Authorization:`Bearer ${token}`}});if(!r.ok)throw new Error('Could not download invoice');const blob=await r.blob(),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`InkWaves-${invoice.dataset.invoiceId}.pdf`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}catch(err){status(err.message)}return}const resend=e.target.closest('[data-resend-order]');if(resend){try{await api(`/api/admin/orders/${encodeURIComponent(resend.dataset.resendOrder)}/resend`,{method:'POST',body:'{}'});status('Confirmation resend attempted');await loadOrders()}catch(err){status(err.message)}return}if(e.target.id==='refreshOrders'){try{await loadOrders();status('Orders refreshed')}catch(err){status(err.message)}return}const tab=e.target.closest('[data-tab]');if(tab){document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('active',b===tab));document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));$(`#panel-${tab.dataset.tab}`).classList.add('active');return}if(e.target.id==='saveAll'){saveAll().catch(err=>status(err.message));return}if(e.target.id==='addSlide'){collect();data.heroSlides.push({image:'assets/pack-afterhours.svg',label:'NEW SLIDE',caption:'Edit this caption',accent:'#d9ff00'});renderHero();return}if(e.target.id==='addCategory'){collect();data.categories.push({id:`category-${data.categories.length+1}`,name:'New Category',subtitle:'Edit category description',image:'assets/pack-geometry.svg',accent:'#eeeeee'});renderCategories();renderProducts();return}if(e.target.id==='addReview'){collect();data.reviews.push({name:'Customer name',location:'City',rating:5,text:'Add a genuine customer review.',product:''});renderReviewsAdmin();return}const u=e.target.closest('[data-upload-for]');if(u){uploadImage(u.dataset.uploadFor,+u.dataset.index);return}const rs=e.target.closest('[data-remove-slide]');if(rs){collect();data.heroSlides.splice(+rs.dataset.removeSlide,1);renderHero();return}const rc=e.target.closest('[data-remove-cat]');if(rc){collect();data.categories.splice(+rc.dataset.removeCat,1);renderCategories();renderProducts();return}const rp=e.target.closest('[data-remove-product]');if(rp){collect();data.products.splice(+rp.dataset.removeProduct,1);renderProducts();return}const rr=e.target.closest('[data-remove-review]');if(rr){collect();data.reviews.splice(+rr.dataset.removeReview,1);renderReviewsAdmin();return}const ms=e.target.closest('[data-move-slide]');if(ms){collect();move(data.heroSlides,+ms.dataset.index,ms.dataset.moveSlide);renderHero();return}const mc=e.target.closest('[data-move-cat]');if(mc){collect();move(data.categories,+mc.dataset.index,mc.dataset.moveCat);renderCategories();return}const mr=e.target.closest('[data-move-review]');if(mr){collect();move(data.reviews,+mr.dataset.index,mr.dataset.moveReview);renderReviewsAdmin();return}});
+if(HOSTED&&token&&!localAdminMode){loadDashboard().catch(()=>{})}else if(!HOSTED&&token==='local-admin'){loadDashboard().catch(()=>{})}
 
-    <section class="admin-secure-area hidden" id="adminSecureArea">
-      <div class="admin-session-bar">
-        <span>Logged in as client admin</span>
-        <button class="button small" id="adminLogout" type="button">Logout</button>
-      </div>
+</script>
+<script>
+(function(){
+  const ADMIN_USERNAME='admin';
+  const ADMIN_PASSWORD='InkWaves@2026';
+  const AUTH_KEY='inkwaves-ttw-admin-auth-v66';
+  const form=document.getElementById('loginForm');
+  const username=document.getElementById('username');
+  const password=document.getElementById('password');
+  const loginStatus=document.getElementById('loginStatus');
+  const hosted=(location.protocol==='http:'||location.protocol==='https:');
 
-      <section class="admin-pro-shell section">
-        <aside class="admin-pro-sidebar">
-          <span class="eyebrow">Control panel</span>
-          <h2>Website admin.</h2>
-          <button type="button" class="admin-pro-tab active" data-admin-panel="dashboard">Dashboard</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="products">Upload / remove products</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="orders">View orders</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="analytics">Monthly sales & analytics</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="customers">Live customers</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="content">Website content</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="mail">Order email setup</button>
-          <p class="admin-pro-note">Orders are saved in browser storage for this static version. For live orders from all customers, connect EmailJS or a backend.</p>
-        </aside>
+  async function openDashboard(){
+    loginStatus.textContent=hosted?'Connecting to central InkWaves catalog…':'';
+    await window.openInkWavesAdmin(password.value||ADMIN_PASSWORD);
+    if(!hosted)localStorage.setItem(AUTH_KEY,'1');
+  }
 
-        <div class="admin-pro-main">
-          <section class="admin-pro-panel active" data-admin-panel-view="dashboard">
-            <div class="admin-panel-head">
-              <div><span class="eyebrow">Overview</span><h2>Store dashboard</h2></div>
-              <button type="button" class="button small" id="refreshAdminDashboard">Refresh</button>
-            </div>
-            <div class="admin-stat-grid">
-              <div class="admin-stat-card"><span>Total catalogue</span><strong id="adminTotalProducts">0</strong><small>Seed + client-added products</small></div>
-              <div class="admin-stat-card"><span>Client uploads</span><strong id="adminUploadedProducts">0</strong><small>Products added from this panel</small></div>
-              <div class="admin-stat-card"><span>Orders received</span><strong id="adminOrderCount">0</strong><small>Saved checkout orders</small></div>
-              <div class="admin-stat-card"><span>Order value</span><strong id="adminOrderValue">₹0</strong><small>Total value in order list</small></div>
-            </div>
-            <div class="admin-help-card">
-              <h3>How order email works</h3>
-              <p>The website already saves checkout orders into the admin order list. To receive every new order by email, fill the EmailJS keys in the <strong>Order email setup</strong> tab or connect this static website to a real backend.</p>
-            </div>
-          </section>
+  form.addEventListener('submit',async function(event){
+    event.preventDefault();
+    loginStatus.textContent='';
+    if(username.value.trim()!==ADMIN_USERNAME || password.value!==ADMIN_PASSWORD){
+      loginStatus.textContent='Incorrect username or password.';
+      return;
+    }
+    try{await openDashboard()}catch(error){
+      console.error(error);
+      if(!loginStatus.textContent)loginStatus.textContent=error.message||'Central sync could not connect.';
+    }
+  });
 
-          <section class="admin-pro-panel" data-admin-panel-view="products">
-            <section class="admin-layout">
-              <form class="admin-form" id="productAdminForm">
-                <input type="hidden" id="editingProductId" />
-                <div class="admin-form-head">
-                  <div><span class="eyebrow">Product upload panel</span><h2 id="adminFormTitle">Add new product</h2></div>
-                  <button type="button" class="text-button" id="resetAdminForm">Clear form</button>
-                </div>
-                <div class="form-grid">
-                  <label>Product name<input id="adminName" required placeholder="e.g. JOOLA Carbon Pro Racket" /></label>
-                  <label>Brand<select id="adminBrand" required>
-                    <option value="joola">JOOLA</option><option value="tibhar">Tibhar</option><option value="butterfly">Butterfly</option><option value="stiga">Stiga</option><option value="dhs">DHS</option><option value="yinhe">YinHe</option><option value="xiom">Xiom</option><option value="andro">Andro</option><option value="dawei">Dawei</option><option value="other">Other</option>
-                  </select></label>
-                  <label>Category<select id="adminCategory" required>
-                    <option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option><option value="glue">Glue</option><option value="clothing">Apparel</option>
-                  </select></label>
-                  <label>Price ₹<input id="adminPrice" type="number" min="1" required placeholder="4999" /></label>
-                  <label>Badge<input id="adminBadge" placeholder="New / Bestseller / Sale" /></label>
-                  <label>Rating<input id="adminRating" type="number" min="1" max="5" step="0.1" value="4.7" /></label>
-                  <label class="wide">Upload product image<input id="adminImageFile" type="file" accept="image/*" /></label>
-                  <label class="wide">Or paste image URL<input id="adminImageUrl" placeholder="https://example.com/product.jpg" /></label>
-                  <label class="wide">Description<textarea id="adminDescription" rows="4" placeholder="Short product description"></textarea></label>
-                  <label class="wide">Features<textarea id="adminFeatures" rows="3" placeholder="Comma separated: Carbon blade, Speed rubber, Pro grip"></textarea></label>
-                </div>
-                <div class="image-preview" id="adminImagePreview"><span>No image selected</span></div>
-                <button class="button primary" type="submit">Save product to website</button>
-                <p class="admin-note">Use this to upload new products, edit client-added products, or remove products added by this panel.</p>
-              </form>
-
-              <aside class="admin-products">
-                <div class="admin-products-head">
-                  <span class="eyebrow">Client-added products</span>
-                  <button class="button small" id="exportProducts" type="button">Export JSON</button>
-                </div>
-                <div id="adminProductList"></div>
-                <label class="import-box">Import product JSON<textarea id="importProductsInput" rows="4" placeholder='Paste exported JSON here'></textarea><button class="button small" id="importProducts" type="button">Import products</button></label>
-              </aside>
-            </section>
-          </section>
-
-          <section class="admin-pro-panel" data-admin-panel-view="orders">
-            <div class="admin-panel-head">
-              <div><span class="eyebrow">Order management</span><h2>View orders</h2></div>
-              <div class="admin-head-actions">
-                <button type="button" class="button small" id="refreshOrders">Refresh</button>
-                <button type="button" class="button small" id="exportOrders">Export orders</button>
-                <button type="button" class="button small danger" id="clearOrders">Clear orders</button>
-              </div>
-            </div>
-            <div class="admin-orders-toolbar">
-              <input id="adminOrderSearch" placeholder="Search by order ID, customer, phone or product" />
-            </div>
-            <div class="admin-orders-list" id="adminOrdersList"></div>
-          </section>
-
-          
-          <section class="admin-pro-panel" data-admin-panel-view="analytics">
-            <div class="admin-panel-head"><div><span class="eyebrow">Live sales analytics</span><h2>Monthly sales.</h2></div><button type="button" class="button small" id="refreshAnalytics">Refresh analytics</button></div>
-            <div class="admin-stat-grid analytics-stat-grid">
-              <div class="admin-stat-card"><span>This month sales</span><strong id="analyticsMonthSales">₹0</strong><small>Completed checkout value</small></div>
-              <div class="admin-stat-card"><span>This month orders</span><strong id="analyticsMonthOrders">0</strong><small>Orders placed this month</small></div>
-              <div class="admin-stat-card"><span>Average order value</span><strong id="analyticsAov">₹0</strong><small>Across all saved orders</small></div>
-              <div class="admin-stat-card"><span>Top item</span><strong id="analyticsTopItem">-</strong><small>By quantity sold</small></div>
-            </div>
-            <div class="analytics-grid"><div class="analytics-card"><div class="admin-products-head"><span class="eyebrow">Last 6 months</span><strong>Sales trend</strong></div><div class="sales-bars" id="monthlySalesBars"></div></div><div class="analytics-card"><div class="admin-products-head"><span class="eyebrow">Products</span><strong>Best sellers</strong></div><div class="best-seller-list" id="bestSellerList"></div></div></div>
-          </section>
-
-          <section class="admin-pro-panel" data-admin-panel-view="customers">
-            <div class="admin-panel-head"><div><span class="eyebrow">Live customers</span><h2>Customer list.</h2></div><button type="button" class="button small" id="exportCustomers">Export customers</button></div>
-            <div class="admin-orders-toolbar"><input id="adminCustomerSearch" placeholder="Search customer by name, email, phone or city" /></div>
-            <div class="admin-stat-grid analytics-stat-grid">
-              <div class="admin-stat-card"><span>Total customers</span><strong id="customerTotalCount">0</strong><small>Unique phone/email customers</small></div>
-              <div class="admin-stat-card"><span>Repeat customers</span><strong id="customerRepeatCount">0</strong><small>More than one order</small></div>
-              <div class="admin-stat-card"><span>Customer revenue</span><strong id="customerTotalValue">₹0</strong><small>Total from listed customers</small></div>
-              <div class="admin-stat-card"><span>Top customer</span><strong id="customerTopName">-</strong><small>By total spend</small></div>
-            </div>
-            <div class="customer-list" id="adminCustomersList"></div>
-          </section>
-
-          <section class="admin-pro-panel" data-admin-panel-view="content">
-            <div class="admin-panel-head">
-              <div><span class="eyebrow">Content editor</span><h2>Change website content</h2></div>
-              <button type="button" class="button small" id="resetSiteContent">Reset content</button>
-            </div>
-            <form class="admin-content-form" id="siteContentForm">
-              <label>Announcement text<input id="contentAnnouncement" placeholder="NO RETURN AND EXCHANGE POLICY" /></label>
-              <label>Homepage hero title<input id="contentHeroTitle" placeholder="Premium table tennis gear." /></label>
-              <label>Homepage hero subtitle<textarea id="contentHeroSubtitle" rows="3" placeholder="Short homepage text"></textarea></label>
-              <label>Contact phone<input id="contentPhone" placeholder="+91 95581 87425" /></label>
-              <label>WhatsApp consultation number<input id="contentWhatsapp" placeholder="917201996720" /></label>
-              <label>WhatsApp order number<input id="contentOrderWhatsapp" placeholder="917201996720" /></label>
-              <label>Order email<input id="contentOrderEmail" type="email" placeholder="orders@tabletenniswala.in" /></label>
-              <button class="button primary" type="submit">Save website content</button>
-              <p class="admin-note">This static version saves content in browser storage. For a live site, connect the same fields to a backend/database so every visitor sees the changes.</p>
-            </form>
-          </section>
-
-          <section class="admin-pro-panel" data-admin-panel-view="mail">
-            <div class="admin-panel-head">
-              <div><span class="eyebrow">Email automation</span><h2>Receive orders by mail</h2></div>
-              <button type="button" class="button small" id="testOrderEmail">Send test email</button>
-            </div>
-            <form class="admin-content-form" id="emailConfigForm">
-              <label>Owner order email<input id="mailOwnerEmail" type="email" placeholder="orders@tabletenniswala.in" /></label>
-              <label>EmailJS Public Key<input id="mailPublicKey" placeholder="public_xxxxxxxxx" /></label>
-              <label>EmailJS Service ID<input id="mailServiceId" placeholder="service_xxxxxxx" /></label>
-              <label>Owner Template ID<input id="mailOwnerTemplateId" placeholder="template_owner" /></label>
-              <label>Customer Template ID<input id="mailCustomerTemplateId" placeholder="template_customer" /></label>
-              <button class="button primary" type="submit">Save email setup</button>
-              <p class="admin-note">EmailJS needs a free EmailJS account and two templates. Without these keys, orders will still appear under View orders but live customer emails will not be sent automatically. Automatic customer emails require EmailJS keys, otherwise use the email draft button in View Orders.</p>
-            </form>
-            <div class="admin-help-card">
-              <h3>Template variables to use</h3>
-              <p><code>order_id</code>, <code>store_email</code>, <code>customer_name</code>, <code>customer_email</code>, <code>customer_phone</code>, <code>customer_address</code>, <code>order_total</code>, <code>payment_id</code>, <code>order_items</code>.</p>
-            </div>
-          </section>
-        </div>
-      </section>
-    </section>
-
-  </main>
-  <footer class="site-footer">
-  <div class="footer-brand">
-    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i></span><span>TABLE TENNIS WALA</span></a>
-    <p>Premium table tennis equipment, branded products and custom racket builds.</p>
-  </div>
-  <div class="footer-links">
-    <h4>Brands</h4>
-    <a href="joola.html">JOOLA</a>
-    <a href="tibhar.html">Tibhar</a>
-    <a href="butterfly.html">Butterfly</a>
-    <a href="stiga.html">Stiga</a>
-        <a href="dhs.html">DHS</a>
-        <a href="yinhe.html">YinHe</a>
-  </div>
-  <div class="footer-links">
-    <h4>Store</h4>
-    <a href="index.html#about">About us</a>
-    <a href="brands.html">All brands</a>
-    <a href="products.html">All products</a>
-    <a href="customize.html">Customize racket</a>
-    <a href="privacy.html">Privacy Policy</a>
-  </div>
-  <div class="footer-contact">
-    <h4>Contact</h4>
-    <a href="mailto:hello@tabletenniswala.in">hello@tabletenniswala.in</a>
-    <a href="tel:+917201996720">+91 95581 87425</a>
-    <p>Mon–Sat, 10:00–19:00</p>
-  </div>
-  <div class="footer-bottom">
-    <p>© <span id="year"></span> Table Tennis Wala. All rights reserved.</p>
-    <p>No return and exchange policy. Brand names belong to their respective owners.</p>
-  </div>
-</footer>
-  <aside class="cart-drawer" aria-hidden="true"><div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div><div class="cart-items"></div><div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div><div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div></aside>
-<div class="page-backdrop"></div><div class="toast" role="status" aria-live="polite"></div>
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="script.js"></script>
+  // Direct-file preview can remember login. Hosted admin uses a real server session token.
+  if(!hosted && localStorage.getItem(AUTH_KEY)==='1'){
+    password.value=ADMIN_PASSWORD;
+    openDashboard().catch(function(){localStorage.removeItem(AUTH_KEY)});
+  }
+})();
+</script>
 </body></html>
