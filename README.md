@@ -604,3 +604,7 @@ JS syntax check: OK
 - Fixed cart drawer item visibility bug: cart items now render and show whenever products/custom builds are in cart.
 - Fixed stale display:none issue on .cart-items after cart changed from empty to filled.
 - Cart icon opens the drawer after forcing cart re-render from localStorage.
+
+- Added Firebase Firestore cloud sync support so admin product uploads, content edits and orders can sync across devices after Firebase config is added in script.js.
+- Added CLOUD_SYNC_SETUP.md and an admin Cloud Sync status card.
+- The site still falls back to localStorage when Firebase config is empty.

@@ -14410,6 +14410,19 @@ const EMAILJS_CONFIG = {
   ownerEmail: "orders@tabletenniswala.in"
 };
 
+// Cloud sync configuration. Fill this Firebase config before hosting to make admin changes sync across devices.
+// Without this, product uploads/content/orders stay in this browser only because localStorage is device-specific.
+const FIREBASE_CONFIG = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
+};
+const TTW_CLOUD_SITE_ID = "tabletenniswala-live";
+
+
 const state = {
   sort: "featured",
   cart: JSON.parse(localStorage.getItem(STORAGE_CART) || "[]")
@@ -20117,5 +20130,363 @@ document.addEventListener("DOMContentLoaded", () => {
 
   window.addEventListener("storage", event => {
     if (event.key === CART_KEY) window.ttwRenderCartDrawer();
+  });
+})();
+
+
+/* FINAL FIX: cloud sync for admin products/content/orders across devices */
+(function () {
+  const PRODUCT_KEY = "ttw-admin-products";
+  const ORDER_KEY = "ttw-orders";
+  const CONTENT_KEY = "ttw-site-content";
+  const CLOUD_STATUS_KEY = "ttw-cloud-sync-status";
+  const SYNC_KEYS = new Set([PRODUCT_KEY, ORDER_KEY, CONTENT_KEY]);
+
+  let db = null;
+  let cloudReady = false;
+  let applyingCloud = false;
+  let nativeSetItem = null;
+  let nativeRemoveItem = null;
+  const writeTimers = new Map();
+
+  function readJSON(key, fallback) {
+    try {
+      return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback));
+    } catch (error) {
+      return fallback;
+    }
+  }
+
+  function setStatus(status, detail) {
+    const next = {
+      status,
+      detail: detail || "",
+      at: new Date().toISOString()
+    };
+    try {
+      (nativeSetItem || Storage.prototype.setItem).call(localStorage, CLOUD_STATUS_KEY, JSON.stringify(next));
+    } catch (error) {}
+    renderCloudStatusCard();
+  }
+
+  function moneyCloud(value) {
+    try {
+      return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
+    } catch (error) {
+      return "₹" + Number(value || 0).toLocaleString("en-IN");
+    }
+  }
+
+  function safeHtml(value) {
+    return String(value ?? "").replace(/[&<>\"']/g, char => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#039;"
+    }[char]));
+  }
+
+  function hasFirebaseConfig() {
+    try {
+      return Boolean(
+        window.firebase &&
+        typeof FIREBASE_CONFIG !== "undefined" &&
+        FIREBASE_CONFIG.apiKey &&
+        FIREBASE_CONFIG.projectId &&
+        FIREBASE_CONFIG.appId
+      );
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function docRef(name) {
+    return db.collection("ttw-sites").doc(typeof TTW_CLOUD_SITE_ID !== "undefined" ? TTW_CLOUD_SITE_ID : "tabletenniswala-live").collection("state").doc(name);
+  }
+
+  function cloudNameForKey(key) {
+    if (key === PRODUCT_KEY) return "products";
+    if (key === ORDER_KEY) return "orders";
+    if (key === CONTENT_KEY) return "content";
+    return key;
+  }
+
+  function normalizePayload(key, value) {
+    if (key === PRODUCT_KEY || key === ORDER_KEY) {
+      return Array.isArray(value) ? value : [];
+    }
+    if (key === CONTENT_KEY) {
+      return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+    }
+    return value;
+  }
+
+  function mergeById(localItems, cloudItems, idField) {
+    const map = new Map();
+    (Array.isArray(cloudItems) ? cloudItems : []).forEach(item => {
+      const key = item?.[idField] || item?.id || JSON.stringify(item);
+      map.set(String(key), item);
+    });
+    (Array.isArray(localItems) ? localItems : []).forEach(item => {
+      const key = item?.[idField] || item?.id || JSON.stringify(item);
+      if (!map.has(String(key))) map.set(String(key), item);
+    });
+    return [...map.values()];
+  }
+
+  function mergeCloudAndLocal(key, cloudValue, localValue) {
+    if (key === ORDER_KEY) return mergeById(localValue, cloudValue, "orderId");
+    if (key === PRODUCT_KEY) return mergeById(localValue, cloudValue, "id");
+    if (key === CONTENT_KEY) return { ...(localValue || {}), ...(cloudValue || {}) };
+    return cloudValue;
+  }
+
+  async function writeCloud(key, rawValue) {
+    if (!cloudReady || applyingCloud || !SYNC_KEYS.has(key)) return;
+    const value = normalizePayload(key, rawValue);
+    try {
+      await docRef(cloudNameForKey(key)).set({
+        value,
+        updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+        source: location.hostname || "local"
+      }, { merge: true });
+      setStatus("connected", "Last synced " + new Date().toLocaleTimeString());
+    } catch (error) {
+      console.error("Cloud sync write failed", key, error);
+      setStatus("error", "Cloud write failed: " + (error.message || error));
+    }
+  }
+
+  function scheduleCloudWrite(key, value) {
+    if (!cloudReady || applyingCloud || !SYNC_KEYS.has(key)) return;
+    clearTimeout(writeTimers.get(key));
+    writeTimers.set(key, setTimeout(() => writeCloud(key, value), 250));
+  }
+
+  function renderAdminOrdersFromCloudData() {
+    const list = document.getElementById("adminOrdersList");
+    if (!list) return;
+    const query = (document.getElementById("adminOrderSearch")?.value || "").toLowerCase();
+    const orders = readJSON(ORDER_KEY, []).filter(order => {
+      if (!query) return true;
+      return [
+        order.orderId,
+        order.customer?.fullName,
+        order.customer?.email,
+        order.customer?.phone,
+        order.customer?.city,
+        (order.items || []).map(item => `${item.name} ${item.details || ""}`).join(" ")
+      ].join(" ").toLowerCase().includes(query);
+    }).reverse();
+
+    if (!orders.length) {
+      list.innerHTML = `<div class="admin-empty-card"><h3>No orders yet</h3><p>Orders placed through checkout will appear here.</p></div>`;
+      updateDashboardFromCloudData();
+      return;
+    }
+
+    list.innerHTML = orders.map(order => {
+      const customer = order.customer || {};
+      const items = (order.items || []).map(item => `<li><strong>${safeHtml(item.name)}</strong> × ${Number(item.quantity || 1)}<small>${item.details || ""}</small></li>`).join("");
+      return `<article class="admin-order-card">
+        <div class="admin-order-top">
+          <div><span class="eyebrow">${safeHtml(order.orderId || "Order")}</span><h3>${safeHtml(customer.fullName || "Customer")}</h3></div>
+          <strong>${moneyCloud(order.amount)}</strong>
+        </div>
+        <div class="admin-order-meta">
+          <span>${new Date(order.date || Date.now()).toLocaleString()}</span>
+          <span>${safeHtml(order.paymentMode || "WhatsApp order")}</span>
+          <span>${safeHtml(order.paymentStatus || "Pending")}</span>
+        </div>
+        <div class="admin-order-customer">
+          <p><b>Email:</b> ${safeHtml(customer.email || "-")}</p>
+          <p><b>Phone:</b> ${safeHtml(customer.phone || "-")}</p>
+          <p><b>Address:</b> ${safeHtml([customer.address, customer.city, customer.state, customer.pincode].filter(Boolean).join(", "))}</p>
+          ${customer.notes ? `<p><b>Notes:</b> ${safeHtml(customer.notes)}</p>` : ""}
+        </div>
+        <ul class="admin-order-items">${items}</ul>
+      </article>`;
+    }).join("");
+    updateDashboardFromCloudData();
+  }
+
+  function updateDashboardFromCloudData() {
+    const orders = readJSON(ORDER_KEY, []);
+    const uploaded = readJSON(PRODUCT_KEY, []);
+    const totalValue = orders.reduce((sum, order) => sum + Number(order.amount || 0), 0);
+    const seedCount = typeof seedProducts !== "undefined" && Array.isArray(seedProducts) ? seedProducts.length : 0;
+    const els = {
+      adminTotalProducts: seedCount + uploaded.length,
+      adminUploadedProducts: uploaded.length,
+      adminOrderCount: orders.length,
+      adminOrderValue: moneyCloud(totalValue)
+    };
+    Object.entries(els).forEach(([id, value]) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = value;
+    });
+  }
+
+  function rerenderAfterCloud(key) {
+    try {
+      if (key === PRODUCT_KEY) {
+        if (typeof renderAdminProducts === "function") renderAdminProducts();
+        if (typeof renderHomeProducts === "function") renderHomeProducts();
+        if (typeof renderBrandProducts === "function") renderBrandProducts();
+        if (typeof forceRenderProducts === "function") forceRenderProducts();
+        document.dispatchEvent(new CustomEvent("ttw:cloud-products-updated"));
+      }
+      if (key === ORDER_KEY) {
+        renderAdminOrdersFromCloudData();
+        if (typeof renderAdminAnalytics === "function") renderAdminAnalytics();
+        if (typeof renderAdminCustomers === "function") renderAdminCustomers();
+        document.dispatchEvent(new CustomEvent("ttw:cloud-orders-updated"));
+      }
+      if (key === CONTENT_KEY) {
+        document.dispatchEvent(new CustomEvent("ttw:cloud-content-updated"));
+      }
+      updateDashboardFromCloudData();
+    } catch (error) {
+      console.warn("Cloud rerender issue", error);
+    }
+  }
+
+  function setLocalFromCloud(key, value) {
+    applyingCloud = true;
+    try {
+      nativeSetItem.call(localStorage, key, JSON.stringify(value));
+    } finally {
+      applyingCloud = false;
+    }
+    rerenderAfterCloud(key);
+  }
+
+  async function pullInitial(key) {
+    const name = cloudNameForKey(key);
+    const localValue = readJSON(key, key === CONTENT_KEY ? {} : []);
+    try {
+      const snap = await docRef(name).get();
+      if (!snap.exists) {
+        if ((Array.isArray(localValue) && localValue.length) || (!Array.isArray(localValue) && Object.keys(localValue || {}).length)) {
+          await writeCloud(key, localValue);
+        }
+        return;
+      }
+      const cloudValue = normalizePayload(key, snap.data()?.value);
+      const merged = mergeCloudAndLocal(key, cloudValue, localValue);
+      setLocalFromCloud(key, merged);
+      // For products/orders, also write merged version back so no local-only changes are lost on first connection.
+      if (JSON.stringify(merged) !== JSON.stringify(cloudValue)) await writeCloud(key, merged);
+    } catch (error) {
+      console.error("Cloud initial pull failed", key, error);
+      setStatus("error", "Cloud pull failed: " + (error.message || error));
+    }
+  }
+
+  function subscribeKey(key) {
+    const name = cloudNameForKey(key);
+    docRef(name).onSnapshot(snapshot => {
+      if (!snapshot.exists) return;
+      const cloudValue = normalizePayload(key, snapshot.data()?.value);
+      const localValue = readJSON(key, key === CONTENT_KEY ? {} : []);
+      const next = mergeCloudAndLocal(key, cloudValue, localValue);
+      if (JSON.stringify(next) !== JSON.stringify(localValue)) {
+        setLocalFromCloud(key, next);
+      }
+      setStatus("connected", "Live sync active");
+    }, error => {
+      console.error("Cloud sync listener failed", key, error);
+      setStatus("error", "Live sync listener failed: " + (error.message || error));
+    });
+  }
+
+  function patchLocalStorageWrites() {
+    if (Storage.prototype.__ttwCloudPatched) return;
+    nativeSetItem = Storage.prototype.setItem;
+    nativeRemoveItem = Storage.prototype.removeItem;
+    Storage.prototype.setItem = function (key, value) {
+      nativeSetItem.apply(this, arguments);
+      if (this === localStorage && SYNC_KEYS.has(key) && !applyingCloud) {
+        let parsed = value;
+        try { parsed = JSON.parse(value); } catch (error) {}
+        scheduleCloudWrite(key, parsed);
+      }
+    };
+    Storage.prototype.removeItem = function (key) {
+      nativeRemoveItem.apply(this, arguments);
+      if (this === localStorage && SYNC_KEYS.has(key) && !applyingCloud) {
+        scheduleCloudWrite(key, key === CONTENT_KEY ? {} : []);
+      }
+    };
+    Storage.prototype.__ttwCloudPatched = true;
+  }
+
+  function renderCloudStatusCard() {
+    const secure = document.getElementById("adminSecureArea");
+    if (!secure) return;
+    let card = document.getElementById("cloudSyncStatusCard");
+    if (!card) {
+      card = document.createElement("div");
+      card.id = "cloudSyncStatusCard";
+      card.className = "cloud-sync-card";
+      secure.prepend(card);
+    }
+    const status = readJSON(CLOUD_STATUS_KEY, { status: "local", detail: "Cloud sync not configured" });
+    const configured = hasFirebaseConfig();
+    card.innerHTML = `
+      <div>
+        <span class="eyebrow">Cloud sync</span>
+        <h3>${configured ? (status.status === "connected" ? "Connected across devices" : "Firebase configured") : "Local browser only"}</h3>
+        <p>${configured ? (status.detail || "Connecting to Firebase…") : "Admin product uploads, content edits and orders only sync to other devices after Firebase config is added in script.js."}</p>
+      </div>
+      <div class="cloud-sync-actions">
+        <button type="button" class="button small" id="cloudManualRefresh">Refresh cloud data</button>
+        <a class="button small ghost" href="CLOUD_SYNC_SETUP.md" target="_blank" rel="noopener">Setup guide</a>
+      </div>
+    `;
+    document.getElementById("cloudManualRefresh")?.addEventListener("click", () => {
+      if (!cloudReady) {
+        setStatus("local", "Firebase config missing in script.js");
+        return;
+      }
+      Promise.all([...SYNC_KEYS].map(pullInitial)).then(() => setStatus("connected", "Manual refresh complete"));
+    }, { once: true });
+  }
+
+  async function initCloudSync() {
+    patchLocalStorageWrites();
+    renderCloudStatusCard();
+    if (!hasFirebaseConfig()) {
+      setStatus("local", "Firebase config missing in script.js");
+      return;
+    }
+    try {
+      if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+      db = firebase.firestore();
+      cloudReady = true;
+      setStatus("connecting", "Connecting to Firebase…");
+      await Promise.all([...SYNC_KEYS].map(pullInitial));
+      [...SYNC_KEYS].forEach(subscribeKey);
+      setStatus("connected", "Live sync active");
+    } catch (error) {
+      console.error("Cloud sync init failed", error);
+      setStatus("error", "Cloud sync failed: " + (error.message || error));
+    }
+  }
+
+  // Expose for debugging/setup.
+  window.ttwCloudSync = {
+    init: initCloudSync,
+    status: () => readJSON(CLOUD_STATUS_KEY, {}),
+    pushProducts: () => writeCloud(PRODUCT_KEY, readJSON(PRODUCT_KEY, [])),
+    pushOrders: () => writeCloud(ORDER_KEY, readJSON(ORDER_KEY, [])),
+    pushContent: () => writeCloud(CONTENT_KEY, readJSON(CONTENT_KEY, {})),
+    pullAll: () => Promise.all([...SYNC_KEYS].map(pullInitial))
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    initCloudSync();
+    document.getElementById("adminOrderSearch")?.addEventListener("input", () => setTimeout(renderAdminOrdersFromCloudData, 40));
   });
 })();

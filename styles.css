@@ -14047,3 +14047,51 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
     height: 76px !important;
   }
 }
+
+
+/* FINAL FIX: admin cloud sync status */
+.cloud-sync-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  margin: 0 0 22px;
+  padding: 20px;
+  border-radius: 26px;
+  border: 1px solid rgba(37, 211, 102, .24);
+  background:
+    radial-gradient(circle at 92% 12%, rgba(37, 211, 102, .16), transparent 28%),
+    #ffffff;
+  box-shadow: 0 18px 44px rgba(17, 19, 17, .06);
+}
+
+.cloud-sync-card h3 {
+  margin: 6px 0 6px;
+  font-size: 26px;
+  letter-spacing: -.055em;
+}
+
+.cloud-sync-card p {
+  margin: 0;
+  color: rgba(17, 19, 17, .62);
+  font-weight: 760;
+  line-height: 1.55;
+}
+
+.cloud-sync-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 760px) {
+  .cloud-sync-card {
+    grid-template-columns: 1fr;
+  }
+  .cloud-sync-actions,
+  .cloud-sync-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_zip": "table-tennis-wala-cart-drawer-items-fixed.zip",
+  "firebase_scripts_added": true,
+  "firebase_config_added": true,
+  "cloud_sync_block": true,
+  "setup_doc": true,
+  "js_check": "JS syntax OK"
+}
