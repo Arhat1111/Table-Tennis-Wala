@@ -14412,7 +14412,7 @@ const EMAILJS_CONFIG = {
 
 // Cloud sync configuration. Fill this Firebase config before hosting to make admin changes sync across devices.
 // Without this, product uploads/content/orders stay in this browser only because localStorage is device-specific.
-const FIREBASE_CONFIG = {
+const FIREBASE_CONFIG = window.TTW_FIREBASE_CONFIG || {
   apiKey: "",
   authDomain: "",
   projectId: "",
@@ -14420,7 +14420,7 @@ const FIREBASE_CONFIG = {
   messagingSenderId: "",
   appId: ""
 };
-const TTW_CLOUD_SITE_ID = "tabletenniswala-live";
+const TTW_CLOUD_SITE_ID = window.TTW_CLOUD_SITE_ID || "tabletenniswala-live";
 
 
 const state = {
@@ -14979,6 +14979,37 @@ function initAdmin() {
   });
 }
 
+
+function resizeAdminImageFile(file, maxSize = 900, quality = 0.72) {
+  return new Promise((resolve, reject) => {
+    if (!file || !file.type || !file.type.startsWith("image/")) {
+      reject(new Error("Please upload an image file"));
+      return;
+    }
+    const img = new Image();
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("Image reading failed"));
+    reader.onload = () => {
+      img.onload = () => {
+        const ratio = Math.min(1, maxSize / Math.max(img.width, img.height));
+        const width = Math.max(1, Math.round(img.width * ratio));
+        const height = Math.max(1, Math.round(img.height * ratio));
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#ffffff";
+        ctx.fillRect(0, 0, width, height);
+        ctx.drawImage(img, 0, 0, width, height);
+        resolve(canvas.toDataURL("image/jpeg", quality));
+      };
+      img.onerror = () => reject(new Error("Image compression failed"));
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
 function initAdminProductForm() {
   const form = document.getElementById("productAdminForm");
   if (!form) return;
@@ -15000,13 +15031,17 @@ function initAdminProductForm() {
   fields.imageFile?.addEventListener("change", () => {
     const file = fields.imageFile.files[0];
     if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      uploadedImageData = reader.result;
+    fields.preview.innerHTML = "<span>Preparing image for cloud sync…</span>";
+    resizeAdminImageFile(file).then(dataUrl => {
+      uploadedImageData = dataUrl;
       fields.preview.innerHTML = `<img src="${uploadedImageData}" alt="Preview">`;
       fields.imageUrl.value = "";
-    };
-    reader.readAsDataURL(file);
+      showToast("Image optimized for cloud sync");
+    }).catch(error => {
+      uploadedImageData = "";
+      fields.preview.innerHTML = "<span>Image upload failed. Use an image URL instead.</span>";
+      showToast(error.message || "Image upload failed");
+    });
   });
   fields.imageUrl?.addEventListener("input", () => {
     if (fields.imageUrl.value.trim()) {
@@ -20134,201 +20169,149 @@ document.addEventListener("DOMContentLoaded", () => {
 })();
 
 
-/* FINAL FIX: cloud sync for admin products/content/orders across devices */
+
+
+/* FINAL FIX V2: real cross-device Firestore sync using per-document products/orders */
 (function () {
   const PRODUCT_KEY = "ttw-admin-products";
   const ORDER_KEY = "ttw-orders";
   const CONTENT_KEY = "ttw-site-content";
-  const CLOUD_STATUS_KEY = "ttw-cloud-sync-status";
+  const STATUS_KEY = "ttw-cloud-sync-status";
   const SYNC_KEYS = new Set([PRODUCT_KEY, ORDER_KEY, CONTENT_KEY]);
 
   let db = null;
-  let cloudReady = false;
   let applyingCloud = false;
-  let nativeSetItem = null;
-  let nativeRemoveItem = null;
-  const writeTimers = new Map();
+  let nativeSetItem = Storage.prototype.setItem;
+  let nativeRemoveItem = Storage.prototype.removeItem;
+  let productsReady = false;
+  let ordersReady = false;
+  let contentReady = false;
+  const debounce = new Map();
 
   function readJSON(key, fallback) {
-    try {
-      return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback));
-    } catch (error) {
-      return fallback;
-    }
+    try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); }
+    catch (error) { return fallback; }
   }
 
-  function setStatus(status, detail) {
-    const next = {
-      status,
-      detail: detail || "",
-      at: new Date().toISOString()
+  function setLocal(key, value) {
+    applyingCloud = true;
+    try { nativeSetItem.call(localStorage, key, JSON.stringify(value)); }
+    finally { applyingCloud = false; }
+    rerender(key);
+  }
+
+  function status(state, detail) {
+    const value = { state, detail, time: new Date().toISOString() };
+    try { nativeSetItem.call(localStorage, STATUS_KEY, JSON.stringify(value)); } catch (error) {}
+    renderStatusCard();
+  }
+
+  function hasConfig() {
+    return Boolean(window.firebase && FIREBASE_CONFIG && FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.projectId && FIREBASE_CONFIG.appId);
+  }
+
+  function siteDoc() {
+    return db.collection("ttw-sites").doc(TTW_CLOUD_SITE_ID || "tabletenniswala-live");
+  }
+  function productsCol() { return siteDoc().collection("products"); }
+  function ordersCol() { return siteDoc().collection("orders"); }
+  function contentDoc() { return siteDoc().collection("state").doc("content"); }
+
+  function productId(product) {
+    return String(product?.id || `admin-${Date.now()}-${Math.random().toString(16).slice(2)}`);
+  }
+  function orderId(order) {
+    return String(order?.orderId || order?.id || `order-${Date.now()}-${Math.random().toString(16).slice(2)}`);
+  }
+
+  function sanitizeProduct(product) {
+    const clean = { ...(product || {}) };
+    clean.id = productId(clean);
+    // Firestore document limit is 1 MiB. This prevents one huge image from breaking sync.
+    if (typeof clean.image === "string" && clean.image.startsWith("data:") && clean.image.length > 750000) {
+      clean.image = "";
+      clean.imageNote = "Image was too large for cloud sync. Use a product image URL or upload a smaller image.";
+    }
+    return clean;
+  }
+
+  function productsFromSnapshot(snapshot) {
+    return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })).filter(item => !item.deleted);
+  }
+
+  function ordersFromSnapshot(snapshot) {
+    return snapshot.docs.map(doc => ({ orderId: doc.id, ...doc.data() })).filter(item => !item.deleted);
+  }
+
+  function batchDeleteMissingAndSet(collectionRef, idFn, items) {
+    const cleanItems = Array.isArray(items) ? items : [];
+    return collectionRef.get().then(snapshot => {
+      const batch = db.batch();
+      const incoming = new Set(cleanItems.map(idFn));
+      snapshot.docs.forEach(doc => {
+        if (!incoming.has(doc.id)) batch.delete(doc.ref);
+      });
+      cleanItems.forEach(item => {
+        const id = idFn(item);
+        batch.set(collectionRef.doc(id), { ...item, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+      });
+      return batch.commit();
+    });
+  }
+
+  async function syncProductsToCloud(products) {
+    if (!db) return;
+    const clean = (Array.isArray(products) ? products : []).map(sanitizeProduct);
+    await batchDeleteMissingAndSet(productsCol(), productId, clean);
+    status("connected", "Products synced across devices");
+  }
+
+  async function syncOrdersToCloud(orders) {
+    if (!db) return;
+    const clean = Array.isArray(orders) ? orders : [];
+    // Orders are mostly append-only, but mirror delete if admin clears them.
+    await batchDeleteMissingAndSet(ordersCol(), orderId, clean);
+    status("connected", "Orders synced across devices");
+  }
+
+  async function syncContentToCloud(content) {
+    if (!db) return;
+    await contentDoc().set({ value: content || {}, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+    status("connected", "Content synced across devices");
+  }
+
+  function schedule(key, value) {
+    if (applyingCloud || !db || !SYNC_KEYS.has(key)) return;
+    clearTimeout(debounce.get(key));
+    debounce.set(key, setTimeout(() => {
+      if (key === PRODUCT_KEY) syncProductsToCloud(value).catch(error => status("error", "Product sync failed: " + (error.message || error)));
+      if (key === ORDER_KEY) syncOrdersToCloud(value).catch(error => status("error", "Order sync failed: " + (error.message || error)));
+      if (key === CONTENT_KEY) syncContentToCloud(value).catch(error => status("error", "Content sync failed: " + (error.message || error)));
+    }, 450));
+  }
+
+  function patchStorage() {
+    if (Storage.prototype.__ttwRealCloudPatched) return;
+    nativeSetItem = Storage.prototype.setItem;
+    nativeRemoveItem = Storage.prototype.removeItem;
+    Storage.prototype.setItem = function (key, value) {
+      nativeSetItem.apply(this, arguments);
+      if (this === localStorage && SYNC_KEYS.has(key) && !applyingCloud) {
+        let parsed = value;
+        try { parsed = JSON.parse(value); } catch (error) {}
+        schedule(key, parsed);
+      }
     };
-    try {
-      (nativeSetItem || Storage.prototype.setItem).call(localStorage, CLOUD_STATUS_KEY, JSON.stringify(next));
-    } catch (error) {}
-    renderCloudStatusCard();
-  }
-
-  function moneyCloud(value) {
-    try {
-      return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: 0 }).format(Number(value || 0));
-    } catch (error) {
-      return "₹" + Number(value || 0).toLocaleString("en-IN");
-    }
-  }
-
-  function safeHtml(value) {
-    return String(value ?? "").replace(/[&<>\"']/g, char => ({
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      '"': "&quot;",
-      "'": "&#039;"
-    }[char]));
-  }
-
-  function hasFirebaseConfig() {
-    try {
-      return Boolean(
-        window.firebase &&
-        typeof FIREBASE_CONFIG !== "undefined" &&
-        FIREBASE_CONFIG.apiKey &&
-        FIREBASE_CONFIG.projectId &&
-        FIREBASE_CONFIG.appId
-      );
-    } catch (error) {
-      return false;
-    }
-  }
-
-  function docRef(name) {
-    return db.collection("ttw-sites").doc(typeof TTW_CLOUD_SITE_ID !== "undefined" ? TTW_CLOUD_SITE_ID : "tabletenniswala-live").collection("state").doc(name);
-  }
-
-  function cloudNameForKey(key) {
-    if (key === PRODUCT_KEY) return "products";
-    if (key === ORDER_KEY) return "orders";
-    if (key === CONTENT_KEY) return "content";
-    return key;
-  }
-
-  function normalizePayload(key, value) {
-    if (key === PRODUCT_KEY || key === ORDER_KEY) {
-      return Array.isArray(value) ? value : [];
-    }
-    if (key === CONTENT_KEY) {
-      return value && typeof value === "object" && !Array.isArray(value) ? value : {};
-    }
-    return value;
-  }
-
-  function mergeById(localItems, cloudItems, idField) {
-    const map = new Map();
-    (Array.isArray(cloudItems) ? cloudItems : []).forEach(item => {
-      const key = item?.[idField] || item?.id || JSON.stringify(item);
-      map.set(String(key), item);
-    });
-    (Array.isArray(localItems) ? localItems : []).forEach(item => {
-      const key = item?.[idField] || item?.id || JSON.stringify(item);
-      if (!map.has(String(key))) map.set(String(key), item);
-    });
-    return [...map.values()];
-  }
-
-  function mergeCloudAndLocal(key, cloudValue, localValue) {
-    if (key === ORDER_KEY) return mergeById(localValue, cloudValue, "orderId");
-    if (key === PRODUCT_KEY) return mergeById(localValue, cloudValue, "id");
-    if (key === CONTENT_KEY) return { ...(localValue || {}), ...(cloudValue || {}) };
-    return cloudValue;
-  }
-
-  async function writeCloud(key, rawValue) {
-    if (!cloudReady || applyingCloud || !SYNC_KEYS.has(key)) return;
-    const value = normalizePayload(key, rawValue);
-    try {
-      await docRef(cloudNameForKey(key)).set({
-        value,
-        updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
-        source: location.hostname || "local"
-      }, { merge: true });
-      setStatus("connected", "Last synced " + new Date().toLocaleTimeString());
-    } catch (error) {
-      console.error("Cloud sync write failed", key, error);
-      setStatus("error", "Cloud write failed: " + (error.message || error));
-    }
-  }
-
-  function scheduleCloudWrite(key, value) {
-    if (!cloudReady || applyingCloud || !SYNC_KEYS.has(key)) return;
-    clearTimeout(writeTimers.get(key));
-    writeTimers.set(key, setTimeout(() => writeCloud(key, value), 250));
-  }
-
-  function renderAdminOrdersFromCloudData() {
-    const list = document.getElementById("adminOrdersList");
-    if (!list) return;
-    const query = (document.getElementById("adminOrderSearch")?.value || "").toLowerCase();
-    const orders = readJSON(ORDER_KEY, []).filter(order => {
-      if (!query) return true;
-      return [
-        order.orderId,
-        order.customer?.fullName,
-        order.customer?.email,
-        order.customer?.phone,
-        order.customer?.city,
-        (order.items || []).map(item => `${item.name} ${item.details || ""}`).join(" ")
-      ].join(" ").toLowerCase().includes(query);
-    }).reverse();
-
-    if (!orders.length) {
-      list.innerHTML = `<div class="admin-empty-card"><h3>No orders yet</h3><p>Orders placed through checkout will appear here.</p></div>`;
-      updateDashboardFromCloudData();
-      return;
-    }
-
-    list.innerHTML = orders.map(order => {
-      const customer = order.customer || {};
-      const items = (order.items || []).map(item => `<li><strong>${safeHtml(item.name)}</strong> × ${Number(item.quantity || 1)}<small>${item.details || ""}</small></li>`).join("");
-      return `<article class="admin-order-card">
-        <div class="admin-order-top">
-          <div><span class="eyebrow">${safeHtml(order.orderId || "Order")}</span><h3>${safeHtml(customer.fullName || "Customer")}</h3></div>
-          <strong>${moneyCloud(order.amount)}</strong>
-        </div>
-        <div class="admin-order-meta">
-          <span>${new Date(order.date || Date.now()).toLocaleString()}</span>
-          <span>${safeHtml(order.paymentMode || "WhatsApp order")}</span>
-          <span>${safeHtml(order.paymentStatus || "Pending")}</span>
-        </div>
-        <div class="admin-order-customer">
-          <p><b>Email:</b> ${safeHtml(customer.email || "-")}</p>
-          <p><b>Phone:</b> ${safeHtml(customer.phone || "-")}</p>
-          <p><b>Address:</b> ${safeHtml([customer.address, customer.city, customer.state, customer.pincode].filter(Boolean).join(", "))}</p>
-          ${customer.notes ? `<p><b>Notes:</b> ${safeHtml(customer.notes)}</p>` : ""}
-        </div>
-        <ul class="admin-order-items">${items}</ul>
-      </article>`;
-    }).join("");
-    updateDashboardFromCloudData();
-  }
-
-  function updateDashboardFromCloudData() {
-    const orders = readJSON(ORDER_KEY, []);
-    const uploaded = readJSON(PRODUCT_KEY, []);
-    const totalValue = orders.reduce((sum, order) => sum + Number(order.amount || 0), 0);
-    const seedCount = typeof seedProducts !== "undefined" && Array.isArray(seedProducts) ? seedProducts.length : 0;
-    const els = {
-      adminTotalProducts: seedCount + uploaded.length,
-      adminUploadedProducts: uploaded.length,
-      adminOrderCount: orders.length,
-      adminOrderValue: moneyCloud(totalValue)
+    Storage.prototype.removeItem = function (key) {
+      nativeRemoveItem.apply(this, arguments);
+      if (this === localStorage && SYNC_KEYS.has(key) && !applyingCloud) {
+        schedule(key, key === CONTENT_KEY ? {} : []);
+      }
     };
-    Object.entries(els).forEach(([id, value]) => {
-      const el = document.getElementById(id);
-      if (el) el.textContent = value;
-    });
+    Storage.prototype.__ttwRealCloudPatched = true;
   }
 
-  function rerenderAfterCloud(key) {
+  function rerender(key) {
     try {
       if (key === PRODUCT_KEY) {
         if (typeof renderAdminProducts === "function") renderAdminProducts();
@@ -20338,155 +20321,154 @@ document.addEventListener("DOMContentLoaded", () => {
         document.dispatchEvent(new CustomEvent("ttw:cloud-products-updated"));
       }
       if (key === ORDER_KEY) {
-        renderAdminOrdersFromCloudData();
+        if (typeof renderAdminOrders === "function") renderAdminOrders();
         if (typeof renderAdminAnalytics === "function") renderAdminAnalytics();
         if (typeof renderAdminCustomers === "function") renderAdminCustomers();
         document.dispatchEvent(new CustomEvent("ttw:cloud-orders-updated"));
       }
-      if (key === CONTENT_KEY) {
-        document.dispatchEvent(new CustomEvent("ttw:cloud-content-updated"));
-      }
-      updateDashboardFromCloudData();
-    } catch (error) {
-      console.warn("Cloud rerender issue", error);
+      if (key === CONTENT_KEY) document.dispatchEvent(new CustomEvent("ttw:cloud-content-updated"));
+    } catch (error) { console.warn("Cloud rerender failed", error); }
+  }
+
+  async function bootstrapProducts() {
+    const snapshot = await productsCol().get();
+    const cloud = productsFromSnapshot(snapshot);
+    const local = readJSON(PRODUCT_KEY, []);
+    if (!cloud.length && local.length) {
+      await syncProductsToCloud(local);
+      productsReady = true;
+      return;
     }
+    setLocal(PRODUCT_KEY, cloud);
+    productsReady = true;
   }
 
-  function setLocalFromCloud(key, value) {
-    applyingCloud = true;
-    try {
-      nativeSetItem.call(localStorage, key, JSON.stringify(value));
-    } finally {
-      applyingCloud = false;
+  async function bootstrapOrders() {
+    const snapshot = await ordersCol().get();
+    const cloud = ordersFromSnapshot(snapshot);
+    const local = readJSON(ORDER_KEY, []);
+    if (!cloud.length && local.length) {
+      await syncOrdersToCloud(local);
+      ordersReady = true;
+      return;
     }
-    rerenderAfterCloud(key);
+    setLocal(ORDER_KEY, cloud);
+    ordersReady = true;
   }
 
-  async function pullInitial(key) {
-    const name = cloudNameForKey(key);
-    const localValue = readJSON(key, key === CONTENT_KEY ? {} : []);
-    try {
-      const snap = await docRef(name).get();
-      if (!snap.exists) {
-        if ((Array.isArray(localValue) && localValue.length) || (!Array.isArray(localValue) && Object.keys(localValue || {}).length)) {
-          await writeCloud(key, localValue);
-        }
-        return;
-      }
-      const cloudValue = normalizePayload(key, snap.data()?.value);
-      const merged = mergeCloudAndLocal(key, cloudValue, localValue);
-      setLocalFromCloud(key, merged);
-      // For products/orders, also write merged version back so no local-only changes are lost on first connection.
-      if (JSON.stringify(merged) !== JSON.stringify(cloudValue)) await writeCloud(key, merged);
-    } catch (error) {
-      console.error("Cloud initial pull failed", key, error);
-      setStatus("error", "Cloud pull failed: " + (error.message || error));
+  async function bootstrapContent() {
+    const snap = await contentDoc().get();
+    const local = readJSON(CONTENT_KEY, {});
+    if (!snap.exists && Object.keys(local || {}).length) {
+      await syncContentToCloud(local);
+      contentReady = true;
+      return;
     }
+    setLocal(CONTENT_KEY, snap.exists ? (snap.data().value || {}) : {});
+    contentReady = true;
   }
 
-  function subscribeKey(key) {
-    const name = cloudNameForKey(key);
-    docRef(name).onSnapshot(snapshot => {
-      if (!snapshot.exists) return;
-      const cloudValue = normalizePayload(key, snapshot.data()?.value);
-      const localValue = readJSON(key, key === CONTENT_KEY ? {} : []);
-      const next = mergeCloudAndLocal(key, cloudValue, localValue);
-      if (JSON.stringify(next) !== JSON.stringify(localValue)) {
-        setLocalFromCloud(key, next);
-      }
-      setStatus("connected", "Live sync active");
-    }, error => {
-      console.error("Cloud sync listener failed", key, error);
-      setStatus("error", "Live sync listener failed: " + (error.message || error));
-    });
+  function subscribe() {
+    productsCol().onSnapshot(snapshot => {
+      const cloud = productsFromSnapshot(snapshot);
+      if (!productsReady && !cloud.length) return;
+      setLocal(PRODUCT_KEY, cloud);
+      status("connected", "Live product sync active");
+    }, error => status("error", "Product listener failed: " + (error.message || error)));
+
+    ordersCol().onSnapshot(snapshot => {
+      const cloud = ordersFromSnapshot(snapshot);
+      if (!ordersReady && !cloud.length) return;
+      setLocal(ORDER_KEY, cloud);
+      status("connected", "Live order sync active");
+    }, error => status("error", "Order listener failed: " + (error.message || error)));
+
+    contentDoc().onSnapshot(snap => {
+      if (!contentReady && !snap.exists) return;
+      setLocal(CONTENT_KEY, snap.exists ? (snap.data().value || {}) : {});
+      status("connected", "Live content sync active");
+    }, error => status("error", "Content listener failed: " + (error.message || error)));
   }
 
-  function patchLocalStorageWrites() {
-    if (Storage.prototype.__ttwCloudPatched) return;
-    nativeSetItem = Storage.prototype.setItem;
-    nativeRemoveItem = Storage.prototype.removeItem;
-    Storage.prototype.setItem = function (key, value) {
-      nativeSetItem.apply(this, arguments);
-      if (this === localStorage && SYNC_KEYS.has(key) && !applyingCloud) {
-        let parsed = value;
-        try { parsed = JSON.parse(value); } catch (error) {}
-        scheduleCloudWrite(key, parsed);
-      }
-    };
-    Storage.prototype.removeItem = function (key) {
-      nativeRemoveItem.apply(this, arguments);
-      if (this === localStorage && SYNC_KEYS.has(key) && !applyingCloud) {
-        scheduleCloudWrite(key, key === CONTENT_KEY ? {} : []);
-      }
-    };
-    Storage.prototype.__ttwCloudPatched = true;
-  }
-
-  function renderCloudStatusCard() {
+  function renderStatusCard() {
     const secure = document.getElementById("adminSecureArea");
     if (!secure) return;
     let card = document.getElementById("cloudSyncStatusCard");
     if (!card) {
       card = document.createElement("div");
       card.id = "cloudSyncStatusCard";
-      card.className = "cloud-sync-card";
+      card.className = "cloud-sync-card real-cloud-card";
       secure.prepend(card);
     }
-    const status = readJSON(CLOUD_STATUS_KEY, { status: "local", detail: "Cloud sync not configured" });
-    const configured = hasFirebaseConfig();
+    const configReady = hasConfig();
+    const current = readJSON(STATUS_KEY, { state: "local", detail: "Cloud sync not configured" });
     card.innerHTML = `
       <div>
         <span class="eyebrow">Cloud sync</span>
-        <h3>${configured ? (status.status === "connected" ? "Connected across devices" : "Firebase configured") : "Local browser only"}</h3>
-        <p>${configured ? (status.detail || "Connecting to Firebase…") : "Admin product uploads, content edits and orders only sync to other devices after Firebase config is added in script.js."}</p>
+        <h3>${configReady ? (current.state === "connected" ? "Connected across devices" : "Firebase configured") : "Still local browser only"}</h3>
+        <p>${configReady ? current.detail : "Firebase config is still blank. Edit firebase-config.js, add your Firebase Web App config, re-upload it, then refresh this admin page."}</p>
+        ${configReady ? `<small>Project: ${FIREBASE_CONFIG.projectId}</small>` : `<small>File to edit: /firebase-config.js</small>`}
       </div>
       <div class="cloud-sync-actions">
-        <button type="button" class="button small" id="cloudManualRefresh">Refresh cloud data</button>
+        <button type="button" class="button small" id="cloudForcePush">Push this browser data to cloud</button>
+        <button type="button" class="button small ghost" id="cloudForcePull">Pull cloud data</button>
         <a class="button small ghost" href="CLOUD_SYNC_SETUP.md" target="_blank" rel="noopener">Setup guide</a>
       </div>
     `;
-    document.getElementById("cloudManualRefresh")?.addEventListener("click", () => {
-      if (!cloudReady) {
-        setStatus("local", "Firebase config missing in script.js");
-        return;
-      }
-      Promise.all([...SYNC_KEYS].map(pullInitial)).then(() => setStatus("connected", "Manual refresh complete"));
+    document.getElementById("cloudForcePush")?.addEventListener("click", async () => {
+      if (!db) { status("local", "Firebase config missing"); return; }
+      await syncProductsToCloud(readJSON(PRODUCT_KEY, []));
+      await syncOrdersToCloud(readJSON(ORDER_KEY, []));
+      await syncContentToCloud(readJSON(CONTENT_KEY, {}));
+      status("connected", "Manual push complete");
+    }, { once: true });
+    document.getElementById("cloudForcePull")?.addEventListener("click", async () => {
+      if (!db) { status("local", "Firebase config missing"); return; }
+      await bootstrapProducts();
+      await bootstrapOrders();
+      await bootstrapContent();
+      status("connected", "Manual pull complete");
     }, { once: true });
   }
 
-  async function initCloudSync() {
-    patchLocalStorageWrites();
-    renderCloudStatusCard();
-    if (!hasFirebaseConfig()) {
-      setStatus("local", "Firebase config missing in script.js");
+  async function init() {
+    patchStorage();
+    renderStatusCard();
+    if (!hasConfig()) {
+      status("local", "Firebase config missing in firebase-config.js");
       return;
     }
     try {
       if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
       db = firebase.firestore();
-      cloudReady = true;
-      setStatus("connecting", "Connecting to Firebase…");
-      await Promise.all([...SYNC_KEYS].map(pullInitial));
-      [...SYNC_KEYS].forEach(subscribeKey);
-      setStatus("connected", "Live sync active");
+      status("connecting", "Connecting to Firebase…");
+      await bootstrapProducts();
+      await bootstrapOrders();
+      await bootstrapContent();
+      subscribe();
+      status("connected", "Live sync active across devices");
     } catch (error) {
-      console.error("Cloud sync init failed", error);
-      setStatus("error", "Cloud sync failed: " + (error.message || error));
+      console.error("Real cloud sync failed", error);
+      status("error", "Cloud sync failed: " + (error.message || error));
     }
   }
 
-  // Expose for debugging/setup.
   window.ttwCloudSync = {
-    init: initCloudSync,
-    status: () => readJSON(CLOUD_STATUS_KEY, {}),
-    pushProducts: () => writeCloud(PRODUCT_KEY, readJSON(PRODUCT_KEY, [])),
-    pushOrders: () => writeCloud(ORDER_KEY, readJSON(ORDER_KEY, [])),
-    pushContent: () => writeCloud(CONTENT_KEY, readJSON(CONTENT_KEY, {})),
-    pullAll: () => Promise.all([...SYNC_KEYS].map(pullInitial))
+    init,
+    status: () => readJSON(STATUS_KEY, {}),
+    pushAll: async () => {
+      if (!db) throw new Error("Firebase is not configured");
+      await syncProductsToCloud(readJSON(PRODUCT_KEY, []));
+      await syncOrdersToCloud(readJSON(ORDER_KEY, []));
+      await syncContentToCloud(readJSON(CONTENT_KEY, {}));
+    },
+    pullAll: async () => {
+      if (!db) throw new Error("Firebase is not configured");
+      await bootstrapProducts();
+      await bootstrapOrders();
+      await bootstrapContent();
+    }
   };
 
-  document.addEventListener("DOMContentLoaded", () => {
-    initCloudSync();
-    document.getElementById("adminOrderSearch")?.addEventListener("input", () => setTimeout(renderAdminOrdersFromCloudData, 40));
-  });
+  document.addEventListener("DOMContentLoaded", init);
 })();

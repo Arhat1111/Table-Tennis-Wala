@@ -14095,3 +14095,59 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
     justify-content: center;
   }
 }
+
+
+/* FINAL FIX V2: real cloud sync status styling */
+.real-cloud-card,
+.cloud-sync-card {
+  margin: 0 0 20px;
+  padding: 20px;
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at 92% 16%, rgba(215,255,63,.22), transparent 28%),
+    #fff;
+  border: 1px solid rgba(17,19,17,.08);
+  box-shadow: 0 16px 42px rgba(17,19,17,.065);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+}
+
+.real-cloud-card h3,
+.cloud-sync-card h3 {
+  margin: 6px 0 8px;
+  font-size: 24px;
+  letter-spacing: -.05em;
+}
+
+.real-cloud-card p,
+.cloud-sync-card p,
+.real-cloud-card small,
+.cloud-sync-card small {
+  margin: 0;
+  color: rgba(17,19,17,.64);
+  font-weight: 780;
+  line-height: 1.5;
+}
+
+.cloud-sync-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 780px) {
+  .real-cloud-card,
+  .cloud-sync-card {
+    grid-template-columns: 1fr;
+  }
+  .cloud-sync-actions {
+    justify-content: flex-start;
+  }
+  .cloud-sync-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}

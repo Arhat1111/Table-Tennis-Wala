@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Temporary testing rules for Table Tennis Wala static website sync.
+    // NOT production-secure. Replace with Firebase Auth/backend rules before public long-term use.
+    match /ttw-sites/tabletenniswala-live/{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

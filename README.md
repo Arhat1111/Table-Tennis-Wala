@@ -608,3 +608,24 @@ JS syntax check: OK
 - Added Firebase Firestore cloud sync support so admin product uploads, content edits and orders can sync across devices after Firebase config is added in script.js.
 - Added CLOUD_SYNC_SETUP.md and an admin Cloud Sync status card.
 - The site still falls back to localStorage when Firebase config is empty.
+
+- Rebuilt cloud sync to use real Firestore per-document sync instead of browser-only localStorage or one large Firestore document.
+- Added firebase-config.js. Fill this file and re-upload it to tabletenniswala.com for cross-device sync.
+- Added image compression for admin uploads so product uploads are more likely to sync reliably.
+- Added manual Push this browser data to cloud / Pull cloud data buttons in the admin cloud sync card.
+- Added CLOUD_SYNC_SETUP.md and firestore.rules.
+
+- Checks: {
+  "source_zip": "table-tennis-wala-cloud-sync-admin-fixed.zip",
+  "firebase_config_file": true,
+  "firestore_rules": true,
+  "setup_doc": true,
+  "old_cloud_block_removed": true,
+  "v2_cloud_added": true,
+  "image_compression": true,
+  "html_has_config": true,
+  "js_check": "JS syntax OK"
+}
+
+- Added Firebase Web App config for project `tabletennis-wala-backend` in `firebase-config.js`.
+- Cloud sync will work after Firestore Database is enabled and the included `firestore.rules` are published.

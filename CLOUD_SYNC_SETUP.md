@@ -1,52 +1,69 @@
-# Table Tennis Wala — Cloud Admin Sync Setup
+# Table Tennis Wala — Real Cloud Sync Setup
 
-Right now, the website is a static site. `localStorage` saves data only in the same browser, so admin changes do not automatically appear on other devices.
+Your admin changes were still only appearing on one browser because the Firebase config was blank. A static website cannot sync admin changes across devices by itself. It needs a cloud database.
 
-This updated version adds Firebase Firestore cloud sync support for:
+This version uses Firebase Firestore and syncs these items across all devices:
 
-- admin uploaded products
-- website content edits
-- order records
+- uploaded/edited products
+- website content changes
+- orders
 
-## Steps
+## Step 1 — Create Firebase project
 
-1. Create a Firebase project.
-2. Enable Firestore Database.
-3. Add a Web App in Firebase project settings.
+1. Go to Firebase Console.
+2. Create a project.
+3. Add a Web App.
 4. Copy the Firebase config.
-5. Open `script.js` and fill:
+
+## Step 2 — Edit `firebase-config.js`
+
+Open the file `firebase-config.js` in the website root and paste the config:
 
 ```js
-const FIREBASE_CONFIG = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+window.TTW_FIREBASE_CONFIG = {
+  apiKey: "AIzaSyBs1ZPiUTFZtx7Qs5sLlNqtPJ3mDqKjtgM",
+  authDomain: "tabletennis-wala-backend.firebaseapp.com",
+  projectId: "tabletennis-wala-backend",
+  storageBucket: "tabletennis-wala-backend.firebasestorage.app",
+  messagingSenderId: "1097467538456",
+  appId: "1:1097467538456:web:187c692f6e8b7ab8ec276d",
+  measurementId: "G-1N2E7T9HEG"
 };
+
+window.TTW_CLOUD_SITE_ID = "tabletenniswala-live";
 ```
 
-6. Upload the updated files to your hosting again.
-7. Open `https://tabletenniswala.com/admin.html` and login. The top of the admin panel should show **Connected across devices**.
+Then re-upload this file to the root of `tabletenniswala.com` in the same folder as `index.html`.
 
-## Temporary Firestore rules for testing
+## Step 3 — Enable Firestore
 
-For testing only, you can use:
+In Firebase Console:
 
-```txt
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /ttw-sites/{siteId}/state/{docId} {
-      allow read, write: if true;
-    }
-  }
-}
-```
+1. Go to Firestore Database.
+2. Create database.
+3. Start in test mode first.
+4. Pick a region.
 
-For real production, use a backend or authenticated admin rules. Public write rules are not secure.
+## Step 4 — Temporary Firestore rules
 
-## Important image note
+For testing only, you can use the included `firestore.rules` file. This allows the website to write admin changes to Firestore.
 
-If you upload very large images directly through the admin panel, Firestore may reject them because each document has a size limit. For live products, use image URLs or connect Firebase Storage later.
+Important: These rules are not production-secure. For production, use Firebase Auth or a backend admin API.
+
+## Step 5 — Test
+
+1. Open `https://tabletenniswala.com/admin.html`.
+2. Log in.
+3. The admin panel should show `Connected across devices`.
+4. Upload/edit a product.
+5. Open the website on another device and refresh.
+6. The product/content/order data should show there too.
+
+## Important about images
+
+Uploaded images are now automatically compressed before saving, because Firestore documents have a 1 MiB limit. For best results, use image URLs for product photos or upload medium-sized images.
+
+
+## Config added
+
+This ZIP already includes your Firebase config in `firebase-config.js`. You still need to enable Firestore Database and publish the rules in `firestore.rules` from Firebase Console.
