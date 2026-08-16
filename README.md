@@ -629,3 +629,6 @@ JS syntax check: OK
 
 - Added Firebase Web App config for project `tabletennis-wala-backend` in `firebase-config.js`.
 - Cloud sync will work after Firestore Database is enabled and the included `firestore.rules` are published.
+
+- Removed the homepage 'Play by brand / Start with JOOLA' spotlight hero block.
+- Kept only the brand slider section on the homepage brand area.

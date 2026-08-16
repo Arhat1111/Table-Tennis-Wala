@@ -14151,3 +14151,56 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
     justify-content: center;
   }
 }
+
+
+/* FINAL: homepage brand section slider only */
+.home-brand-slider-only-section {
+  padding-top: clamp(54px, 6vw, 86px) !important;
+  padding-bottom: clamp(54px, 6vw, 86px) !important;
+}
+
+.home-brand-slider-only-section .home-brand-lab-shell,
+.home-brand-slider-only-section .home-brand-lead,
+.home-brand-slider-only-section .home-brand-spotlight,
+.home-brand-slider-only-section .home-brand-note,
+.home-brand-slider-only-section .home-brand-feature {
+  display: none !important;
+}
+
+.home-brand-slider-only-section .home-brand-carousel,
+.home-brand-slider-only-section .home-brand-carousel-only {
+  margin-top: 0 !important;
+  position: relative;
+  z-index: 1;
+}
+
+.home-brand-slider-only-section .home-brand-slider-head h2 {
+  margin: 8px 0 0;
+  font: 900 clamp(42px, 5.6vw, 86px)/.86 Manrope, sans-serif;
+  letter-spacing: -.09em;
+  color: var(--ink, #101410);
+}
+
+.home-brand-slider-only-section .home-brand-slider-head p {
+  max-width: 760px;
+}
+
+@media (max-width: 760px) {
+  .home-brand-slider-only-section {
+    padding-top: 46px !important;
+    padding-bottom: 56px !important;
+  }
+
+  .home-brand-slider-only-section .home-brand-slider-head {
+    grid-template-columns: 1fr !important;
+    align-items: start !important;
+  }
+
+  .home-brand-slider-only-section .home-brand-slider-controls {
+    justify-content: flex-start;
+  }
+
+  .home-brand-slider-only-section .home-brand-slider-head h2 {
+    font-size: clamp(38px, 12vw, 58px);
+  }
+}
