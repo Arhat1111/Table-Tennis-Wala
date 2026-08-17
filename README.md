@@ -647,3 +647,10 @@ JS syntax check: OK
 
 - Made poster banners full-page/full-viewport under the navbar with no rounded card spacing.
 - Fixed Brands dropdown active highlight so the current brand is highlighted instead of JOOLA always staying highlighted.
+
+- Fixed banner responsiveness properly: desktop uses the wide artwork, tablet uses full resized artwork, and mobile uses separate portrait poster artwork.
+- Removed the ugly tiny-banner-on-blur mobile treatment and disabled the old crop-heavy full-page object-fit cover behavior on tablet/mobile.
+
+- Fixed navbar active state: Brands button is no longer highlighted; only the current brand inside the dropdown is highlighted.
+
+- Updated banner links: homepage banner opens the full products page, and every brand banner opens that brand's product section.

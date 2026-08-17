@@ -15380,3 +15380,192 @@ body[data-page="brands"] .site-header .nav-dropdown-trigger[href="brands.html"] 
   background: rgba(215,255,63,.30) !important;
   color: var(--ink, #101410) !important;
 }
+
+/* FINAL RESPONSIVE PASS: serve device-sized poster banners so the full artwork stays visible across laptop, tablet and mobile */
+.opb-poster-media {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+main > .original-product-banner.poster-banner:first-child {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: 0 !important;
+}
+
+@media (min-width: 1025px) {
+  main > .original-product-banner.poster-banner:first-child {
+    height: calc(100vh - var(--ttw-header-height)) !important;
+    min-height: 720px !important;
+    max-height: 980px !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-link,
+  main > .original-product-banner.poster-banner:first-child .opb-poster-media,
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image {
+    object-fit: cover !important;
+    object-position: center center !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  main > .original-product-banner.poster-banner:first-child {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin-bottom: clamp(24px, 4vw, 44px) !important;
+    background: transparent !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-link {
+    height: auto !important;
+    min-height: 0 !important;
+    background: transparent !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-media,
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image {
+    object-fit: contain !important;
+    object-position: center top !important;
+  }
+}
+
+@media (max-width: 640px) {
+  main > .original-product-banner.poster-banner:first-child {
+    margin-bottom: 22px !important;
+  }
+}
+
+
+/* FINAL FIX: clean responsive poster banners
+   Desktop/laptop = original wide poster visible.
+   Tablet = resized full poster visible.
+   Mobile = separate portrait poster artwork, not a tiny banner card.
+*/
+.opb-poster-media {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+main > .original-product-banner.poster-banner:first-child,
+.original-product-banner.poster-banner {
+  display: block !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0 0 clamp(28px, 4vw, 62px) calc(50% - 50vw) !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+main > .original-product-banner.poster-banner:first-child .opb-poster-link,
+.original-product-banner.poster-banner .opb-poster-link {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+  background: #080a08 !important;
+  box-shadow: none !important;
+}
+
+main > .original-product-banner.poster-banner:first-child .opb-poster-link::after,
+.original-product-banner.poster-banner .opb-poster-link::after {
+  display: none !important;
+}
+
+main > .original-product-banner.poster-banner:first-child .opb-poster-image,
+.original-product-banner.poster-banner .opb-poster-image {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: none !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  border-radius: 0 !important;
+}
+
+@media (min-width: 1025px) {
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image,
+  .original-product-banner.poster-banner .opb-poster-image {
+    min-height: min(640px, calc(100vh - var(--ttw-header-height, 82px))) !important;
+    object-fit: cover !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  main > .original-product-banner.poster-banner:first-child,
+  .original-product-banner.poster-banner {
+    margin-bottom: 30px !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image,
+  .original-product-banner.poster-banner .opb-poster-image {
+    min-height: 0 !important;
+    object-fit: contain !important;
+  }
+}
+
+@media (max-width: 640px) {
+  main > .original-product-banner.poster-banner:first-child,
+  .original-product-banner.poster-banner {
+    margin-bottom: 20px !important;
+  }
+}
+
+
+/* FINAL FIX: highlight only the active item inside Brands dropdown, not the main Brands navbar button */
+.site-header .nav-dropdown > .nav-dropdown-trigger,
+.site-header .nav-dropdown > .nav-dropdown-trigger:hover,
+.site-header .nav-dropdown > .nav-dropdown-trigger:focus,
+.site-header .nav-dropdown > .nav-dropdown-trigger[aria-current="page"],
+.site-header .nav-dropdown.active > .nav-dropdown-trigger,
+.site-header .nav-dropdown.current > .nav-dropdown-trigger,
+.site-header .nav-dropdown:has(.nav-dropdown-menu a[aria-current="page"]) > .nav-dropdown-trigger {
+  background: transparent !important;
+  color: var(--ink, #101410) !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.site-header .nav-dropdown > .nav-dropdown-trigger::before {
+  display: none !important;
+}
+
+.site-header .nav-dropdown > .nav-dropdown-trigger::after {
+  background: currentColor !important;
+}
+
+.site-header .nav-dropdown-menu a[aria-current="page"],
+.site-header .nav-dropdown-menu a.is-active-brand,
+.site-header .nav-dropdown-menu a.active-brand {
+  background: var(--accent, #d7ff3f) !important;
+  color: var(--ink, #101410) !important;
+  border-radius: 14px !important;
+  font-weight: 950 !important;
+}
+
+.site-header .nav-dropdown-menu a[aria-current="page"]::after,
+.site-header .nav-dropdown-menu a.is-active-brand::after,
+.site-header .nav-dropdown-menu a.active-brand::after {
+  display: none !important;
+}

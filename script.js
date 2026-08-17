@@ -20472,3 +20472,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener("DOMContentLoaded", init);
 })();
+
+
+/* FINAL FIX: active brand highlight belongs only inside the Brands dropdown */
+(function () {
+  const page = (location.pathname.split("/").pop() || "index.html").toLowerCase();
+  const brandPages = new Set([
+    "joola.html", "tibhar.html", "butterfly.html", "stiga.html", "dhs.html",
+    "yinhe.html", "xiom.html", "andro.html", "dawei.html"
+  ]);
+
+  function fixBrandDropdownHighlight() {
+    document.querySelectorAll(".site-header .nav-dropdown").forEach(dropdown => {
+      const trigger = dropdown.querySelector(":scope > .nav-dropdown-trigger");
+      if (trigger) {
+        trigger.removeAttribute("aria-current");
+        trigger.classList.remove("active", "is-active", "current", "active-brand", "is-active-brand");
+        trigger.style.background = "";
+      }
+
+      dropdown.classList.remove("active", "is-active", "current", "active-brand", "is-active-brand");
+
+      dropdown.querySelectorAll(".nav-dropdown-menu a").forEach(link => {
+        const href = (link.getAttribute("href") || "").split("#")[0].split("?")[0].toLowerCase();
+        const isCurrent = brandPages.has(page) && href === page;
+        link.classList.toggle("is-active-brand", isCurrent);
+        if (isCurrent) link.setAttribute("aria-current", "page");
+        else link.removeAttribute("aria-current");
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", fixBrandDropdownHighlight);
+  window.addEventListener("pageshow", fixBrandDropdownHighlight);
+  setTimeout(fixBrandDropdownHighlight, 200);
+  setTimeout(fixBrandDropdownHighlight, 900);
+})();
