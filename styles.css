@@ -14204,3 +14204,1179 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
     font-size: clamp(38px, 12vw, 58px);
   }
 }
+
+
+/* FINAL: Responsive generated brand/home poster banners */
+.poster-hero {
+  position: relative !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #f6f5ef !important;
+  border-bottom: 1px solid rgba(17, 19, 17, .08) !important;
+  box-shadow: 0 18px 60px rgba(17, 19, 17, .08) !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.poster-hero-img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 3 / 1 !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  background: #f6f5ef !important;
+}
+
+.home-poster {
+  min-height: 0 !important;
+  display: block !important;
+  isolation: auto !important;
+}
+
+.home-poster + .section,
+.brand-poster + .shop.section {
+  margin-top: 0 !important;
+}
+
+.poster-hotspot {
+  position: absolute !important;
+  z-index: 3 !important;
+  display: block !important;
+  border-radius: 18px !important;
+}
+
+.poster-hotspot-primary {
+  left: 5.2% !important;
+  top: 73% !important;
+  width: 12.5% !important;
+  height: 9% !important;
+}
+
+.poster-hotspot:focus-visible {
+  outline: 3px solid var(--accent, #d7ff3f) !important;
+  outline-offset: 4px !important;
+}
+
+@media (min-width: 1400px) {
+  .poster-hero-img {
+    max-height: 760px !important;
+  }
+}
+
+@media (max-width: 1180px) {
+  .poster-hero-img {
+    height: clamp(320px, 40vw, 500px) !important;
+    aspect-ratio: auto !important;
+    object-position: 45% center !important;
+  }
+
+  .home-poster .poster-hero-img {
+    object-position: 42% center !important;
+  }
+
+  .poster-hotspot-primary {
+    left: 5.4% !important;
+    top: 70% !important;
+    width: 16% !important;
+    height: 10% !important;
+  }
+}
+
+@media (max-width: 820px) {
+  .poster-hero {
+    border-radius: 0 0 28px 28px !important;
+  }
+
+  .poster-hero-img {
+    height: clamp(330px, 56vw, 470px) !important;
+    object-position: 34% center !important;
+  }
+
+  .brand-poster-joola .poster-hero-img,
+  .home-poster .poster-hero-img {
+    object-position: 35% center !important;
+  }
+
+  .brand-poster-butterfly .poster-hero-img,
+  .brand-poster-dhs .poster-hero-img,
+  .brand-poster-dawei .poster-hero-img,
+  .brand-poster-tibhar .poster-hero-img {
+    object-position: 33% center !important;
+  }
+
+  .brand-poster-stiga .poster-hero-img,
+  .brand-poster-yinhe .poster-hero-img,
+  .brand-poster-xiom .poster-hero-img,
+  .brand-poster-andro .poster-hero-img {
+    object-position: 34% center !important;
+  }
+
+  .poster-hotspot-primary {
+    left: 5.5% !important;
+    top: 72% !important;
+    width: 22% !important;
+    height: 10% !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .poster-hero-img {
+    height: clamp(315px, 76vw, 410px) !important;
+    object-position: 30% center !important;
+  }
+
+  .home-poster .poster-hero-img {
+    object-position: 31% center !important;
+  }
+
+  .brand-poster .poster-hero-img {
+    object-position: 30% center !important;
+  }
+
+  .brand-poster-yinhe .poster-hero-img,
+  .brand-poster-xiom .poster-hero-img,
+  .brand-poster-stiga .poster-hero-img,
+  .brand-poster-andro .poster-hero-img {
+    object-position: 31% center !important;
+  }
+
+  .poster-hotspot-primary {
+    left: 5.5% !important;
+    top: 73% !important;
+    width: 36% !important;
+    height: 11% !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .poster-hero-img {
+    height: 350px !important;
+    object-position: 29% center !important;
+  }
+}
+
+
+/* FINAL: responsive banners made from actual/original catalogue product images */
+.original-product-banner {
+  position: relative;
+  min-height: clamp(520px, 47vw, 760px);
+  padding: clamp(92px, 8vw, 128px) clamp(22px, 5vw, 78px) clamp(40px, 5vw, 82px);
+  display: grid;
+  grid-template-columns: minmax(320px, .88fr) minmax(420px, 1.12fr);
+  gap: clamp(22px, 4vw, 72px);
+  align-items: center;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 88% 24%, color-mix(in srgb, var(--opb-accent) 28%, transparent), transparent 28%),
+    linear-gradient(115deg, #fffdfa 0%, #f7f6f0 48%, #151814 48.2%, #080a08 100%);
+}
+
+.original-product-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.94) 0%, rgba(255,255,255,.88) 43%, rgba(255,255,255,0) 62%),
+    radial-gradient(circle at 8% 0%, rgba(255,255,255,.95), transparent 34%),
+    repeating-linear-gradient(90deg, rgba(17, 19, 17, .04) 0 1px, transparent 1px 62px);
+}
+
+.original-product-banner::after {
+  content: "";
+  position: absolute;
+  right: -8%;
+  top: 0;
+  width: 62%;
+  height: 100%;
+  z-index: -1;
+  background:
+    linear-gradient(135deg, transparent 0 38%, color-mix(in srgb, var(--opb-accent) 72%, transparent) 38.2% 38.8%, transparent 39%),
+    radial-gradient(circle at 60% 48%, color-mix(in srgb, var(--opb-accent) 18%, transparent), transparent 38%);
+  opacity: .96;
+}
+
+.opb-copy {
+  max-width: 680px;
+  position: relative;
+  z-index: 2;
+}
+
+.opb-logo-img {
+  max-width: clamp(148px, 14vw, 240px);
+  max-height: 78px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: clamp(24px, 3vw, 46px);
+  filter: drop-shadow(0 12px 24px rgba(17, 19, 17, .08));
+}
+
+.opb-ttw-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: clamp(24px, 3vw, 46px);
+  font: 950 clamp(15px, 1.4vw, 24px) Manrope, sans-serif;
+  letter-spacing: .14em;
+  color: var(--ink, #101410);
+}
+
+.opb-eyebrow {
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: var(--opb-accent);
+  font-weight: 950;
+  font-size: clamp(13px, 1.15vw, 22px);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.opb-eyebrow::after {
+  content: "";
+  display: block;
+  width: min(150px, 22vw);
+  height: 2px;
+  background: var(--opb-accent);
+}
+
+.original-product-banner h1 {
+  margin: 0;
+  max-width: 760px;
+  color: var(--ink, #101410);
+  font-family: Manrope, sans-serif;
+  font-size: clamp(48px, 6.2vw, 112px);
+  line-height: .88;
+  letter-spacing: -.075em;
+  font-weight: 950;
+  text-wrap: balance;
+}
+
+.original-product-banner h1::first-letter {
+  color: var(--ink, #101410);
+}
+
+.opb-text {
+  max-width: 620px;
+  margin: clamp(18px, 2vw, 28px) 0 0;
+  color: rgba(17, 19, 17, .68);
+  font-size: clamp(16px, 1.45vw, 26px);
+  line-height: 1.45;
+  font-weight: 750;
+}
+
+.opb-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: clamp(22px, 2.6vw, 36px) 0 0;
+}
+
+.opb-chips span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(17, 19, 17, .1);
+  background: rgba(255,255,255,.78);
+  color: rgba(17, 19, 17, .76);
+  font-size: 13px;
+  font-weight: 950;
+  backdrop-filter: blur(12px);
+}
+
+.opb-btn {
+  margin-top: clamp(24px, 3vw, 42px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 58px;
+  padding: 0 28px;
+  border-radius: 18px;
+  background: var(--ink, #101410);
+  color: var(--opb-accent) !important;
+  font-weight: 950;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  box-shadow: 0 18px 42px color-mix(in srgb, var(--opb-accent) 20%, transparent);
+}
+
+.opb-stage {
+  position: relative;
+  z-index: 2;
+  min-height: clamp(360px, 36vw, 610px);
+  display: grid;
+  place-items: center;
+  perspective: 1200px;
+}
+
+.opb-stage::before {
+  content: "";
+  position: absolute;
+  left: 6%;
+  right: -4%;
+  bottom: 6%;
+  height: 31%;
+  border-radius: 46px 46px 0 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(0,0,0,.38)), #111411;
+  box-shadow: 0 28px 90px rgba(0,0,0,.34), inset 0 2px 0 color-mix(in srgb, var(--opb-accent) 40%, transparent);
+  transform: skewX(-9deg);
+}
+
+.opb-glow {
+  position: absolute;
+  width: 42%;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background: radial-gradient(circle, color-mix(in srgb, var(--opb-accent) 42%, transparent), transparent 68%);
+  filter: blur(12px);
+  right: 24%;
+  top: 16%;
+  opacity: .7;
+}
+
+.opb-product {
+  position: absolute;
+  width: clamp(128px, 13vw, 245px);
+  min-height: clamp(210px, 22vw, 390px);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: end;
+  transform-origin: 50% 100%;
+}
+
+.opb-product-img {
+  width: 100%;
+  aspect-ratio: 1 / 1.12;
+  display: grid;
+  place-items: center;
+  border-radius: 28px;
+  background: radial-gradient(circle at 52% 35%, rgba(255,255,255,.98), rgba(255,255,255,.18) 62%, rgba(255,255,255,.05));
+  box-shadow: 0 22px 50px rgba(0,0,0,.22);
+  backdrop-filter: blur(14px);
+  overflow: hidden;
+}
+
+.opb-product-img img {
+  width: 92%;
+  height: 92%;
+  object-fit: contain;
+  filter: drop-shadow(0 22px 24px rgba(0,0,0,.24));
+}
+
+.opb-img-failed .opb-product-img::after {
+  content: "Product";
+  color: #fff;
+  font-weight: 950;
+  opacity: .8;
+}
+
+.opb-img-failed img {
+  display: none;
+}
+
+.opb-product-label {
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.86);
+  box-shadow: 0 12px 30px rgba(0,0,0,.11);
+  max-width: 100%;
+}
+
+.opb-product-label strong,
+.opb-product-label span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.opb-product-label strong {
+  color: var(--ink, #101410);
+  font-size: clamp(12px, .9vw, 15px);
+  font-weight: 950;
+  letter-spacing: -.02em;
+}
+
+.opb-product-label span {
+  margin-top: 2px;
+  color: var(--opb-accent);
+  font-size: 11px;
+  font-weight: 950;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.opb-product-1 { left: 4%; bottom: 14%; width: clamp(155px, 16vw, 285px); z-index: 4; transform: rotate(-4deg); }
+.opb-product-2 { left: 29%; bottom: 17%; width: clamp(145px, 15vw, 270px); z-index: 5; transform: rotate(3deg); }
+.opb-product-3 { right: 23%; bottom: 13%; width: clamp(132px, 13vw, 240px); z-index: 4; transform: rotate(-2deg); }
+.opb-product-4 { right: 4%; bottom: 16%; width: clamp(122px, 12vw, 220px); z-index: 3; transform: rotate(4deg); }
+.opb-product-5 { right: 39%; top: 5%; width: clamp(105px, 10vw, 190px); z-index: 2; transform: rotate(-7deg); opacity: .96; }
+
+.opb-butterfly, .opb-dhs, .opb-tibhar, .opb-dawei {
+  background:
+    radial-gradient(circle at 88% 24%, color-mix(in srgb, var(--opb-accent) 25%, transparent), transparent 28%),
+    linear-gradient(115deg, #fffdfa 0%, #f7f3f1 48%, #151212 48.2%, #090808 100%);
+}
+
+.opb-xiom, .opb-yinhe, .opb-stiga {
+  background:
+    radial-gradient(circle at 88% 24%, color-mix(in srgb, var(--opb-accent) 25%, transparent), transparent 28%),
+    linear-gradient(115deg, #fffdfa 0%, #f5f8ff 48%, #10131b 48.2%, #07090d 100%);
+}
+
+.opb-dawei .opb-product-5,
+.opb-tibhar .opb-product-5 {
+  display: none;
+}
+
+@media (max-width: 1180px) {
+  .original-product-banner {
+    min-height: clamp(620px, 68vw, 760px);
+    grid-template-columns: 1fr;
+    align-items: start;
+    padding-top: 108px;
+    background:
+      radial-gradient(circle at 82% 54%, color-mix(in srgb, var(--opb-accent) 24%, transparent), transparent 34%),
+      linear-gradient(180deg, #fffdfa 0%, #f7f6f0 48%, #111411 48.2%, #080a08 100%);
+  }
+
+  .original-product-banner::before {
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.96) 0%, rgba(255,255,255,.86) 42%, rgba(255,255,255,0) 65%),
+      repeating-linear-gradient(90deg, rgba(17, 19, 17, .035) 0 1px, transparent 1px 56px);
+  }
+
+  .opb-copy {
+    max-width: 780px;
+  }
+
+  .original-product-banner h1 {
+    font-size: clamp(48px, 8vw, 84px);
+  }
+
+  .opb-stage {
+    min-height: clamp(360px, 48vw, 560px);
+    width: 100%;
+  }
+
+  .opb-product-label {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .original-product-banner {
+    min-height: 760px;
+    padding: 98px 18px 28px;
+    gap: 8px;
+  }
+
+  .opb-logo-img {
+    max-width: 148px;
+    max-height: 55px;
+    margin-bottom: 22px;
+  }
+
+  .opb-ttw-logo {
+    margin-bottom: 22px;
+    font-size: 13px;
+    letter-spacing: .08em;
+  }
+
+  .opb-eyebrow {
+    font-size: 11px;
+    gap: 10px;
+  }
+
+  .opb-eyebrow::after {
+    width: 78px;
+  }
+
+  .original-product-banner h1 {
+    font-size: clamp(42px, 12vw, 62px);
+    max-width: 94vw;
+  }
+
+  .opb-text {
+    font-size: 14px;
+    max-width: 92vw;
+  }
+
+  .opb-chips {
+    gap: 7px;
+    margin-top: 16px;
+  }
+
+  .opb-chips span {
+    min-height: 31px;
+    padding: 0 11px;
+    font-size: 11px;
+  }
+
+  .opb-btn {
+    min-height: 48px;
+    padding: 0 19px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-top: 18px;
+  }
+
+  .opb-stage {
+    min-height: 340px;
+    margin-top: -4px;
+  }
+
+  .opb-stage::before {
+    left: -10%;
+    right: -16%;
+    bottom: 2%;
+    height: 34%;
+    border-radius: 28px 28px 0 0;
+  }
+
+  .opb-product {
+    width: 34vw;
+    min-height: 205px;
+  }
+
+  .opb-product-img {
+    border-radius: 20px;
+  }
+
+  .opb-product-1 { left: 1%; bottom: 15%; width: 42vw; }
+  .opb-product-2 { left: 29%; bottom: 18%; width: 40vw; }
+  .opb-product-3 { right: 1%; bottom: 12%; width: 36vw; }
+  .opb-product-4 { right: -7%; bottom: 28%; width: 31vw; opacity: .92; }
+  .opb-product-5 { display: none; }
+
+  .opb-dawei .opb-product-2,
+  .opb-dawei .opb-product-3 {
+    width: 42vw;
+  }
+}
+
+@media (max-width: 430px) {
+  .original-product-banner {
+    min-height: 720px;
+  }
+
+  .opb-product-4 {
+    display: none;
+  }
+
+  .opb-product-1 { left: 0; width: 46vw; }
+  .opb-product-2 { left: 31%; width: 44vw; }
+  .opb-product-3 { right: -5%; width: 39vw; }
+}
+
+
+/* FINAL: aesthetic brand slider with no broken image logos */
+.brand-orbit-section {
+  position: relative !important;
+  overflow: hidden !important;
+  padding-top: clamp(72px, 7vw, 112px) !important;
+  padding-bottom: clamp(76px, 7vw, 118px) !important;
+  background:
+    radial-gradient(circle at 88% 18%, rgba(215,255,63,.28), transparent 26%),
+    radial-gradient(circle at 18% 84%, rgba(17,19,17,.08), transparent 26%),
+    linear-gradient(180deg, #fffdf8 0%, #f8f7ef 100%) !important;
+  border-top: 1px solid rgba(17,19,17,.05) !important;
+}
+
+.brand-orbit-section::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  pointer-events: none !important;
+  opacity: .54 !important;
+  background:
+    linear-gradient(90deg, rgba(17,19,17,.045) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(17,19,17,.035) 1px, transparent 1px) !important;
+  background-size: 72px 72px !important;
+  mask-image: radial-gradient(circle at 50% 46%, #000 0 44%, transparent 82%) !important;
+}
+
+.brand-orbit-bg {
+  position: absolute !important;
+  inset: auto -14% 6% auto !important;
+  width: 48vw !important;
+  aspect-ratio: 1 !important;
+  border-radius: 999px !important;
+  background: radial-gradient(circle, rgba(215,255,63,.28), transparent 64%) !important;
+  filter: blur(8px) !important;
+  pointer-events: none !important;
+}
+
+.brand-orbit-shell {
+  position: relative !important;
+  z-index: 2 !important;
+  margin-top: 0 !important;
+}
+
+.brand-orbit-head {
+  align-items: center !important;
+  margin-bottom: clamp(24px, 3vw, 42px) !important;
+}
+
+.brand-orbit-head .eyebrow {
+  color: rgba(17,19,17,.48) !important;
+}
+
+.brand-orbit-head h2,
+#homeBrandTitle {
+  margin: 8px 0 0 !important;
+  max-width: 980px !important;
+  font-size: clamp(52px, 6vw, 104px) !important;
+  line-height: .84 !important;
+  letter-spacing: -.095em !important;
+  font-weight: 950 !important;
+  color: var(--ink, #101410) !important;
+}
+
+.brand-orbit-head p {
+  margin-top: 18px !important;
+  max-width: 780px !important;
+  color: rgba(17,19,17,.62) !important;
+  font-size: clamp(15px, 1.2vw, 20px) !important;
+  line-height: 1.65 !important;
+  font-weight: 820 !important;
+}
+
+.brand-orbit-controls {
+  align-self: end !important;
+  display: inline-flex !important;
+  gap: 12px !important;
+}
+
+.brand-orbit-controls .brand-slider-btn {
+  width: 64px !important;
+  height: 64px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(17,19,17,.08) !important;
+  background: rgba(255,255,255,.9) !important;
+  color: var(--ink, #101410) !important;
+  box-shadow: 0 20px 44px rgba(17,19,17,.08) !important;
+  backdrop-filter: blur(16px) !important;
+  transition: transform .24s ease, background .24s ease, box-shadow .24s ease !important;
+}
+
+.brand-orbit-controls .brand-slider-btn:hover {
+  transform: translateY(-4px) scale(1.03) !important;
+  background: var(--accent, #d7ff3f) !important;
+  box-shadow: 0 24px 54px rgba(17,19,17,.16) !important;
+}
+
+.brand-orbit-slider-shell {
+  position: relative !important;
+  margin-inline: calc(var(--page-x, 4vw) * -1) !important;
+  padding-inline: var(--page-x, 4vw) !important;
+}
+
+.brand-orbit-slider-shell::before,
+.brand-orbit-slider-shell::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: clamp(28px, 6vw, 96px) !important;
+  z-index: 4 !important;
+  pointer-events: none !important;
+}
+
+.brand-orbit-slider-shell::before {
+  left: 0 !important;
+  background: linear-gradient(90deg, #fffdf8, transparent) !important;
+}
+
+.brand-orbit-slider-shell::after {
+  right: 0 !important;
+  background: linear-gradient(270deg, #fffdf8, transparent) !important;
+}
+
+.brand-orbit-track {
+  display: grid !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: minmax(300px, 360px) !important;
+  gap: 18px !important;
+  overflow-x: auto !important;
+  scroll-snap-type: x mandatory !important;
+  scrollbar-width: none !important;
+  padding: 16px 0 28px !important;
+}
+
+.brand-orbit-track::-webkit-scrollbar {
+  display: none !important;
+}
+
+.brand-orbit-card,
+.home-brand-slide.brand-orbit-card {
+  --brand-accent: var(--accent, #d7ff3f);
+  position: relative !important;
+  min-height: 315px !important;
+  display: grid !important;
+  grid-template-rows: auto 1fr auto !important;
+  gap: 20px !important;
+  padding: 26px !important;
+  border-radius: 34px !important;
+  overflow: hidden !important;
+  scroll-snap-align: start !important;
+  background:
+    radial-gradient(circle at 84% 10%, color-mix(in srgb, var(--brand-accent) 27%, transparent), transparent 30%),
+    linear-gradient(145deg, rgba(255,255,255,.92), rgba(246,245,239,.8)) !important;
+  border: 1px solid rgba(17,19,17,.08) !important;
+  box-shadow: 0 24px 60px rgba(17,19,17,.08) !important;
+  color: var(--ink, #101410) !important;
+  text-decoration: none !important;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease !important;
+}
+
+.brand-orbit-card:hover {
+  transform: translateY(-7px) !important;
+  border-color: color-mix(in srgb, var(--brand-accent) 60%, rgba(17,19,17,.08)) !important;
+  box-shadow: 0 34px 76px rgba(17,19,17,.13) !important;
+}
+
+.brand-orbit-card-featured,
+.home-brand-slide-joola.brand-orbit-card {
+  min-height: 345px !important;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(215,255,63,.32), transparent 28%),
+    radial-gradient(circle at 8% 88%, rgba(215,255,63,.16), transparent 32%),
+    linear-gradient(145deg, #121711, #1d2819 60%, #070907) !important;
+  color: #fff !important;
+  border-color: rgba(215,255,63,.22) !important;
+}
+
+.brand-card-sheen {
+  position: absolute !important;
+  inset: 0 !important;
+  pointer-events: none !important;
+  background:
+    linear-gradient(115deg, transparent 0 38%, rgba(255,255,255,.28) 48%, transparent 58%),
+    radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--brand-accent) 18%, transparent), transparent 36%) !important;
+  transform: translateX(-28%) !important;
+  opacity: .65 !important;
+}
+
+.brand-orbit-card-featured .brand-card-sheen {
+  background:
+    linear-gradient(115deg, transparent 0 36%, rgba(255,255,255,.12) 46%, transparent 56%),
+    radial-gradient(circle at 100% 0%, rgba(215,255,63,.22), transparent 36%) !important;
+}
+
+.brand-card-number,
+.brand-orbit-card .tile-number {
+  position: absolute !important;
+  top: 18px !important;
+  right: 18px !important;
+  left: auto !important;
+  z-index: 3 !important;
+  width: 42px !important;
+  height: 42px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,.74) !important;
+  color: rgba(17,19,17,.5) !important;
+  font-size: 12px !important;
+  font-weight: 950 !important;
+  box-shadow: 0 10px 22px rgba(17,19,17,.08) !important;
+}
+
+.brand-orbit-card-featured .brand-card-number {
+  background: rgba(215,255,63,.14) !important;
+  color: var(--accent, #d7ff3f) !important;
+}
+
+.brand-orbit-logo {
+  position: relative !important;
+  z-index: 2 !important;
+  display: grid !important;
+  grid-template-columns: 64px minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: 14px !important;
+  min-height: 86px !important;
+  padding: 14px 58px 14px 14px !important;
+  border-radius: 24px !important;
+  background: rgba(255,255,255,.68) !important;
+  border: 1px solid rgba(255,255,255,.7) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.85), 0 18px 38px rgba(17,19,17,.06) !important;
+}
+
+.brand-orbit-card-featured .brand-orbit-logo {
+  background: rgba(255,255,255,.94) !important;
+  border-color: rgba(215,255,63,.22) !important;
+}
+
+.brand-logo-orb {
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 20px !important;
+  display: grid !important;
+  place-items: center !important;
+  background:
+    radial-gradient(circle at 30% 22%, rgba(255,255,255,.5), transparent 34%),
+    linear-gradient(135deg, var(--brand-accent), color-mix(in srgb, var(--brand-accent) 40%, #111311)) !important;
+  color: #101410 !important;
+  font: 950 26px/1 Manrope, sans-serif !important;
+  box-shadow: 0 16px 32px color-mix(in srgb, var(--brand-accent) 28%, transparent) !important;
+  text-transform: uppercase !important;
+}
+
+.brand-wordmark {
+  display: block !important;
+  min-width: 0 !important;
+  color: var(--ink, #101410) !important;
+  font: 950 clamp(25px, 2.2vw, 34px)/.9 Manrope, sans-serif !important;
+  letter-spacing: -.07em !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.brand-wordmark-joola,
+.brand-wordmark-stiga,
+.brand-wordmark-dhs,
+.brand-wordmark-xiom {
+  letter-spacing: .04em !important;
+}
+
+.brand-orbit-copy {
+  position: relative !important;
+  z-index: 2 !important;
+  display: grid !important;
+  align-content: start !important;
+  gap: 9px !important;
+}
+
+.brand-orbit-copy small {
+  color: var(--brand-accent) !important;
+  font-size: 13px !important;
+  line-height: 1 !important;
+  font-weight: 950 !important;
+  text-transform: uppercase !important;
+  letter-spacing: .09em !important;
+}
+
+.brand-orbit-copy b {
+  color: inherit !important;
+  font-size: clamp(22px, 2vw, 30px) !important;
+  line-height: .98 !important;
+  letter-spacing: -.065em !important;
+  font-weight: 950 !important;
+}
+
+.brand-orbit-copy em {
+  margin-top: 2px !important;
+  color: rgba(17,19,17,.6) !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 1.55 !important;
+  font-weight: 780 !important;
+}
+
+.brand-orbit-card-featured .brand-orbit-copy em {
+  color: rgba(255,255,255,.66) !important;
+}
+
+.brand-card-footer {
+  position: relative !important;
+  z-index: 2 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+  margin-top: 6px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid rgba(17,19,17,.08) !important;
+  color: rgba(17,19,17,.72) !important;
+  font-weight: 950 !important;
+  font-size: 13px !important;
+  text-transform: uppercase !important;
+  letter-spacing: .08em !important;
+}
+
+.brand-orbit-card-featured .brand-card-footer {
+  border-top-color: rgba(255,255,255,.12) !important;
+  color: rgba(255,255,255,.74) !important;
+}
+
+.brand-card-footer i {
+  width: 38px !important;
+  height: 38px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 999px !important;
+  background: var(--brand-accent) !important;
+  color: #101410 !important;
+  font-style: normal !important;
+  font-weight: 950 !important;
+  box-shadow: 0 14px 28px color-mix(in srgb, var(--brand-accent) 24%, transparent) !important;
+}
+
+@media (max-width: 980px) {
+  .brand-orbit-head {
+    grid-template-columns: 1fr !important;
+  }
+
+  .brand-orbit-controls {
+    justify-self: start !important;
+  }
+
+  .brand-orbit-track {
+    grid-auto-columns: minmax(280px, 330px) !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .brand-orbit-section {
+    padding-top: 58px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .brand-orbit-head h2,
+  #homeBrandTitle {
+    font-size: clamp(42px, 13vw, 62px) !important;
+  }
+
+  .brand-orbit-head p {
+    font-size: 14px !important;
+  }
+
+  .brand-orbit-controls .brand-slider-btn {
+    width: 54px !important;
+    height: 54px !important;
+  }
+
+  .brand-orbit-track {
+    grid-auto-columns: minmax(258px, 82vw) !important;
+    gap: 14px !important;
+    padding-bottom: 18px !important;
+  }
+
+  .brand-orbit-card,
+  .home-brand-slide.brand-orbit-card {
+    min-height: 292px !important;
+    padding: 20px !important;
+    border-radius: 28px !important;
+  }
+
+  .brand-orbit-logo {
+    grid-template-columns: 54px minmax(0, 1fr) !important;
+    min-height: 76px !important;
+    padding: 12px 50px 12px 12px !important;
+    border-radius: 20px !important;
+  }
+
+  .brand-logo-orb {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 17px !important;
+    font-size: 22px !important;
+  }
+
+  .brand-wordmark {
+    font-size: 27px !important;
+  }
+
+  .brand-orbit-copy b {
+    font-size: 24px !important;
+  }
+
+  .brand-orbit-copy em {
+    font-size: 13px !important;
+  }
+}
+
+
+/* Poster banner upgrade */
+.original-product-banner.poster-banner {
+  display: block;
+  padding: 0;
+  margin: 1.8rem 0 2.6rem;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+.original-product-banner.poster-banner::before,
+.original-product-banner.poster-banner::after {
+  display: none;
+}
+.opb-poster-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 34px;
+  background: linear-gradient(180deg, #fafaf6, #f2f2eb);
+  box-shadow: 0 24px 70px rgba(15, 20, 28, 0.12);
+}
+.opb-poster-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.4);
+}
+.opb-poster-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  .original-product-banner.poster-banner {
+    margin: 1.4rem 0 2.2rem;
+  }
+  .opb-poster-link {
+    border-radius: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .original-product-banner.poster-banner {
+    margin: 1rem 0 1.8rem;
+  }
+  .opb-poster-link {
+    border-radius: 22px;
+    box-shadow: 0 16px 36px rgba(15, 20, 28, 0.12);
+  }
+}
+@media (max-width: 480px) {
+  .opb-poster-link {
+    border-radius: 18px;
+  }
+}
+
+
+/* FINAL FIX: full-page poster banners + correct active brand in navbar */
+:root {
+  --ttw-header-height: 82px;
+}
+
+/* Make the poster hero feel like a full-page landing banner instead of a small rounded card. */
+main > .original-product-banner.poster-banner:first-child {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  height: calc(100vh - var(--ttw-header-height)) !important;
+  min-height: 720px !important;
+  margin: 0 0 clamp(38px, 5vw, 82px) calc(50% - 50vw) !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+  background: #080a08 !important;
+  box-shadow: none !important;
+}
+
+main > .original-product-banner.poster-banner:first-child .opb-poster-link {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: inherit !important;
+  display: block !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: #080a08 !important;
+}
+
+main > .original-product-banner.poster-banner:first-child .opb-poster-link::after {
+  display: none !important;
+}
+
+main > .original-product-banner.poster-banner:first-child .opb-poster-image {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: fill !important;
+  object-position: center center !important;
+  border-radius: 0 !important;
+}
+
+@media (max-width: 1180px) {
+  :root { --ttw-header-height: 76px; }
+  main > .original-product-banner.poster-banner:first-child {
+    min-height: 640px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  :root { --ttw-header-height: 66px; }
+  main > .original-product-banner.poster-banner:first-child {
+    height: calc(100vh - var(--ttw-header-height)) !important;
+    min-height: 620px !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image {
+    object-fit: cover !important;
+    object-position: 34% center !important;
+  }
+}
+
+@media (max-width: 430px) {
+  main > .original-product-banner.poster-banner:first-child {
+    min-height: 600px !important;
+  }
+
+  main > .original-product-banner.poster-banner:first-child .opb-poster-image {
+    object-position: 31% center !important;
+  }
+}
+
+/* Remove the old global JOOLA highlight from the Brands dropdown. */
+.site-header .nav-dropdown-menu a[href="joola.html"],
+.css-mobile-menu a[href="joola.html"] {
+  background: transparent !important;
+  color: var(--ink, #101410) !important;
+  font-weight: 850 !important;
+  border-radius: 14px !important;
+}
+
+/* Keep normal hover effect after the reset above. */
+.site-header .nav-dropdown-menu a:hover,
+.site-header .nav-dropdown-menu a:focus,
+.css-mobile-menu a:hover,
+.css-mobile-menu a:focus {
+  background: var(--accent, #d7ff3f) !important;
+  color: var(--ink, #101410) !important;
+}
+
+/* Highlight only the currently opened brand/page. */
+body[data-brand="joola"] .site-header .nav-dropdown-menu a[href="joola.html"],
+body[data-brand="joola"] .css-mobile-menu a[href="joola.html"],
+body[data-brand="tibhar"] .site-header .nav-dropdown-menu a[href="tibhar.html"],
+body[data-brand="tibhar"] .css-mobile-menu a[href="tibhar.html"],
+body[data-brand="butterfly"] .site-header .nav-dropdown-menu a[href="butterfly.html"],
+body[data-brand="butterfly"] .css-mobile-menu a[href="butterfly.html"],
+body[data-brand="stiga"] .site-header .nav-dropdown-menu a[href="stiga.html"],
+body[data-brand="stiga"] .css-mobile-menu a[href="stiga.html"],
+body[data-brand="dhs"] .site-header .nav-dropdown-menu a[href="dhs.html"],
+body[data-brand="dhs"] .css-mobile-menu a[href="dhs.html"],
+body[data-brand="yinhe"] .site-header .nav-dropdown-menu a[href="yinhe.html"],
+body[data-brand="yinhe"] .css-mobile-menu a[href="yinhe.html"],
+body[data-brand="xiom"] .site-header .nav-dropdown-menu a[href="xiom.html"],
+body[data-brand="xiom"] .css-mobile-menu a[href="xiom.html"],
+body[data-brand="andro"] .site-header .nav-dropdown-menu a[href="andro.html"],
+body[data-brand="andro"] .css-mobile-menu a[href="andro.html"],
+body[data-brand="dawei"] .site-header .nav-dropdown-menu a[href="dawei.html"],
+body[data-brand="dawei"] .css-mobile-menu a[href="dawei.html"],
+body[data-page="brands"] .site-header .nav-dropdown-menu a[href="brands.html"],
+body[data-page="brands"] .css-mobile-menu a[href="brands.html"] {
+  background: var(--accent, #d7ff3f) !important;
+  color: var(--ink, #101410) !important;
+  font-weight: 950 !important;
+  border-radius: 999px !important;
+}
+
+body[data-brand] .site-header .nav-dropdown-trigger[href="brands.html"],
+body[data-page="brands"] .site-header .nav-dropdown-trigger[href="brands.html"] {
+  background: rgba(215,255,63,.30) !important;
+  color: var(--ink, #101410) !important;
+}

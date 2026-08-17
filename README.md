@@ -632,3 +632,18 @@ JS syntax check: OK
 
 - Removed the homepage 'Play by brand / Start with JOOLA' spotlight hero block.
 - Kept only the brand slider section on the homepage brand area.
+
+- Added responsive generated poster banners for homepage and all brand pages.
+- Added banners for JOOLA, Tibhar, Butterfly, STIGA, DHS, YinHe, Xiom, Andro and Dawei.
+- Added CSS responsive handling for laptop, tablet and mobile views using safe cropping and clickable poster hotspots.
+
+- Replaced generated poster images with responsive HTML/CSS banners using actual product images from the live product catalogue.
+- Each brand page now displays original catalogue product imagery in its banner instead of AI-generated product renders.
+- Homepage banner also uses real catalogue products and remains responsive across laptop, tablet and mobile.
+
+- Redesigned the homepage brand slider to be more eye-catching and premium.
+- Replaced broken image-logo dependency in the brand slider with styled text wordmarks and brand mark cards, so logos/branding no longer show broken image icons.
+- Added responsive slider polish for laptop, tablet and mobile.
+
+- Made poster banners full-page/full-viewport under the navbar with no rounded card spacing.
+- Fixed Brands dropdown active highlight so the current brand is highlighted instead of JOOLA always staying highlighted.
