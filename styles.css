@@ -14787,9 +14787,9 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
   padding-top: clamp(72px, 7vw, 112px) !important;
   padding-bottom: clamp(76px, 7vw, 118px) !important;
   background:
-    radial-gradient(circle at 88% 18%, rgba(215,255,63,.28), transparent 26%),
-    radial-gradient(circle at 18% 84%, rgba(17,19,17,.08), transparent 26%),
-    linear-gradient(180deg, #fffdf8 0%, #f8f7ef 100%) !important;
+    radial-gradient(circle at 88% 18%, rgba(215,255,63,.14), transparent 26%),
+    radial-gradient(circle at 18% 84%, rgba(17,19,17,.06), transparent 24%),
+    linear-gradient(180deg, #fffdf8 0%, #f7f6ef 100%) !important;
   border-top: 1px solid rgba(17,19,17,.05) !important;
 }
 
@@ -14798,12 +14798,12 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
   position: absolute !important;
   inset: 0 !important;
   pointer-events: none !important;
-  opacity: .54 !important;
+  opacity: .48 !important;
   background:
-    linear-gradient(90deg, rgba(17,19,17,.045) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(17,19,17,.035) 1px, transparent 1px) !important;
+    linear-gradient(90deg, rgba(17,19,17,.04) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(17,19,17,.03) 1px, transparent 1px) !important;
   background-size: 72px 72px !important;
-  mask-image: radial-gradient(circle at 50% 46%, #000 0 44%, transparent 82%) !important;
+  mask-image: radial-gradient(circle at 50% 46%, #000 0 48%, transparent 86%) !important;
 }
 
 .brand-orbit-bg {
@@ -14812,8 +14812,8 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
   width: 48vw !important;
   aspect-ratio: 1 !important;
   border-radius: 999px !important;
-  background: radial-gradient(circle, rgba(215,255,63,.28), transparent 64%) !important;
-  filter: blur(8px) !important;
+  background: radial-gradient(circle, rgba(215,255,63,.18), transparent 66%) !important;
+  filter: blur(12px) !important;
   pointer-events: none !important;
 }
 
@@ -14824,7 +14824,7 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
 }
 
 .brand-orbit-head {
-  align-items: center !important;
+  align-items: end !important;
   margin-bottom: clamp(24px, 3vw, 42px) !important;
 }
 
@@ -14863,7 +14863,7 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
   height: 64px !important;
   border-radius: 999px !important;
   border: 1px solid rgba(17,19,17,.08) !important;
-  background: rgba(255,255,255,.9) !important;
+  background: rgba(255,255,255,.94) !important;
   color: var(--ink, #101410) !important;
   box-shadow: 0 20px 44px rgba(17,19,17,.08) !important;
   backdrop-filter: blur(16px) !important;
@@ -14871,9 +14871,9 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
 }
 
 .brand-orbit-controls .brand-slider-btn:hover {
-  transform: translateY(-4px) scale(1.03) !important;
-  background: var(--accent, #d7ff3f) !important;
-  box-shadow: 0 24px 54px rgba(17,19,17,.16) !important;
+  transform: translateY(-4px) !important;
+  background: #ffffff !important;
+  box-shadow: 0 24px 54px rgba(17,19,17,.12) !important;
 }
 
 .brand-orbit-slider-shell {
@@ -14906,7 +14906,7 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
 .brand-orbit-track {
   display: grid !important;
   grid-auto-flow: column !important;
-  grid-auto-columns: minmax(300px, 360px) !important;
+  grid-auto-columns: minmax(300px, 348px) !important;
   gap: 18px !important;
   overflow-x: auto !important;
   scroll-snap-type: x mandatory !important;
@@ -14920,135 +14920,101 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
 
 .brand-orbit-card,
 .home-brand-slide.brand-orbit-card {
-  --brand-accent: var(--accent, #d7ff3f);
   position: relative !important;
-  min-height: 315px !important;
+  min-height: 320px !important;
   display: grid !important;
   grid-template-rows: auto 1fr auto !important;
   gap: 20px !important;
-  padding: 26px !important;
-  border-radius: 34px !important;
+  padding: 24px !important;
+  border-radius: 32px !important;
   overflow: hidden !important;
   scroll-snap-align: start !important;
-  background:
-    radial-gradient(circle at 84% 10%, color-mix(in srgb, var(--brand-accent) 27%, transparent), transparent 30%),
-    linear-gradient(145deg, rgba(255,255,255,.92), rgba(246,245,239,.8)) !important;
+  background: linear-gradient(180deg, rgba(255,255,255,.95), rgba(251,250,245,.96)) !important;
   border: 1px solid rgba(17,19,17,.08) !important;
-  box-shadow: 0 24px 60px rgba(17,19,17,.08) !important;
+  box-shadow: 0 24px 56px rgba(17,19,17,.07) !important;
   color: var(--ink, #101410) !important;
   text-decoration: none !important;
   transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease !important;
 }
 
-.brand-orbit-card:hover {
-  transform: translateY(-7px) !important;
-  border-color: color-mix(in srgb, var(--brand-accent) 60%, rgba(17,19,17,.08)) !important;
-  box-shadow: 0 34px 76px rgba(17,19,17,.13) !important;
-}
-
-.brand-orbit-card-featured,
-.home-brand-slide-joola.brand-orbit-card {
-  min-height: 345px !important;
-  background:
-    radial-gradient(circle at 78% 18%, rgba(215,255,63,.32), transparent 28%),
-    radial-gradient(circle at 8% 88%, rgba(215,255,63,.16), transparent 32%),
-    linear-gradient(145deg, #121711, #1d2819 60%, #070907) !important;
-  color: #fff !important;
-  border-color: rgba(215,255,63,.22) !important;
-}
-
-.brand-card-sheen {
+.brand-orbit-card::after {
+  content: "" !important;
   position: absolute !important;
   inset: 0 !important;
   pointer-events: none !important;
-  background:
-    linear-gradient(115deg, transparent 0 38%, rgba(255,255,255,.28) 48%, transparent 58%),
-    radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--brand-accent) 18%, transparent), transparent 36%) !important;
-  transform: translateX(-28%) !important;
-  opacity: .65 !important;
+  background: linear-gradient(180deg, rgba(255,255,255,.16), transparent 34%) !important;
 }
 
-.brand-orbit-card-featured .brand-card-sheen {
-  background:
-    linear-gradient(115deg, transparent 0 36%, rgba(255,255,255,.12) 46%, transparent 56%),
-    radial-gradient(circle at 100% 0%, rgba(215,255,63,.22), transparent 36%) !important;
+.brand-orbit-card:hover {
+  transform: translateY(-6px) !important;
+  border-color: rgba(17,19,17,.14) !important;
+  box-shadow: 0 32px 72px rgba(17,19,17,.12) !important;
 }
 
 .brand-card-number,
 .brand-orbit-card .tile-number {
   position: absolute !important;
-  top: 18px !important;
-  right: 18px !important;
+  top: 16px !important;
+  right: 16px !important;
   left: auto !important;
   z-index: 3 !important;
-  width: 42px !important;
-  height: 42px !important;
+  width: 40px !important;
+  height: 40px !important;
   display: grid !important;
   place-items: center !important;
   border-radius: 999px !important;
-  background: rgba(255,255,255,.74) !important;
-  color: rgba(17,19,17,.5) !important;
+  background: rgba(255,255,255,.9) !important;
+  color: rgba(17,19,17,.45) !important;
   font-size: 12px !important;
-  font-weight: 950 !important;
+  font-weight: 900 !important;
   box-shadow: 0 10px 22px rgba(17,19,17,.08) !important;
-}
-
-.brand-orbit-card-featured .brand-card-number {
-  background: rgba(215,255,63,.14) !important;
-  color: var(--accent, #d7ff3f) !important;
 }
 
 .brand-orbit-logo {
   position: relative !important;
   z-index: 2 !important;
-  display: grid !important;
-  grid-template-columns: 64px minmax(0, 1fr) !important;
+  display: flex !important;
   align-items: center !important;
-  gap: 14px !important;
-  min-height: 86px !important;
-  padding: 14px 58px 14px 14px !important;
+  justify-content: center !important;
+  min-height: 92px !important;
+  padding: 18px 22px !important;
   border-radius: 24px !important;
-  background: rgba(255,255,255,.68) !important;
-  border: 1px solid rgba(255,255,255,.7) !important;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.85), 0 18px 38px rgba(17,19,17,.06) !important;
+  background: rgba(255,255,255,.82) !important;
+  border: 1px solid rgba(17,19,17,.06) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 18px 38px rgba(17,19,17,.06) !important;
 }
 
-.brand-orbit-card-featured .brand-orbit-logo {
-  background: rgba(255,255,255,.94) !important;
-  border-color: rgba(215,255,63,.22) !important;
+.brand-logo-badge {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 52px !important;
 }
 
-.brand-logo-orb {
-  width: 58px !important;
-  height: 58px !important;
-  border-radius: 20px !important;
-  display: grid !important;
-  place-items: center !important;
-  background:
-    radial-gradient(circle at 30% 22%, rgba(255,255,255,.5), transparent 34%),
-    linear-gradient(135deg, var(--brand-accent), color-mix(in srgb, var(--brand-accent) 40%, #111311)) !important;
-  color: #101410 !important;
-  font: 950 26px/1 Manrope, sans-serif !important;
-  box-shadow: 0 16px 32px color-mix(in srgb, var(--brand-accent) 28%, transparent) !important;
-  text-transform: uppercase !important;
-}
-
-.brand-wordmark {
+.brand-logo-badge img {
   display: block !important;
-  min-width: 0 !important;
-  color: var(--ink, #101410) !important;
-  font: 950 clamp(25px, 2.2vw, 34px)/.9 Manrope, sans-serif !important;
-  letter-spacing: -.07em !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
+  max-width: min(190px, 100%) !important;
+  max-height: 44px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  filter: saturate(.96) contrast(1.02) !important;
 }
 
-.brand-wordmark-joola,
-.brand-wordmark-stiga,
-.brand-wordmark-dhs,
-.brand-wordmark-xiom {
-  letter-spacing: .04em !important;
+.brand-logo-fallback {
+  display: none !important;
+  font: 900 28px/1 Manrope, sans-serif !important;
+  letter-spacing: -.06em !important;
+  color: var(--ink, #101410) !important;
+}
+
+.brand-logo-badge.logo-missing img {
+  display: none !important;
+}
+
+.brand-logo-badge.logo-missing + .brand-logo-fallback {
+  display: block !important;
 }
 
 .brand-orbit-copy {
@@ -15056,37 +15022,33 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
   z-index: 2 !important;
   display: grid !important;
   align-content: start !important;
-  gap: 9px !important;
+  gap: 10px !important;
 }
 
 .brand-orbit-copy small {
-  color: var(--brand-accent) !important;
-  font-size: 13px !important;
+  color: rgba(17,19,17,.5) !important;
+  font-size: 12px !important;
   line-height: 1 !important;
-  font-weight: 950 !important;
+  font-weight: 900 !important;
   text-transform: uppercase !important;
-  letter-spacing: .09em !important;
+  letter-spacing: .12em !important;
 }
 
 .brand-orbit-copy b {
   color: inherit !important;
   font-size: clamp(22px, 2vw, 30px) !important;
-  line-height: .98 !important;
-  letter-spacing: -.065em !important;
+  line-height: 1.02 !important;
+  letter-spacing: -.06em !important;
   font-weight: 950 !important;
 }
 
 .brand-orbit-copy em {
   margin-top: 2px !important;
-  color: rgba(17,19,17,.6) !important;
+  color: rgba(17,19,17,.62) !important;
   font-style: normal !important;
   font-size: 14px !important;
-  line-height: 1.55 !important;
-  font-weight: 780 !important;
-}
-
-.brand-orbit-card-featured .brand-orbit-copy em {
-  color: rgba(255,255,255,.66) !important;
+  line-height: 1.6 !important;
+  font-weight: 760 !important;
 }
 
 .brand-card-footer {
@@ -15099,29 +15061,24 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
   margin-top: 6px !important;
   padding-top: 16px !important;
   border-top: 1px solid rgba(17,19,17,.08) !important;
-  color: rgba(17,19,17,.72) !important;
-  font-weight: 950 !important;
+  color: rgba(17,19,17,.74) !important;
+  font-weight: 900 !important;
   font-size: 13px !important;
   text-transform: uppercase !important;
   letter-spacing: .08em !important;
 }
 
-.brand-orbit-card-featured .brand-card-footer {
-  border-top-color: rgba(255,255,255,.12) !important;
-  color: rgba(255,255,255,.74) !important;
-}
-
 .brand-card-footer i {
-  width: 38px !important;
-  height: 38px !important;
+  width: 40px !important;
+  height: 40px !important;
   display: grid !important;
   place-items: center !important;
   border-radius: 999px !important;
-  background: var(--brand-accent) !important;
-  color: #101410 !important;
+  background: rgba(17,19,17,.96) !important;
+  color: #ffffff !important;
   font-style: normal !important;
   font-weight: 950 !important;
-  box-shadow: 0 14px 28px color-mix(in srgb, var(--brand-accent) 24%, transparent) !important;
+  box-shadow: 0 16px 28px rgba(17,19,17,.18) !important;
 }
 
 @media (max-width: 980px) {
@@ -15166,27 +15123,20 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
 
   .brand-orbit-card,
   .home-brand-slide.brand-orbit-card {
-    min-height: 292px !important;
+    min-height: 286px !important;
     padding: 20px !important;
     border-radius: 28px !important;
   }
 
   .brand-orbit-logo {
-    grid-template-columns: 54px minmax(0, 1fr) !important;
-    min-height: 76px !important;
-    padding: 12px 50px 12px 12px !important;
+    min-height: 82px !important;
+    padding: 16px 18px !important;
     border-radius: 20px !important;
   }
 
-  .brand-logo-orb {
-    width: 50px !important;
-    height: 50px !important;
-    border-radius: 17px !important;
-    font-size: 22px !important;
-  }
-
-  .brand-wordmark {
-    font-size: 27px !important;
+  .brand-logo-badge img {
+    max-width: min(160px, 100%) !important;
+    max-height: 36px !important;
   }
 
   .brand-orbit-copy b {
@@ -15197,7 +15147,6 @@ label:has(input[name="categoryFilter"][value="apparel"]) {
     font-size: 13px !important;
   }
 }
-
 
 /* Poster banner upgrade */
 .original-product-banner.poster-banner {
