@@ -20508,3 +20508,79 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(fixBrandDropdownHighlight, 200);
   setTimeout(fixBrandDropdownHighlight, 900);
 })();
+
+
+/* FINAL: collapsible filter panel + budget URL price filters */
+(function () {
+  function setupCollapsibleFilters() {
+    document.querySelectorAll(".shop.section").forEach(section => {
+      const toggle = section.querySelector(".filter-toggle");
+      const layout = section.querySelector(".catalog-layout");
+      const panel = section.querySelector(".filter-panel");
+      if (!toggle || !layout || !panel || toggle.dataset.collapsibleFilterBound === "true") return;
+
+      toggle.dataset.collapsibleFilterBound = "true";
+      toggle.type = "button";
+      toggle.setAttribute("aria-controls", panel.id || "filterPanel");
+      if (!panel.id) panel.id = "filterPanel";
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.textContent = "Filter";
+
+      layout.classList.add("filters-collapsed");
+      layout.classList.remove("filters-open");
+
+      toggle.addEventListener("click", () => {
+        const isOpen = layout.classList.toggle("filters-open");
+        layout.classList.toggle("filters-collapsed", !isOpen);
+        toggle.setAttribute("aria-expanded", String(isOpen));
+        toggle.textContent = isOpen ? "Hide filter" : "Filter";
+        if (isOpen) {
+          setTimeout(() => panel.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+        }
+      });
+    });
+  }
+
+  function applyBudgetUrlParams() {
+    const params = new URLSearchParams(window.location.search);
+    const min = params.get("min") || params.get("from");
+    const max = params.get("max") || params.get("under");
+    if (!min && !max) return;
+
+    const minInput = document.getElementById("minPrice");
+    const maxInput = document.getElementById("maxPrice");
+    if (minInput && min) minInput.value = min;
+    if (maxInput && max) maxInput.value = max;
+
+    const note = document.getElementById("filterNote");
+    if (note) {
+      const pieces = [];
+      if (min) pieces.push(`above ₹${Number(min).toLocaleString("en-IN")}`);
+      if (max) pieces.push(`under ₹${Number(max).toLocaleString("en-IN")}`);
+      note.textContent = `Showing products ${pieces.join(" and ")}`;
+    }
+
+    setTimeout(() => {
+      const save = document.getElementById("saveFilters");
+      if (save) save.click();
+      else if (typeof window.forceRenderProducts === "function") window.forceRenderProducts();
+      else {
+        if (typeof renderBrandProducts === "function") renderBrandProducts();
+        if (typeof renderHomeProducts === "function") renderHomeProducts();
+      }
+    }, 180);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setupCollapsibleFilters();
+    applyBudgetUrlParams();
+  });
+
+  window.addEventListener("pageshow", () => {
+    setupCollapsibleFilters();
+    applyBudgetUrlParams();
+  });
+
+  setTimeout(setupCollapsibleFilters, 400);
+  setTimeout(setupCollapsibleFilters, 1200);
+})();

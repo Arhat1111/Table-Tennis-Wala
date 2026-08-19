@@ -654,3 +654,7 @@ JS syntax check: OK
 - Fixed navbar active state: Brands button is no longer highlighted; only the current brand inside the dropdown is highlighted.
 
 - Updated banner links: homepage banner opens the full products page, and every brand banner opens that brand's product section.
+
+- Added a homepage Shop by Budget section below the banner for under ₹5k, under ₹10k, above ₹10k and custom setup.
+- Made the product filters collapsed by default. Filters open only when the Filter button is clicked.
+- Added URL budget filters such as products.html?max=5000 and products.html?min=10000.
