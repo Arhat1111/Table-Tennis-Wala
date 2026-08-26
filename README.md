@@ -658,3 +658,7 @@ JS syntax check: OK
 - Added a homepage Shop by Budget section below the banner for under ₹5k, under ₹10k, above ₹10k and custom setup.
 - Made the product filters collapsed by default. Filters open only when the Filter button is clicked.
 - Added URL budget filters such as products.html?max=5000 and products.html?min=10000.
+
+- Added Search button beside product search input; pressing Enter also searches.
+- Sort dropdown now applies immediately and scrolls to products.
+- Homepage order updated: hero banner, price filter, choose setup, products, about, brands.

@@ -20584,3 +20584,54 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(setupCollapsibleFilters, 400);
   setTimeout(setupCollapsibleFilters, 1200);
 })();
+
+
+/* FINAL: search button + automatic sort apply */
+(function () {
+  function scrollToResults(section) {
+    const target = section?.querySelector(".catalog-results, #brandProductGrid, .product-grid");
+    if (target) setTimeout(() => target.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+  }
+
+  function applyCurrentSearchAndSort(section) {
+    const save = section?.querySelector("#saveFilters");
+    if (save) save.click();
+    else if (typeof window.forceRenderProducts === "function") window.forceRenderProducts();
+    else {
+      try { if (typeof renderBrandProducts === "function") renderBrandProducts(); } catch (e) {}
+      try { if (typeof renderHomeProducts === "function") renderHomeProducts(); } catch (e) {}
+    }
+    scrollToResults(section);
+  }
+
+  function setupSearchButtons() {
+    document.querySelectorAll(".shop.section").forEach(section => {
+      const input = section.querySelector("#productSearch");
+      if (input && !section.querySelector(".catalog-search-button")) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "catalog-search-button";
+        btn.textContent = "Search";
+        input.insertAdjacentElement("afterend", btn);
+        btn.addEventListener("click", () => applyCurrentSearchAndSort(section));
+        input.addEventListener("keydown", event => {
+          if (event.key === "Enter") {
+            event.preventDefault();
+            applyCurrentSearchAndSort(section);
+          }
+        });
+      }
+
+      const sort = section.querySelector("#sortProducts");
+      if (sort && sort.dataset.autoSortBound !== "true") {
+        sort.dataset.autoSortBound = "true";
+        sort.addEventListener("change", () => applyCurrentSearchAndSort(section));
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", setupSearchButtons);
+  window.addEventListener("pageshow", setupSearchButtons);
+  setTimeout(setupSearchButtons, 400);
+  setTimeout(setupSearchButtons, 1200);
+})();
