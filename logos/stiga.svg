@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="STIGA">
-  <rect width="760" height="180" rx="56" fill="#101410"/>
-  <line x1="110" y1="70" x2="650" y2="70" stroke="#d7ff3f" stroke-width="9" stroke-linecap="round"/>
-  <line x1="110" y1="112" x2="650" y2="112" stroke="#d7ff3f" stroke-width="9" stroke-linecap="round"/>
-  <text x="380" y="112" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="70" font-weight="900" letter-spacing="18" fill="#ffffff">STIGA</text>
-</svg>
