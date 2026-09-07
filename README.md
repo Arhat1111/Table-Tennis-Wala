@@ -662,3 +662,7 @@ JS syntax check: OK
 - Added Search button beside product search input; pressing Enter also searches.
 - Sort dropdown now applies immediately and scrolls to products.
 - Homepage order updated: hero banner, price filter, choose setup, products, about, brands.
+
+- Updated all visible brand logos in the homepage brand slider, brands page, and brand directory from old SVG placeholders to new transparent PNG logo assets.
+
+- Polished homepage brand slider and Brands page with smoother cards, softer edge fades, updated logo sizing and calmer minimal styling.

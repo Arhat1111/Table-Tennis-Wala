@@ -15815,3 +15815,687 @@ main > .original-product-banner.poster-banner:first-child .opb-poster-image,
     width: 100% !important;
   }
 }
+
+
+/* FINAL FIX: updated brand logo image assets and clean logo presentation */
+.brand-logo-badge img,
+.brand-logo-glass img,
+.brand-directory-joola-logo img,
+.brand-all-links img,
+.logo-pill img,
+.brand-orbit-logo img,
+.home-brand-slide img,
+.brand-logo-slide img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  max-width: 100% !important;
+  height: auto !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+.brand-logo-badge,
+.brand-logo-glass,
+.brand-orbit-logo {
+  background: rgba(255,255,255,.94) !important;
+  border: 1px solid rgba(17,19,17,.08) !important;
+}
+
+.brand-logo-badge img,
+.brand-orbit-logo img {
+  max-height: 62px !important;
+  width: auto !important;
+}
+
+.brand-logo-glass img {
+  max-height: 96px !important;
+  width: auto !important;
+}
+
+.logo-pill img {
+  max-height: 58px !important;
+  width: auto !important;
+}
+
+.brand-all-links img {
+  width: 86px !important;
+  max-height: 34px !important;
+  object-fit: contain !important;
+  margin-right: 10px !important;
+}
+
+.brand-logo-badge.logo-missing + .brand-logo-fallback,
+.logo-fallback .brand-logo-fallback {
+  display: block !important;
+}
+
+@media (max-width: 680px) {
+  .brand-logo-badge img,
+  .brand-orbit-logo img { max-height: 46px !important; }
+  .brand-logo-glass img { max-height: 72px !important; }
+  .brand-all-links img { width: 72px !important; max-height: 28px !important; }
+}
+
+
+/* FINAL POLISH: smoother brand pages / homepage brand slider with official-style logo assets */
+.brand-orbit-section,
+.brand-logo-slider-section.brand-page-slider {
+  position: relative !important;
+  overflow: hidden !important;
+  padding-top: clamp(72px, 7vw, 112px) !important;
+  padding-bottom: clamp(72px, 7vw, 110px) !important;
+  background:
+    radial-gradient(circle at 88% 16%, rgba(215, 255, 63, .12), transparent 26%),
+    radial-gradient(circle at 14% 86%, rgba(17, 19, 17, .045), transparent 24%),
+    linear-gradient(180deg, #fffdf8 0%, #f8f7f0 100%) !important;
+}
+
+.brand-orbit-section::before,
+.brand-logo-slider-section.brand-page-slider::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  pointer-events: none !important;
+  opacity: .38 !important;
+  background:
+    linear-gradient(90deg, rgba(17, 19, 17, .035) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(17, 19, 17, .028) 1px, transparent 1px) !important;
+  background-size: 74px 74px !important;
+  -webkit-mask-image: radial-gradient(circle at 50% 48%, #000 0 52%, transparent 86%) !important;
+  mask-image: radial-gradient(circle at 50% 48%, #000 0 52%, transparent 86%) !important;
+}
+
+.brand-orbit-bg,
+.home-brand-lab-bg.brand-orbit-bg {
+  position: absolute !important;
+  right: -12vw !important;
+  top: -10vw !important;
+  width: 46vw !important;
+  min-width: 420px !important;
+  aspect-ratio: 1 !important;
+  border-radius: 999px !important;
+  background: radial-gradient(circle, rgba(215, 255, 63, .18), rgba(215, 255, 63, .055) 34%, transparent 70%) !important;
+  filter: blur(16px) !important;
+  pointer-events: none !important;
+}
+
+.brand-orbit-shell,
+.brand-page-slider .brand-slider-heading,
+.brand-page-slider .brand-logo-slider-shell,
+.brand-pill-directory,
+.brand-directory-highlight,
+.brands-editorial-hero {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.brand-orbit-head,
+.brand-page-slider .brand-slider-heading {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto !important;
+  align-items: end !important;
+  gap: clamp(18px, 3vw, 42px) !important;
+  margin-bottom: clamp(28px, 3.4vw, 48px) !important;
+}
+
+.brand-orbit-head .eyebrow,
+.brand-page-slider .brand-slider-heading .eyebrow {
+  color: rgba(17, 19, 17, .48) !important;
+}
+
+.brand-orbit-head h2,
+#homeBrandTitle,
+.brand-page-slider .brand-slider-heading h2 {
+  margin: 8px 0 0 !important;
+  max-width: 980px !important;
+  font-family: Manrope, sans-serif !important;
+  font-size: clamp(48px, 5.8vw, 98px) !important;
+  line-height: .86 !important;
+  letter-spacing: -.095em !important;
+  font-weight: 950 !important;
+  color: var(--ink, #101410) !important;
+}
+
+.brand-orbit-head p,
+.brand-page-slider .brand-slider-heading p {
+  margin: 16px 0 0 !important;
+  max-width: 760px !important;
+  color: rgba(17, 19, 17, .62) !important;
+  font-size: clamp(15px, 1.08vw, 19px) !important;
+  line-height: 1.62 !important;
+  font-weight: 780 !important;
+}
+
+.brand-orbit-controls,
+.brand-page-slider .brand-slider-controls {
+  display: inline-flex !important;
+  gap: 12px !important;
+  justify-self: end !important;
+}
+
+.brand-orbit-controls .brand-slider-btn,
+.brand-page-slider .brand-slider-btn {
+  width: 64px !important;
+  height: 64px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(17, 19, 17, .08) !important;
+  background: rgba(255, 255, 255, .92) !important;
+  color: var(--ink, #101410) !important;
+  box-shadow: 0 18px 42px rgba(17, 19, 17, .075) !important;
+  backdrop-filter: blur(18px) !important;
+  transition: transform .22s ease, background .22s ease, box-shadow .22s ease !important;
+}
+
+.brand-orbit-controls .brand-slider-btn:hover,
+.brand-page-slider .brand-slider-btn:hover {
+  transform: translateY(-3px) !important;
+  background: #ffffff !important;
+  box-shadow: 0 24px 56px rgba(17, 19, 17, .12) !important;
+}
+
+.brand-orbit-slider-shell,
+.brand-page-slider .brand-logo-slider-shell {
+  position: relative !important;
+  margin-inline: calc(var(--page-x, 4vw) * -1) !important;
+  padding-inline: var(--page-x, 4vw) !important;
+  overflow: hidden !important;
+}
+
+/* replace the old hard white block with a very soft edge fade */
+.brand-orbit-slider-shell::before,
+.brand-orbit-slider-shell::after,
+.brand-page-slider .brand-logo-slider-shell::before,
+.brand-page-slider .brand-logo-slider-shell::after {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: clamp(18px, 4.6vw, 68px) !important;
+  z-index: 4 !important;
+  pointer-events: none !important;
+}
+
+.brand-orbit-slider-shell::before,
+.brand-page-slider .brand-logo-slider-shell::before {
+  left: 0 !important;
+  background: linear-gradient(90deg, rgba(255, 253, 248, .88), rgba(255, 253, 248, .42) 48%, transparent) !important;
+}
+
+.brand-orbit-slider-shell::after,
+.brand-page-slider .brand-logo-slider-shell::after {
+  right: 0 !important;
+  background: linear-gradient(270deg, rgba(255, 253, 248, .88), rgba(255, 253, 248, .42) 48%, transparent) !important;
+}
+
+.brand-orbit-track,
+.brand-page-slider .brand-logo-track {
+  display: grid !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: clamp(272px, 18.8vw, 326px) !important;
+  gap: clamp(16px, 1.4vw, 22px) !important;
+  overflow-x: auto !important;
+  scroll-snap-type: x mandatory !important;
+  scrollbar-width: none !important;
+  padding: 14px 0 30px !important;
+  scroll-padding-inline: var(--page-x, 4vw) !important;
+  overscroll-behavior-inline: contain !important;
+}
+
+.brand-orbit-track::-webkit-scrollbar,
+.brand-page-slider .brand-logo-track::-webkit-scrollbar { display: none !important; }
+
+.brand-orbit-card,
+.home-brand-slide.brand-orbit-card,
+.brand-page-slider .brand-logo-slide {
+  position: relative !important;
+  min-height: 315px !important;
+  display: grid !important;
+  grid-template-rows: auto 1fr auto !important;
+  gap: 20px !important;
+  padding: 22px !important;
+  border-radius: 30px !important;
+  overflow: hidden !important;
+  scroll-snap-align: start !important;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .96), rgba(250, 249, 244, .98)) !important;
+  border: 1px solid rgba(17, 19, 17, .075) !important;
+  box-shadow: 0 20px 50px rgba(17, 19, 17, .07) !important;
+  color: var(--ink, #101410) !important;
+  text-decoration: none !important;
+  transform: translateZ(0) !important;
+  transition: transform .24s ease, box-shadow .24s ease, border-color .24s ease !important;
+}
+
+.brand-orbit-card::before,
+.brand-page-slider .brand-logo-slide::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(215, 255, 63, .095), transparent 24%),
+    linear-gradient(180deg, rgba(255,255,255,.35), transparent 42%) !important;
+  opacity: .9 !important;
+}
+
+.brand-orbit-card::after,
+.brand-page-slider .brand-logo-slide::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: auto 22px 88px 22px !important;
+  height: 1px !important;
+  background: rgba(17, 19, 17, .08) !important;
+  pointer-events: none !important;
+}
+
+.brand-orbit-card:hover,
+.brand-page-slider .brand-logo-slide:hover {
+  transform: translateY(-6px) !important;
+  border-color: rgba(17, 19, 17, .13) !important;
+  box-shadow: 0 30px 74px rgba(17, 19, 17, .115) !important;
+}
+
+.brand-card-number,
+.brand-orbit-card .tile-number {
+  position: absolute !important;
+  top: 14px !important;
+  right: 14px !important;
+  left: auto !important;
+  z-index: 3 !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 999px !important;
+  background: rgba(255, 255, 255, .9) !important;
+  color: rgba(17, 19, 17, .48) !important;
+  font: 900 12px/1 Manrope, sans-serif !important;
+  box-shadow: 0 10px 24px rgba(17, 19, 17, .08) !important;
+  border: 1px solid rgba(17,19,17,.055) !important;
+}
+
+.brand-orbit-logo,
+.brand-page-slider .brand-logo-glass {
+  position: relative !important;
+  z-index: 2 !important;
+  height: 88px !important;
+  min-height: 88px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 18px 24px !important;
+  border-radius: 21px !important;
+  background: rgba(255, 255, 255, .88) !important;
+  border: 1px solid rgba(17, 19, 17, .065) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.96), 0 14px 32px rgba(17,19,17,.045) !important;
+}
+
+.brand-logo-badge,
+.brand-page-slider .brand-logo-glass {
+  width: 100% !important;
+}
+
+.brand-logo-badge img,
+.brand-orbit-logo img,
+.brand-page-slider .brand-logo-glass img {
+  display: block !important;
+  max-width: min(208px, 82%) !important;
+  max-height: 52px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+.brand-orbit-copy,
+.brand-page-slider .brand-logo-details {
+  position: relative !important;
+  z-index: 2 !important;
+  display: grid !important;
+  align-content: start !important;
+  gap: 10px !important;
+}
+
+.brand-orbit-copy small,
+.brand-page-slider .brand-logo-details span {
+  color: rgba(17, 19, 17, .5) !important;
+  font: 900 12px/1 Manrope, sans-serif !important;
+  text-transform: uppercase !important;
+  letter-spacing: .13em !important;
+}
+
+.brand-orbit-copy b,
+.brand-page-slider .brand-logo-details strong {
+  display: block !important;
+  color: var(--ink, #101410) !important;
+  font-family: Manrope, sans-serif !important;
+  font-size: clamp(24px, 1.95vw, 31px) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -.065em !important;
+  font-weight: 950 !important;
+}
+
+.brand-orbit-copy em,
+.brand-page-slider .brand-logo-details small {
+  margin: 0 !important;
+  color: rgba(17, 19, 17, .62) !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 1.56 !important;
+  font-weight: 740 !important;
+}
+
+.brand-card-footer,
+.brand-page-slider .brand-logo-slide .brand-card-footer {
+  position: relative !important;
+  z-index: 2 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+  margin-top: 2px !important;
+  padding-top: 18px !important;
+  border-top: 0 !important;
+  color: rgba(17, 19, 17, .72) !important;
+  font: 900 12px/1 Manrope, sans-serif !important;
+  text-transform: uppercase !important;
+  letter-spacing: .12em !important;
+}
+
+.brand-card-footer i,
+.brand-page-slider .brand-logo-slide .brand-card-footer i {
+  width: 42px !important;
+  height: 42px !important;
+  display: grid !important;
+  place-items: center !important;
+  border-radius: 999px !important;
+  background: var(--ink, #101410) !important;
+  color: #fff !important;
+  font-style: normal !important;
+  font-weight: 950 !important;
+  box-shadow: 0 15px 30px rgba(17, 19, 17, .18) !important;
+}
+
+.brand-slider-dots {
+  position: relative !important;
+  z-index: 5 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 14px !important;
+  margin-top: 12px !important;
+}
+
+.brand-slider-dots span {
+  width: 20px !important;
+  height: 2px !important;
+  border-radius: 999px !important;
+  background: rgba(17,19,17,.28) !important;
+}
+
+.brand-slider-dots span.active {
+  width: 34px !important;
+  height: 7px !important;
+  background: #132516 !important;
+}
+
+/* Make brand page itself feel calmer and more premium */
+.brands-editorial-hero {
+  padding: clamp(76px, 8vw, 130px) var(--page-x, 4vw) clamp(48px, 5vw, 82px) !important;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(215,255,63,.18), transparent 26%),
+    linear-gradient(180deg, #fffdf8, #f4f3ee) !important;
+  overflow: hidden !important;
+}
+
+.brands-editorial-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.06fr) minmax(320px, .72fr) !important;
+  gap: clamp(26px, 4vw, 64px) !important;
+  align-items: stretch !important;
+}
+
+.brands-editorial-copy h1 {
+  max-width: 980px !important;
+  margin: 10px 0 18px !important;
+  font: 950 clamp(56px, 7vw, 116px)/.84 Manrope, sans-serif !important;
+  letter-spacing: -.095em !important;
+}
+
+.brands-editorial-copy p {
+  max-width: 680px !important;
+  color: rgba(17,19,17,.62) !important;
+  font-weight: 760 !important;
+  line-height: 1.68 !important;
+}
+
+.brands-editorial-side,
+.brands-selector-card,
+.brands-mini-card,
+.brand-directory-joola,
+.brand-directory-notes article,
+.brand-link-strip a {
+  border: 1px solid rgba(17,19,17,.08) !important;
+  box-shadow: 0 20px 50px rgba(17,19,17,.07) !important;
+  background: rgba(255,255,255,.78) !important;
+  backdrop-filter: blur(18px) !important;
+}
+
+.brands-editorial-side {
+  border-radius: 34px !important;
+  padding: clamp(18px, 2.2vw, 28px) !important;
+}
+
+.brands-selector-card,
+.brands-mini-card,
+.brand-directory-joola,
+.brand-directory-notes article {
+  border-radius: 28px !important;
+}
+
+.brand-directory-highlight {
+  padding-top: clamp(56px, 6vw, 96px) !important;
+  padding-bottom: clamp(44px, 5vw, 82px) !important;
+  background: #f8f7f0 !important;
+}
+
+.brand-directory-layout {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, .62fr) !important;
+  gap: clamp(18px, 2.4vw, 34px) !important;
+}
+
+.brand-directory-joola {
+  padding: clamp(24px, 3vw, 42px) !important;
+  background: linear-gradient(145deg, #101410, #223018) !important;
+  color: #fff !important;
+}
+
+.brand-directory-joola-logo {
+  height: 100px !important;
+  max-width: 430px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 18px 26px !important;
+  border-radius: 24px !important;
+  background: rgba(255,255,255,.94) !important;
+  border: 1px solid rgba(255,255,255,.18) !important;
+}
+
+.brand-directory-joola-logo img {
+  max-width: 88% !important;
+  max-height: 68px !important;
+  object-fit: contain !important;
+}
+
+.brand-directory-joola-copy h2 {
+  max-width: 780px !important;
+  font: 950 clamp(40px, 5vw, 84px)/.9 Manrope, sans-serif !important;
+  letter-spacing: -.08em !important;
+}
+
+.brand-directory-notes {
+  display: grid !important;
+  gap: 16px !important;
+}
+
+.brand-logo-slider-section.brand-page-slider {
+  padding-top: clamp(64px, 6vw, 98px) !important;
+}
+
+.brand-page-slider .brand-logo-slide {
+  min-height: 236px !important;
+  grid-template-rows: auto 1fr !important;
+}
+
+.brand-page-slider .brand-logo-slide .brand-logo-details {
+  gap: 8px !important;
+}
+
+.brand-page-slider .brand-logo-slide .brand-logo-details strong {
+  font-size: clamp(22px, 1.6vw, 28px) !important;
+}
+
+.brand-pill-directory {
+  background: #f8f7f0 !important;
+}
+
+.brand-link-strip {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 14px !important;
+}
+
+.brand-link-strip a {
+  min-height: 82px !important;
+  border-radius: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+  padding: 16px 20px !important;
+  font-weight: 900 !important;
+  transition: transform .2s ease, box-shadow .2s ease !important;
+}
+
+.brand-link-strip a:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 24px 56px rgba(17,19,17,.11) !important;
+}
+
+.brand-link-strip img,
+.brand-all-links img {
+  flex: 0 0 auto !important;
+  width: 98px !important;
+  max-height: 40px !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 1020px) {
+  .brand-orbit-head,
+  .brand-page-slider .brand-slider-heading,
+  .brands-editorial-grid,
+  .brand-directory-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .brand-orbit-controls,
+  .brand-page-slider .brand-slider-controls {
+    justify-self: start !important;
+  }
+
+  .brand-orbit-track,
+  .brand-page-slider .brand-logo-track {
+    grid-auto-columns: minmax(278px, 44vw) !important;
+  }
+
+  .brand-link-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .brand-orbit-section,
+  .brand-logo-slider-section.brand-page-slider {
+    padding-top: 58px !important;
+    padding-bottom: 70px !important;
+  }
+
+  .brand-orbit-head h2,
+  #homeBrandTitle,
+  .brand-page-slider .brand-slider-heading h2,
+  .brands-editorial-copy h1 {
+    font-size: clamp(42px, 13vw, 62px) !important;
+  }
+
+  .brand-orbit-head p,
+  .brand-page-slider .brand-slider-heading p {
+    font-size: 14px !important;
+  }
+
+  .brand-orbit-controls .brand-slider-btn,
+  .brand-page-slider .brand-slider-btn {
+    width: 54px !important;
+    height: 54px !important;
+  }
+
+  .brand-orbit-slider-shell,
+  .brand-page-slider .brand-logo-slider-shell {
+    margin-inline: calc(var(--page-x, 4vw) * -1) !important;
+    padding-inline: var(--page-x, 4vw) !important;
+  }
+
+  .brand-orbit-slider-shell::before,
+  .brand-orbit-slider-shell::after,
+  .brand-page-slider .brand-logo-slider-shell::before,
+  .brand-page-slider .brand-logo-slider-shell::after {
+    width: 18px !important;
+  }
+
+  .brand-orbit-track,
+  .brand-page-slider .brand-logo-track {
+    grid-auto-columns: minmax(266px, 84vw) !important;
+    gap: 14px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .brand-orbit-card,
+  .home-brand-slide.brand-orbit-card,
+  .brand-page-slider .brand-logo-slide {
+    min-height: 292px !important;
+    padding: 20px !important;
+    border-radius: 26px !important;
+  }
+
+  .brand-orbit-logo,
+  .brand-page-slider .brand-logo-glass {
+    height: 82px !important;
+    min-height: 82px !important;
+    padding: 16px 18px !important;
+    border-radius: 19px !important;
+  }
+
+  .brand-logo-badge img,
+  .brand-orbit-logo img,
+  .brand-page-slider .brand-logo-glass img {
+    max-width: min(190px, 84%) !important;
+    max-height: 42px !important;
+  }
+
+  .brand-orbit-copy b,
+  .brand-page-slider .brand-logo-details strong {
+    font-size: 25px !important;
+  }
+
+  .brand-card-footer i {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .brand-link-strip {
+    grid-template-columns: 1fr !important;
+  }
+}
