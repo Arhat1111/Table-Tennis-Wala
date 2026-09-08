@@ -666,3 +666,16 @@ JS syntax check: OK
 - Updated all visible brand logos in the homepage brand slider, brands page, and brand directory from old SVG placeholders to new transparent PNG logo assets.
 
 - Polished homepage brand slider and Brands page with smoother cards, softer edge fades, updated logo sizing and calmer minimal styling.
+
+- Randomized homepage Top Picks into a mixed-brand selection so the first products are no longer only JOOLA.
+- Mixed featured order also applies to the full products page when no filters/search/sort are active.
+- Improved product section/card styling for a cleaner, more professional and responsive layout.
+
+- Fixed brand slider movement: arrows, mouse wheel/trackpad horizontal scrolling, dragging, keyboard arrows and dots now work smoothly.
+- Rebuilt the homepage About section with richer professional layout, stats, CTAs and responsive cards.
+
+- Redesigned About section again with a cleaner minimal professional layout and removed the yellow/lime top shading.
+- Added an editorial intro, dark store-focus panel, clean stats, and minimal feature cards with responsive spacing.
+
+- Simplified the About section into a cleaner, more minimal editorial layout with less visual clutter.
+- Removed heavy stat blocks/strips and kept only three refined information rows with clean CTA buttons.

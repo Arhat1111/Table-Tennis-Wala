@@ -17308,6 +17308,20 @@ document.addEventListener("DOMContentLoaded", () => {
     if (sort === "price-high") list.sort((a, b) => Number(b.price || 0) - Number(a.price || 0));
     if (sort === "rating") list.sort((a, b) => Number(b.rating || 0) - Number(a.rating || 0));
 
+    const hasManualFilters =
+      fixedBrand ||
+      (state.brands || []).length ||
+      (state.categories || []).length ||
+      state.rating ||
+      min ||
+      max ||
+      query ||
+      sort !== "featured";
+
+    if (!hasManualFilters && typeof window.ttwMixedFeaturedProducts === "function") {
+      list = window.ttwMixedFeaturedProducts(list, list.length);
+    }
+
     return list;
   }
 
@@ -20634,4 +20648,311 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("pageshow", setupSearchButtons);
   setTimeout(setupSearchButtons, 400);
   setTimeout(setupSearchButtons, 1200);
+})();
+
+
+/* FINAL: mixed-brand featured product utility */
+(function () {
+  function hashSeed() {
+    try {
+      const nav = String(navigator.userAgent || "");
+      return Date.now() ^ nav.length ^ Math.floor(Math.random() * 1000000);
+    } catch (error) {
+      return Date.now();
+    }
+  }
+
+  function seededRandom(seed) {
+    let value = seed % 2147483647;
+    if (value <= 0) value += 2147483646;
+    return function () {
+      value = value * 16807 % 2147483647;
+      return (value - 1) / 2147483646;
+    };
+  }
+
+  function shuffled(list, random) {
+    const copy = [...list];
+    for (let i = copy.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
+  window.ttwMixedFeaturedProducts = function ttwMixedFeaturedProducts(products, limit) {
+    const random = seededRandom(hashSeed());
+    const list = shuffled((products || []).filter(Boolean), random);
+    const target = Math.min(Number(limit || list.length || 0), list.length);
+    if (!target) return [];
+
+    const groups = list.reduce((acc, product) => {
+      const brand = String(product.brand || "other").toLowerCase();
+      if (!acc[brand]) acc[brand] = [];
+      acc[brand].push(product);
+      return acc;
+    }, {});
+
+    Object.keys(groups).forEach(brand => {
+      groups[brand] = shuffled(groups[brand], random);
+    });
+
+    const picked = [];
+    const seen = new Set();
+
+    function add(product) {
+      if (!product || seen.has(product.id) || picked.length >= target) return false;
+      seen.add(product.id);
+      picked.push(product);
+      return true;
+    }
+
+    // Keep a little JOOLA presence, but never let the first row become all JOOLA.
+    if (groups.joola) {
+      add(groups.joola.shift());
+      if (target >= 6) add(groups.joola.shift());
+    }
+
+    const otherBrands = shuffled(Object.keys(groups).filter(brand => brand !== "joola" && groups[brand].length), random);
+    otherBrands.forEach(brand => add(groups[brand].shift()));
+
+    // Fill remaining spots by cycling through brands, preserving a mixed feel.
+    let safety = 0;
+    while (picked.length < target && safety < 10000) {
+      safety += 1;
+      const availableBrands = shuffled(Object.keys(groups).filter(brand => groups[brand].length), random);
+      if (!availableBrands.length) break;
+      for (const brand of availableBrands) {
+        add(groups[brand].shift());
+        if (picked.length >= target) break;
+      }
+    }
+
+    return picked;
+  };
+})();
+
+
+/* FINAL: homepage Top Picks random mixed-brand catalogue */
+(function () {
+  function scrollableProductInit() {
+    try {
+      if (typeof setupHomeProductSlider === "function") setupHomeProductSlider();
+    } catch (error) {}
+  }
+
+  function hasHomeFilters(brands, categories, rating, min, max, query) {
+    return Boolean(
+      (brands && brands.length) ||
+      (categories && categories.length) ||
+      (rating && rating.length) ||
+      min ||
+      max ||
+      query ||
+      (state && state.sort && state.sort !== "featured")
+    );
+  }
+
+  const originalHomeRenderer = typeof renderHomeProducts === "function" ? renderHomeProducts : null;
+
+  renderHomeProducts = function mixedRenderHomeProducts() {
+    const grid = document.getElementById("homeProductGrid");
+    if (!grid) {
+      if (originalHomeRenderer) originalHomeRenderer();
+      return;
+    }
+
+    let list = getProducts();
+
+    const brands = typeof checkedValues === "function" ? checkedValues("brandFilter") : [];
+    const categories = typeof checkedValues === "function" ? checkedValues("categoryFilter") : [];
+    const rating = typeof checkedValues === "function" ? checkedValues("ratingFilter") : [];
+    const min = Number(document.getElementById("minPrice")?.value || 0);
+    const max = Number(document.getElementById("maxPrice")?.value || 0);
+    const query = (document.getElementById("productSearch")?.value || "").toLowerCase().trim();
+
+    if (brands.length) list = list.filter(product => brands.includes(product.brand));
+    if (categories.length) list = list.filter(product => categories.includes(product.category));
+    if (min) list = list.filter(product => Number(product.price) >= min);
+    if (max) list = list.filter(product => Number(product.price) <= max);
+    if (rating.length) list = list.filter(product => Number(product.rating || 0) >= Number(rating[0]));
+    if (query) {
+      list = list.filter(product =>
+        `${product.name} ${product.brand} ${product.category} ${product.description || ""}`.toLowerCase().includes(query)
+      );
+    }
+
+    if (state.sort === "price-low") list.sort((a, b) => a.price - b.price);
+    if (state.sort === "price-high") list.sort((a, b) => b.price - a.price);
+    if (state.sort === "rating") list.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+
+    const filtered = hasHomeFilters(brands, categories, rating, min, max, query);
+    const totalMatches = list.length;
+    const visibleList = filtered
+      ? list.slice(0, 8)
+      : (typeof window.ttwMixedFeaturedProducts === "function" ? window.ttwMixedFeaturedProducts(list, 8) : list.slice(0, 8));
+
+    grid.innerHTML = visibleList.map(productCard).join("");
+
+    const empty = grid.parentElement?.querySelector(".empty-state") || document.querySelector(".home-top-picks .empty-state");
+    if (empty) empty.hidden = totalMatches > 0;
+
+    const note = document.getElementById("filterNote");
+    if (note) {
+      if (filtered) {
+        note.textContent = `Showing ${visibleList.length} of ${totalMatches} matching products.`;
+      } else {
+        const brandsShown = [...new Set(visibleList.map(product => cap(product.brand)))].slice(0, 5).join(", ");
+        note.textContent = `Fresh mix: ${brandsShown}${visibleList.length > 5 ? " and more" : ""}. Refresh to see another mix.`;
+      }
+    }
+
+    const viewMore = document.getElementById("homeViewMoreWrap");
+    if (viewMore) viewMore.hidden = false;
+
+    scrollableProductInit();
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(renderHomeProducts, 60);
+    setTimeout(renderHomeProducts, 500);
+  });
+
+  window.addEventListener("pageshow", () => setTimeout(renderHomeProducts, 100));
+})();
+
+
+/* FINAL FIX: brand sliders move smoothly with arrows, wheel/trackpad and drag */
+(function () {
+  function nearestSection(track) {
+    return track.closest(".brand-logo-slider-section") || track.closest(".brand-orbit-section") || track.closest("section") || document;
+  }
+
+  function sliderStep(track) {
+    const card = track.querySelector("a, .brand-orbit-card, .brand-logo-slide");
+    if (!card) return Math.max(280, Math.round(track.clientWidth * 0.72));
+    const gap = Number.parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap || "18") || 18;
+    return Math.max(240, Math.round(card.getBoundingClientRect().width + gap));
+  }
+
+  function updateDots(track) {
+    const section = nearestSection(track);
+    const dots = section.querySelectorAll(".brand-slider-dots span");
+    if (!dots.length) return;
+    const max = Math.max(1, track.scrollWidth - track.clientWidth);
+    const progress = Math.max(0, Math.min(1, track.scrollLeft / max));
+    const active = Math.min(dots.length - 1, Math.round(progress * (dots.length - 1)));
+    dots.forEach((dot, index) => dot.classList.toggle("active", index === active));
+  }
+
+  function canScrollHorizontally(track, delta) {
+    const max = track.scrollWidth - track.clientWidth;
+    if (max <= 4) return false;
+    if (delta < 0 && track.scrollLeft <= 2) return false;
+    if (delta > 0 && track.scrollLeft >= max - 2) return false;
+    return true;
+  }
+
+  function initBrandSlider(track) {
+    if (!track || track.dataset.smoothScrollFixed === "true") return;
+    track.dataset.smoothScrollFixed = "true";
+    track.setAttribute("tabindex", "0");
+
+    const section = nearestSection(track);
+    const prev = section.querySelector("[data-brand-slider-prev]");
+    const next = section.querySelector("[data-brand-slider-next]");
+
+    prev?.addEventListener("click", event => {
+      event.preventDefault();
+      track.scrollBy({ left: -sliderStep(track), behavior: "smooth" });
+    });
+
+    next?.addEventListener("click", event => {
+      event.preventDefault();
+      track.scrollBy({ left: sliderStep(track), behavior: "smooth" });
+    });
+
+    track.addEventListener("wheel", event => {
+      const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+      if (!canScrollHorizontally(track, delta)) return;
+      event.preventDefault();
+      track.scrollBy({ left: delta, behavior: Math.abs(delta) > 70 ? "smooth" : "auto" });
+    }, { passive: false });
+
+    let isDown = false;
+    let startX = 0;
+    let startScroll = 0;
+    let dragged = false;
+
+    track.addEventListener("pointerdown", event => {
+      isDown = true;
+      dragged = false;
+      startX = event.clientX;
+      startScroll = track.scrollLeft;
+      track.classList.add("is-dragging");
+      track.setPointerCapture?.(event.pointerId);
+    });
+
+    track.addEventListener("pointermove", event => {
+      if (!isDown) return;
+      const move = event.clientX - startX;
+      if (Math.abs(move) > 4) dragged = true;
+      track.scrollLeft = startScroll - move;
+    });
+
+    function endDrag(event) {
+      if (!isDown) return;
+      isDown = false;
+      track.classList.remove("is-dragging");
+      try { track.releasePointerCapture?.(event.pointerId); } catch (error) {}
+      setTimeout(() => { dragged = false; }, 40);
+    }
+
+    track.addEventListener("pointerup", endDrag);
+    track.addEventListener("pointercancel", endDrag);
+    track.addEventListener("mouseleave", () => {
+      isDown = false;
+      track.classList.remove("is-dragging");
+    });
+
+    track.addEventListener("click", event => {
+      if (dragged) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    }, true);
+
+    track.addEventListener("keydown", event => {
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        track.scrollBy({ left: sliderStep(track), behavior: "smooth" });
+      }
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        track.scrollBy({ left: -sliderStep(track), behavior: "smooth" });
+      }
+    });
+
+    const dots = section.querySelectorAll(".brand-slider-dots span");
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        const max = Math.max(0, track.scrollWidth - track.clientWidth);
+        const target = dots.length > 1 ? max * (index / (dots.length - 1)) : 0;
+        track.scrollTo({ left: target, behavior: "smooth" });
+      });
+    });
+
+    track.addEventListener("scroll", () => updateDots(track), { passive: true });
+    window.addEventListener("resize", () => updateDots(track));
+    updateDots(track);
+  }
+
+  function initAllBrandSliders() {
+    document.querySelectorAll("[data-brand-logo-track]").forEach(initBrandSlider);
+  }
+
+  document.addEventListener("DOMContentLoaded", initAllBrandSliders);
+  window.addEventListener("pageshow", initAllBrandSliders);
+  setTimeout(initAllBrandSliders, 300);
+  setTimeout(initAllBrandSliders, 1000);
 })();
