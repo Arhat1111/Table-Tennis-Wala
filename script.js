@@ -14392,8 +14392,6 @@ const STORAGE_PRODUCTS = "ttw-admin-products";
 const STORAGE_CART = "ttw-cart-v3";
 const STORAGE_AUTH = "ttw-admin-auth";
 const STORAGE_ORDERS = "ttw-orders";
-const ADMIN_USER = "admin";
-const ADMIN_PASS = "ttwala123";
 
 // Replace this with your real Razorpay Test/Live Key ID.
 const RAZORPAY_KEY_ID = "rzp_test_REPLACE_WITH_YOUR_KEY_ID";
@@ -14410,17 +14408,16 @@ const EMAILJS_CONFIG = {
   ownerEmail: "orders@tabletenniswala.in"
 };
 
-// Cloud sync configuration. Fill this Firebase config before hosting to make admin changes sync across devices.
-// Without this, product uploads/content/orders stay in this browser only because localStorage is device-specific.
-const FIREBASE_CONFIG = window.TTW_FIREBASE_CONFIG || {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+// Supabase cloud configuration. Public project URL + publishable/anon key belong in supabase-config.js.
+// Never place a Supabase service_role key in browser code.
+const SUPABASE_CONFIG = window.TTW_SUPABASE_CONFIG || {
+  url: "",
+  anonKey: "",
+  siteId: "tabletenniswala-live",
+  productBucket: "ttw-products",
+  adminEmail: ""
 };
-const TTW_CLOUD_SITE_ID = window.TTW_CLOUD_SITE_ID || "tabletenniswala-live";
+const TTW_CLOUD_SITE_ID = SUPABASE_CONFIG.siteId || "tabletenniswala-live";
 
 
 const state = {
@@ -14956,29 +14953,77 @@ function setAdminVisibility(isLoggedIn) {
 function initAdmin() {
   const loginForm = document.getElementById("adminLoginForm");
   if (!loginForm) return;
-  setAdminVisibility(sessionStorage.getItem(STORAGE_AUTH) === "true");
-  loginForm.addEventListener("submit", event => {
+  const usernameInput = document.getElementById("adminUsername");
+  const passwordInput = document.getElementById("adminPassword");
+  const message = document.getElementById("loginMessage");
+  const cloud = () => window.ttwCloudSync;
+  const cloudConfigured = () => Boolean(cloud()?.isConfigured?.());
+
+  if (SUPABASE_CONFIG.adminEmail && usernameInput && !usernameInput.value) {
+    usernameInput.value = SUPABASE_CONFIG.adminEmail;
+  }
+
+  const showLoginError = text => {
+    if (message) message.textContent = text || "";
+  };
+
+  const finishLogin = async () => {
+    sessionStorage.setItem(STORAGE_AUTH, "true");
+    showLoginError("");
+    setAdminVisibility(true);
+    try { await cloud()?.pullAdminData?.(); } catch (error) { console.warn("Admin data refresh failed", error); }
+    try {
+      if (typeof window.renderAdminOrders === "function") window.renderAdminOrders();
+      if (typeof window.renderAdminAnalytics === "function") window.renderAdminAnalytics();
+      if (typeof window.renderAdminCustomers === "function") window.renderAdminCustomers();
+    } catch (error) {}
+    showToast("Admin login successful");
+  };
+
+  if (cloudConfigured()) {
+    setAdminVisibility(false);
+    cloud()?.getSession?.().then(session => {
+      if (session?.user) finishLogin();
+      else {
+        sessionStorage.removeItem(STORAGE_AUTH);
+        setAdminVisibility(false);
+      }
+    }).catch(() => setAdminVisibility(false));
+  } else {
+    sessionStorage.removeItem(STORAGE_AUTH);
+    setAdminVisibility(false);
+    showLoginError("Supabase is not configured yet. Add supabase-config.js credentials and run supabase-setup.sql first.");
+  }
+
+  loginForm.addEventListener("submit", async event => {
     event.preventDefault();
-    const username = document.getElementById("adminUsername").value.trim();
-    const password = document.getElementById("adminPassword").value;
-    const message = document.getElementById("loginMessage");
-    if (username === ADMIN_USER && password === ADMIN_PASS) {
-      sessionStorage.setItem(STORAGE_AUTH, "true");
-      if (message) message.textContent = "";
-      setAdminVisibility(true);
-      showToast("Admin login successful");
-    } else {
-      if (message) message.textContent = "Incorrect username or password";
-      showToast("Login failed");
+    const username = usernameInput?.value.trim() || "";
+    const password = passwordInput?.value || "";
+    showLoginError("");
+
+    if (cloudConfigured()) {
+      try {
+        const email = username.includes("@") ? username : (SUPABASE_CONFIG.adminEmail || username);
+        await cloud().signIn(email, password);
+        await finishLogin();
+      } catch (error) {
+        showLoginError(error?.message || "Supabase login failed");
+        showToast("Login failed");
+      }
+      return;
     }
+
+    showLoginError("Supabase is not configured yet. Complete SUPABASE_SETUP.md first.");
+    showToast("Supabase setup required");
   });
-  document.getElementById("adminLogout")?.addEventListener("click", () => {
+
+  document.getElementById("adminLogout")?.addEventListener("click", async () => {
+    try { if (cloudConfigured()) await cloud()?.signOut?.(); } catch (error) {}
     sessionStorage.removeItem(STORAGE_AUTH);
     setAdminVisibility(false);
     showToast("Logged out");
   });
 }
-
 
 function resizeAdminImageFile(file, maxSize = 900, quality = 0.72) {
   return new Promise((resolve, reject) => {
@@ -15344,6 +15389,13 @@ function completeOrder(order) {
   existing.push(order);
   localStorage.setItem(STORAGE_ORDERS, JSON.stringify(existing));
   localStorage.setItem("ttw-last-order", JSON.stringify(order));
+  // Save the order directly to Supabase. localStorage remains a browser-side backup.
+  if (window.ttwCloudSync?.saveOrder) {
+    window.ttwCloudSync.saveOrder(order).catch(error => {
+      console.error("Supabase order save failed", error);
+      localStorage.setItem("ttw-last-order-sync-error", String(error?.message || error));
+    });
+  }
   state.cart = [];
   saveCart();
   renderCart();
@@ -18809,6 +18861,11 @@ document.addEventListener("DOMContentLoaded", () => {
           <span>${new Date(order.date || Date.now()).toLocaleString()}</span>
           <span>${order.paymentMode || "Payment"}</span>
           <span>${order.paymentId || ""}</span>
+          <label class="admin-order-status">Status
+            <select data-order-status="${order.orderId || ""}">
+              ${["New WhatsApp order", "Payment pending", "Confirmed", "Processing", "Shipped", "Completed", "Cancelled"].map(status => `<option value="${status}" ${String(order.status || "New WhatsApp order") === status ? "selected" : ""}>${status}</option>`).join("")}
+            </select>
+          </label>
         </div>
         <div class="admin-order-customer">
           <p><b>Email:</b> ${customer.email || "-"}</p>
@@ -18818,6 +18875,23 @@ document.addEventListener("DOMContentLoaded", () => {
         <ul class="admin-order-items">${items}</ul>
       </article>`;
     }).join("");
+    list.querySelectorAll("[data-order-status]").forEach(select => {
+      select.addEventListener("change", async () => {
+        const id = select.dataset.orderStatus;
+        const all = getOrders();
+        const target = all.find(item => String(item.orderId) === String(id));
+        if (!target) return;
+        target.status = select.value;
+        localStorage.setItem(ORDER_KEY, JSON.stringify(all));
+        try {
+          await window.ttwCloudSync?.updateOrder?.(target);
+          if (typeof showToast === "function") showToast("Order status updated");
+        } catch (error) {
+          if (typeof showToast === "function") showToast(error.message || "Status update failed");
+        }
+        renderAdminDashboard();
+      });
+    });
     renderAdminDashboard();
   }
 
@@ -18846,15 +18920,27 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function bindOrderAdmin() {
-    document.getElementById("refreshOrders")?.addEventListener("click", renderAdminOrders);
-    document.getElementById("refreshAdminDashboard")?.addEventListener("click", () => { renderAdminDashboard(); renderAdminOrders(); });
+    document.getElementById("refreshOrders")?.addEventListener("click", async () => {
+      try { await window.ttwCloudSync?.pullOrders?.(); } catch (error) { if (typeof showToast === "function") showToast(error.message || "Order refresh failed"); }
+      renderAdminOrders();
+    });
+    document.getElementById("refreshAdminDashboard")?.addEventListener("click", async () => {
+      try { await window.ttwCloudSync?.pullAdminData?.(); } catch (error) {}
+      renderAdminDashboard(); renderAdminOrders();
+    });
     document.getElementById("adminOrderSearch")?.addEventListener("input", renderAdminOrders);
     document.getElementById("exportOrders")?.addEventListener("click", () => downloadJSON("table-tennis-wala-orders.json", getOrders()));
-    document.getElementById("clearOrders")?.addEventListener("click", () => {
-      if (!confirm("Clear all locally saved orders?")) return;
-      localStorage.setItem(ORDER_KEY, "[]");
-      renderAdminOrders();
-      renderAdminDashboard();
+    document.getElementById("clearOrders")?.addEventListener("click", async () => {
+      if (!confirm("Clear all orders from the shared Supabase order database? This cannot be undone.")) return;
+      try {
+        if (window.ttwCloudSync?.isConfigured?.()) await window.ttwCloudSync.clearOrders();
+        else localStorage.setItem(ORDER_KEY, "[]");
+        renderAdminOrders();
+        renderAdminDashboard();
+        if (typeof showToast === "function") showToast("Orders cleared");
+      } catch (error) {
+        if (typeof showToast === "function") showToast(error.message || "Could not clear orders");
+      }
     });
   }
 
@@ -19002,6 +19088,9 @@ document.addEventListener("DOMContentLoaded", () => {
       console.warn("Order email failed", error);
     }
   };
+
+  window.renderAdminOrders = renderAdminOrders;
+  window.renderAdminDashboard = renderAdminDashboard;
 
   document.addEventListener("DOMContentLoaded", () => {
     bindAdminTabs();
@@ -20185,127 +20274,285 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-/* FINAL FIX V2: real cross-device Firestore sync using per-document products/orders */
+/* SUPABASE BACKEND: shared products, orders, content, admin auth and realtime sync */
 (function () {
   const PRODUCT_KEY = "ttw-admin-products";
   const ORDER_KEY = "ttw-orders";
   const CONTENT_KEY = "ttw-site-content";
   const STATUS_KEY = "ttw-cloud-sync-status";
-  const SYNC_KEYS = new Set([PRODUCT_KEY, ORDER_KEY, CONTENT_KEY]);
-
-  let db = null;
-  let applyingCloud = false;
-  let nativeSetItem = Storage.prototype.setItem;
-  let nativeRemoveItem = Storage.prototype.removeItem;
-  let productsReady = false;
-  let ordersReady = false;
-  let contentReady = false;
+  const MIGRATION_KEYS = {
+    products: "ttw-supabase-migration-backup-products-v1",
+    orders: "ttw-supabase-migration-backup-orders-v1",
+    content: "ttw-supabase-migration-backup-content-v1"
+  };
+  const SYNC_KEYS = new Set([PRODUCT_KEY, CONTENT_KEY]);
+  const TABLES = {
+    products: "ttw_products",
+    orders: "ttw_orders",
+    content: "ttw_site_content"
+  };
+  const SITE_ID = TTW_CLOUD_SITE_ID || "tabletenniswala-live";
   const debounce = new Map();
+  let client = null;
+  let applyingCloud = false;
+  let nativeSetItem = null;
+  let nativeRemoveItem = null;
+  let realtimeChannel = null;
 
   function readJSON(key, fallback) {
     try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); }
     catch (error) { return fallback; }
   }
 
+  function createLegacyBackup() {
+    const pairs = [
+      [PRODUCT_KEY, MIGRATION_KEYS.products, []],
+      [ORDER_KEY, MIGRATION_KEYS.orders, []],
+      [CONTENT_KEY, MIGRATION_KEYS.content, {}]
+    ];
+    pairs.forEach(([source, backup, fallback]) => {
+      if (localStorage.getItem(backup) !== null) return;
+      const value = readJSON(source, fallback);
+      try { localStorage.setItem(backup, JSON.stringify(value)); } catch (error) {}
+    });
+  }
+
+  // Preserve the pre-Supabase browser data before any cloud pull can overwrite localStorage.
+  createLegacyBackup();
+
   function setLocal(key, value) {
     applyingCloud = true;
-    try { nativeSetItem.call(localStorage, key, JSON.stringify(value)); }
+    try { (nativeSetItem || Storage.prototype.setItem).call(localStorage, key, JSON.stringify(value)); }
     finally { applyingCloud = false; }
     rerender(key);
   }
 
   function status(state, detail) {
-    const value = { state, detail, time: new Date().toISOString() };
-    try { nativeSetItem.call(localStorage, STATUS_KEY, JSON.stringify(value)); } catch (error) {}
+    const payload = { state, detail, at: new Date().toISOString() };
+    try { (nativeSetItem || Storage.prototype.setItem).call(localStorage, STATUS_KEY, JSON.stringify(payload)); } catch (error) {}
     renderStatusCard();
   }
 
   function hasConfig() {
-    return Boolean(window.firebase && FIREBASE_CONFIG && FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.projectId && FIREBASE_CONFIG.appId);
+    return Boolean(
+      window.supabase?.createClient &&
+      SUPABASE_CONFIG?.url && /^https:\/\/.+\.supabase\.co/i.test(SUPABASE_CONFIG.url) &&
+      SUPABASE_CONFIG?.anonKey && !/PASTE|YOUR_/i.test(SUPABASE_CONFIG.anonKey)
+    );
   }
 
-  function siteDoc() {
-    return db.collection("ttw-sites").doc(TTW_CLOUD_SITE_ID || "tabletenniswala-live");
+  function ensureClient() {
+    if (client) return client;
+    if (!hasConfig()) return null;
+    client = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey, {
+      auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }
+    });
+    return client;
   }
-  function productsCol() { return siteDoc().collection("products"); }
-  function ordersCol() { return siteDoc().collection("orders"); }
-  function contentDoc() { return siteDoc().collection("state").doc("content"); }
+
+  async function getSession() {
+    const sb = ensureClient();
+    if (!sb) return null;
+    const { data, error } = await sb.auth.getSession();
+    if (error) throw error;
+    return data?.session || null;
+  }
+
+  async function signIn(email, password) {
+    const sb = ensureClient();
+    if (!sb) throw new Error("Supabase is not configured. Add the project URL and publishable/anon key to supabase-config.js.");
+    const { data, error } = await sb.auth.signInWithPassword({ email, password });
+    if (error) throw error;
+    status("connected", "Admin authenticated with Supabase");
+    await pullAdminData();
+    subscribeRealtime();
+    return data?.session || null;
+  }
+
+  async function signOut() {
+    const sb = ensureClient();
+    if (!sb) return;
+    const { error } = await sb.auth.signOut();
+    if (error) throw error;
+    status("connected", "Supabase connected; admin signed out");
+  }
 
   function productId(product) {
     return String(product?.id || `admin-${Date.now()}-${Math.random().toString(16).slice(2)}`);
   }
   function orderId(order) {
-    return String(order?.orderId || order?.id || `order-${Date.now()}-${Math.random().toString(16).slice(2)}`);
+    return String(order?.orderId || order?.id || `TTW-${Date.now()}-${Math.random().toString(16).slice(2)}`);
   }
 
-  function sanitizeProduct(product) {
-    const clean = { ...(product || {}) };
-    clean.id = productId(clean);
-    // Firestore document limit is 1 MiB. This prevents one huge image from breaking sync.
-    if (typeof clean.image === "string" && clean.image.startsWith("data:") && clean.image.length > 750000) {
-      clean.image = "";
-      clean.imageNote = "Image was too large for cloud sync. Use a product image URL or upload a smaller image.";
+  async function uploadProductImage(product) {
+    const sb = ensureClient();
+    const clean = { ...(product || {}), id: productId(product) };
+    if (!sb || typeof clean.image !== "string" || !clean.image.startsWith("data:image/")) return clean;
+    const session = await getSession();
+    if (!session?.user) return clean;
+    const bucket = SUPABASE_CONFIG.productBucket || "ttw-products";
+    try {
+      const blob = await (await fetch(clean.image)).blob();
+      const ext = blob.type.includes("png") ? "png" : blob.type.includes("webp") ? "webp" : "jpg";
+      const path = `${SITE_ID}/${clean.id}-${Date.now()}.${ext}`;
+      const { error } = await sb.storage.from(bucket).upload(path, blob, { contentType: blob.type || "image/jpeg", cacheControl: "31536000", upsert: false });
+      if (error) throw error;
+      const { data } = sb.storage.from(bucket).getPublicUrl(path);
+      if (data?.publicUrl) clean.image = data.publicUrl;
+    } catch (error) {
+      console.warn("Supabase product image upload failed; keeping current image data", error);
     }
     return clean;
   }
 
-  function productsFromSnapshot(snapshot) {
-    return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() })).filter(item => !item.deleted);
-  }
-
-  function ordersFromSnapshot(snapshot) {
-    return snapshot.docs.map(doc => ({ orderId: doc.id, ...doc.data() })).filter(item => !item.deleted);
-  }
-
-  function batchDeleteMissingAndSet(collectionRef, idFn, items) {
-    const cleanItems = Array.isArray(items) ? items : [];
-    return collectionRef.get().then(snapshot => {
-      const batch = db.batch();
-      const incoming = new Set(cleanItems.map(idFn));
-      snapshot.docs.forEach(doc => {
-        if (!incoming.has(doc.id)) batch.delete(doc.ref);
-      });
-      cleanItems.forEach(item => {
-        const id = idFn(item);
-        batch.set(collectionRef.doc(id), { ...item, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
-      });
-      return batch.commit();
-    });
+  async function pullProducts() {
+    const sb = ensureClient();
+    if (!sb) return [];
+    const { data, error } = await sb.from(TABLES.products).select("id,data,updated_at").eq("site_id", SITE_ID).order("updated_at", { ascending: true });
+    if (error) throw error;
+    const products = (data || []).map(row => ({ id: row.id, ...(row.data || {}) }));
+    setLocal(PRODUCT_KEY, products);
+    return products;
   }
 
   async function syncProductsToCloud(products) {
-    if (!db) return;
-    const clean = (Array.isArray(products) ? products : []).map(sanitizeProduct);
-    await batchDeleteMissingAndSet(productsCol(), productId, clean);
-    status("connected", "Products synced across devices");
+    const sb = ensureClient();
+    if (!sb) return;
+    const session = await getSession();
+    if (!session?.user) return;
+    const source = Array.isArray(products) ? products : [];
+    const clean = [];
+    for (const product of source) clean.push(await uploadProductImage(product));
+
+    const rows = clean.map(product => ({
+      site_id: SITE_ID,
+      id: productId(product),
+      data: { ...product, id: productId(product) },
+      updated_at: new Date().toISOString()
+    }));
+
+    if (rows.length) {
+      const { error } = await sb.from(TABLES.products).upsert(rows, { onConflict: "site_id,id" });
+      if (error) throw error;
+    }
+
+    const { data: existing, error: existingError } = await sb.from(TABLES.products).select("id").eq("site_id", SITE_ID);
+    if (existingError) throw existingError;
+    const incoming = new Set(rows.map(row => row.id));
+    const removeIds = (existing || []).map(row => row.id).filter(id => !incoming.has(id));
+    if (removeIds.length) {
+      const { error } = await sb.from(TABLES.products).delete().eq("site_id", SITE_ID).in("id", removeIds);
+      if (error) throw error;
+    }
+    setLocal(PRODUCT_KEY, clean);
+    status("connected", "Products synced with Supabase");
   }
 
-  async function syncOrdersToCloud(orders) {
-    if (!db) return;
-    const clean = Array.isArray(orders) ? orders : [];
-    // Orders are mostly append-only, but mirror delete if admin clears them.
-    await batchDeleteMissingAndSet(ordersCol(), orderId, clean);
-    status("connected", "Orders synced across devices");
+  async function pullContent() {
+    const sb = ensureClient();
+    if (!sb) return {};
+    const { data, error } = await sb.from(TABLES.content).select("data").eq("site_id", SITE_ID).maybeSingle();
+    if (error) throw error;
+    const content = data?.data || {};
+    setLocal(CONTENT_KEY, content);
+    try { if (typeof window.applySiteContent === "function") window.applySiteContent(); } catch (error) {}
+    return content;
   }
 
   async function syncContentToCloud(content) {
-    if (!db) return;
-    await contentDoc().set({ value: content || {}, updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
-    status("connected", "Content synced across devices");
+    const sb = ensureClient();
+    if (!sb) return;
+    const session = await getSession();
+    if (!session?.user) return;
+    const { error } = await sb.from(TABLES.content).upsert({ site_id: SITE_ID, data: content || {}, updated_at: new Date().toISOString() }, { onConflict: "site_id" });
+    if (error) throw error;
+    status("connected", "Website content synced with Supabase");
+  }
+
+  async function saveOrder(order) {
+    const sb = ensureClient();
+    if (!sb) throw new Error("Supabase is not configured. Order is saved only in this browser until configuration is added.");
+    const id = orderId(order);
+    const payload = { ...order, orderId: id };
+    const row = {
+      site_id: SITE_ID,
+      order_id: id,
+      data: payload,
+      created_at: order?.date || new Date().toISOString(),
+      updated_at: new Date().toISOString()
+    };
+    const { error } = await sb.from(TABLES.orders).insert(row);
+    if (error && error.code !== "23505") throw error;
+    status("connected", `Order ${id} saved to Supabase`);
+    return payload;
+  }
+
+  async function updateOrder(order) {
+    const sb = ensureClient();
+    if (!sb) throw new Error("Supabase is not configured");
+    const id = orderId(order);
+    const { error } = await sb.from(TABLES.orders).update({ data: { ...order, orderId: id }, updated_at: new Date().toISOString() }).eq("site_id", SITE_ID).eq("order_id", id);
+    if (error) throw error;
+    return order;
+  }
+
+  async function pullOrders() {
+    const sb = ensureClient();
+    if (!sb) return [];
+    const session = await getSession();
+    if (!session?.user) return [];
+    const { data, error } = await sb.from(TABLES.orders).select("order_id,data,created_at,updated_at").eq("site_id", SITE_ID).order("created_at", { ascending: true });
+    if (error) throw error;
+    const orders = (data || []).map(row => ({ orderId: row.order_id, ...(row.data || {}), date: row.data?.date || row.created_at }));
+    setLocal(ORDER_KEY, orders);
+    return orders;
+  }
+
+  async function migrateLocalOrders() {
+    const sb = ensureClient();
+    if (!sb) return;
+    const session = await getSession();
+    if (!session?.user) throw new Error("Sign in as admin before migrating local orders.");
+    const backupOrders = readJSON(MIGRATION_KEYS.orders, []);
+    const liveOrders = readJSON(ORDER_KEY, []);
+    const orders = backupOrders.length ? backupOrders : liveOrders;
+    if (!orders.length) return;
+    const rows = orders.map(order => {
+      const id = orderId(order);
+      return { site_id: SITE_ID, order_id: id, data: { ...order, orderId: id }, created_at: order?.date || new Date().toISOString(), updated_at: new Date().toISOString() };
+    });
+    const { error } = await sb.from(TABLES.orders).upsert(rows, { onConflict: "site_id,order_id" });
+    if (error) throw error;
+    status("connected", `${rows.length} local order(s) migrated to Supabase`);
+  }
+
+  async function clearOrders() {
+    const sb = ensureClient();
+    if (!sb) throw new Error("Supabase is not configured");
+    const { error } = await sb.from(TABLES.orders).delete().eq("site_id", SITE_ID);
+    if (error) throw error;
+    setLocal(ORDER_KEY, []);
+    status("connected", "Shared order database cleared");
+  }
+
+  async function pullAdminData() {
+    const session = await getSession();
+    if (!session?.user) return;
+    await Promise.all([pullProducts(), pullContent(), pullOrders()]);
+    status("connected", "Admin data loaded from Supabase");
   }
 
   function schedule(key, value) {
-    if (applyingCloud || !db || !SYNC_KEYS.has(key)) return;
+    if (applyingCloud || !client || !SYNC_KEYS.has(key)) return;
     clearTimeout(debounce.get(key));
     debounce.set(key, setTimeout(() => {
       if (key === PRODUCT_KEY) syncProductsToCloud(value).catch(error => status("error", "Product sync failed: " + (error.message || error)));
-      if (key === ORDER_KEY) syncOrdersToCloud(value).catch(error => status("error", "Order sync failed: " + (error.message || error)));
       if (key === CONTENT_KEY) syncContentToCloud(value).catch(error => status("error", "Content sync failed: " + (error.message || error)));
     }, 450));
   }
 
   function patchStorage() {
-    if (Storage.prototype.__ttwRealCloudPatched) return;
+    if (Storage.prototype.__ttwSupabaseCloudPatched) return;
     nativeSetItem = Storage.prototype.setItem;
     nativeRemoveItem = Storage.prototype.removeItem;
     Storage.prototype.setItem = function (key, value) {
@@ -20322,7 +20569,7 @@ document.addEventListener("DOMContentLoaded", () => {
         schedule(key, key === CONTENT_KEY ? {} : []);
       }
     };
-    Storage.prototype.__ttwRealCloudPatched = true;
+    Storage.prototype.__ttwSupabaseCloudPatched = true;
   }
 
   function rerender(key) {
@@ -20335,73 +20582,32 @@ document.addEventListener("DOMContentLoaded", () => {
         document.dispatchEvent(new CustomEvent("ttw:cloud-products-updated"));
       }
       if (key === ORDER_KEY) {
-        if (typeof renderAdminOrders === "function") renderAdminOrders();
-        if (typeof renderAdminAnalytics === "function") renderAdminAnalytics();
-        if (typeof renderAdminCustomers === "function") renderAdminCustomers();
+        if (typeof window.renderAdminOrders === "function") window.renderAdminOrders();
+        if (typeof window.renderAdminDashboard === "function") window.renderAdminDashboard();
+        if (typeof window.renderAdminAnalytics === "function") window.renderAdminAnalytics();
+        if (typeof window.renderAdminCustomers === "function") window.renderAdminCustomers();
         document.dispatchEvent(new CustomEvent("ttw:cloud-orders-updated"));
       }
-      if (key === CONTENT_KEY) document.dispatchEvent(new CustomEvent("ttw:cloud-content-updated"));
-    } catch (error) { console.warn("Cloud rerender failed", error); }
+      if (key === CONTENT_KEY) {
+        try { if (typeof window.applySiteContent === "function") window.applySiteContent(); } catch (error) {}
+        document.dispatchEvent(new CustomEvent("ttw:cloud-content-updated"));
+      }
+    } catch (error) { console.warn("Supabase rerender failed", error); }
   }
 
-  async function bootstrapProducts() {
-    const snapshot = await productsCol().get();
-    const cloud = productsFromSnapshot(snapshot);
-    const local = readJSON(PRODUCT_KEY, []);
-    if (!cloud.length && local.length) {
-      await syncProductsToCloud(local);
-      productsReady = true;
-      return;
-    }
-    setLocal(PRODUCT_KEY, cloud);
-    productsReady = true;
-  }
-
-  async function bootstrapOrders() {
-    const snapshot = await ordersCol().get();
-    const cloud = ordersFromSnapshot(snapshot);
-    const local = readJSON(ORDER_KEY, []);
-    if (!cloud.length && local.length) {
-      await syncOrdersToCloud(local);
-      ordersReady = true;
-      return;
-    }
-    setLocal(ORDER_KEY, cloud);
-    ordersReady = true;
-  }
-
-  async function bootstrapContent() {
-    const snap = await contentDoc().get();
-    const local = readJSON(CONTENT_KEY, {});
-    if (!snap.exists && Object.keys(local || {}).length) {
-      await syncContentToCloud(local);
-      contentReady = true;
-      return;
-    }
-    setLocal(CONTENT_KEY, snap.exists ? (snap.data().value || {}) : {});
-    contentReady = true;
-  }
-
-  function subscribe() {
-    productsCol().onSnapshot(snapshot => {
-      const cloud = productsFromSnapshot(snapshot);
-      if (!productsReady && !cloud.length) return;
-      setLocal(PRODUCT_KEY, cloud);
-      status("connected", "Live product sync active");
-    }, error => status("error", "Product listener failed: " + (error.message || error)));
-
-    ordersCol().onSnapshot(snapshot => {
-      const cloud = ordersFromSnapshot(snapshot);
-      if (!ordersReady && !cloud.length) return;
-      setLocal(ORDER_KEY, cloud);
-      status("connected", "Live order sync active");
-    }, error => status("error", "Order listener failed: " + (error.message || error)));
-
-    contentDoc().onSnapshot(snap => {
-      if (!contentReady && !snap.exists) return;
-      setLocal(CONTENT_KEY, snap.exists ? (snap.data().value || {}) : {});
-      status("connected", "Live content sync active");
-    }, error => status("error", "Content listener failed: " + (error.message || error)));
+  function subscribeRealtime() {
+    const sb = ensureClient();
+    if (!sb || realtimeChannel) return;
+    realtimeChannel = sb.channel(`ttw-${SITE_ID}-changes`)
+      .on("postgres_changes", { event: "*", schema: "public", table: TABLES.products, filter: `site_id=eq.${SITE_ID}` }, () => pullProducts().catch(error => console.warn(error)))
+      .on("postgres_changes", { event: "*", schema: "public", table: TABLES.content, filter: `site_id=eq.${SITE_ID}` }, () => pullContent().catch(error => console.warn(error)))
+      .on("postgres_changes", { event: "*", schema: "public", table: TABLES.orders, filter: `site_id=eq.${SITE_ID}` }, async () => {
+        const session = await getSession().catch(() => null);
+        if (session?.user) pullOrders().catch(error => console.warn(error));
+      })
+      .subscribe(state => {
+        if (state === "SUBSCRIBED") status("connected", "Supabase realtime sync active");
+      });
   }
 
   function renderStatusCard() {
@@ -20415,33 +20621,41 @@ document.addEventListener("DOMContentLoaded", () => {
       secure.prepend(card);
     }
     const configReady = hasConfig();
-    const current = readJSON(STATUS_KEY, { state: "local", detail: "Cloud sync not configured" });
+    const current = readJSON(STATUS_KEY, { state: "local", detail: "Supabase not configured" });
     card.innerHTML = `
       <div>
-        <span class="eyebrow">Cloud sync</span>
-        <h3>${configReady ? (current.state === "connected" ? "Connected across devices" : "Firebase configured") : "Still local browser only"}</h3>
-        <p>${configReady ? current.detail : "Firebase config is still blank. Edit firebase-config.js, add your Firebase Web App config, re-upload it, then refresh this admin page."}</p>
-        ${configReady ? `<small>Project: ${FIREBASE_CONFIG.projectId}</small>` : `<small>File to edit: /firebase-config.js</small>`}
+        <span class="eyebrow">Supabase backend</span>
+        <h3>${configReady ? (current.state === "connected" ? "Connected across devices" : "Supabase configured") : "Configuration required"}</h3>
+        <p>${configReady ? current.detail : "Add your Supabase Project URL and publishable/anon key in supabase-config.js, then run supabase-setup.sql once in the Supabase SQL Editor."}</p>
+        ${configReady ? `<small>Site ID: ${SITE_ID}</small>` : `<small>Files: /supabase-config.js + /supabase-setup.sql</small>`}
       </div>
       <div class="cloud-sync-actions">
-        <button type="button" class="button small" id="cloudForcePush">Push this browser data to cloud</button>
-        <button type="button" class="button small ghost" id="cloudForcePull">Pull cloud data</button>
-        <a class="button small ghost" href="CLOUD_SYNC_SETUP.md" target="_blank" rel="noopener">Setup guide</a>
+        <button type="button" class="button small" id="cloudForcePush">Migrate this browser data</button>
+        <button type="button" class="button small ghost" id="cloudForcePull">Pull Supabase data</button>
+        <a class="button small ghost" href="SUPABASE_SETUP.md" target="_blank" rel="noopener">Setup guide</a>
       </div>
     `;
     document.getElementById("cloudForcePush")?.addEventListener("click", async () => {
-      if (!db) { status("local", "Firebase config missing"); return; }
-      await syncProductsToCloud(readJSON(PRODUCT_KEY, []));
-      await syncOrdersToCloud(readJSON(ORDER_KEY, []));
-      await syncContentToCloud(readJSON(CONTENT_KEY, {}));
-      status("connected", "Manual push complete");
+      try {
+        if (!ensureClient()) throw new Error("Supabase config missing");
+        const backupProducts = readJSON(MIGRATION_KEYS.products, []);
+        const backupContent = readJSON(MIGRATION_KEYS.content, {});
+        await syncProductsToCloud(backupProducts.length ? backupProducts : readJSON(PRODUCT_KEY, []));
+        await migrateLocalOrders();
+        await syncContentToCloud(Object.keys(backupContent || {}).length ? backupContent : readJSON(CONTENT_KEY, {}));
+        await pullAdminData();
+        status("connected", "Browser data migration complete");
+      } catch (error) { status("error", "Migration failed: " + (error.message || error)); }
     }, { once: true });
     document.getElementById("cloudForcePull")?.addEventListener("click", async () => {
-      if (!db) { status("local", "Firebase config missing"); return; }
-      await bootstrapProducts();
-      await bootstrapOrders();
-      await bootstrapContent();
-      status("connected", "Manual pull complete");
+      try {
+        if (!ensureClient()) throw new Error("Supabase config missing");
+        await pullProducts();
+        await pullContent();
+        const session = await getSession();
+        if (session?.user) await pullOrders();
+        status("connected", "Supabase data refreshed");
+      } catch (error) { status("error", "Pull failed: " + (error.message || error)); }
     }, { once: true });
   }
 
@@ -20449,38 +20663,61 @@ document.addEventListener("DOMContentLoaded", () => {
     patchStorage();
     renderStatusCard();
     if (!hasConfig()) {
-      status("local", "Firebase config missing in firebase-config.js");
+      status("local", "Supabase config missing in supabase-config.js");
       return;
     }
     try {
-      if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
-      db = firebase.firestore();
-      status("connecting", "Connecting to Firebase…");
-      await bootstrapProducts();
-      await bootstrapOrders();
-      await bootstrapContent();
-      subscribe();
-      status("connected", "Live sync active across devices");
+      ensureClient();
+      status("connecting", "Connecting to Supabase…");
+      await Promise.all([pullProducts(), pullContent()]);
+      const session = await getSession();
+      if (session?.user) await pullOrders();
+      subscribeRealtime();
+      status("connected", session?.user ? "Supabase connected; admin session active" : "Supabase connected; public store sync active");
+      client.auth.onAuthStateChange((_event, nextSession) => {
+        setTimeout(() => {
+          if (nextSession?.user) {
+            pullAdminData().catch(error => console.warn("Admin refresh failed", error));
+          } else {
+            // Never expose shared orders to a signed-out visitor from a previous admin session.
+            if (document.getElementById("adminLoginPanel")) setLocal(ORDER_KEY, []);
+          }
+        }, 0);
+      });
     } catch (error) {
-      console.error("Real cloud sync failed", error);
-      status("error", "Cloud sync failed: " + (error.message || error));
+      console.error("Supabase cloud sync failed", error);
+      status("error", "Supabase sync failed: " + (error.message || error));
     }
   }
 
   window.ttwCloudSync = {
     init,
+    isConfigured: hasConfig,
+    getSession,
+    signIn,
+    signOut,
+    saveOrder,
+    updateOrder,
+    clearOrders,
+    pullOrders,
+    pullProducts,
+    pullContent,
+    pullAdminData,
     status: () => readJSON(STATUS_KEY, {}),
     pushAll: async () => {
-      if (!db) throw new Error("Firebase is not configured");
-      await syncProductsToCloud(readJSON(PRODUCT_KEY, []));
-      await syncOrdersToCloud(readJSON(ORDER_KEY, []));
-      await syncContentToCloud(readJSON(CONTENT_KEY, {}));
+      if (!ensureClient()) throw new Error("Supabase is not configured");
+      const backupProducts = readJSON(MIGRATION_KEYS.products, []);
+      const backupContent = readJSON(MIGRATION_KEYS.content, {});
+      await syncProductsToCloud(backupProducts.length ? backupProducts : readJSON(PRODUCT_KEY, []));
+      await migrateLocalOrders();
+      await syncContentToCloud(Object.keys(backupContent || {}).length ? backupContent : readJSON(CONTENT_KEY, {}));
     },
     pullAll: async () => {
-      if (!db) throw new Error("Firebase is not configured");
-      await bootstrapProducts();
-      await bootstrapOrders();
-      await bootstrapContent();
+      if (!ensureClient()) throw new Error("Supabase is not configured");
+      await pullProducts();
+      await pullContent();
+      const session = await getSession();
+      if (session?.user) await pullOrders();
     }
   };
 

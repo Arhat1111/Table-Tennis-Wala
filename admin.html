@@ -112,10 +112,10 @@
     <section class="admin-login-section section" id="adminLoginPanel">
       <form class="admin-login-card" id="adminLoginForm">
         <span class="eyebrow">Protected panel</span>
-        <h2>Login to upload products</h2>
-        <p>Static demo credentials: <strong>admin</strong> / <strong>ttwala123</strong></p>
-        <label>Username<input id="adminUsername" autocomplete="username" required placeholder="admin" /></label>
-        <label>Password<input id="adminPassword" type="password" autocomplete="current-password" required placeholder="ttwala123" /></label>
+        <h2>Login to store admin</h2>
+        <p>Use the Supabase admin account created for the business owner.</p>
+        <label>Admin email<input id="adminUsername" type="email" autocomplete="username" required placeholder="owner@example.com" /></label>
+        <label>Password<input id="adminPassword" type="password" autocomplete="current-password" required placeholder="Your Supabase password" /></label>
         <button class="button primary" type="submit">Login</button>
         <p class="login-message" id="loginMessage" aria-live="polite"></p>
       </form>
@@ -138,7 +138,7 @@
           <button type="button" class="admin-pro-tab" data-admin-panel="customers">Live customers</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="content">Website content</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="mail">Order email setup</button>
-          <p class="admin-pro-note">Orders are saved in browser storage for this static version. For live orders from all customers, connect EmailJS or a backend.</p>
+          <p class="admin-pro-note">Orders, client-added products and editable site content are synced through Supabase. New WhatsApp checkout orders appear here across devices.</p>
         </aside>
 
         <div class="admin-pro-main">
@@ -150,12 +150,12 @@
             <div class="admin-stat-grid">
               <div class="admin-stat-card"><span>Total catalogue</span><strong id="adminTotalProducts">0</strong><small>Seed + client-added products</small></div>
               <div class="admin-stat-card"><span>Client uploads</span><strong id="adminUploadedProducts">0</strong><small>Products added from this panel</small></div>
-              <div class="admin-stat-card"><span>Orders received</span><strong id="adminOrderCount">0</strong><small>Saved checkout orders</small></div>
+              <div class="admin-stat-card"><span>Orders received</span><strong id="adminOrderCount">0</strong><small>Supabase checkout orders</small></div>
               <div class="admin-stat-card"><span>Order value</span><strong id="adminOrderValue">₹0</strong><small>Total value in order list</small></div>
             </div>
             <div class="admin-help-card">
-              <h3>How order email works</h3>
-              <p>The website already saves checkout orders into the admin order list. To receive every new order by email, fill the EmailJS keys in the <strong>Order email setup</strong> tab or connect this static website to a real backend.</p>
+              <h3>Live order backend</h3>
+              <p>Checkout orders are stored in Supabase and update this dashboard across devices. EmailJS remains optional for customer/owner email notifications.</p>
             </div>
           </section>
 
@@ -252,7 +252,7 @@
               <label>WhatsApp order number<input id="contentOrderWhatsapp" placeholder="917201996720" /></label>
               <label>Order email<input id="contentOrderEmail" type="email" placeholder="orders@tabletenniswala.in" /></label>
               <button class="button primary" type="submit">Save website content</button>
-              <p class="admin-note">This static version saves content in browser storage. For a live site, connect the same fields to a backend/database so every visitor sees the changes.</p>
+              <p class="admin-note">Content changes are saved to Supabase so every visitor sees the same live values.</p>
             </form>
           </section>
 
@@ -316,9 +316,7 @@
   <aside class="cart-drawer" aria-hidden="true"><div class="drawer-header"><div><span class="eyebrow">Your cart</span><h2>Selected gear</h2></div><button class="cart-close" aria-label="Close cart"><span class="ttw-icon ttw-icon-close" aria-hidden="true"></span></button></div><div class="cart-items"></div><div class="cart-empty"><div class="empty-ball">40+</div><h3>Your cart is empty</h3><p>Add products or a custom racket build.</p></div><div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="button primary checkout-button">Go to checkout</button></div></aside>
 <div class="page-backdrop"></div><div class="toast" role="status" aria-live="polite"></div>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="firebase-config.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
+  <script src="supabase-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="script.js"></script>
 </body></html>

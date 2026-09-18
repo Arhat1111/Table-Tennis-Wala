@@ -23,17 +23,13 @@ This website includes a complete static ecommerce frontend for a table tennis st
 - Cart drawer connects to a full checkout page
 - Checkout page collects name, email, phone, address, city, state, pincode and notes
 - Razorpay checkout integration is included
-- Order details are saved locally after payment/demo payment
-- Email workflow is prepared through EmailJS or backend integration
+- Order details are saved to Supabase, with localStorage kept as a browser-side backup
+- Admin orders, products and editable content sync across devices through Supabase
+- Email workflow is prepared through EmailJS
 
 ## Admin login
 
-Open `admin.html` directly.
-
-Demo credentials:
-
-- Username: `admin`
-- Password: `ttwala123`
+Open `admin.html` directly. Admin access now uses **Supabase Auth** rather than a hard-coded browser password. Follow `SUPABASE_SETUP.md` to create the business-owner user and register it in `ttw_admins`.
 
 ## Razorpay setup
 
@@ -64,9 +60,9 @@ Fill these values to send automatic emails to the store owner and customer after
 
 Without EmailJS/backend configuration, the order success message includes a `mailto:` button to send the order details to the store email manually.
 
-## Important static-site note
+## Backend
 
-Product uploads and order records use browser `localStorage`, which works on the same device/browser. For a real live client website, connect the same UI to Firebase, Supabase, Shopify, WooCommerce, Google Sheets API or a custom backend.
+The live backend is Supabase. Browser `localStorage` remains only as a cache/offline migration source. Run `supabase-setup.sql`, fill `supabase-config.js`, and follow `SUPABASE_SETUP.md`.
 
 
 ## Latest update
@@ -108,15 +104,13 @@ Latest changes:
 - Cart page with customer details form
 - Razorpay placeholder integration
 - Admin panel with login
-- Product upload/edit/delete panel using browser localStorage
+- Product upload/edit/delete panel synced to Supabase, including Supabase Storage for uploaded product images
 - Top strip changed to: NO RETURN AND EXCHANGE POLICY
 - Privacy Policy page
 - Privacy policy popup on website open
 - Floating WhatsApp free consultation button
 
-Admin login:
-Username: admin
-Password: ttwala123
+Admin login is handled by Supabase Auth.
 
 Replace the Razorpay key and WhatsApp number before publishing.
 
@@ -679,3 +673,18 @@ JS syntax check: OK
 
 - Simplified the About section into a cleaner, more minimal editorial layout with less visual clutter.
 - Removed heavy stat blocks/strips and kept only three refined information rows with clean CTA buttons.
+
+## 2026 Supabase backend migration
+
+- Removed Firebase SDK/config from all live HTML pages.
+- Added `supabase-config.js`, `supabase-setup.sql`, and `SUPABASE_SETUP.md`.
+- Checkout now writes WhatsApp orders directly to Supabase while keeping a local browser backup.
+- Admin login now uses Supabase Auth; the hard-coded demo login is no longer used.
+- Public visitors can create orders but cannot read the shared order table.
+- Admin orders load across devices and subscribe to live database changes.
+- Added admin order status controls: payment pending, confirmed, processing, shipped, completed, cancelled.
+- Admin-added products and editable site content sync through Supabase.
+- Admin image uploads are moved to the public `ttw-products` Supabase Storage bucket.
+- Added migration backups so old localStorage data is preserved before the first Supabase cloud pull.
+- Added **Migrate this browser data** for moving locally cached legacy products/orders/content into Supabase.
+- The existing Razorpay fields (`paymentId`, `paymentMode`) remain in the order object so a server-verified Razorpay flow can be connected later without redesigning the admin data model.

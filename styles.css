@@ -17675,3 +17675,8 @@ main > .original-product-banner.poster-banner:first-child .opb-poster-image,
     font-size: 14px !important;
   }
 }
+
+/* Supabase order status control */
+.admin-order-status { display:inline-flex; align-items:center; gap:.45rem; font-size:.78rem; font-weight:700; }
+.admin-order-status select { max-width:190px; border:1px solid rgba(18,20,18,.14); border-radius:999px; padding:.4rem .75rem; background:#fff; color:inherit; font:inherit; }
+@media (max-width: 640px) { .admin-order-status { width:100%; justify-content:space-between; } .admin-order-status select { max-width:62%; } }
