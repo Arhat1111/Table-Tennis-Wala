@@ -15389,19 +15389,26 @@ function completeOrder(order) {
   existing.push(order);
   localStorage.setItem(STORAGE_ORDERS, JSON.stringify(existing));
   localStorage.setItem("ttw-last-order", JSON.stringify(order));
+
   // Save the order directly to Supabase. localStorage remains a browser-side backup.
+  // Return the promise so checkout can wait briefly for the cloud write before redirecting.
+  let cloudSavePromise = Promise.resolve(true);
   if (window.ttwCloudSync?.saveOrder) {
-    window.ttwCloudSync.saveOrder(order).catch(error => {
+    cloudSavePromise = window.ttwCloudSync.saveOrder(order).catch(error => {
       console.error("Supabase order save failed", error);
       localStorage.setItem("ttw-last-order-sync-error", String(error?.message || error));
+      return false;
     });
   }
+  window.ttwLastOrderSavePromise = cloudSavePromise;
+
   state.cart = [];
   saveCart();
   renderCart();
   renderCheckoutPage();
   showOrderSuccess(order);
   sendOrderEmails(order);
+  return cloudSavePromise;
 }
 
 function orderPlainText(order) {
@@ -19719,7 +19726,8 @@ document.addEventListener("DOMContentLoaded", () => {
     showOrderSuccess = cleanShow;
   }
 
-  // Replaces checkout WhatsApp flow: store order + customer confirmation are both opened from the same user action.
+  // Checkout flow: open the store WhatsApp message, save the order to Supabase,
+  // then return the original website tab to the homepage with an order-confirmed message.
   const autoWhatsappCheckout = function(customer) {
     const amount = getCartTotal();
     if (!amount || !state.cart.length) {
@@ -19735,30 +19743,49 @@ document.addEventListener("DOMContentLoaded", () => {
       paymentStatus: "Pending QR payment",
       orderChannel: "WhatsApp",
       status: "New WhatsApp order",
-      customerWhatsAppStatus: "Confirmation WhatsApp prepared"
+      customerWhatsAppStatus: "Updates pending"
     };
 
     const storeUrl = buildWhatsAppOrderUrl(order);
-    const customerUrl = buildCustomerWhatsAppConfirmationUrl(order);
 
-    // Pre-open tabs synchronously to reduce browser popup blocking.
+    // This runs directly inside the submit/click action so browsers are much less likely
+    // to block WhatsApp as a popup. The TTW page itself remains available for redirect.
     const storeWindow = window.open("", "_blank");
-    const customerWindow = customerUrl ? window.open("", "_blank") : null;
-
-    completeOrder(order);
+    const cloudSavePromise = completeOrder(order);
     removeCustomerAndEmailBoxes();
-    showToast(customerUrl ? "Order saved. Store and customer WhatsApp messages opened." : "Order saved. Store WhatsApp message opened.");
 
-    if (storeWindow) storeWindow.location.href = storeUrl;
-    else window.open(storeUrl, "_blank") || (window.location.href = storeUrl);
+    try {
+      sessionStorage.setItem("ttw-order-confirmed", JSON.stringify({
+        orderId: order.orderId,
+        customerName: order.customer?.fullName || "",
+        amount: order.amount,
+        confirmedAt: new Date().toISOString()
+      }));
+    } catch (error) {}
 
-    if (customerUrl) {
-      if (customerWindow) {
-        setTimeout(() => { customerWindow.location.href = customerUrl; }, 180);
-      } else {
-        setTimeout(() => { window.open(customerUrl, "_blank"); }, 500);
-      }
+    if (storeWindow) {
+      storeWindow.location.href = storeUrl;
+    } else {
+      // Very restrictive browsers can still block a new tab. Try once more; if that also
+      // fails the current checkout page keeps the manual WhatsApp button visible.
+      window.open(storeUrl, "_blank");
     }
+
+    showToast("Order saved. WhatsApp opened — returning you to Table Tennis Wala.");
+
+    const redirectHome = () => {
+      const params = new URLSearchParams({
+        order: "confirmed",
+        id: order.orderId
+      });
+      window.location.href = `index.html?${params.toString()}`;
+    };
+
+    // Give the Supabase insert a chance to finish, but never hold the customer here for long.
+    Promise.race([
+      Promise.resolve(cloudSavePromise),
+      new Promise(resolve => setTimeout(resolve, 1800))
+    ]).finally(() => setTimeout(redirectHome, 350));
   };
 
   window.placeOrderThroughWhatsApp = autoWhatsappCheckout;
@@ -19774,6 +19801,85 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("DOMContentLoaded", () => {
     if (document.body) observer.observe(document.body, { childList: true, subtree: true });
   });
+})();
+
+
+/* FINAL: homepage confirmation after WhatsApp checkout */
+(function () {
+  function readConfirmedOrder() {
+    const params = new URLSearchParams(window.location.search);
+    const hasConfirmationFlag = params.get("order") === "confirmed";
+    let stored = null;
+    try {
+      stored = JSON.parse(sessionStorage.getItem("ttw-order-confirmed") || "null");
+    } catch (error) {}
+
+    if (!hasConfirmationFlag && !stored) return null;
+    const queryId = params.get("id") || "";
+    if (stored && queryId && stored.orderId && stored.orderId !== queryId) {
+      return { orderId: queryId, customerName: "", amount: null };
+    }
+    return stored || { orderId: queryId, customerName: "", amount: null };
+  }
+
+  function clearConfirmationState() {
+    try { sessionStorage.removeItem("ttw-order-confirmed"); } catch (error) {}
+    const cleanUrl = `${window.location.pathname}${window.location.hash || ""}`;
+    try { window.history.replaceState({}, document.title, cleanUrl); } catch (error) {}
+  }
+
+  function showHomepageOrderConfirmation() {
+    if (document.body?.dataset?.page !== "home") return;
+    const confirmation = readConfirmedOrder();
+    if (!confirmation || document.querySelector(".ttw-order-confirmation-overlay")) return;
+
+    const firstName = String(confirmation.customerName || "").trim().split(/\s+/)[0];
+    const orderId = confirmation.orderId || "your TTW order";
+    const overlay = document.createElement("div");
+    overlay.className = "ttw-order-confirmation-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+    overlay.setAttribute("aria-labelledby", "ttwOrderConfirmedTitle");
+    overlay.innerHTML = `
+      <div class="ttw-order-confirmation-card">
+        <button class="ttw-order-confirmation-close" type="button" aria-label="Close confirmation">×</button>
+        <div class="ttw-order-confirmation-icon" aria-hidden="true">✓</div>
+        <span class="eyebrow">Order confirmed</span>
+        <h2 id="ttwOrderConfirmedTitle">${firstName ? `Thank you, ${firstName}.` : "Thank you for your order."}</h2>
+        <p class="ttw-order-confirmation-lead">Your order is confirmed. You will shortly receive updates for the same on WhatsApp.</p>
+        <div class="ttw-order-confirmation-meta">
+          <span>Order ID</span>
+          <strong>${orderId}</strong>
+        </div>
+        <p class="ttw-order-confirmation-note">We’ll contact you with availability and payment/dispatch updates. You can continue browsing Table Tennis Wala in the meantime.</p>
+        <button class="button primary ttw-order-confirmation-done" type="button">Continue shopping</button>
+      </div>`;
+
+    const close = () => {
+      overlay.classList.add("is-closing");
+      setTimeout(() => overlay.remove(), 220);
+      document.body.classList.remove("ttw-confirmation-open");
+      clearConfirmationState();
+    };
+
+    overlay.querySelector(".ttw-order-confirmation-close")?.addEventListener("click", close);
+    overlay.querySelector(".ttw-order-confirmation-done")?.addEventListener("click", close);
+    overlay.addEventListener("click", event => {
+      if (event.target === overlay) close();
+    });
+    document.addEventListener("keydown", function onKey(event) {
+      if (event.key === "Escape" && document.body.contains(overlay)) {
+        close();
+        document.removeEventListener("keydown", onKey);
+      }
+    });
+
+    document.body.appendChild(overlay);
+    document.body.classList.add("ttw-confirmation-open");
+    requestAnimationFrame(() => overlay.classList.add("is-visible"));
+  }
+
+  document.addEventListener("DOMContentLoaded", () => setTimeout(showHomepageOrderConfirmation, 180));
 })();
 
 

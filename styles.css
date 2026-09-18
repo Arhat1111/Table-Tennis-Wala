@@ -17680,3 +17680,173 @@ main > .original-product-banner.poster-banner:first-child .opb-poster-image,
 .admin-order-status { display:inline-flex; align-items:center; gap:.45rem; font-size:.78rem; font-weight:700; }
 .admin-order-status select { max-width:190px; border:1px solid rgba(18,20,18,.14); border-radius:999px; padding:.4rem .75rem; background:#fff; color:inherit; font:inherit; }
 @media (max-width: 640px) { .admin-order-status { width:100%; justify-content:space-between; } .admin-order-status select { max-width:62%; } }
+
+/* FINAL: homepage order-confirmed overlay after WhatsApp checkout */
+.ttw-confirmation-open {
+  overflow: hidden !important;
+}
+
+.ttw-order-confirmation-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(9, 12, 9, .62);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .24s ease, visibility .24s ease;
+}
+
+.ttw-order-confirmation-overlay.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ttw-order-confirmation-overlay.is-closing {
+  opacity: 0;
+}
+
+.ttw-order-confirmation-card {
+  position: relative;
+  width: min(620px, 100%);
+  padding: 46px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.55);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 88% 7%, rgba(215,255,63,.42), transparent 30%),
+    #fff;
+  box-shadow: 0 32px 90px rgba(0,0,0,.28);
+  transform: translateY(18px) scale(.985);
+  transition: transform .3s cubic-bezier(.2,.8,.2,1);
+}
+
+.ttw-order-confirmation-overlay.is-visible .ttw-order-confirmation-card {
+  transform: translateY(0) scale(1);
+}
+
+.ttw-order-confirmation-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(17,19,17,.065);
+  color: #111311;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.ttw-order-confirmation-icon {
+  width: 68px;
+  height: 68px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 22px;
+  border-radius: 50%;
+  background: #d7ff3f;
+  color: #111311;
+  font: 900 32px/1 Manrope, sans-serif;
+  box-shadow: 0 15px 35px rgba(168, 210, 12, .26);
+}
+
+.ttw-order-confirmation-card h2 {
+  max-width: 520px;
+  margin: 10px 0 14px;
+  color: #111311;
+  font: 800 clamp(38px, 7vw, 66px)/.92 Manrope, sans-serif;
+  letter-spacing: -.065em;
+}
+
+.ttw-order-confirmation-lead {
+  max-width: 510px;
+  margin: 0 0 24px;
+  color: rgba(17,19,17,.76);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.ttw-order-confirmation-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 0 0 18px;
+  padding: 16px 18px;
+  border: 1px solid rgba(17,19,17,.09);
+  border-radius: 18px;
+  background: rgba(17,19,17,.035);
+}
+
+.ttw-order-confirmation-meta span {
+  color: rgba(17,19,17,.52);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.ttw-order-confirmation-meta strong {
+  color: #111311;
+  font: 900 14px/1.2 Manrope, sans-serif;
+  text-align: right;
+  word-break: break-word;
+}
+
+.ttw-order-confirmation-note {
+  margin: 0 0 24px;
+  color: rgba(17,19,17,.57);
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.6;
+}
+
+.ttw-order-confirmation-done {
+  min-height: 54px;
+}
+
+@media (max-width: 640px) {
+  .ttw-order-confirmation-overlay {
+    align-items: end;
+    padding: 12px;
+  }
+
+  .ttw-order-confirmation-card {
+    width: 100%;
+    padding: 34px 24px 26px;
+    border-radius: 28px;
+  }
+
+  .ttw-order-confirmation-card h2 {
+    font-size: clamp(38px, 13vw, 56px);
+  }
+
+  .ttw-order-confirmation-lead {
+    font-size: 15px;
+  }
+
+  .ttw-order-confirmation-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .ttw-order-confirmation-meta strong {
+    text-align: left;
+  }
+
+  .ttw-order-confirmation-done {
+    width: 100%;
+    justify-content: center;
+  }
+}
