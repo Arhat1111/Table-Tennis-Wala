@@ -1,0 +1,11 @@
+TABLE TENNIS WALA — LIVE QA PASS — 28 SEPTEMBER 2026
+
+Changes:
+- Fixed invisible copy on the dark Custom Setup card hover.
+- Removed the green/current-page fill highlight from the main desktop navbar.
+- Replaced the Above ₹10K quick-shop card with Ready-made rackets.
+- Changed the section label to Quick shop so all four cards make semantic sense.
+- Fixed malformed duplicated/nested responsive <picture> markup on homepage and brand banners.
+- Hardened tablet/mobile layouts against horizontal overflow.
+- Updated the Privacy Policy to match the current WhatsApp + Supabase order flow.
+- Kept existing Supabase, pricing and real-product-photo changes intact.

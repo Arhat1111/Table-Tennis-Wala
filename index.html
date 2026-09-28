@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <title>Table Tennis Wala — Table Tennis Ecommerce</title>
   <meta name="description" content="Minimal ecommerce website for Table Tennis Wala with multi-brand products and custom racket builds." />
   <link rel="stylesheet" href="styles.css" />
@@ -119,20 +120,16 @@
     <picture class="opb-poster-media">
       <source media="(max-width: 640px)" srcset="assets/banners/home-banner-mobile.webp" />
       <source media="(max-width: 1024px)" srcset="assets/banners/home-banner-tablet.webp" />
-      <picture class="opb-poster-media">
-      <source media="(max-width: 640px)" srcset="assets/banners/home-banner-mobile.webp" />
-      <source media="(max-width: 1024px)" srcset="assets/banners/home-banner-tablet.webp" />
       <img class="opb-poster-image" src="assets/banners/home-banner.png" alt="Premium Table Tennis Gear banner for Table Tennis Wala" loading="eager" />
-    </picture>
     </picture>
   </a>
 </section>
 
     <section class="budget-shop-section section reveal" id="budgetShop">
   <div class="budget-shop-head">
-    <span class="eyebrow">Shop by budget</span>
+    <span class="eyebrow">Quick shop</span>
     <h2>Find gear faster.</h2>
-    <p>Quickly jump into products that match a comfortable price range.</p>
+    <p>Jump into a comfortable price range or go straight to a ready-to-play setup.</p>
   </div>
 
   <div class="budget-shop-grid">
@@ -150,11 +147,11 @@
       <i>Explore →</i>
     </a>
 
-    <a class="budget-shop-card" href="products.html?min=10000" aria-label="Shop premium products above ₹10,000">
-      <span class="budget-card-kicker">Premium gear</span>
-      <strong>Above ₹10k</strong>
-      <small>High-performance setups and serious equipment.</small>
-      <i>View premium →</i>
+    <a class="budget-shop-card" href="products.html?category=rackets" aria-label="Shop ready-made table tennis rackets">
+      <span class="budget-card-kicker">Play-ready</span>
+      <strong>Ready-made</strong>
+      <small>Complete rackets for beginners, clubs and quick play.</small>
+      <i>View rackets →</i>
     </a>
 
     <a class="budget-shop-card budget-card-dark" href="customize.html" aria-label="Build a custom racket">

@@ -17867,3 +17867,146 @@ main > .original-product-banner.poster-banner:first-child .opb-poster-image,
   padding: 0 !important;
   object-fit: contain !important;
 }
+
+
+/* =========================================================
+   LIVE QA PASS — 28 SEP 2026
+   Navbar contrast, quick-shop hover visibility & responsive hardening
+   ========================================================= */
+
+/* Never use a filled/current-page highlight on the main desktop navbar. */
+.site-header .css-desktop-nav > a,
+.site-header .css-desktop-nav > a:hover,
+.site-header .css-desktop-nav > a:focus,
+.site-header .css-desktop-nav > a[aria-current="page"],
+.site-header .css-desktop-nav .nav-dropdown > .nav-dropdown-trigger,
+.site-header .css-desktop-nav .nav-dropdown > .nav-dropdown-trigger:hover,
+.site-header .css-desktop-nav .nav-dropdown > .nav-dropdown-trigger:focus,
+.site-header .css-desktop-nav .nav-dropdown.active > .nav-dropdown-trigger,
+.site-header .css-desktop-nav .nav-dropdown.current > .nav-dropdown-trigger,
+body[data-brand] .site-header .css-desktop-nav .nav-dropdown-trigger[href="brands.html"],
+body[data-page="brands"] .site-header .css-desktop-nav .nav-dropdown-trigger[href="brands.html"] {
+  background: transparent !important;
+  color: var(--ink, #101410) !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  transform: none !important;
+}
+
+/* Keep only a subtle underline interaction, not a filled highlight. */
+.site-header .css-desktop-nav > a::after,
+.site-header .css-desktop-nav .nav-dropdown-trigger::after {
+  height: 1.5px !important;
+  background: var(--ink, #101410) !important;
+}
+
+/* The dark Custom Setup card must stay dark on hover so its white copy remains legible. */
+.budget-shop-card.budget-card-dark:hover,
+.budget-shop-card.budget-card-dark:focus-visible {
+  background: linear-gradient(145deg, #101410, #26301d) !important;
+  color: #fff !important;
+  border-color: rgba(215,255,63,.34) !important;
+  box-shadow: 0 30px 68px rgba(17,19,17,.18) !important;
+}
+.budget-shop-card.budget-card-dark:hover strong,
+.budget-shop-card.budget-card-dark:focus-visible strong {
+  color: #fff !important;
+}
+.budget-shop-card.budget-card-dark:hover .budget-card-kicker,
+.budget-shop-card.budget-card-dark:focus-visible .budget-card-kicker {
+  background: rgba(215,255,63,.16) !important;
+  color: var(--accent, #d7ff3f) !important;
+}
+.budget-shop-card.budget-card-dark:hover small,
+.budget-shop-card.budget-card-dark:hover i,
+.budget-shop-card.budget-card-dark:focus-visible small,
+.budget-shop-card.budget-card-dark:focus-visible i {
+  color: rgba(255,255,255,.78) !important;
+}
+
+/* Keyboard focus stays visible without changing text contrast. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid rgba(173, 218, 0, .55) !important;
+  outline-offset: 3px !important;
+}
+
+/* Avoid page-wide horizontal drift at in-between tablet/laptop widths. */
+html,
+body {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: clip !important;
+}
+main,
+section,
+.site-header,
+.budget-shop-grid,
+.product-grid,
+.catalog-layout,
+.catalog-results,
+.product-card,
+.budget-shop-card {
+  min-width: 0 !important;
+}
+
+/* Product and banner media remain contained on every viewport. */
+.product-visual img,
+.modal-product-visual img,
+.fixed-modal-media img,
+.cart-item-visual img {
+  max-width: 100% !important;
+}
+.opb-poster-media,
+.opb-poster-image {
+  max-width: 100% !important;
+}
+
+@media (max-width: 960px) {
+  .budget-shop-head {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    align-items: start !important;
+  }
+  .budget-shop-head p {
+    max-width: 620px !important;
+  }
+  .budget-shop-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .budget-shop-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .budget-shop-card {
+    min-height: 164px !important;
+  }
+  .budget-shop-card strong {
+    font-size: clamp(34px, 10vw, 42px) !important;
+  }
+  .policy-minimal-hero,
+  .policy-minimal-section {
+    overflow: hidden !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .css-brand > span:last-child {
+    font-size: 11px !important;
+    letter-spacing: .045em !important;
+  }
+  .site-header.css-navbar {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+  .budget-shop-card {
+    padding: 20px !important;
+    border-radius: 22px !important;
+  }
+}
