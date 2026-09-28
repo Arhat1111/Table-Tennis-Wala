@@ -1,0 +1,3 @@
+All 527 products now use bundled local images as their primary image source.
+Any previous remote/hotlinked image URL is preserved in each product record as remoteImage.
+Generated new guaranteed local SVG images for 10 missing fallback assets.

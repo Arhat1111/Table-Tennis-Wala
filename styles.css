@@ -17850,3 +17850,20 @@ main > .original-product-banner.poster-banner:first-child .opb-poster-image,
     justify-content: center;
   }
 }
+
+/* TTW image reliability polish */
+.product-visual.image-load-failed::after,
+.image-load-failed::after {
+  display: none !important;
+  content: none !important;
+}
+.product-visual img[data-ttw-fallback-stage="2"],
+.modal-product-visual img[data-ttw-fallback-stage="2"],
+.fixed-modal-media img[data-ttw-fallback-stage="2"] {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+}

@@ -1,0 +1,285 @@
+TABLE TENNIS WALA — TABLE TENNIS BAZAAR PRICE UPDATE
+Checked: 27 September 2026
+
+Catalogue products checked: 527
+Products updated from a confident Table Tennis Bazaar match: 247
+Products left unchanged because an exact/same-variant price could not be confirmed: 280
+
+Method:
+- Used Table Tennis Bazaar's currently displayed selling price, not the crossed-out MRP.
+- Used sold-out listings only when Table Tennis Bazaar still displayed a clear price for the exact product.
+- Avoided blind fuzzy matching. Combined or ambiguous TTW variants were left unchanged when the Bazaar listing was not equivalent.
+
+UPDATED PRODUCTS
+================
+
+ANDRO (29)
+----------
+Andro Achanta CI blade — ₹13,400 → ₹7,299 | Matched: Andro ACHANTA CI OFF
+Andro Blowfish 1.8 — ₹5,400 → ₹2,999 | Matched: Andro Blowfish
+Andro Blowfish max — ₹5,400 → ₹2,999 | Matched: Andro Blowfish
+Andro Bype — ₹4,600 → ₹2,399 | Matched: Andro Bype
+Andro EDGE TAPE CI 5 METER — ₹1,000 → ₹799 | Matched: Andro edge tape 12mm x 5m
+Andro Gauzy HL CO — ₹11,000 → ₹6,499 | Matched: Andro Gauzy HL CO OFF
+Andro Good max — ₹2,400 → ₹1,649 | Matched: Andro Good table tennis rubber
+Andro GTT 45 max — ₹3,600 → ₹2,349 | Matched: Andro GTT 45
+Andro Hexer Duro max — ₹5,000 → ₹2,699 | Matched: Andro Hexer Duro
+Andro Inizio Blue FL — ₹2,400 → ₹2,249 | Matched: Andro Inizio OFF table tennis blade
+Andro Inizio FL — ₹2,400 → ₹2,249 | Matched: Andro Inizio OFF table tennis blade
+Andro Nuzn 45 max — ₹6,000 → ₹3,499 | Matched: Andro Nuzn 45
+Andro Nuzn 48 max — ₹7,200 → ₹3,899 | Matched: Andro Nuzn 48
+Andro Nuzn 50 max — ₹9,200 → ₹4,799 | Matched: Andro Nuzn 50
+Andro Nuzn 55 max — ₹9,200 → ₹4,599 | Matched: Andro Nuzn 55
+Andro Powergrip max — ₹5,400 → ₹2,799 | Matched: Andro Hexer Powergrip
+Andro Rasanter C 45 Ultramax — ₹7,400 → ₹3,899 | Matched: Andro Rasanter C45
+Andro Rasanter C 48 Ultramax — ₹7,400 → ₹3,899 | Matched: Andro Rasanter C48
+Andro Rasanter C 53 Ultramax — ₹7,400 → ₹3,899 | Matched: Andro Rasanter C53
+Andro Rasanter R 42 ultramax — ₹6,200 → ₹3,550 | Matched: Andro Rasanter R42
+Andro Rasanter R 45 Ultramax — ₹7,200 → ₹3,849 | Matched: Andro Rasanter R45
+Andro Rasanter R 47 ultramax — ₹6,200 → ₹3,550 | Matched: Andro Rasanter R47
+Andro Rasanter R 48 Ultramax — ₹7,200 → ₹3,849 | Matched: Andro Rasanter R48
+Andro Rasanter R 50 ultramax — ₹6,200 → ₹3,449 | Matched: Andro Rasanter R50
+Andro Rasanter R 53 max — ₹7,200 → ₹3,849 | Matched: Andro Rasanter R53
+Andro Timber 7 Off/S — ₹6,800 → ₹3,699 | Matched: Andro Timber 7 Off/S
+Andro Treiber CO Off/S — ₹14,000 → ₹6,999 | Matched: Andro Treiber CO Off/S
+Andro Turbo Glue 50 ml — ₹2,200 → ₹1,290 | Matched: Andro Turbo Fix table tennis glue 50ml
+Andro Turbo Glue 90 ml — ₹2,800 → ₹1,650 | Matched: Andro Turbo Fix 90ml glue
+
+BUTTERFLY (58)
+--------------
+BUGLER — ₹7,770 → ₹4,399 | Matched: Butterfly Bugller rubber
+Butterfly FRANZISKA INNERFORACE ZLC AN — ₹32,000 → ₹16,999 | Matched: Butterfly Franziska Innerforce ZLC
+Butterfly FRANZISKA INNERFORACE ZLC FL — ₹32,025 → ₹16,999 | Matched: Butterfly Franziska Innerforce ZLC
+Butterfly GLUE FREE CHECK 500 ML — ₹7,560 → ₹4,099 | Matched: Butterfly Free Chack II 500ml
+Butterfly IMPARTIAL XB — ₹7,290 → ₹3,999 | Matched: Butterfly Impartial XB
+Butterfly IMPARTIAL XS — ₹7,180 → ₹3,999 | Matched: Butterfly Impartial XS
+Butterfly RDJ S1 — ₹1,530 → ₹869 | Matched: Butterfly RDJ S1 Zhang Jike Raquete
+Butterfly RDJ S2 — ₹1,650 → ₹929 | Matched: Butterfly RAQUETA RDJ S2 ZHANG JIKE
+Butterfly RDJ S3 — ₹1,740 → ₹999 | Matched: Butterfly RDJ S3
+Butterfly SARDIUS FL — ₹18,750 → ₹9,999 | Matched: Butterfly Sardius
+Butterfly TB5 ALFA FL — ₹6,195 → ₹3,499 | Matched: Butterfly TB5 Alpha
+CHALLENGER ATTACK — ₹5,130 → ₹2,749 | Matched: Butterfly Challenger Attack
+DIGNICS 05 — ₹13,000 → ₹7,200 | Matched: Butterfly Dignics 05
+DIGNICS 09 C — ₹13,000 → ₹7,599 | Matched: Butterfly Dignics 09C
+DIGNICS 64 — ₹13,000 → ₹7,500 | Matched: Butterfly Dignics 64
+DIMITRIJ OVTCHAROV INNERFORCE ALC FL — ₹23,572 → ₹13,500 | Matched: Butterfly Dimitrij Ovtcharov Innerforce ALC
+DIODE V — ₹9,630 → ₹5,550 | Matched: Butterfly Diode V
+DIVODE PRO FL/ST — ₹12,075 → ₹6,199 | Matched: Butterfly Diode Pro
+FAN ZHENDONG ALC FL — ₹26,040 → ₹13,599 | Matched: Butterfly Fan Zhendong ALC
+FAN ZHENDONG SUPER ALC FL — ₹37,100 → ₹18,999 | Matched: Butterfly Fan Zhendong Super ALC
+FAN ZHENDONG SUPER ZLC FL /ST — ₹52,290 → ₹27,199 | Matched: Butterfly Fan Zhendong Super ZLC
+FAN ZHENDONG ZLC FL — ₹35,500 → ₹19,099 | Matched: Butterfly Fan Zhendong ZLC
+FIENT LONG II — ₹4,060 → ₹2,449 | Matched: Butterfly Feint Long II
+FLEXTRA — ₹2,330 → ₹1,600 | Matched: Butterfly flextra table tennis rubber
+FREE CHACK II 20 ML — ₹800 → ₹575 | Matched: Butterfly Free Chack II glue 20ml
+GLAYZER — ₹7,290 → ₹3,999 | Matched: Butterfly glayzer table tennis rubber
+GLAYZER 09 C — ₹7,290 → ₹3,999 | Matched: Butterfly glayzer 09c table tennis rubber
+HARIMOTO TOKOZAMA INNERFORACE ALC FL — ₹30,100 → ₹15,249 | Matched: Butterfly Harimoto Tomokazu Innerforce ALC
+HARIMOTO TOKOZAMA INNERFORACE SUPER ALC FL — ₹32,340 → ₹19,199 | Matched: Butterfly Harimoto Tomokazu Innerforce Super ALC
+INNERFORACE LAYER ZFL FL — ₹28,500 → ₹15,499 | Matched: Butterfly Innerforce Layer ZLF
+KORBEL — ₹11,030 → ₹5,999 | Matched: Butterfly Petr Korbel
+LIN YUN-JU SUPER ZLC FL — ₹49,875 → ₹25,499 | Matched: Butterfly Lin Yun-Ju Super ZLC
+MARCOS FREITAS ALC FL — ₹24,990 → ₹13,500 | Matched: Butterfly Marcos Freitas ALC
+MIZUTANI JUN MAJOR FL — ₹9,135 → ₹5,699 | Matched: Butterfly Mizutani Jun Major
+MIZUTANI JUN ZLC FL — ₹31,400 → ₹16,499 | Matched: Butterfly Mizutani ZLC
+MIZUTANI JUN ZLC SUPER ZLC FL — ₹42,840 → ₹24,749 | Matched: Butterfly Mizutani Jun Super ZLC
+OUTERFORCE CAF FL — ₹16,695 → ₹9,499 | Matched: Butterfly Outerforce CAF
+PRIMORAC CARBON FL — ₹16,000 → ₹8,999 | Matched: Butterfly Primorac Carbon
+PRIMORAC FL — ₹7,330 → ₹3,999 | Matched: Butterfly Primorac
+RB PROTECTOR 10 MM (side Tap) — ₹530 → ₹525 | Matched: Butterfly RB Protector III
+RB PROTECTOR 12 MM (side Tap) — ₹530 → ₹525 | Matched: Butterfly RB Protector III
+ROZENA — ₹6,995 → ₹4,000 | Matched: Butterfly rozena table tennis rubber
+SUPER ANTI — ₹4,090 → ₹2,650 | Matched: Butterfly super anti table tennis rubber
+TENERGY 19 — ₹10,600 → ₹5,499 | Matched: Butterfly Tenergy 19
+TENERGY 64,64 FX — ₹10,600 → ₹5,499 | Matched: Butterfly Tenergy 64 / 64-FX
+TENERGY 80,80 FX — ₹10,600 → ₹5,499 | Matched: Butterfly Tenergy 80 / 80-FX
+TIAGO APOLONIA ZLC FL — ₹32,760 → ₹16,500 | Matched: Butterfly Apolonia ZLC
+TIMO BOLL 3000 — ₹3,630 → ₹2,049 | Matched: Butterfly Timo Boll 3000
+TIMOBOLL 30TH ANNIVERSARY EDITION FL — ₹54,860 → ₹27,999 | Matched: Butterfly Timo Boll 30th Anniversary Edition
+TIMOBOLL ALC FL — ₹24,200 → ₹13,499 | Matched: Butterfly Timo Boll ALC
+TIMOBOLL J FL — ₹6,830 → ₹3,399 | Matched: Butterfly timo boll j table tennis blade
+TIMOBOLL SPIRIT FL — ₹17,750 → ₹10,100 | Matched: Butterfly Timo Boll Spirit
+TIMOBOLL TJ FL — ₹11,340 → ₹6,499 | Matched: Butterfly Timo Boll TJ
+TIMOBOLL ZLC FL — ₹33,495 → ₹17,499 | Matched: Butterfly Timo Boll ZLC
+VISCARIA FL — ₹23,600 → ₹13,299 | Matched: Butterfly Viscaria
+VISCARIA SUPER ALC FL — ₹36,000 → ₹18,699 | Matched: Butterfly Viscaria Super ALC
+ZHANG JIKE ZLC FL — ₹34,490 → ₹22,000 | Matched: Butterfly Zhang Jike ZLC
+ZYRE 03 — ₹19,450 → ₹9,699 | Matched: Butterfly Zyre 03
+
+DHS (47)
+--------
+DHS 08X ST Defense — ₹11,500 → ₹5,399 | Matched: DHS 08X Defensive
+DHS 6512 Beginner's Rubber — ₹1,500 → ₹799 | Matched: DHS 6512 Classic Sticky Elastic Rubber
+DHS 652 — ₹2,400 → ₹1,399 | Matched: DHS 652 table tennis rubber
+DHS 874 - Special Short Pips — ₹2,400 → ₹1,399 | Matched: DHS 874
+DHS Cloud & Fog III — ₹3,300 → ₹1,549 | Matched: DHS Cloud & Fog 3
+DHS D40+ 1 Star Balls     (Pack of 120) — ₹5,000 → ₹3,099 | Matched: DHS D40+ 1-star pack of 120
+DHS D40+ 3 Star Balls     (Pack of 10) — ₹1,250 → ₹799 | Matched: DHS D40+ 3 star table tennis balls (pack of 10)
+DHS DJ40+ WTT Balls       (Pack of 6) — ₹1,500 → ₹849 | Matched: DHS DJ40+ 3-star balls pack of 6
+DHS Dragonow — ₹3,300 → ₹1,549 | Matched: DHS Dragonow
+DHS Fang Bo B2X — ₹11,000 → ₹6,499 | Matched: DHS Fang Bo Carbon B2X
+DHS Gold Arc 5 (42.5 & 47.5) — ₹6,600 → ₹2,349 | Matched: DHS Gold Arc 5 42.5 / 47.5
+DHS Gold Arc 8 (47.5 & 50) — ₹8,550 → ₹3,099 | Matched: DHS Gold Arc 8 47.5 / 50.0
+DHS Gold Arc 9 (2.1 38H) — ₹6,600 → ₹2,399 | Matched: DHS Goldarc 9
+DHS Hurricane 3 — ₹5,100 → ₹1,899 | Matched: DHS Hurricane 3 table tennis rubber
+DHS Hurricane 3 National Blue Sponge — ₹16,500 → ₹6,599 | Matched: DHS Hurricane 3 National Blue Sponge
+DHS Hurricane 3 Neo (37, 38, 39, 40) — ₹5,700 → ₹2,299 | Matched: DHS Hurricane Neo 3
+DHS Hurricane 3 Neo National Blue Sponge — ₹18,000 → ₹6,799 | Matched: DHS Hurricane Neo 3 National Edition Blue Sponge
+DHS Hurricane 3 Neo National Orange Sponge — ₹16,500 → ₹5,799 | Matched: DHS Hurricane 3 Neo National Orange Sponge
+DHS Hurricane 3 Neo Provincial Blue Sponge — ₹10,800 → ₹4,699 | Matched: DHS Hurricane 3 Neo Provincial Blue Sponge
+DHS Hurricane 3 Neo Provincial Orange Sponge — ₹8,250 → ₹3,499 | Matched: DHS Hurricane 3 Neo Provincial Orange Sponge
+DHS Hurricane 3-50 — ₹5,700 → ₹2,099 | Matched: DHS Hurricane 3-50
+DHS Hurricane 301 — ₹14,375 → ₹6,599 | Matched: DHS Hurricane 301 ALC
+DHS Hurricane 301X — ₹14,375 → ₹6,799 | Matched: DHS 301X ALC blade
+DHS Hurricane 8 — ₹5,700 → ₹2,499 | Matched: DHS Hurricane 8 hard table tennis rubber
+DHS Hurricane 8-80 — ₹5,700 → ₹2,499 | Matched: DHS Hurricane 8-80
+DHS Hurricane 9 (Blue, Violet, Green, Pink) — ₹6,000 → ₹2,449 | Matched: DHS Hurricane 9
+DHS Hurricane King National Q968 — ₹81,250 → ₹43,999 | Matched: DHS Hurricane King Q968
+DHS Hurricane Long 5 Gold Grand Slam — ₹47,500 → ₹46,999 | Matched: DHS Hurricane Long 5 Gold Grand Slam W968
+DHS Hurricane Long 5 National W968 — ₹81,250 → ₹41,999 | Matched: DHS W968 Hurricane Long 5 National
+DHS Hurricane Long 5x — ₹35,000 → ₹16,500 | Matched: DHS Hurricane Long 5X
+DHS Hurricane Long Long 5 — ₹35,000 → ₹16,500 | Matched: DHS Hurricane Long 5
+DHS Hurricane Sun — ₹35,000 → ₹18,300 | Matched: DHS Hurricane Sun Blade
+DHS Hurricane Sun National S968 — ₹81,250 → ₹43,999 | Matched: DHS Hurricane Sun S968
+DHS No.#15 Glue - 50ml — ₹1,500 → ₹849 | Matched: DHS 50ml glue
+DHS No.#15 Glue - 98ml — ₹3,000 → ₹1,499 | Matched: DHS 98ml glue
+DHS PF4-50 — ₹1,950 → ₹1,050 | Matched: DHS PF4-50
+DHS Power G12 — ₹6,625 → ₹2,999 | Matched: DHS Power G12 / PG12
+DHS Power G7 — ₹5,000 → ₹2,499 | Matched: DHS Power G7 (PG7) OFF table tennis blade
+DHS Power G7X — ₹8,500 → ₹3,999 | Matched: DHS PG7X
+DHS Power G8 — ₹5,000 → ₹2,349 | Matched: DHS PG8
+DHS Power G9 — ₹5,000 → ₹2,599 | Matched: DHS Power G9
+DHS RS40+ WTT Balls       (Pack of 6) — ₹2,100 → ₹949 | Matched: DHS RS40+ pack of 6 balls
+DHS Rubber Roller — ₹1,000 → ₹799 | Matched: DHS Rubber Roller
+DHS Sharping II — ₹3,300 → ₹1,449 | Matched: DHS Sharping 2
+DHS TG Skyline 3 Neo — ₹5,400 → ₹2,399 | Matched: DHS Skyline TG3 Neo
+DHS Tin Arc 5 — ₹5,100 → ₹1,999 | Matched: DHS Tinarc 5
+DHS Wind Series SR-A — ₹1,875 → ₹1,099 | Matched: DHS SRA
+
+JOOLA (8)
+---------
+JOOLA Dynaryz ACC Table Tennis Rubber — ₹6,400 → ₹3,849 | Matched: Joola Dynaryz ACC
+JOOLA Dynaryz AGR Table Tennis Rubber — ₹6,400 → ₹3,849 | Matched: Joola Dynaryz AGR
+JOOLA Dynaryz ZGR Table Tennis Rubber — ₹6,400 → ₹3,849 | Matched: Joola Dynaryz ZGR
+JOOLA Dynaryz ZGX Table Tennis Rubber — ₹6,600 → ₹3,849 | Matched: Joola Dynaryz ZGX
+JOOLA Hugo Calderano AW-7 FL Blade — ₹6,999 → ₹4,399 | Matched: Joola Hugo Calderano AW-7 blade
+JOOLA Tronix ACC Table Tennis Rubber — ₹5,300 → ₹3,199 | Matched: Joola Tronix ACC
+JOOLA Tronix CMD Table Tennis Rubber — ₹5,300 → ₹3,199 | Matched: Joola Tronix CMD
+JOOLA Tronix ZGR Table Tennis Rubber — ₹5,300 → ₹3,199 | Matched: Joola Tronix ZGR
+
+STIGA (17)
+----------
+Stiga Allround Classic — ₹9,310 → ₹4,299 | Matched: Stiga allround classic
+Stiga Clipper CR — ₹10,450 → ₹6,499 | Matched: Stiga clipper cr table tennis blade
+Stiga Cybershape Carbon — ₹24,700 → ₹16,199 | Matched: Stiga cybershape carbon
+Stiga Cybershape Carbon CWT — ₹33,250 → ₹17,999 | Matched: Stiga cybershape carbon cwt
+Stiga Cybershape Carbon CWT Truls Edition — ₹36,100 → ₹22,999 | Matched: Stiga Cybershape Carbon CWT Truls Moregardh Edition
+Stiga Cybershape Clipper — ₹12,350 → ₹7,399 | Matched: Stiga clipper cr cybershape table tennis blade
+Stiga Cybershape Wavy Ultrafibre Master JW — ₹9,500 → ₹6,199 | Matched: Stiga wavy cybershape
+Stiga Cybershape Wood — ₹13,300 → ₹9,599 | Matched: Stiga cybershape wood table tennis blade
+Stiga Cybershape Wood CWT — ₹16,910 → ₹11,999 | Matched: Stiga cybershape wood cwt table tennis blade
+Stiga Infinity VPS — ₹12,350 → ₹7,499 | Matched: Stiga infinity vps v table tennis blade
+Stiga Mantra Control — ₹2,470 → ₹1,899 | Matched: Stiga mantra control table tennis rubber
+Stiga Mantra Pro (M/H) — ₹5,320 → ₹3,149 | Matched: Stiga Mantra PRO M / H
+Stiga Mantra Sound — ₹3,610 → ₹2,349 | Matched: Stiga mantra sound
+Stiga Offensive Classic (Master) — ₹8,550 → ₹4,699 | Matched: Stiga offensive classic table tennis blade
+Stiga Offensive Classic (Winner) (Old Packing) — ₹8,550 → ₹4,699 | Matched: Stiga offensive classic table tennis blade
+Stiga S 2000 WRB — ₹3,230 → ₹3,799 | Matched: Stiga S2000 WRB
+Stiga S 5000 WRB — ₹4,560 → ₹3,999 | Matched: Stiga S5000 WRB
+
+TIBHAR (2)
+----------
+Tibhar Evolution MX-P Rubber — ₹4,699 → ₹3,699 | Matched: Tibhar evolution mx-p table tennis rubber
+Tibhar Stratus Power Wood Blade — ₹7,199 → ₹3,999 | Matched: Tibhar Stratus Power Wood
+
+XIOM (48)
+---------
+Xiom 19 Allround S — ₹5,749 → ₹3,399 | Matched: Xiom allround s table tennis blade
+Xiom 19 Offensive S — ₹6,739 → ₹3,599 | Matched: Xiom offensive s table tennis blade
+Xiom 19 Stradivarius — ₹9,209 → ₹5,399 | Matched: Xiom stradivarius
+Xiom Ice Cream AZXi PRO — ₹24,229 → ₹14,499 | Matched: Xiom ice cream azxi pro
+Xiom J&H C55.0 - Black — ₹7,779 → ₹4,499 | Matched: Xiom Jekyll & Hyde C55
+Xiom J&H C55.0 - Red — ₹7,779 → ₹4,499 | Matched: Xiom Jekyll & Hyde C55
+Xiom J&H H 52.5 - Black — ₹6,409 → ₹3,499 | Matched: Xiom jekyll and hyde h52.5
+Xiom J&H H 52.5 - Red — ₹6,409 → ₹3,499 | Matched: Xiom jekyll and hyde h52.5
+Xiom J&H X47.5 - Black — ₹7,619 → ₹3,499 | Matched: Xiom jekyll & hyde x47.5
+Xiom J&H X47.5 - Red — ₹7,619 → ₹3,499 | Matched: Xiom jekyll & hyde x47.5
+Xiom MUV M 7.0 S — ₹3,559 → ₹2,699 | Matched: Xiom muv m 7.0 S
+Xiom MUV M 9.0 S — ₹5,259 → ₹3,499 | Matched: Xiom muv m 9.0 S
+Xiom Omega 4 Euro - Black — ₹5,199 → ₹3,499 | Matched: Xiom omega iv euro
+Xiom Omega 4 Euro - Red — ₹5,199 → ₹3,499 | Matched: Xiom omega iv euro
+Xiom Omega 4 Pro - Black — ₹5,529 → ₹3,299 | Matched: Xiom omega iv pro
+Xiom Omega 4 Pro - Red — ₹5,529 → ₹3,299 | Matched: Xiom omega iv pro
+Xiom Omega 5 Pro - Black — ₹5,909 → ₹3,199 | Matched: Xiom omega v pro
+Xiom Omega 5 Pro - Red — ₹5,909 → ₹3,199 | Matched: Xiom omega v pro
+Xiom Omega 7 Asia - Black — ₹6,189 → ₹3,699 | Matched: Xiom omega vii asia
+Xiom Omega 7 Asia - Red — ₹6,189 → ₹3,699 | Matched: Xiom omega vii asia
+Xiom Omega 7 Euro - Black — ₹6,189 → ₹3,799 | Matched: Xiom omega vii euro
+Xiom Omega 7 Euro - Red — ₹6,189 → ₹3,799 | Matched: Xiom omega vii euro
+Xiom Omega 7 Pro - Black — ₹6,569 → ₹3,799 | Matched: Xiom omega vii pro
+Xiom Omega 7 Pro - Red — ₹6,569 → ₹3,799 | Matched: Xiom omega vii pro
+Xiom Omega 8 China - Black — ₹7,889 → ₹4,199 | Matched: Xiom Omega 8 China
+Xiom Omega 8 China - Red — ₹7,889 → ₹4,199 | Matched: Xiom Omega 8 China
+Xiom Omega 8 Euro - Black — ₹6,569 → ₹4,299 | Matched: Xiom Omega 8 Euro
+Xiom Omega 8 Euro - Red — ₹6,569 → ₹4,299 | Matched: Xiom Omega 8 Euro
+Xiom Omega 8 Hybrid - Black — ₹6,349 → ₹4,199 | Matched: Xiom Omega VIII Hybrid
+Xiom Omega 8 Hybrid - Red — ₹6,349 → ₹4,199 | Matched: Xiom Omega VIII Hybrid
+Xiom Omega 8 Pro - Black — ₹7,619 → ₹4,099 | Matched: Xiom Omega 8 Pro
+Xiom Omega 8 Pro - Red — ₹7,619 → ₹4,099 | Matched: Xiom Omega 8 Pro
+Xiom TIKKYWOW Racket Case - Blue — ₹2,379 → ₹1,599 | Matched: Xiom x tikkywow racket case
+Xiom TIKKYWOW Racket Case - Navy Blue — ₹2,379 → ₹1,599 | Matched: Xiom x tikkywow racket case
+Xiom TIKKYWOW Racket Case - Pink — ₹2,379 → ₹1,599 | Matched: Xiom x tikkywow racket case
+Xiom Vega Euro - Black — ₹4,869 → ₹3,199 | Matched: Xiom vega europe
+Xiom Vega Euro - Red — ₹4,869 → ₹3,199 | Matched: Xiom vega europe
+Xiom Vega Intro - Black — ₹3,599 → ₹2,199 | Matched: Xiom vega intro
+Xiom Vega Intro - Red — ₹3,599 → ₹2,199 | Matched: Xiom vega intro
+Xiom Vega Pro - Black — ₹4,539 → ₹2,899 | Matched: Xiom vega pro
+Xiom Vega Pro - Red — ₹4,539 → ₹2,899 | Matched: Xiom vega pro
+Xiom Vega Pro Hybrid - Black — ₹6,409 → ₹3,299 | Matched: Xiom vega pro h hybrid
+Xiom Vega Pro Hybrid - Red — ₹6,409 → ₹3,299 | Matched: Xiom vega pro h hybrid
+Xiom Vega X - Black — ₹4,649 → ₹2,899 | Matched: Xiom vega x
+Xiom Vega X - Red — ₹4,649 → ₹2,899 | Matched: Xiom vega x
+Xiom Xiom 22XRC - Grey — ₹2,599 → ₹1,799 | Matched: Xiom 22 xrc hard racket case
+Xiom Xiom 22XRC - Navy — ₹2,599 → ₹1,799 | Matched: Xiom 22 xrc hard racket case
+Xiom Xiom 22XRC - Purple — ₹2,599 → ₹1,799 | Matched: Xiom 22 xrc hard racket case
+
+YINHE (38)
+----------
+YinHe 01B Readymade Racket — ₹1,999 → ₹1,399 | Matched: Yinhe 01B table tennis racket
+YinHe 1 Star    (Pack of 100) — ₹2,999 → ₹1,999 | Matched: Yinhe 1 Star ABS seamed table tennis balls, pack of 100
+YinHe 9000 E — ₹999 → ₹999 | Matched: Yinhe 9000E
+YinHe 955 Green 0.7mm — ₹1,999 → ₹1,449 | Matched: Yinhe Moxa 955 Green/Blue (0.7)
+YinHe 955 OX — ₹999 → ₹999 | Matched: Yinhe 955
+YinHe APOLLO 5 — ₹2,999 → ₹1,999 | Matched: Yinhe Apollo 5
+YinHe BIG DIPPER 39 — ₹2,999 → ₹2,100 | Matched: Yinhe Big Dipper
+YinHe BIG DIPPER PRO 41 — ₹3,499 → ₹2,099 | Matched: Yinhe Big Dipper Pro
+YinHe C204 Readymade Kids Racket — ₹1,999 → ₹1,349 | Matched: Yinhe C204 Ready bat
+YinHe CN-1S — ₹1,999 → ₹1,349 | Matched: Yinhe CN-1 children soft carbon table tennis blade
+YinHe EARTH II — ₹1,999 → ₹1,099 | Matched: Yinhe Earth 2
+YinHe Edge Tape 25m Roll — ₹1,999 → ₹1,799 | Matched: Yinhe Edge Tape (10MM 25Mtr) Blue/Yellow
+YinHe Edge Tape Single Pc — ₹199 → ₹99 | Matched: Yinhe side tape (for 1)
+YinHe H40+ 3 Star — ₹599 → ₹299 | Matched: Yinhe H40+ 3-star ABS table tennis balls, pack of 6
+YinHe JUPITER III EURO — ₹2,999 → ₹1,449 | Matched: Yinhe Jupiter III Euro
+YinHe MAX-01 — ₹7,999 → ₹4,599 | Matched: Yinhe Max 01 Table Tennis Blade
+YinHe MERCURY II — ₹999 → ₹749 | Matched: Yinhe Mercury II Soft
+YinHe MERCURY III EURO — ₹999 → ₹1,099 | Matched: Yinhe Mercury III Euro
+YinHe MOON 12 BLUE — ₹2,999 → ₹1,749 | Matched: Yinhe Moon 12
+YinHe MOON SPEED — ₹1,999 → ₹1,599 | Matched: Yinhe Moon Speed
+YinHe MOON SPEED LIMITED — ₹1,999 → ₹1,599 | Matched: Yinhe Moon Speed Limited
+YinHe N-10S — ₹1,999 → ₹1,199 | Matched: Yinhe N10S table tennis blade
+YinHe NEPTUNE - 0.7 — ₹999 → ₹699 | Matched: Yinhe Neptune table tennis rubber (0.7)
+YinHe Plastic Grip — ₹499 → ₹200 | Matched: Yinhe racket over grip - per piece
+YinHe PLUTO 1.5 - 1.8 — ₹999 → ₹699 | Matched: Yinhe Pluto table tennis rubber
+YinHe PRO-01 — ₹7,999 → ₹5,499 | Matched: Yinhe Pro 01 ALC blade
+YinHe PRO-05 — ₹7,999 → ₹5,799 | Matched: Yinhe Pro 5
+YinHe QING - 0.5 — ₹999 → ₹849 | Matched: Yinhe Qing 0.5mm
+YinHe QING OX — ₹999 → ₹799 | Matched: Yinhe Qing OX
+YinHe Rubber Cleaning Sponge — ₹499 → ₹200 | Matched: Yinhe rubber cleaning sponge
+YinHe Rubber Protector Sticky Sheet — ₹499 → ₹199 | Matched: Yinhe rubber protective sheet
+YinHe T-11S — ₹2,999 → ₹2,599 | Matched: Yinhe T11S balsa carbon blade
+YinHe T-1S — ₹3,999 → ₹2,699 | Matched: Yinhe T-1S Table Tennis Blade
+YinHe T-2S — ₹3,999 → ₹2,799 | Matched: Yinhe T2S carbon blade
+YinHe URANUS POLY — ₹1,999 → ₹1,149 | Matched: Yinhe Uranus Poly
+YinHe V-14 PRO — ₹7,999 → ₹4,999 | Matched: Yinhe V14 Pro ALC blade
+YinHe WTT — ₹999 → ₹549 | Matched: Yinhe H40+ 3-Star WTT table tennis balls - pack of 6
+YinHe Y-13 — ₹1,999 → ₹1,699 | Matched: Yinhe Mercury Y13 blade
