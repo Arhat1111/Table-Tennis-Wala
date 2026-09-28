@@ -1,0 +1,15 @@
+TABLE TENNIS WALA — REAL PRODUCT PHOTO FIX
+
+Catalogue products: 527
+Existing official/retailer product-photo URLs: 46
+Existing product-specific Bing image-search photos: 481
+
+Changes:
+- Restored photographic product images as the primary catalogue images.
+- Removed generated/vector SVG catalogue artwork from the visible fallback chain.
+- Each remote product photo is now requested through wsrv.nl cache first.
+- If the cache request fails, the browser retries the exact original photo URL.
+- Only if both photo requests fail does the site show a bundled raster brand poster.
+- Existing Supabase, admin, WhatsApp confirmation and Table Tennis Bazaar pricing updates remain unchanged.
+
+No generated SVG product image is used as a primary product image in this release.

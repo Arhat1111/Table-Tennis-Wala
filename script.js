@@ -9,7 +9,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-inferno.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png%3Fv%3D1712315197%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Explosive premium rubber built for maximum acceleration, tension and high-level offensive play.",
     "features": [
       "SKU 70465",
@@ -20,9 +20,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-inferno.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -30,7 +30,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png?v=1712315197&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png?v=1712315197&width=450"
   },
   {
     "id": "joola-cat-dynaryz-zgx",
@@ -42,7 +42,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-zgx.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png%3Fv%3D1712315219%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "High-grip offensive rubber with explosive sponge response and strong sweet-zone feeling.",
     "features": [
       "SKU 70488",
@@ -53,9 +53,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgx.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -63,7 +63,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png?v=1712315219&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png?v=1712315219&width=450"
   },
   {
     "id": "joola-cat-dynaryz-zgr",
@@ -75,7 +75,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-zgr.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png%3Fv%3D1712311173%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Tacky and grippy premium rubber for extreme rotation, power and flatter attacking trajectories.",
     "features": [
       "SKU 70522",
@@ -86,9 +86,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-zgr.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -96,7 +96,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png?v=1712311173&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png?v=1712311173&width=450"
   },
   {
     "id": "joola-cat-dynaryz-acc",
@@ -108,7 +108,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#3e5cff",
-    "image": "assets/catalog/joola-cat-dynaryz-acc.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png%3Fv%3D1712310661%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Balanced premium rubber made for speed, spin, control and safe topspin arcs.",
     "features": [
       "SKU 70502",
@@ -119,9 +119,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-acc.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -129,7 +129,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png?v=1712310661&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png?v=1712310661&width=450"
   },
   {
     "id": "joola-cat-dynaryz-agr",
@@ -141,7 +141,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-agr.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png%3Fv%3D1712310646%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Professional-level premium rubber for players wanting hard sponge power and reliable grip.",
     "features": [
       "SKU 70512",
@@ -152,9 +152,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-agr.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -162,7 +162,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png?v=1712310646&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png?v=1712310646&width=450"
   },
   {
     "id": "joola-cat-dynaryz-cmd",
@@ -174,7 +174,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-dynaryz-cmd.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzCMDrubber_01.png%3Fv%3D1712311166%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Controlled premium rubber option for players who want Dynaryz quality with added command.",
     "features": [
       "SKU 70532",
@@ -185,9 +185,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-dynaryz-cmd.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -195,7 +195,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/dynaryzCMDrubber_01.png?v=1712311166&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/dynaryzCMDrubber_01.png?v=1712311166&width=450"
   },
   {
     "id": "joola-cat-tronix-acc",
@@ -207,7 +207,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Professional",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-tronix-acc.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70592_JOOLA_Tronix-ACC_01_web.webp%3Fv%3D1758019542%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Professional rubber with GIGA CELL sponge for lively acceleration and balanced topspin power.",
     "features": [
       "SKU 70593",
@@ -218,10 +218,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tronix-acc.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/tronix-acc-table-tennis-rubber",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -229,7 +229,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.in/cdn/shop/files/70592_JOOLA_Tronix-ACC_01_web.webp?v=1758019542&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/70592_JOOLA_Tronix-ACC_01_web.webp?v=1758019542&width=1200"
   },
   {
     "id": "joola-cat-tronix-cmd",
@@ -241,7 +241,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Professional",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-tronix-cmd.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png%3Fv%3D1712314354%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Professional control rubber for close-table counters, spin control and consistent ball feedback.",
     "features": [
       "SKU 70587",
@@ -252,9 +252,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tronix-cmd.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -262,7 +262,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png?v=1712314354&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png?v=1712314354&width=450"
   },
   {
     "id": "joola-cat-tronix-zgr",
@@ -274,7 +274,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Professional",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-tronix-zgr.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tronix-ZGR-70598-70601-Web-02.png%3Fv%3D1712314352%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Grippy professional rubber for heavy rotation and direct power transfer in offensive play.",
     "features": [
       "SKU 70599",
@@ -285,9 +285,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tronix-zgr.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -295,7 +295,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/Tronix-ZGR-70598-70601-Web-02.png?v=1712314352&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/Tronix-ZGR-70598-70601-Web-02.png?v=1712314352&width=450"
   },
   {
     "id": "joola-cat-rhyzen-ice",
@@ -307,7 +307,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-rhyzen-ice.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70560_JOOLA_Rhyzen-ICE_03_web.webp%3Fv%3D1758692142%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Cool and controlled performance rubber made for feel, placement and confident rally play.",
     "features": [
       "SKU 70650",
@@ -318,10 +318,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rhyzen-ice.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/rhyzen-ice-table-tennis-rubber",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -329,7 +329,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.in/cdn/shop/files/70560_JOOLA_Rhyzen-ICE_03_web.webp?v=1758692142&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/70560_JOOLA_Rhyzen-ICE_03_web.webp?v=1758692142&width=1200"
   },
   {
     "id": "joola-cat-rhyzen-fire",
@@ -341,7 +341,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-rhyzen-fire.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70570_JOOLA_Rhyzen-FIRE_03_web_0b5a771d-dd58-4f60-a4a2-39209deb5a4b.webp%3Fv%3D1758692777%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Offensive performance rubber with dynamic response, spin and powerful loop potential.",
     "features": [
       "SKU 70571",
@@ -352,10 +352,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rhyzen-fire.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/rhyzen-fire-table-tennis-rubber",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -363,7 +363,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.in/cdn/shop/files/70570_JOOLA_Rhyzen-FIRE_03_web_0b5a771d-dd58-4f60-a4a2-39209deb5a4b.webp?v=1758692777&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/70570_JOOLA_Rhyzen-FIRE_03_web_0b5a771d-dd58-4f60-a4a2-39209deb5a4b.webp?v=1758692777&width=1200"
   },
   {
     "id": "joola-cat-rhyzen-cmd",
@@ -375,7 +375,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-rhyzen-cmd.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/rhyzenCMDrubber_01.png%3Fv%3D1712311158%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Command-focused performance rubber for precise takeoff, balanced pace and spin safety.",
     "features": [
       "SKU 70552",
@@ -386,9 +386,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rhyzen-cmd.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -396,7 +396,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.com/cdn/shop/files/rhyzenCMDrubber_01.png?v=1712311158&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/rhyzenCMDrubber_01.png?v=1712311158&width=450"
   },
   {
     "id": "joola-cat-zack",
@@ -408,7 +408,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-zack.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70070_JOOLA_Zack_01_web.webp%3Fv%3D1758005420%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "All-round progressive rubber with high control, durability and easy placement.",
     "features": [
       "SKU 70071",
@@ -419,10 +419,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-zack.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/joola-rubber-zack",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -430,7 +430,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.in/cdn/shop/files/70070_JOOLA_Zack_01_web.webp?v=1758005420&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/70070_JOOLA_Zack_01_web.webp?v=1758005420&width=1200"
   },
   {
     "id": "joola-cat-micron",
@@ -442,7 +442,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-micron-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BMicron%2BTable%2BTennis%2BRubber%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "High-control rubber with a forgiving bounce and grippy surface for developing players.",
     "features": [
       "SKU 70270",
@@ -453,9 +453,9 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-micron-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Micron Table Tennis Rubber table tennis product official image",
     "availableColors": [
@@ -464,7 +464,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Micron+Table+Tennis+Rubber+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Micron+Table+Tennis+Rubber+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-vizon",
@@ -476,7 +476,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-vizon.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70019_JOOLA_Vizon_01_web_c7239a26-9e31-475e-8d56-7e4854e34b35.webp%3Fv%3D1757938008%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Classic-style rubber focused on control, dampened sponge response and simple playability.",
     "features": [
       "SKU 70026",
@@ -487,10 +487,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vizon.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/joola-rubber-vizon-1",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -498,7 +498,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.in/cdn/shop/files/70019_JOOLA_Vizon_01_web_c7239a26-9e31-475e-8d56-7e4854e34b35.webp?v=1757938008&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/70019_JOOLA_Vizon_01_web_c7239a26-9e31-475e-8d56-7e4854e34b35.webp?v=1757938008&width=1200"
   },
   {
     "id": "joola-cat-cwx",
@@ -510,7 +510,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Precision",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-cwx.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/joola-cwx-long-pips-table-tennis-rubber-side-view.jpg%3Fv%3D1746558369%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Long-pips rubber made for defensive variation, disruption and spin reversal.",
     "features": [
       "SKU 71237",
@@ -521,10 +521,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-cwx.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/joola-cwx-long-pips-table-tennis-rubber-copy",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -532,7 +532,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://joola.in/cdn/shop/files/joola-cwx-long-pips-table-tennis-rubber-side-view.jpg?v=1746558369&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/joola-cwx-long-pips-table-tennis-rubber-side-view.jpg?v=1746558369&width=1200"
   },
   {
     "id": "joola-cat-prime-40-pack-6",
@@ -544,7 +544,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Competition",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-prime-40-pack-6-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BPrime%252A%252A%252A%2B40%252B%2BTable%2BTennis%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "ITTF-approved competition balls with consistent bounce, ABS material and reliable flight.",
     "features": [
       "SKU 40031",
@@ -553,12 +553,12 @@ const seedProducts = [
       "3-star ball",
       "Competition grade"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-6-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Prime*** 40+ Table Tennis Balls table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Table+Tennis+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Table+Tennis+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-prime-40-pack-72",
@@ -570,7 +570,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Competition",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-prime-40-pack-72-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BPrime%252A%252A%252A%2B40%252B%2BBalls%2BPack%2Bof%2B72%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Bulk pack of competition-grade JOOLA Prime 40+ balls for clubs and tournaments.",
     "features": [
       "SKU 40030",
@@ -579,12 +579,12 @@ const seedProducts = [
       "3-star ball",
       "ITTF approved"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-prime-40-pack-72-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Prime*** 40+ Balls Pack of 72 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Balls+Pack+of+72+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Balls+Pack+of+72+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-training-40-pack-120",
@@ -596,7 +596,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-training-40-pack-120.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp%3Fv%3D1758099507%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "High-volume training ball pack for drills, coaching sessions and club practice.",
     "features": [
       "SKU 44230",
@@ -605,11 +605,11 @@ const seedProducts = [
       "ABS material",
       "Training grade"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-training-40-pack-120.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp?v=1758099507&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp?v=1758099507&width=450"
   },
   {
     "id": "joola-cat-tournament-ct24",
@@ -621,7 +621,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-tournament-ct24-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BTournament%2B40%252B%2BWH%2BCT24%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Tournament-style white balls suitable for practice, training and match preparation.",
     "features": [
       "SKU 44233",
@@ -630,12 +630,12 @@ const seedProducts = [
       "White balls",
       "Practice use"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tournament-ct24-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Tournament 40+ WH CT24 Balls table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Tournament+40%2B+WH+CT24+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Tournament+40%2B+WH+CT24+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-advanced-training",
@@ -647,7 +647,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Training",
     "color": "#ffffff",
-    "image": "assets/catalog/joola-cat-advanced-training-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BAdvanced%2BTraining%2B36KT%2BWhite%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Advanced training ball set for high-repetition drills and coaching use.",
     "features": [
       "SKU 44256",
@@ -656,12 +656,12 @@ const seedProducts = [
       "White",
       "Training"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-advanced-training-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Advanced Training 36KT White Balls table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Advanced+Training+36KT+White+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Advanced+Training+36KT+White+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-bcover-hard-blue",
@@ -673,7 +673,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#263d46",
-    "image": "assets/catalog/joola-cat-bcover-hard-blue-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BB.Cover%2BHard%2BCase%2BNavy%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Hard-shell racket case for safe everyday storage and travel.",
     "features": [
       "SKU 80570",
@@ -682,12 +682,12 @@ const seedProducts = [
       "Hard shell",
       "Single racket"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-blue-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA B.Cover Hard Case Navy table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-bcover-hard-black",
@@ -699,7 +699,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-bcover-hard-black-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BB.Cover%2BHard%2BCase%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Minimal hard case for protecting one racket and small accessories.",
     "features": [
       "SKU 80571",
@@ -708,12 +708,12 @@ const seedProducts = [
       "Hard shell",
       "Zip closure"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-bcover-hard-black-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA B.Cover Hard Case Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-alu-double-case",
@@ -725,7 +725,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-alu-double-case-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BALU%2BDouble%2BBat%2BCase%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Aluminium-style double racket case with shaped foam for two rackets and balls.",
     "features": [
       "SKU 80555",
@@ -734,12 +734,12 @@ const seedProducts = [
       "Aluminium design",
       "Foam inlay"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-alu-double-case-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA ALU Double Bat Case table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+ALU+Double+Bat+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+ALU+Double+Bat+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-alu-laser-case",
@@ -751,7 +751,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-alu-laser-case-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BBat%2BCase%2BALU%2BLaser%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Premium protective bat case with a clean black aluminium look.",
     "features": [
       "SKU 80544",
@@ -760,12 +760,12 @@ const seedProducts = [
       "Premium storage",
       "Travel ready"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-alu-laser-case-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Bat Case ALU Laser Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Bat+Case+ALU+Laser+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Bat+Case+ALU+Laser+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-racket-case-aluminum",
@@ -777,7 +777,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Case",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-racket-case-aluminum-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BRacket%2BCase%2BAluminum%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Strong racket case for carrying match equipment safely.",
     "features": [
       "SKU 80542",
@@ -786,12 +786,12 @@ const seedProducts = [
       "Protective",
       "Match-day gear"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-racket-case-aluminum-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Racket Case Aluminum table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Racket+Case+Aluminum+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Racket+Case+Aluminum+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-x-glue",
@@ -803,7 +803,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Glue",
     "color": "#d7ff3f",
-    "image": "assets/catalog/joola-cat-x-glue.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/xglue_01.png%3Fv%3D1712310458%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Water-based table tennis glue for rubber assembly and racket maintenance.",
     "features": [
       "SKU 82037",
@@ -812,11 +812,11 @@ const seedProducts = [
       "Rubber assembly",
       "Accessory"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-x-glue.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/xglue_01.png?v=1712310458&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/xglue_01.png?v=1712310458&width=450"
   },
   {
     "id": "joola-cat-glue-lex",
@@ -828,7 +828,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Glue",
     "color": "#d7ff3f",
-    "image": "assets/catalog/joola-cat-glue-lex.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/gluelex_01-1.png%3Fv%3D1712310771%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Glue accessory for rubber fitting and equipment setup.",
     "features": [
       "SKU 82037",
@@ -837,11 +837,11 @@ const seedProducts = [
       "Green Power",
       "Assembly"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-glue-lex.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/gluelex_01-1.png?v=1712310771&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/gluelex_01-1.png?v=1712310771&width=450"
   },
   {
     "id": "joola-cat-edge-tape-black",
@@ -853,7 +853,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Edge tape",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-edge-tape-black-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BEdge%2BTape%2B20%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Black edge tape to protect the side of the blade and rubber sheets.",
     "features": [
       "SKU 83125",
@@ -862,12 +862,12 @@ const seedProducts = [
       "20 mm",
       "Racket protection"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-edge-tape-black-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Edge Tape 20 Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-edge-tape-blue",
@@ -879,7 +879,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Edge tape",
     "color": "#263dff",
-    "image": "assets/catalog/joola-cat-edge-tape-blue-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BEdge%2BTape%2B20%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Blue edge tape for a clean protective finish on custom rackets.",
     "features": [
       "SKU 83122",
@@ -888,12 +888,12 @@ const seedProducts = [
       "20 mm",
       "Racket protection"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-edge-tape-blue-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Edge Tape 20 Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-turbo-cleaner",
@@ -905,7 +905,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Cleaner",
     "color": "#d7ff3f",
-    "image": "assets/catalog/joola-cat-turbo-cleaner-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BTurbo%2BCleaner%2B250ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Rubber cleaner for maintaining surface grip and extending rubber life.",
     "features": [
       "SKU 80231",
@@ -914,12 +914,12 @@ const seedProducts = [
       "Rubber care",
       "Accessory"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-turbo-cleaner-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Turbo Cleaner 250ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Turbo+Cleaner+250ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Turbo+Cleaner+250ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-backpack-vision-blue",
@@ -931,7 +931,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Bag",
     "color": "#263dff",
-    "image": "assets/catalog/joola-cat-backpack-vision-blue.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/joola-vision-ii-backpack-blue.png%3Fv%3D1746626745%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Compact backpack for carrying racket, shoes, clothing and match-day gear.",
     "features": [
       "SKU 80125",
@@ -940,11 +940,11 @@ const seedProducts = [
       "Backpack",
       "Training bag"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-blue.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-blue.png?v=1746626745&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-blue.png?v=1746626745&width=450"
   },
   {
     "id": "joola-cat-backpack-vision-black",
@@ -956,7 +956,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Bag",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-backpack-vision-black.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png%3Fv%3D1746626745%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Black equipment backpack for table tennis training and tournaments.",
     "features": [
       "SKU 83112",
@@ -965,11 +965,11 @@ const seedProducts = [
       "Backpack",
       "Gear storage"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-black.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png?v=1746626745&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png?v=1746626745&width=450"
   },
   {
     "id": "joola-cat-backpack-vision-teal",
@@ -981,7 +981,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Bag",
     "color": "#247a75",
-    "image": "assets/catalog/joola-cat-backpack-vision-teal.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/joola-vision-ii-backpack-teal.png%3Fv%3D1746626745%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Teal equipment backpack for players who need compact storage.",
     "features": [
       "SKU 83114",
@@ -990,11 +990,11 @@ const seedProducts = [
       "Backpack",
       "Gear storage"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-backpack-vision-teal.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-teal.png?v=1746626745&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-teal.png?v=1746626745&width=450"
   },
   {
     "id": "joola-cat-vyzaryz-trinity",
@@ -1006,7 +1006,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-vyzaryz-trinity.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png%3Fv%3D1777490389%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Premium Vyzaryz blade for dynamic offensive play with precision and feeling.",
     "features": [
       "SKU 65041",
@@ -1015,11 +1015,11 @@ const seedProducts = [
       "Premium blade",
       "Offensive"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-trinity.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png?v=1777490389&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png?v=1777490389&width=450"
   },
   {
     "id": "joola-cat-vyzaryz-freeze-hrd",
@@ -1031,7 +1031,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-vyzaryz-freeze-hrd.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png%3Fv%3D1777490281%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "High-end Freeze HRD blade designed for precise offensive play.",
     "features": [
       "SKU 65040",
@@ -1040,11 +1040,11 @@ const seedProducts = [
       "ARY-c style",
       "Premium"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze-hrd.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450"
   },
   {
     "id": "joola-cat-vyzaryz-freeze",
@@ -1056,7 +1056,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Premium",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-vyzaryz-freeze.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png%3Fv%3D1777490281%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Premium Freeze blade for controlled speed and crisp attacking strokes.",
     "features": [
       "SKU 65000",
@@ -1065,11 +1065,11 @@ const seedProducts = [
       "Premium blade",
       "Control + speed"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-vyzaryz-freeze.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450"
   },
   {
     "id": "joola-cat-tezzo-warrior",
@@ -1081,7 +1081,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-tezzo-warrior.svg",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png%3Fv%3D1712313926%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Performance blade for controlled attack and confident rally building.",
     "features": [
       "SKU 69127",
@@ -1090,11 +1090,11 @@ const seedProducts = [
       "Performance",
       "Attacking"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tezzo-warrior.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png?v=1712313926&width=450"
+    "originalImage": "https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png?v=1712313926&width=450"
   },
   {
     "id": "joola-cat-j-carbon",
@@ -1106,7 +1106,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Performance",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-j-carbon-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BJ%2BCarbon%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Carbon-style blade for speed, stability and sharper ball response.",
     "features": [
       "SKU 69125",
@@ -1115,12 +1115,12 @@ const seedProducts = [
       "Carbon feel",
       "Attack"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-j-carbon-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA J Carbon FL Blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+J+Carbon+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+J+Carbon+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-challenger-all",
@@ -1132,7 +1132,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-challenger-all.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/0F3803FA-5DC2-4C2A-B815-8AFF726F9558.jpg%3Fv%3D1767938929%26width%3D1500&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "All-round blade made for control, blocks and early player development.",
     "features": [
       "SKU 61550",
@@ -1141,12 +1141,12 @@ const seedProducts = [
       "5-ply",
       "All-round"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-challenger-all.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-karakasevic-feeling-fl-copy-1",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.in/cdn/shop/files/0F3803FA-5DC2-4C2A-B815-8AFF726F9558.jpg?v=1767938929&width=1500"
+    "originalImage": "https://joola.in/cdn/shop/files/0F3803FA-5DC2-4C2A-B815-8AFF726F9558.jpg?v=1767938929&width=1500"
   },
   {
     "id": "joola-cat-challenger-off",
@@ -1158,7 +1158,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-challenger-off.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/1DAAB36B-A865-4310-93B4-B484AB799515.jpg%3Fv%3D1767939107%26width%3D1500&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Progressive offensive blade with limba outer ply and balanced control.",
     "features": [
       "SKU 61555",
@@ -1167,12 +1167,12 @@ const seedProducts = [
       "5-ply",
       "Offensive"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-challenger-off.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-blade-rossi-emotion-fl-copy",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.in/cdn/shop/files/1DAAB36B-A865-4310-93B4-B484AB799515.jpg?v=1767939107&width=1500"
+    "originalImage": "https://joola.in/cdn/shop/files/1DAAB36B-A865-4310-93B4-B484AB799515.jpg?v=1767939107&width=1500"
   },
   {
     "id": "joola-cat-rossi-jr",
@@ -1184,7 +1184,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Progressive",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-rossi-jr-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BRossi%2BJR%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Junior-friendly blade for control, easy handling and technical development.",
     "features": [
       "SKU 67115",
@@ -1193,12 +1193,12 @@ const seedProducts = [
       "Junior",
       "Control"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-rossi-jr-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Rossi JR FL Blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Rossi+JR+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Rossi+JR+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-hugo-aw7",
@@ -1210,7 +1210,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-hugo-aw7-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BAW-7%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Hugo Calderano AW-7 blade for attacking play with wood feel and stability.",
     "features": [
       "SKU 601270",
@@ -1219,12 +1219,12 @@ const seedProducts = [
       "AW-7",
       "Signature range"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-aw7-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Hugo Calderano AW-7 FL Blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+AW-7+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+AW-7+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-hugo-klc",
@@ -1236,7 +1236,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#d9a466",
-    "image": "assets/catalog/joola-cat-hugo-klc-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BKL-c%2BInner%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Signature inner KL-c blade focused on power, spin and controlled offensive play.",
     "features": [
       "SKU 601271",
@@ -1245,12 +1245,12 @@ const seedProducts = [
       "KL-c Inner",
       "Signature range"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-klc-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Hugo Calderano KL-c Inner FL Blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+KL-c+Inner+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+KL-c+Inner+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-air-fibre-control",
@@ -1262,7 +1262,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/product-fallbacks/joola-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BAir%2BFibre%2BControl%2BRacket%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Ready-to-play racket focused on control for casual and developing players.",
     "features": [
       "SKU 54190",
@@ -1271,12 +1271,12 @@ const seedProducts = [
       "Control",
       "Recreational"
     ],
-    "fallbackImage": "assets/product-fallbacks/joola-rackets.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Air Fibre Control Racket table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Air+Fibre+Control+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Air+Fibre+Control+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-rosskopf-attack",
@@ -1288,7 +1288,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/product-fallbacks/joola-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://resources.fitshop.com/bilder/joola/schlaeger/rossi/Joola-53133-rossi-attack-1_1600.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Ready-made racket for attacking basics and fast practice rallies.",
     "features": [
       "SKU 53133",
@@ -1297,12 +1297,12 @@ const seedProducts = [
       "Attack",
       "Recreational"
     ],
-    "fallbackImage": "assets/product-fallbacks/joola-rackets.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Rosskopf Attack Racket table tennis product official image",
-    "remoteImage": "https://resources.fitshop.com/bilder/joola/schlaeger/rossi/Joola-53133-rossi-attack-1_1600.jpg"
+    "originalImage": "https://resources.fitshop.com/bilder/joola/schlaeger/rossi/Joola-53133-rossi-attack-1_1600.jpg"
   },
   {
     "id": "joola-cat-match-pro",
@@ -1314,7 +1314,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-match-pro.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/2_ad2cb68e-4b39-483e-92f3-973f77cf0453.webp%3Fv%3D1780038803%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Match Pro bat for controlled recreational play and club warmups.",
     "features": [
       "SKU 53022",
@@ -1323,12 +1323,12 @@ const seedProducts = [
       "Match Pro",
       "All-round"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-match-pro.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/tt-bat-match-pro",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.in/cdn/shop/files/2_ad2cb68e-4b39-483e-92f3-973f77cf0453.webp?v=1780038803&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/2_ad2cb68e-4b39-483e-92f3-973f77cf0453.webp?v=1780038803&width=1200"
   },
   {
     "id": "joola-cat-tt-bat-match",
@@ -1340,7 +1340,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-tt-bat-match-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BTT-BAT%2BMatch%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Affordable all-round racket for beginners and everyday home play.",
     "features": [
       "SKU 53020",
@@ -1349,12 +1349,12 @@ const seedProducts = [
       "All-round",
       "Beginner"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-tt-bat-match-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA TT-BAT Match table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+TT-BAT+Match+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+TT-BAT+Match+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-team-junior",
@@ -1366,7 +1366,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-team-junior.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/52004_JOOLA_Team-Junior_01_web_png.webp%3Fv%3D1767786909%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Junior racket designed for younger players learning table tennis fundamentals.",
     "features": [
       "SKU 52004",
@@ -1375,12 +1375,12 @@ const seedProducts = [
       "Junior",
       "Vizon rubbers"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-team-junior.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-match-copy",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.in/cdn/shop/files/52004_JOOLA_Team-Junior_01_web_png.webp?v=1767786909&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/52004_JOOLA_Team-Junior_01_web_png.webp?v=1767786909&width=1200"
   },
   {
     "id": "joola-cat-team-master",
@@ -1392,7 +1392,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Recreational",
     "color": "#d8312b",
-    "image": "assets/catalog/joola-cat-team-master.svg",
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/52001_JOOLA_TeamMaster_01_web_312275bc-2fbc-458b-8abc-326bca22ca0f_jpg.webp%3Fv%3D1767787170%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "All-round ready-made racket for advanced recreational players.",
     "features": [
       "SKU 52001",
@@ -1401,12 +1401,12 @@ const seedProducts = [
       "Team Master",
       "All-round"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-team-master.svg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
     "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-joola-team-master",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "remoteImage": "https://joola.in/cdn/shop/files/52001_JOOLA_TeamMaster_01_web_312275bc-2fbc-458b-8abc-326bca22ca0f_jpg.webp?v=1767787170&width=1200"
+    "originalImage": "https://joola.in/cdn/shop/files/52001_JOOLA_TeamMaster_01_web_312275bc-2fbc-458b-8abc-326bca22ca0f_jpg.webp?v=1767787170&width=1200"
   },
   {
     "id": "joola-cat-hugo-carbon-speed",
@@ -1418,7 +1418,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#111311",
-    "image": "assets/product-fallbacks/joola-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BCarbon%2BSpeed%2BRacket%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Hugo Calderano carbon-style racket for fast attacking strokes and match confidence.",
     "features": [
       "SKU 601276",
@@ -1427,12 +1427,12 @@ const seedProducts = [
       "Carbon speed",
       "Signature"
     ],
-    "fallbackImage": "assets/product-fallbacks/joola-rackets.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Hugo Calderano Carbon Speed Racket table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Carbon+Speed+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Carbon+Speed+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-hugo-team-set",
@@ -1444,7 +1444,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Hugo",
     "color": "#111311",
-    "image": "assets/catalog/joola-cat-hugo-team-set-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BTeam%2BTable%2BTennis%2BSet%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Hugo Calderano team set for serious practice and match-ready sessions.",
     "features": [
       "SKU 601277",
@@ -1453,12 +1453,12 @@ const seedProducts = [
       "Signature",
       "Practice-ready"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-hugo-team-set-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA Hugo Calderano Team Table Tennis Set table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Team+Table+Tennis+Set+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Team+Table+Tennis+Set+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "joola-cat-world-cup-table",
@@ -1470,7 +1470,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "Table",
     "color": "#263d46",
-    "image": "assets/catalog/joola-cat-world-cup-table-fallback.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BWorld%2BCup%2B25-S%2BITTF%2BBL%2BTable%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Competition-style table for clubs, academies and serious training spaces.",
     "features": [
       "SKU 11291",
@@ -1479,12 +1479,12 @@ const seedProducts = [
       "ITTF-style",
       "Club table"
     ],
-    "fallbackImage": "assets/catalog/joola-cat-world-cup-table-fallback.svg",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "searchImageQuery": "JOOLA JOOLA World Cup 25-S ITTF BL Table table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+World+Cup+25-S+ITTF+BL+Table+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+World+Cup+25-S+ITTF+BL+Table+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "seed-tibhar-1",
@@ -1505,10 +1505,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "image": "assets/catalog/seed-tibhar-1-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://tibhar.online/cdn/shop/files/EvolutionMXP_40ee0e7b-7b71-4175-a4ac-5b661ee05863_medium.jpg%3Fv%3D1696214024&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "hasActualProductImage": true,
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "officialProductUrl": "https://tibhar.online/products/evolution-mx-p",
     "availableColors": [
       "Red",
@@ -1516,8 +1516,8 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "fallbackImage": "assets/catalog/seed-tibhar-1-guaranteed.svg",
-    "remoteImage": "https://tibhar.online/cdn/shop/files/EvolutionMXP_40ee0e7b-7b71-4175-a4ac-5b661ee05863_medium.jpg?v=1696214024"
+    "originalImage": "https://tibhar.online/cdn/shop/files/EvolutionMXP_40ee0e7b-7b71-4175-a4ac-5b661ee05863_medium.jpg?v=1696214024",
+    "fallbackImage": "assets/banners/tibhar-poster.webp"
   },
   {
     "id": "seed-tibhar-2",
@@ -1536,13 +1536,13 @@ const seedProducts = [
       "Control",
       "Balanced speed"
     ],
-    "image": "assets/catalog/seed-tibhar-2.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DTibhar%2BTibhar%2BStratus%2BPower%2BWood%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "hasActualProductImage": true,
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
-    "fallbackImage": "assets/catalog/seed-tibhar-2.svg",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "fallbackImage": "assets/banners/tibhar-poster.webp",
     "searchImageQuery": "Tibhar Tibhar Stratus Power Wood Blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Tibhar+Tibhar+Stratus+Power+Wood+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Tibhar+Tibhar+Stratus+Power+Wood+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "seed-tibhar-3",
@@ -1561,13 +1561,13 @@ const seedProducts = [
       "Compact",
       "Zipper closure"
     ],
-    "image": "assets/catalog/seed-tibhar-3.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DTibhar%2BTibhar%2BGame%2BRacket%2BCase%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "hasActualProductImage": true,
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
-    "fallbackImage": "assets/catalog/seed-tibhar-3.svg",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "fallbackImage": "assets/banners/tibhar-poster.webp",
     "searchImageQuery": "Tibhar Tibhar Game Racket Case table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Tibhar+Tibhar+Game+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Tibhar+Tibhar+Game+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-long-5-national-w968",
@@ -1579,7 +1579,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-long-5-national-w968-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-1.jpg%3Fv%3D1776288494%26width%3D1100&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1587,8 +1587,8 @@ const seedProducts = [
       "MRP: ₹81,250",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "gallery": [
       "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-1.jpg?v=1776288494&width=1100",
@@ -1597,8 +1597,8 @@ const seedProducts = [
       "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-4.jpg?v=1776288494&width=1100"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-w968-hurricane-long-5-national",
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-5-national-w968-guaranteed.svg",
-    "remoteImage": "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-1.jpg?v=1776288494&width=1100"
+    "originalImage": "https://www.paddlepalace.com/cdn/shop/files/SCHL5N-dhs-hurricane-long-Natl-1.jpg?v=1776288494&width=1100",
+    "fallbackImage": "assets/banners/dhs-poster.webp"
   },
   {
     "id": "dhs-dhs-hurricane-sun-national-s968",
@@ -1610,7 +1610,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-sun-national-s968-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://dhssportsusa.com/cdn/shop/files/1_458178cf-966a-4e82-b512-45a808aef972.png%3Fv%3D1763138083%26width%3D416&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1618,12 +1618,12 @@ const seedProducts = [
       "MRP: ₹81,250",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "officialProductUrl": "https://dhssportsusa.com/products/dhs-hurricane-sun-s968-table-tennis-blade",
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-sun-national-s968-guaranteed.svg",
-    "remoteImage": "https://dhssportsusa.com/cdn/shop/files/1_458178cf-966a-4e82-b512-45a808aef972.png?v=1763138083&width=416"
+    "originalImage": "https://dhssportsusa.com/cdn/shop/files/1_458178cf-966a-4e82-b512-45a808aef972.png?v=1763138083&width=416",
+    "fallbackImage": "assets/banners/dhs-poster.webp"
   },
   {
     "id": "dhs-dhs-hurricane-king-national-q968",
@@ -1635,7 +1635,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-king-national-q968-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://dhssportsusa.com/cdn/shop/files/1_2b7291c7-9c40-4850-beca-7aad7274a3e1.png%3Fv%3D1763138001%26width%3D416&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1643,12 +1643,12 @@ const seedProducts = [
       "MRP: ₹81,250",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "officialProductUrl": "https://dhssportsusa.com/products/dhs-hurricane-king-q968-table-tennis-blade",
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-king-national-q968-guaranteed.svg",
-    "remoteImage": "https://dhssportsusa.com/cdn/shop/files/1_2b7291c7-9c40-4850-beca-7aad7274a3e1.png?v=1763138001&width=416"
+    "originalImage": "https://dhssportsusa.com/cdn/shop/files/1_2b7291c7-9c40-4850-beca-7aad7274a3e1.png?v=1763138001&width=416",
+    "fallbackImage": "assets/banners/dhs-poster.webp"
   },
   {
     "id": "dhs-dhs-hurricane-long-5-grand-slam-national-w968",
@@ -1660,7 +1660,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-long-5-grand-slam-national-w968-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1668,12 +1668,12 @@ const seedProducts = [
       "MRP: ₹98,750",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "officialProductUrl": "https://dhs-korea.com/product/%ED%97%88%EB%A6%AC%EC%BC%80%EC%9D%B8-%EB%A1%B15-w968-%EA%B3%A8%EB%93%A0%EC%8A%AC%EB%9E%A8/51/",
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-5-grand-slam-national-w968-guaranteed.svg",
-    "remoteImage": "https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png"
+    "originalImage": "https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png",
+    "fallbackImage": "assets/banners/dhs-poster.webp"
   },
   {
     "id": "dhs-dhs-hurricane-long-5-gold-grand-slam",
@@ -1685,7 +1685,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-long-5-gold-grand-slam-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1693,12 +1693,12 @@ const seedProducts = [
       "MRP: ₹47,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "officialProductUrl": "https://dhs-korea.com/product/%ED%97%88%EB%A6%AC%EC%BC%80%EC%9D%B8-%EB%A1%B15-w968-%EA%B3%A8%EB%93%A0%EC%8A%AC%EB%9E%A8/51/",
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-5-gold-grand-slam-guaranteed.svg",
-    "remoteImage": "https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png"
+    "originalImage": "https://ecimg.cafe24img.com/pg976b14466607063/jhr8633/web/product/big/20260305/f2a0b99f246aade07eb13637deb0c742.png",
+    "fallbackImage": "assets/banners/dhs-poster.webp"
   },
   {
     "id": "dhs-dhs-hurricane-long-long-5",
@@ -1710,7 +1710,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-long-long-5-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://storeassets.im-cdn.com/temp/bulk_operations/sportsninja/1691656539/543cfaaf-b0de-11e3-9303-0017a48d9246_8a921c96-f85e-11e3-bbe9-0017a48d9246-crop-c0-5__0-5-750x750-70_0x0_webp.jpeg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1718,12 +1718,12 @@ const seedProducts = [
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-long-5",
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-long-5-guaranteed.svg",
-    "remoteImage": "https://storeassets.im-cdn.com/temp/bulk_operations/sportsninja/1691656539/543cfaaf-b0de-11e3-9303-0017a48d9246_8a921c96-f85e-11e3-bbe9-0017a48d9246-crop-c0-5__0-5-750x750-70_0x0_webp.jpeg"
+    "originalImage": "https://storeassets.im-cdn.com/temp/bulk_operations/sportsninja/1691656539/543cfaaf-b0de-11e3-9303-0017a48d9246_8a921c96-f85e-11e3-bbe9-0017a48d9246-crop-c0-5__0-5-750x750-70_0x0_webp.jpeg",
+    "fallbackImage": "assets/banners/dhs-poster.webp"
   },
   {
     "id": "dhs-dhs-hurricane-long-5x",
@@ -1735,7 +1735,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-long-5x-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2BLong%2B5x%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1743,12 +1743,12 @@ const seedProducts = [
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-5x-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane Long 5x table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+Long+5x+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+Long+5x+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-long-3",
@@ -1760,7 +1760,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-long-3-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://dhstabletennis.ca/cdn/shop/files/DHS_Blade_Hurricane_Long_3_FL_tabletennis.jpg%3Fv%3D1730512735%26width%3D1946&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Hurricane Long 3 blade listed with MRP pricing. Image corrected to the DHS Hurricane Long 3 blade photo.",
     "features": [
       "Brand: DHS",
@@ -1768,12 +1768,12 @@ const seedProducts = [
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-long-3-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "officialProductUrl": "https://dhstabletennis.ca/products/dhs-hurricane-long-3-ma-long-fl-blade",
-    "remoteImage": "https://dhstabletennis.ca/cdn/shop/files/DHS_Blade_Hurricane_Long_3_FL_tabletennis.jpg?v=1730512735&width=1946"
+    "originalImage": "https://dhstabletennis.ca/cdn/shop/files/DHS_Blade_Hurricane_Long_3_FL_tabletennis.jpg?v=1730512735&width=1946"
   },
   {
     "id": "dhs-dhs-hurricane-sun",
@@ -1785,7 +1785,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-sun-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2BSun%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1793,12 +1793,12 @@ const seedProducts = [
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-sun-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane Sun table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+Sun+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+Sun+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-king",
@@ -1810,7 +1810,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-king-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2BKing%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1818,12 +1818,12 @@ const seedProducts = [
       "MRP: ₹35,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-king-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane King table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+King+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+King+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-power-g7",
@@ -1835,7 +1835,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-power-g7-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BPower%2BG7%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1843,12 +1843,12 @@ const seedProducts = [
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-power-g7-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Power G7 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-power-g7x",
@@ -1860,7 +1860,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-power-g7x-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BPower%2BG7X%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1868,12 +1868,12 @@ const seedProducts = [
       "MRP: ₹8,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-power-g7x-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Power G7X table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G7X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G7X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-power-g8",
@@ -1885,7 +1885,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-power-g8-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BPower%2BG8%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1893,12 +1893,12 @@ const seedProducts = [
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-power-g8-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Power G8 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-power-g9",
@@ -1910,7 +1910,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-power-g9-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BPower%2BG9%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1918,12 +1918,12 @@ const seedProducts = [
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-power-g9-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Power G9 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-power-g12",
@@ -1935,7 +1935,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-power-g12-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BPower%2BG12%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1943,12 +1943,12 @@ const seedProducts = [
       "MRP: ₹6,625",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-power-g12-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Power G12 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G12+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G12+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-wind-series-w3010-w1030",
@@ -1960,7 +1960,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-wind-series-w3010-w1030-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BWind%2BSeries%2BW3010%252C%2BW1030%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1968,12 +1968,12 @@ const seedProducts = [
       "MRP: ₹2,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-wind-series-w3010-w1030-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Wind Series W3010, W1030 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+W3010%2C+W1030+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+W3010%2C+W1030+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-wind-series-sr-a",
@@ -1985,7 +1985,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-wind-series-sr-a-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BWind%2BSeries%2BSR-A%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -1993,12 +1993,12 @@ const seedProducts = [
       "MRP: ₹1,875",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-wind-series-sr-a-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Wind Series SR-A table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+SR-A+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+SR-A+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-wind-series-cwc",
@@ -2010,7 +2010,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-wind-series-cwc-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BWind%2BSeries%2BCWC%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2018,12 +2018,12 @@ const seedProducts = [
       "MRP: ₹4,875",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-wind-series-cwc-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Wind Series CWC table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+CWC+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Wind+Series+CWC+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-fang-bo-b2x",
@@ -2035,7 +2035,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-fang-bo-b2x-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BFang%2BBo%2BB2X%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2043,12 +2043,12 @@ const seedProducts = [
       "MRP: ₹11,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-fang-bo-b2x-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Fang Bo B2X table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Fang+Bo+B2X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Fang+Bo+B2X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-08x-st-defense",
@@ -2060,7 +2060,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-08x-st-defense-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2B08X%2BST%2BDefense%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2068,12 +2068,12 @@ const seedProducts = [
       "MRP: ₹11,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-08x-st-defense-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS 08X ST Defense table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+08X+ST+Defense+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+08X+ST+Defense+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-tg-506x",
@@ -2085,7 +2085,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-tg-506x-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BTG-506X%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2093,12 +2093,12 @@ const seedProducts = [
       "MRP: ₹14,375",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-tg-506x-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS TG-506X table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+TG-506X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+TG-506X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-301",
@@ -2110,7 +2110,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-301-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B301%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2119,12 +2119,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-301-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 301 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+301+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+301+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-301x",
@@ -2136,7 +2136,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-301x-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B301X%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2145,12 +2145,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-301x-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 301X table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+301X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+301X+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-power-g3z",
@@ -2162,7 +2162,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-power-g3z-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BPower%2BG3z%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2170,12 +2170,12 @@ const seedProducts = [
       "MRP: ₹8,750",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-power-g3z-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Power G3z table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G3z+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Power+G3z+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-6512-beginner-s-rubber",
@@ -2187,7 +2187,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-6512-beginner-s-rubber-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2B6512%2BBeginner%2527s%2BRubber%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2197,10 +2197,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-6512-beginner-s-rubber-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS 6512 Beginner's Rubber table tennis product official image",
     "availableColors": [
       "Red",
@@ -2208,7 +2208,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+6512+Beginner%27s+Rubber+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+6512+Beginner%27s+Rubber+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-sharping-ii",
@@ -2220,7 +2220,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-sharping-ii-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BSharping%2BII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2230,10 +2230,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-sharping-ii-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Sharping II table tennis product official image",
     "availableColors": [
       "Red",
@@ -2241,7 +2241,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Sharping+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Sharping+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-874-special-short-pips",
@@ -2253,7 +2253,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-874-special-short-pips-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2B874%2B-%2BSpecial%2BShort%2BPips%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2263,10 +2263,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-874-special-short-pips-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS 874 - Special Short Pips table tennis product official image",
     "availableColors": [
       "Red",
@@ -2274,7 +2274,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+874+-+Special+Short+Pips+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+874+-+Special+Short+Pips+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-dragonow",
@@ -2286,7 +2286,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-dragonow-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BDragonow%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2296,10 +2296,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-dragonow-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Dragonow table tennis product official image",
     "availableColors": [
       "Red",
@@ -2307,7 +2307,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Dragonow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Dragonow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-652",
@@ -2319,7 +2319,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-652-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2B652%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2329,10 +2329,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-652-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS 652 table tennis product official image",
     "availableColors": [
       "Red",
@@ -2340,7 +2340,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+652+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+652+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-cloud-and-fog-iii",
@@ -2352,7 +2352,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-cloud-and-fog-iii-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BCloud%2B%2526%2BFog%2BIII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2362,10 +2362,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-cloud-and-fog-iii-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Cloud & Fog III table tennis product official image",
     "availableColors": [
       "Red",
@@ -2373,7 +2373,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Cloud+%26+Fog+III+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Cloud+%26+Fog+III+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-tg-skyline-3-neo",
@@ -2385,7 +2385,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-tg-skyline-3-neo-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BTG%2BSkyline%2B3%2BNeo%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2395,10 +2395,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-tg-skyline-3-neo-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS TG Skyline 3 Neo table tennis product official image",
     "availableColors": [
       "Red",
@@ -2406,7 +2406,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+TG+Skyline+3+Neo+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+TG+Skyline+3+Neo+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-ma-long-player-version",
@@ -2418,7 +2418,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-ma-long-player-version-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://dhssportsusa.com/cdn/shop/files/G-ML.png%3Fv%3D1751409193%26width%3D533&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Ma Long Player Edition Hurricane 3 rubber listed with MRP pricing. Image corrected to the Ma Long Player Edition rubber packaging.",
     "features": [
       "Brand: DHS",
@@ -2428,10 +2428,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-ma-long-player-version-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "gallery": [
       "https://dhssportsusa.com/cdn/shop/files/G-ML.png?v=1751409193&width=533",
       "https://dhssportsusa.com/cdn/shop/files/B_be0d39b5-3fa1-4ca2-a65a-8a39dae25459.png?v=1773094149&width=533"
@@ -2443,7 +2443,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://dhssportsusa.com/cdn/shop/files/G-ML.png?v=1751409193&width=533"
+    "originalImage": "https://dhssportsusa.com/cdn/shop/files/G-ML.png?v=1751409193&width=533"
   },
   {
     "id": "dhs-dhs-sun-yingsha-player-version",
@@ -2455,7 +2455,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-sun-yingsha-player-version-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://dhssportsusa.com/cdn/shop/files/1_c9b0d57d-e579-4ba5-8cb8-51d0419c6acc.png%3Fv%3D1762539015%26width%3D416&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Sun Yingsha Player Edition table tennis rubber listed with MRP pricing. Image corrected to the Sun Yingsha Player Edition rubber packaging.",
     "features": [
       "Brand: DHS",
@@ -2465,10 +2465,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-sun-yingsha-player-version-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "gallery": [
       "https://dhssportsusa.com/cdn/shop/files/1_c9b0d57d-e579-4ba5-8cb8-51d0419c6acc.png?v=1762539015&width=416",
       "https://dhssportsusa.com/cdn/shop/files/IMG_7524.png?v=1773094185&width=416",
@@ -2481,7 +2481,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://dhssportsusa.com/cdn/shop/files/1_c9b0d57d-e579-4ba5-8cb8-51d0419c6acc.png?v=1762539015&width=416"
+    "originalImage": "https://dhssportsusa.com/cdn/shop/files/1_c9b0d57d-e579-4ba5-8cb8-51d0419c6acc.png?v=1762539015&width=416"
   },
   {
     "id": "dhs-dhs-wang-chuqin-player-version",
@@ -2493,7 +2493,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-wang-chuqin-player-version-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://dhssportsusa.com/cdn/shop/files/1_27583704-15d9-4e27-a805-0399d966f22a.png%3Fv%3D1762543767%26width%3D416&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Wang Chuqin Player Edition Hurricane 3 rubber listed with MRP pricing. Image corrected to the Wang Chuqin Player Edition rubber packaging.",
     "features": [
       "Brand: DHS",
@@ -2503,10 +2503,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-wang-chuqin-player-version-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "officialProductUrl": "https://dhssportsusa.com/products/dhs-wang-cq-national-edition-table-tennis-rubber",
     "availableColors": [
       "Red",
@@ -2514,7 +2514,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://dhssportsusa.com/cdn/shop/files/1_27583704-15d9-4e27-a805-0399d966f22a.png?v=1762543767&width=416"
+    "originalImage": "https://dhssportsusa.com/cdn/shop/files/1_27583704-15d9-4e27-a805-0399d966f22a.png?v=1762543767&width=416"
   },
   {
     "id": "dhs-dhs-hurricane-8",
@@ -2526,7 +2526,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-8-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B8%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2536,10 +2536,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-8-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 8 table tennis product official image",
     "availableColors": [
       "Red",
@@ -2547,7 +2547,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-8-80",
@@ -2559,7 +2559,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-8-80-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B8-80%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2569,10 +2569,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-8-80-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 8-80 table tennis product official image",
     "availableColors": [
       "Red",
@@ -2580,7 +2580,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+8-80+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+8-80+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-50",
@@ -2592,7 +2592,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-50-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3-50%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2603,10 +2603,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-50",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-50-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3-50 table tennis product official image",
     "availableColors": [
       "Red",
@@ -2614,7 +2614,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3-50+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3-50+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3",
@@ -2626,7 +2626,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2637,10 +2637,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 table tennis product official image",
     "availableColors": [
       "Red",
@@ -2648,7 +2648,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-37-38-39-40",
@@ -2660,7 +2660,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-neo-37-38-39-40-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2BNeo%2B%252837%252C%2B38%252C%2B39%252C%2B40%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2671,10 +2671,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-37-38-39-40-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 Neo (37, 38, 39, 40) table tennis product official image",
     "availableColors": [
       "Red",
@@ -2682,7 +2682,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+%2837%2C+38%2C+39%2C+40%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+%2837%2C+38%2C+39%2C+40%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-provincial-blue-sponge",
@@ -2694,7 +2694,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-provincial-blue-sponge-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2BProvincial%2BBlue%2BSponge%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2705,10 +2705,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-provincial-blue-sponge-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 Provincial Blue Sponge table tennis product official image",
     "availableColors": [
       "Red",
@@ -2716,7 +2716,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Provincial+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Provincial+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-national-blue-sponge",
@@ -2728,7 +2728,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-national-blue-sponge-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2BNational%2BBlue%2BSponge%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2739,10 +2739,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-national-edition",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-national-blue-sponge-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 National Blue Sponge table tennis product official image",
     "availableColors": [
       "Red",
@@ -2750,7 +2750,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+National+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+National+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-provincial-orange-sponge",
@@ -2762,7 +2762,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-orange-sponge-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2BNeo%2BProvincial%2BOrange%2BSponge%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2773,10 +2773,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-provincial-39",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-orange-sponge-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Orange Sponge table tennis product official image",
     "availableColors": [
       "Red",
@@ -2784,7 +2784,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+Provincial+Orange+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+Provincial+Orange+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-provincial-blue-sponge",
@@ -2796,7 +2796,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-blue-sponge-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2BNeo%2BProvincial%2BBlue%2BSponge%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2807,10 +2807,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-provincial-38-blue-sponge",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-provincial-blue-sponge-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 Neo Provincial Blue Sponge table tennis product official image",
     "availableColors": [
       "Red",
@@ -2818,7 +2818,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+Provincial+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+Provincial+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-national-orange-sponge",
@@ -2830,7 +2830,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-neo-national-orange-sponge-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2BNeo%2BNational%2BOrange%2BSponge%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2841,10 +2841,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-national",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-national-orange-sponge-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 Neo National Orange Sponge table tennis product official image",
     "availableColors": [
       "Red",
@@ -2852,7 +2852,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+National+Orange+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+National+Orange+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-3-neo-national-blue-sponge",
@@ -2864,7 +2864,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-3-neo-national-blue-sponge-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B3%2BNeo%2BNational%2BBlue%2BSponge%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2875,10 +2875,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://dhs-tt.com/dhs_en/dhs-hurricane-3-neo-national-39-blue-sponge",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-3-neo-national-blue-sponge-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 3 Neo National Blue Sponge table tennis product official image",
     "availableColors": [
       "Red",
@@ -2886,7 +2886,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+National+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+3+Neo+National+Blue+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-pf4-50",
@@ -2898,7 +2898,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-pf4-50-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BPF4-50%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2908,10 +2908,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-pf4-50-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS PF4-50 table tennis product official image",
     "availableColors": [
       "Red",
@@ -2919,7 +2919,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+PF4-50+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+PF4-50+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-g888",
@@ -2931,7 +2931,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-g888-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BG888%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2941,10 +2941,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-g888-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS G888 table tennis product official image",
     "availableColors": [
       "Red",
@@ -2952,7 +2952,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+G888+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+G888+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-gold-arc-5-42-5-and-47-5",
@@ -2964,7 +2964,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-gold-arc-5-42-5-and-47-5-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BGold%2BArc%2B5%2B%252842.5%2B%2526%2B47.5%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -2974,10 +2974,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-5-42-5-and-47-5-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Gold Arc 5 (42.5 & 47.5) table tennis product official image",
     "availableColors": [
       "Red",
@@ -2985,7 +2985,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+5+%2842.5+%26+47.5%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+5+%2842.5+%26+47.5%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-gold-arc-8-47-5-and-50",
@@ -2997,7 +2997,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-gold-arc-8-47-5-and-50-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BGold%2BArc%2B8%2B%252847.5%2B%2526%2B50%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3007,10 +3007,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-8-47-5-and-50-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Gold Arc 8 (47.5 & 50) table tennis product official image",
     "availableColors": [
       "Red",
@@ -3018,7 +3018,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+8+%2847.5+%26+50%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+8+%2847.5+%26+50%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-gold-arc-9-2-1-38h",
@@ -3030,7 +3030,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-gold-arc-9-2-1-38h-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BGold%2BArc%2B9%2B%25282.1%2B38H%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3040,10 +3040,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-gold-arc-9-2-1-38h-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Gold Arc 9 (2.1 38H) table tennis product official image",
     "availableColors": [
       "Red",
@@ -3051,7 +3051,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+9+%282.1+38H%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Gold+Arc+9+%282.1+38H%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-hurricane-9-blue-violet-green-pink",
@@ -3063,7 +3063,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-hurricane-9-blue-violet-green-pink-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BHurricane%2B9%2B%2528Blue%252C%2BViolet%252C%2BGreen%252C%2BPink%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3073,10 +3073,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-hurricane-9-blue-violet-green-pink-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Hurricane 9 (Blue, Violet, Green, Pink) table tennis product official image",
     "availableColors": [
       "Red",
@@ -3084,7 +3084,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+9+%28Blue%2C+Violet%2C+Green%2C+Pink%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Hurricane+9+%28Blue%2C+Violet%2C+Green%2C+Pink%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-c7",
@@ -3096,7 +3096,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-c7-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BC7%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3106,10 +3106,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-c7-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS C7 table tennis product official image",
     "availableColors": [
       "Red",
@@ -3117,7 +3117,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+C7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+C7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-c8",
@@ -3129,7 +3129,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-c8-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BC8%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3139,10 +3139,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-c8-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS C8 table tennis product official image",
     "availableColors": [
       "Red",
@@ -3150,7 +3150,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+C8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+C8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-tin-arc-5",
@@ -3162,7 +3162,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-tin-arc-5-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BTin%2BArc%2B5%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3172,10 +3172,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-tin-arc-5-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Tin Arc 5 table tennis product official image",
     "availableColors": [
       "Red",
@@ -3183,7 +3183,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Tin+Arc+5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Tin+Arc+5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-d40-3-star-balls-pack-of-10",
@@ -3195,7 +3195,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-d40-3-star-balls-pack-of-10-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BD40%252B%2B3%2BStar%2BBalls%2B%2B%2B%2B%2B%2528Pack%2Bof%2B10%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3203,12 +3203,12 @@ const seedProducts = [
       "MRP: ₹1,250",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-d40-3-star-balls-pack-of-10-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS D40+ 3 Star Balls     (Pack of 10) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+3+Star+Balls+++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+3+Star+Balls+++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-rs40-3-star-balls-pack-of-10",
@@ -3220,7 +3220,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-rs40-3-star-balls-pack-of-10-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BRS40%252B%2B3%2BStar%2BBalls%2B%2B%2B%2B%2528Pack%2Bof%2B10%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3228,12 +3228,12 @@ const seedProducts = [
       "MRP: ₹1,950",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-rs40-3-star-balls-pack-of-10-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS RS40+ 3 Star Balls    (Pack of 10) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+RS40%2B+3+Star+Balls++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+RS40%2B+3+Star+Balls++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-d40-2-star-balls-pack-of-10",
@@ -3245,7 +3245,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-d40-2-star-balls-pack-of-10-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BD40%252B%2B2%2BStar%2BBalls%2B%2B%2B%2B%2B%2528Pack%2Bof%2B10%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3253,12 +3253,12 @@ const seedProducts = [
       "MRP: ₹1,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-d40-2-star-balls-pack-of-10-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS D40+ 2 Star Balls     (Pack of 10) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+2+Star+Balls+++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+2+Star+Balls+++++%28Pack+of+10%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-d40-1-star-balls-pack-of-120",
@@ -3270,7 +3270,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-d40-1-star-balls-pack-of-120-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BD40%252B%2B1%2BStar%2BBalls%2B%2B%2B%2B%2B%2528Pack%2Bof%2B120%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3278,12 +3278,12 @@ const seedProducts = [
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-d40-1-star-balls-pack-of-120-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS D40+ 1 Star Balls     (Pack of 120) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+1+Star+Balls+++++%28Pack+of+120%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+D40%2B+1+Star+Balls+++++%28Pack+of+120%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-dj40-wtt-balls-pack-of-6",
@@ -3295,7 +3295,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-dj40-wtt-balls-pack-of-6-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BDJ40%252B%2BWTT%2BBalls%2B%2B%2B%2B%2B%2B%2B%2528Pack%2Bof%2B6%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3303,12 +3303,12 @@ const seedProducts = [
       "MRP: ₹1,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-dj40-wtt-balls-pack-of-6-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS DJ40+ WTT Balls       (Pack of 6) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+DJ40%2B+WTT+Balls+++++++%28Pack+of+6%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+DJ40%2B+WTT+Balls+++++++%28Pack+of+6%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-rs40-wtt-balls-pack-of-6",
@@ -3320,7 +3320,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-rs40-wtt-balls-pack-of-6-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BRS40%252B%2BWTT%2BBalls%2B%2B%2B%2B%2B%2B%2B%2528Pack%2Bof%2B6%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3328,12 +3328,12 @@ const seedProducts = [
       "MRP: ₹2,100",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-rs40-wtt-balls-pack-of-6-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS RS40+ WTT Balls       (Pack of 6) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+RS40%2B+WTT+Balls+++++++%28Pack+of+6%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+RS40%2B+WTT+Balls+++++++%28Pack+of+6%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-h1002",
@@ -3345,7 +3345,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-h1002-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BH1002%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3353,12 +3353,12 @@ const seedProducts = [
       "MRP: ₹3,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-h1002-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS H1002 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+H1002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+H1002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-h3002",
@@ -3370,7 +3370,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-h3002-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BH3002%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3378,12 +3378,12 @@ const seedProducts = [
       "MRP: ₹4,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-h3002-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS H3002 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+H3002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+H3002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-h4002",
@@ -3395,7 +3395,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-h4002-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BH4002%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3403,12 +3403,12 @@ const seedProducts = [
       "MRP: ₹6,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-h4002-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS H4002 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+H4002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+H4002+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-rubber-roller",
@@ -3420,7 +3420,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-rubber-roller-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BRubber%2BRoller%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3428,12 +3428,12 @@ const seedProducts = [
       "MRP: ₹1,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-rubber-roller-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Rubber Roller table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Rubber+Roller+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Rubber+Roller+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-racket-case-rc520",
@@ -3445,7 +3445,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-racket-case-rc520-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BRacket%2BCase%2BRC520%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3453,12 +3453,12 @@ const seedProducts = [
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-racket-case-rc520-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Racket Case RC520 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Racket+Case+RC520+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Racket+Case+RC520+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-racket-case-rc530",
@@ -3470,7 +3470,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-racket-case-rc530-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BRacket%2BCase%2BRC530%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3478,12 +3478,12 @@ const seedProducts = [
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-racket-case-rc530-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Racket Case RC530 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Racket+Case+RC530+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Racket+Case+RC530+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-rubber-thickness-measuring-device",
@@ -3495,7 +3495,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-rubber-thickness-measuring-device-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BRubber%2BThickness%2BMeasuring%2BDevice%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3503,12 +3503,12 @@ const seedProducts = [
       "MRP: ₹50,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-rubber-thickness-measuring-device-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS Rubber Thickness Measuring Device table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Rubber+Thickness+Measuring+Device+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+Rubber+Thickness+Measuring+Device+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-ap-01-blade-protector-220ml",
@@ -3520,7 +3520,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-ap-01-blade-protector-220ml-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BAP-01%2BBlade%2BProtector%2B220ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3528,12 +3528,12 @@ const seedProducts = [
       "MRP: ₹3,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-ap-01-blade-protector-220ml-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS AP-01 Blade Protector 220ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+AP-01+Blade+Protector+220ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+AP-01+Blade+Protector+220ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-no-15-glue-50ml",
@@ -3545,7 +3545,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-no-15-glue-50ml-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BNo.%252315%2BGlue%2B-%2B50ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Glue product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3553,12 +3553,12 @@ const seedProducts = [
       "MRP: ₹1,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-no-15-glue-50ml-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS No.#15 Glue - 50ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+50ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+50ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-no-15-glue-98ml",
@@ -3570,7 +3570,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-no-15-glue-98ml-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BNo.%252315%2BGlue%2B-%2B98ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Glue product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3578,12 +3578,12 @@ const seedProducts = [
       "MRP: ₹3,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-no-15-glue-98ml-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS No.#15 Glue - 98ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+98ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+98ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-no-15-glue-500ml",
@@ -3595,7 +3595,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-no-15-glue-500ml-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BNo.%252315%2BGlue%2B-%2B500ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Glue product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3603,12 +3603,12 @@ const seedProducts = [
       "MRP: ₹6,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-no-15-glue-500ml-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS No.#15 Glue - 500ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+500ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+No.%2315+Glue+-+500ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-t1223-25mm-black-top",
@@ -3620,7 +3620,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-t1223-25mm-black-top-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BT1223%2B-%2B25mm%2BBlack%2BTop%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Table product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3628,12 +3628,12 @@ const seedProducts = [
       "MRP: ₹110,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-t1223-25mm-black-top-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS T1223 - 25mm Black Top table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+T1223+-+25mm+Black+Top+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+T1223+-+25mm+Black+Top+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dhs-dhs-t2023-18mm-black-top",
@@ -3645,7 +3645,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#d8312b",
-    "image": "assets/catalog/dhs-dhs-t2023-18mm-black-top-dhs-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDHS%2BDHS%2BT2023%2B-%2B18mm%2BBlack%2BTop%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "DHS Table product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: DHS",
@@ -3653,12 +3653,12 @@ const seedProducts = [
       "MRP: ₹55,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dhs-dhs-t2023-18mm-black-top-dhs-safe.svg",
+    "fallbackImage": "assets/banners/dhs-poster.webp",
     "searchImageQuery": "DHS DHS T2023 - 18mm Black Top table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+T2023+-+18mm+Black+Top+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=DHS+DHS+T2023+-+18mm+Black+Top+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-rdj-s1",
@@ -3670,7 +3670,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-rdj-s1-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BRDJ%2BS1%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3678,12 +3678,12 @@ const seedProducts = [
       "MRP: ₹1,530",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-rdj-s1-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly RDJ S1 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S1+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S1+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-rdj-s2",
@@ -3695,7 +3695,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-rdj-s2-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BRDJ%2BS2%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3703,12 +3703,12 @@ const seedProducts = [
       "MRP: ₹1,650",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-rdj-s2-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly RDJ S2 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S2+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S2+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-rdj-s3",
@@ -3720,7 +3720,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-rdj-s3-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BRDJ%2BS3%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3728,12 +3728,12 @@ const seedProducts = [
       "MRP: ₹1,740",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-rdj-s3-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly RDJ S3 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S3+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RDJ+S3+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-logo-racket-pink",
@@ -3745,7 +3745,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BLOGO%2BRACKET%2BPINK%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3753,12 +3753,12 @@ const seedProducts = [
       "MRP: ₹1,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET PINK table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+PINK+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+PINK+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-logo-racket-rose",
@@ -3770,7 +3770,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BLOGO%2BRACKET%2BROSE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3778,12 +3778,12 @@ const seedProducts = [
       "MRP: ₹1,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET ROSE table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+ROSE+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+ROSE+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-logo-racket-blue",
@@ -3795,7 +3795,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BLOGO%2BRACKET%2BBLUE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3803,12 +3803,12 @@ const seedProducts = [
       "MRP: ₹1,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY LOGO RACKET BLUE table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+BLUE+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+LOGO+RACKET+BLUE+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-outdoor-racket-rose",
@@ -3820,7 +3820,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BOUTDOOR%2BRACKET%2BROSE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3828,12 +3828,12 @@ const seedProducts = [
       "MRP: ₹3,720",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly OUTDOOR RACKET ROSE table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+ROSE+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+ROSE+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-outdoor-racket-black",
@@ -3845,7 +3845,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BOUTDOOR%2BRACKET%2BBLACK%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3853,12 +3853,12 @@ const seedProducts = [
       "MRP: ₹3,720",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-rackets.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly OUTDOOR RACKET BLACK table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+BLACK+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+OUTDOOR+RACKET+BLACK+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-addoy-1000",
@@ -3870,7 +3870,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-addoy-1000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BADDOY%2B1000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3878,12 +3878,12 @@ const seedProducts = [
       "MRP: ₹2,310",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-addoy-1000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly ADDOY 1000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-addoy-2000",
@@ -3895,7 +3895,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-addoy-2000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BADDOY%2B2000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3903,12 +3903,12 @@ const seedProducts = [
       "MRP: ₹2,310",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-addoy-2000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly ADDOY 2000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-addoy-3000",
@@ -3920,7 +3920,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-addoy-3000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BADDOY%2B3000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3928,12 +3928,12 @@ const seedProducts = [
       "MRP: ₹2,520",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-addoy-3000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly ADDOY 3000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+ADDOY+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-wakaba-1000",
@@ -3945,7 +3945,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-wakaba-1000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BWAKABA%2B1000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3953,12 +3953,12 @@ const seedProducts = [
       "MRP: ₹3,270",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-wakaba-1000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly WAKABA 1000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-wakaba-2000",
@@ -3970,7 +3970,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-wakaba-2000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BWAKABA%2B2000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -3978,12 +3978,12 @@ const seedProducts = [
       "MRP: ₹3,270",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-wakaba-2000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly WAKABA 2000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-wakaba-3000",
@@ -3995,7 +3995,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-wakaba-3000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BWAKABA%2B3000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4003,12 +4003,12 @@ const seedProducts = [
       "MRP: ₹3,400",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-wakaba-3000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly WAKABA 3000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+WAKABA+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-stayer-1800",
@@ -4020,7 +4020,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-stayer-1800-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BSTAYER%2B1800%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4028,12 +4028,12 @@ const seedProducts = [
       "MRP: ₹3,450",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-stayer-1800-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly STAYER 1800 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+STAYER+1800+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+STAYER+1800+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timo-boll-1000",
@@ -4045,7 +4045,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timo-boll-1000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMO%2BBOLL%2B1000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Category: Rackets",
@@ -4053,12 +4053,12 @@ const seedProducts = [
       "MRP: ₹3,510",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timo-boll-1000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMO BOLL 1000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timo-boll-2000",
@@ -4070,7 +4070,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timo-boll-2000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMO%2BBOLL%2B2000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Category: Rackets",
@@ -4078,12 +4078,12 @@ const seedProducts = [
       "MRP: ₹3,510",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timo-boll-2000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMO BOLL 2000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timo-boll-3000",
@@ -4095,7 +4095,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timo-boll-3000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMO%2BBOLL%2B3000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Category: Rackets",
@@ -4103,12 +4103,12 @@ const seedProducts = [
       "MRP: ₹3,630",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timo-boll-3000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMO BOLL 3000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-stayer-3000",
@@ -4120,7 +4120,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-stayer-3000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BSTAYER%2B3000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4128,12 +4128,12 @@ const seedProducts = [
       "MRP: ₹3,820",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-stayer-3000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly STAYER 3000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+STAYER+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+STAYER+3000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timo-boll-cf-1000",
@@ -4145,7 +4145,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timo-boll-cf-1000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMO%2BBOLL%2BCF%2B1000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Category: Rackets",
@@ -4153,12 +4153,12 @@ const seedProducts = [
       "MRP: ₹4,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timo-boll-cf-1000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMO BOLL CF 1000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+1000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timo-boll-cf-2000",
@@ -4170,7 +4170,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timo-boll-cf-2000-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMO%2BBOLL%2BCF%2B2000%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Category: Rackets",
@@ -4178,12 +4178,12 @@ const seedProducts = [
       "MRP: ₹4,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timo-boll-cf-2000-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMO BOLL CF 2000 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMO+BOLL+CF+2000+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-flextra",
@@ -4195,7 +4195,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-flextra-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFLEXTRA%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4205,10 +4205,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-flextra-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FLEXTRA table tennis product official image",
     "availableColors": [
       "Red",
@@ -4216,7 +4216,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FLEXTRA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FLEXTRA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-tackness-chop",
@@ -4228,7 +4228,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-tackness-chop-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTACKNESS%2BCHOP%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4238,10 +4238,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-tackness-chop-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TACKNESS CHOP table tennis product official image",
     "availableColors": [
       "Red",
@@ -4249,7 +4249,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TACKNESS+CHOP+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TACKNESS+CHOP+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-tackiness-chop-ii",
@@ -4261,7 +4261,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-tackiness-chop-ii-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTACKINESS%2BCHOP%2BII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4271,10 +4271,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-tackiness-chop-ii-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TACKINESS CHOP II table tennis product official image",
     "availableColors": [
       "Red",
@@ -4282,7 +4282,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TACKINESS+CHOP+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TACKINESS+CHOP+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-fient-long-ii",
@@ -4294,7 +4294,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-fient-long-ii-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFIENT%2BLONG%2BII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4305,10 +4305,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/fient-long-ii/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-fient-long-ii-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FIENT LONG II table tennis product official image",
     "availableColors": [
       "Red",
@@ -4316,7 +4316,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FIENT+LONG+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FIENT+LONG+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-fient-long-iii",
@@ -4328,7 +4328,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-fient-long-iii-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFIENT%2BLONG%2BIII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4339,10 +4339,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/fient-long-iii/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-fient-long-iii-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FIENT LONG III table tennis product official image",
     "availableColors": [
       "Red",
@@ -4350,7 +4350,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FIENT+LONG+III+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FIENT+LONG+III+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-super-anti",
@@ -4362,7 +4362,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-super-anti-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BSUPER%2BANTI%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4373,10 +4373,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/super-anti/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-super-anti-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly SUPER ANTI table tennis product official image",
     "availableColors": [
       "Red",
@@ -4384,7 +4384,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+SUPER+ANTI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+SUPER+ANTI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-sriver",
@@ -4396,7 +4396,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-sriver-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BSRIVER%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4407,10 +4407,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/sriver/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-sriver-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly SRIVER table tennis product official image",
     "availableColors": [
       "Red",
@@ -4418,7 +4418,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-sriver-el",
@@ -4430,7 +4430,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-sriver-el-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BSRIVER%2BEL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4441,10 +4441,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/sriver-el/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-sriver-el-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly SRIVER EL table tennis product official image",
     "availableColors": [
       "Red",
@@ -4452,7 +4452,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+EL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+EL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-sriver-fx",
@@ -4464,7 +4464,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-sriver-fx-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BSRIVER%2BFX%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4475,10 +4475,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/sriver-fx/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-sriver-fx-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly SRIVER FX table tennis product official image",
     "availableColors": [
       "Red",
@@ -4486,7 +4486,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+SRIVER+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-challenger-attack",
@@ -4498,7 +4498,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-challenger-attack-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BCHALLENGER%2BATTACK%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4508,10 +4508,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-challenger-attack-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly CHALLENGER ATTACK table tennis product official image",
     "availableColors": [
       "Red",
@@ -4519,7 +4519,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+CHALLENGER+ATTACK+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+CHALLENGER+ATTACK+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-rozena",
@@ -4531,7 +4531,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-rozena-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BROZENA%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4542,10 +4542,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/rozena/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-rozena-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly ROZENA table tennis product official image",
     "availableColors": [
       "Red",
@@ -4553,7 +4553,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+ROZENA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+ROZENA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-glayzer",
@@ -4565,7 +4565,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-glayzer-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BGLAYZER%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4576,10 +4576,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/glayzer/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-glayzer-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly GLAYZER table tennis product official image",
     "availableColors": [
       "Red",
@@ -4587,7 +4587,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+GLAYZER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+GLAYZER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-glayzer-09-c",
@@ -4599,7 +4599,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-glayzer-09-c-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BGLAYZER%2B09%2BC%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4610,10 +4610,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/glayzer-09c/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-glayzer-09-c-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly GLAYZER 09 C table tennis product official image",
     "availableColors": [
       "Red",
@@ -4621,7 +4621,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+GLAYZER+09+C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+GLAYZER+09+C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-impartial-xb",
@@ -4633,7 +4633,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-impartial-xb-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BIMPARTIAL%2BXB%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4643,10 +4643,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-impartial-xb-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly IMPARTIAL XB table tennis product official image",
     "availableColors": [
       "Red",
@@ -4654,7 +4654,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+IMPARTIAL+XB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+IMPARTIAL+XB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-impartial-xs",
@@ -4666,7 +4666,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-impartial-xs-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BIMPARTIAL%2BXS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4676,10 +4676,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-impartial-xs-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly IMPARTIAL XS table tennis product official image",
     "availableColors": [
       "Red",
@@ -4687,7 +4687,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+IMPARTIAL+XS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+IMPARTIAL+XS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-bugler",
@@ -4699,7 +4699,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-bugler-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUGLER%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4709,10 +4709,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-bugler-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUGLER table tennis product official image",
     "availableColors": [
       "Red",
@@ -4720,7 +4720,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUGLER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUGLER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-bryce-high-speed",
@@ -4732,7 +4732,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-bryce-high-speed-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBRYCE%2BHIGH%2BSPEED%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4742,10 +4742,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-bryce-high-speed-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BRYCE HIGH SPEED table tennis product official image",
     "availableColors": [
       "Red",
@@ -4753,7 +4753,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BRYCE+HIGH+SPEED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BRYCE+HIGH+SPEED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-tenergy-05-05-fx",
@@ -4765,7 +4765,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-tenergy-05-05-fx-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTENERGY%2B05%252C05%2BFX%252C%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4776,10 +4776,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-05/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-tenergy-05-05-fx-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TENERGY 05,05 FX, table tennis product official image",
     "availableColors": [
       "Red",
@@ -4787,7 +4787,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+05%2C05+FX%2C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+05%2C05+FX%2C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-tenergy-64-64-fx",
@@ -4799,7 +4799,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-tenergy-64-64-fx-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTENERGY%2B64%252C64%2BFX%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4810,10 +4810,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-64/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-tenergy-64-64-fx-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TENERGY 64,64 FX table tennis product official image",
     "availableColors": [
       "Red",
@@ -4821,7 +4821,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+64%2C64+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+64%2C64+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-tenergy-80-80-fx",
@@ -4833,7 +4833,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-tenergy-80-80-fx-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTENERGY%2B80%252C80%2BFX%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4844,10 +4844,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-80/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-tenergy-80-80-fx-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TENERGY 80,80 FX table tennis product official image",
     "availableColors": [
       "Red",
@@ -4855,7 +4855,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+80%2C80+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+80%2C80+FX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-tenergy-19",
@@ -4867,7 +4867,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-tenergy-19-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTENERGY%2B19%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4878,10 +4878,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/tenergy-19/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-tenergy-19-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TENERGY 19 table tennis product official image",
     "availableColors": [
       "Red",
@@ -4889,7 +4889,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+19+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TENERGY+19+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-dignics-05",
@@ -4901,7 +4901,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-dignics-05-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BDIGNICS%2B05%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4912,10 +4912,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/dignics-05/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-dignics-05-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly DIGNICS 05 table tennis product official image",
     "availableColors": [
       "Red",
@@ -4923,7 +4923,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+05+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+05+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-dignics-64",
@@ -4935,7 +4935,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-dignics-64-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BDIGNICS%2B64%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4946,10 +4946,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/dignics-64-2/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-dignics-64-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly DIGNICS 64 table tennis product official image",
     "availableColors": [
       "Red",
@@ -4957,7 +4957,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+64+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+64+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-dignics-09-c",
@@ -4969,7 +4969,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-dignics-09-c-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BDIGNICS%2B09%2BC%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -4980,10 +4980,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/dignics-09-c/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-dignics-09-c-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly DIGNICS 09 C table tennis product official image",
     "availableColors": [
       "Red",
@@ -4991,7 +4991,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+09+C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIGNICS+09+C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-zyre-03",
@@ -5003,7 +5003,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-zyre-03-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BZYRE%2B03%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5013,10 +5013,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-zyre-03-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly ZYRE 03 table tennis product official image",
     "availableColors": [
       "Red",
@@ -5024,7 +5024,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+ZYRE+03+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+ZYRE+03+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-tb5-alfa-fl",
@@ -5036,7 +5036,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-tb5-alfa-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BTB5%2BALFA%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5044,12 +5044,12 @@ const seedProducts = [
       "MRP: ₹6,195",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-tb5-alfa-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly TB5 ALFA FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+TB5+ALFA+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+TB5+ALFA+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timoboll-j-fl",
@@ -5061,7 +5061,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timoboll-j-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMOBOLL%2BJ%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5069,12 +5069,12 @@ const seedProducts = [
       "MRP: ₹6,830",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timoboll-j-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMOBOLL J FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+J+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+J+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-primorac-fl",
@@ -5086,7 +5086,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-primorac-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BPRIMORAC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5095,12 +5095,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/primorac-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-primorac-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly PRIMORAC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+PRIMORAC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+PRIMORAC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-mizutani-jun-major-fl",
@@ -5112,7 +5112,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-mizutani-jun-major-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BMIZUTANI%2BJUN%2BMAJOR%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5121,12 +5121,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/mijutani-jun-major-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-mizutani-jun-major-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly MIZUTANI JUN MAJOR FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+MAJOR+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+MAJOR+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timoboll-caf-fl",
@@ -5138,7 +5138,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timoboll-caf-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMOBOLL%2BCAF%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5146,12 +5146,12 @@ const seedProducts = [
       "MRP: ₹9,607",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timoboll-caf-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMOBOLL CAF FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+CAF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+CAF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-diode-v",
@@ -5163,7 +5163,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-diode-v-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BDIODE%2BV%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5172,12 +5172,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/diode-v/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-diode-v-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly DIODE V table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIODE+V+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIODE+V+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-korbel",
@@ -5189,7 +5189,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-korbel-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BKORBEL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5197,12 +5197,12 @@ const seedProducts = [
       "MRP: ₹11,030",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-korbel-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly KORBEL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+KORBEL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+KORBEL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timoboll-tj-fl",
@@ -5214,7 +5214,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timoboll-tj-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMOBOLL%2BTJ%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5222,12 +5222,12 @@ const seedProducts = [
       "MRP: ₹11,340",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timoboll-tj-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMOBOLL TJ FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+TJ+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+TJ+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-konglin-hui",
@@ -5239,7 +5239,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-konglin-hui-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BKONGLIN%2BHUI%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5247,12 +5247,12 @@ const seedProducts = [
       "MRP: ₹11,760",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-konglin-hui-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly KONGLIN HUI table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+KONGLIN+HUI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+KONGLIN+HUI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-divode-pro-fl-st",
@@ -5264,7 +5264,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-divode-pro-fl-st-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BDIVODE%2BPRO%2BFL%252FST%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5272,12 +5272,12 @@ const seedProducts = [
       "MRP: ₹12,075",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-divode-pro-fl-st-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly DIVODE PRO FL/ST table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIVODE+PRO+FL%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIVODE+PRO+FL%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-primorac-carbon-fl",
@@ -5289,7 +5289,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-primorac-carbon-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BPRIMORAC%2BCARBON%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5297,12 +5297,12 @@ const seedProducts = [
       "MRP: ₹16,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-primorac-carbon-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly PRIMORAC CARBON FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+PRIMORAC+CARBON+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+PRIMORAC+CARBON+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-hadraw-sr-fl",
@@ -5314,7 +5314,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-hadraw-sr-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BHADRAW%2BSR%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5322,12 +5322,12 @@ const seedProducts = [
       "MRP: ₹16,170",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-hadraw-sr-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly HADRAW SR FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+HADRAW+SR+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+HADRAW+SR+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-outerforce-caf-fl",
@@ -5339,7 +5339,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-outerforce-caf-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BOUTERFORCE%2BCAF%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5347,12 +5347,12 @@ const seedProducts = [
       "MRP: ₹16,695",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-outerforce-caf-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly OUTERFORCE CAF FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFORCE+CAF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFORCE+CAF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timoboll-spirit-fl",
@@ -5364,7 +5364,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timoboll-spirit-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMOBOLL%2BSPIRIT%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5372,12 +5372,12 @@ const seedProducts = [
       "MRP: ₹17,750",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timoboll-spirit-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMOBOLL SPIRIT FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+SPIRIT+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+SPIRIT+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-sardius-fl",
@@ -5389,7 +5389,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-sardius-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BSARDIUS%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5398,12 +5398,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/sardius-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-sardius-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly SARDIUS FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+SARDIUS+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+SARDIUS+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-outerforce-alc-fl-st",
@@ -5415,7 +5415,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-outerforce-alc-fl-st-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BOUTERFORCE%2BALC%2BFL%252FST%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5423,12 +5423,12 @@ const seedProducts = [
       "MRP: ₹21,525",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-outerforce-alc-fl-st-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly OUTERFORCE ALC FL/ST table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFORCE+ALC+FL%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFORCE+ALC+FL%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-viscaria-fl",
@@ -5440,7 +5440,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-viscaria-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BVISCARIA%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5449,12 +5449,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/viscaria-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-viscaria-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly VISCARIA FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+VISCARIA+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+VISCARIA+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-dimitrij-ovtcharov-innerforce-alc-fl",
@@ -5466,7 +5466,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-dimitrij-ovtcharov-innerforce-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BDIMITRIJ%2BOVTCHAROV%2BINNERFORCE%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5475,12 +5475,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/dimitrij-ovtcharov-innerforce-alc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-dimitrij-ovtcharov-innerforce-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly DIMITRIJ OVTCHAROV INNERFORCE ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIMITRIJ+OVTCHAROV+INNERFORCE+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+DIMITRIJ+OVTCHAROV+INNERFORCE+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timoboll-alc-fl",
@@ -5492,7 +5492,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timoboll-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMOBOLL%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5501,12 +5501,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/timoboll-alc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timoboll-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMOBOLL ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-marcos-freitas-alc-fl",
@@ -5518,7 +5518,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-marcos-freitas-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BMARCOS%2BFREITAS%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5526,12 +5526,12 @@ const seedProducts = [
       "MRP: ₹24,990",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-marcos-freitas-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly MARCOS FREITAS ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+MARCOS+FREITAS+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+MARCOS+FREITAS+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-fan-zhendong-alc-fl",
@@ -5543,7 +5543,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-fan-zhendong-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFAN%2BZHENDONG%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5552,12 +5552,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/fan-zhendong-alc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FAN ZHENDONG ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-innerforace-layer-zfl-fl",
@@ -5569,7 +5569,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-innerforace-layer-zfl-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BINNERFORACE%2BLAYER%2BZFL%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5577,12 +5577,12 @@ const seedProducts = [
       "MRP: ₹28,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-innerforace-layer-zfl-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly INNERFORACE LAYER ZFL FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+INNERFORACE+LAYER+ZFL+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+INNERFORACE+LAYER+ZFL+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-outerfforce-zlc-zlf-fl",
@@ -5594,7 +5594,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-outerfforce-zlc-zlf-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BOUTERFFORCE%2BZLC%2B%252FZLF%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5602,12 +5602,12 @@ const seedProducts = [
       "MRP: ₹29,600",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-outerfforce-zlc-zlf-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly OUTERFFORCE ZLC /ZLF FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFFORCE+ZLC+%2FZLF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+OUTERFFORCE+ZLC+%2FZLF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-harimoto-tokozama-innerforace-alc-fl",
@@ -5619,7 +5619,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-harimoto-tokozama-innerforace-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BHARIMOTO%2BTOKOZAMA%2BINNERFORACE%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5627,12 +5627,12 @@ const seedProducts = [
       "MRP: ₹30,100",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-innerforce-layer-zlc-fl",
@@ -5644,7 +5644,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-innerforce-layer-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BINNERFORCE%2BLAYER%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5652,12 +5652,12 @@ const seedProducts = [
       "MRP: ₹30,345",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-innerforce-layer-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly INNERFORCE LAYER ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+INNERFORCE+LAYER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+INNERFORCE+LAYER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-mizutani-jun-zlc-fl",
@@ -5669,7 +5669,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-mizutani-jun-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BMIZUTANI%2BJUN%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5678,12 +5678,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/mizutani-jun-zlc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-mizutani-jun-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly MIZUTANI JUN ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-franziska-innerforace-zlc-an",
@@ -5695,7 +5695,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-franziska-innerforace-zlc-an-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BFRANZISKA%2BINNERFORACE%2BZLC%2BAN%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5704,12 +5704,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/franziska-innerforce-zlc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-franziska-innerforace-zlc-an-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly FRANZISKA INNERFORACE ZLC AN table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+FRANZISKA+INNERFORACE+ZLC+AN+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+FRANZISKA+INNERFORACE+ZLC+AN+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-franziska-innerforace-zlc-fl",
@@ -5721,7 +5721,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-franziska-innerforace-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BFRANZISKA%2BINNERFORACE%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5730,12 +5730,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/franziska-innerforce-zlc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-franziska-innerforace-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly FRANZISKA INNERFORACE ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+FRANZISKA+INNERFORACE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+FRANZISKA+INNERFORACE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-harimoto-tokozama-innerforace-super-alc-fl",
@@ -5747,7 +5747,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-harimoto-tokozama-innerforace-super-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BHARIMOTO%2BTOKOZAMA%2BINNERFORACE%2BSUPER%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5755,12 +5755,12 @@ const seedProducts = [
       "MRP: ₹32,340",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-super-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE SUPER ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-tiago-apolonia-zlc-fl",
@@ -5772,7 +5772,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-tiago-apolonia-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIAGO%2BAPOLONIA%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5780,12 +5780,12 @@ const seedProducts = [
       "MRP: ₹32,760",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-tiago-apolonia-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIAGO APOLONIA ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIAGO+APOLONIA+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIAGO+APOLONIA+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timoboll-zlc-fl",
@@ -5797,7 +5797,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timoboll-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMOBOLL%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5805,12 +5805,12 @@ const seedProducts = [
       "MRP: ₹33,495",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timoboll-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMOBOLL ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-zhang-jike-zlc-fl",
@@ -5822,7 +5822,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-zhang-jike-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BZHANG%2BJIKE%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5830,12 +5830,12 @@ const seedProducts = [
       "MRP: ₹34,490",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-zhang-jike-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly ZHANG JIKE ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+ZHANG+JIKE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+ZHANG+JIKE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-fan-zhendong-zlc-fl",
@@ -5847,7 +5847,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-fan-zhendong-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFAN%2BZHENDONG%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5856,12 +5856,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/fan-zhendong-zlc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FAN ZHENDONG ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-viscaria-super-alc-fl",
@@ -5873,7 +5873,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-viscaria-super-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BVISCARIA%2BSUPER%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5882,12 +5882,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/viscaria-super-alc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-viscaria-super-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly VISCARIA SUPER ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+VISCARIA+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+VISCARIA+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-harimoto-tokozama-innerforace-zlc-fl",
@@ -5899,7 +5899,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-harimoto-tokozama-innerforace-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BHARIMOTO%2BTOKOZAMA%2BINNERFORACE%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5907,12 +5907,12 @@ const seedProducts = [
       "MRP: ₹36,750",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-fan-zhendong-super-alc-fl",
@@ -5924,7 +5924,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-fan-zhendong-super-alc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFAN%2BZHENDONG%2BSUPER%2BALC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5933,12 +5933,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/fan-zhendong-super-alc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-super-alc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FAN ZHENDONG SUPER ALC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+SUPER+ALC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-mizutani-jun-zlc-super-zlc-fl",
@@ -5950,7 +5950,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-mizutani-jun-zlc-super-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BMIZUTANI%2BJUN%2BZLC%2BSUPER%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5959,12 +5959,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/mizutani-jun-zlc-super-zlc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-mizutani-jun-zlc-super-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly MIZUTANI JUN ZLC SUPER ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+ZLC+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+MIZUTANI+JUN+ZLC+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-lin-yun-ju-super-zlc-fl",
@@ -5976,7 +5976,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-lin-yun-ju-super-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BLIN%2BYUN-JU%2BSUPER%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -5985,12 +5985,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/lin-yun-ju-super-zlc-fl/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-lin-yun-ju-super-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly LIN YUN-JU SUPER ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+LIN+YUN-JU+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+LIN+YUN-JU+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-revolida-cnf-fl",
@@ -6002,7 +6002,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-revolida-cnf-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BREVOLIDA%2BCNF%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6010,12 +6010,12 @@ const seedProducts = [
       "MRP: ₹51,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-revolida-cnf-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly REVOLIDA CNF FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+REVOLIDA+CNF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+REVOLIDA+CNF+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-fan-zhendong-super-zlc-fl-st",
@@ -6027,7 +6027,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-fan-zhendong-super-zlc-fl-st-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFAN%2BZHENDONG%2BSUPER%2BZLC%2BFL%2B%252FST%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6035,12 +6035,12 @@ const seedProducts = [
       "MRP: ₹52,290",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-fan-zhendong-super-zlc-fl-st-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FAN ZHENDONG SUPER ZLC FL /ST table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+SUPER+ZLC+FL+%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FAN+ZHENDONG+SUPER+ZLC+FL+%2FST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-harimoto-tokozama-innerforace-super-zlc-fl",
@@ -6052,7 +6052,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-harimoto-tokozama-innerforace-super-zlc-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BHARIMOTO%2BTOKOZAMA%2BINNERFORACE%2BSUPER%2BZLC%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6060,12 +6060,12 @@ const seedProducts = [
       "MRP: ₹53,025",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-harimoto-tokozama-innerforace-super-zlc-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly HARIMOTO TOKOZAMA INNERFORACE SUPER ZLC FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+HARIMOTO+TOKOZAMA+INNERFORACE+SUPER+ZLC+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-timoboll-30th-anniversary-edition-fl",
@@ -6077,7 +6077,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-timoboll-30th-anniversary-edition-fl-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BTIMOBOLL%2B30TH%2BANNIVERSARY%2BEDITION%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6085,12 +6085,12 @@ const seedProducts = [
       "MRP: ₹54,860",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-timoboll-30th-anniversary-edition-fl-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly TIMOBOLL 30TH ANNIVERSARY EDITION FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+30TH+ANNIVERSARY+EDITION+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+TIMOBOLL+30TH+ANNIVERSARY+EDITION+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-wb-protector-10-mm-side-tap",
@@ -6102,7 +6102,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-wb-protector-10-mm-side-tap-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BWB%2BPROTECTOR%2B10%2BMM%2B%2528Side%2BTap%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6110,12 +6110,12 @@ const seedProducts = [
       "MRP: ₹480",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-wb-protector-10-mm-side-tap-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly WB PROTECTOR 10 MM (Side Tap) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+WB+PROTECTOR+10+MM+%28Side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+WB+PROTECTOR+10+MM+%28Side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-wb-protector-12-mm-side-tap",
@@ -6127,7 +6127,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-wb-protector-12-mm-side-tap-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BWB%2BPROTECTOR%2B12%2BMM%2B%2528Side%2BTap%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6135,12 +6135,12 @@ const seedProducts = [
       "MRP: ₹495",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-wb-protector-12-mm-side-tap-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly WB PROTECTOR 12 MM (Side Tap) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+WB+PROTECTOR+12+MM+%28Side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+WB+PROTECTOR+12+MM+%28Side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-rb-protector-10-mm-side-tap",
@@ -6152,7 +6152,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-rb-protector-10-mm-side-tap-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BRB%2BPROTECTOR%2B10%2BMM%2B%2528side%2BTap%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6160,12 +6160,12 @@ const seedProducts = [
       "MRP: ₹530",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-rb-protector-10-mm-side-tap-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly RB PROTECTOR 10 MM (side Tap) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+RB+PROTECTOR+10+MM+%28side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+RB+PROTECTOR+10+MM+%28side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-rb-protector-12-mm-side-tap",
@@ -6177,7 +6177,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-rb-protector-12-mm-side-tap-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BRB%2BPROTECTOR%2B12%2BMM%2B%2528side%2BTap%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6185,12 +6185,12 @@ const seedProducts = [
       "MRP: ₹530",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-rb-protector-12-mm-side-tap-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly RB PROTECTOR 12 MM (side Tap) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+RB+PROTECTOR+12+MM+%28side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+RB+PROTECTOR+12+MM+%28side+Tap%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-trainig-ball-40-pcs-pack",
@@ -6202,7 +6202,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-trainig-ball-40-pcs-pack-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BTRAINIG%2BBALL%2B40%2B%252B%2BPcs%2Bpack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6210,12 +6210,12 @@ const seedProducts = [
       "MRP: ₹550",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-trainig-ball-40-pcs-pack-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY TRAINIG BALL 40 + Pcs pack table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+TRAINIG+BALL+40+%2B+Pcs+pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+TRAINIG+BALL+40+%2B+Pcs+pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-check-sheet-ii",
@@ -6227,7 +6227,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-check-sheet-ii-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BCHECK%2BSHEET%2BII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6235,12 +6235,12 @@ const seedProducts = [
       "MRP: ₹570",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-check-sheet-ii-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly CHECK SHEET II table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+CHECK+SHEET+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+CHECK+SHEET+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-edge-protector-ii-10mm-12-mm",
@@ -6252,7 +6252,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-edge-protector-ii-10mm-12-mm-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BEDGE%2BPROTECTOR%2BII%2B10MM%252F12%2BMM%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6260,12 +6260,12 @@ const seedProducts = [
       "MRP: ₹580",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-edge-protector-ii-10mm-12-mm-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly EDGE PROTECTOR II 10MM/12 MM table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+EDGE+PROTECTOR+II+10MM%2F12+MM+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+EDGE+PROTECTOR+II+10MM%2F12+MM+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-free-chack-ii-20-ml",
@@ -6277,7 +6277,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-free-chack-ii-20-ml-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BFREE%2BCHACK%2BII%2B20%2BML%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Glue product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6286,12 +6286,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://butterfly-india.com/product/free-chack-ii-20-ml/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-free-chack-ii-20-ml-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly FREE CHACK II 20 ML table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+FREE+CHACK+II+20+ML+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+FREE+CHACK+II+20+ML+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-3-star-ball-r40-3-pcs-pack",
@@ -6303,7 +6303,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-3-star-ball-r40-3-pcs-pack-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2B3%2BSTAR%2BBALL%2BR40%252B%2B%25283%2BPcs%2BPack%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6311,12 +6311,12 @@ const seedProducts = [
       "MRP: ₹1,050",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-3-star-ball-r40-3-pcs-pack-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly 3 STAR BALL R40+ (3 Pcs Pack) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+3+STAR+BALL+R40%2B+%283+Pcs+Pack%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+3+STAR+BALL+R40%2B+%283+Pcs+Pack%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-cure-water-rubbers",
@@ -6328,7 +6328,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-cure-water-rubbers-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BCURE%2BWATER%2BRUBBERS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6336,12 +6336,12 @@ const seedProducts = [
       "MRP: ₹1,320",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-cure-water-rubbers-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly CURE WATER RUBBERS table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+CURE+WATER+RUBBERS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+CURE+WATER+RUBBERS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-rubber-cleaner-set",
@@ -6353,7 +6353,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-rubber-cleaner-set-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BRUBBER%2BCLEANER%2BSET%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6361,12 +6361,12 @@ const seedProducts = [
       "MRP: ₹1,950",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-rubber-cleaner-set-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly RUBBER CLEANER SET table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RUBBER+CLEANER+SET+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+RUBBER+CLEANER+SET+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-bd-case",
@@ -6378,7 +6378,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-bd-case-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBD%2BCASE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6386,12 +6386,12 @@ const seedProducts = [
       "MRP: ₹3,200",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-bd-case-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BD CASE table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BD+CASE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BD+CASE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-bg-case",
@@ -6403,7 +6403,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-bg-case-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBG%2BCASE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6411,12 +6411,12 @@ const seedProducts = [
       "MRP: ₹4,400",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-bg-case-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BG CASE table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BG+CASE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BG+CASE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-3-star-ball-r40-12-pcs-pack",
@@ -6428,7 +6428,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-3-star-ball-r40-12-pcs-pack-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2B3%2BSTAR%2BBALL%2BR40%252B%2B%252812%2BPcs%2BPack%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6436,12 +6436,12 @@ const seedProducts = [
       "MRP: ₹5,200",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-3-star-ball-r40-12-pcs-pack-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly 3 STAR BALL R40+ (12 Pcs Pack) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+3+STAR+BALL+R40%2B+%2812+Pcs+Pack%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+3+STAR+BALL+R40%2B+%2812+Pcs+Pack%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-glue-free-check-500-ml",
@@ -6453,7 +6453,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-glue-free-check-500-ml-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BButterfly%2BGLUE%2BFREE%2BCHECK%2B500%2BML%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Glue product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6461,12 +6461,12 @@ const seedProducts = [
       "MRP: ₹7,560",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-glue-free-check-500-ml-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly Butterfly GLUE FREE CHECK 500 ML table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+GLUE+FREE+CHECK+500+ML+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+Butterfly+GLUE+FREE+CHECK+500+ML+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-baltra-ruck-bag",
@@ -6478,7 +6478,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-baltra-ruck-bag-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBALTRA%2BRUCK%2BBAG%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6486,12 +6486,12 @@ const seedProducts = [
       "MRP: ₹13,250",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-baltra-ruck-bag-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BALTRA RUCK BAG table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BALTRA+RUCK+BAG+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BALTRA+RUCK+BAG+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-amicus-prime-robot-made-in-germany",
@@ -6503,7 +6503,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-amicus-prime-robot-made-in-germany-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BAMICUS%2BPRIME%2BROBOT%2B%2528Made%2BIn%2BGermany%2B%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6511,12 +6511,12 @@ const seedProducts = [
       "MRP: ₹675,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-amicus-prime-robot-made-in-germany-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly AMICUS PRIME ROBOT (Made In Germany ) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+AMICUS+PRIME+ROBOT+%28Made+In+Germany+%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+AMICUS+PRIME+ROBOT+%28Made+In+Germany+%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-sneaker-shoe",
@@ -6528,7 +6528,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-butterfly-sneaker-shoe-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BSNEAKER%2BSHOE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6536,12 +6536,12 @@ const seedProducts = [
       "MRP: ₹7,900",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-butterfly-sneaker-shoe-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY SNEAKER SHOE table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+SNEAKER+SHOE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+SNEAKER+SHOE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-shoe-lezoline-unizes",
@@ -6553,7 +6553,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-shoe-lezoline-unizes-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BSHOE%2BLEZOLINE%2BUNIZES%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6561,12 +6561,12 @@ const seedProducts = [
       "MRP: ₹11,700",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-shoe-lezoline-unizes-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly SHOE LEZOLINE UNIZES table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+SHOE+LEZOLINE+UNIZES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+SHOE+LEZOLINE+UNIZES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-lezoline-vilight",
@@ -6578,7 +6578,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-lezoline-vilight-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BLEZOLINE%2BVILIGHT%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6586,12 +6586,12 @@ const seedProducts = [
       "MRP: ₹15,225",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-lezoline-vilight-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly LEZOLINE VILIGHT table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+VILIGHT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+VILIGHT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-lezoline-vilata",
@@ -6603,7 +6603,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-lezoline-vilata-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BLEZOLINE%2BVILATA%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6611,12 +6611,12 @@ const seedProducts = [
       "MRP: ₹16,275",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-lezoline-vilata-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly LEZOLINE VILATA table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+VILATA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+VILATA+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-lezoline-rifones",
@@ -6628,7 +6628,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-lezoline-rifones-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BLEZOLINE%2BRIFONES%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6636,12 +6636,12 @@ const seedProducts = [
       "MRP: ₹23,650",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-lezoline-rifones-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly LEZOLINE RIFONES table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+RIFONES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+RIFONES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-lezoline-levalis",
@@ -6653,7 +6653,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-lezoline-levalis-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BLEZOLINE%2BLEVALIS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6661,12 +6661,12 @@ const seedProducts = [
       "MRP: ₹24,990",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-lezoline-levalis-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly LEZOLINE LEVALIS table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+LEVALIS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+LEVALIS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-lezoline-tr-outdoor-shoes",
@@ -6678,7 +6678,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/catalog/butterfly-lezoline-tr-outdoor-shoes-butterfly-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BLEZOLINE%2BTR%2BOUTDOOR%2BSHOES%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Footwear product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6686,12 +6686,12 @@ const seedProducts = [
       "MRP: ₹19,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/butterfly-lezoline-tr-outdoor-shoes-butterfly-safe.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly LEZOLINE TR OUTDOOR SHOES table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+TR+OUTDOOR+SHOES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+LEZOLINE+TR+OUTDOOR+SHOES+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-sollien-shirt",
@@ -6703,7 +6703,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BSOLLIEN%2BSHIRT%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6711,12 +6711,12 @@ const seedProducts = [
       "MRP: ₹7,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly SOLLIEN SHIRT table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+SOLLIEN+SHIRT+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+SOLLIEN+SHIRT+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-rimeral-shirt",
@@ -6728,7 +6728,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BRIMERAL%2BSHIRT%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6736,12 +6736,12 @@ const seedProducts = [
       "MRP: ₹7,940",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly RIMERAL SHIRT table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+RIMERAL+SHIRT+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+RIMERAL+SHIRT+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-game-shirts",
@@ -6753,7 +6753,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BGAME%2BSHIRTS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6761,12 +6761,12 @@ const seedProducts = [
       "MRP: ₹1,650",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY GAME SHIRTS table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHIRTS+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHIRTS+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-game-shorts",
@@ -6778,7 +6778,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BGAME%2BSHORTS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6786,12 +6786,12 @@ const seedProducts = [
       "MRP: ₹1,800",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY GAME SHORTS table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHORTS+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+SHORTS+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-shirt-bristro",
@@ -6803,7 +6803,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BSHIRT%2BBRISTRO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6811,12 +6811,12 @@ const seedProducts = [
       "MRP: ₹3,885",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly SHIRT BRISTRO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+SHIRT+BRISTRO+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+SHIRT+BRISTRO+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "butterfly-butterfly-game-track-suit",
@@ -6828,7 +6828,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3d6df2",
-    "image": "assets/product-fallbacks/butterfly-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DButterfly%2BBUTTERFLY%2BGAME%2BTRACK%2BSUIT%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Butterfly Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Butterfly",
@@ -6836,12 +6836,12 @@ const seedProducts = [
       "MRP: ₹3,950",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/butterfly-clothing.svg",
+    "fallbackImage": "assets/banners/butterfly-poster.webp",
     "searchImageQuery": "Butterfly BUTTERFLY GAME TRACK SUIT table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+TRACK+SUIT+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Butterfly+BUTTERFLY+GAME+TRACK+SUIT+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-n-10s",
@@ -6853,7 +6853,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-n-10s-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BN-10S%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -6861,12 +6861,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-n-10s-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe N-10S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+N-10S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+N-10S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-t-11s",
@@ -6878,7 +6878,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-t-11s-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BT-11S%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -6886,12 +6886,12 @@ const seedProducts = [
       "MRP: ₹2,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-t-11s-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe T-11S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-11S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-11S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-cn-1s",
@@ -6903,7 +6903,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-cn-1s-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BCN-1S%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -6911,12 +6911,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-cn-1s-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe CN-1S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+CN-1S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+CN-1S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-ec-11",
@@ -6928,7 +6928,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-ec-11-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BEC-11%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -6936,12 +6936,12 @@ const seedProducts = [
       "MRP: ₹2,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-ec-11-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe EC-11 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+EC-11+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+EC-11+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-v-14-pro",
@@ -6953,7 +6953,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-v-14-pro-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BV-14%2BPRO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -6961,12 +6961,12 @@ const seedProducts = [
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-v-14-pro-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe V-14 PRO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+V-14+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+V-14+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-pro-01",
@@ -6978,7 +6978,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-pro-01-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BPRO-01%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -6986,12 +6986,12 @@ const seedProducts = [
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-01-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe PRO-01 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-01+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-01+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-pro-05",
@@ -7003,7 +7003,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-pro-05-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BPRO-05%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7011,12 +7011,12 @@ const seedProducts = [
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-05-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe PRO-05 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-05+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-05+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-y-13",
@@ -7028,7 +7028,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-y-13-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BY-13%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7036,12 +7036,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-y-13-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Y-13 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Y-13+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Y-13+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-t-1s",
@@ -7053,7 +7053,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-t-1s-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BT-1S%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7061,12 +7061,12 @@ const seedProducts = [
       "MRP: ₹3,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-t-1s-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe T-1S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-1S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-1S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-t-2s",
@@ -7078,7 +7078,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-t-2s-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BT-2S%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7086,12 +7086,12 @@ const seedProducts = [
       "MRP: ₹3,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-t-2s-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe T-2S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-2S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-2S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-t-9",
@@ -7103,7 +7103,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-t-9-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BT-9%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7111,12 +7111,12 @@ const seedProducts = [
       "MRP: ₹4,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-t-9-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe T-9 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+T-9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-max-01",
@@ -7128,7 +7128,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-max-01-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMAX-01%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7136,12 +7136,12 @@ const seedProducts = [
       "MRP: ₹7,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-max-01-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MAX-01 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MAX-01+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MAX-01+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-pro-11s",
@@ -7153,7 +7153,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-pro-11s-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BPRO-11s%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7161,12 +7161,12 @@ const seedProducts = [
       "MRP: ₹9,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-11s-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe PRO-11s table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-11s+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PRO-11s+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-vf-5",
@@ -7178,7 +7178,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-vf-5-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BVF-5%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7186,12 +7186,12 @@ const seedProducts = [
       "MRP: ₹9,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-vf-5-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe VF-5 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+VF-5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+VF-5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-vf-7",
@@ -7203,7 +7203,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-vf-7-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BVF-7%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7211,12 +7211,12 @@ const seedProducts = [
       "MRP: ₹9,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-vf-7-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe VF-7 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+VF-7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+VF-7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-01b-readymade-racket",
@@ -7228,7 +7228,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/product-fallbacks/yinhe-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://topspin.in/cdn/shop/files/Yinhe01BTableTennisRacket.webp%3Fv%3D1784095746%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7236,12 +7236,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 01B Readymade Racket table tennis product official image",
-    "remoteImage": "https://topspin.in/cdn/shop/files/Yinhe01BTableTennisRacket.webp?v=1784095746&width=1200"
+    "originalImage": "https://topspin.in/cdn/shop/files/Yinhe01BTableTennisRacket.webp?v=1784095746&width=1200"
   },
   {
     "id": "yinhe-yinhe-c204-readymade-kids-racket",
@@ -7253,7 +7253,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/product-fallbacks/yinhe-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BC204%2BReadymade%2BKids%2BRacket%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Racket product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7261,12 +7261,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe C204 Readymade Kids Racket table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+C204+Readymade+Kids+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+C204+Readymade+Kids+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-90001-training-set",
@@ -7278,7 +7278,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-90001-training-set-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B90001%2BTraining%2BSet%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7288,10 +7288,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-90001-training-set-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 90001 Training Set table tennis product official image",
     "availableColors": [
       "Red",
@@ -7299,7 +7299,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+90001+Training+Set+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+90001+Training+Set+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-9000-ii",
@@ -7311,7 +7311,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-9000-ii-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B9000-II%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7321,10 +7321,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-9000-ii-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 9000-II table tennis product official image",
     "availableColors": [
       "Red",
@@ -7332,7 +7332,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+9000-II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+9000-II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-9000-e",
@@ -7344,7 +7344,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-9000-e-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B9000%2BE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7354,10 +7354,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-9000-e-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 9000 E table tennis product official image",
     "availableColors": [
       "Red",
@@ -7365,7 +7365,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+9000+E+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+9000+E+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-mercury-ii",
@@ -7377,7 +7377,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-mercury-ii-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMERCURY%2BII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7387,10 +7387,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-mercury-ii-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MERCURY II table tennis product official image",
     "availableColors": [
       "Red",
@@ -7398,7 +7398,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MERCURY+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MERCURY+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-qing-ox",
@@ -7410,7 +7410,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-qing-ox-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BQING%2BOX%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7420,10 +7420,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-qing-ox-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe QING OX table tennis product official image",
     "availableColors": [
       "Red",
@@ -7431,7 +7431,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-955-ox",
@@ -7443,7 +7443,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-955-ox-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B955%2BOX%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7453,10 +7453,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-955-ox-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 955 OX table tennis product official image",
     "availableColors": [
       "Red",
@@ -7464,7 +7464,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-mercury-iii-euro",
@@ -7476,7 +7476,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-mercury-iii-euro-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMERCURY%2BIII%2BEURO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7486,10 +7486,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-mercury-iii-euro-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MERCURY III EURO table tennis product official image",
     "availableColors": [
       "Red",
@@ -7497,7 +7497,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MERCURY+III+EURO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MERCURY+III+EURO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-neptune-0-7",
@@ -7509,7 +7509,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-neptune-0-7-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BNEPTUNE%2B-%2B0.7%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7519,10 +7519,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-neptune-0-7-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe NEPTUNE - 0.7 table tennis product official image",
     "availableColors": [
       "Red",
@@ -7530,7 +7530,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+NEPTUNE+-+0.7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+NEPTUNE+-+0.7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-pluto-1-5-1-8",
@@ -7542,7 +7542,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-pluto-1-5-1-8-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BPLUTO%2B1.5%2B-%2B1.8%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7552,10 +7552,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-pluto-1-5-1-8-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe PLUTO 1.5 - 1.8 table tennis product official image",
     "availableColors": [
       "Red",
@@ -7563,7 +7563,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PLUTO+1.5+-+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+PLUTO+1.5+-+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-955-green-0-7mm",
@@ -7575,7 +7575,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-955-green-0-7mm-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B955%2BGreen%2B0.7mm%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7585,10 +7585,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-955-green-0-7mm-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 955 Green 0.7mm table tennis product official image",
     "availableColors": [
       "Red",
@@ -7596,7 +7596,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+Green+0.7mm+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+Green+0.7mm+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-955-green-ox",
@@ -7608,7 +7608,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-955-green-ox-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B955%2BGREEN%2B-%2BOX%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7618,10 +7618,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-955-green-ox-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 955 GREEN - OX table tennis product official image",
     "availableColors": [
       "Red",
@@ -7629,7 +7629,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+GREEN+-+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+955+GREEN+-+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-earth-ii",
@@ -7641,7 +7641,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-earth-ii-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BEARTH%2BII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7651,10 +7651,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-earth-ii-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe EARTH II table tennis product official image",
     "availableColors": [
       "Red",
@@ -7662,7 +7662,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+EARTH+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+EARTH+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-apollo-5",
@@ -7674,7 +7674,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-apollo-5-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BAPOLLO%2B5%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7685,10 +7685,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/apollo-5/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-apollo-5-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe APOLLO 5 table tennis product official image",
     "availableColors": [
       "Red",
@@ -7696,7 +7696,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+APOLLO+5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+APOLLO+5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-moon-speed",
@@ -7708,7 +7708,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-moon-speed-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMOON%2BSPEED%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7718,10 +7718,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-speed-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MOON SPEED table tennis product official image",
     "availableColors": [
       "Red",
@@ -7729,7 +7729,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+SPEED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+SPEED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-moon-speed-limited",
@@ -7741,7 +7741,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-moon-speed-limited-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMOON%2BSPEED%2BLIMITED%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7751,10 +7751,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-speed-limited-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MOON SPEED LIMITED table tennis product official image",
     "availableColors": [
       "Red",
@@ -7762,7 +7762,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+SPEED+LIMITED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+SPEED+LIMITED+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-moon-pro",
@@ -7774,7 +7774,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-moon-pro-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMOON%2BPRO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7784,10 +7784,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-pro-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MOON PRO table tennis product official image",
     "availableColors": [
       "Red",
@@ -7795,7 +7795,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-moon-12-blue",
@@ -7807,7 +7807,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-moon-12-blue-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMOON%2B12%2BBLUE%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7818,10 +7818,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/moon-12-in-new-green-color/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-moon-12-blue-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MOON 12 BLUE table tennis product official image",
     "availableColors": [
       "Red",
@@ -7829,7 +7829,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+12+BLUE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MOON+12+BLUE+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-uranus-poly",
@@ -7841,7 +7841,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-uranus-poly-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BURANUS%2BPOLY%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7851,10 +7851,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-uranus-poly-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe URANUS POLY table tennis product official image",
     "availableColors": [
       "Red",
@@ -7862,7 +7862,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+URANUS+POLY+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+URANUS+POLY+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-uranus-pro-1-8mm-2-15mm",
@@ -7874,7 +7874,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-uranus-pro-1-8mm-2-15mm-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BURANUS%2BPRO%2B%25281.8mm%252C%2B2.15mm%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7884,10 +7884,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-uranus-pro-1-8mm-2-15mm-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe URANUS PRO (1.8mm, 2.15mm) table tennis product official image",
     "availableColors": [
       "Red",
@@ -7895,7 +7895,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+URANUS+PRO+%281.8mm%2C+2.15mm%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+URANUS+PRO+%281.8mm%2C+2.15mm%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-big-dipper-39",
@@ -7907,7 +7907,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-big-dipper-39-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BBIG%2BDIPPER%2B39%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7918,10 +7918,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/big-dipper-4/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-big-dipper-39-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe BIG DIPPER 39 table tennis product official image",
     "availableColors": [
       "Red",
@@ -7929,7 +7929,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+BIG+DIPPER+39+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+BIG+DIPPER+39+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-big-dipper-pro-41",
@@ -7941,7 +7941,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-big-dipper-pro-41-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BBIG%2BDIPPER%2BPRO%2B41%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7952,10 +7952,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/big-dipper-province-41-degree/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-big-dipper-pro-41-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe BIG DIPPER PRO 41 table tennis product official image",
     "availableColors": [
       "Red",
@@ -7963,7 +7963,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+BIG+DIPPER+PRO+41+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+BIG+DIPPER+PRO+41+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-jupiter-iii-euro",
@@ -7975,7 +7975,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-jupiter-iii-euro-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BJUPITER%2BIII%2BEURO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -7986,10 +7986,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://yinheusa.com/product/jupiter-3-euro/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-jupiter-iii-euro-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe JUPITER III EURO table tennis product official image",
     "availableColors": [
       "Red",
@@ -7997,7 +7997,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+JUPITER+III+EURO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+JUPITER+III+EURO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-qing-0-5",
@@ -8009,7 +8009,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-qing-0-5-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BQING%2B-%2B0.5%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8019,10 +8019,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-qing-0-5-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe QING - 0.5 table tennis product official image",
     "availableColors": [
       "Red",
@@ -8030,7 +8030,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+-+0.5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+-+0.5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-qing-0-7",
@@ -8042,7 +8042,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-qing-0-7-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BQING%2B-%2B0.7%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8052,10 +8052,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-qing-0-7-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe QING - 0.7 table tennis product official image",
     "availableColors": [
       "Red",
@@ -8063,7 +8063,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+-+0.7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+QING+-+0.7+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-mars-ii",
@@ -8075,7 +8075,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-mars-ii-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BMARS%2BII%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8085,10 +8085,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-mars-ii-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe MARS II table tennis product official image",
     "availableColors": [
       "Red",
@@ -8096,7 +8096,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MARS+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+MARS+II+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-h40-3-star",
@@ -8108,7 +8108,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-h40-3-star-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BH40%252B%2B3%2BStar%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8116,12 +8116,12 @@ const seedProducts = [
       "MRP: ₹599",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-h40-3-star-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe H40+ 3 Star table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+H40%2B+3+Star+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+H40%2B+3+Star+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-wtt",
@@ -8133,7 +8133,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-wtt-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BWTT%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8141,12 +8141,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-wtt-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe WTT table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+WTT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+WTT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-1-star-pack-of-100",
@@ -8158,7 +8158,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-1-star-pack-of-100-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B1%2BStar%2B%2B%2B%2B%2528Pack%2Bof%2B100%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8166,12 +8166,12 @@ const seedProducts = [
       "MRP: ₹2,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-1-star-pack-of-100-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 1 Star    (Pack of 100) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+1+Star++++%28Pack+of+100%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+1+Star++++%28Pack+of+100%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-plastic-grip",
@@ -8183,7 +8183,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-plastic-grip-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BPlastic%2BGrip%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8191,12 +8191,12 @@ const seedProducts = [
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-plastic-grip-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Plastic Grip table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Plastic+Grip+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Plastic+Grip+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-7031-rubber-cleaner",
@@ -8208,7 +8208,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-7031-rubber-cleaner-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B7031%2BRubber%2BCleaner%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8216,12 +8216,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-7031-rubber-cleaner-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 7031 Rubber Cleaner table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+7031+Rubber+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+7031+Rubber+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-7034-rubber-cleaner",
@@ -8233,7 +8233,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-7034-rubber-cleaner-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B7034%2BRubber%2BCleaner%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8241,12 +8241,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-7034-rubber-cleaner-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 7034 Rubber Cleaner table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+7034+Rubber+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+7034+Rubber+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-rubber-cleaning-sponge",
@@ -8258,7 +8258,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-rubber-cleaning-sponge-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BRubber%2BCleaning%2BSponge%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8266,12 +8266,12 @@ const seedProducts = [
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-rubber-cleaning-sponge-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Rubber Cleaning Sponge table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Cleaning+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Cleaning+Sponge+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-rubber-protector-sticky-sheet",
@@ -8283,7 +8283,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-rubber-protector-sticky-sheet-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BRubber%2BProtector%2BSticky%2BSheet%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8291,12 +8291,12 @@ const seedProducts = [
       "MRP: ₹499",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-rubber-protector-sticky-sheet-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Rubber Protector Sticky Sheet table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Protector+Sticky+Sheet+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Protector+Sticky+Sheet+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-edge-tape-single-pc",
@@ -8308,7 +8308,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-edge-tape-single-pc-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BEdge%2BTape%2BSingle%2BPc%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8316,12 +8316,12 @@ const seedProducts = [
       "MRP: ₹199",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-edge-tape-single-pc-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Edge Tape Single Pc table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Edge+Tape+Single+Pc+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Edge+Tape+Single+Pc+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-edge-tape-25m-roll",
@@ -8333,7 +8333,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-edge-tape-25m-roll-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BEdge%2BTape%2B25m%2BRoll%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8341,12 +8341,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-edge-tape-25m-roll-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Edge Tape 25m Roll table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Edge+Tape+25m+Roll+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Edge+Tape+25m+Roll+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-ball-picker-7033a",
@@ -8358,7 +8358,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-ball-picker-7033a-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BBall%2BPicker%2B7033A%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8366,12 +8366,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-ball-picker-7033a-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Ball Picker 7033A table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Ball+Picker+7033A+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Ball+Picker+7033A+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-ball-picker-7033c",
@@ -8383,7 +8383,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-ball-picker-7033c-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BBall%2BPicker%2B7033C%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8391,12 +8391,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-ball-picker-7033c-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Ball Picker 7033C table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Ball+Picker+7033C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Ball+Picker+7033C+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-glue-150ml",
@@ -8408,7 +8408,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-glue-150ml-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BGlue%2B-%2B150ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8416,12 +8416,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-glue-150ml-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Glue - 150ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Glue+-+150ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Glue+-+150ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-8003-racket-cover",
@@ -8433,7 +8433,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-8003-racket-cover-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B8003%2BRacket%2BCover%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8441,12 +8441,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-8003-racket-cover-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 8003 Racket Cover table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8003+Racket+Cover+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8003+Racket+Cover+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-8011-racket-cover",
@@ -8458,7 +8458,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-8011-racket-cover-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B8011%2BRacket%2BCover%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8466,12 +8466,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-8011-racket-cover-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 8011 Racket Cover table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8011+Racket+Cover+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8011+Racket+Cover+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-8023-round-racket-case",
@@ -8483,7 +8483,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-8023-round-racket-case-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B8023%2BRound%2BRacket%2BCase%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8491,12 +8491,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-8023-round-racket-case-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 8023 Round Racket Case table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8023+Round+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8023+Round+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-8014-hard-case",
@@ -8508,7 +8508,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-8014-hard-case-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B8014%2BHard%2BCase%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8516,12 +8516,12 @@ const seedProducts = [
       "MRP: ₹999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-8014-hard-case-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 8014 Hard Case table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8014+Hard+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+8014+Hard+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-rubber-cutting-machine",
@@ -8533,7 +8533,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-rubber-cutting-machine-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BRubber%2BCutting%2BMachine%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8541,12 +8541,12 @@ const seedProducts = [
       "MRP: ₹19,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-rubber-cutting-machine-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Rubber Cutting Machine table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Cutting+Machine+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Rubber+Cutting+Machine+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-blade-of-rubber-cutting-machine",
@@ -8558,7 +8558,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-blade-of-rubber-cutting-machine-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BBlade%2Bof%2BRubber%2BCutting%2BMachine%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8566,12 +8566,12 @@ const seedProducts = [
       "MRP: ₹1,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-blade-of-rubber-cutting-machine-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Blade of Rubber Cutting Machine table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Blade+of+Rubber+Cutting+Machine+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Blade+of+Rubber+Cutting+Machine+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-x231-white-and-blue",
@@ -8583,7 +8583,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-x231-white-and-blue-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BX231%2BWhite%2B%2526%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8591,12 +8591,12 @@ const seedProducts = [
       "MRP: ₹4,999",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-x231-white-and-blue-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe X231 White & Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+X231+White+%26+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+X231+White+%26+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-pro-25v-25mm-table",
@@ -8608,7 +8608,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/catalog/yinhe-yinhe-pro-25v-25mm-table-yinhe-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BPro-25V%2B25mm%2BTable%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Table product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8616,12 +8616,12 @@ const seedProducts = [
       "MRP: ₹75,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/yinhe-yinhe-pro-25v-25mm-table-yinhe-safe.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe Pro-25V 25mm Table table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Pro-25V+25mm+Table+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+Pro-25V+25mm+Table+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-60011-26a-26d-latest-t-shirt",
@@ -8633,7 +8633,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/product-fallbacks/yinhe-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2B60011%2B-%2B26A%252C%2B26D%2BLatest%2BT-Shirt%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8641,12 +8641,12 @@ const seedProducts = [
       "MRP: ₹2,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/yinhe-clothing.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe 60011 - 26A, 26D Latest T-Shirt table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+60011+-+26A%2C+26D+Latest+T-Shirt+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+60011+-+26A%2C+26D+Latest+T-Shirt+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-p1201-racket",
@@ -8658,7 +8658,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/product-fallbacks/yinhe-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BP1201%2BRacket%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8666,13 +8666,13 @@ const seedProducts = [
       "MRP: ₹6,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe P1201 Racket table tennis product official image",
     "hidden": true,
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1201+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1201+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "yinhe-yinhe-p1301-racket",
@@ -8684,7 +8684,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#3c77ff",
-    "image": "assets/product-fallbacks/yinhe-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DYinhe%2BYinHe%2BP1301%2BRacket%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "YinHe Pickleball product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: YinHe",
@@ -8692,13 +8692,13 @@ const seedProducts = [
       "MRP: ₹5,000",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/yinhe-rackets.svg",
+    "fallbackImage": "assets/banners/yinhe-poster.webp",
     "searchImageQuery": "Yinhe YinHe P1301 Racket table tennis product official image",
     "hidden": true,
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1301+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Yinhe+YinHe+P1301+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-cybershape-carbon-cwt-truls-edition",
@@ -8710,7 +8710,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-cybershape-carbon-cwt-truls-edition-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCybershape%2BCarbon%2BCWT%2BTruls%2BEdition%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8719,12 +8719,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://www.stigasports.com/en/product/cybershape-carbon-cwt",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-carbon-cwt-truls-edition-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Cybershape Carbon CWT Truls Edition table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Carbon+CWT+Truls+Edition+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Carbon+CWT+Truls+Edition+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-cybershape-carbon-cwt",
@@ -8736,7 +8736,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-cybershape-carbon-cwt-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCybershape%2BCarbon%2BCWT%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8745,12 +8745,12 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://www.stigasports.com/en/product/cybershape-carbon-cwt",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-carbon-cwt-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Cybershape Carbon CWT table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Carbon+CWT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Carbon+CWT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-cybershape-wood-cwt",
@@ -8762,7 +8762,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-cybershape-wood-cwt-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCybershape%2BWood%2BCWT%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8770,12 +8770,12 @@ const seedProducts = [
       "MRP: ₹16,910",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-wood-cwt-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Cybershape Wood CWT table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wood+CWT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wood+CWT+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-cybershape-carbon",
@@ -8787,7 +8787,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-cybershape-carbon-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://www.stigasports.com/_next/image%3Fq%3D75%26url%3Dhttps%253A%252F%252Fstigasports.centracdn.net%252Fclient%252Fdynamic%252Fimages%252F4363_c816b63591-cybershape-master-one-full.jpg%26w%3D1920&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8796,11 +8796,11 @@ const seedProducts = [
       "Price source: supplied price list"
     ],
     "officialProductUrl": "https://www.stigasports.com/en/product/cybershape-carbon",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-carbon-guaranteed.svg",
-    "remoteImage": "https://www.stigasports.com/_next/image?q=75&url=https%3A%2F%2Fstigasports.centracdn.net%2Fclient%2Fdynamic%2Fimages%2F4363_c816b63591-cybershape-master-one-full.jpg&w=1920"
+    "originalImage": "https://www.stigasports.com/_next/image?q=75&url=https%3A%2F%2Fstigasports.centracdn.net%2Fclient%2Fdynamic%2Fimages%2F4363_c816b63591-cybershape-master-one-full.jpg&w=1920",
+    "fallbackImage": "assets/banners/stiga-poster.webp"
   },
   {
     "id": "stiga-stiga-cybershape-wood",
@@ -8812,7 +8812,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-cybershape-wood-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCybershape%2BWood%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8820,12 +8820,12 @@ const seedProducts = [
       "MRP: ₹13,300",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-wood-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Cybershape Wood table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wood+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wood+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-cybershape-clipper",
@@ -8837,7 +8837,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-cybershape-clipper-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCybershape%2BClipper%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8845,12 +8845,12 @@ const seedProducts = [
       "MRP: ₹12,350",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-clipper-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Cybershape Clipper table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Clipper+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Clipper+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-cybershape-wavy-ultrafibre-master-jw",
@@ -8862,7 +8862,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-cybershape-wavy-ultrafibre-master-jw-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCybershape%2BWavy%2BUltrafibre%2BMaster%2BJW%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8870,12 +8870,12 @@ const seedProducts = [
       "MRP: ₹9,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-cybershape-wavy-ultrafibre-master-jw-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Cybershape Wavy Ultrafibre Master JW table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wavy+Ultrafibre+Master+JW+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Cybershape+Wavy+Ultrafibre+Master+JW+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-allround-classic",
@@ -8887,7 +8887,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-allround-classic-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BAllround%2BClassic%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8895,12 +8895,12 @@ const seedProducts = [
       "MRP: ₹9,310",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-allround-classic-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Allround Classic table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Allround+Classic+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Allround+Classic+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-carbon-cwt-truls-jw-classic",
@@ -8912,7 +8912,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-carbon-cwt-truls-jw-classic-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCarbon%2BCWT%2BTruls%2BJW%2B%2528Classic%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8920,12 +8920,12 @@ const seedProducts = [
       "MRP: ₹36,100",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-carbon-cwt-truls-jw-classic-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Carbon CWT Truls JW (Classic) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Carbon+CWT+Truls+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Carbon+CWT+Truls+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-carbon-truls-jw-classic",
@@ -8937,7 +8937,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-carbon-truls-jw-classic-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BCarbon%2BTruls%2BJW%2B%2528Classic%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8945,12 +8945,12 @@ const seedProducts = [
       "MRP: ₹32,100",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-carbon-truls-jw-classic-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Carbon Truls JW (Classic) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Carbon+Truls+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Carbon+Truls+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-destiny-carbon",
@@ -8962,7 +8962,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-destiny-carbon-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BDestiny%2BCarbon%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8970,12 +8970,12 @@ const seedProducts = [
       "MRP: ₹24,700",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-destiny-carbon-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Destiny Carbon table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Destiny+Carbon+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Destiny+Carbon+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-inspira-plus-wang-manyu",
@@ -8987,7 +8987,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-inspira-plus-wang-manyu-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BInspira%2BPlus%2B-%2BWang%2BManyu%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -8995,12 +8995,12 @@ const seedProducts = [
       "MRP: ₹23,750",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-inspira-plus-wang-manyu-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Inspira Plus - Wang Manyu table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Inspira+Plus+-+Wang+Manyu+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Inspira+Plus+-+Wang+Manyu+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-infinity-vps",
@@ -9012,7 +9012,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-infinity-vps-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BInfinity%2BVPS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9020,12 +9020,12 @@ const seedProducts = [
       "MRP: ₹12,350",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-infinity-vps-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Infinity VPS table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Infinity+VPS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Infinity+VPS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-clipper-cr",
@@ -9037,7 +9037,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-clipper-cr-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BClipper%2BCR%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9045,12 +9045,12 @@ const seedProducts = [
       "MRP: ₹10,450",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-clipper-cr-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Clipper CR table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Clipper+CR+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Clipper+CR+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-wavy-ultrafibre-master-jw-classic",
@@ -9062,7 +9062,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-wavy-ultrafibre-master-jw-classic-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BWavy%2BUltrafibre%2BMaster%2BJW%2B%2528Classic%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9070,12 +9070,12 @@ const seedProducts = [
       "MRP: ₹9,500",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-wavy-ultrafibre-master-jw-classic-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Wavy Ultrafibre Master JW (Classic) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Wavy+Ultrafibre+Master+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Wavy+Ultrafibre+Master+JW+%28Classic%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-offensive-classic-master",
@@ -9087,7 +9087,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-offensive-classic-master-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BOffensive%2BClassic%2B%2528Master%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9095,12 +9095,12 @@ const seedProducts = [
       "MRP: ₹8,550",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-offensive-classic-master-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Offensive Classic (Master) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Offensive+Classic+%28Master%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Offensive+Classic+%28Master%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-offensive-classic-winner-old-packing",
@@ -9112,7 +9112,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-offensive-classic-winner-old-packing-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BOffensive%2BClassic%2B%2528Winner%2529%2B%2528Old%2BPacking%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9120,12 +9120,12 @@ const seedProducts = [
       "MRP: ₹8,550",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-offensive-classic-winner-old-packing-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Offensive Classic (Winner) (Old Packing) table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Offensive+Classic+%28Winner%29+%28Old+Packing%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Offensive+Classic+%28Winner%29+%28Old+Packing%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-s-5000-wrb",
@@ -9137,7 +9137,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-s-5000-wrb-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BS%2B5000%2BWRB%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9145,12 +9145,12 @@ const seedProducts = [
       "MRP: ₹4,560",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-s-5000-wrb-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga S 5000 WRB table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+S+5000+WRB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+S+5000+WRB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-s-2000-wrb",
@@ -9162,7 +9162,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-s-2000-wrb-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BS%2B2000%2BWRB%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Blade product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9170,12 +9170,12 @@ const seedProducts = [
       "MRP: ₹3,230",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-s-2000-wrb-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga S 2000 WRB table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+S+2000+WRB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+S+2000+WRB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-dragon-power-52-5-55",
@@ -9187,7 +9187,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-dragon-power-52-5-55-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BDragon%2BPower%2B52.5%252F55%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9197,10 +9197,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-dragon-power-52-5-55-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Dragon Power 52.5/55 table tennis product official image",
     "availableColors": [
       "Red",
@@ -9208,7 +9208,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Dragon+Power+52.5%2F55+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Dragon+Power+52.5%2F55+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-dna-hybrid-h-xh",
@@ -9220,7 +9220,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-dna-hybrid-h-xh-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BDNA%2BHybrid%2B%2528H%252FXH%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9230,10 +9230,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-dna-hybrid-h-xh-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga DNA Hybrid (H/XH) table tennis product official image",
     "availableColors": [
       "Red",
@@ -9241,7 +9241,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Hybrid+%28H%2FXH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Hybrid+%28H%2FXH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-dna-platinum-m-h-xh",
@@ -9253,7 +9253,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-dna-platinum-m-h-xh-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BDNA%2BPlatinum%2B%2528M%252FH%252FXH%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9263,10 +9263,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-dna-platinum-m-h-xh-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga DNA Platinum (M/H/XH) table tennis product official image",
     "availableColors": [
       "Red",
@@ -9274,7 +9274,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Platinum+%28M%2FH%2FXH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Platinum+%28M%2FH%2FXH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-dna-pro-m-h",
@@ -9286,7 +9286,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-dna-pro-m-h-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BDNA%2BPro%2B%2528M%252FH%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9296,10 +9296,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-dna-pro-m-h-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga DNA Pro (M/H) table tennis product official image",
     "availableColors": [
       "Red",
@@ -9307,7 +9307,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Pro+%28M%2FH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+DNA+Pro+%28M%2FH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-mantra-pro-m-h",
@@ -9319,7 +9319,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-mantra-pro-m-h-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BMantra%2BPro%2B%2528M%252FH%2529%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9329,10 +9329,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-mantra-pro-m-h-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Mantra Pro (M/H) table tennis product official image",
     "availableColors": [
       "Red",
@@ -9340,7 +9340,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Pro+%28M%2FH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Pro+%28M%2FH%29+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-symmetry-short-pimple-1-9",
@@ -9352,7 +9352,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-symmetry-short-pimple-1-9-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BSymmetry%2B%2528Short%2BPimple%2529%2B1.9%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9362,10 +9362,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-symmetry-short-pimple-1-9-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Symmetry (Short Pimple) 1.9 table tennis product official image",
     "availableColors": [
       "Red",
@@ -9373,7 +9373,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Symmetry+%28Short+Pimple%29+1.9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Symmetry+%28Short+Pimple%29+1.9+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-mantra-sound",
@@ -9385,7 +9385,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-mantra-sound-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BMantra%2BSound%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9395,10 +9395,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-mantra-sound-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Mantra Sound table tennis product official image",
     "availableColors": [
       "Red",
@@ -9406,7 +9406,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Sound+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Sound+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-mantra-control",
@@ -9418,7 +9418,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-mantra-control-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BMantra%2BControl%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Rubber product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9428,10 +9428,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-mantra-control-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Mantra Control table tennis product official image",
     "availableColors": [
       "Red",
@@ -9439,7 +9439,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Control+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Mantra+Control+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-haze-double-racket-case",
@@ -9451,7 +9451,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-haze-double-racket-case-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BHaze%2BDouble%2BRacket%2BCase%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9459,12 +9459,12 @@ const seedProducts = [
       "MRP: ₹3,100",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-haze-double-racket-case-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Haze Double Racket Case table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Haze+Double+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Haze+Double+Racket+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-perform-premium-3-star-wtt-balls",
@@ -9476,7 +9476,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-stiga-perform-premium-3-star-wtt-balls-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BPerform%2BPremium%2B3%2BStar%2BWTT%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9484,12 +9484,12 @@ const seedProducts = [
       "MRP: ₹1,872",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-stiga-perform-premium-3-star-wtt-balls-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Perform Premium 3 Star WTT Balls table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Perform+Premium+3+Star+WTT+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Perform+Premium+3+Star+WTT+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-cosco-boom-balls",
@@ -9501,7 +9501,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-cosco-boom-balls-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BCosco%2BBoom%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Balls product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9509,12 +9509,12 @@ const seedProducts = [
       "MRP: ₹420",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-cosco-boom-balls-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Cosco Boom Balls table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Cosco+Boom+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Cosco+Boom+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-new-polo-tshirt",
@@ -9526,7 +9526,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/product-fallbacks/stiga-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BNew%2BPolo%2BTshirt%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9534,12 +9534,12 @@ const seedProducts = [
       "MRP: ₹3,990",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga New Polo Tshirt table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Polo+Tshirt+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Polo+Tshirt+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-new-shorts",
@@ -9551,7 +9551,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/product-fallbacks/stiga-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BNew%2BShorts%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9559,12 +9559,12 @@ const seedProducts = [
       "MRP: ₹2,090",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga New Shorts table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Shorts+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+New+Shorts+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-tshirt-children",
@@ -9576,7 +9576,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/product-fallbacks/stiga-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BTShirt%2B-%2BChildren%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9584,12 +9584,12 @@ const seedProducts = [
       "MRP: ₹2,280",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga TShirt - Children table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+TShirt+-+Children+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+TShirt+-+Children+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-towel",
@@ -9601,7 +9601,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/product-fallbacks/stiga-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BTowel%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9609,12 +9609,12 @@ const seedProducts = [
       "MRP: ₹1,575",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Towel table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Towel+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Towel+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-stiga-socks",
@@ -9626,7 +9626,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/product-fallbacks/stiga-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BStiga%2BSocks%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Apparel product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9634,12 +9634,12 @@ const seedProducts = [
       "MRP: ₹475",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/stiga-clothing.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Stiga Socks table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Socks+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Stiga+Socks+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "stiga-donic-faze-racket-case-double",
@@ -9651,7 +9651,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f2b705",
-    "image": "assets/catalog/stiga-donic-faze-racket-case-double-stiga-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DStiga%2BDonic%2BFaze%2BRacket%2BCase%2BDouble%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Stiga Accessory product listed at official MRP from the supplied 2026 price list.",
     "features": [
       "Brand: Stiga",
@@ -9659,12 +9659,12 @@ const seedProducts = [
       "MRP: ₹675",
       "Price source: supplied price list"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/stiga-donic-faze-racket-case-double-stiga-safe.svg",
+    "fallbackImage": "assets/banners/stiga-poster.webp",
     "searchImageQuery": "Stiga Donic Faze Racket Case Double table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Stiga+Donic+Faze+Racket+Case+Double+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Stiga+Donic+Faze+Racket+Case+Double+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-v52-5-red",
@@ -9676,7 +9676,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-v52-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BV52.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H V52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9688,10 +9688,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v52-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H V52.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -9699,7 +9699,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-v52-5-black",
@@ -9711,7 +9711,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-v52-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BV52.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H V52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9723,10 +9723,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v52-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H V52.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -9734,7 +9734,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-v47-5-red",
@@ -9746,7 +9746,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-v47-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BV47.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H V47.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9758,10 +9758,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v47-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H V47.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -9769,7 +9769,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-v47-5-black",
@@ -9781,7 +9781,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-v47-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BV47.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H V47.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9793,10 +9793,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/v525-475-jh/459/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-v47-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H V47.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -9804,7 +9804,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+V47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-x50-0-red",
@@ -9816,7 +9816,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-x50-0-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BX50.0%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H X50.0 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9827,10 +9827,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x50-0-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H X50.0 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -9838,7 +9838,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X50.0+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X50.0+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-x50-0-black",
@@ -9850,7 +9850,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-x50-0-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BX50.0%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H X50.0 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9861,10 +9861,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x50-0-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H X50.0 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -9872,7 +9872,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X50.0+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X50.0+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-x47-5-red",
@@ -9884,7 +9884,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-x47-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BX47.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H X47.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9895,10 +9895,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x47-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H X47.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -9906,7 +9906,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-x47-5-black",
@@ -9918,7 +9918,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-x47-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BX47.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H X47.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9929,10 +9929,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-x47-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H X47.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -9940,7 +9940,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+X47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-h-52-5-red",
@@ -9952,7 +9952,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-h-52-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BH%2B52.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H H 52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9963,10 +9963,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-h-52-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H H 52.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -9974,7 +9974,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+H+52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+H+52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-h-52-5-black",
@@ -9986,7 +9986,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-h-52-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BH%2B52.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H H 52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -9997,10 +9997,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-h-52-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H H 52.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10008,7 +10008,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+H+52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+H+52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-c52-5-red",
@@ -10020,7 +10020,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-c52-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BC52.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H C52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10031,10 +10031,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c52-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H C52.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10042,7 +10042,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-c52-5-black",
@@ -10054,7 +10054,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-c52-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BC52.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H C52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10065,10 +10065,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c52-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H C52.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10076,7 +10076,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-c55-0-red",
@@ -10088,7 +10088,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-c55-0-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BC55.0%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H C55.0 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10099,10 +10099,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c55-0-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H C55.0 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10110,7 +10110,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C55.0+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C55.0+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-c55-0-black",
@@ -10122,7 +10122,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-c55-0-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BC55.0%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H C55.0 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10133,10 +10133,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c55-0-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H C55.0 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10144,7 +10144,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C55.0+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C55.0+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-c57-5-red",
@@ -10156,7 +10156,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-c57-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BC57.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H C57.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10167,10 +10167,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c57-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H C57.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10178,7 +10178,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C57.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C57.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-c57-5-black",
@@ -10190,7 +10190,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-c57-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BC57.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H C57.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10201,10 +10201,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-c57-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H C57.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10212,7 +10212,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C57.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+C57.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-z52-5-red",
@@ -10224,7 +10224,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-z52-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BZ52.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H Z52.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10235,10 +10235,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-z52-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H Z52.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10246,7 +10246,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+Z52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+Z52.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-jandh-z52-5-black",
@@ -10258,7 +10258,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-jandh-z52-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BJ%2526H%2BZ52.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom J&H Z52.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10269,10 +10269,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-jandh-z52-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom J&H Z52.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10280,7 +10280,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+Z52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+J%26H+Z52.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-4-euro-red",
@@ -10292,7 +10292,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-4-euro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B4%2BEuro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 4 Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10303,10 +10303,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-euro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 4 Euro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10314,7 +10314,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-4-euro-black",
@@ -10326,7 +10326,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-4-euro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B4%2BEuro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 4 Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10337,10 +10337,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-euro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 4 Euro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10348,7 +10348,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-4-pro-red",
@@ -10360,7 +10360,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-4-pro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B4%2BPro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 4 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10371,10 +10371,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-pro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 4 Pro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10382,7 +10382,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-4-pro-black",
@@ -10394,7 +10394,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-4-pro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B4%2BPro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 4 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10405,10 +10405,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-4-pro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 4 Pro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10416,7 +10416,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+4+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-5-pro-red",
@@ -10428,7 +10428,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-5-pro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B5%2BPro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 5 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10439,10 +10439,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-pro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 5 Pro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10450,7 +10450,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-5-pro-black",
@@ -10462,7 +10462,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-5-pro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B5%2BPro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 5 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10473,10 +10473,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-pro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 5 Pro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10484,7 +10484,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-5-asia-red",
@@ -10496,7 +10496,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-5-asia-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B5%2BAsia%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 5 Asia - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10507,10 +10507,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-asia-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 5 Asia - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10518,7 +10518,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Asia+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Asia+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-5-asia-black",
@@ -10530,7 +10530,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-5-asia-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B5%2BAsia%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 5 Asia - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10541,10 +10541,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-5-asia-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 5 Asia - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10552,7 +10552,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Asia+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+5+Asia+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-asia-red",
@@ -10564,7 +10564,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-asia-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BAsia%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Asia - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10575,10 +10575,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-asia-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Asia - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10586,7 +10586,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Asia+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Asia+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-asia-black",
@@ -10598,7 +10598,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-asia-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BAsia%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Asia - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10609,10 +10609,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-asia-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Asia - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10620,7 +10620,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Asia+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Asia+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-euro-red",
@@ -10632,7 +10632,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-euro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BEuro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10643,10 +10643,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-euro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Euro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10654,7 +10654,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-euro-black",
@@ -10666,7 +10666,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-euro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BEuro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10677,10 +10677,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-euro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Euro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10688,7 +10688,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-pro-red",
@@ -10700,7 +10700,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-pro-red-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%253D%253D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10712,8 +10712,8 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-7-pro/466/category/182/display/1/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -10721,8 +10721,8 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-pro-red-guaranteed.svg",
-    "remoteImage": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%3D%3D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg"
+    "originalImage": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%3D%3D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg",
+    "fallbackImage": "assets/banners/xiom-poster.webp"
   },
   {
     "id": "xiom-xiom-omega-7-pro-black",
@@ -10734,7 +10734,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-pro-black-guaranteed.svg",
+    "image": "https://wsrv.nl/?url=https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%253D%253D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10746,8 +10746,8 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-7-pro/466/category/182/display/1/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
     "availableColors": [
       "Red",
@@ -10755,8 +10755,8 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-pro-black-guaranteed.svg",
-    "remoteImage": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%3D%3D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg"
+    "originalImage": "https://cafe24.poxo.com/ec01/championtt/S6XixLXKQIBS6XUNf2tKGqxw8viyhByA2k8mnbd5P7D7Iw0RUQkuUoYTNQpDjUuBYZk/Xq8giLcbxeQIvzpRLg%3D%3D/_/web/product/small/202504/e9e40e60a0947c5c661e5f18bccac25a.jpg",
+    "fallbackImage": "assets/banners/xiom-poster.webp"
   },
   {
     "id": "xiom-xiom-omega-8-pro-red",
@@ -10768,7 +10768,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-pro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BPro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10780,10 +10780,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-8-pro/1129",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-pro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 Pro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10791,7 +10791,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-8-pro-black",
@@ -10803,7 +10803,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-pro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BPro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10815,10 +10815,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://xiom.tt/product/omega-8-pro/1129",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-pro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 Pro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10826,7 +10826,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-8-china-red",
@@ -10838,7 +10838,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-china-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BChina%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 China - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10849,10 +10849,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-china-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 China - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10860,7 +10860,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+China+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+China+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-8-china-black",
@@ -10872,7 +10872,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-china-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BChina%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 China - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10883,10 +10883,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-china-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 China - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10894,7 +10894,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+China+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+China+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-8-euro-red",
@@ -10906,7 +10906,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-euro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BEuro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10917,10 +10917,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-euro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 Euro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10928,7 +10928,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-8-euro-black",
@@ -10940,7 +10940,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-euro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BEuro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10951,10 +10951,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-euro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 Euro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -10962,7 +10962,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-8-hybrid-red",
@@ -10974,7 +10974,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-hybrid-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BHybrid%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 Hybrid - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -10985,10 +10985,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-hybrid-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -10996,7 +10996,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Hybrid+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Hybrid+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-8-hybrid-black",
@@ -11008,7 +11008,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-8-hybrid-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B8%2BHybrid%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 8 Hybrid - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11019,10 +11019,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-8-hybrid-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 8 Hybrid - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11030,7 +11030,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Hybrid+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+8+Hybrid+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-50-red",
@@ -11042,7 +11042,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-tour-i-50-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BTour%2BI%2B50%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Tour I 50 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11053,10 +11053,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-50-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11064,7 +11064,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+50+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+50+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-50-black",
@@ -11076,7 +11076,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-tour-i-50-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BTour%2BI%2B50%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Tour I 50 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11087,10 +11087,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-50-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Tour I 50 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11098,7 +11098,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+50+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+50+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-47-5-red",
@@ -11110,7 +11110,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BTour%2BI%2B47.5%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Tour I 47.5 - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11121,10 +11121,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11132,7 +11132,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+47.5+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-omega-7-tour-i-47-5-black",
@@ -11144,7 +11144,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BOmega%2B7%2BTour%2BI%2B47.5%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Omega 7 Tour I 47.5 - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11155,10 +11155,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-omega-7-tour-i-47-5-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Omega 7 Tour I 47.5 - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11166,7 +11166,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Omega+7+Tour+I+47.5+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-pro-red",
@@ -11178,7 +11178,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-pro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BPro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Pro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11189,10 +11189,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Pro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11200,7 +11200,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-pro-black",
@@ -11212,7 +11212,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-pro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BPro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Pro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11223,10 +11223,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Pro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11234,7 +11234,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-euro-red",
@@ -11246,7 +11246,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-euro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BEuro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Euro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11257,10 +11257,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-euro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Euro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11268,7 +11268,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Euro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-euro-black",
@@ -11280,7 +11280,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-euro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BEuro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Euro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11291,10 +11291,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-euro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Euro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11302,7 +11302,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Euro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-intro-red",
@@ -11314,7 +11314,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-intro-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BIntro%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Intro - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11325,10 +11325,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-intro-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Intro - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11336,7 +11336,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Intro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Intro+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-intro-black",
@@ -11348,7 +11348,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-intro-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BIntro%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Intro - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11359,10 +11359,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-intro-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Intro - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11370,7 +11370,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Intro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Intro+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-japan-red",
@@ -11382,7 +11382,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-japan-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BJapan%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Japan - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11393,10 +11393,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-japan-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Japan - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11404,7 +11404,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Japan+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Japan+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-japan-black",
@@ -11416,7 +11416,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-japan-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BJapan%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Japan - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11427,10 +11427,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-japan-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Japan - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11438,7 +11438,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Japan+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Japan+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-korea-black",
@@ -11450,7 +11450,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-korea-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BKorea%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Korea - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11461,10 +11461,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-korea-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Korea - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11472,7 +11472,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Korea+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Korea+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-korea-blue",
@@ -11484,7 +11484,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-korea-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BKorea%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Korea - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11495,10 +11495,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-korea-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Korea - Blue table tennis product official image",
     "availableColors": [
       "Red",
@@ -11506,7 +11506,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Korea+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Korea+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-x-red",
@@ -11518,7 +11518,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-x-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BX%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega X - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11529,10 +11529,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-x-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega X - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11540,7 +11540,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+X+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+X+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-x-black",
@@ -11552,7 +11552,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-x-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BX%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega X - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11563,10 +11563,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-x-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega X - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11574,7 +11574,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+X+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+X+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-pro-hybrid-red",
@@ -11586,7 +11586,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-pro-hybrid-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BPro%2BHybrid%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Pro Hybrid - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11597,10 +11597,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-hybrid-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11608,7 +11608,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+Hybrid+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+Hybrid+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-pro-hybrid-black",
@@ -11620,7 +11620,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-pro-hybrid-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BPro%2BHybrid%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Pro Hybrid - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11631,10 +11631,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-pro-hybrid-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Pro Hybrid - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11642,7 +11642,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+Hybrid+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Pro+Hybrid+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-tour-red",
@@ -11654,7 +11654,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-tour-red-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BTour%2B-%2BRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Tour - Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11665,10 +11665,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-tour-red-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Tour - Red table tennis product official image",
     "availableColors": [
       "Red",
@@ -11676,7 +11676,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Tour+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Tour+-+Red+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-vega-tour-black",
@@ -11688,7 +11688,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-vega-tour-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BVega%2BTour%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Vega Tour - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11699,10 +11699,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-vega-tour-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Vega Tour - Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -11710,7 +11710,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Tour+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Vega+Tour+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ice-cream-azxi-orangeaxylium",
@@ -11722,7 +11722,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ice-cream-azxi-orangeaxylium-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BIce%2BCream%2BAZXi%2BOrangeAxylium%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Ice Cream AZXi OrangeAxylium listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11731,12 +11731,12 @@ const seedProducts = [
       "Source: Xiom price list effective 20 Mar 2026"
     ],
     "officialProductUrl": "https://xiom.tt/product/ice-cream-azxi/518/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ice-cream-azxi-orangeaxylium-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Ice Cream AZXi OrangeAxylium table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZXi+OrangeAxylium+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZXi+OrangeAxylium+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ice-cream-azx-orange-axylium",
@@ -11748,7 +11748,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ice-cream-azx-orange-axylium-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BIce%2BCream%2BAZX%2BOrange%2BAxylium%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Ice Cream AZX Orange Axylium listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11756,12 +11756,12 @@ const seedProducts = [
       "MRP: ₹21,089",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ice-cream-azx-orange-axylium-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Ice Cream AZX Orange Axylium table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZX+Orange+Axylium+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZX+Orange+Axylium+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ice-cream-azxi-pro",
@@ -11773,7 +11773,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ice-cream-azxi-pro-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BIce%2BCream%2BAZXi%2BPRO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Ice Cream AZXi PRO listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11782,12 +11782,12 @@ const seedProducts = [
       "Source: Xiom price list effective 20 Mar 2026"
     ],
     "officialProductUrl": "https://xiom.tt/product/ice-cream-azxi/518/",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ice-cream-azxi-pro-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Ice Cream AZXi PRO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZXi+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Ice+Cream+AZXi+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-19-offensive-s",
@@ -11799,7 +11799,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-19-offensive-s-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B19%2BOffensive%2BS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 19 Offensive S listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11807,12 +11807,12 @@ const seedProducts = [
       "MRP: ₹6,739",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-19-offensive-s-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 19 Offensive S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Offensive+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Offensive+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-19-allround-s",
@@ -11824,7 +11824,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-19-allround-s-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B19%2BAllround%2BS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 19 Allround S listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11832,12 +11832,12 @@ const seedProducts = [
       "MRP: ₹5,749",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-19-allround-s-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 19 Allround S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Allround+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Allround+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-zeta-offensive",
@@ -11849,7 +11849,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/product-fallbacks/xiom-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BZeta%2BOffensive%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Zeta Offensive listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11857,12 +11857,12 @@ const seedProducts = [
       "MRP: ₹4,869",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/xiom-rackets.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Zeta Offensive table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-zeta-offensive-plus",
@@ -11874,7 +11874,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/product-fallbacks/xiom-rackets.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BZeta%2BOffensive%2BPlus%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Zeta Offensive Plus listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11882,12 +11882,12 @@ const seedProducts = [
       "MRP: ₹5,629",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/xiom-rackets.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Zeta Offensive Plus table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+Plus+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zeta+Offensive+Plus+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-19-stradivarius",
@@ -11899,7 +11899,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-19-stradivarius-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B19%2BStradivarius%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 19 Stradivarius listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11907,12 +11907,12 @@ const seedProducts = [
       "MRP: ₹9,209",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-19-stradivarius-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 19 Stradivarius table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Stradivarius+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+19+Stradivarius+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-power-hinoki-penholder-blade",
@@ -11924,7 +11924,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-power-hinoki-penholder-blade-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BPower%2BHinoki%2BPenholder%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Power Hinoki Penholder Blade listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11932,12 +11932,12 @@ const seedProducts = [
       "MRP: ₹13,359",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-power-hinoki-penholder-blade-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Power Hinoki Penholder Blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Power+Hinoki+Penholder+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Power+Hinoki+Penholder+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-m-power-penholder-blade",
@@ -11949,7 +11949,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-m-power-penholder-blade-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BM-Power%2BPenholder%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom M-Power Penholder Blade listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11957,12 +11957,12 @@ const seedProducts = [
       "MRP: ₹6,529",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-m-power-penholder-blade-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom M-Power Penholder Blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+M-Power+Penholder+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+M-Power+Penholder+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-zetro-quad",
@@ -11974,7 +11974,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-zetro-quad-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BZetro%2BQuad%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Zetro Quad listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -11982,12 +11982,12 @@ const seedProducts = [
       "MRP: ₹14,029",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-zetro-quad-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Zetro Quad table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zetro+Quad+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Zetro+Quad+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ajh-tmx-i",
@@ -11999,7 +11999,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ajh-tmx-i-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BAJH%2BTMX%2Bi%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom AJH TMX i listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12007,12 +12007,12 @@ const seedProducts = [
       "MRP: ₹17,419",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ajh-tmx-i-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom AJH TMX i table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+AJH+TMX+i+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+AJH+TMX+i+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-cds-tmx-pro",
@@ -12024,7 +12024,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-cds-tmx-pro-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BCDS%2BTMX%2BPRO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom CDS TMX PRO listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12032,12 +12032,12 @@ const seedProducts = [
       "MRP: ₹20,079",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-cds-tmx-pro-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom CDS TMX PRO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+CDS+TMX+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+CDS+TMX+PRO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-hugo-alx-pro",
@@ -12049,7 +12049,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-hugo-alx-pro-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BHugo%2BALX%2BPro%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Hugo ALX Pro listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12057,12 +12057,12 @@ const seedProducts = [
       "MRP: ₹24,819",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-hugo-alx-pro-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Hugo ALX Pro table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Hugo+ALX+Pro+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Hugo+ALX+Pro+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-hugo-tmxi-pro",
@@ -12074,7 +12074,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-hugo-tmxi-pro-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BHugo%2BTMXi%2BPro%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Hugo TMXi Pro listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12082,12 +12082,12 @@ const seedProducts = [
       "MRP: ₹26,949",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-hugo-tmxi-pro-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Hugo TMXi Pro table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Hugo+TMXi+Pro+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Hugo+TMXi+Pro+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-racket-case-pink",
@@ -12099,7 +12099,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-racket-case-pink-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BRacket%2BCase%2B-%2BPink%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Racket Case - Pink listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12108,12 +12108,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-racket-case-pink-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Pink table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Pink+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Pink+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-racket-case-navy-blue",
@@ -12125,7 +12125,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-racket-case-navy-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BRacket%2BCase%2B-%2BNavy%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Racket Case - Navy Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12134,12 +12134,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-racket-case-navy-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Navy Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Navy+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Navy+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-racket-case-blue",
@@ -12151,7 +12151,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-racket-case-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BRacket%2BCase%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12160,12 +12160,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-racket-case-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-blue",
@@ -12177,7 +12177,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12186,12 +12186,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-purple",
@@ -12203,7 +12203,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-purple-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BPurple%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12212,12 +12212,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-purple-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Purple table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-l-blue",
@@ -12229,7 +12229,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-l-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BL%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - L Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12238,12 +12238,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-l-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - L Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+L+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+L+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-grey",
@@ -12255,7 +12255,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-grey-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BGrey%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12264,12 +12264,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-2-racket-case-grey-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Grey table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-neo-2-racket-case-dark-blue",
@@ -12281,7 +12281,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-neo-2-racket-case-dark-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BNeo%2B2%2BRacket%2BCase%2B-%2BDark%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Neo 2 Racket Case - Dark Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12290,12 +12290,12 @@ const seedProducts = [
       "MRP: ₹1,649",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-neo-2-racket-case-dark-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Neo 2 Racket Case - Dark Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Neo+2+Racket+Case+-+Dark+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Neo+2+Racket+Case+-+Dark+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-xiom-22xrc-navy",
@@ -12307,7 +12307,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-xiom-22xrc-navy-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXiom%2B22XRC%2B-%2BNavy%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Xiom 22XRC - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12316,12 +12316,12 @@ const seedProducts = [
       "MRP: ₹2,599",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-xiom-22xrc-navy-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Xiom 22XRC - Navy table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-xiom-22xrc-grey",
@@ -12333,7 +12333,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-xiom-22xrc-grey-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXiom%2B22XRC%2B-%2BGrey%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Xiom 22XRC - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12342,12 +12342,12 @@ const seedProducts = [
       "MRP: ₹2,599",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-xiom-22xrc-grey-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Xiom 22XRC - Grey table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-xiom-22xrc-purple",
@@ -12359,7 +12359,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-xiom-22xrc-purple-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXiom%2B22XRC%2B-%2BPurple%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Xiom 22XRC - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12368,12 +12368,12 @@ const seedProducts = [
       "MRP: ₹2,599",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-xiom-22xrc-purple-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Xiom 22XRC - Purple table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-20-rc30-blue",
@@ -12385,7 +12385,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-20-rc30-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B20%2BRC30%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 20 RC30 - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12394,12 +12394,12 @@ const seedProducts = [
       "MRP: ₹1,259",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-20-rc30-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 20 RC30 - Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+20+RC30+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+20+RC30+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-bravoplus-6-pack",
@@ -12411,7 +12411,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-bravoplus-6-pack-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BBravo%252B%2B6%2BPack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Bravo+ 6 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12419,12 +12419,12 @@ const seedProducts = [
       "MRP: ₹949",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-bravoplus-6-pack-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Bravo+ 6 Pack table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Bravo%2B+6+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Bravo%2B+6+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-bravo-6-pack",
@@ -12436,7 +12436,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-bravo-6-pack-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BBravo%2B6%2BPack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Bravo 6 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12444,12 +12444,12 @@ const seedProducts = [
       "MRP: ₹949",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-bravo-6-pack-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Bravo 6 Pack table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Bravo+6+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Bravo+6+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-sensa-training-100-pack",
@@ -12461,7 +12461,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-sensa-training-100-pack-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BSENSA%2BTraining%2B100%2BPack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom SENSA Training 100 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12469,12 +12469,12 @@ const seedProducts = [
       "MRP: ₹4,169",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-sensa-training-100-pack-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom SENSA Training 100 Pack table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+SENSA+Training+100+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+SENSA+Training+100+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-xtr-training-100-pack",
@@ -12486,7 +12486,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-xtr-training-100-pack-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXTR%2BTraining%2B100%2BPack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom XTR Training 100 Pack listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12494,12 +12494,12 @@ const seedProducts = [
       "MRP: ₹4,959",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-xtr-training-100-pack-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom XTR Training 100 Pack table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+XTR+Training+100+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+XTR+Training+100+Pack+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-table-tennis-ball-dhs",
@@ -12511,7 +12511,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-table-tennis-ball-dhs-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTable%2BTennis%2BBall%2B-%2BDHS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Table Tennis Ball - DHS listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12520,12 +12520,12 @@ const seedProducts = [
       "MRP: ₹1,319",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-table-tennis-ball-dhs-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Table Tennis Ball - DHS table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Table+Tennis+Ball+-+DHS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Table+Tennis+Ball+-+DHS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-muv-m-7-0-s",
@@ -12537,7 +12537,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-muv-m-7-0-s-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BMUV%2BM%2B7.0%2BS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom MUV M 7.0 S listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12545,12 +12545,12 @@ const seedProducts = [
       "MRP: ₹3,559",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-muv-m-7-0-s-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom MUV M 7.0 S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+MUV+M+7.0+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+MUV+M+7.0+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-muv-m-9-0-s",
@@ -12562,7 +12562,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-muv-m-9-0-s-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BMUV%2BM%2B9.0%2BS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom MUV M 9.0 S listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12570,12 +12570,12 @@ const seedProducts = [
       "MRP: ₹5,259",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-muv-m-9-0-s-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom MUV M 9.0 S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+MUV+M+9.0+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+MUV+M+9.0+S+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-pro-t-bond-20ml",
@@ -12587,7 +12587,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-pro-t-bond-20ml-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BPRO%2BT%2BBond%2B20ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom PRO T Bond 20ml listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12595,12 +12595,12 @@ const seedProducts = [
       "MRP: ₹889",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-pro-t-bond-20ml-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom PRO T Bond 20ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+PRO+T+Bond+20ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+PRO+T+Bond+20ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-pro-t-bond-70ml",
@@ -12612,7 +12612,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-pro-t-bond-70ml-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BPro%2BT%2BBond%2B70ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Pro T Bond 70ml listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12620,12 +12620,12 @@ const seedProducts = [
       "MRP: ₹2,829",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-pro-t-bond-70ml-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Pro T Bond 70ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Pro+T+Bond+70ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Pro+T+Bond+70ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-pro-t-bond-100ml",
@@ -12637,7 +12637,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-pro-t-bond-100ml-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BPro%2BT%2BBond%2B100ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Pro T Bond 100ml listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12645,12 +12645,12 @@ const seedProducts = [
       "MRP: ₹2,719",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-pro-t-bond-100ml-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Pro T Bond 100ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Pro+T+Bond+100ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Pro+T+Bond+100ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-xiom-cleaner-60ml",
@@ -12662,7 +12662,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-xiom-cleaner-60ml-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXiom%2BCleaner%2B-%2B60ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Xiom Cleaner - 60ml listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12671,12 +12671,12 @@ const seedProducts = [
       "MRP: ₹929",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-xiom-cleaner-60ml-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Xiom Cleaner - 60ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+Cleaner+-+60ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+Cleaner+-+60ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-n10",
@@ -12688,7 +12688,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-n10-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BN10%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom N10 listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12696,12 +12696,12 @@ const seedProducts = [
       "MRP: ₹4,829",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-n10-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom N10 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+N10+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+N10+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-xsb-magnum-sports-bag",
@@ -12713,7 +12713,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-xsb-magnum-sports-bag-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXSB%2BMagnum%2BSports%2BBag%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom XSB Magnum Sports Bag listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12721,12 +12721,12 @@ const seedProducts = [
       "MRP: ₹14,549",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-xsb-magnum-sports-bag-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom XSB Magnum Sports Bag table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+XSB+Magnum+Sports+Bag+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+XSB+Magnum+Sports+Bag+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-anatomy-sb",
@@ -12738,7 +12738,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-anatomy-sb-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BAnatomy%2BSB%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Anatomy SB listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12746,12 +12746,12 @@ const seedProducts = [
       "MRP: ₹12,619",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-anatomy-sb-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Anatomy SB table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Anatomy+SB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Anatomy+SB+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-xbp",
@@ -12763,7 +12763,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-xbp-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BXBP%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 XBP listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12771,12 +12771,12 @@ const seedProducts = [
       "MRP: ₹4,729",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-xbp-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 XBP table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+XBP+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+XBP+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-22xbc-ball-case-navy",
@@ -12788,7 +12788,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-22xbc-ball-case-navy-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B22XBC%2BBall%2BCase%2B-%2BNavy%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 22XBC Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12797,12 +12797,12 @@ const seedProducts = [
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-22xbc-ball-case-navy-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 22XBC Ball Case - Navy table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-22xbc-ball-case-purple",
@@ -12814,7 +12814,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-22xbc-ball-case-purple-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B22XBC%2BBall%2BCase%2B-%2BPurple%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 22XBC Ball Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12823,12 +12823,12 @@ const seedProducts = [
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-22xbc-ball-case-purple-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 22XBC Ball Case - Purple table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-22xbc-ball-case-grey",
@@ -12840,7 +12840,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-22xbc-ball-case-grey-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B22XBC%2BBall%2BCase%2B-%2BGrey%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 22XBC Ball Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12849,12 +12849,12 @@ const seedProducts = [
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-22xbc-ball-case-grey-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 22XBC Ball Case - Grey table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22XBC+Ball+Case+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-ball-case-navy",
@@ -12866,7 +12866,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-ball-case-navy-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BBall%2BCase%2B-%2BNavy%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Ball Case - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12875,12 +12875,12 @@ const seedProducts = [
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-ball-case-navy-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Ball Case - Navy table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Ball+Case+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Ball+Case+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-tikkywow-ball-case-orange",
@@ -12892,7 +12892,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-tikkywow-ball-case-orange-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BBall%2BCase%2B-%2BOrange%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Ball Case - Orange listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12901,12 +12901,12 @@ const seedProducts = [
       "MRP: ₹1,099",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-tikkywow-ball-case-orange-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Ball Case - Orange table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Ball+Case+-+Orange+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Ball+Case+-+Orange+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-22-side-tape-black",
@@ -12918,7 +12918,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-22-side-tape-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B22%2BSide%2BTape%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 22 Side Tape - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12927,12 +12927,12 @@ const seedProducts = [
       "MRP: ₹6,009",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-22-side-tape-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 22 Side Tape - Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22+Side+Tape+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22+Side+Tape+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-22-side-tape-blue",
@@ -12944,7 +12944,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-22-side-tape-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B22%2BSide%2BTape%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 22 Side Tape - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12953,12 +12953,12 @@ const seedProducts = [
       "MRP: ₹6,009",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-22-side-tape-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 22 Side Tape - Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22+Side+Tape+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+22+Side+Tape+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-black",
@@ -12970,7 +12970,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-black-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BSide%2BTape%2BLogo%2B5Mtr%252F12mm%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12979,12 +12979,12 @@ const seedProducts = [
       "MRP: ₹2,169",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-black-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-blue",
@@ -12996,7 +12996,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BSide%2BTape%2BLogo%2B5Mtr%252F12mm%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13005,12 +13005,12 @@ const seedProducts = [
       "MRP: ₹2,169",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-pink",
@@ -13022,7 +13022,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-pink-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BSide%2BTape%2BLogo%2B5Mtr%252F12mm%2B-%2BPink%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Pink listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13031,12 +13031,12 @@ const seedProducts = [
       "MRP: ₹2,169",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-pink-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Pink table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Pink+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Pink+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-side-tape-logo-5mtr-12mm-brown",
@@ -13048,7 +13048,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-brown-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BSide%2BTape%2BLogo%2B5Mtr%252F12mm%2B-%2BBrown%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 Side Tape Logo 5Mtr/12mm - Brown listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13057,12 +13057,12 @@ const seedProducts = [
       "MRP: ₹2,169",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-side-tape-logo-5mtr-12mm-brown-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 Side Tape Logo 5Mtr/12mm - Brown table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Brown+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+Side+Tape+Logo+5Mtr%2F12mm+-+Brown+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-23-edge-tape-pink-blue",
@@ -13074,7 +13074,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-23-edge-tape-pink-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B23%2BEdge%2BTape%2B-%2BPink%252FBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 23 Edge Tape - Pink/Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13083,12 +13083,12 @@ const seedProducts = [
       "MRP: ₹589",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-23-edge-tape-pink-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 23 Edge Tape - Pink/Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+23+Edge+Tape+-+Pink%2FBlue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+23+Edge+Tape+-+Pink%2FBlue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-o-foil-pink-gree-n",
@@ -13100,7 +13100,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-o-foil-pink-gree-n-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BO-FOIL%2B-%2BPink%252FGree%2Bn%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 O-FOIL - Pink/Gree n listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13109,12 +13109,12 @@ const seedProducts = [
       "MRP: ₹589",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-o-foil-pink-gree-n-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 O-FOIL - Pink/Gree n table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Pink%2FGree+n+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Pink%2FGree+n+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-o-foil-neon-blu-e",
@@ -13126,7 +13126,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-o-foil-neon-blu-e-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BO-FOIL%2B-%2BNeon%252FBlu%2Be%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 O-FOIL - Neon/Blu e listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13135,12 +13135,12 @@ const seedProducts = [
       "MRP: ₹589",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-o-foil-neon-blu-e-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 O-FOIL - Neon/Blu e table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Neon%2FBlu+e+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Neon%2FBlu+e+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-o-foil-jekyll-and-hyde",
@@ -13152,7 +13152,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-24-o-foil-jekyll-and-hyde-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BO-FOIL%2B-%2BJekyll%2B%2526%2BHyde%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 O-FOIL - Jekyll & Hyde listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13161,12 +13161,12 @@ const seedProducts = [
       "MRP: ₹589",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-24-o-foil-jekyll-and-hyde-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 O-FOIL - Jekyll & Hyde table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Jekyll+%26+Hyde+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+O-FOIL+-+Jekyll+%26+Hyde+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-24-xst-mirae-short-towel-blue-red",
@@ -13178,7 +13178,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/product-fallbacks/xiom-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B24%2BXST%2BMirae%2BShort%2BTowel%2B-%2BBlue%252FRed%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 24 XST Mirae Short Towel - Blue/Red listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13187,12 +13187,12 @@ const seedProducts = [
       "MRP: ₹1,529",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 24 XST Mirae Short Towel - Blue/Red table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+XST+Mirae+Short+Towel+-+Blue%2FRed+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+24+XST+Mirae+Short+Towel+-+Blue%2FRed+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-t-capsule",
@@ -13204,7 +13204,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-t-capsule-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BT-Capsule%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom T-Capsule listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13212,12 +13212,12 @@ const seedProducts = [
       "MRP: ₹679",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-t-capsule-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom T-Capsule table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+T-Capsule+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+T-Capsule+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ft-igre-2-white",
@@ -13229,7 +13229,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ft-igre-2-white-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BFT%2BIGRE%2B2%2B-%2BWhite%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom FT IGRE 2 - White listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13238,12 +13238,12 @@ const seedProducts = [
       "MRP: ₹9,209",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-2-white-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom FT IGRE 2 - White table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+2+-+White+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+2+-+White+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ft-igre-2-purple",
@@ -13255,7 +13255,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ft-igre-2-purple-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BFT%2BIGRE%2B2%2B-%2BPurple%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom FT IGRE 2 - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13264,12 +13264,12 @@ const seedProducts = [
       "MRP: ₹9,209",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-2-purple-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom FT IGRE 2 - Purple table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+2+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+2+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ft-igre-5-magenta",
@@ -13281,7 +13281,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ft-igre-5-magenta-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BFT%2BIGRE%2B5%2B-%2BMagenta%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom FT IGRE 5 - Magenta listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13290,12 +13290,12 @@ const seedProducts = [
       "MRP: ₹9,209",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-5-magenta-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom FT IGRE 5 - Magenta table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+5+-+Magenta+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+5+-+Magenta+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-ft-igre-5-blue",
@@ -13307,7 +13307,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/catalog/xiom-xiom-ft-igre-5-blue-xiom-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BFT%2BIGRE%2B5%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom FT IGRE 5 - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13316,12 +13316,12 @@ const seedProducts = [
       "MRP: ₹9,209",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/xiom-xiom-ft-igre-5-blue-xiom-safe.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom FT IGRE 5 - Blue table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+5+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+FT+IGRE+5+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-albert-m-black",
@@ -13333,7 +13333,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/product-fallbacks/xiom-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BAlbert%2BM%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Albert M - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13342,12 +13342,12 @@ const seedProducts = [
       "MRP: ₹4,299",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Albert M - Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+M+-+Black+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+M+-+Black+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-albert-l-black",
@@ -13359,7 +13359,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/product-fallbacks/xiom-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BAlbert%2BL%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Albert L - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13368,12 +13368,12 @@ const seedProducts = [
       "MRP: ₹4,299",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Albert L - Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+L+-+Black+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+L+-+Black+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "xiom-xiom-albert-xl-black",
@@ -13385,7 +13385,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "assets/product-fallbacks/xiom-clothing.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BAlbert%2BXL%2B-%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Albert XL - Black listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -13394,12 +13394,12 @@ const seedProducts = [
       "MRP: ₹4,299",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/product-fallbacks/xiom-clothing.svg",
+    "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Albert XL - Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+XL+-+Black+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Albert+XL+-+Black+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-nuzn-50-max",
@@ -13411,7 +13411,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-nuzn-50-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BNuzn%2B50%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Nuzn 50 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13422,10 +13422,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/nuzn-50",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-nuzn-50-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Nuzn 50 max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13433,7 +13433,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+50+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+50+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-nuzn-55-max",
@@ -13445,7 +13445,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-nuzn-55-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BNuzn%2B55%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Nuzn 55 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13456,10 +13456,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/nuzn-55",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-nuzn-55-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Nuzn 55 max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13467,7 +13467,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+55+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+55+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-nuzn-48-max",
@@ -13479,7 +13479,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-nuzn-48-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BNuzn%2B48%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Nuzn 48 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13489,10 +13489,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-nuzn-48-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Nuzn 48 max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13500,7 +13500,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+48+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+48+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-nuzn-45-max",
@@ -13512,7 +13512,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-nuzn-45-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BNuzn%2B45%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Nuzn 45 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13522,10 +13522,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-nuzn-45-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Nuzn 45 max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13533,7 +13533,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+45+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nuzn+45+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-good-max",
@@ -13545,7 +13545,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-good-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BGood%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Good max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13555,10 +13555,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-good-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Good max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13566,7 +13566,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Good+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Good+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-gtt-45-max",
@@ -13578,7 +13578,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-gtt-45-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BGTT%2B45%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro GTT 45 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13588,10 +13588,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-gtt-45-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro GTT 45 max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13599,7 +13599,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+GTT+45+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+GTT+45+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-bype",
@@ -13611,7 +13611,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-bype-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBype%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Bype listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13621,10 +13621,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-bype-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Bype table tennis product official image",
     "availableColors": [
       "Red",
@@ -13632,7 +13632,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Bype+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Bype+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-hexer-duro-max",
@@ -13644,7 +13644,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-hexer-duro-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BHexer%2BDuro%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Hexer Duro max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13654,10 +13654,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-hexer-duro-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Hexer Duro max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13665,7 +13665,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Hexer+Duro+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Hexer+Duro+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-powergrip-max",
@@ -13677,7 +13677,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-powergrip-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BPowergrip%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Powergrip max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13687,10 +13687,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-powergrip-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Powergrip max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13698,7 +13698,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Powergrip+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Powergrip+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-r-42-ultramax",
@@ -13710,7 +13710,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-r-42-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BR%2B42%2Bultramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter R 42 ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13720,10 +13720,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-42-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter R 42 ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -13731,7 +13731,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+42+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+42+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-r-47-ultramax",
@@ -13743,7 +13743,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-r-47-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BR%2B47%2Bultramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter R 47 ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13754,10 +13754,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/node/46",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-47-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter R 47 ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -13765,7 +13765,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+47+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+47+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-r-50-ultramax",
@@ -13777,7 +13777,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-r-50-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BR%2B50%2Bultramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter R 50 ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13788,10 +13788,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/node/45",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-50-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter R 50 ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -13799,7 +13799,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+50+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+50+ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-r-45-ultramax",
@@ -13811,7 +13811,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-r-45-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BR%2B45%2BUltramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter R 45 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13821,10 +13821,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-45-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter R 45 Ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -13832,7 +13832,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+45+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+45+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-r-48-ultramax",
@@ -13844,7 +13844,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-r-48-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BR%2B48%2BUltramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter R 48 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13854,10 +13854,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-48-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter R 48 Ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -13865,7 +13865,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+48+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+48+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-r-53-max",
@@ -13877,7 +13877,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-r-53-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BR%2B53%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter R 53 max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13888,10 +13888,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/node/44",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-r-53-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter R 53 max table tennis product official image",
     "availableColors": [
       "Red",
@@ -13899,7 +13899,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+53+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+R+53+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-c-45-ultramax",
@@ -13911,7 +13911,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-c-45-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BC%2B45%2BUltramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter C 45 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13922,10 +13922,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/rasanter-c45",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-c-45-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter C 45 Ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -13933,7 +13933,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+45+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+45+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-c-48-ultramax",
@@ -13945,7 +13945,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-c-48-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BC%2B48%2BUltramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter C 48 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13955,10 +13955,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-c-48-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter C 48 Ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -13966,7 +13966,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+48+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+48+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rasanter-c-53-ultramax",
@@ -13978,7 +13978,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rasanter-c-53-ultramax-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRasanter%2BC%2B53%2BUltramax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rasanter C 53 Ultramax listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -13989,10 +13989,10 @@ const seedProducts = [
       "Colour options: Red / Black"
     ],
     "officialProductUrl": "https://www.andro.de/en/rasanter-c53",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rasanter-c-53-ultramax-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rasanter C 53 Ultramax table tennis product official image",
     "availableColors": [
       "Red",
@@ -14000,7 +14000,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+53+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rasanter+C+53+Ultramax+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blowfish-max",
@@ -14012,7 +14012,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blowfish-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlowfish%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blowfish max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14022,10 +14022,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blowfish-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blowfish max table tennis product official image",
     "availableColors": [
       "Red",
@@ -14033,7 +14033,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blowfish-plus-max",
@@ -14045,7 +14045,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blowfish-plus-max-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlowfish%2BPlus%2Bmax%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blowfish Plus max listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14055,10 +14055,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blowfish-plus-max-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blowfish Plus max table tennis product official image",
     "availableColors": [
       "Red",
@@ -14066,7 +14066,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+Plus+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+Plus+max+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blowfish-1-8",
@@ -14078,7 +14078,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blowfish-1-8-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlowfish%2B1.8%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blowfish 1.8 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14086,12 +14086,12 @@ const seedProducts = [
       "MRP: ₹5,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blowfish-1-8-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blowfish 1.8 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blowfish-plus-1-8",
@@ -14103,7 +14103,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blowfish-plus-1-8-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlowfish%2BPlus%2B1.8%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blowfish Plus 1.8 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14111,12 +14111,12 @@ const seedProducts = [
       "MRP: ₹5,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blowfish-plus-1-8-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blowfish Plus 1.8 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+Plus+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blowfish+Plus+1.8+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-chaos-ox",
@@ -14128,7 +14128,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-chaos-ox-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BChaos%2BOX%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Chaos OX listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14136,12 +14136,12 @@ const seedProducts = [
       "MRP: ₹5,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-chaos-ox-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Chaos OX table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Chaos+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Chaos+OX+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-chaos-0-5",
@@ -14153,7 +14153,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-chaos-0-5-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BChaos%2B0.5%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Chaos 0.5 listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14161,12 +14161,12 @@ const seedProducts = [
       "MRP: ₹5,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-chaos-0-5-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Chaos 0.5 table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Chaos+0.5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Chaos+0.5+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-free-clean-combi-cleaner",
@@ -14178,7 +14178,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-free-clean-combi-cleaner-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BFree%2BClean%2Bcombi%2Bcleaner%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Free Clean combi cleaner listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14186,12 +14186,12 @@ const seedProducts = [
       "MRP: ₹700",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-free-clean-combi-cleaner-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Free Clean combi cleaner table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Free+Clean+combi+cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Free+Clean+combi+cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-rubber-cleaner-pump-spray",
@@ -14203,7 +14203,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-rubber-cleaner-pump-spray-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BRubber%2BCleaner%2BPump%2BSpray%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Rubber Cleaner Pump Spray listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14211,12 +14211,12 @@ const seedProducts = [
       "MRP: ₹650",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-rubber-cleaner-pump-spray-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Rubber Cleaner Pump Spray table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rubber+Cleaner+Pump+Spray+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Rubber+Cleaner+Pump+Spray+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-turbo-glue-50-ml",
@@ -14228,7 +14228,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-turbo-glue-50-ml-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTurbo%2BGlue%2B50%2Bml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Turbo Glue 50 ml listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14236,12 +14236,12 @@ const seedProducts = [
       "MRP: ₹2,200",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-turbo-glue-50-ml-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Turbo Glue 50 ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Turbo+Glue+50+ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Turbo+Glue+50+ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-turbo-glue-90-ml",
@@ -14253,7 +14253,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-turbo-glue-90-ml-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTurbo%2BGlue%2B90%2Bml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Turbo Glue 90 ml listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14261,12 +14261,12 @@ const seedProducts = [
       "MRP: ₹2,800",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-turbo-glue-90-ml-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Turbo Glue 90 ml table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Turbo+Glue+90+ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Turbo+Glue+90+ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-table-cleaner",
@@ -14278,7 +14278,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-table-cleaner-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTable%2BCleaner%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Table Cleaner listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14286,12 +14286,12 @@ const seedProducts = [
       "MRP: ₹1,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-table-cleaner-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Table Cleaner table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Table+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Table+Cleaner+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-edge-tape-ci-50-meter",
@@ -14303,7 +14303,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-edge-tape-ci-50-meter-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BEDGE%2BTAPE%2BCI%2B50%2BMETER%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro EDGE TAPE CI 50 METER listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14311,12 +14311,12 @@ const seedProducts = [
       "MRP: ₹5,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-edge-tape-ci-50-meter-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro EDGE TAPE CI 50 METER table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+EDGE+TAPE+CI+50+METER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+EDGE+TAPE+CI+50+METER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-edge-tape-ci-5-meter",
@@ -14328,7 +14328,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-edge-tape-ci-5-meter-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BEDGE%2BTAPE%2BCI%2B5%2BMETER%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro EDGE TAPE CI 5 METER listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14336,12 +14336,12 @@ const seedProducts = [
       "MRP: ₹1,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-edge-tape-ci-5-meter-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro EDGE TAPE CI 5 METER table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+EDGE+TAPE+CI+5+METER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+EDGE+TAPE+CI+5+METER+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-cleaning-sponge-cotton",
@@ -14353,7 +14353,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-cleaning-sponge-cotton-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BCleaning%2BSponge%2BCotton%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Cleaning Sponge Cotton listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14361,13 +14361,13 @@ const seedProducts = [
       "MRP: ₹600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-cleaning-sponge-cotton-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Cleaning Sponge Cotton table tennis product official image",
     "officialProductUrl": "https://www.andro.de/en/reinigungsschwamm",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Cleaning+Sponge+Cotton+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Cleaning+Sponge+Cotton+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-cleaning-sponge-synthetic",
@@ -14379,7 +14379,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-cleaning-sponge-synthetic-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BCleaning%2BSponge%2BSynthetic%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Cleaning Sponge Synthetic listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14387,13 +14387,13 @@ const seedProducts = [
       "MRP: ₹600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-cleaning-sponge-synthetic-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Cleaning Sponge Synthetic table tennis product official image",
     "officialProductUrl": "https://www.andro.de/en/reinigungsschwamm-synthetisches-leder",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Cleaning+Sponge+Synthetic+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Cleaning+Sponge+Synthetic+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-bag-moriva-black-neonyellow",
@@ -14405,7 +14405,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2Bandro%2Bbag%2BMoriva%2Bblack%252Fneonyellow%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "andro bag Moriva black/neonyellow listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14413,13 +14413,13 @@ const seedProducts = [
       "MRP: ₹8,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image",
     "officialProductUrl": "https://www.andro.de/en/sporttasche-moriva-l",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+andro+bag+Moriva+black%2Fneonyellow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+andro+bag+Moriva+black%2Fneonyellow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-bag-moriva-black-neonyellow-2",
@@ -14431,7 +14431,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-2-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2Bandro%2Bbag%2BMoriva%2Bblack%252Fneonyellow%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "andro bag Moriva black/neonyellow listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14439,13 +14439,13 @@ const seedProducts = [
       "MRP: ₹7,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-bag-moriva-black-neonyellow-2-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro andro bag Moriva black/neonyellow table tennis product official image",
     "officialProductUrl": "https://www.andro.de/en/sporttasche-moriva-l",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+andro+bag+Moriva+black%2Fneonyellow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+andro+bag+Moriva+black%2Fneonyellow+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-inizio-blue-fl",
@@ -14457,7 +14457,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-inizio-blue-fl-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BInizio%2BBlue%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Inizio Blue FL listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14465,12 +14465,12 @@ const seedProducts = [
       "MRP: ₹2,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-inizio-blue-fl-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Inizio Blue FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Inizio+Blue+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Inizio+Blue+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-inizio-fl",
@@ -14482,7 +14482,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-inizio-fl-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BInizio%2BFL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Inizio FL listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14490,12 +14490,12 @@ const seedProducts = [
       "MRP: ₹2,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-inizio-fl-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Inizio FL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Inizio+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Inizio+FL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-timber-5-all-black",
@@ -14507,7 +14507,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-timber-5-all-black-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTimber%2B5%2BAll%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Timber 5 All Black listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14515,12 +14515,12 @@ const seedProducts = [
       "MRP: ₹5,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-timber-5-all-black-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Timber 5 All Black table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+5+All+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+5+All+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-timber-7-off-s",
@@ -14532,7 +14532,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-timber-7-off-s-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTimber%2B7%2BOff%252FS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Timber 7 Off/S listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14540,12 +14540,12 @@ const seedProducts = [
       "MRP: ₹6,800",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-timber-7-off-s-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Timber 7 Off/S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+7+Off%2FS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+7+Off%2FS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-nova-cell",
@@ -14557,7 +14557,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-nova-cell-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BNova%2BCell%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Nova Cell listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14565,12 +14565,12 @@ const seedProducts = [
       "MRP: ₹7,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-nova-cell-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Nova Cell table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nova+Cell+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Nova+Cell+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-treiber-co-all",
@@ -14582,7 +14582,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-treiber-co-all-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTreiber%2BCO%2BALL%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Treiber CO ALL listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14590,12 +14590,12 @@ const seedProducts = [
       "MRP: ₹9,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-treiber-co-all-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Treiber CO ALL table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+CO+ALL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+CO+ALL+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-timber-5-def-st",
@@ -14607,7 +14607,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-timber-5-def-st-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTimber%2B5%2BDef%2BST%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Timber 5 Def ST listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14615,12 +14615,12 @@ const seedProducts = [
       "MRP: ₹7,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-timber-5-def-st-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Timber 5 Def ST table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+5+Def+ST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Timber+5+Def+ST+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-gauzy-hl-co",
@@ -14632,7 +14632,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-gauzy-hl-co-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BGauzy%2BHL%2BCO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Gauzy HL CO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14641,12 +14641,12 @@ const seedProducts = [
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
     "officialProductUrl": "https://www.andro.de/en/synteliac-vci-gauzy-original",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-gauzy-hl-co-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Gauzy HL CO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Gauzy+HL+CO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Gauzy+HL+CO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-treiber-fo",
@@ -14658,7 +14658,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-treiber-fo-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTreiber%2BFO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Treiber FO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14666,12 +14666,12 @@ const seedProducts = [
       "MRP: ₹11,600",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-treiber-fo-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Treiber FO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+FO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+FO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-kanter-co",
@@ -14683,7 +14683,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-kanter-co-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BKanter%2BCO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Kanter CO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14692,12 +14692,12 @@ const seedProducts = [
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
     "officialProductUrl": "https://www.andro.de/en/kanter-co",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-kanter-co-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Kanter CO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Kanter+CO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Kanter+CO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-achanta-ci-blade",
@@ -14709,7 +14709,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-achanta-ci-blade-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BAchanta%2BCI%2Bblade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Achanta CI blade listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14717,12 +14717,12 @@ const seedProducts = [
       "MRP: ₹13,400",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-achanta-ci-blade-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Achanta CI blade table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Achanta+CI+blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Achanta+CI+blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-treiber-co-off-s",
@@ -14734,7 +14734,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-treiber-co-off-s-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BTreiber%2BCO%2BOff%252FS%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Treiber CO Off/S listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14742,12 +14742,12 @@ const seedProducts = [
       "MRP: ₹14,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-treiber-co-off-s-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Treiber CO Off/S table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+CO+Off%2FS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Treiber+CO+Off%2FS+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blade-synteliac-vci",
@@ -14759,7 +14759,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blade-synteliac-vci-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlade%2BSynteliac%2BVCI%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blade Synteliac VCI listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14768,12 +14768,12 @@ const seedProducts = [
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
     "officialProductUrl": "https://www.andro.de/en/synteliac-vci",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-vci-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blade Synteliac VCI table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+VCI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+VCI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blade-synteliac-vco",
@@ -14785,7 +14785,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blade-synteliac-vco-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlade%2BSynteliac%2BVCO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blade Synteliac VCO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14794,12 +14794,12 @@ const seedProducts = [
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
     "officialProductUrl": "https://www.andro.de/en/synteliac-vco",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-vco-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blade Synteliac VCO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+VCO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+VCO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blade-synteliac-zci",
@@ -14811,7 +14811,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blade-synteliac-zci-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlade%2BSynteliac%2BZCI%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blade Synteliac ZCI listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14819,13 +14819,13 @@ const seedProducts = [
       "MRP: ₹24,000",
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-zci-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blade Synteliac ZCI table tennis product official image",
     "officialProductUrl": "https://www.andro.de/en/synteliac-zci",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+ZCI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+ZCI+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "andro-andro-blade-synteliac-zco",
@@ -14837,7 +14837,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#5fd46f",
-    "image": "assets/catalog/andro-andro-blade-synteliac-zco-andro-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DAndro%2BAndro%2BBlade%2BSynteliac%2BZCO%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Andro Blade Synteliac ZCO listed at MRP from Andro dealer price list W.E.F. 21 Jan 2026.",
     "features": [
       "Brand: Andro",
@@ -14846,12 +14846,12 @@ const seedProducts = [
       "Source: Andro dealer price list W.E.F. 21 Jan 2026"
     ],
     "officialProductUrl": "https://www.andro.de/en/synteliac-zco",
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/andro-andro-blade-synteliac-zco-andro-safe.svg",
+    "fallbackImage": "assets/banners/andro-poster.webp",
     "searchImageQuery": "Andro Andro Blade Synteliac ZCO table tennis product official image",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+ZCO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Andro+Andro+Blade+Synteliac+ZCO+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   },
   {
     "id": "dawei-dawei-388d-2-ox-table-tennis-rubber-red-black",
@@ -14863,7 +14863,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP",
     "color": "#d8312b",
-    "image": "assets/catalog/dawei-dawei-388d-2-ox-table-tennis-rubber-red-black-dawei-safe.svg",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DDawei%2BDawei%2B388D-2%2BOX%2BTable%2BTennis%2BRubber%2B-%2BRed%2B%252F%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Dawei 388D-2 OX Table Tennis Rubber - Red / Black listed at MRP from user-provided Dawei product details.",
     "features": [
       "Brand: Dawei",
@@ -14874,10 +14874,10 @@ const seedProducts = [
       "Max thickness: MAX",
       "Colour options: Red / Black"
     ],
-    "imageStatus": "guaranteed-local-product-image",
-    "imageSource": "Bundled local product image to guarantee 100% loading without external hotlink dependencies.",
+    "imageStatus": "real-photo-with-cache-and-original-retry",
+    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
     "hasActualProductImage": true,
-    "fallbackImage": "assets/catalog/dawei-dawei-388d-2-ox-table-tennis-rubber-red-black-dawei-safe.svg",
+    "fallbackImage": "assets/banners/dawei-poster.webp",
     "searchImageQuery": "Dawei Dawei 388D-2 OX Table Tennis Rubber - Red / Black table tennis product official image",
     "availableColors": [
       "Red",
@@ -14885,7 +14885,7 @@ const seedProducts = [
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "remoteImage": "https://tse4.mm.bing.net/th?q=Dawei+Dawei+388D-2+OX+Table+Tennis+Rubber+-+Red+%2F+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tse4.mm.bing.net/th?q=Dawei+Dawei+388D-2+OX+Table+Tennis+Rubber+-+Red+%2F+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
   }
 ];
 
@@ -21898,34 +21898,43 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!img || img.dataset.ttwImageProtected === "1") return;
     if (!img.closest?.(".product-visual,.modal-product-visual,.fixed-modal-media,.visual-product-image,.vc-img,.cart-item-visual")) return;
     img.dataset.ttwImageProtected = "1";
+    img.referrerPolicy = "no-referrer";
+    img.loading = img.loading || "lazy";
+    img.decoding = "async";
+
     img.addEventListener("error", function (event) {
       const product = findProduct(img);
       const stage = Number(img.dataset.ttwFallbackStage || "0");
-      const fallback = localAssetUrl(product?.fallbackImage || "");
+      const original = product?.originalImage || "";
+      const fallback = localAssetUrl(product?.fallbackImage || "assets/banners/home-poster.webp");
 
-      // First failure: try the bundled local catalogue/category image.
-      if (stage === 0 && fallback && img.src !== fallback) {
+      // First retry: use the exact original real product photo directly.
+      if (stage === 0 && original && img.src !== original) {
         img.dataset.ttwFallbackStage = "1";
-        img.onerror = null;
-        img.src = fallback;
+        img.src = original;
         event.stopImmediatePropagation?.();
         return;
       }
 
-      // Final failure: use an inline image that cannot 404.
-      if (stage < 2) {
+      // Last visible fallback: use a real raster brand poster, never generated SVG artwork.
+      if (stage <= 1 && fallback && img.src !== fallback) {
         img.dataset.ttwFallbackStage = "2";
-        img.onerror = null;
-        img.src = inlineFallback(product, img);
+        img.src = fallback;
         img.closest?.(".image-load-failed")?.classList.remove("image-load-failed");
         event.stopImmediatePropagation?.();
         return;
       }
 
-      img.style.visibility = "hidden";
+      // A bundled home photograph is the final emergency fallback.
+      if (stage <= 2) {
+        img.dataset.ttwFallbackStage = "3";
+        img.src = localAssetUrl("assets/banners/home-poster.webp");
+        img.closest?.(".image-load-failed")?.classList.remove("image-load-failed");
+        event.stopImmediatePropagation?.();
+        return;
+      }
     }, true);
   }
-
   function protectAll(root) {
     if (root?.matches?.("img")) protect(root);
     root?.querySelectorAll?.(".product-visual img,.modal-product-visual img,.fixed-modal-media img,.visual-product-image img,.vc-img img,.cart-item-visual img").forEach(protect);
@@ -21935,35 +21944,61 @@ document.addEventListener("DOMContentLoaded", () => {
   const previousNormalize = window.ttwNormalizedProduct;
   window.ttwNormalizedProduct = function (product) {
     const normalized = previousNormalize ? previousNormalize(product) : product;
+    if (normalized && /^https?:\/\//i.test(normalized.image || "") && !/wsrv\.nl\/\?url=/i.test(normalized.image || "")) {
+      normalized.originalImage = normalized.originalImage || normalized.image;
+      normalized.image = photoCacheUrl(normalized.image);
+    }
+    if (normalized && !normalized.fallbackImage) {
+      const brand = String(normalized.brand || "").toLowerCase();
+      const posters = {
+        joola: "assets/banners/joola-poster.webp",
+        tibhar: "assets/banners/tibhar-poster.webp",
+        yinhe: "assets/banners/yinhe-poster.webp",
+        dhs: "assets/banners/dhs-poster.webp",
+        dawei: "assets/banners/dawei-poster.webp",
+        andro: "assets/banners/andro-poster.webp",
+        xiom: "assets/banners/xiom-poster.webp",
+        butterfly: "assets/banners/butterfly-poster.webp",
+        stiga: "assets/banners/stiga-poster.webp"
+      };
+      normalized.fallbackImage = posters[brand] || "assets/banners/home-poster.webp";
+    }
     register(normalized);
     return normalized;
   };
 
-  // Any old Bing thumbnail still arriving from browser/admin cache is replaced
-  // before it has a chance to show a broken card.
-  function replaceUnstableSearchThumbs(root) {
+  // If an older admin/localStorage product still contains a direct remote photo,
+  // keep the real photo and route it through the same cache instead of replacing it with artwork.
+  function photoCacheUrl(url) {
+    if (!url || !/^https?:\/\//i.test(url) || /wsrv\.nl\/\?url=/i.test(url)) return url;
+    return "https://wsrv.nl/?url=" + encodeURIComponent(url)
+      + "&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90";
+  }
+
+  function preserveRealProductPhotos(root) {
     const imgs = [];
     if (root?.matches?.("img")) imgs.push(root);
-    root?.querySelectorAll?.("img").forEach(img => imgs.push(img));
+    root?.querySelectorAll?.(".product-visual img,.modal-product-visual img,.fixed-modal-media img,.visual-product-image img,.vc-img img,.cart-item-visual img").forEach(img => imgs.push(img));
+
     imgs.forEach(img => {
       const src = img.getAttribute("src") || "";
-      if (!/mm\.bing\.net|bing\.net\/th/i.test(src)) return;
+      if (!/^https?:\/\//i.test(src) || /wsrv\.nl\/\?url=/i.test(src)) return;
       const product = findProduct(img);
-      if (product?.fallbackImage) img.src = localAssetUrl(product.fallbackImage);
-      else img.src = inlineFallback(product, img);
+      if (product && !product.originalImage) product.originalImage = src;
+      img.src = photoCacheUrl(src);
     });
   }
 
   document.addEventListener("DOMContentLoaded", function () {
     protectAll(document);
-    replaceUnstableSearchThumbs(document);
+    preserveRealProductPhotos(document);
   });
 
   const observer = new MutationObserver(records => {
     records.forEach(record => record.addedNodes.forEach(node => {
       if (node.nodeType !== 1) return;
       protectAll(node);
-      replaceUnstableSearchThumbs(node);
+      preserveRealProductPhotos(node);
     }));
   });
   document.addEventListener("DOMContentLoaded", () => {
