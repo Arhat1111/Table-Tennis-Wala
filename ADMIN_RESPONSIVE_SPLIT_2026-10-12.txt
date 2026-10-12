@@ -1,0 +1,9 @@
+TABLE TENNIS WALA — ADMIN RESPONSIVE SPLIT
+
+- Product management split into separate Add product and Manage products tabs.
+- Edit actions automatically open the product editor.
+- Dedicated catalogue manager uses search, category, brand, source filters and pagination.
+- Responsive admin navigation for desktop, tablet and mobile.
+- Product form becomes single-column on small screens.
+- Product manager rows become compact mobile cards.
+- Existing Supabase, MRP, our price and automatic discount logic preserved.

@@ -15631,6 +15631,7 @@ function initAdminProductForm() {
   form.addEventListener("submit", event => {
     event.preventDefault();
     const products = getAdminProducts();
+    const wasEditing = Boolean(fields.id.value);
     const id = fields.id.value || `admin-${Date.now()}`;
     const index = products.findIndex(item => String(item.id) === String(id));
     const existing = index >= 0 ? products[index] : null;
@@ -15676,9 +15677,16 @@ function initAdminProductForm() {
     renderHomeProducts();
     renderBrandProducts();
     showToast("Product saved and connected to website");
+    if (wasEditing) window.openAdminPanel?.("manage-products");
   });
 
   document.getElementById("resetAdminForm")?.addEventListener("click", resetAdminForm);
+  document.getElementById("adminAddProductTab")?.addEventListener("click", () => resetAdminForm());
+  document.getElementById("adminOpenAddProduct")?.addEventListener("click", () => {
+    resetAdminForm();
+    window.openAdminPanel?.("add-product");
+  });
+  document.getElementById("adminBackToCatalogue")?.addEventListener("click", () => window.openAdminPanel?.("manage-products"));
   document.getElementById("exportProducts")?.addEventListener("click", () => {
     const data = JSON.stringify(getAdminProducts(), null, 2);
     navigator.clipboard?.writeText(data);
@@ -15728,7 +15736,8 @@ function initAdminProductForm() {
     fields.description.value = product.description || "";
     fields.features.value = (product.features || []).join(", ");
     document.getElementById("adminFormTitle").textContent = "Edit product";
-    form.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.openAdminPanel?.("add-product");
+    requestAnimationFrame(() => form.scrollIntoView({ behavior: "smooth", block: "start" }));
   };
 
   window.deleteAdminProduct = id => {
@@ -19549,17 +19558,22 @@ document.addEventListener("DOMContentLoaded", () => {
     URL.revokeObjectURL(url);
   }
 
+  window.openAdminPanel = function(panel) {
+    const sidebarButton = document.querySelector(`.admin-pro-tab[data-admin-panel="${panel}"]`);
+    document.querySelectorAll(".admin-pro-tab[data-admin-panel]").forEach(item => item.classList.toggle("active", item === sidebarButton));
+    document.querySelectorAll("[data-admin-panel-view]").forEach(view => view.classList.toggle("active", view.dataset.adminPanelView === panel));
+    renderAdminDashboard();
+    renderAdminOrders();
+    if (window.innerWidth < 981) {
+      document.querySelector(".admin-pro-main")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   function bindAdminTabs() {
-    document.querySelectorAll("[data-admin-panel]").forEach(button => {
+    document.querySelectorAll(".admin-pro-tab[data-admin-panel]").forEach(button => {
       if (button.dataset.bound === "true") return;
       button.dataset.bound = "true";
-      button.addEventListener("click", () => {
-        const panel = button.dataset.adminPanel;
-        document.querySelectorAll("[data-admin-panel]").forEach(item => item.classList.toggle("active", item === button));
-        document.querySelectorAll("[data-admin-panel-view]").forEach(view => view.classList.toggle("active", view.dataset.adminPanelView === panel));
-        renderAdminDashboard();
-        renderAdminOrders();
-      });
+      button.addEventListener("click", () => window.openAdminPanel(button.dataset.adminPanel));
     });
   }
 

@@ -134,7 +134,8 @@
           <span class="eyebrow">Control panel</span>
           <h2>Website admin.</h2>
           <button type="button" class="admin-pro-tab active" data-admin-panel="dashboard">Dashboard</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="products">Manage products</button>
+          <button type="button" class="admin-pro-tab" id="adminAddProductTab" data-admin-panel="add-product">Add product</button>
+          <button type="button" class="admin-pro-tab" data-admin-panel="manage-products">Manage products</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="orders">View orders</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="analytics">Monthly sales & analytics</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="customers">Live customers</button>
@@ -161,58 +162,84 @@
             </div>
           </section>
 
-          <section class="admin-pro-panel" data-admin-panel-view="products">
-            <section class="admin-layout">
-              <form class="admin-form" id="productAdminForm">
-                <input type="hidden" id="editingProductId" />
-                <div class="admin-form-head">
-                  <div><span class="eyebrow">Product editor</span><h2 id="adminFormTitle">Add new product</h2></div>
-                  <button type="button" class="text-button" id="resetAdminForm">Clear form</button>
-                </div>
-                <div class="form-grid">
-                  <label>Product name<input id="adminName" required placeholder="e.g. JOOLA Carbon Pro Racket" /></label>
-                  <label>Brand<select id="adminBrand" required>
-                    <option value="joola">JOOLA</option><option value="tibhar">Tibhar</option><option value="butterfly">Butterfly</option><option value="stiga">Stiga</option><option value="dhs">DHS</option><option value="yinhe">YinHe</option><option value="xiom">Xiom</option><option value="andro">Andro</option><option value="dawei">Dawei</option><option value="other">Other</option>
-                  </select></label>
-                  <label>Category<select id="adminCategory" required>
-                    <option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option><option value="glue">Glue</option><option value="clothing">Apparel</option>
-                  </select></label>
-                  <label>MRP ₹<input id="adminMrp" type="number" min="1" required placeholder="e.g. 7200" /><small class="field-help">Original / maximum retail price</small></label>
-                  <label>Our price ₹<input id="adminPrice" type="number" min="1" required placeholder="e.g. 3999" /><small class="field-help">Selling price shown on the website</small></label>
-                  <div class="admin-discount-preview" id="adminDiscountPreview" aria-live="polite">
-                    <span>Discount</span><strong>0% off</strong><small>Calculated automatically from MRP and our price</small>
-                  </div>
-                  <label>Badge<input id="adminBadge" placeholder="New / Bestseller / Sale" /></label>
-                  <label>Rating<input id="adminRating" type="number" min="1" max="5" step="0.1" value="4.7" /></label>
-                  <label class="wide">Upload product image<input id="adminImageFile" type="file" accept="image/*" /></label>
-                  <label class="wide">Or paste image URL<input id="adminImageUrl" placeholder="https://example.com/product.jpg" /></label>
-                  <label class="wide">Description<textarea id="adminDescription" rows="4" placeholder="Short product description"></textarea></label>
-                  <label class="wide">Features<textarea id="adminFeatures" rows="3" placeholder="Comma separated: Carbon blade, Speed rubber, Pro grip"></textarea></label>
-                </div>
-                <div class="image-preview" id="adminImagePreview"><span>No image selected</span></div>
-                <button class="button primary" type="submit">Save product to website</button>
-                <p class="admin-note">Enter both MRP and our selling price. The website automatically calculates the discount percentage. Core catalogue products are protected from accidental deletion.</p>
-              </form>
+          <section class="admin-pro-panel admin-add-product-panel" data-admin-panel-view="add-product">
+            <div class="admin-panel-head admin-product-page-head">
+              <div>
+                <span class="eyebrow">Product editor</span>
+                <h2>Add or edit a product</h2>
+                <p>Keep product details, pricing and images together in one simple form.</p>
+              </div>
+              <button type="button" class="button small" id="adminBackToCatalogue">Back to catalogue</button>
+            </div>
 
-              <aside class="admin-products admin-catalogue-manager">
-                <div class="admin-products-head">
-                  <div><span class="eyebrow">Catalogue manager</span><h3>Find and edit products</h3><p id="adminProductResultsCount" class="admin-manager-count">Loading catalogue…</p></div>
-                  <button class="button small" id="exportProducts" type="button">Export</button>
+            <form class="admin-form admin-form-single" id="productAdminForm">
+              <input type="hidden" id="editingProductId" />
+              <div class="admin-form-head">
+                <div><span class="eyebrow">Product details</span><h2 id="adminFormTitle">Add new product</h2></div>
+                <button type="button" class="text-button" id="resetAdminForm">Clear form</button>
+              </div>
+              <div class="form-grid">
+                <label>Product name<input id="adminName" required placeholder="e.g. JOOLA Carbon Pro Racket" /></label>
+                <label>Brand<select id="adminBrand" required>
+                  <option value="joola">JOOLA</option><option value="tibhar">Tibhar</option><option value="butterfly">Butterfly</option><option value="stiga">Stiga</option><option value="dhs">DHS</option><option value="yinhe">YinHe</option><option value="xiom">Xiom</option><option value="andro">Andro</option><option value="dawei">Dawei</option><option value="other">Other</option>
+                </select></label>
+                <label>Category<select id="adminCategory" required>
+                  <option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option><option value="glue">Glue</option><option value="clothing">Apparel</option>
+                </select></label>
+                <label>MRP ₹<input id="adminMrp" type="number" min="1" required placeholder="e.g. 7200" /><small class="field-help">Original / maximum retail price</small></label>
+                <label>Our price ₹<input id="adminPrice" type="number" min="1" required placeholder="e.g. 3999" /><small class="field-help">Selling price shown on the website</small></label>
+                <div class="admin-discount-preview" id="adminDiscountPreview" aria-live="polite">
+                  <span>Discount</span><strong>0% off</strong><small>Calculated automatically from MRP and our price</small>
                 </div>
-                <div class="admin-product-manager-toolbar">
-                  <label class="admin-manager-search"><span>Search</span><input id="adminProductSearch" type="search" placeholder="Product name, brand or ID" /></label>
-                  <label><span>Category</span><select id="adminProductCategoryFilter">
-                    <option value="all">All categories</option><option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option><option value="glue">Glue</option><option value="clothing">Apparel</option>
-                  </select></label>
-                  <label><span>Brand</span><select id="adminProductBrandFilter">
-                    <option value="all">All brands</option><option value="joola">JOOLA</option><option value="tibhar">Tibhar</option><option value="butterfly">Butterfly</option><option value="stiga">Stiga</option><option value="dhs">DHS</option><option value="yinhe">YinHe</option><option value="xiom">Xiom</option><option value="andro">Andro</option><option value="dawei">Dawei</option><option value="other">Other</option>
-                  </select></label>
-                  <label><span>Source</span><select id="adminProductSourceFilter"><option value="all">All products</option><option value="core">Core catalogue</option><option value="custom">Custom products</option></select></label>
+                <label>Badge<input id="adminBadge" placeholder="New / Bestseller / Sale" /></label>
+                <label>Rating<input id="adminRating" type="number" min="1" max="5" step="0.1" value="4.7" /></label>
+                <label class="wide">Upload product image<input id="adminImageFile" type="file" accept="image/*" /></label>
+                <label class="wide">Or paste image URL<input id="adminImageUrl" placeholder="https://example.com/product.jpg" /></label>
+                <label class="wide">Description<textarea id="adminDescription" rows="4" placeholder="Short product description"></textarea></label>
+                <label class="wide">Features<textarea id="adminFeatures" rows="3" placeholder="Comma separated: Carbon blade, Speed rubber, Pro grip"></textarea></label>
+              </div>
+              <div class="image-preview" id="adminImagePreview"><span>No image selected</span></div>
+              <div class="admin-form-submit-row">
+                <button class="button primary" type="submit">Save product</button>
+                <span>MRP and discount update automatically on the storefront.</span>
+              </div>
+              <p class="admin-note">Core catalogue products can be edited safely but are protected from accidental deletion.</p>
+            </form>
+          </section>
+
+          <section class="admin-pro-panel admin-manage-products-panel" data-admin-panel-view="manage-products">
+            <div class="admin-panel-head admin-product-page-head">
+              <div>
+                <span class="eyebrow">Catalogue manager</span>
+                <h2>Manage products</h2>
+                <p>Search, filter and edit the catalogue without loading hundreds of products at once.</p>
+              </div>
+              <div class="admin-head-actions">
+                <button type="button" class="button primary small" id="adminOpenAddProduct">Add product</button>
+                <button class="button small" id="exportProducts" type="button">Export</button>
+              </div>
+            </div>
+
+            <section class="admin-products admin-catalogue-manager admin-catalogue-full">
+              <div class="admin-products-head admin-manager-summary-head">
+                <div>
+                  <h3>Product catalogue</h3>
+                  <p id="adminProductResultsCount" class="admin-manager-count">Loading catalogue…</p>
                 </div>
-                <div id="adminProductList" class="admin-product-list"></div>
-                <div class="admin-products-pagination"><button type="button" class="button small" id="adminProductsPrev">Previous</button><span id="adminProductsPageLabel">Page 1 of 1</span><button type="button" class="button small" id="adminProductsNext">Next</button></div>
-                <details class="admin-import-details"><summary>Advanced: import product JSON</summary><label class="import-box">Import product JSON<textarea id="importProductsInput" rows="4" placeholder='Paste exported JSON here'></textarea><button class="button small" id="importProducts" type="button">Import products</button></label></details>
-              </aside>
+              </div>
+              <div class="admin-product-manager-toolbar">
+                <label class="admin-manager-search"><span>Search</span><input id="adminProductSearch" type="search" placeholder="Product name, brand or ID" /></label>
+                <label><span>Category</span><select id="adminProductCategoryFilter">
+                  <option value="all">All categories</option><option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option><option value="glue">Glue</option><option value="clothing">Apparel</option>
+                </select></label>
+                <label><span>Brand</span><select id="adminProductBrandFilter">
+                  <option value="all">All brands</option><option value="joola">JOOLA</option><option value="tibhar">Tibhar</option><option value="butterfly">Butterfly</option><option value="stiga">Stiga</option><option value="dhs">DHS</option><option value="yinhe">YinHe</option><option value="xiom">Xiom</option><option value="andro">Andro</option><option value="dawei">Dawei</option><option value="other">Other</option>
+                </select></label>
+                <label><span>Source</span><select id="adminProductSourceFilter"><option value="all">All products</option><option value="core">Core catalogue</option><option value="custom">Custom products</option></select></label>
+              </div>
+              <div id="adminProductList" class="admin-product-list"></div>
+              <div class="admin-products-pagination"><button type="button" class="button small" id="adminProductsPrev">Previous</button><span id="adminProductsPageLabel">Page 1 of 1</span><button type="button" class="button small" id="adminProductsNext">Next</button></div>
+              <details class="admin-import-details"><summary>Advanced: import product JSON</summary><label class="import-box">Import product JSON<textarea id="importProductsInput" rows="4" placeholder='Paste exported JSON here'></textarea><button class="button small" id="importProducts" type="button">Import products</button></label></details>
             </section>
           </section>
 
