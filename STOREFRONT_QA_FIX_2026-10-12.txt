@@ -1,0 +1,16 @@
+TABLE TENNIS WALA — STOREFRONT QA FIX
+Date: 12 October 2026
+
+Changes:
+1. WhatsApp checkout no longer auto-redirects away from checkout.
+   The checkout page now clearly shows "Your order is being placed through WhatsApp"
+   plus an Open WhatsApp Again button and order ID.
+2. Filters are now internally scrollable on desktop and open as a full scrollable drawer
+   on tablet/mobile, with a close button and responsive controls.
+3. Product grids now remove repeated cards by product ID/exact product identity.
+   An admin-only maintenance pass also deduplicates exact duplicate Supabase product records.
+4. Corrected 12 XIOM racket-case/racket-cover image mappings using
+   verified matching model images rather than generic Bing image-search thumbnails.
+5. Every product detail page now has a "Suggested for you" section showing up to 4
+   related products, prioritizing the same category/brand.
+6. Existing Supabase, admin panel, MRP/our-price discount logic and WhatsApp order saving remain intact.

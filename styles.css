@@ -18170,3 +18170,186 @@ section,
   .admin-row-actions{grid-column:1/-1;padding-left:64px}
   .admin-products-pagination span{font-size:10px}
 }
+
+
+/* ============================================================================
+   TTW STOREFRONT QA FIX — checkout, filter drawer, suggestions
+============================================================================ */
+
+/* Checkout should always retain a visible success/progress area. */
+.order-success:not([hidden]) {
+  display: block !important;
+  min-height: 360px;
+}
+.whatsapp-order-progress-card {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: left;
+}
+.whatsapp-progress-icon {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  background: var(--accent, #d7ff3f);
+  color: var(--ink, #111311);
+  font-size: 26px;
+  font-weight: 950;
+}
+.whatsapp-progress-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+.whatsapp-order-steps .active,
+.whatsapp-order-steps .done {
+  border-color: rgba(92,120,0,.28);
+  background: #f5ffd7;
+}
+
+/* Desktop filter panel must scroll when its contents exceed the viewport. */
+.catalog-layout.filters-open .filter-panel,
+.filter-panel {
+  max-height: calc(100dvh - 120px) !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain !important;
+  scrollbar-gutter: stable;
+}
+.filter-panel .save-filter-actions {
+  position: sticky !important;
+  bottom: 0 !important;
+  z-index: 8 !important;
+  margin-left: -4px !important;
+  margin-right: -4px !important;
+}
+.filter-drawer-close {
+  display: none;
+}
+
+/* Mobile/tablet filter becomes a proper scrollable drawer. */
+@media (max-width: 900px) {
+  body.ttw-filter-drawer-open {
+    overflow: hidden !important;
+  }
+  .ttw-filter-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 890;
+    border: 0;
+    background: rgba(8,12,8,.48);
+    backdrop-filter: blur(3px);
+  }
+  .catalog-layout.filters-open .filter-panel {
+    display: block !important;
+    position: fixed !important;
+    inset: 74px 12px 12px 12px !important;
+    width: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior: contain !important;
+    z-index: 900 !important;
+    margin: 0 !important;
+    padding: 22px 20px 118px !important;
+    border-radius: 26px !important;
+    box-shadow: 0 28px 80px rgba(0,0,0,.28) !important;
+  }
+  .catalog-layout.filters-open .filter-panel .filter-panel-head {
+    padding-right: 44px;
+  }
+  .filter-drawer-close {
+    display: grid;
+    place-items: center;
+    position: sticky;
+    float: right;
+    top: 0;
+    margin: -6px -4px 0 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(17,19,17,.12);
+    border-radius: 50%;
+    background: #fff;
+    color: var(--ink);
+    font-size: 25px;
+    line-height: 1;
+    z-index: 20;
+  }
+  .catalog-layout.filters-open .save-filter-actions {
+    position: sticky !important;
+    bottom: -96px !important;
+    margin: 18px -4px -94px !important;
+    padding: 14px !important;
+  }
+  .filter-group label {
+    min-height: 36px;
+    font-size: 15px !important;
+  }
+  .filter-group input[type="checkbox"] {
+    width: 19px !important;
+    height: 19px !important;
+    flex: 0 0 19px;
+  }
+}
+
+@media (max-width: 580px) {
+  .catalog-layout.filters-open .filter-panel {
+    inset: 66px 8px 8px 8px !important;
+    padding: 18px 16px 112px !important;
+    border-radius: 22px !important;
+  }
+  .filter-panel-head h3 {
+    font-size: 24px !important;
+  }
+  .price-fields {
+    grid-template-columns: 1fr !important;
+  }
+  .whatsapp-progress-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .whatsapp-progress-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Suggested products */
+.suggested-products-section {
+  padding-top: 34px !important;
+}
+.suggested-products-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+.suggested-products-heading h2 {
+  margin: 6px 0 0;
+  font: 800 clamp(30px,4vw,52px)/.98 Manrope,sans-serif;
+  letter-spacing: -.05em;
+}
+.suggested-product-grid {
+  grid-template-columns: repeat(4,minmax(0,1fr)) !important;
+}
+.suggested-product-grid .product-card {
+  min-width: 0;
+}
+@media (max-width: 1100px) {
+  .suggested-product-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
+  }
+}
+@media (max-width: 620px) {
+  .suggested-products-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+  .suggested-product-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

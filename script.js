@@ -12030,7 +12030,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BRacket%2BCase%2B-%2BPink%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://static.wixstatic.com/media/4eb2d5_bbdce5e96f424b4d8ad9649172b7ba01~mv2.jpg/v1/fill/w_1080%252Ch_1080%252Cal_c%252Cq_85%252Cenc_avif%252Cquality_auto/4eb2d5_bbdce5e96f424b4d8ad9649172b7ba01~mv2.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Racket Case - Pink listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12039,12 +12039,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Pink table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Pink+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://static.wixstatic.com/media/4eb2d5_bbdce5e96f424b4d8ad9649172b7ba01~mv2.jpg/v1/fill/w_1080%2Ch_1080%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_bbdce5e96f424b4d8ad9649172b7ba01~mv2.jpg"
   },
   {
     "id": "xiom-xiom-tikkywow-racket-case-navy-blue",
@@ -12056,7 +12056,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BRacket%2BCase%2B-%2BNavy%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://dungcubongban.vn/image/cache/catalog/xiom/2023/e3821a61772b234d10e613a9eab74cb8-500x500.png&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Racket Case - Navy Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12065,12 +12065,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Navy Blue table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Navy+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://dungcubongban.vn/image/cache/catalog/xiom/2023/e3821a61772b234d10e613a9eab74cb8-500x500.png"
   },
   {
     "id": "xiom-xiom-tikkywow-racket-case-blue",
@@ -12082,7 +12082,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2BRacket%2BCase%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://storeassets.im-cdn.com/media-manager/sportsninja/yrxt4z8aTtGSH7rqbMqG_bluet_0x0_webp.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12091,12 +12091,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW Racket Case - Blue table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://storeassets.im-cdn.com/media-manager/sportsninja/yrxt4z8aTtGSH7rqbMqG_bluet_0x0_webp.webp"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-blue",
@@ -12108,7 +12108,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://storeassets.im-cdn.com/media-manager/sportsninja/qQJ4YYrVSlKu15jj8DsO_t1_0x0_webp.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12117,12 +12117,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Blue table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://storeassets.im-cdn.com/media-manager/sportsninja/qQJ4YYrVSlKu15jj8DsO_t1_0x0_webp.webp"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-purple",
@@ -12134,7 +12134,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BPurple%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://static.wixstatic.com/media/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp/v1/fill/w_993%252Ch_993%252Cal_c%252Cq_85%252Cenc_avif%252Cquality_auto/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12143,12 +12143,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Purple table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://static.wixstatic.com/media/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp/v1/fill/w_993%2Ch_993%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-l-blue",
@@ -12160,7 +12160,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BL%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://www.affordablett.com.au/shop/images/Xiom_Tikkywow_Racket_Case_2_Light_Blue.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - L Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12169,12 +12169,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - L Blue table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+L+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://www.affordablett.com.au/shop/images/Xiom_Tikkywow_Racket_Case_2_Light_Blue.jpg"
   },
   {
     "id": "xiom-xiom-tikkywow-2-racket-case-grey",
@@ -12186,7 +12186,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BTIKKYWOW%2B2%2BRacket%2BCase%2B-%2BGrey%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://static.wixstatic.com/media/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp/v1/fill/w_993%252Ch_993%252Cal_c%252Cq_85%252Cenc_avif%252Cquality_auto/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom TIKKYWOW 2 Racket Case - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12195,12 +12195,12 @@ const seedProducts = [
       "MRP: ₹2,379",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom TIKKYWOW 2 Racket Case - Grey table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+TIKKYWOW+2+Racket+Case+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://static.wixstatic.com/media/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp/v1/fill/w_993%2Ch_993%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp"
   },
   {
     "id": "xiom-xiom-neo-2-racket-case-dark-blue",
@@ -12212,7 +12212,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BNeo%2B2%2BRacket%2BCase%2B-%2BDark%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://cdn.megaspin.net/store/images/products/zoom2_xiom-neo-2-case-blue.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Neo 2 Racket Case - Dark Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12221,12 +12221,12 @@ const seedProducts = [
       "MRP: ₹1,649",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Neo 2 Racket Case - Dark Blue table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Neo+2+Racket+Case+-+Dark+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-neo-2-case-blue.jpg"
   },
   {
     "id": "xiom-xiom-xiom-22xrc-navy",
@@ -12238,7 +12238,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXiom%2B22XRC%2B-%2BNavy%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://storeassets.im-cdn.com/media-manager/sportsninja/wOsLFqjyQmOVPuBwYnEB_navyg-removebg-preview_0x0_webp.png&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Xiom 22XRC - Navy listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12247,12 +12247,12 @@ const seedProducts = [
       "MRP: ₹2,599",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Xiom 22XRC - Navy table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://storeassets.im-cdn.com/media-manager/sportsninja/wOsLFqjyQmOVPuBwYnEB_navyg-removebg-preview_0x0_webp.png"
   },
   {
     "id": "xiom-xiom-xiom-22xrc-grey",
@@ -12264,7 +12264,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXiom%2B22XRC%2B-%2BGrey%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://static.wixstatic.com/media/4eb2d5_e3290be56c314a14ba93f1313b774d86~mv2.jpg/v1/fill/w_1080%252Ch_1080%252Cal_c%252Cq_85%252Cenc_avif%252Cquality_auto/4eb2d5_e3290be56c314a14ba93f1313b774d86~mv2.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Xiom 22XRC - Grey listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12273,12 +12273,12 @@ const seedProducts = [
       "MRP: ₹2,599",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Xiom 22XRC - Grey table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Grey+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://static.wixstatic.com/media/4eb2d5_e3290be56c314a14ba93f1313b774d86~mv2.jpg/v1/fill/w_1080%2Ch_1080%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_e3290be56c314a14ba93f1313b774d86~mv2.jpg"
   },
   {
     "id": "xiom-xiom-xiom-22xrc-purple",
@@ -12290,7 +12290,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2BXiom%2B22XRC%2B-%2BPurple%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://www.tt-energy.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/f/u/full_30694-table-tennis-racket-cover-racket-form-xiom-xrc-purple-9454018-2.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom Xiom 22XRC - Purple listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12299,12 +12299,12 @@ const seedProducts = [
       "MRP: ₹2,599",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom Xiom 22XRC - Purple table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+Xiom+22XRC+-+Purple+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://www.tt-energy.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/f/u/full_30694-table-tennis-racket-cover-racket-form-xiom-xrc-purple-9454018-2.jpg"
   },
   {
     "id": "xiom-xiom-20-rc30-blue",
@@ -12316,7 +12316,7 @@ const seedProducts = [
     "reviews": 0,
     "badge": "MRP 2026",
     "color": "#f28c38",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DXiom%2BXiom%2B20%2BRC30%2B-%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "image": "https://wsrv.nl/?url=https://tennisdiscount.eu/images/icons/Xiom-NEO-racket-cover.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
     "description": "Xiom 20 RC30 - Blue listed at MRP from Xiom price list effective 20 Mar 2026.",
     "features": [
       "Brand: Xiom",
@@ -12325,12 +12325,12 @@ const seedProducts = [
       "MRP: ₹1,259",
       "Source: Xiom price list effective 20 Mar 2026"
     ],
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
+    "imageStatus": "verified-xiom-racket-case-image",
+    "imageSource": "Verified matching XIOM racket-case/model image.",
     "hasActualProductImage": true,
     "fallbackImage": "assets/banners/xiom-poster.webp",
     "searchImageQuery": "Xiom Xiom 20 RC30 - Blue table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=Xiom+Xiom+20+RC30+-+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "originalImage": "https://tennisdiscount.eu/images/icons/Xiom-NEO-racket-cover.jpg"
   },
   {
     "id": "xiom-xiom-bravoplus-6-pack",
@@ -22423,4 +22423,455 @@ document.addEventListener("DOMContentLoaded", () => {
     const observer = new MutationObserver(() => sanitizeGrid());
     [document.getElementById("brandProductGrid"), document.getElementById("homeProductGrid")].filter(Boolean).forEach(grid => observer.observe(grid,{childList:true,subtree:true}));
   });
+})();
+
+
+
+/* ============================================================================
+   TTW STOREFRONT QA FIX — 2026-10-12
+   - WhatsApp checkout stays visible instead of redirecting to a blank state
+   - scrollable responsive filter drawer
+   - duplicate-card/product protection
+   - verified XIOM racket case images even when old Supabase rows override seed
+   - Suggested for you on product detail pages
+============================================================================ */
+
+/* WhatsApp checkout: keep a clear success/progress state on the checkout page. */
+(function () {
+  function escapeText(value) {
+    return String(value ?? "").replace(/[&<>"']/g, ch => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[ch]));
+  }
+
+  function showWhatsAppProgress(order, whatsappUrl, saved) {
+    const success = document.getElementById("orderSuccess");
+    if (!success) return;
+
+    success.hidden = false;
+    success.innerHTML = `
+      <div class="order-success-card whatsapp-order-progress-card">
+        <div class="whatsapp-progress-icon" aria-hidden="true">${saved ? "✓" : "↗"}</div>
+        <span class="eyebrow">${saved ? "Order saved" : "WhatsApp checkout"}</span>
+        <h2>${saved ? "Your order is being placed through WhatsApp." : "Opening WhatsApp for your order…"}</h2>
+        <p>
+          ${saved
+            ? `Order <strong>${escapeText(order.orderId)}</strong> has been saved. Send the prepared WhatsApp message to complete the order request.`
+            : `We are saving order <strong>${escapeText(order.orderId)}</strong> and opening the prepared message in WhatsApp.`}
+        </p>
+        <div class="whatsapp-order-steps">
+          <span class="${saved ? "done" : "active"}"><b>01</b> Save order</span>
+          <span class="active"><b>02</b> Send WhatsApp message</span>
+          <span><b>03</b> Receive availability & payment update</span>
+        </div>
+        <div class="whatsapp-progress-actions">
+          <a class="button primary" target="_blank" rel="noopener noreferrer" href="${whatsappUrl}">Open WhatsApp again</a>
+          <a class="button ghost" href="index.html">Continue shopping</a>
+        </div>
+        <p class="checkout-note">Keep this page open if WhatsApp opens in another tab/app. You can return here at any time.</p>
+      </div>`;
+    success.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  const fixedWhatsAppCheckout = function(customer) {
+    const amount = getCartTotal();
+    if (!amount || !state.cart.length) {
+      showToast("Your cart is empty");
+      return;
+    }
+
+    const orderDraft = createOrderObject(customer, amount);
+    const order = {
+      ...orderDraft,
+      paymentId: `WHATSAPP-PENDING-${Date.now()}`,
+      paymentMode: "WhatsApp order - QR payment pending",
+      paymentStatus: "Pending QR payment",
+      orderChannel: "WhatsApp",
+      status: "New WhatsApp order",
+      customerWhatsAppStatus: "Updates pending"
+    };
+    const whatsappUrl = buildWhatsAppOrderUrl(order);
+
+    // Show a visible state before any navigation attempt.
+    showWhatsAppProgress(order, whatsappUrl, false);
+
+    // Directly open the actual WhatsApp URL. Do not create an empty intermediary tab.
+    try {
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    } catch (error) {
+      console.warn("WhatsApp could not be opened automatically", error);
+    }
+
+    const savePromise = completeOrder(order);
+    // completeOrder may redraw the success block; restore the clearer progress state.
+    showWhatsAppProgress(order, whatsappUrl, false);
+
+    Promise.resolve(savePromise).then(() => {
+      showWhatsAppProgress(order, whatsappUrl, true);
+      showToast("Order saved. Complete the prepared message in WhatsApp.");
+    }).catch(() => {
+      showWhatsAppProgress(order, whatsappUrl, false);
+      showToast("WhatsApp opened. Please keep this page open while we retry saving the order.");
+    });
+
+    // Deliberately no automatic redirect. This prevents the checkout page from blanking.
+    try { sessionStorage.removeItem("ttw-order-confirmed"); } catch (_) {}
+  };
+
+  window.placeOrderThroughWhatsApp = fixedWhatsAppCheckout;
+  try { placeOrderThroughWhatsApp = fixedWhatsAppCheckout; } catch (_) {}
+})();
+
+
+/* Responsive, scrollable catalogue filter drawer. */
+(function () {
+  const MOBILE_BREAKPOINT = 900;
+
+  function closeFilter(layout, toggle, panel) {
+    layout?.classList.remove("filters-open");
+    layout?.classList.add("filters-collapsed");
+    toggle?.setAttribute("aria-expanded", "false");
+    if (toggle) toggle.textContent = "Filter";
+    document.body.classList.remove("ttw-filter-drawer-open");
+    document.querySelector(".ttw-filter-backdrop")?.remove();
+    panel?.querySelector(".filter-drawer-close")?.setAttribute("aria-hidden", "true");
+  }
+
+  function ensureDrawerControls(section) {
+    const layout = section.querySelector(".catalog-layout");
+    const panel = section.querySelector(".filter-panel");
+    const toggle = section.querySelector(".filter-toggle");
+    if (!layout || !panel || !toggle) return;
+
+    if (!panel.querySelector(".filter-drawer-close")) {
+      const close = document.createElement("button");
+      close.type = "button";
+      close.className = "filter-drawer-close";
+      close.setAttribute("aria-label", "Close filters");
+      close.innerHTML = "×";
+      panel.prepend(close);
+      close.addEventListener("click", () => closeFilter(layout, toggle, panel));
+    }
+
+    // Capture-phase handler runs before old toggle handlers and normalizes final state.
+    if (toggle.dataset.ttwResponsiveDrawerBound !== "1") {
+      toggle.dataset.ttwResponsiveDrawerBound = "1";
+      toggle.addEventListener("click", () => {
+        setTimeout(() => {
+          const open = layout.classList.contains("filters-open");
+          if (window.innerWidth <= MOBILE_BREAKPOINT && open) {
+            document.body.classList.add("ttw-filter-drawer-open");
+            let backdrop = document.querySelector(".ttw-filter-backdrop");
+            if (!backdrop) {
+              backdrop = document.createElement("button");
+              backdrop.type = "button";
+              backdrop.className = "ttw-filter-backdrop";
+              backdrop.setAttribute("aria-label", "Close filters");
+              document.body.appendChild(backdrop);
+              backdrop.addEventListener("click", () => closeFilter(layout, toggle, panel));
+            }
+            panel.scrollTop = 0;
+          } else {
+            document.body.classList.remove("ttw-filter-drawer-open");
+            document.querySelector(".ttw-filter-backdrop")?.remove();
+          }
+        }, 0);
+      });
+    }
+
+    // Save/clear should close the mobile drawer after applying.
+    ["saveFilters", "clearPendingFilters", "resetFilters"].forEach(id => {
+      const button = panel.querySelector(`#${id}`);
+      if (button && button.dataset.ttwDrawerCloseBound !== "1") {
+        button.dataset.ttwDrawerCloseBound = "1";
+        button.addEventListener("click", () => {
+          if (window.innerWidth <= MOBILE_BREAKPOINT) {
+            setTimeout(() => closeFilter(layout, toggle, panel), 80);
+          }
+        });
+      }
+    });
+  }
+
+  function init() {
+    document.querySelectorAll(".shop.section").forEach(ensureDrawerControls);
+  }
+
+  document.addEventListener("DOMContentLoaded", init);
+  window.addEventListener("pageshow", init);
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > MOBILE_BREAKPOINT) {
+      document.body.classList.remove("ttw-filter-drawer-open");
+      document.querySelector(".ttw-filter-backdrop")?.remove();
+    }
+  });
+})();
+
+
+/* Prevent duplicate products/cards while preserving genuine colour/model variants. */
+(function () {
+  function exactProductKey(product) {
+    const brand = String(product?.brand || "").trim().toLowerCase();
+    const name = String(product?.name || "")
+      .trim()
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/\+/g, " plus ")
+      .replace(/\s+/g, " ");
+    return `${brand}::${name}`;
+  }
+
+  function uniqueProducts(list) {
+    const seenIds = new Set();
+    const seenNames = new Set();
+    const result = [];
+    (Array.isArray(list) ? list : []).forEach(product => {
+      if (!product?.id || !product?.name) return;
+      const id = String(product.id);
+      const key = exactProductKey(product);
+      if (seenIds.has(id) || seenNames.has(key)) return;
+      seenIds.add(id);
+      seenNames.add(key);
+      result.push(product);
+    });
+    return result;
+  }
+
+  const oldCanonical = window.ttwCanonicalProducts;
+  if (typeof oldCanonical === "function") {
+    window.ttwCanonicalProducts = function() {
+      return uniqueProducts(oldCanonical());
+    };
+  }
+
+  const oldGetProducts = typeof getProducts === "function" ? getProducts : null;
+  if (oldGetProducts) {
+    const dedupedGetProducts = function() {
+      return uniqueProducts(oldGetProducts());
+    };
+    try { getProducts = dedupedGetProducts; } catch (_) {}
+  }
+
+  function cleanRenderedGrid(grid) {
+    if (!grid) return;
+    const seenIds = new Set();
+    const seenNames = new Set();
+    grid.querySelectorAll("[data-product-card]").forEach(card => {
+      const id = String(card.dataset.productCard || "");
+      const name = String(card.querySelector(".product-name")?.textContent || "").trim().toLowerCase().replace(/\s+/g," ");
+      const brand = String(card.dataset.canonicalBrand || "").trim().toLowerCase();
+      const key = `${brand}::${name}`;
+      if ((id && seenIds.has(id)) || (name && seenNames.has(key))) {
+        card.remove();
+        return;
+      }
+      if (id) seenIds.add(id);
+      if (name) seenNames.add(key);
+    });
+  }
+
+  function cleanAll() {
+    document.querySelectorAll("#brandProductGrid,#homeProductGrid,#suggestedProductGrid").forEach(cleanRenderedGrid);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    cleanAll();
+    [100,350,900,1700,2800].forEach(ms => setTimeout(cleanAll, ms));
+    document.querySelectorAll("#brandProductGrid,#homeProductGrid").forEach(grid => {
+      new MutationObserver(cleanAll).observe(grid, { childList:true, subtree:true });
+    });
+  });
+
+  window.ttwUniqueProducts = uniqueProducts;
+})();
+
+
+/* XIOM racket-case image correction layer, including stale Supabase overrides. */
+(function () {
+  const verified = {
+    "xiom-xiom-tikkywow-racket-case-pink": "https://static.wixstatic.com/media/4eb2d5_bbdce5e96f424b4d8ad9649172b7ba01~mv2.jpg/v1/fill/w_1080%2Ch_1080%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_bbdce5e96f424b4d8ad9649172b7ba01~mv2.jpg",
+    "xiom-xiom-tikkywow-racket-case-blue": "https://storeassets.im-cdn.com/media-manager/sportsninja/yrxt4z8aTtGSH7rqbMqG_bluet_0x0_webp.webp",
+    "xiom-xiom-tikkywow-racket-case-navy-blue": "https://dungcubongban.vn/image/cache/catalog/xiom/2023/e3821a61772b234d10e613a9eab74cb8-500x500.png",
+    "xiom-xiom-tikkywow-2-racket-case-blue": "https://storeassets.im-cdn.com/media-manager/sportsninja/qQJ4YYrVSlKu15jj8DsO_t1_0x0_webp.webp",
+    "xiom-xiom-tikkywow-2-racket-case-l-blue": "https://www.affordablett.com.au/shop/images/Xiom_Tikkywow_Racket_Case_2_Light_Blue.jpg",
+    "xiom-xiom-tikkywow-2-racket-case-purple": "https://static.wixstatic.com/media/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp/v1/fill/w_993%2Ch_993%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp",
+    "xiom-xiom-tikkywow-2-racket-case-grey": "https://static.wixstatic.com/media/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp/v1/fill/w_993%2Ch_993%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_481963892d2c43d687ab1209387fd0ad~mv2.webp",
+    "xiom-xiom-neo-2-racket-case-dark-blue": "https://cdn.megaspin.net/store/images/products/zoom2_xiom-neo-2-case-blue.jpg",
+    "xiom-xiom-xiom-22xrc-navy": "https://storeassets.im-cdn.com/media-manager/sportsninja/wOsLFqjyQmOVPuBwYnEB_navyg-removebg-preview_0x0_webp.png",
+    "xiom-xiom-xiom-22xrc-grey": "https://static.wixstatic.com/media/4eb2d5_e3290be56c314a14ba93f1313b774d86~mv2.jpg/v1/fill/w_1080%2Ch_1080%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_e3290be56c314a14ba93f1313b774d86~mv2.jpg",
+    "xiom-xiom-xiom-22xrc-purple": "https://www.tt-energy.com/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/f/u/full_30694-table-tennis-racket-cover-racket-form-xiom-xrc-purple-9454018-2.jpg",
+    "xiom-xiom-20-rc30-blue": "https://tennisdiscount.eu/images/icons/Xiom-NEO-racket-cover.jpg"
+  };
+
+  function proxy(url) {
+    return "https://wsrv.nl/?url=" + encodeURIComponent(url)
+      + "&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90";
+  }
+
+  function patchProduct(product) {
+    const source = verified[String(product?.id || "")];
+    if (!source) return product;
+    return {
+      ...product,
+      originalImage: source,
+      image: proxy(source),
+      fallbackImage: "assets/banners/xiom-poster.webp",
+      imageStatus: "verified-xiom-racket-case-image",
+      imageSource: "Verified matching XIOM racket-case/model image."
+    };
+  }
+
+  const oldCanonical = window.ttwCanonicalProducts;
+  if (typeof oldCanonical === "function") {
+    window.ttwCanonicalProducts = function() {
+      return oldCanonical().map(patchProduct);
+    };
+  }
+
+  const previousNormalized = window.ttwNormalizedProduct;
+  window.ttwNormalizedProduct = function(product) {
+    const normalized = previousNormalized ? previousNormalized(product) : product;
+    return patchProduct(normalized);
+  };
+
+  function fixVisibleImages() {
+    document.querySelectorAll("[data-product-card]").forEach(card => {
+      const id = card.dataset.productCard;
+      const source = verified[id];
+      if (!source) return;
+      const img = card.querySelector("img");
+      if (!img) return;
+      const corrected = proxy(source);
+      if (img.src !== corrected) {
+        img.dataset.fallbackTried = "";
+        img.src = corrected;
+      }
+    });
+
+    const detail = document.getElementById("productDetail");
+    const id = new URLSearchParams(location.search).get("id");
+    if (detail && verified[id]) {
+      const img = detail.querySelector(".product-detail-media img");
+      if (img) img.src = proxy(verified[id]);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    fixVisibleImages();
+    [250,800,1600,2800].forEach(ms => setTimeout(fixVisibleImages, ms));
+  });
+
+  window.ttwVerifiedXiomCaseImages = verified;
+  window.ttwPatchXiomCaseProduct = patchProduct;
+})();
+
+
+/* One-time admin catalogue maintenance:
+   - remove exact duplicate product records
+   - write corrected XIOM case images back to Supabase through the existing sync layer */
+(function () {
+  const MIGRATION_KEY = "ttw-catalogue-maintenance-2026-10-12-v2";
+
+  function duplicateKey(product) {
+    return `${String(product?.brand || "").trim().toLowerCase()}::${String(product?.name || "")
+      .trim().toLowerCase().replace(/&/g," and ").replace(/\+/g," plus ").replace(/\s+/g," ")}`;
+  }
+
+  async function runMaintenance() {
+    if (!document.body || document.body.dataset.page !== "admin") return;
+    if (localStorage.getItem(MIGRATION_KEY) === "done") return;
+    if (!window.ttwCloudSync?.getSession || typeof getAdminProducts !== "function" || typeof saveAdminProducts !== "function") return;
+
+    const session = await window.ttwCloudSync.getSession().catch(() => null);
+    if (!session?.user) return;
+
+    await window.ttwCloudSync.pullProducts().catch(() => {});
+    let products = getAdminProducts();
+    if (!Array.isArray(products) || !products.length) return;
+
+    const seen = new Set();
+    const cleaned = [];
+    let removed = 0;
+    products.forEach(product => {
+      const key = duplicateKey(product);
+      if (seen.has(key)) {
+        removed += 1;
+        return;
+      }
+      seen.add(key);
+      cleaned.push(window.ttwPatchXiomCaseProduct ? window.ttwPatchXiomCaseProduct(product) : product);
+    });
+
+    localStorage.setItem(MIGRATION_KEY, "done");
+    saveAdminProducts(cleaned);
+    console.info(`TTW catalogue maintenance: ${removed} exact duplicate record(s) removed; XIOM racket case images corrected.`);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(runMaintenance, 1400);
+    setTimeout(runMaintenance, 3500);
+  });
+  document.addEventListener("ttw:cloud-products-updated", () => setTimeout(runMaintenance, 300));
+})();
+
+
+/* Suggested products on every product-detail page. */
+(function () {
+  function unique(list) {
+    const seen = new Set();
+    return (list || []).filter(product => {
+      const id = String(product?.id || "");
+      if (!id || seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    });
+  }
+
+  function currentProductId() {
+    return new URLSearchParams(location.search).get("id") || "";
+  }
+
+  function recommendations(products, current) {
+    const others = unique(products).filter(p => String(p.id) !== String(current.id) && !p.hidden && Number(p.price || 0) > 0);
+    const sameBrandCategory = others.filter(p => p.brand === current.brand && p.category === current.category);
+    const sameCategory = others.filter(p => p.category === current.category && p.brand !== current.brand);
+    const sameBrand = others.filter(p => p.brand === current.brand && p.category !== current.category);
+    const rest = others.filter(p => p.brand !== current.brand && p.category !== current.category);
+    return unique([...sameBrandCategory, ...sameCategory, ...sameBrand, ...rest]).slice(0, 4);
+  }
+
+  function renderSuggested() {
+    if (document.body?.dataset?.page !== "product-detail") return;
+    const section = document.getElementById("suggestedProductsSection");
+    const grid = document.getElementById("suggestedProductGrid");
+    if (!section || !grid) return;
+
+    const products = typeof window.ttwCanonicalProducts === "function"
+      ? window.ttwCanonicalProducts()
+      : (typeof getProducts === "function" ? getProducts() : []);
+    const id = currentProductId();
+    const current = products.find(p => String(p.id) === String(id));
+    if (!current) {
+      section.hidden = true;
+      return;
+    }
+
+    const list = recommendations(products, current);
+    if (!list.length) {
+      section.hidden = true;
+      return;
+    }
+
+    grid.innerHTML = list.map(product => {
+      if (typeof window.productCard === "function") return window.productCard(product);
+      return `<article class="suggested-simple-card"><a href="product.html?id=${encodeURIComponent(product.id)}">${product.name}</a></article>`;
+    }).join("");
+    section.hidden = false;
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    renderSuggested();
+    [250,700,1500].forEach(ms => setTimeout(renderSuggested, ms));
+  });
+  document.addEventListener("ttw:cloud-products-updated", () => setTimeout(renderSuggested, 100));
 })();
