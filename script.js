@@ -20938,6 +20938,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const { data, error } = await sb.auth.signInWithPassword({ email, password });
     if (error) throw error;
     status("connected", "Admin authenticated with Supabase");
+    await ensureSeedProductsInCloud();
     await pullAdminData();
     subscribeRealtime();
     return data?.session || null;
@@ -20956,6 +20957,44 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   function orderId(order) {
     return String(order?.orderId || order?.id || `TTW-${Date.now()}-${Math.random().toString(16).slice(2)}`);
+  }
+
+  async function ensureSeedProductsInCloud() {
+    const sb = ensureClient();
+    if (!sb) return { seeded: false, count: 0 };
+    const session = await getSession();
+    if (!session?.user) return { seeded: false, count: 0 };
+
+    const { count, error: countError } = await sb
+      .from(TABLES.products)
+      .select("id", { count: "exact", head: true })
+      .eq("site_id", SITE_ID);
+    if (countError) throw countError;
+    if (Number(count || 0) > 0) return { seeded: false, count: Number(count || 0) };
+
+    const seeds = (typeof seedProducts !== "undefined" && Array.isArray(seedProducts))
+      ? seedProducts.filter(product => product && product.id && product.name && Number(product.price || 0) > 0)
+      : [];
+    if (!seeds.length) return { seeded: false, count: 0 };
+
+    const now = new Date().toISOString();
+    const rows = seeds.map(product => ({
+      site_id: SITE_ID,
+      id: String(product.id),
+      data: { ...product, id: String(product.id) },
+      updated_at: now
+    }));
+
+    // Smaller batches avoid oversized browser requests while preserving the full catalogue.
+    for (let i = 0; i < rows.length; i += 75) {
+      const { error } = await sb
+        .from(TABLES.products)
+        .upsert(rows.slice(i, i + 75), { onConflict: "site_id,id" });
+      if (error) throw error;
+    }
+
+    status("connected", `${rows.length} catalogue products initialized in Supabase`);
+    return { seeded: true, count: rows.length };
   }
 
   async function uploadProductImage(product) {
@@ -21204,11 +21243,23 @@ document.addEventListener("DOMContentLoaded", () => {
         ${configReady ? `<small>Site ID: ${SITE_ID}</small>` : `<small>Files: /supabase-config.js + /supabase-setup.sql</small>`}
       </div>
       <div class="cloud-sync-actions">
-        <button type="button" class="button small" id="cloudForcePush">Migrate this browser data</button>
+        <button type="button" class="button small" id="cloudSeedCatalogue">Initialize catalogue in Supabase</button>
+        <button type="button" class="button small ghost" id="cloudForcePush">Migrate browser data</button>
         <button type="button" class="button small ghost" id="cloudForcePull">Pull Supabase data</button>
         <a class="button small ghost" href="SUPABASE_SETUP.md" target="_blank" rel="noopener">Setup guide</a>
       </div>
     `;
+    document.getElementById("cloudSeedCatalogue")?.addEventListener("click", async () => {
+      try {
+        if (!ensureClient()) throw new Error("Supabase config missing");
+        const result = await ensureSeedProductsInCloud();
+        await pullProducts();
+        status("connected", result.seeded
+          ? `${result.count} catalogue products initialized in Supabase`
+          : `Supabase catalogue already contains ${result.count} product(s)`);
+      } catch (error) { status("error", "Catalogue initialization failed: " + (error.message || error)); }
+    });
+
     document.getElementById("cloudForcePush")?.addEventListener("click", async () => {
       try {
         if (!ensureClient()) throw new Error("Supabase config missing");
@@ -21243,8 +21294,9 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       ensureClient();
       status("connecting", "Connecting to Supabase…");
-      await Promise.all([pullProducts(), pullContent()]);
       const session = await getSession();
+      if (session?.user) await ensureSeedProductsInCloud();
+      await Promise.all([pullProducts(), pullContent()]);
       if (session?.user) await pullOrders();
       subscribeRealtime();
       status("connected", session?.user ? "Supabase connected; admin session active" : "Supabase connected; public store sync active");
@@ -21277,6 +21329,7 @@ document.addEventListener("DOMContentLoaded", () => {
     pullProducts,
     pullContent,
     pullAdminData,
+    ensureSeedProductsInCloud,
     status: () => readJSON(STATUS_KEY, {}),
     pushAll: async () => {
       if (!ensureClient()) throw new Error("Supabase is not configured");
@@ -21962,13 +22015,27 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function canonicalProducts() {
-    const result = [...seed];
-    const ids = new Set(seed.map(p => String(p.id)));
-    const keys = new Set(seed.map(keyOf));
-    adminRaw().forEach(product => {
+    // Supabase/admin rows may override a built-in product only when the exact product ID matches.
+    // This prevents a name/image belonging to one item from ever being applied to another item.
+    const cloud = adminRaw();
+    const cloudById = new Map();
+    cloud.forEach(product => {
       if (!product || !product.id || !product.name) return;
-      // The October JOOLA sheet is authoritative. Old cached/Supabase JOOLA rows
-      // must not reintroduce removed zero-price products or stale images/prices.
+      cloudById.set(String(product.id), product);
+    });
+
+    const result = seed.map(base => {
+      const override = cloudById.get(String(base.id));
+      if (!override) return base;
+      cloudById.delete(String(base.id));
+      return { ...base, ...override, id: base.id };
+    });
+
+    const ids = new Set(result.map(p => String(p.id)));
+    const keys = new Set(result.map(keyOf));
+    cloudById.forEach(product => {
+      // Unknown JOOLA rows are intentionally blocked so removed zero-price sheet items
+      // cannot be resurrected by stale browser data.
       if (String(product.brand || "").toLowerCase() === "joola") return;
       const id = String(product.id);
       const key = keyOf(product);

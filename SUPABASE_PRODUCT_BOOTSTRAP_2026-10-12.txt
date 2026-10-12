@@ -1,0 +1,10 @@
+TTW Supabase product bootstrap fix
+
+Why ttw_products was empty:
+The built-in catalogue lived in script.js and only admin-created products were previously written to ttw_products.
+
+New behavior:
+1. Sign in to /admin.html with the registered Supabase admin account.
+2. If ttw_products is empty, the current active built-in catalogue is uploaded automatically in batches.
+3. The admin panel also includes an “Initialize catalogue in Supabase” button for a manual retry.
+4. Supabase product rows override built-in records only by exact product ID, preventing name/image mismatches.
