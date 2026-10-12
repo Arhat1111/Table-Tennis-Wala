@@ -18010,3 +18010,34 @@ section,
     border-radius: 22px !important;
   }
 }
+
+
+/* TTW catalogue integrity + MRP/sale pricing — 2026-10-12 */
+.product-card .product-visual { overflow: hidden; background: #fff; }
+.product-card .product-visual img,
+.product-detail-media > img {
+  width: 100%; height: 100%; object-fit: contain; object-position: center;
+  background: #fff; padding: clamp(10px, 1.25vw, 18px); box-sizing: border-box;
+}
+.product-card .product-info { min-width: 0; }
+.product-card .product-name { overflow-wrap: anywhere; }
+.product-pricing { display:flex; align-items:baseline; flex-wrap:wrap; gap:7px 10px; margin:8px 0 10px; }
+.product-mrp { color:#777b77; font-size:.82rem; font-weight:650; }
+.product-mrp s { text-decoration-thickness:1.5px; }
+.product-sale-price { color:#0d100d; font-size:1.24rem; font-weight:850; letter-spacing:-.025em; }
+.product-discount { display:inline-flex; align-items:center; min-height:25px; padding:3px 8px; border-radius:999px; background:#efffc4; color:#304600; font-size:.73rem; font-weight:800; white-space:nowrap; }
+.stock-pill { display:inline-flex; align-items:center; min-height:28px; padding:4px 10px; border-radius:999px; font-size:.75rem; font-weight:800; }
+.stock-pill.out { background:#f3f3f1; color:#696d68; border:1px solid #dedfdb; }
+.canonical-variant-note { margin:7px 0 10px; color:#686d68; font-size:.78rem; line-height:1.45; }
+.detail-pricing { display:flex; align-items:baseline; flex-wrap:wrap; gap:10px 12px; margin:12px 0 16px; }
+.detail-pricing strong { font-size:clamp(1.65rem,3vw,2.35rem); letter-spacing:-.04em; }
+.detail-mrp { color:#747974; font-size:.94rem; }
+.product-action-btn:disabled,
+.product-detail-actions button:disabled { cursor:not-allowed; opacity:.58; filter:saturate(.4); }
+@media (max-width: 760px) {
+  .product-pricing { gap:5px 8px; }
+  .product-sale-price { font-size:1.08rem; }
+  .product-mrp { font-size:.76rem; }
+  .product-discount { font-size:.68rem; }
+  .canonical-variant-note { font-size:.73rem; }
+}

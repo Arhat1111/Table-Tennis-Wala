@@ -4,1487 +4,1418 @@ const seedProducts = [
     "name": "JOOLA Dynaryz Inferno Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 7200,
-    "rating": 4.9,
+    "mrp": 7200,
+    "price": 3999,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Premium",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png%3Fv%3D1712315197%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Explosive premium rubber built for maximum acceleration, tension and high-level offensive play.",
-    "features": [
-      "SKU 70465",
-      "Category: Rubbers",
-      "Available: Red / Black / Purple",
-      "MAX thickness",
-      "Kinetic tension surface",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png%3Fv%3D1712315197%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png?v=1712315197&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Dynaryz Inferno Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹7,200",
+      "Website price: ₹3,999",
+      "Available colours: Red / Black / Purple",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
-      "Black"
+      "Black",
+      "Purple"
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/Dynaryz-Inferno-Rubber-RubberDynaryzInferno-Web-01.png?v=1712315197&width=450"
+    "officialProductUrl": "https://joola.com/products/dynaryz-inferno-table-tennis-rubber"
   },
   {
     "id": "joola-cat-dynaryz-zgx",
     "name": "JOOLA Dynaryz ZGX Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 3849,
+    "mrp": 6600,
+    "price": 3799,
     "rating": 4.8,
     "reviews": 0,
-    "badge": "Premium",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png%3Fv%3D1712315219%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "High-grip offensive rubber with explosive sponge response and strong sweet-zone feeling.",
-    "features": [
-      "SKU 70488",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "MAX thickness",
-      "Hyper traction",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png%3Fv%3D1712315219%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png?v=1712315219&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Dynaryz ZGX Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹6,600",
+      "Website price: ₹3,799",
+      "Available colours: Red / Black",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
       "Black"
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/Dynaryz-ZGX-dynaryzZGXrubber-Web-01.png?v=1712315219&width=450"
+    "officialProductUrl": "https://joola.com/collections/table-tennis-rubbers"
   },
   {
     "id": "joola-cat-dynaryz-zgr",
     "name": "JOOLA Dynaryz ZGR Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 3849,
-    "rating": 4.9,
+    "mrp": 6600,
+    "price": 3799,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Premium",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png%3Fv%3D1712311173%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Tacky and grippy premium rubber for extreme rotation, power and flatter attacking trajectories.",
-    "features": [
-      "SKU 70522",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "MAX thickness",
-      "Hard 56° sponge",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png%3Fv%3D1712311173%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png?v=1712311173&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Dynaryz ZGR Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹6,600",
+      "Website price: ₹3,799",
+      "Available colours: Red / Black",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
       "Black"
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/dynaryzZGRrubber_01.png?v=1712311173&width=450"
+    "officialProductUrl": "https://joola.com/collections/table-tennis-rubbers"
   },
   {
     "id": "joola-cat-dynaryz-acc",
     "name": "JOOLA Dynaryz ACC Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 3849,
+    "mrp": 6400,
+    "price": 3699,
     "rating": 4.8,
     "reviews": 0,
-    "badge": "Premium",
-    "color": "#3e5cff",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png%3Fv%3D1712310661%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Balanced premium rubber made for speed, spin, control and safe topspin arcs.",
-    "features": [
-      "SKU 70502",
-      "Category: Rubbers",
-      "Available: Red / Black / Purple",
-      "MAX thickness",
-      "Hyper Bounce sponge",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png%3Fv%3D1712310661%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png?v=1712310661&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Dynaryz ACC Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹6,400",
+      "Website price: ₹3,699",
+      "Available colours: Red / Black / Purple",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
-      "Black"
+      "Black",
+      "Purple"
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/dynaryzACCrubber_01-3.png?v=1712310661&width=450"
+    "officialProductUrl": "https://joola.com/collections/table-tennis-rubbers"
   },
   {
     "id": "joola-cat-dynaryz-agr",
     "name": "JOOLA Dynaryz AGR Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 3849,
+    "mrp": 6400,
+    "price": 3699,
     "rating": 4.8,
     "reviews": 0,
-    "badge": "Premium",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png%3Fv%3D1712310646%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Professional-level premium rubber for players wanting hard sponge power and reliable grip.",
-    "features": [
-      "SKU 70512",
-      "Category: Rubbers",
-      "Available: Red / Black / Purple",
-      "MAX thickness",
-      "Advanced traction",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png%3Fv%3D1712310646%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png?v=1712310646&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Dynaryz AGR Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹6,400",
+      "Website price: ₹3,699",
+      "Available colours: Red / Black / Purple",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
-      "Black"
+      "Black",
+      "Purple"
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/dynaryzAGRrubber_01-1.png?v=1712310646&width=450"
-  },
-  {
-    "id": "joola-cat-dynaryz-cmd",
-    "name": "JOOLA Dynaryz CMD Table Tennis Rubber",
-    "brand": "joola",
-    "category": "rubbers",
-    "price": 6400,
-    "rating": 4.7,
-    "reviews": 0,
-    "badge": "Premium",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/dynaryzCMDrubber_01.png%3Fv%3D1712311166%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Controlled premium rubber option for players who want Dynaryz quality with added command.",
-    "features": [
-      "SKU 70532",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "MAX thickness",
-      "Control-focused feel",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "availableColors": [
-      "Red",
-      "Black"
-    ],
-    "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/dynaryzCMDrubber_01.png?v=1712311166&width=450"
-  },
-  {
-    "id": "joola-cat-tronix-acc",
-    "name": "JOOLA Tronix ACC Table Tennis Rubber",
-    "brand": "joola",
-    "category": "rubbers",
-    "price": 3199,
-    "rating": 4.8,
-    "reviews": 0,
-    "badge": "Professional",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70592_JOOLA_Tronix-ACC_01_web.webp%3Fv%3D1758019542%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Professional rubber with GIGA CELL sponge for lively acceleration and balanced topspin power.",
-    "features": [
-      "SKU 70593",
-      "Category: Rubbers",
-      "Available: Red / Black / Blue",
-      "MAX thickness",
-      "Giga Cell sponge",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/tronix-acc-table-tennis-rubber",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "availableColors": [
-      "Red",
-      "Black"
-    ],
-    "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.in/cdn/shop/files/70592_JOOLA_Tronix-ACC_01_web.webp?v=1758019542&width=1200"
+    "officialProductUrl": "https://joola.com/collections/table-tennis-rubbers"
   },
   {
     "id": "joola-cat-tronix-cmd",
     "name": "JOOLA Tronix CMD Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 3199,
-    "rating": 4.7,
-    "reviews": 0,
-    "badge": "Professional",
-    "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png%3Fv%3D1712314354%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Professional control rubber for close-table counters, spin control and consistent ball feedback.",
-    "features": [
-      "SKU 70587",
-      "Category: Rubbers",
-      "Available: Red / Black / Blue",
-      "MAX thickness",
-      "Soft command feel",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "availableColors": [
-      "Red",
-      "Black"
-    ],
-    "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png?v=1712314354&width=450"
-  },
-  {
-    "id": "joola-cat-tronix-zgr",
-    "name": "JOOLA Tronix ZGR Table Tennis Rubber",
-    "brand": "joola",
-    "category": "rubbers",
-    "price": 3199,
+    "mrp": 5300,
+    "price": 2999,
     "rating": 4.8,
     "reviews": 0,
-    "badge": "Professional",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tronix-ZGR-70598-70601-Web-02.png%3Fv%3D1712314352%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Grippy professional rubber for heavy rotation and direct power transfer in offensive play.",
-    "features": [
-      "SKU 70599",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "MAX thickness",
-      "Hyper traction surface",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png%3Fv%3D1712314354%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/Tronix-CMD-70586-70591-Web-02.png?v=1712314354&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Tronix CMD Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹5,300",
+      "Website price: ₹2,999",
+      "Available colours: Red / Black / Blue",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
-      "Black"
+      "Black",
+      "Blue"
     ],
     "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/Tronix-ZGR-70598-70601-Web-02.png?v=1712314352&width=450"
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-rhyzen-ice",
     "name": "JOOLA Rhyzen ICE Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 4400,
-    "rating": 4.7,
+    "mrp": 4400,
+    "price": 2699,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Performance",
+    "badge": "JOOLA",
     "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70560_JOOLA_Rhyzen-ICE_03_web.webp%3Fv%3D1758692142%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Cool and controlled performance rubber made for feel, placement and confident rally play.",
-    "features": [
-      "SKU 70650",
-      "Category: Rubbers",
-      "Available: Red / Black / Blue",
-      "MAX thickness",
-      "Control profile",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/70560_JOOLA_Rhyzen-ICE_03_web.webp?v=1758692142&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/rhyzen-ice-table-tennis-rubber",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Rhyzen ICE Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹4,400",
+      "Website price: ₹2,699",
+      "Available colours: Red / Black / Blue",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
-      "Black"
+      "Black",
+      "Blue"
     ],
     "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.in/cdn/shop/files/70560_JOOLA_Rhyzen-ICE_03_web.webp?v=1758692142&width=1200"
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-rhyzen-fire",
     "name": "JOOLA Rhyzen FIRE Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 4400,
+    "mrp": 4400,
+    "price": 2699,
     "rating": 4.8,
     "reviews": 0,
-    "badge": "Performance",
-    "color": "#d8312b",
+    "badge": "JOOLA",
+    "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70570_JOOLA_Rhyzen-FIRE_03_web_0b5a771d-dd58-4f60-a4a2-39209deb5a4b.webp%3Fv%3D1758692777%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Offensive performance rubber with dynamic response, spin and powerful loop potential.",
-    "features": [
-      "SKU 70571",
-      "Category: Rubbers",
-      "Available: Red / Black / Blue",
-      "MAX thickness",
-      "Momentum sponge",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/70570_JOOLA_Rhyzen-FIRE_03_web_0b5a771d-dd58-4f60-a4a2-39209deb5a4b.webp?v=1758692777&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/rhyzen-fire-table-tennis-rubber",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Rhyzen FIRE Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹4,400",
+      "Website price: ₹2,699",
+      "Available colours: Red / Black / Blue",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
-      "Black"
+      "Black",
+      "Blue"
     ],
     "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.in/cdn/shop/files/70570_JOOLA_Rhyzen-FIRE_03_web_0b5a771d-dd58-4f60-a4a2-39209deb5a4b.webp?v=1758692777&width=1200"
-  },
-  {
-    "id": "joola-cat-rhyzen-cmd",
-    "name": "JOOLA Rhyzen CMD Table Tennis Rubber",
-    "brand": "joola",
-    "category": "rubbers",
-    "price": 4400,
-    "rating": 4.7,
-    "reviews": 0,
-    "badge": "Performance",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/rhyzenCMDrubber_01.png%3Fv%3D1712311158%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Command-focused performance rubber for precise takeoff, balanced pace and spin safety.",
-    "features": [
-      "SKU 70552",
-      "Category: Rubbers",
-      "Available: Red / Black / Blue",
-      "MAX thickness",
-      "Sweetzone control",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "availableColors": [
-      "Red",
-      "Black"
-    ],
-    "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.com/cdn/shop/files/rhyzenCMDrubber_01.png?v=1712311158&width=450"
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-zack",
     "name": "JOOLA Zack Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 3750,
-    "rating": 4.6,
+    "mrp": 3750,
+    "price": 1199,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Progressive",
-    "color": "#d8312b",
+    "badge": "JOOLA",
+    "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70070_JOOLA_Zack_01_web.webp%3Fv%3D1758005420%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "All-round progressive rubber with high control, durability and easy placement.",
-    "features": [
-      "SKU 70071",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "MAX thickness",
-      "Beginner friendly",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/70070_JOOLA_Zack_01_web.webp?v=1758005420&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/joola-rubber-zack",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Zack Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹3,750",
+      "Website price: ₹1,199",
+      "Available colours: Red / Black",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
       "Black"
     ],
     "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.in/cdn/shop/files/70070_JOOLA_Zack_01_web.webp?v=1758005420&width=1200"
+    "thickness": "MAX"
   },
   {
     "id": "joola-cat-micron",
     "name": "JOOLA Micron Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 3300,
-    "rating": 4.6,
+    "mrp": 3300,
+    "price": 1999,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Progressive",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BMicron%2BTable%2BTennis%2BRubber%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "High-control rubber with a forgiving bounce and grippy surface for developing players.",
-    "features": [
-      "SKU 70270",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "MAX thickness",
-      "Precision feel",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Micron-Rubber-70269-70272-Web-02.png%3Fv%3D1788359193%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/Micron-Rubber-70269-70272-Web-02.png?v=1788359193&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Micron Table Tennis Rubber table tennis product official image",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Micron Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹3,300",
+      "Website price: ₹1,999",
+      "Available colours: Red / Black",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
       "Black"
     ],
     "maxThickness": "MAX",
     "thickness": "MAX",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Micron+Table+Tennis+Rubber+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "officialProductUrl": "https://joola.com/products/micron-table-tennis-rubber"
   },
   {
     "id": "joola-cat-vizon",
     "name": "JOOLA Vizon Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 2750,
-    "rating": 4.5,
+    "mrp": 2750,
+    "price": 1499,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Progressive",
+    "badge": "JOOLA",
     "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/70019_JOOLA_Vizon_01_web_c7239a26-9e31-475e-8d56-7e4854e34b35.webp%3Fv%3D1757938008%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Classic-style rubber focused on control, dampened sponge response and simple playability.",
-    "features": [
-      "SKU 70026",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "MAX thickness",
-      "High control",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/70019_JOOLA_Vizon_01_web_c7239a26-9e31-475e-8d56-7e4854e34b35.webp?v=1757938008&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/joola-rubber-vizon-1",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Vizon Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹2,750",
+      "Website price: ₹1,499",
+      "Available colours: Red / Black",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
       "Black"
     ],
     "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.in/cdn/shop/files/70019_JOOLA_Vizon_01_web_c7239a26-9e31-475e-8d56-7e4854e34b35.webp?v=1757938008&width=1200"
+    "thickness": "MAX"
+  },
+  {
+    "id": "joola-cat-express-ultra",
+    "name": "JOOLA Express Ultra Short-Pips Table Tennis Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "mrp": 4700,
+    "price": 2999,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Express-Ultra-70130-70138-Web-01.png%3Fv%3D1712310471%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/Express-Ultra-70130-70138-Web-01.png?v=1712310471&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Express Ultra Short-Pips Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹4,700",
+      "Website price: ₹2,999",
+      "Available colours: Red / Black"
+    ],
+    "outOfStock": false,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "officialProductUrl": "https://joola.com/collections/table-tennis-rubbers"
   },
   {
     "id": "joola-cat-cwx",
-    "name": "JOOLA CWX Long-Pips Table Tennis Rubber",
+    "name": "JOOLA CWX OX Long-Pips Table Tennis Rubber",
     "brand": "joola",
     "category": "rubbers",
-    "price": 5000,
-    "rating": 4.5,
+    "mrp": 5000,
+    "price": 3350,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Precision",
+    "badge": "JOOLA",
     "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/joola-cwx-long-pips-table-tennis-rubber-side-view.jpg%3Fv%3D1746558369%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Long-pips rubber made for defensive variation, disruption and spin reversal.",
-    "features": [
-      "SKU 71237",
-      "Category: Rubbers",
-      "Available: Red / Black",
-      "OX / Long pips",
-      "Defensive control",
-      "Max thickness: MAX",
-      "Colour options: Red / Black"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/joola-cwx-long-pips-table-tennis-rubber-side-view.jpg?v=1746558369&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/joola-cwx-long-pips-table-tennis-rubber-copy",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA CWX OX Long-Pips Table Tennis Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹5,000",
+      "Website price: ₹3,350",
+      "Available colours: Red / Black",
+      "Thickness: OX"
+    ],
+    "outOfStock": false,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "OX",
+    "thickness": "OX"
+  },
+  {
+    "id": "joola-hugo-trinity-dynamic",
+    "name": "JOOLA Hugo Trinity Dynamic Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "mrp": 9000,
+    "price": 4500,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/600643_JOOLA_Trinity_Hugo_Calderano_Dynamic_01.png%3Fv%3D1788376472%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/600643_JOOLA_Trinity_Hugo_Calderano_Dynamic_01.png?v=1788376472&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hugo Trinity Dynamic Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹9,000",
+      "Website price: ₹4,500",
+      "Available colours: Red / Black",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
     "availableColors": [
       "Red",
       "Black"
     ],
     "maxThickness": "MAX",
-    "thickness": "MAX",
-    "originalImage": "https://joola.in/cdn/shop/files/joola-cwx-long-pips-table-tennis-rubber-side-view.jpg?v=1746558369&width=1200"
+    "thickness": "MAX"
+  },
+  {
+    "id": "joola-hugo-trinity-charged",
+    "name": "JOOLA Hugo Trinity Charged Rubber",
+    "brand": "joola",
+    "category": "rubbers",
+    "mrp": 9000,
+    "price": 4500,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/600639_JOOLA_Trinity_Hugo_Calderano_Charged_01.png%3Fv%3D1788376427%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/600639_JOOLA_Trinity_Hugo_Calderano_Charged_01.png?v=1788376427&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hugo Trinity Charged Rubber from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rubbers",
+      "MRP: ₹9,000",
+      "Website price: ₹4,500",
+      "Available colours: Red / Black",
+      "Thickness: MAX"
+    ],
+    "outOfStock": false,
+    "availableColors": [
+      "Red",
+      "Black"
+    ],
+    "maxThickness": "MAX",
+    "thickness": "MAX"
+  },
+  {
+    "id": "joola-prime-40-pack-3",
+    "name": "JOOLA Prime 3-Star 40+ White Balls — Pack of 3",
+    "brand": "joola",
+    "category": "balls",
+    "mrp": 470,
+    "price": 300,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/PrimeABS-Hero.png%3Fv%3D1712310165%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/PrimeABS-Hero.png?v=1712310165&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Prime 3-Star 40+ White Balls — Pack of 3 from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Balls",
+      "MRP: ₹470",
+      "Website price: ₹300"
+    ],
+    "outOfStock": false,
+    "officialProductUrl": "https://joola.com/products/prime-3-star-abs-table-tennis-balls"
   },
   {
     "id": "joola-cat-prime-40-pack-6",
-    "name": "JOOLA Prime*** 40+ Table Tennis Balls",
+    "name": "JOOLA Prime 3-Star 40+ White Balls — Pack of 6",
     "brand": "joola",
     "category": "balls",
-    "price": 850,
-    "rating": 4.9,
+    "mrp": 850,
+    "price": 550,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Competition",
-    "color": "#ffffff",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BPrime%252A%252A%252A%2B40%252B%2BTable%2BTennis%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "ITTF-approved competition balls with consistent bounce, ABS material and reliable flight.",
-    "features": [
-      "SKU 40031",
-      "Category: Balls",
-      "Pack options: 6 / 72",
-      "3-star ball",
-      "Competition grade"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/40031_01.png%3Fv%3D1712310166%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/40031_01.png?v=1712310166&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Prime*** 40+ Table Tennis Balls table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Table+Tennis+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Prime 3-Star 40+ White Balls — Pack of 6 from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Balls",
+      "MRP: ₹850",
+      "Website price: ₹550"
+    ],
+    "outOfStock": false,
+    "officialProductUrl": "https://joola.com/products/prime-3-star-abs-table-tennis-balls"
   },
   {
     "id": "joola-cat-prime-40-pack-72",
-    "name": "JOOLA Prime*** 40+ Balls Pack of 72",
+    "name": "JOOLA Prime 3-Star 40+ White Balls — Pack of 72",
     "brand": "joola",
     "category": "balls",
-    "price": 9400,
-    "rating": 4.9,
+    "mrp": 9400,
+    "price": 5500,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Competition",
-    "color": "#ffffff",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BPrime%252A%252A%252A%2B40%252B%2BBalls%2BPack%2Bof%2B72%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Bulk pack of competition-grade JOOLA Prime 40+ balls for clubs and tournaments.",
-    "features": [
-      "SKU 40030",
-      "Category: Balls",
-      "Pack of 72",
-      "3-star ball",
-      "ITTF approved"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/40030_01.png%3Fv%3D1712310168%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/40030_01.png?v=1712310168&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Prime*** 40+ Balls Pack of 72 table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Prime%2A%2A%2A+40%2B+Balls+Pack+of+72+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Prime 3-Star 40+ White Balls — Pack of 72 from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Balls",
+      "MRP: ₹9,400",
+      "Website price: ₹5,500"
+    ],
+    "outOfStock": false,
+    "officialProductUrl": "https://joola.com/products/prime-3-star-abs-table-tennis-balls"
   },
   {
     "id": "joola-cat-training-40-pack-120",
-    "name": "JOOLA Training 40+ Balls Pack of 120",
+    "name": "JOOLA Training 40+ White Balls — Pack of 120",
     "brand": "joola",
     "category": "balls",
-    "price": 4300,
-    "rating": 4.7,
+    "mrp": 4300,
+    "price": 2800,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Training",
-    "color": "#ffffff",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp%3Fv%3D1758099507%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "High-volume training ball pack for drills, coaching sessions and club practice.",
-    "features": [
-      "SKU 44230",
-      "Category: Balls",
-      "Pack of 120",
-      "ABS material",
-      "Training grade"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp?v=1758099507&width=450"
-  },
-  {
-    "id": "joola-cat-tournament-ct24",
-    "name": "JOOLA Tournament 40+ WH CT24 Balls",
-    "brand": "joola",
-    "category": "balls",
-    "price": 900,
-    "rating": 4.5,
-    "reviews": 0,
-    "badge": "Training",
-    "color": "#ffffff",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BTournament%2B40%252B%2BWH%2BCT24%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Tournament-style white balls suitable for practice, training and match preparation.",
-    "features": [
-      "SKU 44233",
-      "Category: Balls",
-      "CT24 pack",
-      "White balls",
-      "Practice use"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Tournament 40+ WH CT24 Balls table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Tournament+40%2B+WH+CT24+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
-  },
-  {
-    "id": "joola-cat-advanced-training",
-    "name": "JOOLA Advanced Training 36KT White Balls",
-    "brand": "joola",
-    "category": "balls",
-    "price": 1500,
-    "rating": 4.5,
-    "reviews": 0,
-    "badge": "Training",
-    "color": "#ffffff",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BAdvanced%2BTraining%2B36KT%2BWhite%2BBalls%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Advanced training ball set for high-repetition drills and coaching use.",
-    "features": [
-      "SKU 44256",
-      "Category: Balls",
-      "36 balls",
-      "White",
-      "Training"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Advanced Training 36KT White Balls table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Advanced+Training+36KT+White+Balls+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
-  },
-  {
-    "id": "joola-cat-bcover-hard-blue",
-    "name": "JOOLA B.Cover Hard Case Navy",
-    "brand": "joola",
-    "category": "accessories",
-    "price": 2099,
-    "rating": 4.6,
-    "reviews": 0,
-    "badge": "Case",
-    "color": "#263d46",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BB.Cover%2BHard%2BCase%2BNavy%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Hard-shell racket case for safe everyday storage and travel.",
-    "features": [
-      "SKU 80570",
-      "Category: Accessories",
-      "Blue/Navy",
-      "Hard shell",
-      "Single racket"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA B.Cover Hard Case Navy table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
-  },
-  {
-    "id": "joola-cat-bcover-hard-black",
-    "name": "JOOLA B.Cover Hard Case Black",
-    "brand": "joola",
-    "category": "accessories",
-    "price": 2099,
-    "rating": 4.6,
-    "reviews": 0,
-    "badge": "Case",
+    "badge": "JOOLA",
     "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BB.Cover%2BHard%2BCase%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Minimal hard case for protecting one racket and small accessories.",
-    "features": [
-      "SKU 80571",
-      "Category: Accessories",
-      "Black",
-      "Hard shell",
-      "Zip closure"
-    ],
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp%3Fv%3D1758099507%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/44230_JOOLA_Training_144_01_web.webp?v=1758099507&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA B.Cover Hard Case Black table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Training 40+ White Balls — Pack of 120 from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Balls",
+      "MRP: ₹4,300",
+      "Website price: ₹2,800"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-alu-double-case",
     "name": "JOOLA ALU Double Bat Case",
     "brand": "joola",
     "category": "accessories",
-    "price": 4199,
-    "rating": 4.7,
+    "mrp": 4200,
+    "price": 2800,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Case",
+    "badge": "JOOLA",
     "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BALU%2BDouble%2BBat%2BCase%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Aluminium-style double racket case with shaped foam for two rackets and balls.",
-    "features": [
-      "SKU 80555",
-      "Category: Accessories",
-      "Double racket case",
-      "Aluminium design",
-      "Foam inlay"
-    ],
+    "image": "https://wsrv.nl/?url=https://static.wixstatic.com/media/4eb2d5_86f682293c1a4c17af4b808dfb8686ce~mv2.webp/v1/fill/w_800%2Ch_800%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/4eb2d5_86f682293c1a4c17af4b808dfb8686ce~mv2.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://static.wixstatic.com/media/4eb2d5_86f682293c1a4c17af4b808dfb8686ce~mv2.webp/v1/fill/w_800,h_800,al_c,q_85,enc_avif,quality_auto/4eb2d5_86f682293c1a4c17af4b808dfb8686ce~mv2.webp",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA ALU Double Bat Case table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+ALU+Double+Bat+Case+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA ALU Double Bat Case from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹4,200",
+      "Website price: ₹2,800"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-alu-laser-case",
-    "name": "JOOLA Bat Case ALU Laser Black",
+    "name": "JOOLA ALU Laser Bat Case — Black",
     "brand": "joola",
     "category": "accessories",
-    "price": 4499,
-    "rating": 4.7,
+    "mrp": 4000,
+    "price": 2700,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Case",
+    "badge": "JOOLA",
     "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BBat%2BCase%2BALU%2BLaser%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Premium protective bat case with a clean black aluminium look.",
-    "features": [
-      "SKU 80544",
-      "Category: Accessories",
-      "Black case",
-      "Premium storage",
-      "Travel ready"
-    ],
+    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/80544_JOOLA_Alu-Laser-Case_01_web_jpg.webp%3Fv%3D1767785288%26width%3D1300&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.in/cdn/shop/files/80544_JOOLA_Alu-Laser-Case_01_web_jpg.webp?v=1767785288&width=1300",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Bat Case ALU Laser Black table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Bat+Case+ALU+Laser+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA ALU Laser Bat Case — Black from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹4,000",
+      "Website price: ₹2,700"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-racket-case-aluminum",
-    "name": "JOOLA Racket Case Aluminum",
+    "name": "JOOLA Bat Case ALU — Black",
     "brand": "joola",
     "category": "accessories",
-    "price": 3600,
-    "rating": 4.6,
+    "mrp": 3600,
+    "price": 2600,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Case",
+    "badge": "JOOLA",
     "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BRacket%2BCase%2BAluminum%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Strong racket case for carrying match equipment safely.",
-    "features": [
-      "SKU 80542",
-      "Category: Accessories",
-      "Aluminium-style",
-      "Protective",
-      "Match-day gear"
-    ],
+    "image": "https://wsrv.nl/?url=https://m.media-amazon.com/images/I/61wmnC7aiEL.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://m.media-amazon.com/images/I/61wmnC7aiEL.jpg",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Racket Case Aluminum table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Racket+Case+Aluminum+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Bat Case ALU — Black from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹3,600",
+      "Website price: ₹2,600"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-cat-bcover-hard-black",
+    "name": "JOOLA Hard Case — Black",
+    "brand": "joola",
+    "category": "accessories",
+    "mrp": 2100,
+    "price": 1400,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg%3Fv%3D1771594546%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/TTRacketCaseBlack.jpg?v=1771594546&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hard Case — Black from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹2,100",
+      "Website price: ₹1,400"
+    ],
+    "outOfStock": false,
+    "officialProductUrl": "https://joola.com/products/black-hard-case"
+  },
+  {
+    "id": "joola-cat-bcover-hard-blue",
+    "name": "JOOLA Hard Case — Navy Blue",
+    "brand": "joola",
+    "category": "accessories",
+    "mrp": 2100,
+    "price": 1400,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BB.Cover%2BHard%2BCase%2BNavy%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+B.Cover+Hard+Case+Navy+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hard Case — Navy Blue from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹2,100",
+      "Website price: ₹1,400"
+    ],
+    "outOfStock": false,
+    "officialProductUrl": "https://joola.com/products/navy-hard-case"
   },
   {
     "id": "joola-cat-x-glue",
-    "name": "JOOLA X-Glue 90ml",
+    "name": "JOOLA X-Glue Green Power 90 ml",
     "brand": "joola",
     "category": "glue",
-    "price": 1999,
-    "rating": 4.5,
+    "mrp": 2000,
+    "price": 1300,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Glue",
-    "color": "#d7ff3f",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/xglue_01.png%3Fv%3D1712310458%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Water-based table tennis glue for rubber assembly and racket maintenance.",
-    "features": [
-      "SKU 82037",
-      "Category: Glue",
-      "90 ml",
-      "Rubber assembly",
-      "Accessory"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/xglue_01.png?v=1712310458&width=450"
-  },
-  {
-    "id": "joola-cat-glue-lex",
-    "name": "JOOLA Glue Lex Green Power 90ml",
-    "brand": "joola",
-    "category": "glue",
-    "price": 900,
-    "rating": 4.5,
-    "reviews": 0,
-    "badge": "Glue",
-    "color": "#d7ff3f",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/gluelex_01-1.png%3Fv%3D1712310771%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Glue accessory for rubber fitting and equipment setup.",
-    "features": [
-      "SKU 82037",
-      "Category: Glue",
-      "90 ml",
-      "Green Power",
-      "Assembly"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/gluelex_01-1.png?v=1712310771&width=450"
-  },
-  {
-    "id": "joola-cat-edge-tape-black",
-    "name": "JOOLA Edge Tape 20 Black",
-    "brand": "joola",
-    "category": "accessories",
-    "price": 420,
-    "rating": 4.4,
-    "reviews": 0,
-    "badge": "Edge tape",
+    "badge": "JOOLA",
     "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BEdge%2BTape%2B20%2BBlack%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Black edge tape to protect the side of the blade and rubber sheets.",
-    "features": [
-      "SKU 83125",
-      "Category: Accessories",
-      "Black",
-      "20 mm",
-      "Racket protection"
-    ],
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/xglue_01.png%3Fv%3D1712310458%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/xglue_01.png?v=1712310458&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Edge Tape 20 Black table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Black+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA X-Glue Green Power 90 ml from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Glue",
+      "MRP: ₹2,000",
+      "Website price: ₹1,300"
+    ],
+    "outOfStock": false
   },
   {
-    "id": "joola-cat-edge-tape-blue",
-    "name": "JOOLA Edge Tape 20 Blue",
+    "id": "joola-glue-lex-1000",
+    "name": "JOOLA Glue LEX Green 1000 ml",
     "brand": "joola",
-    "category": "accessories",
-    "price": 850,
-    "rating": 4.4,
+    "category": "glue",
+    "mrp": 7500,
+    "price": 5000,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Edge tape",
-    "color": "#263dff",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BEdge%2BTape%2B20%2BBlue%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Blue edge tape for a clean protective finish on custom rackets.",
-    "features": [
-      "SKU 83122",
-      "Category: Accessories",
-      "Blue",
-      "20 mm",
-      "Racket protection"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://www.k-unlimited.de/media/92/08/7a/1686092474/5374_0.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://www.k-unlimited.de/media/92/08/7a/1686092474/5374_0.jpg",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Edge Tape 20 Blue table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Edge+Tape+20+Blue+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Glue LEX Green 1000 ml from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Glue",
+      "MRP: ₹7,500",
+      "Website price: ₹5,000"
+    ],
+    "outOfStock": false
   },
   {
-    "id": "joola-cat-turbo-cleaner",
-    "name": "JOOLA Turbo Cleaner 250ml",
+    "id": "joola-edge-tape-black-50",
+    "name": "JOOLA Edge Tape 20 Black — 10 mm / 50 m",
     "brand": "joola",
     "category": "accessories",
-    "price": 1250,
-    "rating": 4.5,
+    "mrp": 4200,
+    "price": 2500,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Cleaner",
-    "color": "#d7ff3f",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BTurbo%2BCleaner%2B250ml%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Rubber cleaner for maintaining surface grip and extending rubber life.",
-    "features": [
-      "SKU 80231",
-      "Category: Accessories",
-      "250 ml",
-      "Rubber care",
-      "Accessory"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://pingpongshop.eu/image/cache/catalog/image/catalog/external/joola-edge-tape-10mm-50m-black-19797.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://pingpongshop.eu/image/cache/catalog/image/catalog/external/joola-edge-tape-10mm-50m-black-19797.webp",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Turbo Cleaner 250ml table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Turbo+Cleaner+250ml+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Edge Tape 20 Black — 10 mm / 50 m from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹4,200",
+      "Website price: ₹2,500"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-edge-tape-purple-50",
+    "name": "JOOLA Edge Tape 20 Purple — 12 mm / 50 m",
+    "brand": "joola",
+    "category": "accessories",
+    "mrp": 4200,
+    "price": 2500,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://cdn.dotpe.in/longtail/store-items/8559832/qcRapOrd.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://cdn.dotpe.in/longtail/store-items/8559832/qcRapOrd.webp",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Edge Tape 20 Purple — 12 mm / 50 m from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹4,200",
+      "Website price: ₹2,500"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-edge-tape-black-5",
+    "name": "JOOLA Edge Tape 20 Black — 10 mm / 5 m",
+    "brand": "joola",
+    "category": "accessories",
+    "mrp": 850,
+    "price": 500,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://pingpongshop.eu/image/cache/catalog/image/catalog/external/joola-edge-tape-10mm-50m-black-19797.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://pingpongshop.eu/image/cache/catalog/image/catalog/external/joola-edge-tape-10mm-50m-black-19797.webp",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Edge Tape 20 Black — 10 mm / 5 m from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹850",
+      "Website price: ₹500"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-edge-tape-purple-5",
+    "name": "JOOLA Edge Tape 20 Purple — 10 mm / 5 m",
+    "brand": "joola",
+    "category": "accessories",
+    "mrp": 850,
+    "price": 600,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://cdn.dotpe.in/longtail/store-items/8559832/qcRapOrd.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://cdn.dotpe.in/longtail/store-items/8559832/qcRapOrd.webp",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Edge Tape 20 Purple — 10 mm / 5 m from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹850",
+      "Website price: ₹600"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-backpack-vision-blue",
-    "name": "JOOLA Backpack Vision II Blue",
+    "name": "JOOLA Backpack Vision II Deluxe — Blue",
     "brand": "joola",
     "category": "accessories",
-    "price": 4700,
-    "rating": 4.6,
+    "mrp": 8000,
+    "price": 4500,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Bag",
-    "color": "#263dff",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/joola-vision-ii-backpack-blue.png%3Fv%3D1746626745%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Compact backpack for carrying racket, shoes, clothing and match-day gear.",
-    "features": [
-      "SKU 80125",
-      "Category: Accessories",
-      "Blue",
-      "Backpack",
-      "Training bag"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Vision-II-Deluxe-Backpack-Blue-18900-Web-01.jpg%3Fv%3D1741641593%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/Vision-II-Deluxe-Backpack-Blue-18900-Web-01.jpg?v=1741641593&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-blue.png?v=1746626745&width=450"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Backpack Vision II Deluxe — Blue from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹8,000",
+      "Website price: ₹4,500"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-backpack-vision-black",
-    "name": "JOOLA Backpack Vision II Black",
+    "name": "JOOLA Backpack Vision II Deluxe — Black",
     "brand": "joola",
     "category": "accessories",
-    "price": 4700,
-    "rating": 4.6,
+    "mrp": 8000,
+    "price": 8000,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Bag",
+    "badge": "Out of stock",
     "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png%3Fv%3D1746626745%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Black equipment backpack for table tennis training and tournaments.",
-    "features": [
-      "SKU 83112",
-      "Category: Accessories",
-      "Black",
-      "Backpack",
-      "Gear storage"
-    ],
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png%3Fv%3D1746626745%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png?v=1746626745&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-black.png?v=1746626745&width=450"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Backpack Vision II Deluxe — Black from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Accessories",
+      "MRP: ₹8,000",
+      "Website price: ₹8,000",
+      "Stock status: Out of stock"
+    ],
+    "outOfStock": true
   },
   {
-    "id": "joola-cat-backpack-vision-teal",
-    "name": "JOOLA Backpack Vision II Teal",
+    "id": "joola-backpack-vision-pink",
+    "name": "JOOLA Backpack Vision II Deluxe — Pink",
     "brand": "joola",
     "category": "accessories",
-    "price": 4700,
-    "rating": 4.6,
+    "mrp": 8000,
+    "price": 4500,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Bag",
-    "color": "#247a75",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/joola-vision-ii-backpack-teal.png%3Fv%3D1746626745%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Teal equipment backpack for players who need compact storage.",
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://salvadorcolom.com/cdn/shop/files/Download-B-2025-04-15T095616.350.png%3Fv%3D1744725481&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://salvadorcolom.com/cdn/shop/files/Download-B-2025-04-15T095616.350.png?v=1744725481",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Backpack Vision II Deluxe — Pink from the JOOLA table tennis range.",
     "features": [
-      "SKU 83114",
+      "Brand: JOOLA",
       "Category: Accessories",
-      "Teal",
-      "Backpack",
-      "Gear storage"
+      "MRP: ₹8,000",
+      "Website price: ₹4,500"
     ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/joola-vision-ii-backpack-teal.png?v=1746626745&width=450"
-  },
-  {
-    "id": "joola-cat-vyzaryz-trinity",
-    "name": "JOOLA Vyzaryz Trinity FL Blade",
-    "brand": "joola",
-    "category": "blades",
-    "price": 25000,
-    "rating": 4.9,
-    "reviews": 0,
-    "badge": "Premium",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png%3Fv%3D1777490389%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Premium Vyzaryz blade for dynamic offensive play with precision and feeling.",
-    "features": [
-      "SKU 65041",
-      "Category: Blades",
-      "Flared handle",
-      "Premium blade",
-      "Offensive"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png?v=1777490389&width=450"
-  },
-  {
-    "id": "joola-cat-vyzaryz-freeze-hrd",
-    "name": "JOOLA Vyzaryz Freeze HRD FL Blade",
-    "brand": "joola",
-    "category": "blades",
-    "price": 19000,
-    "rating": 4.8,
-    "reviews": 0,
-    "badge": "Premium",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png%3Fv%3D1777490281%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "High-end Freeze HRD blade designed for precise offensive play.",
-    "features": [
-      "SKU 65040",
-      "Category: Blades",
-      "Flared handle",
-      "ARY-c style",
-      "Premium"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450"
-  },
-  {
-    "id": "joola-cat-vyzaryz-freeze",
-    "name": "JOOLA Vyzaryz Freeze FL Blade",
-    "brand": "joola",
-    "category": "blades",
-    "price": 19000,
-    "rating": 4.8,
-    "reviews": 0,
-    "badge": "Premium",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png%3Fv%3D1777490281%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Premium Freeze blade for controlled speed and crisp attacking strokes.",
-    "features": [
-      "SKU 65000",
-      "Category: Blades",
-      "Flared handle",
-      "Premium blade",
-      "Control + speed"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/bladeVyzaryzFreezeHRD-Vyzaryz-Freeze-HRD-Web-01.png?v=1777490281&width=450"
+    "outOfStock": false
   },
   {
     "id": "joola-cat-tezzo-warrior",
     "name": "JOOLA Tezzo Warrior FL Blade",
     "brand": "joola",
     "category": "blades",
-    "price": 10300,
-    "rating": 4.6,
+    "mrp": 10300,
+    "price": 6000,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Performance",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png%3Fv%3D1712313926%26width%3D450&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Performance blade for controlled attack and confident rally building.",
-    "features": [
-      "SKU 69127",
-      "Category: Blades",
-      "Flared handle",
-      "Performance",
-      "Attacking"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png%3Fv%3D1712313926%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png?v=1712313926&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.com/cdn/shop/files/Tezzo-Warrior-Blade-61210-Web-01.png?v=1712313926&width=450"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Tezzo Warrior FL Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹10,300",
+      "Website price: ₹6,000"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-j-allround",
+    "name": "JOOLA J Allround FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "mrp": 1900,
+    "price": 1400,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://storeassets.im-cdn.com/media-manager/sportsninja/JX48btseThSUTPYQwELT_all_0x0_webp.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://storeassets.im-cdn.com/media-manager/sportsninja/JX48btseThSUTPYQwELT_all_0x0_webp.jpg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA J Allround FL Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹1,900",
+      "Website price: ₹1,400"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-cat-vyzaryz-trinity",
+    "name": "JOOLA Vyzaryz Trinity FL Blade",
+    "brand": "joola",
+    "category": "blades",
+    "mrp": 25000,
+    "price": 13000,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png%3Fv%3D1777490389%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/bladeVyzaryzTrinity_01.png?v=1777490389&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Vyzaryz Trinity FL Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹25,000",
+      "Website price: ₹13,000"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-j-carbon",
     "name": "JOOLA J Carbon FL Blade",
     "brand": "joola",
     "category": "blades",
-    "price": 6900,
-    "rating": 4.6,
+    "mrp": 2000,
+    "price": 1600,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Performance",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BJ%2BCarbon%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Carbon-style blade for speed, stability and sharper ball response.",
-    "features": [
-      "SKU 69125",
-      "Category: Blades",
-      "Flared handle",
-      "Carbon feel",
-      "Attack"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://worldoftabletennis.com/cdn/shop/files/JoolaJCarbon.jpg%3Fv%3D1711623802&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://worldoftabletennis.com/cdn/shop/files/JoolaJCarbon.jpg?v=1711623802",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA J Carbon FL Blade table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+J+Carbon+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA J Carbon FL Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹2,000",
+      "Website price: ₹1,600"
+    ],
+    "outOfStock": false
   },
   {
-    "id": "joola-cat-challenger-all",
-    "name": "JOOLA Challenger ALL FL Blade",
+    "id": "joola-baseline-all",
+    "name": "JOOLA BASEline ALL Blade",
     "brand": "joola",
     "category": "blades",
-    "price": 3500,
-    "rating": 4.5,
+    "mrp": 3600,
+    "price": 2700,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Progressive",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/0F3803FA-5DC2-4C2A-B815-8AFF726F9558.jpg%3Fv%3D1767938929%26width%3D1500&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "All-round blade made for control, blocks and early player development.",
-    "features": [
-      "SKU 61550",
-      "Category: Blades",
-      "Flared handle",
-      "5-ply",
-      "All-round"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/p-zSfBvk-BASElineAllroundMain.jpg%3Fv%3D1777489343%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/p-zSfBvk-BASElineAllroundMain.jpg?v=1777489343&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-karakasevic-feeling-fl-copy-1",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.in/cdn/shop/files/0F3803FA-5DC2-4C2A-B815-8AFF726F9558.jpg?v=1767938929&width=1500"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA BASEline ALL Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹3,600",
+      "Website price: ₹2,700"
+    ],
+    "outOfStock": false,
+    "officialProductUrl": "https://joola.com/products/joola-baseline-all-table-tennis-blade"
   },
   {
-    "id": "joola-cat-challenger-off",
-    "name": "JOOLA Challenger OFF FL Blade",
+    "id": "joola-baseline-off",
+    "name": "JOOLA BASEline OFF Blade",
     "brand": "joola",
     "category": "blades",
-    "price": 3800,
-    "rating": 4.6,
-    "reviews": 0,
-    "badge": "Progressive",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/1DAAB36B-A865-4310-93B4-B484AB799515.jpg%3Fv%3D1767939107%26width%3D1500&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Progressive offensive blade with limba outer ply and balanced control.",
-    "features": [
-      "SKU 61555",
-      "Category: Blades",
-      "Flared handle",
-      "5-ply",
-      "Offensive"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-blade-rossi-emotion-fl-copy",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.in/cdn/shop/files/1DAAB36B-A865-4310-93B4-B484AB799515.jpg?v=1767939107&width=1500"
-  },
-  {
-    "id": "joola-cat-rossi-jr",
-    "name": "JOOLA Rossi JR FL Blade",
-    "brand": "joola",
-    "category": "blades",
+    "mrp": 4300,
     "price": 3000,
-    "rating": 4.4,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Progressive",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BRossi%2BJR%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Junior-friendly blade for control, easy handling and technical development.",
-    "features": [
-      "SKU 67115",
-      "Category: Blades",
-      "Flared handle",
-      "Junior",
-      "Control"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/p-aVqGgg-BASElineOffensiveMain.jpg%3Fv%3D1777489427%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/p-aVqGgg-BASElineOffensiveMain.jpg?v=1777489427&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Rossi JR FL Blade table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Rossi+JR+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA BASEline OFF Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹4,300",
+      "Website price: ₹3,000"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-rossi-emotion",
+    "name": "JOOLA Rossi Emotion Blade",
+    "brand": "joola",
+    "category": "blades",
+    "mrp": 12000,
+    "price": 7500,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://tabletennis.gallery/wp-content/uploads/2025/03/61225_JOOLA_Rossi_Emotion_01_web.webp&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://tabletennis.gallery/wp-content/uploads/2025/03/61225_JOOLA_Rossi_Emotion_01_web.webp",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Rossi Emotion Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹12,000",
+      "Website price: ₹7,500"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-hugo-aw7",
-    "name": "JOOLA Hugo Calderano AW-7 FL Blade",
+    "name": "JOOLA Hugo Calderano AW-7 Flared Table Tennis Blade",
     "brand": "joola",
     "category": "blades",
-    "price": 4399,
+    "mrp": 7000,
+    "price": 4000,
     "rating": 4.8,
     "reviews": 0,
-    "badge": "Hugo",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BAW-7%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Hugo Calderano AW-7 blade for attacking play with wood feel and stability.",
-    "features": [
-      "SKU 601270",
-      "Category: Blades",
-      "Flared handle",
-      "AW-7",
-      "Signature range"
-    ],
+    "badge": "Out of stock",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/p-gBrABU-3_0020_2R1A2626-88.jpg%3Fv%3D1777489905%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/p-gBrABU-3_0020_2R1A2626-88.jpg?v=1777489905&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Hugo Calderano AW-7 FL Blade table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+AW-7+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hugo Calderano AW-7 Flared Table Tennis Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹7,000",
+      "Website price: ₹4,000",
+      "Stock status: Out of stock"
+    ],
+    "outOfStock": true,
+    "officialProductUrl": "https://joola.com/products/joola-hugo-calderano-aw-7-table-tennis-blade"
+  },
+  {
+    "id": "joola-hugo-klc-outer",
+    "name": "JOOLA Hugo Calderano KL-c Outer Flared Table Tennis Blade",
+    "brand": "joola",
+    "category": "blades",
+    "mrp": 10000,
+    "price": 6000,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "Out of stock",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/p-GNGqkO-07CDCA85-E916-4D03-BF58-B60FB63EA16C.jpg%3Fv%3D1788377627%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/p-GNGqkO-07CDCA85-E916-4D03-BF58-B60FB63EA16C.jpg?v=1788377627&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hugo Calderano KL-c Outer Flared Table Tennis Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹10,000",
+      "Website price: ₹6,000",
+      "Stock status: Out of stock"
+    ],
+    "outOfStock": true
   },
   {
     "id": "joola-cat-hugo-klc",
-    "name": "JOOLA Hugo Calderano KL-c Inner FL Blade",
+    "name": "JOOLA Hugo Calderano KL-c Inner Flared Table Tennis Blade",
     "brand": "joola",
     "category": "blades",
-    "price": 11999,
-    "rating": 4.9,
+    "mrp": 12000,
+    "price": 7000,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Hugo",
-    "color": "#d9a466",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BKL-c%2BInner%2BFL%2BBlade%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Signature inner KL-c blade focused on power, spin and controlled offensive play.",
-    "features": [
-      "SKU 601271",
-      "Category: Blades",
-      "Flared handle",
-      "KL-c Inner",
-      "Signature range"
-    ],
+    "badge": "Out of stock",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/p-7yANXE-CDC6C7C3-D5B4-4220-AF9C-FD2D0095CD7E.jpg%3Fv%3D1777489974%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/p-7yANXE-CDC6C7C3-D5B4-4220-AF9C-FD2D0095CD7E.jpg?v=1777489974&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Hugo Calderano KL-c Inner FL Blade table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+KL-c+Inner+FL+Blade+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hugo Calderano KL-c Inner Flared Table Tennis Blade from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Blades",
+      "MRP: ₹12,000",
+      "Website price: ₹7,000",
+      "Stock status: Out of stock"
+    ],
+    "outOfStock": true,
+    "officialProductUrl": "https://joola.com/products/joola-hugo-calderano-kl-c-inner-table-tennis-blade"
   },
   {
-    "id": "joola-cat-air-fibre-control",
-    "name": "JOOLA Air Fibre Control Racket",
+    "id": "joola-carbon-control",
+    "name": "JOOLA TT-BAT Carbon Control",
     "brand": "joola",
     "category": "rackets",
-    "price": 2599,
-    "rating": 4.5,
+    "mrp": 3500,
+    "price": 2500,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Recreational",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BAir%2BFibre%2BControl%2BRacket%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Ready-to-play racket focused on control for casual and developing players.",
-    "features": [
-      "SKU 54190",
-      "Category: Rackets",
-      "Pre-assembled",
-      "Control",
-      "Recreational"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/54190-Carbon_Control_Ping_Pong_Paddle-Main-Red.jpg%3Fv%3D1753977397%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/54190-Carbon_Control_Ping_Pong_Paddle-Main-Red.jpg?v=1753977397&width=900",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Air Fibre Control Racket table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Air+Fibre+Control+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA TT-BAT Carbon Control from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rackets",
+      "MRP: ₹3,500",
+      "Website price: ₹2,500"
+    ],
+    "outOfStock": false,
+    "officialProductUrl": "https://joola.com/products/joola-carbon-control-table-tennis-racket"
   },
   {
     "id": "joola-cat-rosskopf-attack",
-    "name": "JOOLA Rosskopf Attack Racket",
+    "name": "JOOLA TT-BAT Rosskopf Attack",
     "brand": "joola",
     "category": "rackets",
-    "price": 2499,
-    "rating": 4.5,
+    "mrp": 2500,
+    "price": 1700,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Recreational",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://resources.fitshop.com/bilder/joola/schlaeger/rossi/Joola-53133-rossi-attack-1_1600.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Ready-made racket for attacking basics and fast practice rallies.",
-    "features": [
-      "SKU 53133",
-      "Category: Rackets",
-      "Pre-assembled",
-      "Attack",
-      "Recreational"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://joola.de/cdn/shop/files/53133_JOOLA_Rosskopf-Attack_01_web.png%3Fv%3D1754905617%26width%3D1024&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.de/cdn/shop/files/53133_JOOLA_Rosskopf-Attack_01_web.png?v=1754905617&width=1024",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Rosskopf Attack Racket table tennis product official image",
-    "originalImage": "https://resources.fitshop.com/bilder/joola/schlaeger/rossi/Joola-53133-rossi-attack-1_1600.jpg"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA TT-BAT Rosskopf Attack from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rackets",
+      "MRP: ₹2,500",
+      "Website price: ₹1,700"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-match-pro",
     "name": "JOOLA TT-BAT Match Pro",
     "brand": "joola",
     "category": "rackets",
-    "price": 2499,
-    "rating": 4.5,
+    "mrp": 2500,
+    "price": 1700,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Recreational",
-    "color": "#d8312b",
+    "badge": "JOOLA",
+    "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/2_ad2cb68e-4b39-483e-92f3-973f77cf0453.webp%3Fv%3D1780038803%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Match Pro bat for controlled recreational play and club warmups.",
-    "features": [
-      "SKU 53022",
-      "Category: Rackets",
-      "Pre-assembled",
-      "Match Pro",
-      "All-round"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/2_ad2cb68e-4b39-483e-92f3-973f77cf0453.webp?v=1780038803&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/tt-bat-match-pro",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.in/cdn/shop/files/2_ad2cb68e-4b39-483e-92f3-973f77cf0453.webp?v=1780038803&width=1200"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA TT-BAT Match Pro from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rackets",
+      "MRP: ₹2,500",
+      "Website price: ₹1,700"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-tt-bat-match",
     "name": "JOOLA TT-BAT Match",
     "brand": "joola",
     "category": "rackets",
-    "price": 1299,
-    "rating": 4.4,
+    "mrp": 1300,
+    "price": 900,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Recreational",
-    "color": "#d8312b",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BTT-BAT%2BMatch%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Affordable all-round racket for beginners and everyday home play.",
-    "features": [
-      "SKU 53020",
-      "Category: Rackets",
-      "Pre-assembled",
-      "All-round",
-      "Beginner"
-    ],
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://tischtennis-billiger.de/out/pictures/master/product/1/joola_match.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://tischtennis-billiger.de/out/pictures/master/product/1/joola_match.jpg",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA TT-BAT Match table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+TT-BAT+Match+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA TT-BAT Match from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rackets",
+      "MRP: ₹1,300",
+      "Website price: ₹900"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-team-junior",
-    "name": "JOOLA Team Junior Racket",
+    "name": "JOOLA TT-BAT Team Junior",
     "brand": "joola",
     "category": "rackets",
-    "price": 1749,
-    "rating": 4.5,
+    "mrp": 1500,
+    "price": 1000,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Recreational",
-    "color": "#d8312b",
+    "badge": "JOOLA",
+    "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/52004_JOOLA_Team-Junior_01_web_png.webp%3Fv%3D1767786909%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Junior racket designed for younger players learning table tennis fundamentals.",
-    "features": [
-      "SKU 52004",
-      "Category: Rackets",
-      "Pre-assembled",
-      "Junior",
-      "Vizon rubbers"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/52004_JOOLA_Team-Junior_01_web_png.webp?v=1767786909&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-match-copy",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.in/cdn/shop/files/52004_JOOLA_Team-Junior_01_web_png.webp?v=1767786909&width=1200"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA TT-BAT Team Junior from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rackets",
+      "MRP: ₹1,500",
+      "Website price: ₹1,000"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-team-master",
-    "name": "JOOLA Team Master Racket",
+    "name": "JOOLA TT-BAT Team Master",
     "brand": "joola",
     "category": "rackets",
-    "price": 1999,
-    "rating": 4.5,
+    "mrp": 2000,
+    "price": 1200,
+    "rating": 4.8,
     "reviews": 0,
-    "badge": "Recreational",
-    "color": "#d8312b",
+    "badge": "JOOLA",
+    "color": "#111311",
     "image": "https://wsrv.nl/?url=https://joola.in/cdn/shop/files/52001_JOOLA_TeamMaster_01_web_312275bc-2fbc-458b-8abc-326bca22ca0f_jpg.webp%3Fv%3D1767787170%26width%3D1200&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "All-round ready-made racket for advanced recreational players.",
-    "features": [
-      "SKU 52001",
-      "Category: Rackets",
-      "Pre-assembled",
-      "Team Master",
-      "All-round"
-    ],
+    "originalImage": "https://joola.in/cdn/shop/files/52001_JOOLA_TeamMaster_01_web_312275bc-2fbc-458b-8abc-326bca22ca0f_jpg.webp?v=1767787170&width=1200",
     "fallbackImage": "assets/banners/joola-poster.webp",
-    "officialProductUrl": "https://joola.in/products/joola-table-tennis-tt-bat-joola-team-master",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "originalImage": "https://joola.in/cdn/shop/files/52001_JOOLA_TeamMaster_01_web_312275bc-2fbc-458b-8abc-326bca22ca0f_jpg.webp?v=1767787170&width=1200"
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA TT-BAT Team Master from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rackets",
+      "MRP: ₹2,000",
+      "Website price: ₹1,200"
+    ],
+    "outOfStock": false
+  },
+  {
+    "id": "joola-hugo-infinity-carbon",
+    "name": "JOOLA Hugo Calderano Infinity Carbon Table Tennis Racket",
+    "brand": "joola",
+    "category": "rackets",
+    "mrp": 10000,
+    "price": 6000,
+    "rating": 4.8,
+    "reviews": 0,
+    "badge": "JOOLA",
+    "color": "#111311",
+    "image": "https://wsrv.nl/?url=https://sportano.de/img/986c30c27a3d26a3ee16c136f92f4ff5/4/0/4002560542071_40-jpg/joola-infinity-carbon-tischtennisschlager-0.jpg&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://sportano.de/img/986c30c27a3d26a3ee16c136f92f4ff5/4/0/4002560542071_40-jpg/joola-infinity-carbon-tischtennisschlager-0.jpg",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hugo Calderano Infinity Carbon Table Tennis Racket from the JOOLA table tennis range.",
+    "features": [
+      "Brand: JOOLA",
+      "Category: Rackets",
+      "MRP: ₹10,000",
+      "Website price: ₹6,000"
+    ],
+    "outOfStock": false
   },
   {
     "id": "joola-cat-hugo-carbon-speed",
-    "name": "JOOLA Hugo Calderano Carbon Speed Racket",
+    "name": "JOOLA Hugo Calderano Carbon Speed Table Tennis Set",
     "brand": "joola",
     "category": "rackets",
-    "price": 9999,
+    "mrp": 3500,
+    "price": 2500,
     "rating": 4.8,
     "reviews": 0,
-    "badge": "Hugo",
+    "badge": "JOOLA",
     "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BCarbon%2BSpeed%2BRacket%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D900%26h%3D900%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Hugo Calderano carbon-style racket for fast attacking strokes and match confidence.",
+    "image": "https://wsrv.nl/?url=https://joola.com/cdn/shop/files/601276_DE_xxx_MAIN_TT-BAT-Hugo-Calderano-Carbon.jpg%3Fv%3D1788375528%26width%3D900&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
+    "originalImage": "https://joola.com/cdn/shop/files/601276_DE_xxx_MAIN_TT-BAT-Hugo-Calderano-Carbon.jpg?v=1788375528&width=900",
+    "fallbackImage": "assets/banners/joola-poster.webp",
+    "imageStatus": "verified-product-image",
+    "imageSource": "Exact JOOLA/model image mapped to this catalogue record and served through a cache; original URL retained for retry.",
+    "description": "JOOLA Hugo Calderano Carbon Speed Table Tennis Set from the JOOLA table tennis range.",
     "features": [
-      "SKU 601276",
+      "Brand: JOOLA",
       "Category: Rackets",
-      "Pre-assembled",
-      "Carbon speed",
-      "Signature"
+      "MRP: ₹3,500",
+      "Website price: ₹2,500"
     ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Hugo Calderano Carbon Speed Racket table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Carbon+Speed+Racket+table+tennis+product+official+image&w=900&h=900&c=7&rs=1&p=0&o=5&pid=1.7"
-  },
-  {
-    "id": "joola-cat-hugo-team-set",
-    "name": "JOOLA Hugo Calderano Team Table Tennis Set",
-    "brand": "joola",
-    "category": "tables",
-    "price": 9999,
-    "rating": 4.8,
-    "reviews": 0,
-    "badge": "Hugo",
-    "color": "#111311",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BHugo%2BCalderano%2BTeam%2BTable%2BTennis%2BSet%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Hugo Calderano team set for serious practice and match-ready sessions.",
-    "features": [
-      "SKU 601277",
-      "Category: Tables",
-      "Team set",
-      "Signature",
-      "Practice-ready"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA Hugo Calderano Team Table Tennis Set table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+Hugo+Calderano+Team+Table+Tennis+Set+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
-  },
-  {
-    "id": "joola-cat-world-cup-table",
-    "name": "JOOLA World Cup 25-S ITTF BL Table",
-    "brand": "joola",
-    "category": "tables",
-    "price": 79999,
-    "rating": 4.9,
-    "reviews": 0,
-    "badge": "Table",
-    "color": "#263d46",
-    "image": "https://wsrv.nl/?url=https://tse4.mm.bing.net/th%3Fq%3DJOOLA%2BJOOLA%2BWorld%2BCup%2B25-S%2BITTF%2BBL%2BTable%2Btable%2Btennis%2Bproduct%2Bofficial%2Bimage%26w%3D720%26h%3D720%26c%3D7%26rs%3D1%26p%3D0%26o%3D5%26pid%3D1.7&w=900&h=900&fit=contain&cbg=ffffff&output=webp&q=90",
-    "description": "Competition-style table for clubs, academies and serious training spaces.",
-    "features": [
-      "SKU 11291",
-      "Category: Tables",
-      "25 mm style",
-      "ITTF-style",
-      "Club table"
-    ],
-    "fallbackImage": "assets/banners/joola-poster.webp",
-    "imageStatus": "real-photo-with-cache-and-original-retry",
-    "imageSource": "Real product photo. Primary request is served through an image cache; the original product-photo URL is retried if the cache fails.",
-    "hasActualProductImage": true,
-    "searchImageQuery": "JOOLA JOOLA World Cup 25-S ITTF BL Table table tennis product official image",
-    "originalImage": "https://tse4.mm.bing.net/th?q=JOOLA+JOOLA+World+Cup+25-S+ITTF+BL+Table+table+tennis+product+official+image&w=720&h=720&c=7&rs=1&p=0&o=5&pid=1.7"
+    "outOfStock": false
   },
   {
     "id": "seed-tibhar-1",
@@ -22003,5 +21934,243 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   document.addEventListener("DOMContentLoaded", () => {
     if (document.body) observer.observe(document.body, { childList: true, subtree: true });
+  });
+})();
+
+
+/* ============================================================================
+   TTW CATALOGUE INTEGRITY LAYER — 2026-10-12
+   Canonical product identity, strict category isolation, MRP/sale presentation.
+   This layer deliberately runs last so older rendering helpers cannot mix a
+   product name with another product's image or leak unrelated categories.
+============================================================================ */
+(function () {
+  const BRAND_PAGES = new Set(["joola","tibhar","butterfly","stiga","dhs","yinhe","xiom","andro","dawei"]);
+  const seed = (typeof seedProducts !== "undefined" ? seedProducts : []);
+  const byId = new Map(seed.map(product => [String(product.id), product]));
+  const keyOf = product => `${String(product?.brand || "").trim().toLowerCase()}::${String(product?.name || "").trim().toLowerCase().replace(/[^a-z0-9]+/g," ").trim()}`;
+  const byKey = new Map(seed.map(product => [keyOf(product), product]));
+  const html = value => String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+  const money = value => { try { return new Intl.NumberFormat("en-IN", { style:"currency", currency:"INR", maximumFractionDigits:0 }).format(Number(value || 0)); } catch (e) { return `₹${Number(value || 0).toLocaleString("en-IN")}`; } };
+  const cap = value => String(value || "").replace(/-/g," ").replace(/\b\w/g, c => c.toUpperCase());
+  const pct = product => Number(product?.mrp) > Number(product?.price) ? Math.round((Number(product.mrp)-Number(product.price))*100/Number(product.mrp)) : 0;
+
+  function adminRaw() {
+    let rows = [];
+    try { rows = JSON.parse(localStorage.getItem("ttw-admin-products") || localStorage.getItem("table-tennis-wala-admin-products") || "[]"); } catch (_) { rows = []; }
+    return Array.isArray(rows) ? rows : [];
+  }
+
+  function canonicalProducts() {
+    const result = [...seed];
+    const ids = new Set(seed.map(p => String(p.id)));
+    const keys = new Set(seed.map(keyOf));
+    adminRaw().forEach(product => {
+      if (!product || !product.id || !product.name) return;
+      // The October JOOLA sheet is authoritative. Old cached/Supabase JOOLA rows
+      // must not reintroduce removed zero-price products or stale images/prices.
+      if (String(product.brand || "").toLowerCase() === "joola") return;
+      const id = String(product.id);
+      const key = keyOf(product);
+      if (ids.has(id) || keys.has(key)) return;
+      ids.add(id); keys.add(key); result.push(product);
+    });
+    return result;
+  }
+
+  // Replace the global getter used by the main catalogue with a deduplicated source.
+  try { getProducts = canonicalProducts; } catch (_) {}
+  window.ttwCanonicalProducts = canonicalProducts;
+  window.ttwCanonicalProductById = id => byId.get(String(id)) || canonicalProducts().find(p => String(p.id) === String(id));
+
+  function urlCategory() {
+    const raw = new URLSearchParams(location.search).get("category");
+    return raw ? String(raw).toLowerCase() : "";
+  }
+  function pageBrand() {
+    const bodyBrand = String(document.body?.dataset?.brand || "").toLowerCase();
+    if (bodyBrand) return bodyBrand;
+    const page = (location.pathname.split("/").pop() || "").replace(/\.html$/i, "").toLowerCase();
+    return BRAND_PAGES.has(page) ? page : "";
+  }
+  function canonicalCategory(product) {
+    return String(product?.category || "accessories").toLowerCase();
+  }
+  function pricingMarkup(product) {
+    const mrp = Number(product?.mrp || 0);
+    const price = Number(product?.price || 0);
+    const discount = pct(product);
+    if (product?.outOfStock) {
+      return `<div class="product-pricing" aria-label="Product pricing"><span class="product-mrp">MRP <s>${money(mrp || price)}</s></span><span class="stock-pill out">Out of stock</span></div>`;
+    }
+    if (mrp > price && price > 0) {
+      return `<div class="product-pricing" aria-label="Product pricing"><span class="product-mrp">MRP <s>${money(mrp)}</s></span><span class="product-sale-price">${money(price)}</span><span class="product-discount">${discount}% off</span></div>`;
+    }
+    return `<div class="product-pricing"><span class="product-sale-price">${money(price)}</span></div>`;
+  }
+  function imageMarkup(product) {
+    const src = product?.image || product?.originalImage || product?.fallbackImage || "assets/banners/home-poster.webp";
+    const fallback = product?.fallbackImage || "assets/banners/home-poster.webp";
+    return `<img src="${html(src)}" alt="${html(product?.name || "Table tennis product")}" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-canonical-product-image="${html(product?.id || "")}" onerror="if(!this.dataset.fallbackTried){this.dataset.fallbackTried='1';this.src='${html(fallback)}';}else{this.onerror=null;this.src='assets/banners/home-poster.webp';}">`;
+  }
+  function colourLine(product) {
+    const colors = Array.isArray(product?.availableColors) ? product.availableColors.filter(Boolean) : [];
+    if (!colors.length) return "";
+    return `<div class="canonical-variant-note"><b>Colours:</b> ${colors.map(html).join(" / ")}${product?.thickness ? ` <span>• ${html(product.thickness)}</span>` : ""}</div>`;
+  }
+  function cardMarkup(product) {
+    const disabled = product?.outOfStock ? " disabled aria-disabled=\"true\"" : "";
+    const addText = product?.outOfStock ? "Out of stock" : "Add to cart";
+    return `<article class="product-card canonical-product-card" data-product-card="${html(product.id)}" data-canonical-category="${html(canonicalCategory(product))}" data-canonical-brand="${html(product.brand)}">
+      <div class="product-visual" data-view-product="${html(product.id)}">
+        <span class="product-badge">${html(product.badge || cap(product.brand))}</span>${imageMarkup(product)}
+      </div>
+      <div class="product-info" data-view-product="${html(product.id)}">
+        <h3 class="product-name">${html(product.name)}</h3>
+        ${pricingMarkup(product)}
+        <div class="product-meta"><span>${html(cap(product.brand))} • ${html(cap(product.category))}</span><span class="rating"><span class="ttw-icon ttw-icon-star" aria-hidden="true"></span> ${html(product.rating || 4.7)}<small>(${html(product.reviews || 0)})</small></span></div>
+        ${colourLine(product)}
+        <div class="product-card-actions"><button type="button" class="product-action-btn product-add-btn" data-add-product="${html(product.id)}"${disabled}>${addText}</button>${product?.outOfStock ? "" : `<button type="button" class="product-action-btn product-buy-btn" data-buy-now-product="${html(product.id)}">Buy now</button>`}</div>
+        <span class="product-detail-link">View full details <span class="ttw-icon ttw-icon-up-right" aria-hidden="true"></span></span>
+      </div>
+    </article>`;
+  }
+  window.productCard = cardMarkup;
+
+  function filteredProducts() {
+    let products = canonicalProducts();
+    const brand = pageBrand();
+    const hardCategory = urlCategory();
+    if (brand) products = products.filter(p => String(p.brand || "").toLowerCase() === brand);
+    if (hardCategory) products = products.filter(p => canonicalCategory(p) === hardCategory);
+
+    const checkedBrands = [...document.querySelectorAll('input[name="brandFilter"]:checked')].map(x => x.value).filter(Boolean);
+    const checkedCategories = [...document.querySelectorAll('input[name="categoryFilter"]:checked')].map(x => x.value).filter(Boolean);
+    if (!brand && checkedBrands.length) products = products.filter(p => checkedBrands.includes(String(p.brand || "").toLowerCase()));
+    // URL category is a hard lock; checkbox state can only narrow when URL has no category.
+    if (!hardCategory && checkedCategories.length) products = products.filter(p => checkedCategories.includes(canonicalCategory(p)));
+
+    const q = String(document.getElementById("productSearch")?.value || "").trim().toLowerCase();
+    if (q) products = products.filter(p => `${p.name} ${p.brand} ${p.category}`.toLowerCase().includes(q));
+    const min = Number(document.getElementById("minPrice")?.value || 0);
+    const maxValue = document.getElementById("maxPrice")?.value;
+    const max = maxValue === "" || maxValue == null ? Infinity : Number(maxValue);
+    products = products.filter(p => Number(p.price || 0) >= min && Number(p.price || 0) <= max);
+
+    const sort = document.getElementById("sortProducts")?.value || "featured";
+    if (sort === "price-low") products.sort((a,b) => Number(a.price)-Number(b.price));
+    else if (sort === "price-high") products.sort((a,b) => Number(b.price)-Number(a.price));
+    else if (sort === "rating") products.sort((a,b) => Number(b.rating||0)-Number(a.rating||0));
+    return products;
+  }
+
+  let rendering = false;
+  function renderCanonicalGrid() {
+    const grid = document.getElementById("brandProductGrid");
+    if (!grid || rendering) return;
+    rendering = true;
+    const list = filteredProducts();
+    grid.innerHTML = list.map(cardMarkup).join("");
+    const empty = grid.parentElement?.querySelector(".empty-state");
+    if (empty) empty.hidden = list.length > 0;
+    const note = document.getElementById("filterNote");
+    const hardCategory = urlCategory();
+    if (note && hardCategory) note.textContent = `${list.length} ${cap(hardCategory)} product${list.length===1?"":"s"} shown — this category is locked to ${cap(hardCategory)} only.`;
+    rendering = false;
+  }
+
+  // Keep older renderer compatibility while making the final result canonical.
+  const oldForce = window.forceRenderProducts;
+  window.forceRenderProducts = function () { renderCanonicalGrid(); };
+  try { renderBrandProducts = renderCanonicalGrid; } catch (_) {}
+
+  function fixOneCard(card) {
+    const id = card?.dataset?.productCard;
+    const product = byId.get(String(id)) || canonicalProducts().find(p => String(p.id) === String(id));
+    if (!product) { card?.remove(); return; }
+    const hardCategory = urlCategory();
+    if (hardCategory && canonicalCategory(product) !== hardCategory) { card.remove(); return; }
+    const brand = pageBrand();
+    if (brand && String(product.brand || "").toLowerCase() !== brand) { card.remove(); return; }
+
+    card.dataset.canonicalCategory = canonicalCategory(product);
+    card.dataset.canonicalBrand = String(product.brand || "").toLowerCase();
+    const name = card.querySelector(".product-name"); if (name) name.textContent = product.name;
+    const image = card.querySelector(".product-visual img");
+    if (image) {
+      const correct = product.image || product.originalImage || product.fallbackImage;
+      if (correct && image.getAttribute("src") !== correct) image.src = correct;
+      image.alt = product.name;
+      image.dataset.canonicalProductImage = product.id;
+    }
+    const oldPrice = card.querySelector(".product-price"); if (oldPrice) oldPrice.remove();
+    let pricing = card.querySelector(".product-pricing");
+    if (!pricing) { pricing = document.createElement("div"); const top = card.querySelector(".product-topline"); (top || card.querySelector(".product-info"))?.appendChild(pricing); }
+    if (pricing) pricing.outerHTML = pricingMarkup(product);
+    card.querySelectorAll("[data-add-product],[data-buy-now-product]").forEach(btn => {
+      btn.dataset[btn.hasAttribute("data-add-product") ? "addProduct" : "buyNowProduct"] = product.id;
+      if (product.outOfStock) { btn.disabled = true; btn.setAttribute("aria-disabled","true"); if (btn.hasAttribute("data-add-product")) btn.textContent="Out of stock"; }
+    });
+  }
+
+  let sanitizePending = false;
+  function sanitizeGrid() {
+    if (sanitizePending || rendering) return;
+    sanitizePending = true;
+    requestAnimationFrame(() => {
+      sanitizePending = false;
+      document.querySelectorAll("#brandProductGrid [data-product-card], #homeProductGrid [data-product-card]").forEach(fixOneCard);
+    });
+  }
+
+  function renderCanonicalDetail() {
+    const root = document.getElementById("productDetail");
+    if (!root) return;
+    const id = new URLSearchParams(location.search).get("id");
+    const product = byId.get(String(id)) || canonicalProducts().find(p => String(p.id) === String(id));
+    if (!product) {
+      root.innerHTML = `<div class="product-not-found"><span class="eyebrow">Product details</span><h1>Product not found.</h1><p>This product has been removed from the active catalogue.</p><a class="button dark-btn" href="products.html">Back to products</a></div>`;
+      return;
+    }
+    const discount = pct(product);
+    root.innerHTML = `<div class="product-detail-page canonical-detail">
+      <div class="product-detail-media"><span class="product-badge detail-badge">${html(product.badge || cap(product.brand))}</span>${imageMarkup(product)}</div>
+      <div class="product-detail-copy">
+        <a class="back-link" href="products.html?category=${encodeURIComponent(canonicalCategory(product))}">← Back to ${html(cap(product.category))}</a>
+        <span class="eyebrow">${html(cap(product.brand))} • ${html(cap(product.category))}</span>
+        <h1>${html(product.name)}</h1>
+        <div class="detail-pricing">${product.outOfStock ? `<span class="detail-mrp">MRP <s>${money(product.mrp || product.price)}</s></span><span class="stock-pill out">Out of stock</span>` : `${Number(product.mrp)>Number(product.price) ? `<span class="detail-mrp">MRP <s>${money(product.mrp)}</s></span>` : ""}<strong>${money(product.price)}</strong>${discount ? `<span class="product-discount">${discount}% off</span>` : ""}`}</div>
+        <p>${html(product.description || "Premium table tennis product from our current catalogue.")}</p>
+        ${colourLine(product)}
+        <div class="product-detail-actions"><button class="button dark-btn" type="button" data-add-product="${html(product.id)}" ${product.outOfStock ? "disabled aria-disabled=\"true\"" : ""}>${product.outOfStock ? "Out of stock" : "Add to cart"}</button>${product.outOfStock ? "" : `<button class="button product-detail-buy-now" type="button" data-buy-now-product="${html(product.id)}">Buy now</button>`}<a class="button ghost-btn" href="customize.html">Use in custom build</a></div>
+        <div class="detail-info-grid"><div><small>Brand</small><b>${html(cap(product.brand))}</b></div><div><small>Category</small><b>${html(cap(product.category))}</b></div><div><small>MRP</small><b>${money(product.mrp || product.price)}</b></div><div><small>Website price</small><b>${product.outOfStock ? "Out of stock" : money(product.price)}</b></div></div>
+        <div class="product-detail-features"><h3>Product details</h3><ul>${(product.features || []).map(f => `<li>${html(f)}</li>`).join("")}</ul></div>
+      </div>
+    </div>`;
+  }
+
+  // OOS protection and product identity protection before older document handlers.
+  window.addEventListener("click", event => {
+    const trigger = event.target.closest?.("[data-add-product],[data-buy-now-product]");
+    if (!trigger) return;
+    const id = trigger.dataset.addProduct || trigger.dataset.buyNowProduct;
+    const product = byId.get(String(id));
+    if (product?.outOfStock) { event.preventDefault(); event.stopPropagation(); event.stopImmediatePropagation(); return; }
+  }, true);
+
+  document.addEventListener("DOMContentLoaded", () => {
+    renderCanonicalGrid();
+    renderCanonicalDetail();
+    sanitizeGrid();
+    // Old code has several delayed render passes; reassert authoritative data after each.
+    [120, 350, 850, 1600, 2600].forEach(ms => setTimeout(() => { renderCanonicalGrid(); renderCanonicalDetail(); sanitizeGrid(); }, ms));
+
+    ["productSearch","sortProducts","minPrice","maxPrice"].forEach(id => document.getElementById(id)?.addEventListener("input", () => setTimeout(renderCanonicalGrid,0)));
+    document.querySelectorAll('input[name="brandFilter"],input[name="categoryFilter"],input[name="ratingFilter"]').forEach(input => input.addEventListener("change", () => setTimeout(renderCanonicalGrid,0)));
+    document.getElementById("saveFilters")?.addEventListener("click", () => setTimeout(renderCanonicalGrid,0));
+    document.getElementById("resetFilters")?.addEventListener("click", () => setTimeout(renderCanonicalGrid,20));
+
+    const observer = new MutationObserver(() => sanitizeGrid());
+    [document.getElementById("brandProductGrid"), document.getElementById("homeProductGrid")].filter(Boolean).forEach(grid => observer.observe(grid,{childList:true,subtree:true}));
   });
 })();

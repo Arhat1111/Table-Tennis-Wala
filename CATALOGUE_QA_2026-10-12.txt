@@ -1,0 +1,26 @@
+TABLE TENNIS WALA — CATALOGUE INTEGRITY QA — 12 OCTOBER 2026
+
+Seed products after repair: 525
+JOOLA products from the uploaded price sheet: 51
+JOOLA categories: {'rubbers': 15, 'balls': 4, 'accessories': 12, 'glue': 2, 'blades': 10, 'rackets': 8}
+Zero-price JOOLA rows in active catalogue: 0
+Duplicate product IDs: 0
+Pre-existing ambiguous duplicate-name keys outside JOOLA: 2
+Missing JOOLA image mappings: 0
+Missing local HTML references: 0
+Browser secret/service-role key exposure: 0
+
+Authoritative JOOLA rules applied:
+- Sheet rows with website price 0 were removed.
+- Dynaryz CMD dash/dash rows were omitted because no sellable price was supplied.
+- Explicit out-of-stock sheet rows are retained with purchasing disabled.
+- Every active JOOLA record has MRP and website price fields.
+- Product cards/details render MRP and discounted website price separately.
+
+Catalogue integrity rules added:
+- Seed catalogue is canonical for product ID -> name -> image mapping.
+- Stale admin/Supabase/localStorage rows cannot override a canonical seed product.
+- Old JOOLA admin cache cannot reintroduce removed/zero-price products.
+- URL category filter is a hard constraint (e.g. category=rubbers renders rubbers only).
+- A mutation guard removes any card injected later that violates the active category/brand.
+- Product card name and image are re-bound from the same canonical product ID.

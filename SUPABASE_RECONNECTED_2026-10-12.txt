@@ -1,0 +1,4 @@
+Table Tennis Wala reconnected to a new Supabase project on 2026-10-12.
+Project URL: https://jfyhasxdlrdntzmqoppf.supabase.co
+Uses browser-safe sb_publishable key via supabase-config.js.
+No secret/service-role key is stored in the website package.
