@@ -18041,3 +18041,27 @@ section,
   .product-discount { font-size:.68rem; }
   .canonical-variant-note { font-size:.73rem; }
 }
+
+
+/* TTW ADMIN CATALOGUE MANAGER — OCT 12 2026 */
+.admin-catalogue-manager{min-width:0;overflow:hidden}.admin-catalogue-manager .admin-products-head h3{margin:5px 0 4px;font:800 22px/1.1 Manrope,sans-serif;letter-spacing:-.035em}.admin-manager-count{margin:0;color:var(--muted);font-size:12px}.admin-product-manager-toolbar{display:grid;grid-template-columns:minmax(190px,1.5fr) repeat(3,minmax(120px,.8fr));gap:10px;padding:12px;border:1px solid var(--line);background:#f7f7f2;border-radius:18px;margin-bottom:12px;position:sticky;top:82px;z-index:3}.admin-product-manager-toolbar label{display:flex;flex-direction:column;gap:5px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#6d7068}.admin-product-manager-toolbar input,.admin-product-manager-toolbar select{width:100%;height:42px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:0 11px;color:var(--ink);outline:none;text-transform:none;letter-spacing:0;font-size:12px;font-weight:700}.admin-product-manager-toolbar input:focus,.admin-product-manager-toolbar select:focus{border-color:var(--ink);box-shadow:0 0 0 2px rgba(17,19,17,.05)}.admin-product-list{max-height:620px;overflow:auto;padding-right:5px;scrollbar-width:thin}.admin-product-row{grid-template-columns:56px minmax(0,1fr) auto;padding:11px 4px}.admin-product-thumb{height:56px;width:56px;border-radius:12px}.admin-product-main{min-width:0}.admin-product-name-line{display:flex;align-items:center;gap:7px;min-width:0}.admin-product-name-line h3{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.admin-source-pill{flex:0 0 auto;border-radius:999px;padding:4px 7px;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.05em}.admin-source-pill.core{background:#ecece7;color:#555850}.admin-source-pill.custom{background:#eaff9f;color:#243000}.admin-core-lock{display:inline-flex;align-items:center;justify-content:center;padding:7px 9px;border-radius:999px;background:#f0f0eb;color:#777a72;font-size:10px;font-weight:800}.admin-row-actions .danger-text{color:#9e2424}.admin-products-pagination{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:14px;border-top:1px solid var(--line);margin-top:10px}.admin-products-pagination span{font-size:11px;font-weight:800;color:var(--muted)}.admin-products-pagination button:disabled{opacity:.35;cursor:not-allowed;transform:none}.admin-import-details{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}.admin-import-details summary{cursor:pointer;font-size:11px;font-weight:800;color:var(--muted)}.admin-import-details .import-box{margin-top:12px}.admin-layout{grid-template-columns:minmax(380px,.82fr) minmax(0,1.18fr)}
+@media(max-width:1150px){.admin-layout{grid-template-columns:1fr}.admin-product-manager-toolbar{top:72px}.admin-product-list{max-height:540px}}
+@media(max-width:760px){.admin-product-manager-toolbar{grid-template-columns:1fr 1fr;position:static}.admin-manager-search{grid-column:1/-1}.admin-product-list{max-height:none}.admin-product-row{grid-template-columns:50px minmax(0,1fr);gap:10px}.admin-product-thumb{width:50px;height:50px}.admin-row-actions{grid-column:2;justify-content:flex-start}.admin-product-name-line{align-items:flex-start;flex-direction:column;gap:4px}.admin-product-name-line h3{white-space:normal}.admin-products-pagination{position:sticky;bottom:0;background:#fff;padding:12px 0}}
+@media(max-width:480px){.admin-product-manager-toolbar{grid-template-columns:1fr}.admin-manager-search{grid-column:auto}.admin-products-head{align-items:flex-start}.admin-products-head>.button{flex:0 0 auto}.admin-product-row p{line-height:1.45}}
+
+
+/* ============================================================================
+   ADMIN MRP + AUTO DISCOUNT — 2026-10-12
+============================================================================ */
+.form-grid label .field-help{display:block;margin-top:6px;color:var(--muted);font-size:10px;line-height:1.35;font-weight:600}
+.admin-discount-preview{min-height:78px;border:1px solid rgba(126,156,24,.24);border-radius:16px;background:linear-gradient(135deg,#f7ffd9,#eef7cc);padding:13px 15px;display:grid;grid-template-columns:auto 1fr;grid-template-areas:"label value" "help help";align-items:center;gap:4px 10px}
+.admin-discount-preview>span{grid-area:label;color:#66711e;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.1em}
+.admin-discount-preview>strong{grid-area:value;justify-self:end;font:800 22px/1 Manrope,sans-serif;color:#263000}
+.admin-discount-preview>small{grid-area:help;color:#72776b;font-size:10px;line-height:1.4}
+.admin-discount-preview.invalid{background:#fff2f0;border-color:rgba(172,43,43,.25)}
+.admin-discount-preview.invalid>span,.admin-discount-preview.invalid>strong{color:#9e2424}
+.admin-product-price-line{display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px;margin-top:5px;font-size:10px}
+.admin-product-price-line span{color:var(--muted);text-decoration:line-through}
+.admin-product-price-line strong{color:var(--ink);font-size:11px}
+.admin-product-price-line em{font-style:normal;background:#ecffad;color:#374600;padding:3px 6px;border-radius:999px;font-weight:900;font-size:9px}
+@media(max-width:580px){.admin-discount-preview{min-height:70px}}

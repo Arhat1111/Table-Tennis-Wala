@@ -1,0 +1,9 @@
+TTW ADMIN FIX — 12 OCT 2026
+
+- Dashboard total catalogue now counts unique product IDs, preventing 525 seed + 525 Supabase from displaying as 1050.
+- Storefront product source now merges seed and Supabase records by ID, with Supabase edits overriding the corresponding core product instead of duplicating it.
+- Custom product count only includes owner-created product IDs that do not exist in the bundled core catalogue.
+- Admin product list renamed Catalogue Manager with search, category, brand, Core/Custom filters and 12-item pagination.
+- Core catalogue products are editable but protected from accidental deletion.
+- New custom products remain deletable.
+- Existing product metadata is preserved when editing instead of being discarded.

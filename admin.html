@@ -134,13 +134,13 @@
           <span class="eyebrow">Control panel</span>
           <h2>Website admin.</h2>
           <button type="button" class="admin-pro-tab active" data-admin-panel="dashboard">Dashboard</button>
-          <button type="button" class="admin-pro-tab" data-admin-panel="products">Upload / remove products</button>
+          <button type="button" class="admin-pro-tab" data-admin-panel="products">Manage products</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="orders">View orders</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="analytics">Monthly sales & analytics</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="customers">Live customers</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="content">Website content</button>
           <button type="button" class="admin-pro-tab" data-admin-panel="mail">Order email setup</button>
-          <p class="admin-pro-note">Orders, client-added products and editable site content are synced through Supabase. New WhatsApp checkout orders appear here across devices.</p>
+          <p class="admin-pro-note">Products, orders and editable website content are synced through Supabase. Core catalogue products and owner-added products are managed from one place.</p>
         </aside>
 
         <div class="admin-pro-main">
@@ -150,8 +150,8 @@
               <button type="button" class="button small" id="refreshAdminDashboard">Refresh</button>
             </div>
             <div class="admin-stat-grid">
-              <div class="admin-stat-card"><span>Total catalogue</span><strong id="adminTotalProducts">0</strong><small>Seed + client-added products</small></div>
-              <div class="admin-stat-card"><span>Client uploads</span><strong id="adminUploadedProducts">0</strong><small>Products added from this panel</small></div>
+              <div class="admin-stat-card"><span>Total catalogue</span><strong id="adminTotalProducts">0</strong><small>Unique live products</small></div>
+              <div class="admin-stat-card"><span>Custom products</span><strong id="adminUploadedProducts">0</strong><small>Products created by the owner</small></div>
               <div class="admin-stat-card"><span>Orders received</span><strong id="adminOrderCount">0</strong><small>Supabase checkout orders</small></div>
               <div class="admin-stat-card"><span>Order value</span><strong id="adminOrderValue">₹0</strong><small>Total value in order list</small></div>
             </div>
@@ -166,7 +166,7 @@
               <form class="admin-form" id="productAdminForm">
                 <input type="hidden" id="editingProductId" />
                 <div class="admin-form-head">
-                  <div><span class="eyebrow">Product upload panel</span><h2 id="adminFormTitle">Add new product</h2></div>
+                  <div><span class="eyebrow">Product editor</span><h2 id="adminFormTitle">Add new product</h2></div>
                   <button type="button" class="text-button" id="resetAdminForm">Clear form</button>
                 </div>
                 <div class="form-grid">
@@ -177,7 +177,11 @@
                   <label>Category<select id="adminCategory" required>
                     <option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option><option value="glue">Glue</option><option value="clothing">Apparel</option>
                   </select></label>
-                  <label>Price ₹<input id="adminPrice" type="number" min="1" required placeholder="4999" /></label>
+                  <label>MRP ₹<input id="adminMrp" type="number" min="1" required placeholder="e.g. 7200" /><small class="field-help">Original / maximum retail price</small></label>
+                  <label>Our price ₹<input id="adminPrice" type="number" min="1" required placeholder="e.g. 3999" /><small class="field-help">Selling price shown on the website</small></label>
+                  <div class="admin-discount-preview" id="adminDiscountPreview" aria-live="polite">
+                    <span>Discount</span><strong>0% off</strong><small>Calculated automatically from MRP and our price</small>
+                  </div>
                   <label>Badge<input id="adminBadge" placeholder="New / Bestseller / Sale" /></label>
                   <label>Rating<input id="adminRating" type="number" min="1" max="5" step="0.1" value="4.7" /></label>
                   <label class="wide">Upload product image<input id="adminImageFile" type="file" accept="image/*" /></label>
@@ -187,16 +191,27 @@
                 </div>
                 <div class="image-preview" id="adminImagePreview"><span>No image selected</span></div>
                 <button class="button primary" type="submit">Save product to website</button>
-                <p class="admin-note">Use this to upload new products, edit client-added products, or remove products added by this panel.</p>
+                <p class="admin-note">Enter both MRP and our selling price. The website automatically calculates the discount percentage. Core catalogue products are protected from accidental deletion.</p>
               </form>
 
-              <aside class="admin-products">
+              <aside class="admin-products admin-catalogue-manager">
                 <div class="admin-products-head">
-                  <span class="eyebrow">Client-added products</span>
-                  <button class="button small" id="exportProducts" type="button">Export JSON</button>
+                  <div><span class="eyebrow">Catalogue manager</span><h3>Find and edit products</h3><p id="adminProductResultsCount" class="admin-manager-count">Loading catalogue…</p></div>
+                  <button class="button small" id="exportProducts" type="button">Export</button>
                 </div>
-                <div id="adminProductList"></div>
-                <label class="import-box">Import product JSON<textarea id="importProductsInput" rows="4" placeholder='Paste exported JSON here'></textarea><button class="button small" id="importProducts" type="button">Import products</button></label>
+                <div class="admin-product-manager-toolbar">
+                  <label class="admin-manager-search"><span>Search</span><input id="adminProductSearch" type="search" placeholder="Product name, brand or ID" /></label>
+                  <label><span>Category</span><select id="adminProductCategoryFilter">
+                    <option value="all">All categories</option><option value="rackets">Rackets</option><option value="rubbers">Rubbers</option><option value="blades">Blades</option><option value="balls">Balls</option><option value="tables">Tables</option><option value="footwear">Footwear</option><option value="accessories">Accessories</option><option value="glue">Glue</option><option value="clothing">Apparel</option>
+                  </select></label>
+                  <label><span>Brand</span><select id="adminProductBrandFilter">
+                    <option value="all">All brands</option><option value="joola">JOOLA</option><option value="tibhar">Tibhar</option><option value="butterfly">Butterfly</option><option value="stiga">Stiga</option><option value="dhs">DHS</option><option value="yinhe">YinHe</option><option value="xiom">Xiom</option><option value="andro">Andro</option><option value="dawei">Dawei</option><option value="other">Other</option>
+                  </select></label>
+                  <label><span>Source</span><select id="adminProductSourceFilter"><option value="all">All products</option><option value="core">Core catalogue</option><option value="custom">Custom products</option></select></label>
+                </div>
+                <div id="adminProductList" class="admin-product-list"></div>
+                <div class="admin-products-pagination"><button type="button" class="button small" id="adminProductsPrev">Previous</button><span id="adminProductsPageLabel">Page 1 of 1</span><button type="button" class="button small" id="adminProductsNext">Next</button></div>
+                <details class="admin-import-details"><summary>Advanced: import product JSON</summary><label class="import-box">Import product JSON<textarea id="importProductsInput" rows="4" placeholder='Paste exported JSON here'></textarea><button class="button small" id="importProducts" type="button">Import products</button></label></details>
               </aside>
             </section>
           </section>

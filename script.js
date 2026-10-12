@@ -14896,6 +14896,14 @@ let uploadedImageData = "";
 let toastTimer;
 let adminFormReady = false;
 let activeModalProductId = null;
+const adminProductManagerState = {
+  query: "",
+  category: "all",
+  brand: "all",
+  source: "all",
+  page: 1,
+  pageSize: 12
+};
 
 const formatPrice = value => new Intl.NumberFormat("en-IN", {
   style: "currency",
@@ -14915,7 +14923,26 @@ function getAdminProducts() {
   catch { return []; }
 }
 function saveAdminProducts(products) { localStorage.setItem(STORAGE_PRODUCTS, JSON.stringify(products)); }
-function getProducts() { return [...seedProducts, ...getAdminProducts()].map(product => window.ttwNormalizedProduct ? window.ttwNormalizedProduct(product) : product); }
+function getSeedProductIds() {
+  return new Set((Array.isArray(seedProducts) ? seedProducts : []).map(product => String(product?.id || "")).filter(Boolean));
+}
+function getProducts() {
+  const merged = new Map();
+  (Array.isArray(seedProducts) ? seedProducts : []).forEach(product => {
+    if (product?.id) merged.set(String(product.id), { ...product });
+  });
+  getAdminProducts().forEach(product => {
+    if (!product?.id) return;
+    const id = String(product.id);
+    if (product.hidden === true) { merged.delete(id); return; }
+    merged.set(id, { ...(merged.get(id) || {}), ...product, id });
+  });
+  return [...merged.values()].map(product => window.ttwNormalizedProduct ? window.ttwNormalizedProduct(product) : product);
+}
+function getCustomAdminProducts() {
+  const seedIds = getSeedProductIds();
+  return getAdminProducts().filter(product => product?.id && !seedIds.has(String(product.id)) && product.hidden !== true);
+}
 function getCartTotal() { return state.cart.reduce((sum, item) => sum + Number(item.price) * Number(item.quantity), 0); }
 
 function fallbackArt(product) {
@@ -15531,7 +15558,9 @@ function initAdminProductForm() {
     name: document.getElementById("adminName"),
     brand: document.getElementById("adminBrand"),
     category: document.getElementById("adminCategory"),
+    mrp: document.getElementById("adminMrp"),
     price: document.getElementById("adminPrice"),
+    discountPreview: document.getElementById("adminDiscountPreview"),
     badge: document.getElementById("adminBadge"),
     rating: document.getElementById("adminRating"),
     imageUrl: document.getElementById("adminImageUrl"),
@@ -15540,6 +15569,40 @@ function initAdminProductForm() {
     features: document.getElementById("adminFeatures"),
     preview: document.getElementById("adminImagePreview")
   };
+
+  const updateAdminDiscountPreview = () => {
+    const mrp = Number(fields.mrp?.value || 0);
+    const price = Number(fields.price?.value || 0);
+    const preview = fields.discountPreview;
+    if (!preview) return;
+
+    const strong = preview.querySelector("strong");
+    const small = preview.querySelector("small");
+
+    if (!mrp || !price) {
+      if (strong) strong.textContent = "0% off";
+      if (small) small.textContent = "Enter MRP and our price to calculate discount";
+      preview.classList.remove("invalid");
+      return;
+    }
+
+    if (price > mrp) {
+      if (strong) strong.textContent = "Check prices";
+      if (small) small.textContent = "Our price cannot be higher than MRP";
+      preview.classList.add("invalid");
+      return;
+    }
+
+    const discount = mrp > price ? Math.round(((mrp - price) / mrp) * 100) : 0;
+    if (strong) strong.textContent = `${discount}% off`;
+    if (small) small.textContent = discount > 0
+      ? `${formatPrice(mrp - price)} saving shown automatically on the storefront`
+      : "MRP and our price are the same — no discount badge will be shown";
+    preview.classList.remove("invalid");
+  };
+
+  fields.mrp?.addEventListener("input", updateAdminDiscountPreview);
+  fields.price?.addEventListener("input", updateAdminDiscountPreview);
 
   fields.imageFile?.addEventListener("change", () => {
     const file = fields.imageFile.files[0];
@@ -15568,21 +15631,43 @@ function initAdminProductForm() {
   form.addEventListener("submit", event => {
     event.preventDefault();
     const products = getAdminProducts();
+    const id = fields.id.value || `admin-${Date.now()}`;
+    const index = products.findIndex(item => String(item.id) === String(id));
+    const existing = index >= 0 ? products[index] : null;
+    const seedMatch = (Array.isArray(seedProducts) ? seedProducts : []).find(item => String(item.id) === String(id));
+    const base = existing || seedMatch || {};
+    const chosenImage = uploadedImageData || fields.imageUrl.value.trim() || base.image || "";
+    const mrpValue = Number(fields.mrp.value);
+    const sellingPrice = Number(fields.price.value);
+    if (!Number.isFinite(mrpValue) || mrpValue <= 0 || !Number.isFinite(sellingPrice) || sellingPrice <= 0) {
+      showToast("Enter a valid MRP and our price");
+      return;
+    }
+    if (sellingPrice > mrpValue) {
+      showToast("Our price cannot be higher than MRP");
+      fields.price.focus();
+      updateAdminDiscountPreview();
+      return;
+    }
+
     const product = {
-      id: fields.id.value || `admin-${Date.now()}`,
+      ...base,
+      id,
       name: fields.name.value.trim(),
       brand: fields.brand.value,
       category: fields.category.value,
-      price: Number(fields.price.value),
-      badge: fields.badge.value.trim() || "New",
-      rating: Number(fields.rating.value || 4.7),
-      reviews: 0,
-      image: uploadedImageData || fields.imageUrl.value.trim(),
+      mrp: mrpValue,
+      price: sellingPrice,
+      badge: fields.badge.value.trim() || base.badge || "New",
+      rating: Number(fields.rating.value || base.rating || 4.7),
+      reviews: Number(base.reviews || 0),
+      image: chosenImage,
       description: fields.description.value.trim(),
       features: fields.features.value.split(",").map(item => item.trim()).filter(Boolean),
-      color: brandColor(fields.brand.value)
+      color: base.color || brandColor(fields.brand.value),
+      adminSource: seedMatch ? "core" : (base.adminSource || "custom"),
+      updatedFromAdmin: true
     };
-    const index = products.findIndex(item => item.id === product.id);
     if (index >= 0) products[index] = product;
     else products.push(product);
     saveAdminProducts(products);
@@ -15614,6 +15699,17 @@ function initAdminProductForm() {
     }
   });
 
+  const managerSearch = document.getElementById("adminProductSearch");
+  const managerCategory = document.getElementById("adminProductCategoryFilter");
+  const managerBrand = document.getElementById("adminProductBrandFilter");
+  const managerSource = document.getElementById("adminProductSourceFilter");
+  managerSearch?.addEventListener("input", () => { adminProductManagerState.query = managerSearch.value.trim(); adminProductManagerState.page = 1; renderAdminProducts(); });
+  managerCategory?.addEventListener("change", () => { adminProductManagerState.category = managerCategory.value; adminProductManagerState.page = 1; renderAdminProducts(); });
+  managerBrand?.addEventListener("change", () => { adminProductManagerState.brand = managerBrand.value; adminProductManagerState.page = 1; renderAdminProducts(); });
+  managerSource?.addEventListener("change", () => { adminProductManagerState.source = managerSource.value; adminProductManagerState.page = 1; renderAdminProducts(); });
+  document.getElementById("adminProductsPrev")?.addEventListener("click", () => { if (adminProductManagerState.page > 1) { adminProductManagerState.page -= 1; renderAdminProducts(); } });
+  document.getElementById("adminProductsNext")?.addEventListener("click", () => { adminProductManagerState.page += 1; renderAdminProducts(); });
+
   window.editAdminProduct = id => {
     const product = getAdminProducts().find(item => item.id === id);
     if (!product) return;
@@ -15621,7 +15717,9 @@ function initAdminProductForm() {
     fields.name.value = product.name;
     fields.brand.value = product.brand;
     fields.category.value = product.category;
+    fields.mrp.value = Number(product.mrp || product.price || 0);
     fields.price.value = product.price;
+    updateAdminDiscountPreview();
     fields.badge.value = product.badge || "";
     fields.rating.value = product.rating || 4.7;
     fields.imageUrl.value = product.image && product.image.startsWith("http") ? product.image : "";
@@ -15634,17 +15732,26 @@ function initAdminProductForm() {
   };
 
   window.deleteAdminProduct = id => {
-    if (!confirm("Remove this product from the website?")) return;
-    saveAdminProducts(getAdminProducts().filter(item => item.id !== id));
+    const seedIds = getSeedProductIds();
+    if (seedIds.has(String(id))) {
+      showToast("Core catalogue products are protected. Edit the product instead.");
+      return;
+    }
+    if (!confirm("Remove this custom product from the website?")) return;
+    saveAdminProducts(getAdminProducts().filter(item => String(item.id) !== String(id)));
     renderAdminProducts();
     renderHomeProducts();
-    showToast("Product removed");
+    renderBrandProducts();
+    showToast("Custom product removed");
   };
 
   function resetAdminForm() {
     form.reset();
     fields.id.value = "";
     fields.rating.value = "4.7";
+    if (fields.mrp) fields.mrp.value = "";
+    if (fields.price) fields.price.value = "";
+    updateAdminDiscountPreview();
     uploadedImageData = "";
     fields.preview.innerHTML = "<span>No image selected</span>";
     document.getElementById("adminFormTitle").textContent = "Add new product";
@@ -15654,16 +15761,66 @@ function initAdminProductForm() {
 function renderAdminProducts() {
   const list = document.getElementById("adminProductList");
   if (!list) return;
-  const products = getAdminProducts();
-  if (!products.length) {
-    list.innerHTML = '<p class="empty-state">No client-added products yet. Add one from the upload form.</p>';
+
+  const seedIds = getSeedProductIds();
+  const products = getAdminProducts().filter(product => product && product.id && product.hidden !== true);
+  const query = String(adminProductManagerState.query || "").toLowerCase();
+
+  let filtered = products.filter(product => {
+    const source = seedIds.has(String(product.id)) ? "core" : "custom";
+    const text = `${product.name || ""} ${product.brand || ""} ${product.category || ""} ${product.id || ""}`.toLowerCase();
+    if (query && !text.includes(query)) return false;
+    if (adminProductManagerState.category !== "all" && String(product.category || "") !== adminProductManagerState.category) return false;
+    if (adminProductManagerState.brand !== "all" && String(product.brand || "") !== adminProductManagerState.brand) return false;
+    if (adminProductManagerState.source !== "all" && source !== adminProductManagerState.source) return false;
+    return true;
+  });
+
+  filtered.sort((a, b) => String(a.brand || "").localeCompare(String(b.brand || "")) || String(a.category || "").localeCompare(String(b.category || "")) || String(a.name || "").localeCompare(String(b.name || "")));
+
+  const total = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / adminProductManagerState.pageSize));
+  adminProductManagerState.page = Math.min(Math.max(1, adminProductManagerState.page), totalPages);
+  const start = (adminProductManagerState.page - 1) * adminProductManagerState.pageSize;
+  const visible = filtered.slice(start, start + adminProductManagerState.pageSize);
+
+  const customCount = products.filter(product => !seedIds.has(String(product.id))).length;
+  const summary = document.getElementById("adminProductResultsCount");
+  if (summary) summary.textContent = `${total.toLocaleString("en-IN")} shown · ${products.length.toLocaleString("en-IN")} total · ${customCount.toLocaleString("en-IN")} custom`;
+
+  const pageLabel = document.getElementById("adminProductsPageLabel");
+  if (pageLabel) pageLabel.textContent = `Page ${adminProductManagerState.page} of ${totalPages}`;
+  const prev = document.getElementById("adminProductsPrev");
+  const next = document.getElementById("adminProductsNext");
+  if (prev) prev.disabled = adminProductManagerState.page <= 1;
+  if (next) next.disabled = adminProductManagerState.page >= totalPages;
+
+  if (!visible.length) {
+    list.innerHTML = '<div class="admin-empty-card"><h3>No products match these filters</h3><p>Clear the search or choose another category/brand.</p></div>';
     return;
   }
-  list.innerHTML = products.slice().reverse().map(product => `<div class="admin-product-row">
-    <div class="admin-product-thumb">${product.image ? `<img src="${product.image}" alt="${product.name}">` : `<div class="cart-puck" style="background:${product.color || brandColor(product.brand)}"></div>`}</div>
-    <div><h3>${product.name}</h3><p>${cap(product.brand)} • ${cap(product.category)} • ${formatPrice(product.price)}</p></div>
-    <div class="admin-row-actions"><button onclick="editAdminProduct('${product.id}')">Edit</button><button onclick="deleteAdminProduct('${product.id}')">Delete</button></div>
-  </div>`).join("");
+
+  list.innerHTML = visible.map(product => {
+    const isCore = seedIds.has(String(product.id));
+    const sourceLabel = isCore ? "Core catalogue" : "Custom";
+    const sourceClass = isCore ? "core" : "custom";
+    return `<div class="admin-product-row">
+      <div class="admin-product-thumb">${product.image ? `<img src="${product.image}" alt="${product.name}">` : `<div class="cart-puck" style="background:${product.color || brandColor(product.brand)}"></div>`}</div>
+      <div class="admin-product-main">
+        <div class="admin-product-name-line"><h3>${product.name}</h3><span class="admin-source-pill ${sourceClass}">${sourceLabel}</span></div>
+        <p>${cap(product.brand)} • ${cap(product.category)}</p>
+        <div class="admin-product-price-line">
+          <span>MRP ${formatPrice(product.mrp || product.price)}</span>
+          <strong>Our price ${formatPrice(product.price)}</strong>
+          ${Number(product.mrp || 0) > Number(product.price || 0) ? `<em>${Math.round(((Number(product.mrp) - Number(product.price)) / Number(product.mrp)) * 100)}% off</em>` : ""}
+        </div>
+      </div>
+      <div class="admin-row-actions">
+        <button onclick="editAdminProduct('${product.id}')">Edit</button>
+        ${isCore ? '<span class="admin-core-lock" title="Core catalogue products are protected from accidental deletion">Protected</span>' : `<button class="danger-text" onclick="deleteAdminProduct('${product.id}')">Delete</button>`}
+      </div>
+    </div>`;
+  }).join("");
 }
 
 function renderCheckoutPage() {
@@ -19255,9 +19412,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function getAllProductsCount() {
     try {
-      return (typeof seedProducts !== "undefined" ? seedProducts.length : 0) + getClientProducts().length;
+      const ids = new Set();
+      (typeof seedProducts !== "undefined" && Array.isArray(seedProducts) ? seedProducts : []).forEach(product => { if (product?.id) ids.add(String(product.id)); });
+      getClientProducts().forEach(product => { if (product?.id && product.hidden !== true) ids.add(String(product.id)); });
+      return ids.size;
     } catch (error) {
-      return getClientProducts().length;
+      return getClientProducts().filter(product => product?.hidden !== true).length;
+    }
+  }
+
+  function getCustomProductsCount() {
+    try {
+      const seedIds = new Set((typeof seedProducts !== "undefined" && Array.isArray(seedProducts) ? seedProducts : []).map(product => String(product?.id || "")).filter(Boolean));
+      return getClientProducts().filter(product => product?.id && product.hidden !== true && !seedIds.has(String(product.id))).length;
+    } catch (error) {
+      return 0;
     }
   }
 
@@ -19294,7 +19463,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const orderCount = document.getElementById("adminOrderCount");
     const orderValue = document.getElementById("adminOrderValue");
     if (totalProducts) totalProducts.textContent = getAllProductsCount();
-    if (uploadedProducts) uploadedProducts.textContent = uploaded.length;
+    if (uploadedProducts) uploadedProducts.textContent = getCustomProductsCount();
     if (orderCount) orderCount.textContent = orders.length;
     if (orderValue) orderValue.textContent = money(totalValue);
   }

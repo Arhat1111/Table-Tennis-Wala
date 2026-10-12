@@ -1,0 +1,10 @@
+TABLE TENNIS WALA — ADMIN MRP + AUTO DISCOUNT UPDATE
+Date: 12 October 2026
+
+- Product editor now has separate MRP and Our price fields.
+- Both are stored in the existing product JSON (`mrp` and `price`).
+- Our price cannot be higher than MRP.
+- Admin shows the calculated percentage discount live.
+- Catalogue manager shows MRP, our price and discount.
+- Storefront cards and product-detail pages automatically show MRP, selling price and % off when MRP > Our price.
+- No database schema change is required because ttw_products.data is JSONB.
