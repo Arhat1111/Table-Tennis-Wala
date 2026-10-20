@@ -15447,120 +15447,81 @@ function setAdminVisibility(isLoggedIn) {
 
 
 /* ============================================================================
-   AUTHORITATIVE WHATSAPP ORDER FLOW — 2026-10-20
-   Registered early so later legacy handlers cannot blank or redirect checkout.
+   SIMPLE WHATSAPP ORDER FLOW — 2026-10-20
+   Customer sees only a clean confirmation. Supabase sync happens silently.
 ============================================================================ */
 (function () {
-  function escapeHtml(value) {
-    return String(value ?? "").replace(/[&<>"']/g, ch => ({
-      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[ch]));
-  }
-
-  function ensureOrderOverlay() {
-    let overlay = document.getElementById("ttwOrderProgressOverlay");
+  function ensureConfirmation() {
+    let overlay = document.getElementById("ttwOrderConfirmation");
     if (overlay) return overlay;
+
     overlay = document.createElement("div");
-    overlay.id = "ttwOrderProgressOverlay";
-    overlay.className = "ttw-order-progress-overlay";
+    overlay.id = "ttwOrderConfirmation";
+    overlay.className = "ttw-simple-order-confirmation";
     overlay.setAttribute("role", "dialog");
     overlay.setAttribute("aria-modal", "true");
     document.body.appendChild(overlay);
     return overlay;
   }
 
-  function renderOrderOverlay(order, whatsappUrl, stateName, errorMessage = "") {
-    const overlay = ensureOrderOverlay();
-    const saved = stateName === "saved";
-    const failed = stateName === "error";
-    const title = saved
-      ? "Your order has been saved."
-      : failed
-        ? "WhatsApp is ready, but the order did not sync."
-        : "Your order is being placed through WhatsApp.";
-
+  function showConfirmation(order, whatsappUrl) {
+    const overlay = ensureConfirmation();
     overlay.innerHTML = `
-      <div class="ttw-order-progress-dialog">
-        <div class="ttw-order-progress-mark ${failed ? "error" : ""}">${failed ? "!" : "✓"}</div>
-        <span class="eyebrow">${failed ? "Order sync needs attention" : "WhatsApp order"}</span>
-        <h2>${title}</h2>
-        <p>
-          Order <strong>${escapeHtml(order.orderId)}</strong>
-          ${saved
-            ? " is now in the Table Tennis Wala admin dashboard. Send the prepared WhatsApp message to complete the request."
-            : failed
-              ? " is still preserved in this browser. Retry the Supabase save below, then send the WhatsApp message."
-              : " is being saved to the shared admin dashboard while WhatsApp opens."}
-        </p>
-        ${failed && errorMessage ? `<div class="ttw-order-sync-error">${escapeHtml(errorMessage)}</div>` : ""}
-        <div class="ttw-order-progress-steps">
-          <span class="done"><b>1</b> Order prepared</span>
-          <span class="${saved ? "done" : failed ? "error" : "active"}"><b>2</b> ${saved ? "Saved to admin" : failed ? "Save failed" : "Saving to admin"}</span>
-          <span class="active"><b>3</b> Send WhatsApp message</span>
-        </div>
-        <div class="ttw-order-progress-actions">
-          ${failed ? `<button type="button" class="button primary" id="ttwRetryOrderSync">Retry saving order</button>` : ""}
-          <a class="button ${failed ? "ghost" : "primary"}" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
+      <div class="ttw-simple-order-card">
+        <div class="ttw-simple-order-check">✓</div>
+        <h2>Your order has been placed through WhatsApp.</h2>
+        <p>Order ID: <strong>${String(order.orderId || "")}</strong></p>
+        <div class="ttw-simple-order-actions">
+          <a class="button primary" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
           <a class="button ghost" href="index.html">Continue shopping</a>
         </div>
-        <p class="checkout-note">This confirmation stays on screen when you return from WhatsApp.</p>
       </div>`;
     overlay.classList.add("show");
-    document.body.classList.add("ttw-order-overlay-open");
-
-    if (failed) {
-      overlay.querySelector("#ttwRetryOrderSync")?.addEventListener("click", async () => {
-        const button = overlay.querySelector("#ttwRetryOrderSync");
-        if (button) {
-          button.disabled = true;
-          button.textContent = "Retrying…";
-        }
-        try {
-          if (!window.ttwCloudSync?.saveOrder) throw new Error("Supabase order service is unavailable.");
-          await window.ttwCloudSync.saveOrder(order);
-          try { localStorage.removeItem("ttw-last-order-sync-error"); } catch (_) {}
-          clearCartAfterCloudSave();
-          renderOrderOverlay(order, whatsappUrl, "saved");
-        } catch (error) {
-          renderOrderOverlay(order, whatsappUrl, "error", error?.message || String(error));
-        }
-      }, { once: true });
-    }
+    document.body.classList.add("ttw-simple-order-open");
   }
 
-  function saveLocalOrderBackup(order) {
+  function backupOrder(order) {
     try {
       const existing = JSON.parse(localStorage.getItem(STORAGE_ORDERS) || "[]");
-      const list = Array.isArray(existing) ? existing : [];
-      if (!list.some(item => String(item?.orderId) === String(order.orderId))) list.push(order);
-      localStorage.setItem(STORAGE_ORDERS, JSON.stringify(list));
+      const orders = Array.isArray(existing) ? existing : [];
+      if (!orders.some(item => String(item?.orderId) === String(order.orderId))) {
+        orders.push(order);
+      }
+      localStorage.setItem(STORAGE_ORDERS, JSON.stringify(orders));
       localStorage.setItem("ttw-last-order", JSON.stringify(order));
+      localStorage.setItem("ttw-order-awaiting-cloud-save", String(order.orderId));
     } catch (error) {
       console.warn("Local order backup failed", error);
     }
   }
 
-  function clearCartAfterCloudSave() {
+  function clearCart() {
     try {
       state.cart = [];
       saveCart();
       renderCart();
       document.querySelectorAll(".cart-count").forEach(el => { el.textContent = "0"; });
+    } catch (error) {}
+  }
+
+  async function syncOrderSilently(order) {
+    if (!order || !window.ttwCloudSync?.saveOrder) return false;
+    try {
+      await window.ttwCloudSync.saveOrder(order);
+      localStorage.removeItem("ttw-order-awaiting-cloud-save");
+      localStorage.removeItem("ttw-last-order-sync-error");
+      clearCart();
+      return true;
     } catch (error) {
-      console.warn("Cart cleanup after order save failed", error);
+      console.error("Background order sync failed", error);
+      try {
+        localStorage.setItem("ttw-last-order-sync-error", error?.message || String(error));
+      } catch (_) {}
+      return false;
     }
   }
 
-  async function persistOrder(order) {
-    saveLocalOrderBackup(order);
-    if (!window.ttwCloudSync?.saveOrder) {
-      throw new Error("Supabase order service is unavailable. Check the production Supabase connection.");
-    }
-    const result = await window.ttwCloudSync.saveOrder(order);
-    return result;
-  }
-
-  // Capture on window runs before document/form listeners registered by legacy code.
+  // Runs before old form listeners.
   window.addEventListener("submit", event => {
     const form = event.target;
     if (!(form instanceof HTMLFormElement) || form.id !== "checkoutForm") return;
@@ -15570,18 +15531,12 @@ function setAdminVisibility(isLoggedIn) {
     event.stopImmediatePropagation();
 
     if (form.dataset.ttwOrderBusy === "1") return;
-    if (!Array.isArray(state?.cart) || state.cart.length === 0) {
+    if (!Array.isArray(state?.cart) || !state.cart.length) {
       showToast("Your cart is empty");
       return;
     }
 
     form.dataset.ttwOrderBusy = "1";
-    const submitButton = form.querySelector('button[type="submit"]');
-    const defaultText = submitButton?.textContent || "Place order on WhatsApp";
-    if (submitButton) {
-      submitButton.disabled = true;
-      submitButton.textContent = "Saving order…";
-    }
 
     const customer = Object.fromEntries(new FormData(form).entries());
     const amount = getCartTotal();
@@ -15594,49 +15549,54 @@ function setAdminVisibility(isLoggedIn) {
       status: "New WhatsApp order",
       customerWhatsAppStatus: "Updates pending"
     };
+
     const whatsappUrl = buildWhatsAppOrderUrl(order);
 
-    // Confirmation is rendered BEFORE opening WhatsApp and is a fixed overlay,
-    // so returning to this tab can never reveal a blank checkout page.
-    renderOrderOverlay(order, whatsappUrl, "saving");
-    saveLocalOrderBackup(order);
+    // Preserve locally first so an order is never lost if network is temporarily unavailable.
+    backupOrder(order);
 
+    // Customer sees the requested message immediately.
+    showConfirmation(order, whatsappUrl);
+
+    // Open WhatsApp. The confirmation remains visible in this tab.
     try {
-      const popup = window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-      if (!popup) console.warn("WhatsApp popup was blocked; manual Open WhatsApp button remains visible.");
-    } catch (error) {
-      console.warn("WhatsApp could not be opened automatically", error);
-    }
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    } catch (error) {}
 
-    persistOrder(order).then(() => {
-      try { localStorage.removeItem("ttw-last-order-sync-error"); } catch (_) {}
-      clearCartAfterCloudSave();
-      renderOrderOverlay(order, whatsappUrl, "saved");
-      showToast("Order saved to Supabase.");
-    }).catch(error => {
-      console.error("Order could not be saved to Supabase", error);
-      try { localStorage.setItem("ttw-last-order-sync-error", error?.message || String(error)); } catch (_) {}
-      renderOrderOverlay(order, whatsappUrl, "error", error?.message || String(error));
-      showToast("Order was not synced. Use Retry saving order.");
-    }).finally(() => {
+    // Sync to Supabase in the background.
+    syncOrderSilently(order).finally(() => {
       form.dataset.ttwOrderBusy = "0";
-      if (submitButton) {
-        submitButton.disabled = false;
-        submitButton.textContent = defaultText;
-      }
     });
   }, true);
 
-  // If a browser returns from WhatsApp with a pending local order, show a clear
-  // recovery state rather than an empty page.
+  // Retry a previously preserved order automatically after a deploy/policy fix.
+  async function retryPendingOrder() {
+    let order = null;
+    try {
+      order = JSON.parse(localStorage.getItem("ttw-last-order") || "null");
+    } catch (_) {}
+
+    const pendingId = localStorage.getItem("ttw-order-awaiting-cloud-save");
+    if (!order || !pendingId || String(order.orderId) !== String(pendingId)) return;
+
+    await syncOrderSilently(order);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(retryPendingOrder, 900);
+  });
+
   window.addEventListener("pageshow", () => {
     if (document.body?.dataset?.page !== "checkout") return;
-    if (document.getElementById("ttwOrderProgressOverlay")?.classList.contains("show")) return;
+
     let order = null;
-    try { order = JSON.parse(localStorage.getItem("ttw-last-order") || "null"); } catch (_) {}
-    const error = localStorage.getItem("ttw-last-order-sync-error") || "";
-    if (order && error) {
-      renderOrderOverlay(order, buildWhatsAppOrderUrl(order), "error", error);
+    try {
+      order = JSON.parse(localStorage.getItem("ttw-last-order") || "null");
+    } catch (_) {}
+
+    if (order && localStorage.getItem("ttw-order-awaiting-cloud-save")) {
+      showConfirmation(order, buildWhatsAppOrderUrl(order));
+      retryPendingOrder();
     }
   });
 })();
@@ -21551,40 +21511,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function saveOrder(order) {
     const sb = ensureClient();
-    if (!sb) throw new Error("Supabase is not configured. Order could not be saved to the shared admin backend.");
+    if (!sb) throw new Error("Supabase is not configured");
     const id = orderId(order);
     const payload = { ...order, orderId: id };
     const createdAt = order?.date || new Date().toISOString();
 
-    // Preferred production path: a narrow security-definer RPC accepts a new order
-    // without exposing order-reading permissions to public visitors.
-    const { error: rpcError } = await sb.rpc("ttw_create_order", {
-      p_site_id: SITE_ID,
-      p_order_id: id,
-      p_data: payload,
-      p_created_at: createdAt
-    });
+    const row = {
+      site_id: SITE_ID,
+      order_id: id,
+      data: payload,
+      created_at: createdAt,
+      updated_at: new Date().toISOString()
+    };
 
-    if (rpcError) {
-      // Backward-compatible fallback for projects that have not installed the RPC yet.
-      // This requires the public INSERT RLS policy from the setup SQL.
-      const row = {
-        site_id: SITE_ID,
-        order_id: id,
-        data: payload,
-        created_at: createdAt,
-        updated_at: new Date().toISOString()
-      };
-      const { error: insertError } = await sb.from(TABLES.orders).insert(row);
-      if (insertError && insertError.code !== "23505") {
-        const message = [
-          `Supabase order save failed`,
-          `RPC: ${rpcError.message || rpcError.code || "unavailable"}`,
-          `Insert: ${insertError.message || insertError.code || "rejected"}`
-        ].join(" — ");
-        throw new Error(message);
-      }
-    }
+    const { error } = await sb.from(TABLES.orders).insert(row);
+
+    // Duplicate means the browser retried an order that is already safely stored.
+    if (error && error.code !== "23505") throw error;
 
     status("connected", `Order ${id} saved to Supabase`);
     return payload;
@@ -21605,38 +21548,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const session = await getSession();
     if (!session?.user) return [];
 
-    let rows = null;
+    const { data, error } = await sb
+      .from(TABLES.orders)
+      .select("order_id,data,created_at,updated_at")
+      .eq("site_id", SITE_ID)
+      .order("created_at", { ascending: true });
 
-    // Preferred admin-read path. Unlike a normal RLS SELECT, this RPC gives an
-    // explicit authorization error instead of silently returning zero rows.
-    const { data: rpcRows, error: rpcError } = await sb.rpc("ttw_admin_list_orders", {
-      p_site_id: SITE_ID
-    });
+    if (error) throw error;
 
-    if (!rpcError) {
-      rows = rpcRows || [];
-    } else {
-      // Backward-compatible fallback while the admin read RPC is being installed.
-      const { data, error } = await sb
-        .from(TABLES.orders)
-        .select("order_id,data,created_at,updated_at")
-        .eq("site_id", SITE_ID)
-        .order("created_at", { ascending: true });
-
-      if (error) {
-        throw new Error(`Admin order read failed — RPC: ${rpcError.message || rpcError.code || "unavailable"} — SELECT: ${error.message || error.code || "rejected"}`);
-      }
-
-      rows = data || [];
-
-      // RLS can return an empty array instead of an error when the authenticated
-      // user is not allowed to read orders. Make that state visible to the admin.
-      if (!rows.length && /not authorized|permission|admin/i.test(String(rpcError.message || ""))) {
-        throw new Error(rpcError.message || "This Supabase user is not registered in ttw_admins.");
-      }
-    }
-
-    const orders = rows.map(row => ({
+    const orders = (data || []).map(row => ({
       orderId: row.order_id,
       ...(row.data || {}),
       date: row.data?.date || row.created_at
