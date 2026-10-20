@@ -15605,38 +15605,20 @@ function setAdminVisibility(isLoggedIn) {
     const whatsappUrl = buildWhatsAppOrderUrl(order);
     saveLocalBackup(order);
 
-    // Open a blank tab synchronously so browsers do not block WhatsApp after
-    // the awaited Supabase save. The tab is navigated only after save succeeds.
-    let whatsappWindow = null;
-    try {
-      whatsappWindow = window.open("about:blank", "_blank");
-      if (whatsappWindow) {
-        try {
-          whatsappWindow.document.title = "Opening WhatsApp…";
-          whatsappWindow.document.body.innerHTML = '<p style="font-family:Arial,sans-serif;padding:24px">Preparing your WhatsApp order…</p>';
-        } catch (_) {}
-      }
-    } catch (_) {}
-
     try {
       await saveOrderToSupabase(order);
 
-      // Supabase now contains the order. Only now clear cart and open WhatsApp.
+      // The order is now safely in Supabase.
+      // Only now clear the cart and leave the website for WhatsApp.
       clearCartAfterSave();
       storeReturnConfirmation(order, whatsappUrl);
       installReturnWatcher();
 
-      if (whatsappWindow && !whatsappWindow.closed) {
-        whatsappWindow.location.replace(whatsappUrl);
-        try { whatsappWindow.focus(); } catch (_) {}
-      } else {
-        // Popup blocked: navigate this tab to WhatsApp. The confirmation will
-        // appear when the customer returns using Back/app switch.
-        window.location.href = whatsappUrl;
-      }
+      // Same-tab navigation avoids popup blockers and guarantees that the
+      // confirmation cannot appear before the customer goes to WhatsApp.
+      window.location.assign(whatsappUrl);
     } catch (error) {
       console.error("Order save failed", error);
-      try { whatsappWindow?.close(); } catch (_) {}
 
       // Do not clear the cart and do not show a false order confirmation.
       showToast("Could not place the order. Please try again.");
@@ -21584,8 +21566,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   async function saveOrder(order) {
-    const sb = ensureClient();
-    if (!sb) throw new Error("Supabase is not configured");
+    if (!hasConfig()) throw new Error("Supabase is not configured");
+
     const id = orderId(order);
     const payload = { ...order, orderId: id };
     const createdAt = order?.date || new Date().toISOString();
@@ -21598,10 +21580,38 @@ document.addEventListener("DOMContentLoaded", () => {
       updated_at: new Date().toISOString()
     };
 
-    const { error } = await sb.from(TABLES.orders).insert(row);
+    // IMPORTANT:
+    // Do not use the authenticated admin Supabase client for checkout writes.
+    // A shopper can still have an admin Auth session in the same browser.
+    // Sending ONLY the publishable key in the apikey header guarantees this
+    // request uses the public checkout permissions instead of the admin session.
+    const endpoint = `${String(SUPABASE_CONFIG.url).replace(/\/+$/, "")}/rest/v1/${TABLES.orders}`;
 
-    // Duplicate means the browser retried an order that is already safely stored.
-    if (error && error.code !== "23505") throw error;
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "apikey": SUPABASE_CONFIG.anonKey,
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Prefer": "return=minimal"
+      },
+      body: JSON.stringify(row)
+    });
+
+    if (!response.ok) {
+      let detail = {};
+      try {
+        detail = await response.json();
+      } catch (_) {
+        try { detail = { message: await response.text() }; } catch (_) {}
+      }
+
+      // A retry of an already-saved order is safe.
+      if (!(response.status === 409 && String(detail?.code || "") === "23505")) {
+        const message = detail?.message || detail?.details || `Order save failed (${response.status})`;
+        throw new Error(message);
+      }
+    }
 
     status("connected", `Order ${id} saved to Supabase`);
     return payload;
