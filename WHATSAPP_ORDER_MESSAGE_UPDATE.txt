@@ -1,0 +1,2 @@
+WhatsApp order message formatting updated on 20 October 2026.
+Blank lines are intentionally preserved between order summary, customer details, address/notes, items and the final payment instruction.

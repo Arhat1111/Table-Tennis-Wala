@@ -15445,6 +15445,203 @@ function setAdminVisibility(isLoggedIn) {
   }
 }
 
+
+/* ============================================================================
+   AUTHORITATIVE WHATSAPP ORDER FLOW — 2026-10-20
+   Registered early so later legacy handlers cannot blank or redirect checkout.
+============================================================================ */
+(function () {
+  function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, ch => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+    }[ch]));
+  }
+
+  function ensureOrderOverlay() {
+    let overlay = document.getElementById("ttwOrderProgressOverlay");
+    if (overlay) return overlay;
+    overlay = document.createElement("div");
+    overlay.id = "ttwOrderProgressOverlay";
+    overlay.className = "ttw-order-progress-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+    document.body.appendChild(overlay);
+    return overlay;
+  }
+
+  function renderOrderOverlay(order, whatsappUrl, stateName, errorMessage = "") {
+    const overlay = ensureOrderOverlay();
+    const saved = stateName === "saved";
+    const failed = stateName === "error";
+    const title = saved
+      ? "Your order has been saved."
+      : failed
+        ? "WhatsApp is ready, but the order did not sync."
+        : "Your order is being placed through WhatsApp.";
+
+    overlay.innerHTML = `
+      <div class="ttw-order-progress-dialog">
+        <div class="ttw-order-progress-mark ${failed ? "error" : ""}">${failed ? "!" : "✓"}</div>
+        <span class="eyebrow">${failed ? "Order sync needs attention" : "WhatsApp order"}</span>
+        <h2>${title}</h2>
+        <p>
+          Order <strong>${escapeHtml(order.orderId)}</strong>
+          ${saved
+            ? " is now in the Table Tennis Wala admin dashboard. Send the prepared WhatsApp message to complete the request."
+            : failed
+              ? " is still preserved in this browser. Retry the Supabase save below, then send the WhatsApp message."
+              : " is being saved to the shared admin dashboard while WhatsApp opens."}
+        </p>
+        ${failed && errorMessage ? `<div class="ttw-order-sync-error">${escapeHtml(errorMessage)}</div>` : ""}
+        <div class="ttw-order-progress-steps">
+          <span class="done"><b>1</b> Order prepared</span>
+          <span class="${saved ? "done" : failed ? "error" : "active"}"><b>2</b> ${saved ? "Saved to admin" : failed ? "Save failed" : "Saving to admin"}</span>
+          <span class="active"><b>3</b> Send WhatsApp message</span>
+        </div>
+        <div class="ttw-order-progress-actions">
+          ${failed ? `<button type="button" class="button primary" id="ttwRetryOrderSync">Retry saving order</button>` : ""}
+          <a class="button ${failed ? "ghost" : "primary"}" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
+          <a class="button ghost" href="index.html">Continue shopping</a>
+        </div>
+        <p class="checkout-note">This confirmation stays on screen when you return from WhatsApp.</p>
+      </div>`;
+    overlay.classList.add("show");
+    document.body.classList.add("ttw-order-overlay-open");
+
+    if (failed) {
+      overlay.querySelector("#ttwRetryOrderSync")?.addEventListener("click", async () => {
+        const button = overlay.querySelector("#ttwRetryOrderSync");
+        if (button) {
+          button.disabled = true;
+          button.textContent = "Retrying…";
+        }
+        try {
+          if (!window.ttwCloudSync?.saveOrder) throw new Error("Supabase order service is unavailable.");
+          await window.ttwCloudSync.saveOrder(order);
+          try { localStorage.removeItem("ttw-last-order-sync-error"); } catch (_) {}
+          clearCartAfterCloudSave();
+          renderOrderOverlay(order, whatsappUrl, "saved");
+        } catch (error) {
+          renderOrderOverlay(order, whatsappUrl, "error", error?.message || String(error));
+        }
+      }, { once: true });
+    }
+  }
+
+  function saveLocalOrderBackup(order) {
+    try {
+      const existing = JSON.parse(localStorage.getItem(STORAGE_ORDERS) || "[]");
+      const list = Array.isArray(existing) ? existing : [];
+      if (!list.some(item => String(item?.orderId) === String(order.orderId))) list.push(order);
+      localStorage.setItem(STORAGE_ORDERS, JSON.stringify(list));
+      localStorage.setItem("ttw-last-order", JSON.stringify(order));
+    } catch (error) {
+      console.warn("Local order backup failed", error);
+    }
+  }
+
+  function clearCartAfterCloudSave() {
+    try {
+      state.cart = [];
+      saveCart();
+      renderCart();
+      document.querySelectorAll(".cart-count").forEach(el => { el.textContent = "0"; });
+    } catch (error) {
+      console.warn("Cart cleanup after order save failed", error);
+    }
+  }
+
+  async function persistOrder(order) {
+    saveLocalOrderBackup(order);
+    if (!window.ttwCloudSync?.saveOrder) {
+      throw new Error("Supabase order service is unavailable. Check the production Supabase connection.");
+    }
+    const result = await window.ttwCloudSync.saveOrder(order);
+    return result;
+  }
+
+  // Capture on window runs before document/form listeners registered by legacy code.
+  window.addEventListener("submit", event => {
+    const form = event.target;
+    if (!(form instanceof HTMLFormElement) || form.id !== "checkoutForm") return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+
+    if (form.dataset.ttwOrderBusy === "1") return;
+    if (!Array.isArray(state?.cart) || state.cart.length === 0) {
+      showToast("Your cart is empty");
+      return;
+    }
+
+    form.dataset.ttwOrderBusy = "1";
+    const submitButton = form.querySelector('button[type="submit"]');
+    const defaultText = submitButton?.textContent || "Place order on WhatsApp";
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Saving order…";
+    }
+
+    const customer = Object.fromEntries(new FormData(form).entries());
+    const amount = getCartTotal();
+    const order = {
+      ...createOrderObject(customer, amount),
+      paymentId: `WHATSAPP-PENDING-${Date.now()}`,
+      paymentMode: "WhatsApp order - QR payment pending",
+      paymentStatus: "Pending QR payment",
+      orderChannel: "WhatsApp",
+      status: "New WhatsApp order",
+      customerWhatsAppStatus: "Updates pending"
+    };
+    const whatsappUrl = buildWhatsAppOrderUrl(order);
+
+    // Confirmation is rendered BEFORE opening WhatsApp and is a fixed overlay,
+    // so returning to this tab can never reveal a blank checkout page.
+    renderOrderOverlay(order, whatsappUrl, "saving");
+    saveLocalOrderBackup(order);
+
+    try {
+      const popup = window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+      if (!popup) console.warn("WhatsApp popup was blocked; manual Open WhatsApp button remains visible.");
+    } catch (error) {
+      console.warn("WhatsApp could not be opened automatically", error);
+    }
+
+    persistOrder(order).then(() => {
+      try { localStorage.removeItem("ttw-last-order-sync-error"); } catch (_) {}
+      clearCartAfterCloudSave();
+      renderOrderOverlay(order, whatsappUrl, "saved");
+      showToast("Order saved to Supabase.");
+    }).catch(error => {
+      console.error("Order could not be saved to Supabase", error);
+      try { localStorage.setItem("ttw-last-order-sync-error", error?.message || String(error)); } catch (_) {}
+      renderOrderOverlay(order, whatsappUrl, "error", error?.message || String(error));
+      showToast("Order was not synced. Use Retry saving order.");
+    }).finally(() => {
+      form.dataset.ttwOrderBusy = "0";
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = defaultText;
+      }
+    });
+  }, true);
+
+  // If a browser returns from WhatsApp with a pending local order, show a clear
+  // recovery state rather than an empty page.
+  window.addEventListener("pageshow", () => {
+    if (document.body?.dataset?.page !== "checkout") return;
+    if (document.getElementById("ttwOrderProgressOverlay")?.classList.contains("show")) return;
+    let order = null;
+    try { order = JSON.parse(localStorage.getItem("ttw-last-order") || "null"); } catch (_) {}
+    const error = localStorage.getItem("ttw-last-order-sync-error") || "";
+    if (order && error) {
+      renderOrderOverlay(order, buildWhatsAppOrderUrl(order), "error", error);
+    }
+  });
+})();
+
+
 function initAdmin() {
   const loginForm = document.getElementById("adminLoginForm");
   if (!loginForm) return;
@@ -15932,8 +16129,8 @@ function buildWhatsAppOrderMessage(order) {
     return `${index + 1}. ${item.name}\n   Qty: ${item.quantity || 1}\n   Price: ${formatPrice(Number(item.price || 0) * Number(item.quantity || 1))}${details}`;
   }).join("\n\n");
 
-  return [
-    "🏓 *New Table Tennis Wala Order*",
+  const lines = [
+    "*New Table Tennis Wala Order*",
     "",
     `*Order ID:* ${order.orderId}`,
     `*Payment status:* Pending - QR required`,
@@ -15943,14 +16140,23 @@ function buildWhatsAppOrderMessage(order) {
     `Name: ${order.customer.fullName}`,
     `Phone: ${order.customer.phone}`,
     `Email: ${order.customer.email || "-"}`,
-    `Address: ${address}`,
-    order.customer.notes ? `Notes: ${order.customer.notes}` : "",
+    "",
+    `Address: ${address}`
+  ];
+
+  if (order.customer.notes) {
+    lines.push(`Notes: ${order.customer.notes}`);
+  }
+
+  lines.push(
     "",
     "*Items*",
     items,
     "",
     "Please send the QR code/payment details for this order. Once payment is confirmed, please process dispatch."
-  ].filter(Boolean).join("\n");
+  );
+
+  return lines.join("\n");
 }
 
 function buildWhatsAppOrderUrl(order) {
@@ -21337,18 +21543,41 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function saveOrder(order) {
     const sb = ensureClient();
-    if (!sb) throw new Error("Supabase is not configured. Order is saved only in this browser until configuration is added.");
+    if (!sb) throw new Error("Supabase is not configured. Order could not be saved to the shared admin backend.");
     const id = orderId(order);
     const payload = { ...order, orderId: id };
-    const row = {
-      site_id: SITE_ID,
-      order_id: id,
-      data: payload,
-      created_at: order?.date || new Date().toISOString(),
-      updated_at: new Date().toISOString()
-    };
-    const { error } = await sb.from(TABLES.orders).insert(row);
-    if (error && error.code !== "23505") throw error;
+    const createdAt = order?.date || new Date().toISOString();
+
+    // Preferred production path: a narrow security-definer RPC accepts a new order
+    // without exposing order-reading permissions to public visitors.
+    const { error: rpcError } = await sb.rpc("ttw_create_order", {
+      p_site_id: SITE_ID,
+      p_order_id: id,
+      p_data: payload,
+      p_created_at: createdAt
+    });
+
+    if (rpcError) {
+      // Backward-compatible fallback for projects that have not installed the RPC yet.
+      // This requires the public INSERT RLS policy from the setup SQL.
+      const row = {
+        site_id: SITE_ID,
+        order_id: id,
+        data: payload,
+        created_at: createdAt,
+        updated_at: new Date().toISOString()
+      };
+      const { error: insertError } = await sb.from(TABLES.orders).insert(row);
+      if (insertError && insertError.code !== "23505") {
+        const message = [
+          `Supabase order save failed`,
+          `RPC: ${rpcError.message || rpcError.code || "unavailable"}`,
+          `Insert: ${insertError.message || insertError.code || "rejected"}`
+        ].join(" — ");
+        throw new Error(message);
+      }
+    }
+
     status("connected", `Order ${id} saved to Supabase`);
     return payload;
   }

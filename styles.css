@@ -18707,3 +18707,136 @@ body[data-page="checkout"] .whatsapp-consult{display:none !important}
 .service-showcase .pro-service-card:hover{
   transform:translateY(-4px) !important;
 }
+
+
+/* ============================================================================
+   AUTHORITATIVE ORDER CONFIRMATION OVERLAY — 2026-10-20
+============================================================================ */
+body.ttw-order-overlay-open{
+  overflow:hidden !important;
+}
+.ttw-order-progress-overlay{
+  position:fixed;
+  inset:0;
+  z-index:100000;
+  display:none;
+  place-items:center;
+  padding:24px;
+  overflow:auto;
+  background:rgba(245,245,239,.96);
+  backdrop-filter:blur(12px);
+}
+.ttw-order-progress-overlay.show{
+  display:grid !important;
+}
+.ttw-order-progress-dialog{
+  width:min(760px,100%);
+  border:1px solid rgba(17,19,17,.12);
+  border-radius:32px;
+  background:#fff;
+  box-shadow:0 32px 100px rgba(0,0,0,.16);
+  padding:clamp(26px,5vw,52px);
+}
+.ttw-order-progress-dialog h2{
+  margin:8px 0 14px;
+  font:800 clamp(34px,5vw,56px)/.98 Manrope,sans-serif;
+  letter-spacing:-.055em;
+}
+.ttw-order-progress-dialog > p{
+  color:var(--muted);
+  line-height:1.55;
+}
+.ttw-order-progress-mark{
+  width:58px;
+  height:58px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  margin-bottom:18px;
+  background:var(--accent,#d7ff3f);
+  color:#111311;
+  font-size:28px;
+  font-weight:950;
+}
+.ttw-order-progress-mark.error{
+  background:#ffe0dc;
+  color:#a62920;
+}
+.ttw-order-progress-steps{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  margin:24px 0;
+}
+.ttw-order-progress-steps span{
+  min-height:82px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:14px;
+  border:1px solid rgba(17,19,17,.10);
+  border-radius:18px;
+  font-weight:800;
+  line-height:1.25;
+}
+.ttw-order-progress-steps b{
+  width:30px;
+  height:30px;
+  flex:0 0 30px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:#eceee8;
+}
+.ttw-order-progress-steps .done{
+  background:#f4ffd1;
+  border-color:#d4ee7f;
+}
+.ttw-order-progress-steps .active{
+  background:#f6f6f3;
+}
+.ttw-order-progress-steps .error{
+  background:#fff2f0;
+  border-color:#efb9b2;
+  color:#9e2424;
+}
+.ttw-order-progress-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.ttw-order-sync-error{
+  margin-top:18px;
+  padding:14px 16px;
+  border:1px solid #efb9b2;
+  border-radius:16px;
+  background:#fff4f2;
+  color:#8e241d;
+  font-size:13px;
+  line-height:1.5;
+  overflow-wrap:anywhere;
+}
+@media(max-width:680px){
+  .ttw-order-progress-overlay{
+    padding:10px;
+    align-items:end;
+  }
+  .ttw-order-progress-dialog{
+    border-radius:26px;
+    padding:26px 20px;
+  }
+  .ttw-order-progress-steps{
+    grid-template-columns:1fr;
+  }
+  .ttw-order-progress-steps span{
+    min-height:58px;
+  }
+  .ttw-order-progress-actions{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  .ttw-order-progress-actions .button{
+    width:100%;
+    justify-content:center;
+  }
+}
