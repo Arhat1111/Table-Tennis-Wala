@@ -1,0 +1,19 @@
+TABLE TENNIS WALA — BANNER PATH QA
+Date: 20 October 2026
+
+Desktop banner paths restored to their original stable *.png filenames.
+The PNG files were compressed in-place, so Vercel/GitHub do not depend on newly introduced desktop banner paths.
+Mobile/tablet WebP sources remain enabled.
+
+PASS — STIGA desktop path restored
+PASS — STIGA desktop file exists
+PASS — STIGA mobile WebP exists
+PASS — STIGA tablet WebP exists
+PASS — All stable desktop PNGs restored
+PASS — No HTML uses desktop-webp path
+PASS — No missing local HTML refs
+PASS — Supabase preserved
+PASS — WhatsApp blank-page fix preserved
+PASS — Final service-card layout preserved
+PASS — Direct image performance normalizer preserved
+PASS — JavaScript syntax
