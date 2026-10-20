@@ -22267,6 +22267,18 @@ document.addEventListener("DOMContentLoaded", () => {
     return Array.isArray(rows) ? rows : [];
   }
 
+  function performanceImageProduct(product) {
+    if (!product) return product;
+    const optimized = { ...product };
+    const current = String(optimized.image || "");
+    const original = String(optimized.originalImage || "");
+    if (/^https:\/\/wsrv\.nl\//i.test(current) && /^https?:\/\//i.test(original)) {
+      optimized.proxyImage = current;
+      optimized.image = original;
+    }
+    return optimized;
+  }
+
   function canonicalProducts() {
     // Supabase/admin rows may override a built-in product only when the exact product ID matches.
     // This prevents a name/image belonging to one item from ever being applied to another item.
@@ -22279,9 +22291,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const result = seed.map(base => {
       const override = cloudById.get(String(base.id));
-      if (!override) return base;
+      if (!override) return performanceImageProduct(base);
       cloudById.delete(String(base.id));
-      return { ...base, ...override, id: base.id };
+      return performanceImageProduct({ ...base, ...override, id: base.id });
     });
 
     const ids = new Set(result.map(p => String(p.id)));
@@ -22293,7 +22305,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const id = String(product.id);
       const key = keyOf(product);
       if (ids.has(id) || keys.has(key)) return;
-      ids.add(id); keys.add(key); result.push(product);
+      ids.add(id); keys.add(key); result.push(performanceImageProduct(product));
     });
     return result;
   }
@@ -22330,8 +22342,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   function imageMarkup(product) {
     const src = product?.image || product?.originalImage || product?.fallbackImage || "assets/banners/home-poster.webp";
+    const proxy = product?.proxyImage || "";
     const fallback = product?.fallbackImage || "assets/banners/home-poster.webp";
-    return `<img src="${html(src)}" alt="${html(product?.name || "Table tennis product")}" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-canonical-product-image="${html(product?.id || "")}" onerror="if(!this.dataset.fallbackTried){this.dataset.fallbackTried='1';this.src='${html(fallback)}';}else{this.onerror=null;this.src='assets/banners/home-poster.webp';}">`;
+    const errorHandler = proxy
+      ? `if(!this.dataset.proxyTried){this.dataset.proxyTried='1';this.src='${html(proxy)}';}else if(!this.dataset.fallbackTried){this.dataset.fallbackTried='1';this.src='${html(fallback)}';}else{this.onerror=null;this.src='assets/banners/home-poster.webp';}`
+      : `if(!this.dataset.fallbackTried){this.dataset.fallbackTried='1';this.src='${html(fallback)}';}else{this.onerror=null;this.src='assets/banners/home-poster.webp';}`;
+    return `<img src="${html(src)}" alt="${html(product?.name || "Table tennis product")}" width="900" height="900" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" data-canonical-product-image="${html(product?.id || "")}" onerror="${errorHandler}">`;
   }
   function colourLine(product) {
     const colors = Array.isArray(product?.availableColors) ? product.availableColors.filter(Boolean) : [];
@@ -23137,4 +23153,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Intentionally no redirect. The checkout page remains visible and useful.
   }, true);
+})();
+
+
+
+/* FINAL IMAGE PRIORITY PASS — visible detail image loads before lazy catalogue images. */
+(function () {
+  function prioritizeDetailImage() {
+    const img = document.querySelector("#productDetail .product-detail-media img");
+    if (!img) return;
+    img.loading = "eager";
+    img.fetchPriority = "high";
+    img.decoding = "async";
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    [0,120,450].forEach(ms => setTimeout(prioritizeDetailImage, ms));
+  });
 })();
