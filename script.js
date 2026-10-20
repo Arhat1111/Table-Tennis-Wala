@@ -15447,13 +15447,16 @@ function setAdminVisibility(isLoggedIn) {
 
 
 /* ============================================================================
-   ROBUST WHATSAPP ORDER FLOW — 2026-10-21
-   - Cart clears immediately after order placement.
-   - Orders are queued locally until Supabase confirms them.
-   - Queue retries automatically on page load and when connection returns.
+   FINAL WHATSAPP ORDER FLOW — 2026-10-21
+   Sequence:
+   1. Save order to Supabase.
+   2. Clear cart only after Supabase confirms.
+   3. Open WhatsApp.
+   4. Show confirmation only when the customer returns to this website.
 ============================================================================ */
 (function () {
-  const PENDING_QUEUE_KEY = "ttw-pending-order-queue";
+  const RETURN_KEY = "ttw-whatsapp-return-confirmation";
+  const LOCAL_BACKUP_KEY = "ttw-last-order";
 
   function ensureConfirmation() {
     let overlay = document.getElementById("ttwOrderConfirmation");
@@ -15474,7 +15477,7 @@ function setAdminVisibility(isLoggedIn) {
       <div class="ttw-simple-order-card">
         <div class="ttw-simple-order-check">✓</div>
         <h2>Your order has been placed through WhatsApp.</h2>
-        <p>Order ID: <strong>${String(order.orderId || "")}</strong></p>
+        <p>Order ID: <strong>${String(order?.orderId || "")}</strong></p>
         <div class="ttw-simple-order-actions">
           <a class="button primary" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
           <a class="button ghost" href="index.html">Continue shopping</a>
@@ -15484,78 +15487,84 @@ function setAdminVisibility(isLoggedIn) {
     document.body.classList.add("ttw-simple-order-open");
   }
 
-  function readQueue() {
+  function hideConfirmation() {
+    document.getElementById("ttwOrderConfirmation")?.classList.remove("show");
+    document.body.classList.remove("ttw-simple-order-open");
+  }
+
+  function saveLocalBackup(order) {
     try {
-      const parsed = JSON.parse(localStorage.getItem(PENDING_QUEUE_KEY) || "[]");
-      return Array.isArray(parsed) ? parsed : [];
+      localStorage.setItem(LOCAL_BACKUP_KEY, JSON.stringify(order));
+    } catch (_) {}
+  }
+
+  function clearCartAfterSave() {
+    state.cart = [];
+    saveCart();
+    renderCart();
+    document.querySelectorAll(".cart-count").forEach(el => { el.textContent = "0"; });
+    document.body.classList.remove("cart-open", "locked", "ttw-cart-drawer-open");
+    document.querySelector(".cart-drawer")?.classList.remove("open");
+    document.querySelector(".page-backdrop")?.classList.remove("open");
+    document.querySelector(".cart-overlay")?.classList.remove("open");
+  }
+
+  function storeReturnConfirmation(order, whatsappUrl) {
+    try {
+      sessionStorage.setItem(RETURN_KEY, JSON.stringify({
+        order,
+        whatsappUrl,
+        createdAt: Date.now()
+      }));
+    } catch (_) {}
+  }
+
+  function readReturnConfirmation() {
+    try {
+      return JSON.parse(sessionStorage.getItem(RETURN_KEY) || "null");
     } catch (_) {
-      return [];
+      return null;
     }
   }
 
-  function writeQueue(queue) {
-    try {
-      localStorage.setItem(PENDING_QUEUE_KEY, JSON.stringify(queue));
-    } catch (_) {}
+  function consumeReturnConfirmation() {
+    const pending = readReturnConfirmation();
+    if (!pending?.order || !pending?.whatsappUrl) return false;
+    try { sessionStorage.removeItem(RETURN_KEY); } catch (_) {}
+    showConfirmation(pending.order, pending.whatsappUrl);
+    return true;
   }
 
-  function queueOrder(order) {
-    const queue = readQueue();
-    const id = String(order?.orderId || "");
-    if (!id) return;
-    const next = queue.filter(item => String(item?.orderId || "") !== id);
-    next.push(order);
-    writeQueue(next);
+  function installReturnWatcher() {
+    let leftWebsite = false;
 
-    try {
-      localStorage.setItem("ttw-last-order", JSON.stringify(order));
-    } catch (_) {}
+    const markLeft = () => {
+      leftWebsite = true;
+    };
+
+    const maybeConfirm = () => {
+      if (!leftWebsite) return;
+      if (document.visibilityState && document.visibilityState !== "visible") return;
+      setTimeout(() => consumeReturnConfirmation(), 120);
+    };
+
+    window.addEventListener("blur", markLeft, { once: true });
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") leftWebsite = true;
+      if (document.visibilityState === "visible") maybeConfirm();
+    });
+    window.addEventListener("focus", maybeConfirm);
   }
 
-  function removeQueuedOrder(orderId) {
-    const id = String(orderId || "");
-    if (!id) return;
-    writeQueue(readQueue().filter(item => String(item?.orderId || "") !== id));
-  }
-
-  function clearCartImmediately() {
-    try {
-      state.cart = [];
-      saveCart();
-      renderCart();
-      document.querySelectorAll(".cart-count").forEach(el => { el.textContent = "0"; });
-      document.body.classList.remove("cart-open");
-      document.querySelector(".cart-drawer")?.classList.remove("open");
-      document.querySelector(".cart-overlay")?.classList.remove("open");
-    } catch (error) {
-      console.warn("Cart cleanup failed", error);
+  async function saveOrderToSupabase(order) {
+    if (!window.ttwCloudSync?.saveOrder) {
+      throw new Error("Order service unavailable");
     }
+    return window.ttwCloudSync.saveOrder(order);
   }
 
-  async function syncOneOrder(order) {
-    if (!order || !window.ttwCloudSync?.saveOrder) return false;
-    try {
-      await window.ttwCloudSync.saveOrder(order);
-      removeQueuedOrder(order.orderId);
-      return true;
-    } catch (error) {
-      console.error("Pending order sync failed", error);
-      return false;
-    }
-  }
-
-  async function flushPendingOrders() {
-    if (!window.ttwCloudSync?.saveOrder) return;
-    const queue = readQueue();
-    if (!queue.length) return;
-
-    for (const order of queue) {
-      await syncOneOrder(order);
-    }
-  }
-
-  // Runs before old form listeners.
-  window.addEventListener("submit", event => {
+  // Capture-phase handler runs before every old form handler in this legacy file.
+  window.addEventListener("submit", async event => {
     const form = event.target;
     if (!(form instanceof HTMLFormElement) || form.id !== "checkoutForm") return;
 
@@ -15563,13 +15572,23 @@ function setAdminVisibility(isLoggedIn) {
     event.stopPropagation();
     event.stopImmediatePropagation();
 
-    if (form.dataset.ttwOrderBusy === "1") return;
+    if (form.dataset.ttwFinalOrderSubmitting === "1") return;
+
     if (!Array.isArray(state?.cart) || !state.cart.length) {
       showToast("Your cart is empty");
       return;
     }
 
-    form.dataset.ttwOrderBusy = "1";
+    form.dataset.ttwFinalOrderSubmitting = "1";
+    hideConfirmation();
+
+    const submitButton = form.querySelector('button[type="submit"]');
+    const originalLabel = submitButton?.textContent || "Place order on WhatsApp";
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Saving order…";
+    }
 
     const customer = Object.fromEntries(new FormData(form).entries());
     const amount = getCartTotal();
@@ -15584,54 +15603,65 @@ function setAdminVisibility(isLoggedIn) {
     };
 
     const whatsappUrl = buildWhatsAppOrderUrl(order);
+    saveLocalBackup(order);
 
-    // Persist first, then clear the cart immediately.
-    queueOrder(order);
-    clearCartImmediately();
-
-    // Customer sees only the simple requested confirmation.
-    showConfirmation(order, whatsappUrl);
-
+    // Open a blank tab synchronously so browsers do not block WhatsApp after
+    // the awaited Supabase save. The tab is navigated only after save succeeds.
+    let whatsappWindow = null;
     try {
-      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+      whatsappWindow = window.open("about:blank", "_blank");
+      if (whatsappWindow) {
+        try {
+          whatsappWindow.document.title = "Opening WhatsApp…";
+          whatsappWindow.document.body.innerHTML = '<p style="font-family:Arial,sans-serif;padding:24px">Preparing your WhatsApp order…</p>';
+        } catch (_) {}
+      }
     } catch (_) {}
 
-    // Try Supabase immediately, but keep retrying later if network/backend is unavailable.
-    syncOneOrder(order).finally(() => {
-      form.dataset.ttwOrderBusy = "0";
-    });
+    try {
+      await saveOrderToSupabase(order);
+
+      // Supabase now contains the order. Only now clear cart and open WhatsApp.
+      clearCartAfterSave();
+      storeReturnConfirmation(order, whatsappUrl);
+      installReturnWatcher();
+
+      if (whatsappWindow && !whatsappWindow.closed) {
+        whatsappWindow.location.replace(whatsappUrl);
+        try { whatsappWindow.focus(); } catch (_) {}
+      } else {
+        // Popup blocked: navigate this tab to WhatsApp. The confirmation will
+        // appear when the customer returns using Back/app switch.
+        window.location.href = whatsappUrl;
+      }
+    } catch (error) {
+      console.error("Order save failed", error);
+      try { whatsappWindow?.close(); } catch (_) {}
+
+      // Do not clear the cart and do not show a false order confirmation.
+      showToast("Could not place the order. Please try again.");
+    } finally {
+      form.dataset.ttwFinalOrderSubmitting = "0";
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = originalLabel;
+      }
+    }
   }, true);
 
-  document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(flushPendingOrders, 800);
-    setTimeout(flushPendingOrders, 3000);
-  });
-
-  window.addEventListener("online", () => {
-    flushPendingOrders();
-  });
-
+  // Same-tab WhatsApp/app navigation returns through browser history/pageshow.
   window.addEventListener("pageshow", () => {
-    flushPendingOrders();
-
     if (document.body?.dataset?.page !== "checkout") return;
+    const pending = readReturnConfirmation();
+    if (!pending) return;
 
-    let order = null;
-    try {
-      order = JSON.parse(localStorage.getItem("ttw-last-order") || "null");
-    } catch (_) {}
-
-    if (order) {
-      showConfirmation(order, buildWhatsAppOrderUrl(order));
+    // A tiny delay prevents the confirmation from flashing during the original submit.
+    if (Date.now() - Number(pending.createdAt || 0) > 500) {
+      consumeReturnConfirmation();
     }
   });
 
-  // Give the admin page one more chance to flush orders created in this browser.
-  if (document.body?.dataset?.page === "admin") {
-    setTimeout(flushPendingOrders, 1500);
-  }
-
-  window.ttwFlushPendingOrders = flushPendingOrders;
+  window.ttwShowPendingWhatsAppConfirmation = consumeReturnConfirmation;
 })();
 
 
@@ -19793,12 +19823,23 @@ document.addEventListener("DOMContentLoaded", () => {
     URL.revokeObjectURL(url);
   }
 
-  window.openAdminPanel = function(panel) {
+  window.openAdminPanel = async function(panel) {
     const sidebarButton = document.querySelector(`.admin-pro-tab[data-admin-panel="${panel}"]`);
     document.querySelectorAll(".admin-pro-tab[data-admin-panel]").forEach(item => item.classList.toggle("active", item === sidebarButton));
     document.querySelectorAll("[data-admin-panel-view]").forEach(view => view.classList.toggle("active", view.dataset.adminPanelView === panel));
+
+    if (panel === "orders") {
+      try {
+        await window.ttwCloudSync?.pullOrders?.();
+      } catch (error) {
+        console.error("Order refresh failed", error);
+        if (typeof showToast === "function") showToast("Could not refresh orders from Supabase");
+      }
+    }
+
     renderAdminDashboard();
     renderAdminOrders();
+
     if (window.innerWidth < 981) {
       document.querySelector(".admin-pro-main")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }
