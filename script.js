@@ -19821,8 +19821,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function bindOrderAdmin() {
     document.getElementById("refreshOrders")?.addEventListener("click", async () => {
-      try { await window.ttwCloudSync?.pullOrders?.(); } catch (error) { if (typeof showToast === "function") showToast(error.message || "Order refresh failed"); }
-      renderAdminOrders();
+      try {
+        await window.ttwCloudSync?.pullOrders?.();
+        renderAdminOrders();
+      } catch (error) {
+        const list = document.getElementById("adminOrdersList");
+        if (list) {
+          list.innerHTML = `<div class="admin-empty-card admin-order-sync-error"><h3>Orders could not be loaded</h3><p>${String(error?.message || "Order refresh failed").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]))}</p><p>Check that this login exists in <strong>ttw_admins</strong>, then click Refresh again.</p></div>`;
+        }
+        if (typeof showToast === "function") showToast(error.message || "Order refresh failed");
+      }
     });
     document.getElementById("refreshAdminDashboard")?.addEventListener("click", async () => {
       try { await window.ttwCloudSync?.pullAdminData?.(); } catch (error) {}
@@ -21596,10 +21604,46 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!sb) return [];
     const session = await getSession();
     if (!session?.user) return [];
-    const { data, error } = await sb.from(TABLES.orders).select("order_id,data,created_at,updated_at").eq("site_id", SITE_ID).order("created_at", { ascending: true });
-    if (error) throw error;
-    const orders = (data || []).map(row => ({ orderId: row.order_id, ...(row.data || {}), date: row.data?.date || row.created_at }));
+
+    let rows = null;
+
+    // Preferred admin-read path. Unlike a normal RLS SELECT, this RPC gives an
+    // explicit authorization error instead of silently returning zero rows.
+    const { data: rpcRows, error: rpcError } = await sb.rpc("ttw_admin_list_orders", {
+      p_site_id: SITE_ID
+    });
+
+    if (!rpcError) {
+      rows = rpcRows || [];
+    } else {
+      // Backward-compatible fallback while the admin read RPC is being installed.
+      const { data, error } = await sb
+        .from(TABLES.orders)
+        .select("order_id,data,created_at,updated_at")
+        .eq("site_id", SITE_ID)
+        .order("created_at", { ascending: true });
+
+      if (error) {
+        throw new Error(`Admin order read failed — RPC: ${rpcError.message || rpcError.code || "unavailable"} — SELECT: ${error.message || error.code || "rejected"}`);
+      }
+
+      rows = data || [];
+
+      // RLS can return an empty array instead of an error when the authenticated
+      // user is not allowed to read orders. Make that state visible to the admin.
+      if (!rows.length && /not authorized|permission|admin/i.test(String(rpcError.message || ""))) {
+        throw new Error(rpcError.message || "This Supabase user is not registered in ttw_admins.");
+      }
+    }
+
+    const orders = rows.map(row => ({
+      orderId: row.order_id,
+      ...(row.data || {}),
+      date: row.data?.date || row.created_at
+    }));
+
     setLocal(ORDER_KEY, orders);
+    status("connected", `${orders.length} order${orders.length === 1 ? "" : "s"} loaded from Supabase`);
     return orders;
   }
 
