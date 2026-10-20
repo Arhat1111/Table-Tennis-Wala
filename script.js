@@ -15569,6 +15569,7 @@ function initAdminProductForm() {
     features: document.getElementById("adminFeatures"),
     preview: document.getElementById("adminImagePreview")
   };
+  const saveButton = form.querySelector('button[type="submit"]');
 
   const updateAdminDiscountPreview = () => {
     const mrp = Number(fields.mrp?.value || 0);
@@ -15628,7 +15629,7 @@ function initAdminProductForm() {
     }
   });
 
-  form.addEventListener("submit", event => {
+  form.addEventListener("submit", async event => {
     event.preventDefault();
     const products = getAdminProducts();
     const wasEditing = Boolean(fields.id.value);
@@ -15669,15 +15670,40 @@ function initAdminProductForm() {
       adminSource: seedMatch ? "core" : (base.adminSource || "custom"),
       updatedFromAdmin: true
     };
-    if (index >= 0) products[index] = product;
-    else products.push(product);
-    saveAdminProducts(products);
-    resetAdminForm();
-    renderAdminProducts();
-    renderHomeProducts();
-    renderBrandProducts();
-    showToast("Product saved and connected to website");
-    if (wasEditing) window.openAdminPanel?.("manage-products");
+    const originalButtonText = saveButton?.textContent || "Save product";
+    try {
+      if (!window.ttwCloudSync?.isConfigured?.()) {
+        throw new Error("Supabase is not configured. Product was not saved.");
+      }
+      const session = await window.ttwCloudSync.getSession();
+      if (!session?.user) {
+        throw new Error("Admin session expired. Please log in again.");
+      }
+
+      if (saveButton) {
+        saveButton.disabled = true;
+        saveButton.textContent = "Saving to Supabase…";
+      }
+
+      await window.ttwCloudSync.saveProduct(product);
+      await window.ttwCloudSync.pullProducts();
+
+      resetAdminForm();
+      renderAdminProducts();
+      renderHomeProducts();
+      renderBrandProducts();
+      showToast("Saved to Supabase. Website pricing is now updated.");
+      if (wasEditing) window.openAdminPanel?.("manage-products");
+    } catch (error) {
+      console.error("Supabase product save failed", error);
+      showToast(error?.message || "Product could not be saved to Supabase");
+      return;
+    } finally {
+      if (saveButton) {
+        saveButton.disabled = false;
+        saveButton.textContent = originalButtonText;
+      }
+    }
   });
 
   document.getElementById("resetAdminForm")?.addEventListener("click", resetAdminForm);
@@ -15740,18 +15766,28 @@ function initAdminProductForm() {
     requestAnimationFrame(() => form.scrollIntoView({ behavior: "smooth", block: "start" }));
   };
 
-  window.deleteAdminProduct = id => {
+  window.deleteAdminProduct = async id => {
     const seedIds = getSeedProductIds();
     if (seedIds.has(String(id))) {
       showToast("Core catalogue products are protected. Edit the product instead.");
       return;
     }
     if (!confirm("Remove this custom product from the website?")) return;
-    saveAdminProducts(getAdminProducts().filter(item => String(item.id) !== String(id)));
-    renderAdminProducts();
-    renderHomeProducts();
-    renderBrandProducts();
-    showToast("Custom product removed");
+
+    try {
+      if (!window.ttwCloudSync?.isConfigured?.()) throw new Error("Supabase is not configured");
+      const session = await window.ttwCloudSync.getSession();
+      if (!session?.user) throw new Error("Admin session expired. Please log in again.");
+      await window.ttwCloudSync.deleteProduct(id);
+      await window.ttwCloudSync.pullProducts();
+      renderAdminProducts();
+      renderHomeProducts();
+      renderBrandProducts();
+      showToast("Product deleted from Supabase and removed from the website");
+    } catch (error) {
+      console.error("Supabase product delete failed", error);
+      showToast(error?.message || "Product could not be deleted");
+    }
   };
 
   function resetAdminForm() {
@@ -21211,6 +21247,46 @@ document.addEventListener("DOMContentLoaded", () => {
     return products;
   }
 
+  async function saveProduct(product) {
+    const sb = ensureClient();
+    if (!sb) throw new Error("Supabase is not configured");
+    const session = await getSession();
+    if (!session?.user) throw new Error("Please sign in as admin before saving products.");
+
+    const clean = await uploadProductImage(product);
+    const id = productId(clean);
+    const payload = { ...clean, id };
+    const { error } = await sb.from(TABLES.products).upsert({
+      site_id: SITE_ID,
+      id,
+      data: payload,
+      updated_at: new Date().toISOString()
+    }, { onConflict: "site_id,id" });
+    if (error) throw error;
+
+    status("connected", `${payload.name || id} saved to Supabase`);
+    return payload;
+  }
+
+  async function deleteProduct(id) {
+    const sb = ensureClient();
+    if (!sb) throw new Error("Supabase is not configured");
+    const session = await getSession();
+    if (!session?.user) throw new Error("Please sign in as admin before deleting products.");
+    const productIdValue = String(id || "");
+    if (!productIdValue) throw new Error("Product ID is missing");
+
+    const { error } = await sb
+      .from(TABLES.products)
+      .delete()
+      .eq("site_id", SITE_ID)
+      .eq("id", productIdValue);
+    if (error) throw error;
+
+    status("connected", `Product ${productIdValue} deleted from Supabase`);
+    return true;
+  }
+
   async function syncProductsToCloud(products) {
     const sb = ensureClient();
     if (!sb) return;
@@ -21232,14 +21308,8 @@ document.addEventListener("DOMContentLoaded", () => {
       if (error) throw error;
     }
 
-    const { data: existing, error: existingError } = await sb.from(TABLES.products).select("id").eq("site_id", SITE_ID);
-    if (existingError) throw existingError;
-    const incoming = new Set(rows.map(row => row.id));
-    const removeIds = (existing || []).map(row => row.id).filter(id => !incoming.has(id));
-    if (removeIds.length) {
-      const { error } = await sb.from(TABLES.products).delete().eq("site_id", SITE_ID).in("id", removeIds);
-      if (error) throw error;
-    }
+    // Production safety: bulk sync is UPSERT-only.
+    // A stale browser must never delete cloud products just because its local list is incomplete.
     setLocal(PRODUCT_KEY, clean);
     status("connected", "Products synced with Supabase");
   }
@@ -21426,10 +21496,8 @@ document.addEventListener("DOMContentLoaded", () => {
         ${configReady ? `<small>Site ID: ${SITE_ID}</small>` : `<small>Files: /supabase-config.js + /supabase-setup.sql</small>`}
       </div>
       <div class="cloud-sync-actions">
-        <button type="button" class="button small" id="cloudSeedCatalogue">Initialize catalogue in Supabase</button>
-        <button type="button" class="button small ghost" id="cloudForcePush">Migrate browser data</button>
-        <button type="button" class="button small ghost" id="cloudForcePull">Pull Supabase data</button>
-        <a class="button small ghost" href="SUPABASE_SETUP.md" target="_blank" rel="noopener">Setup guide</a>
+        <button type="button" class="button small" id="cloudForcePull">Refresh Supabase data</button>
+        <span class="client-cloud-note">Products, pricing, images and orders are synced through Supabase.</span>
       </div>
     `;
     document.getElementById("cloudSeedCatalogue")?.addEventListener("click", async () => {
@@ -21505,6 +21573,8 @@ document.addEventListener("DOMContentLoaded", () => {
     getSession,
     signIn,
     signOut,
+    saveProduct,
+    deleteProduct,
     saveOrder,
     updateOrder,
     clearOrders,

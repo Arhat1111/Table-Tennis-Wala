@@ -18353,3 +18353,25 @@ section,
     grid-template-columns: 1fr !important;
   }
 }
+
+
+/* CLIENT HANDOFF — SUPABASE PRODUCTION CONNECTION */
+.client-cloud-note{
+  display:inline-flex;
+  align-items:center;
+  max-width:320px;
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.45;
+  font-weight:700;
+}
+#productAdminForm button[type="submit"]:disabled{
+  opacity:.65;
+  cursor:wait;
+  transform:none !important;
+}
+.admin-note strong{color:var(--ink)}
+@media(max-width:700px){
+  .cloud-sync-actions{align-items:stretch !important}
+  .client-cloud-note{max-width:none}
+}
