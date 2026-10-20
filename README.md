@@ -44,3 +44,8 @@ The client can update:
 - Product details
 
 from the admin panel. Product edits are saved directly to Supabase and then reflected on the storefront.
+
+
+## Final storefront fixes (20 Oct 2026)
+
+Includes non-overlapping home action cards, explicit add-to-cart confirmation, cart/WhatsApp collision prevention, and an authoritative no-redirect WhatsApp checkout success screen.

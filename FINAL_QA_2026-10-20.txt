@@ -1,0 +1,13 @@
+TABLE TENNIS WALA — FINAL UI QA
+Date: 20 October 2026
+
+PASS — JavaScript syntax
+PASS — Homepage service copy is above visuals and CTA stays inside card
+PASS — Add-to-cart creates visible confirmation banner and button state
+PASS — Floating WhatsApp is hidden while cart drawer is open
+PASS — Floating WhatsApp is hidden on checkout page
+PASS — Checkout submit is captured before legacy handlers
+PASS — WhatsApp checkout does not redirect and keeps a visible success screen
+PASS — Supabase production URL/publishable key preserved
+PASS — No Supabase secret key in browser code
+PASS — 0 missing local HTML references

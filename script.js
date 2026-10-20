@@ -22945,3 +22945,196 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   document.addEventListener("ttw:cloud-products-updated", () => setTimeout(renderSuggested, 100));
 })();
+
+
+/* ============================================================================
+   FINAL LIVE UI/UX SAFETY FIX — 2026-10-20
+   Authoritative last-layer fixes for cart feedback, cart/WhatsApp stacking,
+   and WhatsApp checkout. This block intentionally runs after all legacy logic.
+============================================================================ */
+(function () {
+  /* ---------- Clear add-to-cart feedback ---------- */
+  const baseAddToCart = typeof addToCart === "function" ? addToCart : null;
+
+  function cartFeedback(product) {
+    const id = String(product?.id || product?.productId || "");
+    const name = String(product?.name || "Product");
+
+    let banner = document.querySelector(".ttw-cart-added-feedback");
+    if (!banner) {
+      banner = document.createElement("div");
+      banner.className = "ttw-cart-added-feedback";
+      banner.setAttribute("role", "status");
+      banner.setAttribute("aria-live", "polite");
+      document.body.appendChild(banner);
+    }
+    banner.innerHTML = `<span class="ttw-cart-feedback-check">✓</span><div><strong>Added to cart</strong><small>${name}</small></div><button type="button" data-feedback-open-cart>View cart</button>`;
+    banner.classList.remove("show");
+    requestAnimationFrame(() => banner.classList.add("show"));
+    clearTimeout(window.__ttwCartFeedbackTimer);
+    window.__ttwCartFeedbackTimer = setTimeout(() => banner.classList.remove("show"), 3200);
+
+    if (id) {
+      document.querySelectorAll(`[data-add-product="${CSS.escape(id)}"]`).forEach(button => {
+        if (button.disabled) return;
+        const previous = button.dataset.originalAddLabel || button.textContent.trim() || "Add to cart";
+        button.dataset.originalAddLabel = previous;
+        button.classList.add("ttw-added-state");
+        button.textContent = "Added ✓";
+        clearTimeout(button.__ttwAddedTimer);
+        button.__ttwAddedTimer = setTimeout(() => {
+          button.classList.remove("ttw-added-state");
+          button.textContent = button.dataset.originalAddLabel || "Add to cart";
+        }, 1800);
+      });
+    }
+
+    document.querySelectorAll(".cart-trigger,.cart-toggle").forEach(el => {
+      el.classList.remove("ttw-cart-pulse");
+      void el.offsetWidth;
+      el.classList.add("ttw-cart-pulse");
+      setTimeout(() => el.classList.remove("ttw-cart-pulse"), 850);
+    });
+  }
+
+  if (baseAddToCart && !baseAddToCart.__ttwFinalFeedbackWrapped) {
+    const enhancedAddToCart = function(product) {
+      const result = baseAddToCart(product);
+      cartFeedback(product);
+      return result;
+    };
+    enhancedAddToCart.__ttwFinalFeedbackWrapped = true;
+    try { addToCart = enhancedAddToCart; } catch (_) {}
+    window.addToCart = enhancedAddToCart;
+  }
+
+  document.addEventListener("click", event => {
+    const viewCart = event.target.closest("[data-feedback-open-cart]");
+    if (!viewCart) return;
+    event.preventDefault();
+    document.querySelector(".ttw-cart-added-feedback")?.classList.remove("show");
+    try { if (typeof openCart === "function") openCart(); } catch (_) {}
+    document.querySelector(".cart-drawer")?.classList.add("open");
+    document.querySelector(".page-backdrop")?.classList.add("open");
+    document.body.classList.add("locked");
+  });
+
+  /* ---------- Cart drawer / floating WhatsApp collision ---------- */
+  function syncCartDrawerState() {
+    const drawer = document.querySelector(".cart-drawer");
+    document.body.classList.toggle("ttw-cart-drawer-open", Boolean(drawer?.classList.contains("open")));
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const drawer = document.querySelector(".cart-drawer");
+    syncCartDrawerState();
+    if (drawer) new MutationObserver(syncCartDrawerState).observe(drawer, { attributes: true, attributeFilter: ["class"] });
+  });
+  document.addEventListener("click", () => setTimeout(syncCartDrawerState, 0), true);
+
+  /* ---------- Single authoritative WhatsApp checkout ---------- */
+  function safeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, ch => ({
+      "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+    }[ch]));
+  }
+
+  function finalOrderScreen(order, whatsappUrl, cloudState) {
+    const success = document.getElementById("orderSuccess");
+    if (!success) return;
+
+    const checkoutLayout = document.querySelector(".checkout-layout");
+    if (checkoutLayout) checkoutLayout.hidden = true;
+    success.hidden = false;
+    success.classList.add("ttw-final-order-success");
+    success.innerHTML = `
+      <div class="order-success-card ttw-final-whatsapp-card">
+        <div class="ttw-final-order-icon">✓</div>
+        <span class="eyebrow">WhatsApp order</span>
+        <h2>Your order is being placed through WhatsApp.</h2>
+        <p>Your order <strong>${safeHtml(order.orderId)}</strong> has been prepared${cloudState === "saved" ? " and saved to the store dashboard" : ""}. Send the prepared WhatsApp message to complete your order request.</p>
+        <div class="ttw-final-order-steps">
+          <span class="done"><b>1</b> Order prepared</span>
+          <span class="${cloudState === "saved" ? "done" : "active"}"><b>2</b> Saved to admin</span>
+          <span class="active"><b>3</b> Send on WhatsApp</span>
+        </div>
+        <div class="ttw-final-order-actions">
+          <a class="button primary" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
+          <a class="button ghost" href="index.html">Continue shopping</a>
+        </div>
+        <p class="checkout-note">This page will stay open. If WhatsApp does not open automatically, use the Open WhatsApp button above.</p>
+      </div>`;
+    success.scrollIntoView({behavior:"smooth", block:"start"});
+  }
+
+  // Window capture runs before form-level legacy listeners, so older redirect handlers cannot fire.
+  window.addEventListener("submit", event => {
+    const form = event.target;
+    if (!(form instanceof HTMLFormElement) || form.id !== "checkoutForm") return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+
+    if (form.dataset.ttwFinalSubmitting === "true") return;
+    if (!Array.isArray(state?.cart) || !state.cart.length) {
+      if (typeof showToast === "function") showToast("Your cart is empty");
+      return;
+    }
+
+    form.dataset.ttwFinalSubmitting = "true";
+    const submit = form.querySelector('button[type="submit"]');
+    const oldLabel = submit?.textContent || "Place order on WhatsApp";
+    if (submit) {
+      submit.disabled = true;
+      submit.textContent = "Preparing WhatsApp order…";
+    }
+
+    const customer = Object.fromEntries(new FormData(form).entries());
+    const amount = typeof getCartTotal === "function" ? getCartTotal() : 0;
+    const draft = createOrderObject(customer, amount);
+    const order = {
+      ...draft,
+      paymentId: `WHATSAPP-PENDING-${Date.now()}`,
+      paymentMode: "WhatsApp order - QR payment pending",
+      paymentStatus: "Pending QR payment",
+      orderChannel: "WhatsApp",
+      status: "New WhatsApp order",
+      customerWhatsAppStatus: "Updates pending"
+    };
+    const whatsappUrl = buildWhatsAppOrderUrl(order);
+
+    // Render a non-blank state before opening any external app/tab.
+    finalOrderScreen(order, whatsappUrl, "saving");
+
+    try { window.open(whatsappUrl, "_blank", "noopener,noreferrer"); } catch (_) {}
+
+    let savePromise;
+    try {
+      savePromise = completeOrder(order);
+    } catch (error) {
+      console.error("Order save failed", error);
+      savePromise = Promise.reject(error);
+    }
+
+    // completeOrder has legacy rendering side effects; immediately restore the authoritative screen.
+    finalOrderScreen(order, whatsappUrl, "saving");
+
+    Promise.resolve(savePromise).then(() => {
+      finalOrderScreen(order, whatsappUrl, "saved");
+      if (typeof showToast === "function") showToast("Order saved. Complete it in WhatsApp.");
+    }).catch(error => {
+      console.error("Supabase order save failed", error);
+      finalOrderScreen(order, whatsappUrl, "saving");
+      if (typeof showToast === "function") showToast("WhatsApp is ready. Please keep this page open and contact the store if the order does not appear.");
+    }).finally(() => {
+      form.dataset.ttwFinalSubmitting = "false";
+      if (submit) {
+        submit.disabled = false;
+        submit.textContent = oldLabel;
+      }
+    });
+
+    // Intentionally no redirect. The checkout page remains visible and useful.
+  }, true);
+})();
