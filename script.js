@@ -15447,10 +15447,14 @@ function setAdminVisibility(isLoggedIn) {
 
 
 /* ============================================================================
-   SIMPLE WHATSAPP ORDER FLOW — 2026-10-20
-   Customer sees only a clean confirmation. Supabase sync happens silently.
+   ROBUST WHATSAPP ORDER FLOW — 2026-10-21
+   - Cart clears immediately after order placement.
+   - Orders are queued locally until Supabase confirms them.
+   - Queue retries automatically on page load and when connection returns.
 ============================================================================ */
 (function () {
+  const PENDING_QUEUE_KEY = "ttw-pending-order-queue";
+
   function ensureConfirmation() {
     let overlay = document.getElementById("ttwOrderConfirmation");
     if (overlay) return overlay;
@@ -15480,44 +15484,73 @@ function setAdminVisibility(isLoggedIn) {
     document.body.classList.add("ttw-simple-order-open");
   }
 
-  function backupOrder(order) {
+  function readQueue() {
     try {
-      const existing = JSON.parse(localStorage.getItem(STORAGE_ORDERS) || "[]");
-      const orders = Array.isArray(existing) ? existing : [];
-      if (!orders.some(item => String(item?.orderId) === String(order.orderId))) {
-        orders.push(order);
-      }
-      localStorage.setItem(STORAGE_ORDERS, JSON.stringify(orders));
-      localStorage.setItem("ttw-last-order", JSON.stringify(order));
-      localStorage.setItem("ttw-order-awaiting-cloud-save", String(order.orderId));
-    } catch (error) {
-      console.warn("Local order backup failed", error);
+      const parsed = JSON.parse(localStorage.getItem(PENDING_QUEUE_KEY) || "[]");
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (_) {
+      return [];
     }
   }
 
-  function clearCart() {
+  function writeQueue(queue) {
+    try {
+      localStorage.setItem(PENDING_QUEUE_KEY, JSON.stringify(queue));
+    } catch (_) {}
+  }
+
+  function queueOrder(order) {
+    const queue = readQueue();
+    const id = String(order?.orderId || "");
+    if (!id) return;
+    const next = queue.filter(item => String(item?.orderId || "") !== id);
+    next.push(order);
+    writeQueue(next);
+
+    try {
+      localStorage.setItem("ttw-last-order", JSON.stringify(order));
+    } catch (_) {}
+  }
+
+  function removeQueuedOrder(orderId) {
+    const id = String(orderId || "");
+    if (!id) return;
+    writeQueue(readQueue().filter(item => String(item?.orderId || "") !== id));
+  }
+
+  function clearCartImmediately() {
     try {
       state.cart = [];
       saveCart();
       renderCart();
       document.querySelectorAll(".cart-count").forEach(el => { el.textContent = "0"; });
-    } catch (error) {}
+      document.body.classList.remove("cart-open");
+      document.querySelector(".cart-drawer")?.classList.remove("open");
+      document.querySelector(".cart-overlay")?.classList.remove("open");
+    } catch (error) {
+      console.warn("Cart cleanup failed", error);
+    }
   }
 
-  async function syncOrderSilently(order) {
+  async function syncOneOrder(order) {
     if (!order || !window.ttwCloudSync?.saveOrder) return false;
     try {
       await window.ttwCloudSync.saveOrder(order);
-      localStorage.removeItem("ttw-order-awaiting-cloud-save");
-      localStorage.removeItem("ttw-last-order-sync-error");
-      clearCart();
+      removeQueuedOrder(order.orderId);
       return true;
     } catch (error) {
-      console.error("Background order sync failed", error);
-      try {
-        localStorage.setItem("ttw-last-order-sync-error", error?.message || String(error));
-      } catch (_) {}
+      console.error("Pending order sync failed", error);
       return false;
+    }
+  }
+
+  async function flushPendingOrders() {
+    if (!window.ttwCloudSync?.saveOrder) return;
+    const queue = readQueue();
+    if (!queue.length) return;
+
+    for (const order of queue) {
+      await syncOneOrder(order);
     }
   }
 
@@ -15552,41 +15585,35 @@ function setAdminVisibility(isLoggedIn) {
 
     const whatsappUrl = buildWhatsAppOrderUrl(order);
 
-    // Preserve locally first so an order is never lost if network is temporarily unavailable.
-    backupOrder(order);
+    // Persist first, then clear the cart immediately.
+    queueOrder(order);
+    clearCartImmediately();
 
-    // Customer sees the requested message immediately.
+    // Customer sees only the simple requested confirmation.
     showConfirmation(order, whatsappUrl);
 
-    // Open WhatsApp. The confirmation remains visible in this tab.
     try {
       window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-    } catch (error) {}
+    } catch (_) {}
 
-    // Sync to Supabase in the background.
-    syncOrderSilently(order).finally(() => {
+    // Try Supabase immediately, but keep retrying later if network/backend is unavailable.
+    syncOneOrder(order).finally(() => {
       form.dataset.ttwOrderBusy = "0";
     });
   }, true);
 
-  // Retry a previously preserved order automatically after a deploy/policy fix.
-  async function retryPendingOrder() {
-    let order = null;
-    try {
-      order = JSON.parse(localStorage.getItem("ttw-last-order") || "null");
-    } catch (_) {}
-
-    const pendingId = localStorage.getItem("ttw-order-awaiting-cloud-save");
-    if (!order || !pendingId || String(order.orderId) !== String(pendingId)) return;
-
-    await syncOrderSilently(order);
-  }
-
   document.addEventListener("DOMContentLoaded", () => {
-    setTimeout(retryPendingOrder, 900);
+    setTimeout(flushPendingOrders, 800);
+    setTimeout(flushPendingOrders, 3000);
+  });
+
+  window.addEventListener("online", () => {
+    flushPendingOrders();
   });
 
   window.addEventListener("pageshow", () => {
+    flushPendingOrders();
+
     if (document.body?.dataset?.page !== "checkout") return;
 
     let order = null;
@@ -15594,11 +15621,17 @@ function setAdminVisibility(isLoggedIn) {
       order = JSON.parse(localStorage.getItem("ttw-last-order") || "null");
     } catch (_) {}
 
-    if (order && localStorage.getItem("ttw-order-awaiting-cloud-save")) {
+    if (order) {
       showConfirmation(order, buildWhatsAppOrderUrl(order));
-      retryPendingOrder();
     }
   });
+
+  // Give the admin page one more chance to flush orders created in this browser.
+  if (document.body?.dataset?.page === "admin") {
+    setTimeout(flushPendingOrders, 1500);
+  }
+
+  window.ttwFlushPendingOrders = flushPendingOrders;
 })();
 
 
